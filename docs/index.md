@@ -1,5 +1,8 @@
-<div>
+---
+layout: default
+title: Home
+---
 
-  <h1>Testing...</h1>
-  
-</div>
+# Home page
+
+testing
