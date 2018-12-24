@@ -30,18 +30,19 @@
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
         {% endif %}
 
+        <ul>
+        {% for documentation in site.documentation %}
+        <li>
+        <h2><a href="{{ documentation.url }}">{{ documentation.title }}</a></h2>
+        </li>
+        {% endfor %}
+        </ul>
+
       </header>
+
       <section>
 
       {{ content }}
-
-      <ul>
-  {% for author in site.documentation %}
-    <li>
-      <h2><a href="{{ documentation.url }}">{{ documentation.title }}</a></h2>
-    </li>
-  {% endfor %}
-</ul>
 
       </section>
       <footer>
