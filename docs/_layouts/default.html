@@ -31,9 +31,9 @@
         {% endif %}
 
         <ul>
-        {% for page in site.documentation %}
+        {% for default in site.documentation %}
         <li>
-        <h2><a href="/ {{ page.url }}">{{ page.title }}</a></h2>
+        <h2><a href="{{ default.url }}">{{ default.title }}</a></h2>
         </li>
         {% endfor %}
         </ul>

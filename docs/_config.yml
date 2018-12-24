@@ -13,3 +13,8 @@ defaults:
       type: "documentation"
     values:
       layout: "default"
+  - scope:
+      path: ""
+      type: "workflows"
+    values:
+      layout: "default"
