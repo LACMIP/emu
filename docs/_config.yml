@@ -1,7 +1,15 @@
 title: LACMIP Digital Data Management
 description: add description here
+
 collections:
   documentation:
     output: true
   workflows:
     output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "documentation"
+    values:
+      layout: "default"
