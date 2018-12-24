@@ -1,3 +1,7 @@
 title: LACMIP Digital Data Management
 description: add description here
-show_downloads: false
+collections:
+  documentation:
+    output: true
+  workflows:
+    output: true

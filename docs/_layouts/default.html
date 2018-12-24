@@ -30,17 +30,18 @@
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
         {% endif %}
 
-        {% if site.show_downloads %}
-        <ul class="downloads">
-          <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
-          <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
-        </ul>
-        {% endif %}
       </header>
       <section>
 
       {{ content }}
+
+      <ul>
+  {% for author in site.documentation %}
+    <li>
+      <h2><a href="{{ documentation.url }}">{{ documentation.title }}</a></h2>
+    </li>
+  {% endfor %}
+</ul>
 
       </section>
       <footer>
