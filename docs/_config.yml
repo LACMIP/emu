@@ -2,21 +2,15 @@ title: EMu Handbook
 description: Documentation and workflows related to digitization of the LACMIP invertebrate paleontology collections.
 baseurl: /lacmip
 logo: assets/img/lacmip-logo.jpg
+theme: jekyll-theme-minimal
 
 collections:
   documentation:
-    output: true
-  workflows:
     output: true
 
 defaults:
   - scope:
       path: ""
       type: "documentation"
-    values:
-      layout: "default"
-  - scope:
-      path: ""
-      type: "workflows"
     values:
       layout: "default"
