@@ -1,14 +1,13 @@
 title: LACMIP Digital Data Management
 description: add description here
 baseurl: /lacmip
+logo: /assets/images/lacmip-logo.jpg
 
 collections:
   documentation:
     output: true
-    permalink: /:collection/:title
   workflows:
     output: true
-    permalink: /:collection/:title
 
 defaults:
   - scope:
