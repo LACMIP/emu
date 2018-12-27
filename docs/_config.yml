@@ -1,6 +1,6 @@
 title: LACMIP Digital Data Management
 description: add description here
-baseurl: /lacmip
+url: /lacmip
 
 collections:
   documentation:
