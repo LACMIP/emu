@@ -1,11 +1,14 @@
 title: LACMIP Digital Data Management
 description: add description here
+url: http://mysite.com
 
 collections:
   documentation:
     output: true
+    permalink: /:collection/:title
   workflows:
     output: true
+    permalink: /:collection/:title
 
 defaults:
   - scope:
