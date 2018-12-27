@@ -33,7 +33,7 @@
       <ul>
         {% for document in site.documentation %}
         <li>
-          <h2><a href="{{ document.url }}">{{ document.title }}</a></h2>
+          <h2><a href="{{ site.baseurl }}{{ document.url }}">{{ document.title }}</a></h2>
         </li>
         {% endfor %}
       </ul>
