@@ -128,7 +128,7 @@
 
 .highlight { background-color: #f8f8f8; }
 
-body { background-color: #f1f8e9; padding: 50px; font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; color: #727272; font-weight: 400; }
+body { background-color: #fff; padding: 50px; font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; color: #727272; font-weight: 400; }
 
 h1, h2, h3, h4, h5, h6 { color: #222; margin: 0 0 20px; }
 
@@ -213,3 +213,14 @@ footer { width: 270px; float: left; position: fixed; bottom: 50px; -webkit-font-
   .downloads li, .downloads li + li + li { width: 33%; } }
 @media print { body { padding: 0.4in; font-size: 12pt; color: #444; } }
 /* Add custom CSS (to adjust theme styles) after this line */
+body { background-color: #f1f8e9; }
+
+.wrapper { width: auto; margin: auto; }
+
+section { margin-left: 300px; width: auto; }
+
+nav { float: none; width: 100%; display: block; }
+nav div.trigger { display: block; width: 100%; }
+
+@media print, screen and (max-width: 960px) { div.wrapper { width: auto; margin: 0; }
+  section { margin: 0; width: auto; } }

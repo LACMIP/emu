@@ -1,8 +1,7 @@
 ---
 title: Accessing EMu
+tags: onboard
 ---
-
-# Accessing EMu
 
 ## User accounts
 

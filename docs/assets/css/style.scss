@@ -4,3 +4,41 @@
 @import "jekyll-theme-minimal";
 
 /* Add custom CSS (to adjust theme styles) after this line */
+
+body {
+  background-color: #f1f8e9;
+}
+
+.wrapper {
+  width: auto;
+  margin: auto;
+}
+
+section {
+  margin-left: 300px;
+  width: auto;
+}
+
+nav {
+  float:none;
+  width:100%;
+  display:block;
+  div.trigger {
+    display: block;
+    width: 100%;
+  }
+}
+
+@media print, screen and (max-width: 960px) {
+
+  div.wrapper {
+    width: auto;
+    margin: 0;
+  }
+
+  section {
+    margin: 0;
+    width: auto;
+  }
+
+}
