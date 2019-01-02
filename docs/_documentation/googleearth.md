@@ -1,6 +1,6 @@
 ---
 title: Google Earth to EMu
-tags:
+tags: none
 ---
 
 Download a KML version of the “LACMIP Georeferencing” folder
