@@ -1,3 +1,4 @@
-.DS_Store
 _site
-backup-files_minimal-mistakes-master
+.jekyll-metadata
+Gemfile.lock
+.DS_Store
