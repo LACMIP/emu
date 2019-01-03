@@ -1,5 +1,6 @@
 ---
-title: Multimedia Module
+title: Multimedia
+navcat: Modules
 tags: module
 ---
 

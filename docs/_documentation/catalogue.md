@@ -1,5 +1,6 @@
 ---
-title: Catalogue Module
+title: Catalogue
+navcat: Modules
 tags: module
 ---
 

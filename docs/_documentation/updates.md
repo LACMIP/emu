@@ -1,5 +1,6 @@
 ---
-title: Updates to the EMu Software
+title: Software Updates
+navcat: Basic Info
 tags: onboard
 ---
 

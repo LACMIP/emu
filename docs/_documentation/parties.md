@@ -1,6 +1,7 @@
 ---
-title: Parties Module
-tags: module
+title: Parties
+navcat: Modules
+tags:
 ---
 
 *need content*

@@ -1,6 +1,7 @@
 ---
-title: Bibliography Module
-tags: module
+title: Bibliography
+navcat: Modules
+tags: getting-started
 ---
 
 *need content*

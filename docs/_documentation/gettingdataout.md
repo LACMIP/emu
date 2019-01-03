@@ -1,6 +1,7 @@
 ---
 title: Getting data out
-tags: none
+navcat: Basic Info
+tags:
 ---
 
 Moving files out of Marconi

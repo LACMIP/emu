@@ -1,6 +1,7 @@
 ---
-title: Lookup Lists Module
-tags: module
+title: Lookup Lists
+navcat: Modules
+tags:
 ---
 
 When creating lookup lists, checking the “not persistent” box means that unused values will disappear.

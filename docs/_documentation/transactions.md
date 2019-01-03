@@ -1,6 +1,7 @@
 ---
-title: Transactions Module
-tags: module
+title: Transactions
+navcat: Modules
+tags:
 ---
 
 *need content*

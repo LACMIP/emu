@@ -1,7 +1,7 @@
 ---
 title: Accessing EMu
+navcat: Basic Info
 tags: onboard
-test: different
 ---
 
 ## User accounts

@@ -1,5 +1,6 @@
 ---
 title: Advanced Searching
+navcat: Basic Info
 tags: onboard
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Troubleshooting
+navcat: Basic Info
 tags: onboard
 ---
 

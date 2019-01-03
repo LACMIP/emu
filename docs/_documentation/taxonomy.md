@@ -1,6 +1,7 @@
 ---
-title: Taxonomy Module
-tags: module
+title: Taxonomy
+navcat: Modules
+tags:
 ---
 
 DOCUMENT:

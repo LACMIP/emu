@@ -1,9 +1,3 @@
-docs:
-  - title: Links
-    children:
-      - title: "Access"
-        url: /documentation/access/
-
 # main links
 # main:
   # - title: "Sample Posts"

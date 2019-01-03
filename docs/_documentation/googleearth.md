@@ -1,5 +1,6 @@
 ---
-title: Google Earth to EMu
+title: Google Earth
+navcat: Workflows
 tags: none
 ---
 

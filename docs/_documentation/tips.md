@@ -1,5 +1,6 @@
 ---
 title: Tips
+navcat: Basic Info
 tags: onboard
 ---
 

@@ -24,8 +24,6 @@ defaults:
       toc: true
       sidebar:
         nav: "docs"
-      test: same
-
 
 #Everything below is a theme setting forked from Minimal Mistakes
 
@@ -143,12 +141,18 @@ author:
 # Site Footer
 footer:
   links:
+    - label: "Website"
+      icon: "fas fa-fw fa-university"
+      url: "https://nhm.org/site/research-collections/invertebrate-paleontology"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://www.instagram.com/fossilsofla/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
+      url: "https://twitter.com/fossilsofLA"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url:
+      url: "https://www.facebook.com/fossilsofla/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       # url:
@@ -158,10 +162,6 @@ footer:
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
       # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
-
 
 # Reading Files
 include:
