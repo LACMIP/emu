@@ -1,0 +1,1318 @@
+[
+  {
+    "op": "core/column-removal",
+    "description": "Remove column etaxonomy_key",
+    "columnName": "etaxonomy_key"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column irn2 to currentName_irn",
+    "oldColumnName": "irn2",
+    "newColumnName": "currentName_irn"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column currentName_irn using expression null",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "grel:value==cells[\"irn\"].value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "currentName_irn",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "currentName_irn"
+        }
+      ]
+    },
+    "columnName": "currentName_irn",
+    "expression": "null",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-reorder",
+    "description": "Reorder columns",
+    "columnNames": [
+      "irn",
+      "ClaCurrentlyAccepted",
+      "currentName_irn",
+      "ClaKingdom",
+      "ClaPhylum",
+      "ClaSubphylum",
+      "ClaClass",
+      "ClaSubclass",
+      "ClaSuperorder",
+      "ClaOrder",
+      "ClaSuborder",
+      "ClaInfraorder",
+      "ClaSuperfamily",
+      "ClaFamily",
+      "ClaSubfamily",
+      "ClaTribe",
+      "ClaGenus",
+      "ClaSubgenus",
+      "ClaSpecies",
+      "ClaSubspecies",
+      "AutAuthorString",
+      "ClaRank"
+    ]
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column TAXON at index 20 based on column ClaSubspecies using expression grel:cells[\"ClaGenus\"].value+\" (\"+\ncells[\"ClaSubgenus\"].value+\") \"+\ncells[\"ClaSpecies\"].value+\" \"+\ncells[\"ClaSubspecies\"].value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "ClaSubspecies",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "ClaSubspecies"
+        },
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "ClaSpecies",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "ClaSpecies"
+        },
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "ClaSubgenus",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "ClaSubgenus"
+        },
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "ClaGenus",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "ClaGenus"
+        }
+      ]
+    },
+    "newColumnName": "TAXON",
+    "columnInsertIndex": 20,
+    "baseColumnName": "ClaSubspecies",
+    "expression": "grel:cells[\"ClaGenus\"].value+\" (\"+\ncells[\"ClaSubgenus\"].value+\") \"+\ncells[\"ClaSpecies\"].value+\" \"+\ncells[\"ClaSubspecies\"].value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TAXON using expression grel:cells[\"ClaGenus\"].value+\" \"+\ncells[\"ClaSpecies\"].value+\" \"+\ncells[\"ClaSubspecies\"].value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "ClaSubspecies",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "ClaSubspecies"
+        },
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "ClaSpecies",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "ClaSpecies"
+        },
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "ClaSubgenus",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "ClaSubgenus"
+        },
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "ClaGenus",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "ClaGenus"
+        }
+      ]
+    },
+    "columnName": "TAXON",
+    "expression": "grel:cells[\"ClaGenus\"].value+\" \"+\ncells[\"ClaSpecies\"].value+\" \"+\ncells[\"ClaSubspecies\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TAXON using expression grel:cells[\"ClaGenus\"].value+\" (\"+\ncells[\"ClaSubgenus\"].value+\") \"+\ncells[\"ClaSpecies\"].value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "TAXON",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "TAXON"
+        },
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "ClaSpecies",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "ClaSpecies"
+        },
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "ClaSubgenus",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "ClaSubgenus"
+        },
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "ClaGenus",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "ClaGenus"
+        }
+      ]
+    },
+    "columnName": "TAXON",
+    "expression": "grel:cells[\"ClaGenus\"].value+\" (\"+\ncells[\"ClaSubgenus\"].value+\") \"+\ncells[\"ClaSpecies\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TAXON using expression grel:cells[\"ClaGenus\"].value+\" \"+\ncells[\"ClaSpecies\"].value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "TAXON",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "TAXON"
+        },
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "ClaSpecies",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "ClaSpecies"
+        },
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "ClaGenus",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "ClaGenus"
+        }
+      ]
+    },
+    "columnName": "TAXON",
+    "expression": "grel:cells[\"ClaGenus\"].value+\" \"+\ncells[\"ClaSpecies\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TAXON using expression grel:cells[\"ClaGenus\"].value+\" (\"+\ncells[\"ClaSubgenus\"].value+\") sp.\"",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "TAXON",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "TAXON"
+        },
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "ClaSubgenus",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "ClaSubgenus"
+        },
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "ClaGenus",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "ClaGenus"
+        }
+      ]
+    },
+    "columnName": "TAXON",
+    "expression": "grel:cells[\"ClaGenus\"].value+\" (\"+\ncells[\"ClaSubgenus\"].value+\") sp.\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TAXON using expression grel:cells[\"ClaGenus\"].value+\" sp.\"",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "TAXON",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "TAXON"
+        },
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "ClaGenus",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "ClaGenus"
+        }
+      ]
+    },
+    "columnName": "TAXON",
+    "expression": "grel:cells[\"ClaGenus\"].value+\" sp.\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TAXON using expression grel:cells[\"ClaTribe\"].value+\" indet.\"",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "TAXON",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "TAXON"
+        },
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "ClaTribe",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "ClaTribe"
+        }
+      ]
+    },
+    "columnName": "TAXON",
+    "expression": "grel:cells[\"ClaTribe\"].value+\" indet.\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TAXON using expression grel:cells[\"ClaSubfamily\"].value+\" indet.\"",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "TAXON",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "TAXON"
+        },
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "ClaSubfamily",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "ClaSubfamily"
+        }
+      ]
+    },
+    "columnName": "TAXON",
+    "expression": "grel:cells[\"ClaSubfamily\"].value+\" indet.\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TAXON using expression grel:cells[\"ClaFamily\"].value+\" indet.\"",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "TAXON",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "TAXON"
+        },
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "ClaFamily",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "ClaFamily"
+        }
+      ]
+    },
+    "columnName": "TAXON",
+    "expression": "grel:cells[\"ClaFamily\"].value+\" indet.\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TAXON using expression grel:cells[\"ClaSuperfamily\"].value+\" indet.\"",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "TAXON",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "TAXON"
+        },
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "ClaSuperfamily",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "ClaSuperfamily"
+        }
+      ]
+    },
+    "columnName": "TAXON",
+    "expression": "grel:cells[\"ClaSuperfamily\"].value+\" indet.\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TAXON using expression grel:cells[\"ClaInfraorder\"].value+\" indet.\"",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "TAXON",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "TAXON"
+        },
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "ClaInfraorder",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "ClaInfraorder"
+        }
+      ]
+    },
+    "columnName": "TAXON",
+    "expression": "grel:cells[\"ClaInfraorder\"].value+\" indet.\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TAXON using expression grel:cells[\"ClaSuborder\"].value+\" indet.\"",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "TAXON",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "TAXON"
+        },
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "ClaSuborder",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "ClaSuborder"
+        }
+      ]
+    },
+    "columnName": "TAXON",
+    "expression": "grel:cells[\"ClaSuborder\"].value+\" indet.\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TAXON using expression grel:cells[\"ClaOrder\"].value+\" indet.\"",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "TAXON",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "TAXON"
+        },
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "ClaOrder",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "ClaOrder"
+        }
+      ]
+    },
+    "columnName": "TAXON",
+    "expression": "grel:cells[\"ClaOrder\"].value+\" indet.\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TAXON using expression grel:cells[\"ClaSuperorder\"].value+\" indet.\"",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "TAXON",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "TAXON"
+        },
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "ClaSuperorder",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "ClaSuperorder"
+        }
+      ]
+    },
+    "columnName": "TAXON",
+    "expression": "grel:cells[\"ClaSuperorder\"].value+\" indet.\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TAXON using expression grel:cells[\"ClaSubclass\"].value+\" indet.\"",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "TAXON",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "TAXON"
+        },
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "ClaSubclass",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "ClaSubclass"
+        }
+      ]
+    },
+    "columnName": "TAXON",
+    "expression": "grel:cells[\"ClaSubclass\"].value+\" indet.\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TAXON using expression grel:cells[\"ClaClass\"].value+\" indet.\"",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "TAXON",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "TAXON"
+        },
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "ClaClass",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "ClaClass"
+        }
+      ]
+    },
+    "columnName": "TAXON",
+    "expression": "grel:cells[\"ClaClass\"].value+\" indet.\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TAXON using expression grel:cells[\"ClaSubphylum\"].value+\" indet.\"",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "TAXON",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "TAXON"
+        },
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "ClaSubphylum",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "ClaSubphylum"
+        }
+      ]
+    },
+    "columnName": "TAXON",
+    "expression": "grel:cells[\"ClaSubphylum\"].value+\" indet.\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TAXON using expression grel:cells[\"ClaPhylum\"].value+\" indet.\"",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "TAXON",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "TAXON"
+        },
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "ClaPhylum",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "ClaPhylum"
+        }
+      ]
+    },
+    "columnName": "TAXON",
+    "expression": "grel:cells[\"ClaPhylum\"].value+\" indet.\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TAXON using expression grel:cells[\"ClaKingdom\"].value+\" indet.\"",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "TAXON",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "TAXON"
+        },
+        {
+          "omitError": false,
+          "expression": "isBlank(value)",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": false,
+                "l": "false"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "ClaKingdom",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "ClaKingdom"
+        }
+      ]
+    },
+    "columnName": "TAXON",
+    "expression": "grel:cells[\"ClaKingdom\"].value+\" indet.\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column ClaRank to Ide2QualifierRank_tab",
+    "oldColumnName": "ClaRank",
+    "newColumnName": "Ide2QualifierRank_tab"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Ide2QualifierRank_tab using expression value.toLowercase()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Ide2QualifierRank_tab",
+    "expression": "value.toLowercase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column Ide2Qaulifier_tab at index 21 based on column TAXON using expression grel:\"sp.\"",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "invert": false,
+          "caseSensitive": false,
+          "query": " sp.",
+          "name": "TAXON",
+          "type": "text",
+          "columnName": "TAXON"
+        }
+      ]
+    },
+    "newColumnName": "Ide2Qaulifier_tab",
+    "columnInsertIndex": 21,
+    "baseColumnName": "TAXON",
+    "expression": "grel:\"sp.\"",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Ide2Qaulifier_tab using expression grel:\"indet.\"",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "invert": false,
+          "caseSensitive": false,
+          "query": " indet.",
+          "name": "TAXON",
+          "type": "text",
+          "columnName": "TAXON"
+        }
+      ]
+    },
+    "columnName": "Ide2Qaulifier_tab",
+    "expression": "grel:\"indet.\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-move",
+    "description": "Move column Ide2Qaulifier_tab to position 22",
+    "columnName": "Ide2Qaulifier_tab",
+    "index": 22
+  }
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column currentName_irn using expression null",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "facetCount(value, 'value', 'TAXON') > 1",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "TAXON",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "TAXON"
+        }
+      ]
+    },
+    "columnName": "currentName_irn",
+    "expression": "null",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  }
+]
