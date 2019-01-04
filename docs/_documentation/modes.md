@@ -1,11 +1,13 @@
 ---
 title: Modes of Operation
 navcat: Basic Info
-tags: onboard
+tags:
 ---
 
 Each module has four possible screen modes—Search, Display, New, and Edit—depending on your task. These modes are briefly described below, and also covered in specific Modules sections.
-Search Mode
+
+## Search Mode
+
 Search mode allows you to find records, and is the default mode that opening any module will present. The EMu help website has several good resources:
 [Information on basic search](http://help.emu.axiell.com/latest/en/Topics/Common/How%20to%20search.htm)
 [Additional information on advanced searching](http://help.emu.axiell.com/latest/en/Topics/Common/Search%20-%20section.htm)
@@ -17,7 +19,8 @@ You can return to previous searches… [needs content]
 
 BTW, you can set up EMu to always run a sort after your search.  All you have to do is right-click on one of your sort options (like Cat. No.) and select “Sort After Search”.  The selected sort option will then automatically run after every search.  The selected sort option will be in bold text.
 
-Display Mode
+## Display Mode
+
 Search results are returned to you in Display Mode. The default order that search results are sorted by is their IRN.
 
 If a column displays a nested table, you may need to expand the line height in order to see additional information, e.g. Cited In in the Taxonomy Module search results. To increase the line height you can either stretch the row height (grab the bottom of the row and pull) or make the row height much larger in List View properties (View>List Settings>Choose List>Select List>Properties>Height)
@@ -26,14 +29,17 @@ If a column displays a nested table, you may need to expand the line height in o
 
 TOOLS>RESOURCES>Search GBIF for…
 
-New Mode
+## New Mode
+
 [needs content]
+
 Ditto
 [Template](http://help.emu.axiell.com/latest/en/Topics/Common/Record%20Templates.htm)
 Tables vs. cells ([more](http://help.emu.axiell.com/latest/en/Topics/Common/Tables.htm))
 Much more information is available from EMu at “[Working with Records](http://help.emu.axiell.com/latest/en/Topics/Common/Working%20with%20records.htm)” (use the links in the right hand bar).
 
-Edit Mode
+## Edit Mode
+
 [needs content]
 
 [Global Replace](http://help.emu.axiell.com/latest/en/Topics/Common/Global%20Replace.htm). Be careful! See [this article](http://help.emu.axiell.com/latest/en/Topics/Common/Wildcards%20in%20a%20Global%20Replace.htm) for advanced global replace using wildcards. **remember to clear any past replaces when you enter a new one**

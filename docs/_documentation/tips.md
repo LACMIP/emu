@@ -1,7 +1,7 @@
 ---
 title: Tips
 navcat: Basic Info
-tags: onboard
+tags: 
 ---
 
 [needs content]

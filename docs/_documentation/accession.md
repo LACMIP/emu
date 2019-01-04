@@ -1,7 +1,7 @@
 ---
-title: Accession Lots
+title: Accessions
 navcat: Modules
-tags: getting-started
+tags:
 ---
 
 *need content*

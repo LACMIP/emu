@@ -9,6 +9,7 @@ Antiquated distributions (square brackets and note that formation is antiquated)
 REMOVE “antiquated” where it is referring to a formation
 Antiquated taxonomy (validity = invalid)
 Ditto-ing to add citations from synonym to new valid name
+
 CURRENTLY ACCEPTED
 Yes = names that exist (literature or in collection) and that we want printed on a label
 No = old names that have a synonym (SOMETIMES two records for one old name will exist when that old name is linked to two current names, see Fulguraria gabbi for an example)

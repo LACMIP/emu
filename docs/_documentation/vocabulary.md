@@ -1,7 +1,7 @@
 ---
 title: Basic EMu Vocabulary
 navcat: Basic Info
-tags: onboard
+tags: 
 ---
 
 Module

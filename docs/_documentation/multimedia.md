@@ -1,7 +1,7 @@
 ---
 title: Multimedia
 navcat: Modules
-tags: module
+tags: 
 ---
 
 *need content*

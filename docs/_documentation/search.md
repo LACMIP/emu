@@ -1,7 +1,7 @@
 ---
 title: Advanced Searching
 navcat: Basic Info
-tags: onboard
+tags: 
 ---
 
 You can search for existing Loc IDs using copy and PASTE (INSERT) in EMu.

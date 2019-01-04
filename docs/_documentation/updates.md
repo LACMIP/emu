@@ -1,7 +1,7 @@
 ---
 title: Software Updates
 navcat: Basic Info
-tags: onboard
+tags: 
 ---
 
-Every six months or so
+Every six months or so...

@@ -6,67 +6,43 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/unsplash-image-1.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-excerpt: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger corned beef short ribs kielbasa biltong t-bone drumstick tri-tip tail sirloin pork chop."
+excerpt: "photo overlay text"
 intro:
-  - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
+  - excerpt: 'This document contains information specific to the LACMIP instance of EMu. Axiell’s EMu documentation is another good resource and can be accessed at [http://help.emu.axiell.com](http://help.emu.axiell.com).'
 feature_row:
-  - image_path: assets/images/unsplash-gallery-image-1-th.jpg
-    alt: "placeholder image 1"
-    title: "Placeholder 1"
+  - image_path: assets/images/PLACEHOLDER.jpg
+    alt: "PLACEHOLDER"
+    title: "PLACEHOLDER"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+  - image_path: /assets/images/PLACEHOLDER.jpg
     image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
-    alt: "placeholder image 2"
-    title: "Placeholder 2"
+    alt: "PLACEHOLDER"
+    title: "PLACEHOLDER"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
     url: "#test-link"
     btn_label: "Read More"
-    btn_class: "btn--primary"
-  - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
-    title: "Placeholder 3"
+    btn_class: "btn--inverse"
+  - image_path: /assets/images/PLACEHOLDER.jpg
+    title: "PLACEHOLDER"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
-feature_row2:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Left Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-feature_row3:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Right Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-feature_row4:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Center Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
 ---
 
 {% include feature_row id="intro" type="center" %}
 
 {% include feature_row %}
 
+<!--
 {% include feature_row id="feature_row2" type="left" %}
 
 {% include feature_row id="feature_row3" type="right" %}
 
 {% include feature_row id="feature_row4" type="center" %}
+-->
 
-This document contains information specific to the LACMIP instance of EMu. Axiell’s EMu documentation is another good resource and can be accessed at [http://help.emu.axiell.com](http://help.emu.axiell.com).
+<h3>About Emu</h3>
 
-## About Emu
+<p>EMu is a collections management system (CMS) used by many large natural history museums. A brief overview is provided by its parent company, Axiell, on their [website](https://emu.axiell.com).</p>
 
-EMu is a collections management system (CMS) used by many large natural history museums. A brief overview is provided by its parent company, Axiell, on their [website](https://emu.axiell.com).
+<p>EMu differs from other common CMS options in several major ways: (1) it is a for-profit business rather than a nonprofit or consortium-supported operation; (2) it is not open source; (3) it exists in myriad different customizations, based on the unique needs of each collection that uses it. Functionally, the first two differences can result in a lack of transparency and a slow response to fixing software issues, however they also mean that a museum has access to third-party support for maintenance and development of the CMS. The third difference means that two invertebrate paleontology collections at two different museums may have similar needs and processes but may be using two very different versions of EMu. For this reason, it is highly recommended to network with other EMu users and share best practices, issues, questions, etc. Consider joining the [users-only listserv](https://groups.google.com/forum/#!forum/emu-user-community).</p>
 
-EMu differs from other common CMS options in several major ways: (1) it is a for-profit business rather than a nonprofit or consortium-supported operation; (2) it is not open source; (3) it exists in myriad different customizations, based on the unique needs of each collection that uses it. Functionally, the first two differences can result in a lack of transparency and a slow response to fixing software issues, however they also mean that a museum has access to third-party support for maintenance and development of the CMS. The third difference means that two invertebrate paleontology collections at two different museums may have similar needs and processes but may be using two very different versions of EMu. For this reason, it is highly recommended to network with other EMu users and share best practices, issues, questions, etc. Consider joining the [users-only listserv](https://groups.google.com/forum/#!forum/emu-user-community).
-
-A final different is that EMu is built on a proprietary database engine called [Texpress](https://emu.axiell.com/support/documentation/the-database-engine/about-emu-s-database-engine/423-engine), which utilizes a nested relational rather than pure relational design. Doing so allows EMu to perform efficient searches and other operations on complex objects, such as large blocks of text. But it also means that data stored in EMu is much less normalized than in many similar CMS options, which means that careful design on the user end is necessary to ensure consistent, high-quality data.
+<p>A final different is that EMu is built on a proprietary database engine called [Texpress](https://emu.axiell.com/support/documentation/the-database-engine/about-emu-s-database-engine/423-engine), which utilizes a nested relational rather than pure relational design. Doing so allows EMu to perform efficient searches and other operations on complex objects, such as large blocks of text. But it also means that data stored in EMu is much less normalized than in many similar CMS options, which means that careful design on the user end is necessary to ensure consistent, high-quality data.</p>
