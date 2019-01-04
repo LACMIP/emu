@@ -1,7 +1,7 @@
 
 # Welcome
 
-This is a repository for documentation and scripts related to specimen digitization in the Natural History Museum of Los Angeles invertebrate paleontology collections.
+This is a repository for documentation and scripts related to specimen digitization in the Natural History Museum of Los Angeles invertebrate paleontology collections (LACMIP).
 
 ## Scripts
 
