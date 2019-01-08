@@ -53,3 +53,5 @@ TO DOCUMENT: citation format, esp. At genus and family level (e.g. species level
 The current design of the EMu database cannot support the relationship of one invalid synonym to two valid names. When Bill migrates our Cretaceous synonyms he will create duplicate records for synonyms with this kind of relationship (~50 out of ~1100 synonym names). This is not perfect but seems to be the least bad way to get our data into EMu for now.
 Bill testing out what happens to synonyms if the accepted name then becomes a synonym of another name
 All old synonyms, as well as the formerly accepted name, become synonyms of the newly accepted name.
+
+TESTING 123 THIS IS LINDSAY
