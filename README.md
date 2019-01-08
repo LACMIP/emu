@@ -5,11 +5,11 @@ This is a repository for documentation and scripts related to specimen digitizat
 
 ## Scripts
 
-Data cleaning and processing scripts to use with [OpenRefine](http://openrefine.org) are available in the [scripts](/scripts/) directory. Please see the [documentation website](https://ekrimmel.github.io/lacmip) for how to use.
+Data cleaning and processing scripts to use with [OpenRefine](http://openrefine.org) are available in the [scripts](/scripts/) directory. Please see the [documentation website](https://lacmip.github.io/lacmip/) for how to use.
 
 ## Documentation
 
-User-friendly documentation can be found at [https://ekrimmel.github.io/lacmip](https://ekrimmel.github.io/lacmip).
+User-friendly documentation can be found at [https://lacmip.github.io/lacmip/](https://lacmip.github.io/lacmip/).
 
 Content for this site is maintained in the [docs](/docs/) directory and hosted by GitHub Pages. Please see below for information about contributing to the documentation. You must be logged into GitHub and have the correct permissions to directly edit anything in this repository.
 
