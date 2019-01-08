@@ -9,6 +9,9 @@ collections:
   documentation:
     output: true
     permalink: /:collection/:path/
+  set:
+    output: true
+    permalink: /:collection/:path/
 
 defaults:
   - scope:
@@ -23,7 +26,19 @@ defaults:
       related: false
       toc: true
       sidebar:
-        nav: "docs"
+        nav: "default"
+  - scope:
+      path: ""
+      type: set
+    values:
+      layout: tag
+      entries_layout: grid
+      sort_by: title
+      #author_profile: false
+      #read_time: false
+      #comments: false
+      #share: false
+      #related: false
 
 #Everything below is a theme setting forked from Minimal Mistakes
 
@@ -269,7 +284,7 @@ category_archive:
   path: /categories/
 tag_archive:
   type: liquid
-  path: /tags/
+  path: /set/
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:

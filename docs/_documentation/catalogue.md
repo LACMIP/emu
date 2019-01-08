@@ -1,7 +1,7 @@
 ---
 title: Catalogue
 navcat: Modules
-tags: quick-start, cataloging
+tags: quick-start cataloging
 ---
 
 Default values: Identifications - Filed As = "Yes"; Identifications - Currently Accepted = "Yes"; Invert. Paleo. - Disp. = "in collection"; Invert. Paleo. - Collection = "ST"

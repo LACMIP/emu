@@ -1,7 +1,7 @@
 ---
 title: Accessing EMu
 navcat: Basic Info
-tags: quick-start cataloging
+tags: cataloging
 ---
 
 ## User accounts

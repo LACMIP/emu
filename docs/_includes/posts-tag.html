@@ -1,0 +1,5 @@
+{% assign tag-value = page.title | slugify %}
+{% assign tags = site.documentation | where: "tags", tag-value %}
+{%- for post in tags -%}
+  {% include archive-single.html %}
+{%- endfor -%}
