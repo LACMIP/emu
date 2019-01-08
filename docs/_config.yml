@@ -1,6 +1,6 @@
 title: "EMu Handbook"
 description: "Documentation and workflows related to digitization of the LACMIP invertebrate paleontology collections."
-url: "https://ekrimmel.github.io"
+url: "https://lacmip.github.io"
 baseurl: "/lacmip"
 logo: "assets/img/lacmip-logo.jpg"
 remote_theme: "mmistakes/minimal-mistakes@4.14.1"
@@ -47,7 +47,7 @@ minimal_mistakes_skin    : "mint" # "default", "air", "aqua", "contrast", "dark"
 # Site Settings
 locale                   : "en-US"
 title_separator          : "-"
-repository               : "ekrimmel/lacmip"
+repository               : "lacmip/lacmip"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 200
