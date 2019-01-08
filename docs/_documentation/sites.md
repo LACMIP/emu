@@ -3,6 +3,7 @@ title: Sites
 navcat: Modules
 tags:
 ---
+The Sites Module is the primary record for information about specimen collecting localities. Please see [Axiell's documentation](http://help.emu.axiell.com/latest/en/Topics/EMu/Sites%20module.htm) for generic information about this module.
 
 “All of the non-coordinate information (determination source, method, etc) is tied to the single coordinate or coordinates in the Latitude/Longitude Details table at the top.  The Latitude/Longitude Details table is either a single coordinate or multiple coordinates representing a polygon outlining a single area. At the bottom is a list of all the different latitude/longitude groups recorded.  The most common reason I've seen is "historical data".  So, let's say you wanted to retain all the Juan Capriano Reyes data, but now Juanita Capriano Reyes revisited the site and calculated more accurate coordinates.  You can click on the * in the Latitude/Longitude List at the bottom and enter all of the new data given to you by Juanita, while still retaining Juan's original data.”
 

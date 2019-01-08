@@ -3,6 +3,7 @@ title: Taxonomy
 navcat: Modules
 tags: taxonomy
 ---
+The Taxonomy Module is the primary record for information about taxonomic concepts, both accepted and unaccepted. Please see [Axiell's documentation](http://help.emu.axiell.com/latest/en/Topics/EMu/Taxonomy%20module.htm) for generic information about this module.
 
 DOCUMENT:
 Antiquated distributions (square brackets and note that formation is antiquated), e.g. IRN=203815

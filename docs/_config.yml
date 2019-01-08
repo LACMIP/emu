@@ -2,6 +2,8 @@ title: "EMu Handbook"
 description: "Documentation and workflows related to digitization of the LACMIP invertebrate paleontology collections."
 url: "https://lacmip.github.io"
 baseurl: "/lacmip"
+url_scripts: "https://github.com/LACMIP/lacmip/tree/master/scripts/"
+url_lookups: "https://github.com/LACMIP/lacmip/tree/master/lookups/"
 logo: "assets/img/lacmip-logo.jpg"
 remote_theme: "mmistakes/minimal-mistakes@4.14.1"
 

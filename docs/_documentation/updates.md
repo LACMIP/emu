@@ -1,7 +1,6 @@
 ---
 title: Software Updates
 navcat: Basic Info
-tags: 
+tags:
 ---
-
-Every six months or so...
+Updates to the EMu software are made by Axiell and requested through the Museum's database manager. This process is not quick, and it may be months between request and implementation.

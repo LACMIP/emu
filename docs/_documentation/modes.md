@@ -3,7 +3,6 @@ title: Modes of Operation
 navcat: Basic Info
 tags: cataloging
 ---
-
 Each module has four possible screen modes—Search, Display, New, and Edit—depending on your task. These modes are briefly described below, and also covered in specific Modules sections.
 
 ## Search Mode

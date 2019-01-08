@@ -1,9 +1,8 @@
 ---
 title: Advanced Searching
 navcat: Basic Info
-tags: 
+tags:
 ---
-
 You can search for existing Loc IDs using copy and PASTE (INSERT) in EMu.
 
 Using your Barstow file as an example.

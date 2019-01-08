@@ -3,6 +3,7 @@ title: Lookup Lists
 navcat: Modules
 tags:
 ---
+The Lookup Lists Module is... Please see [Axiell's documentation](http://help.emu.axiell.com/latest/en/Topics/Common/Lookup%20Lists%20module.htm) for generic information about this module.
 
 When creating lookup lists, checking the “not persistent” box means that unused values will disappear.
 

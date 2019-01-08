@@ -1,20 +1,15 @@
 ---
 title: Tips
 navcat: Basic Info
-tags: 
+tags:
 ---
-
-[needs content]
-[Finding a field](http://help.emu.axiell.com/latest/en/Topics/Common/Find%20a%20field.htm) can be difficult.
-Deleting (gone forever) vs discarding (removing from current group, e.g. search results)
-
 See the [Keyboard Shortcuts & Quick Reference Guide](http://help.emu.axiell.com/latest/en/Resources/Downloads/Quick%20Reference%20Guide/EMu_QuickRef_Guide_IE_20170629.pdf) from Axiell.
 
-Hover over field to see definition
+[Finding a field](http://help.emu.axiell.com/latest/en/Topics/Common/Find%20a%20field.htm) can be difficult.
 
-IMPROVING EMU PERFORMANCE
+## Improving EMu's performance
 
-Let’s begin with a simple adjustment to your searching options. You may have come across a situation where a search is taking a very long time and you just want to abort it and try different parameters.  These changes should help with that.
+If EMu is responding very slowly, try a simple adjustment to your search options. You may have come across a situation where a search is taking a very long time and you just want to abort it and try different parameters.  These changes should help with that.
 
 Right-Click anywhere on Command Center (where to modules are displayed), and select “Options.” Select the SEARCHING tab and change these fields, then click OK
 Maximum search time: place a number in here, do not leave it as zero.  Your discretion.  The example below is set to 4 minutes (240 seconds).

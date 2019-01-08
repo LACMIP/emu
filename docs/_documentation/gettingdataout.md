@@ -3,7 +3,6 @@ title: Getting Data Out
 navcat: Basic Info
 tags: taxonomy
 ---
-
 ## Moving files out of Marconi
 
 There is a drive named Guacamole with a Download folder in it. If you want to transfer a file from Marconi to your PC or Mac computer, save the file in the Download folder, and in the popup window, click on the file to start the transfer. The file will show up in your download folder.

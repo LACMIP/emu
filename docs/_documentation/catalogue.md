@@ -3,6 +3,9 @@ title: Catalogue
 navcat: Modules
 tags: quick-start cataloging
 ---
+The Catalogue Module is the primary record for information about each specimen lot, and a node linking together data from many of the other modules. Please see [Axiell's documentation](http://help.emu.axiell.com/latest/en/Topics/EMu/Catalogue%20module.htm) for generic information about this module.
+
+## Default values
 
 Default values: Identifications - Filed As = "Yes"; Identifications - Currently Accepted = "Yes"; Invert. Paleo. - Disp. = "in collection"; Invert. Paleo. - Collection = "ST"
 
