@@ -21,13 +21,13 @@ EDIT -> Default Values -> Change
 
 Select 2018, then OK.
 
-Next time you create a new record you will see under Date Identified that 2018 is automatically filled in.  Also, next time you use EMu your New Record default will be 2018.
+Next time you create a new record you will see under Date Identified that 2018 is automatically filled in. Also, next time you use EMu your New Record default will be 2018.
 
 If you want to change it back to the base defaults:
 
 EDIT -> Default Values -> Change
 
-Select Base Defaults, then OK.  (do not select No Defaults)
+Select Base Defaults, then OK. (do not select No Defaults)
 
 If you want to change it to 2019:
 

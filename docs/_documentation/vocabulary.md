@@ -15,6 +15,9 @@ Discard
 Field
 : A field is where the value for a column lives, e.g. you might see "LouElla Saul" in the field for *Collector Name*. Each EMu field has a backend name and a descriptive label, and may belong to a group.
 
+IRN
+: The IRN, or "internal resource number", is a unique numeric identifier for each record in EMu. Typically, an IRN is the best way to reference any specific record, e.g. when you are using a spreadsheet to import data into one module that references another module.
+
 Module
 : Modules are the core organizational structure for EMu, with each module representing a table in the database. Modules exist globally but can be modified to suit the varying needs of each collection. Modules not in use are typically hidden by the Museum's database manager. See Axiell's documentation on modules [here](http://help.emu.axiell.com/latest/en/Topics/Common/Modules%20section.htm).
 

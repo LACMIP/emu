@@ -5,7 +5,7 @@ tags: taxonomy
 ---
 The Taxonomy Module is the primary record for information about taxonomic concepts, both accepted and unaccepted. Please see [Axiell's documentation](http://help.emu.axiell.com/latest/en/Topics/EMu/Taxonomy%20module.htm) for generic information about this module.
 
-DOCUMENT:
+NEED TO DOCUMENT:
 Antiquated distributions (square brackets and note that formation is antiquated), e.g. IRN=203815
 REMOVE “antiquated” where it is referring to a formation
 Antiquated taxonomy (validity = invalid)
@@ -33,21 +33,21 @@ The % tells EMu not to search for the related names.
 
 What does marking a taxonomy record as Currently Accepted?="unknown" do? We were playing around with it on IRN 206195 (which really is a record where we aren't sure what the accepted status should be). In our testing this record became attached on a Pending tab to IRN 202769. What does that mean?
 
-Currently Accepted = “unknown” allows you to have Taxonomic names that have not been verified as synonyms or current names.  They are pending verification.
+Currently Accepted = “unknown” allows you to have Taxonomic names that have not been verified as synonyms or current names. They are pending verification.
 
-In the case you described, Tellina ashburnerii was a synonym of Cymbophora ashburneri, but now we do not know what Tellina ashburnerii is a synonym of.  However, Cymbophora ashburneri retains the fact that Tellina ashburnerii was, at one time, a synonym.  I believe  Tellina ashburnerii will disappear from Cymbophora ashburneri’s “pending” list when Tellina ashburnerii is assigned a new current name.
+In the case you described, Tellina ashburnerii was a synonym of Cymbophora ashburneri, but now we do not know what Tellina ashburnerii is a synonym of. However, Cymbophora ashburneri retains the fact that Tellina ashburnerii was, at one time, a synonym. I believe Tellina ashburnerii will disappear from Cymbophora ashburneri’s “pending” list when Tellina ashburnerii is assigned a new current name.
 
 I have not examined “unknown” closely since no other collection manager has found it useful.
 
 Common Names: examples… Blue Jay, Robin, Polar Bear, etc.
 
-Names History: an audit trail of name changes and synonyms.  These fields are filled automatically as taxa become synonyms or are removed from being synonyms.  It’s only helpful if you want to see edit changes.  It doesn’t necessarily reflect actual synonym history since items are placed in this audit trail during edits, even if those edits were entered to fix previous errors.
+Names History: an audit trail of name changes and synonyms. These fields are filled automatically as taxa become synonyms or are removed from being synonyms. It’s only helpful if you want to see edit changes. It doesn’t necessarily reflect actual synonym history since items are placed in this audit trail during edits, even if those edits were entered to fix previous errors.
 
-Primary Citation: Additional fields for information about the Primary Citation.  Original Name, Status, and Type Species (for genera)
+Primary Citation: Additional fields for information about the Primary Citation. Original Name, Status, and Type Species (for genera)
 
-Pending: Like Names History, this is automatically filled, and tracks unassigned synonyms.  Unassigned synonyms occur when you make a Currently Accepted name a synonym and you tell EMu NOT to make its heterotypic synonym a synonym of the new Currently Accepted name.  Example: Species C is a heterotypic synonym of Species B.  You then make Species B a synonym of Species A.  EMu will ask you if Species C should also be a synonym of Species A.  If you tell EMu not to, then Species C will be placed in the Pending tab – a synonym “pending” for an accepted name.
+Pending: Like Names History, this is automatically filled, and tracks unassigned synonyms. Unassigned synonyms occur when you make a Currently Accepted name a synonym and you tell EMu NOT to make its heterotypic synonym a synonym of the new Currently Accepted name. Example: Species C is a heterotypic synonym of Species B. You then make Species B a synonym of Species A. EMu will ask you if Species C should also be a synonym of Species A. If you tell EMu not to, then Species C will be placed in the Pending tab – a synonym “pending” for an accepted name.
 
-There are other tabs that deal with plants and geography.  Although you have plants, I won’t go into them unless you want to.  The Geographic tab appears to be tailored toward living animals (where can the animal be found, and is it endangered)
+There are other tabs that deal with plants and geography. Although you have plants, I won’t go into them unless you want to. The Geographic tab appears to be tailored toward living animals (where can the animal be found, and is it endangered)
 
 TO DOCUMENT: citation format, esp. At genus and family level (e.g. species level does not carry up)
 
