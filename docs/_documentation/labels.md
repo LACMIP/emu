@@ -9,7 +9,7 @@ Printing labels from EMu is simple. First you will need to do a search to bring 
 
 {% include figure image_path="/assets/images/labels_screenshot_1.png" alt="image of EMu windows related to printing labels" caption="EMu generates labels as a Crystal report, which then must be printed." %}
 
-The Crystal report window that EMu has opened only gives you a preview of the first page of labels. To print or save your labels, click on the *Print* icon at the top left corner (circled in red in the image above). Leave the settings on the first dialog box (*Page Setup*) as they are and click *Print*. In the second dialog box (*Print*), select *Microsoft XSP Document* and then click *Print*. This will allow you to save the label report as an *.XPS* file, which can then be printed.
+The Crystal report window that EMu has opened only gives you a preview of the first page of labels. To print or save your labels, click on the *Print* icon at the top left corner (circled in red in the image above). Leave the settings on the first dialog box (*Page Setup*) as they are and click *OK*. In the second dialog box (*Print*), select *Microsoft XSP Document Writer* and then click *Print*. This will allow you to save the label report as an *.XPS* file, which can then be printed.
 
 If you are working via the VPN, you will need to download the *.XPS* file onto your local machine and print from there. Please note that you **cannot print this type of file from a Mac computer**. LACMIP labels are set up to use the *.XPS* format versus something more portable, e.g. *.PDF*, because it provided better control over layout and size.
 
