@@ -11,7 +11,7 @@ collections:
   documentation:
     output: true
     permalink: /:collection/:path/
-  set:
+  tag:
     output: true
     permalink: /:collection/:path/
 
@@ -31,11 +31,12 @@ defaults:
         nav: "default"
   - scope:
       path: ""
-      type: set
+      type: tag
     values:
       layout: tag
       entries_layout: grid
       sort_by: title
+      classes: wide
       #author_profile: false
       #read_time: false
       #comments: false
@@ -286,7 +287,7 @@ category_archive:
   path: /categories/
 tag_archive:
   type: liquid
-  path: /set/
+  path: /tag/
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:

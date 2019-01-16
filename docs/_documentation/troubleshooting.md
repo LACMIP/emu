@@ -1,6 +1,6 @@
 ---
 title: Troubleshooting
-navcat: Basic Info
+navcat: Basics
 tags:
 ---
 ## Problem: Marconi times out

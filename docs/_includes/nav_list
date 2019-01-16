@@ -1,5 +1,5 @@
 {% if page.sidebar.nav == 'default' %}
-  {% assign navigation = site.documentation | group_by: 'navcat' %}
+  {% assign navigation = site.documentation | group_by: 'navcat' | sort: 'name' %}
   <nav class="nav__list">
     {% if page.sidebar.title %}<h3 class="nav__title" style="padding-left: 0;">{{ page.sidebar.title }}</h3>{% endif %}
     <input id="ac-toc" name="accordion-toc" type="checkbox" />

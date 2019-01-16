@@ -5,87 +5,8 @@
     "columnNames": [
       "Placemark - Point - coordinates",
       "Placemark - description",
-      "Placemark - ExtendedData - SchemaData - SimpleData - name",
-      "Placemark - ExtendedData - SchemaData - SimpleData"
+      "Placemark - name"
     ]
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column Placemark - ExtendedData - SchemaData - SimpleData using expression null",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": [
-        {
-          "omitError": false,
-          "expression": "value",
-          "selectBlank": false,
-          "selection": [
-            {
-              "v": {
-                "v": "SitSiteNumber",
-                "l": "SitSiteNumber"
-              }
-            },
-            {
-              "v": {
-                "v": "SitSiteNum",
-                "l": "SitSiteNum"
-              }
-            }
-          ],
-          "selectError": false,
-          "invert": true,
-          "name": "Placemark - ExtendedData - SchemaData - SimpleData - name",
-          "omitBlank": false,
-          "type": "list",
-          "columnName": "Placemark - ExtendedData - SchemaData - SimpleData - name"
-        }
-      ]
-    },
-    "columnName": "Placemark - ExtendedData - SchemaData - SimpleData",
-    "expression": "null",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column Placemark - ExtendedData - SchemaData - SimpleData - name using expression null",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": [
-        {
-          "omitError": false,
-          "expression": "value",
-          "selectBlank": false,
-          "selection": [
-            {
-              "v": {
-                "v": "SitSiteNumber",
-                "l": "SitSiteNumber"
-              }
-            },
-            {
-              "v": {
-                "v": "SitSiteNum",
-                "l": "SitSiteNum"
-              }
-            }
-          ],
-          "selectError": false,
-          "invert": true,
-          "name": "Placemark - ExtendedData - SchemaData - SimpleData - name",
-          "omitBlank": false,
-          "type": "list",
-          "columnName": "Placemark - ExtendedData - SchemaData - SimpleData - name"
-        }
-      ]
-    },
-    "columnName": "Placemark - ExtendedData - SchemaData - SimpleData - name",
-    "expression": "null",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
   },
   {
     "op": "core/row-removal",
@@ -126,69 +47,46 @@
           ],
           "selectError": false,
           "invert": false,
-          "name": "Placemark - ExtendedData - SchemaData - SimpleData - name",
+          "name": "Placemark - name",
           "omitBlank": false,
           "type": "list",
-          "columnName": "Placemark - ExtendedData - SchemaData - SimpleData - name"
+          "columnName": "Placemark - name"
         }
       ]
     }
-  },
-  {
-    "op": "core/fill-down",
-    "description": "Fill down cells in column Placemark - description",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "Placemark - description"
-  },
-  {
-    "op": "core/fill-down",
-    "description": "Fill down cells in column Placemark - Point - coordinates",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "Placemark - Point - coordinates"
   },
   {
     "op": "core/row-removal",
     "description": "Remove rows",
     "engineConfig": {
-      "mode": "row-based",
+      "mode": "record-based",
       "facets": [
         {
           "omitError": false,
-          "expression": "value",
+          "expression": "grel:value.contains(\"georef date (yyyy-mm-dd): 2\")",
           "selectBlank": false,
           "selection": [
             {
               "v": {
-                "v": "SitSiteNum",
-                "l": "SitSiteNum"
+                "v": true,
+                "l": "true"
               }
             }
           ],
           "selectError": false,
           "invert": true,
-          "name": "Placemark - ExtendedData - SchemaData - SimpleData - name",
+          "name": "Placemark - description",
           "omitBlank": false,
           "type": "list",
-          "columnName": "Placemark - ExtendedData - SchemaData - SimpleData - name"
+          "columnName": "Placemark - description"
         }
       ]
     }
   },
   {
-    "op": "core/column-removal",
-    "description": "Remove column Placemark - ExtendedData - SchemaData - SimpleData - name",
-    "columnName": "Placemark - ExtendedData - SchemaData - SimpleData - name"
-  },
-  {
     "op": "core/column-rename",
-    "description": "Rename column Placemark - ExtendedData - SchemaData - SimpleData to SitSiteNumber",
-    "oldColumnName": "Placemark - ExtendedData - SchemaData - SimpleData",
+    "description": "Rename column Placemark - name to SitSiteNumber",
+    "oldColumnName": "Placemark - name",
     "newColumnName": "SitSiteNumber"
   },
   {

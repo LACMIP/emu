@@ -1,6 +1,6 @@
 ---
 title: Tips
-navcat: Basic Info
+navcat: Basics
 tags:
 ---
 See the [Keyboard Shortcuts & Quick Reference Guide](http://help.emu.axiell.com/latest/en/Resources/Downloads/Quick%20Reference%20Guide/EMu_QuickRef_Guide_IE_20170629.pdf) from Axiell.

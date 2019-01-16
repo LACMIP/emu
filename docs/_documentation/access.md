@@ -1,6 +1,6 @@
 ---
 title: Accessing EMu
-navcat: Basic Info
+navcat: Basics
 tags: cataloging
 ---
 ## User accounts

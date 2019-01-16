@@ -13,6 +13,32 @@ User-friendly documentation can be found at [https://lacmip.github.io/lacmip/](h
 
 Content for this site is maintained in the [docs](/docs/) directory and hosted by GitHub Pages. Please see below for information about contributing to the documentation. You must be logged into GitHub and have the correct permissions to directly edit anything in this repository.
 
+```
+Repository Structure
+
+lacmip
+  |-- docs                # files
+      |-- _data           #
+          |--
+      |-- _documentation  #
+          |--  
+      |-- _includes       #
+          |--
+      |-- _layouts        #
+          |--
+      |-- _tag            #
+          |--
+      |-- assets          #
+          |--
+      |-- script          #
+      |-- _config.yml     #
+      |-- Gemfile         #
+      |-- index.html      #
+  |-- lookups             # files
+  |-- scripts             # files
+
+```
+
 ### How to edit an existing page
 
 Find the page you wish to edit. Most should be located in the [docs/_documentation](docs/_documentation) directory.

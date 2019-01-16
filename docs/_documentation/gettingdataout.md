@@ -1,6 +1,6 @@
 ---
 title: Getting Data Out
-navcat: Basic Info
+navcat: Basics
 tags: taxonomy
 ---
 ## Moving files out of Marconi
