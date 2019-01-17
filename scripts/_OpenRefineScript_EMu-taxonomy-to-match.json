@@ -1281,7 +1281,7 @@
     "description": "Move column Ide2Qaulifier_tab to position 22",
     "columnName": "Ide2Qaulifier_tab",
     "index": 22
-  }
+  },
   {
     "op": "core/text-transform",
     "description": "Text transform on cells in column currentName_irn using expression null",
@@ -1314,5 +1314,147 @@
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column irn using expression value.toString()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "irn",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column currentName_irn using expression value.toString()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "currentName_irn",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column currentName_irn",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "currentName_irn",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "null"
+        ],
+        "to": ""
+      }
+    ]
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column currentName_irn using expression grel:value.replace(\".0\",\"\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "currentName_irn",
+    "expression": "grel:value.replace(\".0\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column irn using expression grel:value.replace(\".0\",\"\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "irn",
+    "expression": "grel:value.replace(\".0\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-reorder",
+    "description": "Reorder columns",
+    "columnNames": [
+      "irn",
+      "TAXON",
+      "ClaCurrentlyAccepted",
+      "currentName_irn",
+      "ClaKingdom",
+      "ClaPhylum",
+      "ClaSubphylum",
+      "ClaClass",
+      "ClaSubclass",
+      "ClaSuperorder",
+      "ClaOrder",
+      "ClaSuborder",
+      "ClaInfraorder",
+      "ClaSuperfamily",
+      "ClaFamily",
+      "ClaSubfamily",
+      "ClaTribe",
+      "ClaGenus",
+      "ClaSubgenus",
+      "ClaSpecies",
+      "ClaSubspecies",
+      "AutAuthorString",
+      "Ide2Qaulifier_tab",
+      "Ide2QualifierRank_tab"
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column Ide2Qaulifier_tab",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Ichnofossil",
+                "l": "Ichnofossil"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "ClaPhylum",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "ClaPhylum"
+        }
+      ]
+    },
+    "columnName": "Ide2Qaulifier_tab",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "sp."
+        ],
+        "to": "isp."
+      }
+    ]
   }
 ]
