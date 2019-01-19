@@ -3,11 +3,6 @@
 Please refer to and update this style guide to help maintain consistency in our internal documentation.
 For more information about theme formatting options, see the Minimal Mistakes documentation on [utility classes](https://mmistakes.github.io/minimal-mistakes/docs/utility-classes/) and [helpers](https://mmistakes.github.io/minimal-mistakes/docs/helpers/).
 
-## Page-level options
-
-There are several things you may wish to control at the page level by overwriting site defaults. These include...
-- remove the right-hand table of contents by including `toc: false` to the yml header of the page
-
 ## Including media in documentation pages
 
 To include a basic image with a caption, do so e.g.:
@@ -38,3 +33,16 @@ Use **bold** for emphasis, e.g. "After making an edit, **remember to commit**".
 Format code snippets with \`...\`, e.g. `bundle exec jekyll serve`.
 
 File extensions written as part of a filename are lowercase, e.g. *example.jpg*, but when written alone are uppercase, e.g. "the file should be a JPG."
+
+Highlight important information using classes, e.g. "whatever text I want to write `{: .notice--warning}`." Adding `{: .notice--warning}` after your text block will highlight it in a box with a light yellow background.
+
+## Page-level options
+
+There are several things you may wish to control at the page level by overwriting site defaults. These include...
+- remove the right-hand table of contents by including `toc: false` to the yml header of the page
+
+## Naming files
+
+Markdown files being added to the *_documentation* collection should be named descriptively yet succinctly. Do not use any character other than a-z.
+
+Image files should be named descriptively. Recommendation is to name them according to the page they are being linked to, e.g. *labels_designs.jpg* is linked to the labels page.
