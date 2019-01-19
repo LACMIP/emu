@@ -70,7 +70,7 @@ This header contains "front matter" that the website uses to set itself up. It i
 
 Once you have added the header, the rest of your new page should be formatted in markdown. Please refer to our [style guide](styleguide.md) to maintain consistency across documentation. When you have finished writing your new page, commit the changes and refresh the documentation website to make sure everything looks as you expected.
 
-### How to make bigger changes to the website:
+### How to make bigger changes to the website
 
 The documentation website is hosted by GitHub Pages and based on the [Minimal Mistakes](mistakes.github.io/minimal-mistakes) remote theme. Please read up on both of these before diving into structural edits. Most theme files are hosted remotely by Minimal Mistakes; any defaults that are being overwritten should be listed in the repository structure figure at the top of this page.
 
