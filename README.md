@@ -70,11 +70,11 @@ This header contains "front matter" that the website uses to set itself up. It i
 
 Once you have added the header, the rest of your new page should be formatted in markdown. Please refer to our [style guide](styleguide.md) to maintain consistency across documentation. When you have finished writing your new page, commit the changes and refresh the documentation website to make sure everything looks as you expected.
 
-## How to make bigger changes to the website:
+### How to make bigger changes to the website:
 
 The documentation website is hosted by GitHub Pages and based on the [Minimal Mistakes](mistakes.github.io/minimal-mistakes) remote theme. Please read up on both of these before diving into structural edits. Most theme files are hosted remotely by Minimal Mistakes; any defaults that are being overwritten should be listed in the repository structure figure at the top of this page.
 
-### Initial set-up on your local machine
+#### Initial set-up on your local machine
 
 You'll probably want to make bigger changes in a local environment vs. the GitHub website. To set up your local workspace...
 
@@ -83,7 +83,7 @@ You'll probably want to make bigger changes in a local environment vs. the GitHu
 1. Install Bundler by running `gem install bundler` in your command line.
 1. Install Jekyll and other dependencies by running `bundle install` in your command line.
 
-### Any time you want to work locally
+#### Any time you want to work locally
 
 1. In your command line interface, navigate to the GitHub Desktop instance of */lacmip/docs*, and run the command `bundler`. In Terminal, navigating to this directory might involve a command e.g. `cd Documents/GitHub/lacmip/docs`. You can check that you are in the folder you think you're in by entering `ls` to list the directory contents.
 1. Edit website files as you wish in a text editor, e.g. [Atom](https://atom.io/).
