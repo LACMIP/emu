@@ -8,7 +8,7 @@ Each module has four possible screen modes–Search, Display, New, and Edit–de
 ## Search mode
 Search mode allows you to find records, and is the default mode that opening any module will present. You can search for multiple values ("OR") in any field by typing each additional value on a new line.
 
-Please see [Advanced Searching](/search/) for more details. Axiell also has several good resources for learning more about EMU's search mode:
+Please see [Advanced Searching]({{ site.baseurl }}/documentation/search/) for more details. Axiell also has several good resources for learning more about EMu's search mode:
 - Information on [basic search](http://help.emu.axiell.com/latest/en/Topics/Common/How%20to%20search.htm)
 - Additional information on [advanced searching](http://help.emu.axiell.com/latest/en/Topics/Common/Search%20-%20section.htm)
 - [Cheatsheet](http://help.emu.axiell.com/latest/en/Resources/Downloads/Unicode/EMu_Unicode_Cheatsheet_IE_20170602.pdf) for search terms

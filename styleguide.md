@@ -28,13 +28,20 @@ Use *italics* for filenames and for names of columns/fields, e.g. *IPProject*.
 
 `"..."` for values of columns/fields, e.g. "FIC".
 
+Use *italics* and carrots for file paths as well as navigation paths, e.g. *Dropbox > EMu > Data Migration Archive* or *Tools > Reports > Report all*.
+
 Use **bold** for emphasis, e.g. "After making an edit, **remember to commit**".
 
 Format code snippets with \`...\`, e.g. `bundle exec jekyll serve`.
 
 File extensions written as part of a filename are lowercase, e.g. *example.jpg*, but when written alone are uppercase, e.g. "the file should be a JPG."
 
-Highlight important information using classes, e.g. "whatever text I want to write `{: .notice--warning}`." Adding `{: .notice--warning}` after your text block will highlight it in a box with a light yellow background.
+Highlight important information using classes, e.g.
+```
+whatever text I want to write
+{: .notice--warning}`.
+```
+Adding `{: .notice--warning}` on a new line after your text block will highlight it in a box with a light yellow background.
 
 ## Page-level options
 
