@@ -1,7 +1,7 @@
 ---
 title: Tips
 navcat: Basics
-tags:
+tags: quick-start
 ---
 Below is a non-exhaustive collection of tips for using EMu.
 

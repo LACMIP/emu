@@ -16,7 +16,7 @@ Open the KML file in a text editor and trim it by searching for the first instan
 
 Check data for integrity, then select only rows where the date in *LatDetDate0(-)* is after the last Google Earth export (look in *EMu > Data Migration Archive > Sites > Georeferencing* and at the most recently dated file name). Download this subset of new georeferences as a CSV.
 
-If you are using EMu remotely, log into the VPN and import the CSV to the remote desktop by dragging and dropping it. Open the file in Excel from within the VPN and copy the values of the *SitSiteNumber* column. Search for these values in EMu and make any existing “Preferred” georeferences not preferred, as shown in the figure below. This ensures that the new georeference coordinates get preference over any existing coordinates, which often come from less-accurate batch georeferencing.
+If you are using EMu remotely, log into the VPN and import the CSV to the remote desktop by dragging and dropping it. Open the file in Excel from within the VPN and copy the values of the *SitSiteNumber* column. [Search]({{ site.baseurl }}/documentation/search/) for these values in EMu and make any existing “Preferred” georeferences not preferred, as shown in the figure below. This ensures that the new georeference coordinates get preference over any existing coordinates, which often come from less-accurate batch georeferencing.
 
 {% include figure image_path="/assets/images/googleearth_replacepref.png" alt="screenshot of EMu replace tool" caption="Screenshot of the replace tool set up to find all values of 'Yes' in the *Preferred* field and replace them with 'No.'" %}
 

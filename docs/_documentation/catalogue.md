@@ -1,52 +1,19 @@
 ---
 title: Catalogue
 navcat: Modules
-tags: quick-start cataloging
+tags: cataloging quick-start
 ---
-The Catalogue Module is the primary record for information about each specimen lot, and a node linking together data from many of the other modules. Please see [Axiell's documentation](http://help.emu.axiell.com/latest/en/Topics/EMu/Catalogue%20module.htm) for generic information about this module.
+The Catalogue module is the primary place for information about each specimen lot, and a node linking together data from many of the other modules. Please see [Axiell's documentation](http://help.emu.axiell.com/latest/en/Topics/EMu/Catalogue%20module.htm) for generic information about this module.
 
 ## Default values
 
-Default values: Identifications - Filed As = "Yes"; Identifications - Currently Accepted = "Yes"; Invert. Paleo. - Disp. = "in collection"; Invert. Paleo. - Collection = "ST"
+*[need content]* Notes: Default values: Identifications - Filed As = "Yes"; Identifications - Currently Accepted = "Yes"; Invert. Paleo. - Disp. = "in collection"; Invert. Paleo. - Collection = "ST". Or Ctrl+; will enter today’s date.
+{: .notice--danger}
 
-Setting defaults for yourself: Ctrl+; will enter today’s date.
-
-Or you can set your own defaults or use one I’ve created for you.
-
-Login to EMu
-
-Select NEW RECORD
-
-EDIT -> Default Values -> Change
-
-Select 2018, then OK.
-
-Next time you create a new record you will see under Date Identified that 2018 is automatically filled in. Also, next time you use EMu your New Record default will be 2018.
-
-If you want to change it back to the base defaults:
-
-EDIT -> Default Values -> Change
-
-Select Base Defaults, then OK. (do not select No Defaults)
-
-If you want to change it to 2019:
-
-EDIT -> Default Values -> Change
-
-Select 2019, then OK.
-
-If you want to create your own defaults, please start with Base Defaults:
-
-EDIT -> Default Values -> Change
-
-Select Base Defaults, then OK.
-
-Exit New record (do not save)
-
-Open Catalog again (now you have a fresh Base Default to start from)
-
-Select NEW RECORD
-
-Enter your “default” data into your fields
-Reports
-[needs content]
+To set your own defaults:
+1. Select the *New Record* icon.
+1. Navigate to *Edit > Default Values > Change*.
+1. Select one of the existing default value options, or create your own:
+    1. Selecting "Base Defaults" will always return the settings to what they were originally. Never select "No Defaults".
+    1. If you want to create your own defaults, please start by selecting Base Defaults, then exiting the new record without saving and re-opening another new record. Enter the defaults you want into this record and  
+    1. EMu will remember whichever default you select the next time you log in.

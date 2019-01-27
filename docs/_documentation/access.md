@@ -1,7 +1,7 @@
 ---
 title: Accessing EMu
 navcat: Basics
-tags: cataloging
+tags: cataloging georeferencing quick-start taxonomy
 ---
 EMu is software that is hosted on an internal server and runs on your desktop. The Museum's database manager (Bill Mertz) is responsible for maintaining this system and for providing access.
 
@@ -28,7 +28,7 @@ To transfer files into the remote desktop, drag and drop them. You will see a st
 
 ## User Permissions
 
-LACMIP full-time staff should have rights to create, edit, and delete [Catalogue]({{ site.baseurl }}/documentation/catalogue/), [Multimedia]({{ site.baseurl }}/documentation/multimedia/), [Bibliography]({{ site.baseurl }}/documentation/bibliography/), [Site]({{ site.baseurl }}/documentation/sites/), and [Taxonomy]({{ site.baseurl }}/documentation/taxonomy/) records. Staff can create [Lookup]({{ site.baseurl }}/documentation/lookuplist/) and [Transaction]({{ site.baseurl }}/documentation/transactions/) records, but not delete or edit them. Staff can only view [Accession]({{ site.baseurl }}/documentation/accession/) and [Party]({{ site.baseurl }}/documentation/parties/) records.
+LACMIP full-time staff should have rights to create, edit, and delete [Catalogue]({{ site.baseurl }}/documentation/catalogue/), [Multimedia]({{ site.baseurl }}/documentation/multimedia/), [Bibliography]({{ site.baseurl }}/documentation/bibliography/), [Site]({{ site.baseurl }}/documentation/sites/), and [Taxonomy]({{ site.baseurl }}/documentation/taxonomy/) records. Staff can create [Lookup]({{ site.baseurl }}/documentation/lookuplist/) and [Transaction]({{ site.baseurl }}/documentation/transactions/) records, but not delete or edit them. Staff can only view [Accession]({{ site.baseurl }}/documentation/accessions/) and [Party]({{ site.baseurl }}/documentation/parties/) records.
 
 Permissions for LACMIP part-time staff, interns, and volunteers can be set on a case-by-case basis by the Museum's database manager.
 

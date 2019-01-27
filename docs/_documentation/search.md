@@ -3,44 +3,36 @@ title: Advanced Searching
 navcat: Basics
 tags:
 ---
-You can search for existing Loc IDs using copy and PASTE (INSERT) in EMu.
+EMu offers a variety of methods to search for records. Please see the [Search Modes]({{ site.baseurl }}/documentation/modes/) documentation for an overview. Axiell also has several good resources for learning more about searching in EMu:
+- information on [basic search](http://help.emu.axiell.com/latest/en/Topics/Common/How%20to%20search.htm)
+- additional information on [advanced searching](http://help.emu.axiell.com/latest/en/Topics/Common/Search%20-%20section.htm)
+- [cheatsheet](http://help.emu.axiell.com/latest/en/Resources/Downloads/Unicode/EMu_Unicode_Cheatsheet_IE_20170602.pdf) for search terms
 
-Using your Barstow file as an example.
-Open the file in Excel
-Highlight the SitSiteNumber column and COPY
-Open EMu in SEARCH mode
-Right-click in Loc ID and select PASTE(INSERT)
+## List of values
 
-Search
-Run your Replace
+You can copy-paste a list of values into EMu using the **"Paste (Insert)"** command. To access this command, copy a list either from a spreadsheet or text file (each value needs to be on a new line), then right-click in the field for which you want to paste.
 
-If PASTE(INSERT) is grayed out, left click in any other field then RIGHT-click in Loc ID. If you are on a Mac, you’ll need to click with two fingers on your trackpad to “right click.”
+{% include figure image_path="/assets/images/search_pasteinsert.png" alt="screenshot of paste-insert" caption="Screenshot illustrating 'Paste (Insert)' command in the EMu search. If the command is grayed out, as it is here, try left-clicking in any other field and then **right**-clicking in the field you wish to paste into." %}
 
-QUESTION: I want to be able to bring up all the catalog records where there is only one identification. How can I do this? My question is specific but also broad, i.e. how can I search for number of rows within a nested table?
+On a Mac you’ll need to click with two fingers on your trackpad to right-click.
+{: .notice--warning}
 
-ANSWER: Normally it is not possible to run this kind of search (outside of a report). However, the particular “table” search you want to do is possible due to the nature of the “Filed As” field.
+## Nested tables
 
-Because “Filed As” is always YES in one ID and always NO if there is any second ID, we can use that to find records with single IDs.
+The design of EMu involves nested tables, i.e. a table of values that exists within a record, which is itself a row in a table. For instance, the Catalogue record for LACMIP 24000.1 is represented in the EMu database as a row in the Catalogue Module table, and within this row there is another set of rows holding the data in the *Alternative Numbers* fields.
 
-First search for “Filed As” = YES. This should find all of your records with an ID. Then FILE-> Additional Search->Subtract(NOT). Check “Filed As” = NO.
+{% include figure image_path="/assets/images/search_nestedtable.png" alt="screenshot of nested table" caption="EMu's Catalogue module stores *Alternative Numbers* in a nested table with fields for *Inst. Code* and *Inst. Number*." %}
 
-Result is 3,405 records with only “Yes” and no “No” IDs. Meaning no second IDs.
+**Nested tables can make searching in EMu  difficult.** Consider a situation where you want to be able to bring up all the site records where there are more than one set of georeferencing coordinates. In other words, you want to search by the number of rows within a nested table. This kind of search requires a report, as does any search that requires pairing values within a nested table, e.g. site records where one of the Lat/Long coordinates has both *Determined By*="Dalton, Trevor" and *Preferred*="No".
 
-To verify you can run a single search of “Filed As” = NO. This will result in all records with a second ID (since “Filed As” must = Yes if there is only one ID). That result is 695 records, which is the difference of your total 4100 – 3405 = 695.
+## Specimen identifications
 
-As noted earlier, other “table” searches aren’t this easy and require a report to determine the table sizes.
+Searching for specimens by their taxonomic identification will also bring up records that are identified with related names, i.e. synonyms.
 
-Search in Taxonomy for Apis oligocenica
-You will find 8 records -- Apis (Synapsis) henshawi henshawi
+## Records with multimedia
 
-If you want to search for records actually identified as Apis oligocenica, then place a % in front.
-%Apis oligocenica
+The easiest way to find all records (e.g. in the Catalogue module) that have multimedia attached is to search for `\+` in the *Title* field of the *Multimedia* tab.
 
-The % tells EMu not to search for the related names.
+## Saved searches
 
-The fastest way to find all catalog records that have multimedia attached is to search in catalog TITLE with \+
-
-Axiell also has several good resources for learning more about EMU's search mode:
-- Information on [basic search](http://help.emu.axiell.com/latest/en/Topics/Common/How%20to%20search.htm)
-- Additional information on [advanced searching](http://help.emu.axiell.com/latest/en/Topics/Common/Search%20-%20section.htm)
-- [Cheatsheet](http://help.emu.axiell.com/latest/en/Resources/Downloads/Unicode/EMu_Unicode_Cheatsheet_IE_20170602.pdf) for search terms
+You may want to save commonly-used search criteria as a Group. To learn more about groups, see documentation [here]({{ site.baseurl }}/documentation/groups/).

@@ -1,6 +1,6 @@
 ---
-title: Georeferencing
-navcat: Workflows
+title: Groups
+navcat: Basics
 tags: georeferencing
 ---
 *[need content]*
