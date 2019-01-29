@@ -4,6 +4,7 @@ url: "https://lacmip.github.io"
 baseurl: "/lacmip"
 url_scripts: "https://github.com/LACMIP/lacmip/tree/master/scripts/"
 url_lookups: "https://github.com/LACMIP/lacmip/tree/master/lookups/"
+url_documentation: "https://github.com/LACMIP/lacmip/blob/master/docs"
 logo: "assets/img/lacmip-logo.jpg"
 remote_theme: "mmistakes/minimal-mistakes@4.14.1"
 
