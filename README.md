@@ -24,10 +24,10 @@ lacmip
       |-- _layouts          
         |-- single.html     # overwrite for theme layout to get rid of default pagination
       |-- _tag              # add files in this collection to add a new documentation functional category
-        |-- cataloging.md
-        |-- georeferencing.md
-        |-- quick-start.md
-        |-- taxonomy.md
+        |--[example.md]
+        |--[example.md]
+        |--[example.md]
+        |--...  
       |-- assets            
         |-- images          # single folder for any images related to the site
       |-- script            # default theme scripts related to website design
