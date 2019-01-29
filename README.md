@@ -23,7 +23,7 @@ lacmip
         |-- tag-list.html   # overwrite for theme code to make tags on collection items function
       |-- _layouts          
         |-- single.html     # overwrite for theme layout to get rid of default pagination
-      |-- _tag              # add files in this collection to add a new documentation functional category
+      |-- _tag              # add files in this collection to add a new documentation set/category
         |--[example.md]
         |--[example.md]
         |--[example.md]
