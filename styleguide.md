@@ -12,7 +12,7 @@ To include a basic image with a caption, do so e.g.:
 
 To include a basic image without a caption, do so e.g.:
 ```
-![image-right]({{ site.baseurl }}/assets/images/tray1.jpg){: .align-right}
+<img src="{{ site.baseurl }}/assets/images/access_login.png" alt="" width="100"/>{: .align-right}
 ```
 
 To include a video, do so e.g.:
