@@ -3,7 +3,7 @@ title: Advanced Searching
 navcat: Basics
 tags:
 ---
-EMu offers a variety of methods to search for records. Please see the [Search Modes]({{ site.baseurl }}/documentation/modes/) documentation for an overview. Axiell also has several good resources for learning more about searching in EMu:
+EMu offers a variety of methods to search for records. Please see the [Search Modes]({{ site.baseurl }}/documentation/modes/) documentation for an overview, or below for assorted advanced topics. Axiell also has several good resources for learning more about searching in EMu:
 - information on [basic search](http://help.emu.axiell.com/latest/en/Topics/Common/How%20to%20search.htm)
 - additional information on [advanced searching](http://help.emu.axiell.com/latest/en/Topics/Common/Search%20-%20section.htm)
 - [cheatsheet](http://help.emu.axiell.com/latest/en/Resources/Downloads/Unicode/EMu_Unicode_Cheatsheet_IE_20170602.pdf) for search terms
@@ -28,6 +28,16 @@ The design of EMu involves nested tables, i.e. a table of values that exists wit
 ## Specimen identifications
 
 Searching for specimens by their taxonomic identification will also bring up records that are identified with related names, i.e. synonyms.
+
+## Records with attachments
+
+It is often useful to search for records where an attachment exists to another type of record, for example, you may want to see **all localities for which we have cataloged specimens**. To get this data, we need to ask EMu to search for all site records that are attached to a catalogue record.
+
+1. Begin in the Sites module and navigate to the *Objects* tab. If you do not see the *Objects* tab, you can make it visible by going to *View > Attachments > Options > Show Search Tabs*.
+1. Attach **all** catalogue records to the Sites search, as illustrated in the screenshot below.
+1. Click on the binocular icon to run your search in the Sites module. This is a resource-intensive search and will likely take several minutes.
+
+{% include figure image_path="/assets/images/search_attachments.png" alt="screenshot of searching by attachments in EMu." caption="From the *Objects* tab of the Sites module, click on the green plus icon to bring you to the Catalogue module search. Pull up **all** catalogue records by entering nothing and clicking the binocular icon. Select the search results and attach them to the Sites module using the double green plus icon." %}
 
 ## Records with multimedia
 

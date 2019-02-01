@@ -19,5 +19,5 @@ Please note that for any of the export methods below, there are a couple extra s
 
 ## Complex reports
 
-*[need content]*
+*[need content]* Notes: For reports that generate an Excel file, you may need to open the file in Excel within the VPN first.
 {: .notice--danger}

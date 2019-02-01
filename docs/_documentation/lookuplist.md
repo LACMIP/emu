@@ -25,7 +25,9 @@ You may need to add values to a lookup list if it populates a dropdown menu, or 
 
 {% include figure image_path="/assets/images/lookuplist_addvalue.png" alt="screenshot of a Lookup List record" caption="The example Lookup List record here belongs to the Lithostratigraphic lookup, and each level corresponds to a lithostratigraphic hierarchy: group, formation, and member. Not all formations belong to a group in LACMIP data, and therefore the first level has no value." %}
 
-Leave the example record open while also opening a new Lookup List record. Enter the *Lookup List Name*, and values for whatever levels are appropriate. Choose for the record to be either persistent or non-persistent (most of the time if you are going to the trouble of adding a lookup list record, you'll want it to be persistent). You should only edit fields on the first tab (*Lookup 1*)of this module. Keep in mind that while LACMIP staff have permission to add values, they cannot edit the content of values. For this reason, it is important to check your work and make sure spelling, etc. is correct before you save the new Lookup List record.
+Leave the example record open while also opening a new Lookup List record. Enter the *Lookup List Name*, and values for whatever levels are appropriate. Choose for the record to be either persistent or non-persistent (most of the time if you are going to the trouble of adding a lookup list record, you'll want it to be persistent). You should only edit fields on the first tab (*Lookup 1*) of this module. Keep in mind that while LACMIP staff have permission to add values, they cannot edit the content of values. For this reason, it is important to check your work and make sure spelling, etc. is correct before you save the new Lookup List record.
+
+You can also add values to the Lookup Lists module in bulk via a CSV file. Please contact the museum's database manager if you are interested in this option.
 
 ## Cleaning up values in a lookup
 

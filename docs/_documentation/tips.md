@@ -10,6 +10,18 @@ Below is a non-exhaustive collection of tips for using EMu.
 - The [Keyboard Shortcuts & Quick Reference Guide](http://help.emu.axiell.com/latest/en/Resources/Downloads/Quick%20Reference%20Guide/EMu_QuickRef_Guide_IE_20170629.pdf) has useful key commands that can help you use EMu more efficiently. Keep in mind that not all key commands work on a Mac and/or via the VPN remote access.
 - Field names in EMu can be difficult because they are frequently re-used between modules. This help page goes over [finding a field](http://help.emu.axiell.com/latest/en/Topics/Common/Find%20a%20field.htm).
 
+## Default settings
+
+You can view and change your default settings by right-clicking anywhere on Command Center (where the modules are displayed), and selecting *Options*. The following are settings on the *General* tab that you may want to personalize:
+- *Save Last Position*: EMu will remember where modules and the Command Center were displayed on your screen.
+- *Save Last Size*: As above, but EMu remembers the modules’ last size.
+- *Show Field Help in Module Window*: Displays field help at bottom. Useful only if you’ve added help info to your fields (which LACMIP mostly has not).
+- *Refresh Changed Records*: You may want to uncheck this. If checked, and you have multiple instances open (e.g. two Catalogue modules open at once) EMu updates both instances when one is edited. This can take a long time if thousands of records are opened in both instances.
+- *Only Refresh if Less than*: If the above is checked, try setting a small number here (example: 100). In this case, EMu will skip the *Refresh Changed Records* process on instances displaying more than 100 records.
+- *Cache Registry Lookups*: This should **always** be checked.
+- *Clear Cache button*: This is used to reset the registry without having to restart EMu.
+- *Cache System Resources*: Leave unchecked. This option was developed for old operating systems.
+
 ## Improving EMu's performance
 
 If you are using EMu over the VPN, it often performs slowly. This may be due to the speed & stability of your internet connection, the configuration of EMu, or a combination of both. The following adjustments may help.

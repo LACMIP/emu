@@ -11,7 +11,29 @@ Search mode allows you to find records, and is the default mode that opening any
 
 {% include figure image_path="/assets/images/modes_search.png" alt="search mode" caption="Search mode of the Catalogue module in EMu." %}
 
-You can search for multiple values ("OR") in any field by typing each additional value on a new line. For more details, see [Advanced Searching]({{ site.baseurl }}/documentation/search/), as well as the documentation on searching from Axiell:
+### Basic operators
+
+Use basic boolean operators to customize your search in EMu. To search **AND**, place both terms on the same line. To search **OR**, place both terms on separate lines. To search **NOT**, place `\!` in front of the term. To search for a specific phrase, use quotes e.g. `\"tuna canyon\"`
+
+### Wildcards
+
+The following wildcards are useful to know when searching EMu. Remember to use the `\` escape character.
+- `\*` means any character, e.g. `appl\*` will find "apple," "apply," "application," etc.
+- `\*` placed alone means anything, a.k.a. not an empty field
+- `\?` means substitute one character, e.g `appl\?` Will find "apple" and "apply"
+- `\^` placed at beginning means “starts with”, e.g. `\^card` will find "Card Game", but not "Yellow Card."
+- `\$` placed at end means “ends with”, e.g. `card\$` will find "Yellow Card,"" but not "Card Game."
+- `\!\*` means not anything, a.k.a. an empty field
+
+Combine wildcards to make your search more specific, e.g. `\^apple\$` returns "apple" but not "apple jar" or "red apple."
+
+### Range searches
+
+You can search numeric fields (i.e. integers) and dates using a range, for example `>=35 <=45` in the *Lot No.* field will search for lot numbers 35 through 45. Or `>=8/1/2015 <= 1/31/2019` in the *Collecting Date* will search for specimens collected between 8/1/2015 and 1/31/2019.
+
+### Additional resources
+
+For more details, see [Advanced Searching]({{ site.baseurl }}/documentation/search/), as well as the documentation on searching from Axiell:
 - information on [basic search](http://help.emu.axiell.com/latest/en/Topics/Common/How%20to%20search.htm)
 - additional information on [advanced searching](http://help.emu.axiell.com/latest/en/Topics/Common/Search%20-%20section.htm)
 - [cheatsheet](http://help.emu.axiell.com/latest/en/Resources/Downloads/Unicode/EMu_Unicode_Cheatsheet_IE_20170602.pdf) for search terms
