@@ -34,7 +34,7 @@ The *Re-identify* tool allows you to choose between affecting the *Current Recor
 <img src="{{ site.baseurl }}/assets/images/reidentify_dialog.png" alt="" width="400"/>{: .align-right}
 In the new window that EMu brings up, enter all of the same information as you are used to entering at the specimen level. **For bulk re-identifications, you should include a comment if you did not look at each specimen.** Remember to change both *Currently Accepted?* and *Filed as?* to "Yes" if you are updating the identification to a current name or "No" if you are adding an old identification to the catalogue record. The only specimens where a single name should have different values for *Currently Accepted?* and *Filed as?* are types.
 
-<img src="{{ site.baseurl }}/assets/images/reidentifications_non-types.png" alt="" width="100"/>{: .align-right}
+<img src="{{ site.baseurl }}/assets/images/reidentifications_non-types.jpg" alt="" width="100"/>{: .align-right}
 
 ## Checking data quality
 
