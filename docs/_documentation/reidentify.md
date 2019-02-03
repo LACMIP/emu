@@ -32,9 +32,11 @@ When taxonomy itself changes, you may want to use EMu's *Re-identify* tool to up
 The *Re-identify* tool allows you to choose between affecting the *Current Record* or *Selected Records*. For taxonomic name updates, you'll likely want to use *Selected Records*, with all of the records in your search results included.
 
 <img src="{{ site.baseurl }}/assets/images/reidentify_dialog.png" alt="" width="400"/>{: .align-right}
-In the new window that EMu brings up, enter all of the same information as you are used to entering at the specimen level. **For bulk re-identifications, you should include a comment if you did not look at each specimen.** Remember to change both *Currently Accepted?* and *Filed as?* to "Yes" if you are updating the identification to a current name or "No" if you are adding an old identification to the catalogue record. The only specimens where a single name should have different values for *Currently Accepted?* and *Filed as?* are types.
+In the new window that EMu brings up, enter all of the same information as you are used to entering at the specimen level. **For bulk re-identifications, you should include a comment if you did not look at each specimen.** (Suggested comment: "Taxonomy updated, but specimen not examined.")Remember to change both *Currently Accepted?* and *Filed as?* to "Yes" if you are updating the identification to a current name or "No" if you are adding an old identification to the catalogue record. The only specimens where a single name should have different values for *Currently Accepted?* and *Filed as?* are types.
 
-<img src="{{ site.baseurl }}/assets/images/reidentifications_non-types.jpg" alt="" width="400"/>{: .align-right}
+<img src="{{ site.baseurl }}/assets/images/reidentify_non-types.jpg" alt="" width="400"/>{: .align-right}
+<img src="{{ site.baseurl }}/assets/images/reidentify_types1.jpg" alt="" width="400"/>{: .align-right}
+
 
 ## Checking data quality
 
