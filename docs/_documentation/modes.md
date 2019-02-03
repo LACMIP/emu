@@ -9,7 +9,7 @@ Each module has four possible screen modes–Search, Display, New, and Edit–de
 
 Search mode allows you to find records, and is the default mode that opening any module will present.
 
-{% include figure image_path="/assets/images/modes_search.png" alt="search mode" caption="Search mode of the Catalogue module in EMu." %}
+{% include figure image_path="/assets/images/modes_search.png" alt="search mode" caption="Search mode of the Catalogue module in EMu. Note that the two icons circled in red, above, allow you to return to search from your results. The icon with a red x will bring you back to a new search, and the icon without an x will return you to the same search criteria." %}
 
 ### Basic operators
 
@@ -44,7 +44,11 @@ The results of a search are presented to you in display mode, which is a group o
 
 {% include figure image_path="/assets/images/modes_display.png" alt="display mode" caption="Display mode of the Catalogue module in EMu." %}
 
+### Sorting records
+
 By default, records in display mode are sorted by their IRNs. You can change the sort criteria under either  *Tools > Sort Results* (for sorts you want to be able to share or access frequently) or *Tools > Ad-hoc Sort* (for a sort that you only need to use now). If you'd like to set the default sort to something other than IRN, right-click on one of your sort options and select “Sort After Search”. The selected sort option will be designated by bold text, and will automatically run after every search in this module.
+
+### Adjusting display columns
 
 You can change the columns that are visible in each module's display mode under *View > List Settings*.
 
@@ -52,25 +56,31 @@ If a column displays a nested table, you may need to expand the line height in o
 
 ## Edit mode
 
-If you have permission to edit a record, you will be in edit mode when you enter the "details" view of display mode.
+If you have permission to edit a record, you will be in edit mode when you enter the "details" view of display mode. Editing field-by-field on a single record is intuitive. For detailed information on what to edit, see the documentation for each module.
 
 {% include figure image_path="/assets/images/modes_edit.png" alt="edit mode" caption="Edit mode of the Catalogue module in EMu." %}
 
-Editing field-by-field on a single record is intuitive. For detailed information on what to edit, see the documentation for each module. Sometimes you need to make edits that affect multiple records and it would be inefficient to do them field-by-field, record-by-record. For this circumstance, EMu has a powerful tool called [Global Replace](http://help.emu.axiell.com/latest/en/Topics/Common/Global%20Replace.htm). You can easily create unintended consequences, so be careful and read the Axiell documentation (linked above) thoroughly. A few tips for using global replace...
+### Global replace
+
+Sometimes you need to make edits that affect multiple records and it would be inefficient to do them field-by-field, record-by-record. For this circumstance, EMu has a powerful tool called [Global Replace](http://help.emu.axiell.com/latest/en/Topics/Common/Global%20Replace.htm). You can easily create unintended consequences, so be careful and read the Axiell documentation (linked above) thoroughly. A few tips for using global replace...
 - when you use the global replace tool, it will do *all* replace commands listed, so remember to **clear any past replaces** when you enter a new one.
-- to use global replace to **fill blank fields with values**, use *Text to find:* = “^$” and be sure to check the regular expression box.
+- to use global replace to **fill blank fields with values**, use *Text to find:* = "^$" and be sure to check the regular expression box.
 - see [this article](http://help.emu.axiell.com/latest/en/Topics/Common/Wildcards%20in%20a%20Global%20Replace.htm) for information on advanced global replace using **wildcards**.
 
-Occasionally you may need to delete a record. Deleting records can be very slow due to EMu’s background validation checks, which run through all module attachments to avoid orphaning records. This takes time. To avoid having deletions be an interruption in your workflow, you can add them to a group and wait until an appropriate time to delete the entire group of records at once (maybe during lunch or at the end of the day). A similar option is to mark records as “Retired” on the security tab instead of deleting them. A “Retired” record will disappear from all searches and reports, and (if desired), can be deleted overnight. LACMIP does not typically use the retire functionality.
+### Deleting records
+
+Occasionally you may need to delete a record. Deleting records can be very slow due to EMu’s background validation checks, which run through all module attachments to avoid orphaning records. This takes time. To avoid having deletions be an interruption in your workflow, you can add them to a [group]({{ site.baseurl }}/documentation/groups/) and wait until an appropriate time to delete the entire group of records at once (maybe during lunch or at the end of the day). A similar option is to mark records as “Retired” on the security tab instead of deleting them. A “Retired” record will disappear from all searches and reports, and (if desired), can be deleted overnight. LACMIP does not typically use the retire functionality.
 
 ## New mode
 
-Create a new record in any module (that you have the permissions for) by clicking on the icon in the left of the top toolbar.
+Create a new record in any module (that you have the permissions for) by clicking on the icon in the left of the top toolbar. For more information about what data to put in which fields, see the documentation for each module. In general, EMu will let you know if you have forgotten to enter data into a required field, or if your data was entered in the wrong format. Axiell has a basic introduction to editing records in EMu [here](http://help.emu.axiell.com/latest/en/Topics/Common/Working%20with%20records.htm).
 
 {% include figure image_path="/assets/images/modes_new.png" alt="new mode" caption="New mode of the Catalogue module in EMu." %}
 
-For more information about what data to put in which fields, see the documentation for each module. In general, EMu will let you know if you have forgotten to enter data into a required field, or if your data was entered in the wrong format. Axiell has a basic introduction to editing records in EMu [here](http://help.emu.axiell.com/latest/en/Topics/Common/Working%20with%20records.htm).
+### Timesaving tips for new records
 
-Sometimes, data is recorded in a [nested table versus a single field](http://help.emu.axiell.com/latest/en/Topics/Common/Tables.htm). For more information on working with data in this format, see Axiell's documentation (linked above).
+Sometimes, data is recorded in a [nested table versus a single field](http://help.emu.axiell.com/latest/en/Topics/Common/Tables.htm). For more information on working with data in this format, see Axiell's documentation (linked above). Rows in a nested table can be copy-pasted into another nested table.
 
-If you are entering similar data in many new records, consider using the ditto function, which allows you to set a [record template](http://help.emu.axiell.com/latest/en/Topics/Common/Record%20Templates.htm).
+{% include figure image_path="/assets/images/modes_rowcopy.png" alt="copying a row in a nested table" caption="You can copy and paste an entire row from the nested table of one record to another." %}
+
+If you are entering similar data in many new records, consider using the [ditto function](http://help.emu.axiell.com/v5.1/en/Topics/Common/How%20to%20use%20the%20Ditto%20utility.htm), which allows you to set a [record template](http://help.emu.axiell.com/latest/en/Topics/Common/Record%20Templates.htm).

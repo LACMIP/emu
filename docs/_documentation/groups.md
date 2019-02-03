@@ -1,12 +1,9 @@
 ---
 title: Groups
 navcat: Modules
-tags: georeferencing
+tags:
 ---
-*[need content]*
-{: .notice--danger}
-
-After a search has been run you may want to save the group of records returned so that you can access them again; or you may want to save the search criteria used to generate this group of records (especially if the search is quite involved). There are thus two types of group:
+Groups are a useful way to save and share recordsets in EMu. If you have a set of search criteria that you frequently use, or a set of specific records that you need to share with another person, Groups will help.
 
 ## Create a static group
 

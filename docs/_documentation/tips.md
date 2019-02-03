@@ -10,7 +10,13 @@ Below is a non-exhaustive collection of tips for using EMu.
 - The [Keyboard Shortcuts & Quick Reference Guide](http://help.emu.axiell.com/latest/en/Resources/Downloads/Quick%20Reference%20Guide/EMu_QuickRef_Guide_IE_20170629.pdf) has useful key commands that can help you use EMu more efficiently. Keep in mind that not all key commands work on a Mac and/or via the VPN remote access.
 - Field names in EMu can be difficult because they are frequently re-used between modules. This help page goes over [finding a field](http://help.emu.axiell.com/latest/en/Topics/Common/Find%20a%20field.htm).
 
-## Default settings
+## Settings
+
+EMu can be customized to better facilitate the work you do in it. For instance, once you are accustomed to what information you generally need to see in each module, you can [set up shortcuts](http://help.emu.axiell.com/v5.1/en-US/Topics/Common/Shortcuts%20View.htm?Highlight=shortcuts) to display that information in a sidebar and save yourself the hassle of switching tabs.
+
+{% include figure image_path="/assets/images/tips_shortcuts.png" alt="shortcuts in the EMu Sites module" caption="Make the shortcuts pane visible to quickly see the information you typically need." %}
+
+### System options
 
 You can view and change your default settings by right-clicking anywhere on Command Center (where the modules are displayed), and selecting *Options*. The following are settings on the *General* tab that you may want to personalize:
 - *Save Last Position*: EMu will remember where modules and the Command Center were displayed on your screen.
@@ -21,6 +27,15 @@ You can view and change your default settings by right-clicking anywhere on Comm
 - *Cache Registry Lookups*: This should **always** be checked.
 - *Clear Cache button*: This is used to reset the registry without having to restart EMu.
 - *Cache System Resources*: Leave unchecked. This option was developed for old operating systems.
+
+### Default search settings
+
+This adjustment may help if you are having problems with searches taking a very long time.
+1. Right-click anywhere on Command Center (where the modules are displayed), and select *Options*.
+1. Select the *Searching* tab and change the following fields, then click OK:
+    - *Maximum search time*: place a number in here instead of leaving it as zero. Four minutes (240 seconds) is a good amount of search time to start with. If a search surpasses this maximum search time, a message will appear asking whether or not you want to abort.
+    - *Maximum records retrieved*: leave this as 0, or adjust to whatever amount makes sense for you or for a particular search.
+    - *Update search count every*: change to 0 if you don’t want EMu to dedicate any resources to bothering with this, or set a high number if you want EMu to spend fewer (but still some) resources.
 
 ## Improving EMu's performance
 
@@ -41,12 +56,3 @@ Changing your default caching settings in EMu affects the amount of time the pro
 
 For people doing specimen cataloging, we recommend setting *Cached at Startup* and *Maximum Cached* to 1 each for the Catalogue, Sites, and Taxonomy modules, and checking the box for *Read Modules Schema on Startup*. Startup definitely takes longer (up to 1.5 or even 2 minutes vs. 1-3 seconds) but that's not a big deal if the performance once EMu is running is significantly better, which it is!
 {: .notice--warning}
-
-### Change your default search settings in EMu
-
-This adjustment may help if you are having problems with searches taking a very long time.
-1. Right-click anywhere on Command Center (where the modules are displayed), and select *Options*.
-1. Select the *Searching* tab and change the following fields, then click OK:
-    - *Maximum search time*: place a number in here instead of leaving it as zero. Four minutes (240 seconds) is a good amount of search time to start with. If a search surpasses this maximum search time, a message will appear asking whether or not you want to abort.
-    - *Maximum records retrieved*: leave this as 0, or adjust to whatever amount makes sense for you or for a particular search.
-    - *Update search count every*: change to 0 if you don’t want EMu to dedicate any resources to bothering with this, or set a high number if you want EMu to spend fewer (but still some) resources.

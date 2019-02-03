@@ -8,6 +8,10 @@ EMu offers a variety of methods to search for records. Please see the [Search Mo
 - additional information on [advanced searching](http://help.emu.axiell.com/latest/en/Topics/Common/Search%20-%20section.htm)
 - [cheatsheet](http://help.emu.axiell.com/latest/en/Resources/Downloads/Unicode/EMu_Unicode_Cheatsheet_IE_20170602.pdf) for search terms
 
+## Additional searches
+
+EMu allows you to conduct a search within a search by going to *File > Additional Search.* Select *Merge (OR)...* if you want to add records based on additional search criteria. Select *Intersect (AND)...* if you want to narrow down the records in your current results based on additional search criteria. Select *Subtract (NOT)...* if you want to exclude records based on additional search criteria. 
+
 ## List of values
 
 You can copy-paste a list of values into EMu using the **"Paste (Insert)"** command. To access this command, copy a list either from a spreadsheet or text file (each value needs to be on a new line), then right-click in the field for which you want to paste.
