@@ -10,7 +10,9 @@ EMu offers a variety of methods to search for records. Please see the [Search Mo
 
 ## Additional searches
 
-EMu allows you to conduct a search within a search by going to *File > Additional Search.* Select *Merge (OR)...* if you want to add records based on additional search criteria. Select *Intersect (AND)...* if you want to narrow down the records in your current results based on additional search criteria. Select *Subtract (NOT)...* if you want to exclude records based on additional search criteria. 
+EMu allows you to conduct a search within a search by going to *File > Additional Search.* Select *Merge (OR)...* if you want to add records based on additional search criteria. Select *Intersect (AND)...* if you want to narrow down the records in your current results based on additional search criteria. Select *Subtract (NOT)...* if you want to exclude records based on additional search criteria.
+
+You can also use additional search from the results of a retrieved [group]({{ site.baseurl }}/documentation/groups/).
 
 ## List of values
 
