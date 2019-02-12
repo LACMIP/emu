@@ -19,7 +19,6 @@ Both CUSTOM and TYPICAL imports allow files encoded with either ANSI or UTF-8.  
 
 5. **Validate Data:** Import Data
 
-*Notes from Bill: To Validate Data or Import Data?*
 Validate Format: checks for incorrect field names
 Validate Data:  checks for incorrect field names and whether the data are valid (dates are going into date fields, and numbers are going into number fields). This option does not import any data; it only checks the data. 
 Import Data: Choose how attachments are processed during the import. If your import file includes attachments (…Ref fields, such as SitSiteRef_tab(1).irn) you may select how the EMu import tool handles them.
