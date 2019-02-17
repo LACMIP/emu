@@ -20,7 +20,7 @@ Locality placemarks in the *Rough Georeferencing* folder were generated automati
 
 Each placemark in the *Rough Georeferencing* folder has several metadata headers pre-filled in its notes field, as shown in the figure above. We will go over these metadata headers more later.
 
-In addition to having Google Earth running, you will also need to open EMu. For each locality, the state, county, and feature are given in the Google Earth placemark metadata, but you should always have the EMu [Sites module]({{ site.baseurl }}/documentation/sites/) open to reference the entirety of the information about a locality.
+In addition to having Google Earth running, you will also need to open EMu. For each locality, the state, county, and feature are given in the Google Earth placemark metadata, but you should always have the EMu [Sites module]({{ site.baseurl }}/documentation/sites/) open to check for associated images and to reference the entirety of the information about a locality.
 
 ## Georeferencing a locality listed in Google Earth
 
@@ -41,3 +41,17 @@ You should **always record the radius, georeference date, and georeferenced by**
 ## Georeferencing a locality that does not show up in Google Earth
 
 Only about 50% of the total LACMIP localities have any kind of placemark in Google Earth. Placemarks not represented in Google Earth are often foreign, and did not have locality data that lended itself to automated georeferencing for a variety of reasons. We will deal with these localities as need be, but if you are working on georeferencing a locality in Google Earth and notice (based on data in EMu) a nearby locality that is not in Google Earth, you may copy the Google Earth placemark, rename it with the additional locality number, and add the appropriate metadata.
+
+## Localities that cannot be georeferenced
+
+Not all site records have sufficient information to georeference. For example, a site with only "Southern California" in *Verbatim Locality* and "Ladd" in *Formation* does not have enough detail to be georeferenced. If you come across sites like this, please note them in the way described below so that we know they have been evaluated.
+
+{% include figure image_path="/assets/images/georeferencing_unable.png" alt="screenshot of EMu record for a site that cannot be georeferenced" caption="Screenshot demonstrating how to fill out fields on the *Lat/Long* tab of the EMu Sites module for a locality that cannot be georeferenced." %}
+
+For a site record where the locality description is too vague to georeference, fill out the following fields on the *Lat/Long* tab...
+- *Comment* = "needs verification" (or "verified by curator" if that applies to you)
+- *Determination Source* = "N/A"
+- *Determination Method* = "locality description inadequate for georeferencing"
+- *Determined By* = attach the Parties record for yourself
+- *Determination Date* = select today's date
+- *Preferred* = "Yes"

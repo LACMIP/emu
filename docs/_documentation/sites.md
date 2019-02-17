@@ -157,3 +157,8 @@ The *Notes* tab is a holding area for information about the verbatim collector n
 {% include figure image_path="/assets/images/sites_multimedia.png" alt="sites module in EMu" caption="Screenshot of the *Multimedia* tab of the Sites module. Double-clicking on the image icon (circled in red, above) will open the media in a larger window." %}
 
 The *Multimedia* tab displays any multimedia records that are attached to this site record, usually maps with localities marked on them by hand. These are invaluable resources for georeferencing and otherwise understanding where the site actually is.
+
+## Attachments
+
+<img src="{{ site.baseurl }}/assets/images/sites_attachments.png" alt="viewing attached records" width="400"/>{: .align-right}
+You may want to know whether we have cataloged any specimens from a given site. To find out, you can either search by the locality number in the [Catalogue module]({{ site.baseurl }}/documentation/catalogue/), or you can go to *View > Attachments > Current Record*. The latter will bring up a dialog window that looks like the one here, showing you the other modules (and number of records within) that have referenced this site record.

@@ -8,6 +8,7 @@ Below is a non-exhaustive collection of tips for using EMu.
 ## Useful links from Axiell
 
 - The [Keyboard Shortcuts & Quick Reference Guide](http://help.emu.axiell.com/latest/en/Resources/Downloads/Quick%20Reference%20Guide/EMu_QuickRef_Guide_IE_20170629.pdf) has useful key commands that can help you use EMu more efficiently. Keep in mind that not all key commands work on a Mac and/or via the VPN remote access.
+    - one especially handy shortcut **to navigiate between tabs** is *Ctrl* + *Shift* + [the leading letter of the tab label], e.g. *Ctrl* + *Shift* + *i* in the Catalogue module will take you to the *Identification (1)* tab.
 - Field names in EMu can be difficult because they are frequently re-used between modules. This help page goes over [finding a field](http://help.emu.axiell.com/latest/en/Topics/Common/Find%20a%20field.htm).
 
 ## Settings
