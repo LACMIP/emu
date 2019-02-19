@@ -1,12 +1,12 @@
 
 # Welcome
 
-This is a repository for documentation, lookups, and scripts related to specimen digitization in the Natural History Museum of Los Angeles invertebrate paleontology collections (LACMIP). Please see below for an overview of the repository structure and how to use/contribute. You must be logged into GitHub and have the correct permissions to directly edit anything in this repository.
+This is a repository for documentation, lookups, and scripts related to specimen digitization and the EMu collection management system in the Natural History Museum of Los Angeles invertebrate paleontology collections (LACMIP). Please see below for an overview of the repository structure and how to use/contribute. You must be logged into GitHub and have the correct permissions to directly edit anything in this repository.
 
 ```
 Repository Structure
 
-lacmip
+emu
   |-- docs                  # DOCUMENTATION WEBSITE FILES
       |-- _data             
         |-- navigation.yml  # edit to create top bar navigation (currently unused)
@@ -41,7 +41,7 @@ lacmip
 
 ## Documentation
 
-User-friendly documentation can be found at [https://lacmip.github.io/lacmip/](https://lacmip.github.io/lacmip/). Content for this site is maintained in the [docs](/docs/) directory and hosted by GitHub Pages.
+User-friendly documentation can be found at [https://lacmip.github.io/emu/](https://lacmip.github.io/emu/). Content for this site is maintained in the [docs](/docs/) directory and hosted by GitHub Pages.
 
 Documentation is written with markdown formatting. If you are unfamiliar with markdown, this is a good [brief introduction](https://guides.github.com/features/mastering-markdown/). If you are making extensive edits, please refer to our [style guide](styleguide.md) to maintain consistency across documentation.
 
@@ -86,7 +86,7 @@ You'll probably want to make bigger changes in a local environment vs. the GitHu
 
 #### Any time you want to work locally
 
-1. In your command line interface, navigate to the GitHub Desktop instance of */lacmip/docs*, and run the command `bundler`. In Terminal, navigating to this directory might involve a command e.g. `cd Documents/GitHub/lacmip/docs`. You can check that you are in the folder you think you're in by entering `ls` to list the directory contents.
+1. In your command line interface, navigate to the GitHub Desktop instance of */emu/docs*, and run the command `bundler`. In Terminal, navigating to this directory might involve a command e.g. `cd Documents/GitHub/emu/docs`. You can check that you are in the folder you think you're in by entering `ls` to list the directory contents.
 1. Edit website files as you wish in a text editor, e.g. [Atom](https://atom.io/).
 1. When you want to preview the website locally, run the command `bundle exec jekyll serve` in your command line and open the link it returns in your browser. You will need to exit and re-run this command if you edit the *_config.yml* file, but other files should refresh automatically.
 1. When you are ready to commit the changes you've made locally, open GitHub Desktop and push them to the master.
@@ -94,8 +94,8 @@ You'll probably want to make bigger changes in a local environment vs. the GitHu
 
 ## Lookups
 
- Commonly used lookups, e.g. for collector names or for EMu taxonomy, are available in the [lookups](/lookups/) directory. Please see the [documentation website](https://lacmip.github.io/lacmip/) for how to use.
+ Commonly used lookups, e.g. for collector names or for EMu taxonomy, are available in the [lookups](/lookups/) directory. Please see the [documentation website](https://lacmip.github.io/emu/) for how to use.
 
 ## Scripts
 
-Data cleaning and processing scripts to use with [OpenRefine](http://openrefine.org) are available in the [scripts](/scripts/) directory. Please see the [documentation website](https://lacmip.github.io/lacmip/) for how to use.
+Data cleaning and processing scripts to use with [OpenRefine](http://openrefine.org) are available in the [scripts](/scripts/) directory. Please see the [documentation website](https://lacmip.github.io/emu/) for how to use.
