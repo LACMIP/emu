@@ -119,13 +119,24 @@ Reference
 : Attach a Bibliography record to support your validity comment. For comments based on notes or specimens in the collection, this can be the "LACMIP Collection" record.
 
 Comments
-: Enter your comments here.
+: Enter your comments here. See table below for preferred comments and formatting consistency. 
 
 Comments by
 : Attach the Parties record for yourself or whoever is responsible for this comment.
 
 Date commented
-: Enter a date for the comment.
+: Enter the date for which the comment was created.
+
+Validity Comment | Explanation
+------------ | -------------
+Genus changed in Treatise 1996. | Add validity comment if rationale for taxonomic update needs documentation.
+Incertae sedis. Genus should be in quotation marks. | Track special characters (") using standardized validity comments.
+Genus should be in quotation marks. | Track special characters (?) using standardized validity comments.
+Track special characters (") using standardized validity comments. | Track special characters (") using standardized validity comments.
+Name found in collection; validity unknown. | Validity of taxon unknown. This is different than a questionable taxon occurrence, which can be tracked using "ANTIQUATED" in the Citation Remarks field.
+Name used in Statz Collection by Statz (validity unknown). | Validity of taxon unknown. This is different than a questionable taxon occurrence, which can be tracked using "ANTIQUATED" in the Citation Remarks field.
+Taxon only used by Pierce (validity unknown). | Validity of taxon unknown. This is different than a questionable taxon occurrence, which can be tracked using "ANTIQUATED" in the Citation Remarks field.
+Show name to R. L. Squires. | Begin "expert opinion" comments with "Show name to…"
 
 ## Permissions
 
