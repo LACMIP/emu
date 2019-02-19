@@ -49,7 +49,8 @@ Documentation is written with markdown formatting. If you are unfamiliar with ma
 
 1. Find the page you wish to edit. Most should be located in the [docs/_documentation](docs/_documentation) directory.
 1. Click on the filename, e.g. *access.md*, and then click on the pencil icon in the upper right corner to "Edit this file."
-1. Edit the content and formatting as you wish in the browser window. When you are ready to save, type a brief description in the "Commit Changes" box and click "Commit Changes."
+1. Edit the content and formatting as you wish in the browser window. Change the *last_modified_at* date in the header to reflect today's date.
+1. When you are ready to save, type a brief description in the *Commit Changes* box and click "Commit Changes."
 
 ### How to create a new page
 
