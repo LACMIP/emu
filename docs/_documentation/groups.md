@@ -2,6 +2,7 @@
 title: Groups
 navcat: Basics
 tags:
+last_modified_at: 2019-02-01
 ---
 Groups are a useful way to save and share recordsets in EMu. If you have a set of search criteria that you frequently use, or a set of specific records that you need to share with another person, Groups will help.
 

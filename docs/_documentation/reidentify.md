@@ -2,6 +2,7 @@
 title: Re-identifications
 navcat: Workflows
 tags: taxonomy
+last_modified_at: 2019-02-01
 ---
 Whether because of evolving taxonomy or differing expert opinions, re-identifying specimens is a constant aspect of maintaining biological collections. LACMIP maintains a record of past and present identifications in the [Catalogue module]({{ site.baseurl }}/documentation/catalogue/) of EMu.
 
@@ -54,4 +55,4 @@ Current ID: Yaadia hemphilli (an unaccepted name)
 Old ID: Yaadia sp. (where Yaadia is an accepted genus)
 ```
 
-You can use the re-identify tool to update specimen records returned by this search. 
+You can use the re-identify tool to update specimen records returned by this search.

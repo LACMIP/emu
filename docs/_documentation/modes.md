@@ -2,6 +2,7 @@
 title: Modes of Operation
 navcat: Basics
 tags: quick-start
+last_modified_at: 2019-02-01
 ---
 Each module has four possible screen modes–Search, Display, New, and Edit–depending on your task. These modes are briefly described below, and also covered in the documentation for specific modules.
 

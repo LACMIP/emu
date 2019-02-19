@@ -3,7 +3,7 @@ title: About EMu
 navcat: Basics
 tags: quick-start
 toc: false
-last_modified_at: 2019-01-01
+last_modified_at: 2019-02-01
 ---
 EMu is a collections management system (CMS) used by many large natural history museums. A brief overview is provided by its parent company, Axiell, on their [website](https://emu.axiell.com).
 

@@ -2,6 +2,7 @@
 title: Migrating from Access
 navcat: Workflows
 tags:
+last_modified_at: 2019-02-01
 ---
 LACMIP has been cataloging specimens in Microsoft Access since 2015, and continues to use the Access database for day-to-day cataloging. The process to migrate data from Access into EMu is described here.
 

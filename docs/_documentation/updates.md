@@ -3,6 +3,7 @@ title: Software Updates
 navcat: Basics
 tags:
 toc: false
+last_modified_at: 2019-02-01
 ---
 Updates to EMu are made by either the Museum's database manager or by Axiell, depending on what needs to be changed. If you have a request, contact the Museum's database manager (Bill Mertz) and he will let you know whether it is possible and, if so, when. For updates done by Axiell, the process is not quick and it may be months between request and implementation.
 

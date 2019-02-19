@@ -3,6 +3,7 @@ title: Multimedia
 navcat: Modules
 tags:
 toc: false
+last_modified_at: 2019-02-01
 ---
 The Multimedia module records metadata about media uploaded to EMu, either in batch (e.g. specimen images) or on the fly (e.g. a screenshot of a taxon from a publication). These records can then be connected to other records, primarily Catalogue, Taxonomy, and Sites. Please see [Axiell's documentation](http://help.emu.axiell.com/latest/en/Topics/Common/Multimedia%20module.htm) for generic information about this module.
 

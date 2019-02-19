@@ -2,6 +2,7 @@
 title: Lookup Lists
 navcat: Modules
 tags:
+last_modified_at: 2019-02-01
 ---
 The Lookup Lists module is where lookup list values are managed. **Generally, staff do not need to use this module**, as they should have permission to add values to a lookup list while editing a record, e.g. while entering a new county in the *County/Dist* field. Students may not have permission to do so, and in this case a staff member would need to add the value for them. **Staff do need to use the Lookup List module to add values to drop-down menus.** For general information about this module, please see [Axiell's documentation](http://help.emu.axiell.com/latest/en/Topics/Common/Lookup%20Lists%20module.htm).
 

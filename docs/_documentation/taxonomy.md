@@ -2,6 +2,7 @@
 title: Taxonomy
 navcat: Modules
 tags: quick-start taxonomy
+last_modified_at: 2019-02-01
 ---
 The Taxonomy module is the primary record for information about taxonomic concepts, both accepted and unaccepted. Please see [Axiell's documentation](http://help.emu.axiell.com/latest/en/Topics/EMu/Taxonomy%20module.htm) for generic information about this module.
 

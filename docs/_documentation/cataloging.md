@@ -2,6 +2,7 @@
 title: Cataloging Specimens
 navcat: Modules
 tags: cataloging
+last_modified_at: 2019-02-01
 ---
 
 See also [Catalogue]({{ site.baseurl }}/documentation/catalogue/).

@@ -3,6 +3,7 @@ title: Printing Labels
 navcat: Workflows
 tags: cataloging
 toc: false
+last_modified_at: 2019-02-01
 ---
 Printing labels from EMu is simple. First you will need to do a search to bring up the Catalogue records that you want to print labels for. Once you have the search results, select *Tools > Reports* from the top menu. EMu will bring up a dialog box for you to select what kind of report you'd like to generate. Highlight the label report that you want (see below for options) and click either *Report all* to include all records in the search results, or *Report* to include only the records you have selected within the search results. You should now see a new window that looks like the screenshot below.
 

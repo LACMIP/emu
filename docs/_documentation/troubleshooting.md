@@ -2,6 +2,7 @@
 title: Troubleshooting
 navcat: Basics
 tags: quick-start
+last_modified_at: 2019-02-01
 ---
 Listed here are some common issues we have encountered while using EMu. If you are having trouble and none of the issues here apply to you, try searching this documentation website, asking other LACMIP EMu users, or contacting the Museum's database manager, Bill Mertz.
 

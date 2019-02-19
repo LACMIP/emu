@@ -2,6 +2,7 @@
 title: Importing Catalogue Data
 navcat: Basics
 tags:
+last_modified_at: 2019-02-01
 ---
 
 *[need content]* Notes from Bill: Your coordinates are actually in nested tables and should be formatted (#:#). The first number is the outer table, the second is the inner table. In your case of prepending data (-:1) means prepend the outer table value, and place the coordinate in row one of the inner table. I’m a little surprised EMu didn’t return an error with only one value (-), but maybe it assumes a missing inner table number equals 1. E.g. LatLatitudeDecimal_nesttab(-:1)
@@ -20,7 +21,7 @@ Both CUSTOM and TYPICAL imports allow files encoded with either ANSI or UTF-8.  
 5. **Validate Data:** Import Data
 
 Validate Format: checks for incorrect field names
-Validate Data:  checks for incorrect field names and whether the data are valid (dates are going into date fields, and numbers are going into number fields). This option does not import any data; it only checks the data. 
+Validate Data:  checks for incorrect field names and whether the data are valid (dates are going into date fields, and numbers are going into number fields). This option does not import any data; it only checks the data.
 Import Data: Choose how attachments are processed during the import. If your import file includes attachments (…Ref fields, such as SitSiteRef_tab(1).irn) you may select how the EMu import tool handles them.
 
 6. **Attachments:** Use default values (uncheck "Only search records imported in this batch; check "Exclude empty fields from attachment search").

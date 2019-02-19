@@ -2,6 +2,7 @@
 title: Exporting Data
 navcat: Basics
 tags: taxonomy
+last_modified_at: 2019-02-01
 ---
 There are several primary ways to get data out of EMu: copy-paste, user-created reports, and complex reports using [Crystal Reports](https://www.crystalreports.com/).
 
