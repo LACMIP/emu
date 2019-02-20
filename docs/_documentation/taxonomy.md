@@ -97,8 +97,9 @@ Remarks
 
 *Remark* | *Explanation*
 --- | ---
-**[STATE: Formation: Subunit][ANTIQUATED]** | Denotes antiquated species occurrences
-**[STATE: Formation: Subunit][SPECIMEN NEEDS EXAMINATION]** | Denotes highly suspect species occurrence. If the citation for the occurrence is also the LACMIP Collection, add some additional description for searchability, e.g. [PIERCE OCCURRENCE - SPECIMEN NEEDS EXAMINATION]
+STATE: Formation: Subunit | Denotes published species occurrences, or species occurence found in LACMIP Collections. If the latter, "Cited In:" should also be "LACMIP Collection". Separate multiple occurences for a given citation with semi-colons.
+[STATE: Formation: Subunit][ANTIQUATED] | Denotes antiquated species occurrences
+[STATE: Formation: Subunit][SPECIMEN NEEDS EXAMINATION] | Denotes highly suspect species occurrence. If the citation for the occurrence is also the LACMIP Collection, add some additional description for searchability, e.g. [PIERCE OCCURRENCE - SPECIMEN NEEDS EXAMINATION]
 
 {% include figure image_path="/assets/images/taxonomy_antiquated_annotated.png" alt="Citations tab of the EMu taxonomy module"%}
 
