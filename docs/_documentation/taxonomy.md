@@ -97,7 +97,7 @@ Remarks
 
 {% include figure image_path="/assets/images/taxonomy_antiquated.png" alt="Citations tab of the EMu taxonomy module" caption="Screenshot of the *Citations* tab of the Taxonomy module, showing how to enter antiquated taxon occurence(s) in the *Remarks* field." %}
 
-{% include figure image_path="/assets/images/taxonomy_dubius_occurence.png" alt="Citations tab of the EMu taxonomy module" caption="Screenshot of the *Citations* tab of the Taxonomy module, showing how to enter antiquated taxon occurence(s) in the *Remarks* field." %}
+{% include figure image_path="/assets/images/taxonomy_dubius_occurence.png" alt="Citations tab of the EMu taxonomy module" caption="Screenshot of the *Citations* tab of the Taxonomy module, showing how to enter highly suspect taxon occurence(s) in the *Remarks* field." %}
 
 
 Primary Citation
