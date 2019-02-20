@@ -1,3 +1,3 @@
 ---
+excerpt: This reading set is designed for students, volunteers, and staff new to imaging LACMIP specimens in EMu.
 ---
-This reading set is designed for students, volunteers, and staff new to imaging LACMIP specimens in EMu.
