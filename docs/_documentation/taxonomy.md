@@ -91,7 +91,14 @@ Cited Locality
 : LACMIP uses this field to track specific collecting localities where this taxon is known to occur. These should be listed e.g. "CIT 1154" or "LACMIP 363, LACMIP 8099."
 
 Remarks
-: The bulk of your comments will go in this field, because it is where we record information about the geographic and stratigraphic occurrence. Format this as "STATE: Formation: Subunit", repeating all higher levels for each occurrence. Ex: "CALIFORNIA: Ladd Fm: Baker Canyon; CALIFORNIA: Ladd FM: Holz Shale." Formations and subunits should be formatted in line with lithostratigraphic information in the LACMIP Sites module.
+: The bulk of your comments will go in this field, because it is where we record information about the geographic and stratigraphic occurrence. Format this as "**STATE: Formation: Subunit**", repeating all higher levels for each occurrence. Ex: "CALIFORNIA: Ladd Fm: Baker Canyon**;** CALIFORNIA: Ladd FM: Holz Shale." Formations and subunits should be formatted in line with lithostratigraphic information in the LACMIP Sites module.
+
+: No longer accepted ("antiquated") or highly suspect occurences should be flagged using square brackets, as shown in the following images:\
+
+{% include figure image_path="/assets/images/taxonomy_antiquated.png" alt="Citations tab of the EMu taxonomy module" caption="Screenshot of the *Citations* tab of the Taxonomy module, showing how to enter antiquated taxon occurence(s) in the *Remarks* field." %}
+
+{% include figure image_path="/assets/images/taxonomy_dubius_occurence.png" alt="Citations tab of the EMu taxonomy module" caption="Screenshot of the *Citations* tab of the Taxonomy module, showing how to enter antiquated taxon occurence(s) in the *Remarks* field." %}
+
 
 Primary Citation
 : Check "Yes" for the single citation that best represents this taxon. In other words, if a colleague needed to know more information about this taxon, what is the best reference you could refer them to.
@@ -121,7 +128,7 @@ Reference
 Comments
 : Enter your comments here. **See table below for preferred comments and formatting consistency.**  If you are unsure of what comment to add, do a wildcard search (Comments = \*) for all current validity comments in use and proceed accordingly. Suggestion: use the Ditto function to maintain consistency when entering the same comments on multiple taxon records.
 
-Validity Comment | Explanation
+*Validity Comment* | *Explanation*
 ------------ | -------------
 **Genus changed in Treatise 1996.** | Add validity comment if rationale for taxonomic update needs documentation.
 **Genus should be in quotation marks.** | Track special characters (") using standardized validity comments.
