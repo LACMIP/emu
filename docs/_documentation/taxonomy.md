@@ -106,7 +106,7 @@ To ditto citations:
 
 ## Validity
 
-LACMIP uses the *Validity* tab to track more specific information about the status of a name. Often, all we need to know is the value for *Currently Accepted?* on the *Invertebrates* tab, but sometimes older names are more complicated and the *Validity* tab gives us the space to record this complexity.
+LACMIP uses the *Validity* tab to track more specific information about the status of a name. Often, all we need to know is the value for *Currently Accepted?* on the *Invertebrates* tab, but sometimes older names are more complicated and the *Validity* tab gives us the space to record this complexity. Validity comments should *not* related to species *occurences*; this information is tracked in the Citations tab.
 
 {% include figure image_path="/assets/images/taxonomy_validity.png" alt="Validity tab of the EMu taxonomy module" caption="Screenshot of the *Validity* tab of the Taxonomy module." %}
 
@@ -116,19 +116,18 @@ Reason
 : Not in use.
 
 Reference
-: Attach a Bibliography record to support your validity comment. For comments based on notes or specimens in the collection, this can be the "LACMIP Collection" record.
+: Attach a Bibliography record to support your validity comment. For comments based on notes or specimens in the collection, this can be the "LACMIP Collection" record. Personal communication can be cited here as well.
 
 Comments
 : Enter your comments here. **See table below for preferred comments and formatting consistency.**  If you are unsure of what comment to add, do a wildcard search (Comments = \*) for all current validity comments in use and proceed accordingly. Suggestion: use the Ditto function to maintain consistency when entering the same comments on multiple taxon records.
 
 Validity Comment | Explanation
 ------------ | -------------
-Genus changed in Treatise 1996. | Add validity comment if rationale for taxonomic update needs documentation.
-Incertae sedis. **Genus should be in quotation marks.** | Track special characters (") using standardized validity comments.
+**Genus changed in Treatise 1996.** | Add validity comment if rationale for taxonomic update needs documentation.
+**Genus should be in quotation marks.** | Track special characters (") using standardized validity comments.
 **Genus should be followed by question mark.** | Track special characters (?) using standardized validity comments.
-Manuscript name. **Species should be in quotation marks.** | Track special characters (") using standardized validity comments.
-Name found in collection; **validity unknown**. | Validity of taxon unknown. This is different than a questionable taxon occurrence, which can be tracked using "ANTIQUATED" in the Citation Remarks field.
-Taxon only used by Pierce (**validity unknown**). | Validity of taxon unknown. This is different than a questionable taxon occurrence, which can be tracked using "ANTIQUATED" in the Citation Remarks field.
+**Manuscript name. Species should be in quotation marks.** | Call our special characters (") required to format manuscript names using standardized validity comments.
+**Name found in collection; validity unknown.** | Validity of taxon unknown. This is different than a questionable taxon occurrence, which can be tracked using "ANTIQUATED" in the Citation Remarks field.
 **Show name to R. L. Squires.** | Begin "expert opinion" comments with "Show name to…"
 
 Comments by
