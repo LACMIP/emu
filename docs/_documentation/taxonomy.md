@@ -101,8 +101,6 @@ Remarks
 **[STATE: Formation: Subunit][SPECIMEN NEEDS EXAMINATION]** | Denotes highly suspect species occurrence. If the citation for the occurrence is also the LACMIP Collection, add some additional description for searchability, e.g. [PIERCE OCCURRENCE - SPECIMEN NEEDS EXAMINATION]
 
 {% include figure image_path="/assets/images/taxonomy_antiquated_annotated.png" alt="Citations tab of the EMu taxonomy module"%}
-{% include figure image_path="/assets/images/taxonomy_pierce_occurence.png" alt="Citations tab of the EMu taxonomy module"%}
-
 
 Primary Citation
 : Check "Yes" for the single citation that best represents this taxon. In other words, if a colleague needed to know more information about this taxon, what is the best reference you could refer them to.
