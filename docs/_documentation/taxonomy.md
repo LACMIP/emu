@@ -137,7 +137,7 @@ Genus changed in Treatise 1996. | Add validity comment if rationale for taxonomi
 Genus should be in quotation marks. | Track special characters (") using standardized validity comments.
 Genus should be followed by question mark. | Track special characters (?) using standardized validity comments.
 Manuscript name. Species should be in quotation marks. | Call out special characters (") required to format manuscript names using standardized validity comments.
-Name found in collection; validity unknown. | Validity of taxon unknown. This is different than a questionable taxon occurrence, which can be tracked using "ANTIQUATED" in the Citation Remarks field.
+Name found in collection; validity unknown. | Validity of taxon unknown. This is different than documenting an invalid or questionable taxon occurrence (see "Citations: Remarks" above).
 Show name to R. L. Squires. | Begin "expert opinion" comments with "Show name to…"
 
 {% include figure image_path="/assets/images/taxonomy_validity_comments.png" alt="Validity tab of the EMu taxonomy module" caption="Screenshot of the *Validity* tab of the Taxonomy module." %}
