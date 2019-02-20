@@ -94,10 +94,8 @@ Remarks
 : The bulk of your comments will go in this field, because it is where we record information about the geographic and stratigraphic occurrence. Format this as "**STATE: Formation: Subunit**", repeating all higher levels for each occurrence. Ex: "CALIFORNIA: Ladd Fm: Baker Canyon**;** CALIFORNIA: Ladd FM: Holz Shale." Formations and subunits should be formatted in line with lithostratigraphic information in the LACMIP Sites module.
 
 : No longer accepted ("antiquated") or highly suspect occurences should be flagged using square brackets, as shown in the following images:\
-
 {% include figure image_path="/assets/images/taxonomy_antiquated.png" alt="Citations tab of the EMu taxonomy module" caption="Screenshot of the *Citations* tab of the Taxonomy module, showing how to enter antiquated taxon occurence(s) in the *Remarks* field." %}
-
-{% include figure image_path="/assets/images/taxonomy_dubius_occurence.png" alt="Citations tab of the EMu taxonomy module" caption="Screenshot of the *Citations* tab of the Taxonomy module, showing how to enter highly suspect taxon occurence(s) in the *Remarks* field." %}
+{% include figure image_path="/assets/images/taxonomy_dubius_occurence.png" alt="Citations tab of the EMu taxonomy module" caption="Screenshot of the *Citations* tab of the Taxonomy module, showing how to enter antiquated taxon occurences (upper image) and highly suspect taxon occurence(s) (lower image) in the *Remarks* field." %}
 
 
 Primary Citation
