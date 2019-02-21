@@ -2,94 +2,103 @@
 title: Catalogue
 navcat: Modules
 tags: cataloging quick-start
-last_modified_at: 2019-02-01
+last_modified_at: 2019-02-20
 ---
-The Catalogue module is the primary place for information about each specimen lot, and a node linking together data from many of the other modules. Please see [Axiell's documentation](http://help.emu.axiell.com/latest/en/Topics/EMu/Catalogue%20module.htm) for generic information about this module.
+The Catalogue module is the primary place for information about each specimen lot, and a node linking together data from many of the other modules. Please see [Axiell's documentation](http://help.emu.axiell.com/latest/en/Topics/EMu/Catalogue%20module.htm) for generic information about this module. Continue reading here to understand how LACMIP uses the fields available in the Catalogue module.
 
-See also [Cataloging Specimens]({{ site.baseurl }}/documentation/cataloging/)
+For detailed instructions on entering new records in this module, please [Cataloging Specimens]({{ site.baseurl }}/documentation/cataloging/) in addition to this page.
 
 ## Invert. Paleo. tab
 
 {% include figure image_path="/assets/images/catalogue_invertpaleo.png" alt="screenshot of the invert paleo tab in the catalogue module" caption="Screenshot of the *Invert. Paleo.* tab of the Catalogue module." %}
 
-Fields on this tab are...
+This tab, along with *Indentifications (1)*, is where the bulk of our specimen data lives. Fields on this tab are...
 
 Locality
-:
+: Attach a [site]({{ site.baseurl }}/documentation/sites/) record to the catalogue record here. You can either type in the LACMIP locality number, e.g. "500000," or click the green plus sign to find a locality via the Sites module search.
 
 Lot Count
-:
+: The number of individuals within this cataloged lot. Typically, this is the number of physical pieces, i.e. on a single chunk of Cretaceous material there may be thousands of individual fossilized animals but *Lot Count* would be "1." For more recent material, *Lot Count* may actually be the number of individual animals. It is important to ask for clarification on what this number means if you are unfamiliar with LACMIP norms.
 
 Disp.
-:
-    - "being processed"
-    - "discarded"
-    - "in collection"
-    - "missing"
-    - "on loan"
-    - "unknown"
+: A controlled vocabulary to note the physical state of a specimen lot. Vocabulary includes:
+    - "being processed" for specimens actively being incorporated into the collection, e.g. a new donation
+    - "discarded" for specimens permanently removed from the collection
+    - "in collection" for specimens physically locatable
+    - "missing" for specimens whose whereabouts are unknown
+    - "on loan" for specimens out on loan
+    - "unknown" for specimens that are not physically locatable, but are also not definitely missing; typically this term is assigned to legacy specimen data records where we have not attempted to locate the physical specimen yet
 
 Lot No.
-: turns into *Cat. No.*
+: Combined with the locality number, this turns into *Cat. No.*, a unique, human-readable identifier for a specimen lot. EMu will auto-generate the next available lot number for you.
 
 P/CP
-:
+: Part/Counterpart. Checking this box indicates that the specimen lot contains two pieces which fit together to represent a single animal.
 
 Accn. Lot
-:
+: Attach an accession record here. Most LACMIP specimens do not have accession information digitally available yet. Please contact the Museum's Registrar if you need to attach accession information that has not already been digitized. LACMIP staff do not have permission to add/modify records in the [Accessions module]({{ site.baseurl }}/documentation/accessions/).
 
 LACMIP Type No.
-:
+: Specimens in the type collection have a type number; it should be recorded here.
 
 Field No.
-:
+: A number assigned to a specimen lot at the time of collection, typically by the collector. This is not common in the majority of the LACMIP collections (fossil insects being an exception).
 
 Accn. No.
-:
+: Do not use this field.
 
 Inst. Code & Inst. Number
-: "UCLA" or "Cerritos College" or "collector number" (e.g. "PIERCE NODULE 142")
+: Paired values of specimen numbers assigned during curation by another institution. For example, many UCLA specimens have numbers so "UCLA 1778" would be entered into EMu as *Inst. Code* = "UCLA" and *Inst. Number* = "1778," or "PIERCE NODULE 142" would be entered into EMu as *Inst. Code* = "collector number" and *Inst. Number* = "PIERCE NODULE 142." Take care not to record **locality** numbers from other institutions here (record them in the Sites module).
 
 Identification
-: Displays *Modified Taxon*, *Identified By*, and *ID Date* from the other tab
+: Displays *Modified Taxon*, *Identified By*, and *ID Date* from the *Identification (1)* tab (see below for details).
 
 Type Status
-: controlled vocabulary
+: A controlled vocabulary to classify the kind of type specimen. Vocabulary includes:
+    - "figured"
+    - "holotype"
+    - "hypotype"
+    - "lectotype"
+    - "neotype"
+    - "paralectotype"
+    - "paraleptotype"
+    - "paratype"
+    - "syntype"
 
 Collectors
-: only use one row!
+: The fields in this section–*Collector Name*, *Start Date*, and *End Date*–will be moved to the [Sites module]({{ site.baseurl }}/documentation/sites/) with the next EMu update. Until then, we do need information here for printing labels. Enter multiple collectors into the same *Collector Name* row, e.g. "LouElla Saul, Mary Ann Swanson." Enter the different values for *Start Date* and *End Date* if you have a date range, e.g. "2/17/2019" and "2/20/2019", or the same value if there is no explicit range, e.g. "2/17/2019" and "2/17/2019," or "2019" and "2019." Do not use the *Uncertain* field, and do not use more than one row of this nested table.
 
 Collection
-:
-    - "ED"
-    - "Other"
-    - "ST"
-    - "TX"
-    - "Type"
+: A controlled vocabulary to indicate which physical part of the collection this specimen lot should be housed in. Vocabulary includes:
+    - "ED" for specimens in the Education Collection
+    - "Other" for specimens of unexplained or extraordinary physical circumstances
+    - "ST" for specimens in the Stratigraphic Collection
+    - "TX" for specimens in the Taxonomic Collection
+    - "Type" for specimens in the Type Collection (housed at the main Museum building)
 
 Project
-:
-    - "CSC"
-    - "EPICC"
-    - "FIC"
+: A controlled vocabulary to group catalogue records by project. This is useful for tracking project headway, but not every specimen will need a value in this field. You can add values to this controlled vocabulary via the [Lookup Lists module]({{ site.baseurl }}/documentation/lookuplist/)]. Current vocabulary includes:
+    - "CSC" for Cretaceous Seas of California (CSBR grant, 2016-2019)
+    - "EPICC" for Eastern Pacific Invertebrate Communities of the Cenozoic (TCN grant, 2015-2020)
+    - "FIC" for Fossil Insect Collaborative (PEN grant, 2017-2020)
 
 Lot Remarks
-: Some parts of the collection have more data than others (insects)
+: Space for comments that do not fit elsewhere. Some parts of the collection more commonly have information for this field than others, e.g. fossil insects tend to have lifestage and other extra notes to record here.
 
 Publication
-:
+: Attach a [Bibliography record]({{ site.baseurl }}/documentation/bibliography/) here. This is usually only appropriate for specimens that belong to the Type Collection.
 
 Pages
-:
+: If you attach a bibliography record, you can record the page that the specimen is cited on here.
 
 Fig.
-:
+: If you attach a bibliography record, you can record the figure number that the specimen is cited in here.
 
 Type
-:
+: If you attach a bibliography record, you can record the kind of citation here.
 
 Original Nature
-:
+: A controlled vocabulary recording the kind of fossil present. It is possible to record more than one value (one per row), e.g. if you have a specimen lot that includes the body fossil as well as a cast of it. Vocabulary includes:
     - "body fossil"
     - "cast"
     - "compression fossil"
@@ -100,25 +109,25 @@ Original Nature
     - "synthetic"
 
 Anatomy
-: most mollusks will be "body"
+: A controlled vocabulary describing the part of the individual present. Typically mollusks will just be "body." There are many options, which you can view by clicking on the icon to the right of the field. It is possible to record more than one value (one per row). You can add values to this controlled vocabulary via the [Lookup Lists module]({{ site.baseurl }}/documentation/lookuplist/)].
 
 ## Identification (1) tab
 
-{% include figure image_path="/assets/images/catalogue_identification.png" alt="screenshot of the identification tab in the catalogue module" caption="Screenshot of the *Identifications (1)* tab of the Catalogue module." %}
+{% include figure image_path="/assets/images/catalogue_identification.png" alt="screenshot of the identification tab in the catalogue module" caption="Screenshot of the *Identifications (1)* tab of the Catalogue module. Highlighting a row in the *Identification List* brings up more detailed information in the fields above." %}
 
-Fields on this tab are...
+This tab allows us to track identification history of a specimen lot. As illustrated in the figure above, it is a nested table where each row represents a unique identification event. If you are looking for information about adding identifications to multiple catalogue records at the same time, please read the [re-identifications]({{ site.baseurl }}/documentation/reidentify/) documenation. Fields on this tab are...
 
 Taxon
-: Link to the attached [Taxonomy]({{ site.baseurl }}/documentation/cataloging/) record.
+: Attach a record from the [Taxonomy module]({{ site.baseurl }}/documentation/cataloging/). If you know the full name you wish to attach, type it into this field along with its rank (e.g. "calva varians species" or "bivalvia class") and EMu will find the record directly. If the name you enter has multiple taxonomy record options, EMu will bring those up for you to select from. You can also use the full features of the Taxonomy module search by clicking on the green plus sign.
 
 Modifier
 : Any part of the identification other than the taxonomic name, e.g. "cf." or "sp." or "indet." This is a controlled vocabulary; you can see the value options by clicking on the icon to the right of the field. Along with *Modifier Rank* and *Taxon*, this field gets arranged into *Modified Taxon*.
 
 Modifier Rank
-: If there is a value for *Modifier*, then EMu also needs this field to tell it where to place the modifier. For the modifiers "sp." and "indet." this should be the taxonomic rank of the lowest level included in *Taxon*. For identification qualification modifiers such as "cf." this should be the taxonomic rank before which the modifier gets place. For example...
+: If there is a value for *Modifier*, then EMu also needs this field to tell it where to place the modifier. For the modifiers "sp." and "indet." this should be the taxonomic rank of the lowest level included in *Taxon*. For identification qualification modifiers such as "cf." this should be the taxonomic rank before which the modifier gets placed. For example...
     - for an identification of "Calva sp.": *Taxon* = "Calva" / *Modifier* = "sp." / *Modifier Rank* = "genus"
     - for an identification of "Veneridae indet.": *Taxon* = "Veneridae" / *Modifier* = "indet." / *Modifier Rank* = "family"
-    - for an identification of "Calva cf. varia": *Taxon* = "Calva varia" / *Modifier* = "cf." / *Modifier Rank* = "genus"
+    - for an identification of "Calva cf. varia": *Taxon* = "Calva varia" / *Modifier* = "cf." / *Modifier Rank* = "species"
 
 Identified By
 : Full name(s) of the person or people who made this identification, e.g. "LouElla Saul." For legacy data we frequently do not track this data.
@@ -140,7 +149,7 @@ Currently Accepted
 
 ## Location tab
 
-LACMIP does not currently use the *Location* tab. It is designed to track physical specimen movement.
+LACMIP does not use the *Location* tab yet. It is designed to track physical specimen movement.
 
 ## Registrar tab
 
@@ -150,7 +159,7 @@ The *Registrar* tab contains information about the provenance and disposition of
 
 {% include figure image_path="/assets/images/catalogue_multimedia.png" alt="screenshot of the multimedia tab in the catalogue module" caption="Screenshot of the *Multimedia* tab of the Catalogue module." %}
 
-If a specimen has been imaged, the image should be attached to the catalogue record. [Multimedia]({{ site.baseurl }}/documentation/multimedia/) attachments are visible on the *Multimedia* tab. In the screenshot above, you can see that the metadata from the multimedia record appears in the sidebar of this tab. Double-clicking on an image will open it in a larger viewer. Clicking on the green plus sign allows you to attach additional multimedia records.
+If a specimen has been imaged, the image should be attached to the catalogue record and visible as a [multimedia]({{ site.baseurl }}/documentation/multimedia/) attachment on the *Multimedia* tab. In the screenshot above, you can see that the metadata from the multimedia record appears in the sidebar of this tab. Double-clicking on an image will open it in a larger viewer. Clicking on the green plus sign allows you to attach additional multimedia records.
 
 ## Admin
 
@@ -162,7 +171,7 @@ The *Admin* tab contains information about the record's provenance and edit hist
 
 {% include figure image_path="/assets/images/catalogue_security.png" alt="screenshot of the security tab in the catalogue module" caption="Screenshot of the *Security* tab of the Catalogue module." %}
 
-The only field you need to be concerned with on the *Security* tab is *Publish on Internet*, which should be check "Yes" for the majority of catalogue records but "No" for any records that should not be shared via biodiversity aggregators (e.g. iDigBio, GBIF). A record should be marked "No" either because the specimen or its data are questionable, or as part of a research moratorium pending publication. Specific examples include but not limited to:
+The only field you need to be concerned with on the *Security* tab is *Publish on Internet*, which should be check "Yes" for the majority of catalogue records but "No" for any records that should not be shared via biodiversity aggregators (e.g. iDigBio or GBIF; for more see [Publishing Data]({{ site.baseurl }}/documentation/ipt/)). A record should be marked "No" either because the specimen or its data are questionable, or as part of a research moratorium pending publication. Specific examples include but not limited to:
 - records where the specimen disposition is "missing"
 - records where the specimen disposition is "discarded"
 - records of type specimens of an unpublished new species
