@@ -93,10 +93,15 @@ Cited Locality
 Remarks
 : The bulk of your comments will go in this field, because it is where we record information about the geographic and stratigraphic occurrence. Format this as "**STATE: Formation: Subunit**", repeating all higher levels for each occurrence. Ex: "CALIFORNIA: Ladd Fm: Baker Canyon**;** CALIFORNIA: Ladd FM: Holz Shale." Formations and subunits should be formatted in line with lithostratigraphic information in the LACMIP Sites module.
 
-: No longer accepted ("antiquated") or highly suspect occurences should be flagged using square brackets, as shown in the following images:\
-{% include figure image_path="/assets/images/taxonomy_antiquated.png" alt="Citations tab of the EMu taxonomy module" caption="Screenshot of the *Citations* tab of the Taxonomy module, showing how to enter antiquated taxon occurence(s) in the *Remarks* field." %}
-{% include figure image_path="/assets/images/taxonomy_dubius_occurence.png" alt="Citations tab of the EMu taxonomy module" caption="Screenshot of the *Citations* tab of the Taxonomy module, showing how to enter antiquated taxon occurences (upper image) and highly suspect taxon occurence(s) (lower image) in the *Remarks* field." %}
+: No longer accepted ("antiquated") or highly suspect occurences should be flagged using square brackets, as shown in the following images
 
+*Citation Remark* | *Explanation*
+--- | ---
+STATE: Formation: Subunit | Denotes published species occurrence, or species occurence found in LACMIP Collections. If the latter, "Cited In:" should also be "LACMIP Collection". Separate multiple occurences for a given citation with semi-colons.
+[STATE: Formation: Subunit][ANTIQUATED] | Denotes antiquated species occurrence.
+[STATE: Formation: Subunit][SPECIMEN NEEDS EXAMINATION] | Denotes highly suspect species occurrence. If the citation for the occurrence is also the LACMIP Collection, add some additional description for searchability, e.g. [PIERCE OCCURRENCE - SPECIMEN NEEDS EXAMINATION]
+
+{% include figure image_path="/assets/images/taxonomy_antiquated_annotated.png" alt="Citations tab of the EMu taxonomy module"%}
 
 Primary Citation
 : Check "Yes" for the single citation that best represents this taxon. In other words, if a colleague needed to know more information about this taxon, what is the best reference you could refer them to.
@@ -128,12 +133,12 @@ Comments
 
 *Validity Comment* | *Explanation*
 ------------ | -------------
-**Genus changed in Treatise 1996.** | Add validity comment if rationale for taxonomic update needs documentation.
-**Genus should be in quotation marks.** | Track special characters (") using standardized validity comments.
-**Genus should be followed by question mark.** | Track special characters (?) using standardized validity comments.
-**Manuscript name. Species should be in quotation marks.** | Call out special characters (") required to format manuscript names using standardized validity comments.
-**Name found in collection; validity unknown.** | Validity of taxon unknown. This is different than a questionable taxon occurrence, which can be tracked using "ANTIQUATED" in the Citation Remarks field.
-**Show name to R. L. Squires.** | Begin "expert opinion" comments with "Show name to…"
+Genus changed in Treatise 1996. | Add validity comment if rationale for taxonomic update needs documentation.
+Genus should be in quotation marks. | Track special characters (") using standardized validity comments.
+Genus should be followed by question mark. | Track special characters (?) using standardized validity comments.
+Manuscript name. Species should be in quotation marks. | Call out special characters (") required to format manuscript names using standardized validity comments.
+Name found in collection; validity unknown. | Validity of taxon unknown. This is different than documenting an invalid or questionable taxon occurrence (see "Citations: Remarks" above).
+Show name to R. L. Squires. | Begin "expert opinion" comments with "Show name to…"
 
 {% include figure image_path="/assets/images/taxonomy_validity_comments.png" alt="Validity tab of the EMu taxonomy module" caption="Screenshot of the *Validity* tab of the Taxonomy module." %}
 
