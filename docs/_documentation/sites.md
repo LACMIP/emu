@@ -2,7 +2,7 @@
 title: Sites
 navcat: Modules
 tags: georeferencing quick-start
-last_modified_at: 2019-02-01
+last_modified_at: 2019-02-20
 ---
 The Sites module is the primary record for information about specimen collecting localities. Please see [Axiell's documentation](http://help.emu.axiell.com/latest/en/Topics/EMu/Sites%20module.htm) for generic information about this module. Continue reading here to understand how LACMIP uses the fields available in the Sites module.
 
@@ -157,7 +157,7 @@ The *Notes* tab is a holding area for information about the verbatim collector n
 
 {% include figure image_path="/assets/images/sites_multimedia.png" alt="sites module in EMu" caption="Screenshot of the *Multimedia* tab of the Sites module. Double-clicking on the image icon (circled in red, above) will open the media in a larger window." %}
 
-The *Multimedia* tab displays any multimedia records that are attached to this site record, usually maps with localities marked on them by hand. These are invaluable resources for georeferencing and otherwise understanding where the site actually is.
+The *Multimedia* tab displays any multimedia records that are attached to this site record, usually **maps with localities marked on them by hand** or **scanned copies of correspondence related to the collecting locality**. These are invaluable resources for georeferencing and otherwise understanding where the site actually is.
 
 ## Attachments
 
