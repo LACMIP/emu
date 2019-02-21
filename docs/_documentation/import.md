@@ -1,6 +1,6 @@
 ---
 title: Importing Catalogue Data
-navcat: Basics
+navcat: Workflows
 tags:
 last_modified_at: 2019-02-01
 ---
