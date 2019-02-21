@@ -2,13 +2,13 @@
 title: Georeferencing
 navcat: Workflows
 tags: georeferencing
-last_modified_at: 2019-02-01
+last_modified_at: 2019-02-20
 ---
 As of late 2018, all LACMIP locality records are maintained in EMu, the collection management system of the NHMLA. However, **georeferencing for LACMIP localities is conducted primarily in Google Earth**, with the Google Earth data being [exported and added back to EMu]({{ site.baseurl }}/documentation/googleearth/) on a regular basis.
 
 LACMIP Google Earth files are set up with both (a) all existing LACMIP georeferenced localities, as well as (b) automatically-generated coordinates for any localities that had not already been georeferenced as of October 2018. These automatically-generated coordinates will serve as a starting point and do not need to be preserved beyond their purpose of helping georeferencers determine coordinates by hand.
 
-## Setting up your workstation
+## Set-up
 
 Begin by finding the most recent version of the LACMIP Google Earth file in *Dropbox > Georeferencing > Google Earth Backups*. The file will be named *LACMIP Georeferencing [date].kmz*. Double-clicking on this file will open Google Earth Pro and you should see a folder called *LACMIP Localities* under *Temporary Places*. Drag this folder up into *My Places*.
 
@@ -21,9 +21,9 @@ Locality placemarks in the *Rough Georeferencing* folder were generated automati
 
 Each placemark in the *Rough Georeferencing* folder has several metadata headers pre-filled in its notes field, as shown in the figure above. We will go over these metadata headers more later.
 
-In addition to having Google Earth running, you will also need to open EMu. For each locality, the state, county, and feature are given in the Google Earth placemark metadata, but you should always have the EMu [Sites module]({{ site.baseurl }}/documentation/sites/) open to check for associated images and to reference the entirety of the information about a locality.
+In addition to having Google Earth running, you will also need to open EMu. For each locality, the state, county, and feature are given in the Google Earth placemark metadata, but you should always have the [EMu Sites module]({{ site.baseurl }}/documentation/sites/) open to check for associated images and to reference the entirety of the information about a locality.
 
-## Georeferencing a locality listed in Google Earth
+## Localities listed in Google Earth
 
 LACMIP staff will help you identify what localities need to be georeferenced. For each of these, you will search for the locality number in Google Earth to see how many of the automated datasets it appears in, then evaluate the placemarks in *Rough Georeferencing* and determine which is "best." **The best placemark should have its coordinates adjusted and metadata added, then be moved into the *LACMIP Georeferencing* folder.** Non-best placemarks can be deleted once reviewed, with the ultimate goal being to have zero placemarks in the *Rough Georeferencing* folder.
 
@@ -39,7 +39,7 @@ After determining that the coordinates are correct, you need to add metadata to 
 
 You should **always record the radius, georeference date, and georeferenced by** metadata, but you may not always need to fill out anything in notes. If you do not have information to put in notes, you may leave the default as is (i.e. "notes: XXX;""). Feel free to experiment with copy-pasting metadata into the Google Earth *Get Info* notes field from a sticky note on the desktop or other handy place, but make sure to use the same four metadata headings exactly as they are written here. For example, it might make sense to have "radius (m): XXX; notes: XXX; georef date (yyyy-mm-dd): 2018-12-01; georef by: Erica Krimmel;" ready to copy-paste so that you only need to edit the "XXX" for radius.
 
-## Georeferencing a locality that does not show up in Google Earth
+## Localities that do not show up in Google Earth
 
 Only about 50% of the total LACMIP localities have any kind of placemark in Google Earth. Placemarks not represented in Google Earth are often foreign, and did not have locality data that lended itself to automated georeferencing for a variety of reasons. We will deal with these localities as need be, but if you are working on georeferencing a locality in Google Earth and notice (based on data in EMu) a nearby locality that is not in Google Earth, you may copy the Google Earth placemark, rename it with the additional locality number, and add the appropriate metadata.
 
