@@ -44,7 +44,7 @@ Source
 : The original source for the electronic record, typically a paper registry (e.g. "UCLA locality registry"), a publication (e.g. "Squires & Saul, 2003"), a person (e.g. "Edward C. Wilson (personal communication)"), or field notes (e.g. "Robert J. Stanton Jr. Notebook 6.4"). Other standard values for this field are "assigned by collection manager" and "not recorded."
 
 Verbatim Locality
-: The locality description as originally recorded by the collector. Most of the LACMIP site records have been through multiple iterations of digital life, and this data is not truly verbatim anymore, but ideally it includes exactly what the collector recorded, as well as any notes made later by other people (and clearly indicated as being such).
+: The locality description as originally recorded by the collector. Most of the LACMIP site records have been through multiple iterations of digital life, and this data is not truly verbatim anymore, but ideally it includes exactly what the collector recorded, as well as any notes made later by other people (and clearly indicated as such by enclosing the comment in brackets). If relevant multimedia has been attached to the record after the fact, such as emails saved in PDF format, add a descriptive comment to the Verbatim Locality text, e.g. [See attached correspondence from John Alderson.].
 
 ### Entering new geographic data
 
