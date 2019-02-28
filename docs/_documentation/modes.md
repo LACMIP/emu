@@ -30,7 +30,7 @@ Combine wildcards to make your search more specific, e.g. `\^apple\$` returns "a
 
 ### Range searches
 
-You can search numeric fields (i.e. integers) and dates using a range, for example `>=35 <=45` in the *Lot No.* field will search for lot numbers 35 through 45. Or `>=8/1/2015 <= 1/31/2019` in the *Collecting Date* will search for specimens collected between 8/1/2015 and 1/31/2019.
+You can search numeric fields (i.e. integers) and dates using a range, for example `>=35 <=45` in the *Lot No.* field will search for lot numbers 35 through 45. Or `>=8/1/2015 <= 1/31/2019` in the *Collecting Date* will search for specimens collected between 8/1/2015 and 1/31/2019. Similarly, `26\2-4\]` will return all LACMIP Type Numbers from 2626-2640.
 
 ### Additional resources
 
