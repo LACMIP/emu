@@ -24,6 +24,15 @@ You can copy-paste a list of values into EMu using the **"Paste (Insert)"** comm
 On a Mac you’ll need to click with two fingers on your trackpad to right-click.
 {: .notice--warning}
 
+## Numeric ranges
+
+<img src="{{ site.baseurl }}/assets/images/search_fieldtype.png" alt="" width="300"/>{: .align-right}
+You can search for a range of numbers if the field is defined as an integer type (check this by using the arrow-with-question-mark to click in the field and display the type, as shown in the screenshot to the right). To search for a numeric range, use the operators `<`, `=<`, `>`, `>=`, and `=`. For example, to find any records where the value in a field is between 2330 and 2350, inclusive, you would type `>=2330 <=2350` into the EMu search.
+
+Some fields that frequently have numbers in them are not technically defined as numeric, which means that you cannot use the basic range search as described above. You can use a regular expression to approximate similar results. For example, the field *LACMIP Type No.* is not defined as an integer because occasionally one specimen has two type numbers, e.g. "3504, 3505". If you wanted to search for the same range as above (any records where the value in a field is between 2330 and 2350) on this field you could use the regular expression `23\[3-5\]\?`. What this expression is saying is "look for values that have `23` followed by a single digit that is either `3`, `4`, or `5` followed by any single character."
+
+For more on searching with ranges, see Axiell's documentation [here](http://help.emu.axiell.com/latest/en/Topics/Common/Types%20of%20search.htm).
+
 ## Nested tables
 
 The design of EMu involves nested tables, i.e. a table of values that exists within a record, which is itself a row in a table. For instance, the Catalogue record for LACMIP 24000.1 is represented in the EMu database as a row in the Catalogue Module table, and within this row there is another set of rows holding the data in the *Alternative Numbers* fields.
