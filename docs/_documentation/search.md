@@ -2,7 +2,7 @@
 title: Advanced Searching
 navcat: Basics
 tags:
-last_modified_at: 2019-02-01
+last_modified_at: 2019-02-28
 ---
 EMu offers a variety of methods to search for records. Please see the [Search Modes]({{ site.baseurl }}/documentation/modes/) documentation for an overview, or below for assorted advanced topics. Axiell also has several good resources for learning more about searching in EMu:
 - information on [basic search](http://help.emu.axiell.com/latest/en/Topics/Common/How%20to%20search.htm)
