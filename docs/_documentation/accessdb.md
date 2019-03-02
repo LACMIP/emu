@@ -2,22 +2,24 @@
 title: Migrating from Access
 navcat: Workflows
 tags:
-last_modified_at: 2019-02-01
+last_modified_at: 2019-03-02
 ---
 LACMIP has been cataloging specimens in Microsoft Access since 2015, and continues to use the Access database for day-to-day cataloging. The process to migrate data from Access into EMu is described here.
 
 ## Extract from Access
 
-1. Pull up the data you want to migrate in the Specimen table of the Access database. Copy the data and paste into Excel. Flag all of the rows in Access as "migrated-to-EMu" by using Find & Replace (you can find blank cells by searching for "Null").
-1. Save the Excel data as a CSV, then open the CSV in OpenRefine.
+1. Pull up the data you want to migrate in the Specimen table of the Access database. Copy the data and paste into Excel, then save as a CSV.
+1. In the Access column *MigrationStatus* flag all of the rows you just copied with the value "yes" by using Find & Replace (you can find blank cells by searching for "Null").
+1. Import the newly-saved CSV into OpenRefine.
 
 ## Verify basic data
 
-**Run the script *[_OpenRefineScript_AccessSpms-to-EMu.json]({{ site.url_scripts }})*** in OpenRefine. This will take care of basic transformations needed to prepare the data for EMu. Make sure that the project value (*IPProject*) is correct for your data! Data in all columns should be spot-checked to verify, with special attention to the following...
+**Run the script *[_OpenRefineScript_AccessSpms-to-EMu.json]({{ site.url_scripts }})*** in OpenRefine. This will take care of basic transformations needed to prepare the data for EMu. Data in all columns should be spot-checked to verify, with special attention to the following...
 
 1. Deal with any data in the column *locMod*, then delete this column.
+1. Make sure that the project value (*IPProject*) is correct for your data; the default value is currently set to "EPICC."
 1. Deal with any data in the column *Flag*, then delete this column. The value "provisional" in this column should have automatically been converted to a value of "unknown" in the column *IPDisposition*.
-1. Deal with any data in the column *Comments*, then delete this column.
+1. Deal with any data in the column *Comments*, then delete this column. Or if there are comments that need to remain with the record, retain them in a column named *InvLotRemarks*.
 1. Check data in the columns *IPCollection*, *IPTypeNo* and *InvTypeStatus*. All rows that have a type number and status should have a value of "TYPE" for *IPCollection*.
 1. Check data in the columns *IPCatInstCode_tab* (for the institution code, e.g. "UCLA") and *IPCatInstNumber_tab* (for the number, e.g "38469"). If there are multiple numbers, make sure to add the suffix "(1)" after the first two column names and add an additional column pair for each set, named e.g. *IPCatInstCode_tab(2)* + *IPCatInstNumber_tab(2)*.
 1. Convert the dates in *AdmDateInserted* to ISO standard, i.e. YYYY-MM-DD.
@@ -53,6 +55,6 @@ LACMIP has been cataloging specimens in Microsoft Access since 2015, and continu
 
 ## Load into EMu
 
-1. **Export two versions of CSV from OpenRefine**, one excluding the column "SpecIRN." Save the version with this column to the folder *Dropbox > EMu > Data Migration Archive > Catalogue* and use the version without this column to load into EMu.
+1. **Export a CSV from OpenRefine** to load into EMu, and save a copy to the folder *Dropbox > EMu > Data Migration Archive > Catalogue*.
 1. If you are accessing EMu via the VPN, drag and drop the CSV file into the remote desktop and open the file from within the remote desktop. For whatever reason, opening the file helps EMu recognize it as a valid format.
-1. Open the Catalogue module of EMu and follow the instructions for a [custom import]({{ site.baseurl }}/documentation/import/).
+1. Open the Catalogue module of EMu and follow the instructions for a [custom import]({{ site.baseurl }}/documentation/import/). Remember that validating your file *before* importing it is a good way to double-check your work and avoid headaches later.
