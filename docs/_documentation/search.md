@@ -35,7 +35,7 @@ Some fields that frequently have numbers in them are not technically defined as 
 
 For more on searching with ranges, see Axiell's documentation [here](http://help.emu.axiell.com/latest/en/Topics/Common/Types%20of%20search.htm).
 
-## Nested table
+## Nested tables
 
 The design of EMu involves nested tables, i.e. a table of values that exists within a record, which is itself a row in a table. For instance, the Catalogue record for LACMIP 2533.1285 is represented in the EMu database as a row in the Catalogue module table, and within this row there is another set of rows holding the data in the *Alternative Numbers* fields.
 
