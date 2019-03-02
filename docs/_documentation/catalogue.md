@@ -166,6 +166,7 @@ The only field you need to be concerned with on the *Security* tab is *Publish o
 - records where the specimen disposition is "missing"
 - records where the specimen disposition is "discarded"
 - records of type specimens of an unpublished new species
+- records representing unsorted fossils
 - records that may have been incorrectly catalogued
 
 By default, EMu checks "Yes" for the *Publish on Internet* field. If you feel that a record should not be made public, please go to this tab and check "No."
