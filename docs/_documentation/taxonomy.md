@@ -70,7 +70,7 @@ Project | Assign this taxon to a project; or if the taxon belongs to more than o
 Type specimens | Note any type specimens associated with this taxon in the literature, always including the collection prefix. Ex: "LACMIP Type Number: 4277", "UCMP Type Number: 89753, 89754."
 Notes | Random notes about the taxonomic record. Make every effort to find a better home (e.g. maybe on the *Citations* or *Validity* tabs) for information you may be tempted to put here.
 
-## Citations
+## Citations tab
 
 The *Citations* tab is where LACMIP tracks information about species occurrences, so that we can use this to help identify specimens based on where they were collected.
 
@@ -110,9 +110,9 @@ To ditto citations:
 1. On the taxonomy record that has citations you'd like to ditto, go to *Edit > Ditto > Use Current Record for Ditto*.
 1. On the taxonomy record where you want to add the citations, navigate to the *Citations* tab and then go to *Edit > Ditto > Current Tab*. Keep in mind that using ditto this way will **overwrite any existing citations** so it should only be used on an empty *Citations* tab.
 
-## Validity
+## Validity tab
 
-LACMIP uses the *Validity* tab to track more specific information about the status of a name. Often, all we need to know is the value for *Currently Accepted?* on the *Invertebrates* tab, but sometimes older names are more complicated and the *Validity* tab gives us the space to record this complexity. Validity comments should **not** be related to species **occurrences**; this information is tracked in the *Citations* tab.
+LACMIP uses the *Validity* tab to track more specific information about the status of a name. Often, all we need to know is the value for *Currently Accepted?* on the *Invertebrates* tab, but sometimes older names are more complicated and the *Validity* tab gives us the space to record this complexity. Validity comments should **not** be related to species **occurrences**; this information is tracked in the *Citations* tab. That said, sometimes the validity of a name varies depending on what geologic timeframe it is applied to, and because we do have specimens from a wide range of timeframes you may need to record that variation on this tab.
 
 {% include figure image_path="/assets/images/taxonomy_validity.png" alt="Validity tab of the EMu taxonomy module" caption="Screenshot of the *Validity* tab of the Taxonomy module." %}
 
