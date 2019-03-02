@@ -2,17 +2,17 @@
 title: Taxonomy
 navcat: Modules
 tags: quick-start taxonomy
-last_modified_at: 2019-02-01
+last_modified_at: 2019-03-01
 ---
 The Taxonomy module is the primary record for information about taxonomic concepts, both accepted and unaccepted. Please see [Axiell's documentation](http://help.emu.axiell.com/latest/en/Topics/EMu/Taxonomy%20module.htm) for generic information about this module.
 
-## Taxonomic hierarchy in EMu
+## Taxonomic hierarchy
 
-Taxonomy in EMu follows the familiar hierarchical levels, beginning with kingdom and ending with subspecies. LACMIP taxonomy records only use sub-, super-, and infra- levels where useful. The *Kingdom* field is hidden, but you can see kingdom level records (e.g. Plantae and Animalia) by searching for *Rank* = "kingdom."
+Taxonomy in EMu follows familiar hierarchical levels, beginning with kingdom and ending with subspecies. LACMIP taxonomy records only use sub-, super-, and infra- levels where useful. The *Kingdom* field is hidden, but you can see kingdom level records (e.g. Plantae and Animalia) by searching for *Rank* = "kingdom."
 
-EMu stores taxonomy as a massive lookup list. Each level of taxonomic hierarchy, e.g. species or family or subclass, is a level in the lookup list. This means that you find records based on their relationships to other records, like all the species in a genus. This also helps LACMIP maintain updated taxonomy because edits made to parent records automatically affect child records; for instance, if the name of a genus changes you only need to edit the single genus level record and all the species within that genus will inherit those changes.
+EMu stores taxonomy as a massive lookup list. Each level of taxonomic hierarchy, e.g. species or family or subclass, is a level in the lookup list. This means that you can find records based on their relationships to other records, like all the species in a genus. This also helps LACMIP maintain updated taxonomy because edits made to parent records automatically affect child records; for instance, if the name of a genus changes you only need to edit the single genus-level record and all the species within that genus will inherit those changes.
 
-If you need to edit the rank of a taxonomy record, e.g. "Psocodea exists as an order but should now be a superorder," you'll need to email the Museum's database manager as LACMIP staff do not have permission to make these edits.
+If you need to edit the rank of a taxonomy record, e.g. "Psocodea exists as an order but should now be a superorder," you'll need to contact the Museum's database manager, as LACMIP staff do not have permission to make these edits.
 
 ## Creating a new taxonomy record
 
@@ -79,7 +79,7 @@ The *Citations* tab is where LACMIP tracks information about species occurrences
 You will likely need to enter information in the *Citations* tab any time you create a new taxonomy record, or if you are referencing a publication and want to make note of the occurrences it states. LACMIP uses the following fields on this tab...
 
 Cited In
-: Attach the bibliography record for the publication you are citing here. If it does not exist yet, you can open a new record in the Bibliography module and create it. If you are citing an occurrence based on a collection rather than a publication, those also exist as bibliography records, e.g. "LACMIP Collection" or "UCLA Collection."
+: Attach the [bibliography record]({{ site.baseurl }}/documentation/bibliography/) for the publication you are citing here. If it does not exist yet, you can open a new record in the Bibliography module and create it. If you are citing an occurrence based on a collection rather than a publication, those also exist as bibliography records, e.g. "LACMIP Collection" or "UCLA Collection."
 
 Verified By
 : Attach the Parties record for yourself.
@@ -91,24 +91,20 @@ Cited Locality
 : LACMIP uses this field to track specific collecting localities where this taxon is known to occur. These should be listed e.g. "CIT 1154" or "LACMIP 363, LACMIP 8099."
 
 Remarks
-: The bulk of your comments will go in this field, because it is where we record information about the geographic and stratigraphic occurrence. Format this as "**STATE: Formation: Subunit**", repeating all higher levels for each occurrence. Ex: "CALIFORNIA: Ladd Fm: Baker Canyon**;** CALIFORNIA: Ladd FM: Holz Shale." Formations and subunits should be formatted in line with lithostratigraphic information in the LACMIP Sites module.
+: The bulk of your comments will go in this field, because it is where we record information about geographic and stratigraphic occurrence. Format this as "**STATE: Formation: Subunit**", repeating all higher levels for each occurrence. Ex: "CALIFORNIA: Ladd Fm: Baker Canyon; CALIFORNIA: Ladd Fm: Holz Shale." Formations and subunits should be formatted in line with lithostratigraphic information in the LACMIP Sites module. See table below for more formatting examples.
 
-: No longer accepted ("antiquated") or highly suspect occurences should be flagged using square brackets, as shown in the following images
-
-*Citation Remark* | *Explanation*
---- | ---
-STATE: Formation: Subunit | Denotes published species occurrence, or species occurence found in LACMIP Collections. If the latter, "Cited In:" should also be "LACMIP Collection". Separate multiple occurences for a given citation with semi-colons.
-[STATE: Formation: Subunit][ANTIQUATED] | Denotes antiquated species occurrence.
-[STATE: Formation: Subunit][SPECIMEN NEEDS EXAMINATION] | Denotes highly suspect species occurrence. If the citation for the occurrence is also the LACMIP Collection, add some additional description for searchability, e.g. [PIERCE OCCURRENCE - SPECIMEN NEEDS EXAMINATION]
-
-{% include figure image_path="/assets/images/taxonomy_antiquated_annotated.png" alt="Citations tab of the EMu taxonomy module"%}
+  *Citation Remarks* | *Explanation*
+  --- | ---
+  STATE: Formation: Subunit | Denotes published species occurrence, or species occurrence found in LACMIP Collections. If the latter, "Cited In:" should also be "LACMIP Collection". Separate multiple occurrences for a given citation with semi-colons.
+  [STATE: Formation: Subunit][ANTIQUATED] | Denotes antiquated species occurrence.
+  [STATE: Formation: Subunit][SPECIMEN NEEDS EXAMINATION] | Denotes highly suspect species occurrence. If the citation for the occurrence is also the LACMIP Collection, add some additional description for searchability, e.g. [PIERCE OCCURRENCE - SPECIMEN NEEDS EXAMINATION]
 
 Primary Citation
-: Check "Yes" for the single citation that best represents this taxon. In other words, if a colleague needed to know more information about this taxon, what is the best reference you could refer them to.
+: Check "Yes" for the single citation that best represents this taxon. In other words, if a colleague needed to know more information about this taxon, this is the best reference you could refer them to.
 
 ### Using ditto with citations
 
-[Ditto](http://help.emu.axiell.com/v5.1/en/Topics/Common/How%20to%20use%20the%20Ditto%20utility.htm) can be a very helpful tool when working with citations. You may be adding a citation to one species that also is true for another species--with ditto you'll only need to enter the information into EMu once. The other time that ditto is extremely useful is when taxonomy changes and you need to make a record that has citations unaccepted. You can carry these citations forward to the new accepted name using ditto.
+[Ditto](http://help.emu.axiell.com/latest/en/Topics/Common/The%20Ditto%20utility.htm?Highlight=ditto) can be a very helpful tool when working with citations. You may be adding a citation to one species that also is true for another species--with ditto you'll only need to enter the information into EMu once. The other time that ditto is extremely useful is when taxonomy changes and you need to make a record that has citations unaccepted. You can carry these citations forward to the new accepted name using ditto.
 
 To ditto citations:
 1. On the taxonomy record that has citations you'd like to ditto, go to *Edit > Ditto > Use Current Record for Ditto*.
@@ -116,7 +112,7 @@ To ditto citations:
 
 ## Validity
 
-LACMIP uses the *Validity* tab to track more specific information about the status of a name. Often, all we need to know is the value for *Currently Accepted?* on the *Invertebrates* tab, but sometimes older names are more complicated and the *Validity* tab gives us the space to record this complexity. Validity comments should *not* related to species *occurences*; this information is tracked in the Citations tab.
+LACMIP uses the *Validity* tab to track more specific information about the status of a name. Often, all we need to know is the value for *Currently Accepted?* on the *Invertebrates* tab, but sometimes older names are more complicated and the *Validity* tab gives us the space to record this complexity. Validity comments should **not** be related to species **occurrences**; this information is tracked in the *Citations* tab.
 
 {% include figure image_path="/assets/images/taxonomy_validity.png" alt="Validity tab of the EMu taxonomy module" caption="Screenshot of the *Validity* tab of the Taxonomy module." %}
 
@@ -126,24 +122,22 @@ Reason
 : Not in use.
 
 Reference
-: Attach a Bibliography record to support your validity comment. For comments based on notes or specimens in the collection, this can be the "LACMIP Collection" record. Personal communication can be cited here as well.
+: Attach a [bibliography record]({{ site.baseurl }}/documentation/bibliography/) to support your validity comment. For comments based on notes or specimens in the collection, this can be the "LACMIP Collection" record. Personal communication can be cited here as well.
 
 Comments
-: Enter your comments here. **See table below for preferred comments and formatting consistency.**  If you are unsure of what comment to add, do a wildcard search (Comments = \*) for all current validity comments in use and proceed accordingly. Suggestion: use the Ditto function to maintain consistency when entering the same comments on multiple taxon records.
+: Enter your comments here. **See table below for preferred comments and formatting consistency.**  If you are unsure of what comment to add, do a wildcard search (*Comments* = `\*`) for all current validity comments in use and proceed accordingly. Suggestion: use the Ditto function to maintain consistency when entering the same comments on multiple taxon records.
 
-*Validity Comment* | *Explanation*
------------- | -------------
-Genus changed in Treatise 1996. | Add validity comment if rationale for taxonomic update needs documentation.
-Genus should be in quotation marks. | Track special characters (") using standardized validity comments.
-Genus should be followed by question mark. | Track special characters (?) using standardized validity comments.
-Manuscript name. Species should be in quotation marks. | Call out special characters (") required to format manuscript names using standardized validity comments.
-Name found in collection; validity unknown. | Validity of taxon unknown. This is different than documenting an invalid or questionable taxon occurrence (see "Citations: Remarks" above).
-Show name to R. L. Squires. | Begin "expert opinion" comments with "Show name to…"
-
-{% include figure image_path="/assets/images/taxonomy_validity_comments.png" alt="Validity tab of the EMu taxonomy module" caption="Screenshot of the *Validity* tab of the Taxonomy module." %}
+  *Validity Comments* | *Explanation*
+  --- | ---
+  Genus changed in Treatise 1996. | Add if rationale for taxonomic update needs documentation.
+  Genus should be in quotation marks. | Track special characters (") using standardized validity comments.
+  Genus should be followed by question mark. | Track special characters (?) using standardized validity comments.
+  Manuscript name. Species should be in quotation marks. | Call out special characters (") required to format manuscript names using standardized validity comments.
+  Name found in collection; validity unknown. | Validity of taxon unknown. This is different than documenting an invalid or questionable taxon occurrence (see *Citations: Remarks* above).
+  Show name to R. L. Squires. | Begin "expert opinion" comments with "Show name to…"
 
 Comments by
-: Attach the Parties record for yourself or whoever is responsible for this comment.
+: Attach the [parties record]({{ site.baseurl }}/documentation/parties/) for yourself or whoever is responsible for this comment.
 
 Date commented
 : Enter the date for which the comment was created.
