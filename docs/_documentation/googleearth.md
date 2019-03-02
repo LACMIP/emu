@@ -3,9 +3,9 @@ title: Migrating from Google Earth
 navcat: Workflows
 tags: georeferencing
 toc: false
-last_modified_at: 2019-02-01
+last_modified_at: 2019-03-01
 ---
-LACMIP uses Google Earth as its primary software for georeferencing, but this data also must be recorded with each LACMIP [Site]({{ site.baseurl }}/documentation/sites/) record in EMu. This page outlines how data generated in Google Earth should be migrated into EMu. See the [georeferencing documentation]({{ site.baseurl }}/documentation/georeferencing/) for more details on how geographic coordinates are assigned to a locality using Google Earth and other tools.
+LACMIP uses Google Earth as its primary software for georeferencing, but this data also must be recorded with each LACMIP [Site record]({{ site.baseurl }}/documentation/sites/) in EMu. This page outlines how data generated in Google Earth should be migrated into EMu. See the [georeferencing documentation]({{ site.baseurl }}/documentation/georeferencing/) for more details on how geographic coordinates are assigned to a locality using Google Earth and other tools.
 
 First, open Google Earth and download a KML version of the “LACMIP Georeferencing” folder by right-clicking on it.
 
