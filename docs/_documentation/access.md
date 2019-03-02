@@ -28,7 +28,7 @@ Once logged in, at the bottom of the page you should see a link to *Terminal Ser
 
 To transfer files into the remote desktop, drag and drop them. You will see a status bar in the lower right corner of the window, and once the file has uploaded you can find it in the *G on Guacamole RDP* folder of the computer. To transfer files from the remote desktop to your local computer, drop them into the the folder *G on Guacamole RDP > Downloads.*
 
-## User Permissions
+## User permissions
 
 LACMIP full-time staff should have rights to create, edit, and delete [Catalogue]({{ site.baseurl }}/documentation/catalogue/), [Multimedia]({{ site.baseurl }}/documentation/multimedia/), [Bibliography]({{ site.baseurl }}/documentation/bibliography/), [Site]({{ site.baseurl }}/documentation/sites/), and [Taxonomy]({{ site.baseurl }}/documentation/taxonomy/) records. Staff can create [Lookup]({{ site.baseurl }}/documentation/lookuplist/) and [Transaction]({{ site.baseurl }}/documentation/transactions/) records, but not delete or edit them. Staff can only view [Accession]({{ site.baseurl }}/documentation/accessions/) and [Party]({{ site.baseurl }}/documentation/parties/) records.
 
