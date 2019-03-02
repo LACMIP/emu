@@ -66,1549 +66,17 @@
     "newColumnName": "InvTypeStatus"
   },
   {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column SpecIRN using expression grel:value.toString()",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "SpecIRN",
-    "expression": "grel:value.toString()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column locMod using expression grel:value.toString()",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "locMod",
-    "expression": "grel:value.toString()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column InvNoOfSp using expression grel:value.toString()",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "InvNoOfSp",
-    "expression": "grel:value.toString()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column KenNo using expression grel:value.toString()",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "KenNo",
-    "expression": "grel:value.toString()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column SitSiteRef_tab.SitSiteNumber using expression grel:value.toString()",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "SitSiteRef_tab.SitSiteNumber",
-    "expression": "grel:value.toString()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column IPLotNo using expression grel:value.toString()",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "IPLotNo",
-    "expression": "grel:value.toString()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column IPCollection using expression grel:value.toString()",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "IPCollection",
-    "expression": "grel:value.toString()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column OriginalID using expression grel:value.toString()",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "OriginalID",
-    "expression": "grel:value.toString()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column Flag using expression grel:value.toString()",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "Flag",
-    "expression": "grel:value.toString()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column PrevCatNo using expression grel:value.toString()",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "PrevCatNo",
-    "expression": "grel:value.toString()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column SpecTaxNo using expression grel:value.toString()",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "SpecTaxNo",
-    "expression": "grel:value.toString()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column Ide2IdentifiedBy1_tab(1) using expression grel:value.toString()",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "Ide2IdentifiedBy1_tab(1)",
-    "expression": "grel:value.toString()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column Comments using expression grel:value.toString()",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "Comments",
-    "expression": "grel:value.toString()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column AdmDateInserted using expression grel:value.toString()",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "AdmDateInserted",
-    "expression": "grel:value.toString()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column IPAnatomy_tab using expression grel:value.toString()",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "IPAnatomy_tab",
-    "expression": "grel:value.toString()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column IPOriginalNature_tab using expression grel:value.toString()",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "IPOriginalNature_tab",
-    "expression": "grel:value.toString()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column InvTypeStatus using expression grel:value.toString()",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "InvTypeStatus",
-    "expression": "grel:value.toString()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column IPTypeNo using expression grel:value.toString()",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "IPTypeNo",
-    "expression": "grel:value.toString()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column Ide2DateIdentified0(1) using expression grel:value.toString()",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "Ide2DateIdentified0(1)",
-    "expression": "grel:value.toString()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column locMod using expression grel:value.replace(\".0\",\"\")",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "locMod",
-    "expression": "grel:value.replace(\".0\",\"\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column InvNoOfSp using expression grel:value.replace(\".0\",\"\")",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "InvNoOfSp",
-    "expression": "grel:value.replace(\".0\",\"\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column SpecIRN using expression grel:value.replace(\".0\",\"\")",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "SpecIRN",
-    "expression": "grel:value.replace(\".0\",\"\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column SitSiteRef_tab.SitSiteNumber using expression grel:value.replace(\".0\",\"\")",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "SitSiteRef_tab.SitSiteNumber",
-    "expression": "grel:value.replace(\".0\",\"\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column IPLotNo using expression grel:value.replace(\".0\",\"\")",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "IPLotNo",
-    "expression": "grel:value.replace(\".0\",\"\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column KenNo using expression grel:value.replace(\".0\",\"\")",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "KenNo",
-    "expression": "grel:value.replace(\".0\",\"\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column IPCollection using expression grel:value.replace(\".0\",\"\")",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "IPCollection",
-    "expression": "grel:value.replace(\".0\",\"\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column OriginalID using expression grel:value.replace(\".0\",\"\")",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "OriginalID",
-    "expression": "grel:value.replace(\".0\",\"\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column Flag using expression grel:value.replace(\".0\",\"\")",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "Flag",
-    "expression": "grel:value.replace(\".0\",\"\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column PrevCatNo using expression grel:value.replace(\".0\",\"\")",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "PrevCatNo",
-    "expression": "grel:value.replace(\".0\",\"\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column SpecTaxNo using expression grel:value.replace(\".0\",\"\")",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "SpecTaxNo",
-    "expression": "grel:value.replace(\".0\",\"\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column Ide2IdentifiedBy1_tab(1) using expression grel:value.replace(\".0\",\"\")",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "Ide2IdentifiedBy1_tab(1)",
-    "expression": "grel:value.replace(\".0\",\"\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column Comments using expression grel:value.replace(\".0\",\"\")",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "Comments",
-    "expression": "grel:value.replace(\".0\",\"\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column IPTypeNo using expression grel:value.replace(\".0\",\"\")",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "IPTypeNo",
-    "expression": "grel:value.replace(\".0\",\"\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column AdmDateInserted using expression grel:value.replace(\".0\",\"\")",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "AdmDateInserted",
-    "expression": "grel:value.replace(\".0\",\"\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column IPAnatomy_tab using expression grel:value.replace(\".0\",\"\")",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "IPAnatomy_tab",
-    "expression": "grel:value.replace(\".0\",\"\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column IPOriginalNature_tab using expression grel:value.replace(\".0\",\"\")",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "IPOriginalNature_tab",
-    "expression": "grel:value.replace(\".0\",\"\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column InvTypeStatus using expression grel:value.replace(\".0\",\"\")",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "InvTypeStatus",
-    "expression": "grel:value.replace(\".0\",\"\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column Ide2DateIdentified0(1) using expression grel:value.replace(\".0\",\"\")",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "Ide2DateIdentified0(1)",
-    "expression": "grel:value.replace(\".0\",\"\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column SpecIRN using expression grel:value.replace(\"null\",\"\")",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "SpecIRN",
-    "expression": "grel:value.replace(\"null\",\"\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column SitSiteRef_tab.SitSiteNumber using expression grel:value.replace(\"null\",\"\")",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "SitSiteRef_tab.SitSiteNumber",
-    "expression": "grel:value.replace(\"null\",\"\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column InvNoOfSp using expression grel:value.replace(\"null\",\"\")",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "InvNoOfSp",
-    "expression": "grel:value.replace(\"null\",\"\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column KenNo using expression grel:value.replace(\"null\",\"\")",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "KenNo",
-    "expression": "grel:value.replace(\"null\",\"\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column locMod using expression grel:value.replace(\"null\",\"\")",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "locMod",
-    "expression": "grel:value.replace(\"null\",\"\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column IPLotNo using expression grel:value.replace(\"null\",\"\")",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "IPLotNo",
-    "expression": "grel:value.replace(\"null\",\"\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column OriginalID using expression grel:value.replace(\"null\",\"\")",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "OriginalID",
-    "expression": "grel:value.replace(\"null\",\"\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column Flag using expression grel:value.replace(\"null\",\"\")",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "Flag",
-    "expression": "grel:value.replace(\"null\",\"\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column PrevCatNo using expression grel:value.replace(\"null\",\"\")",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "PrevCatNo",
-    "expression": "grel:value.replace(\"null\",\"\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column SpecTaxNo using expression grel:value.replace(\"null\",\"\")",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "SpecTaxNo",
-    "expression": "grel:value.replace(\"null\",\"\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column Comments using expression grel:value.replace(\"null\",\"\")",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "Comments",
-    "expression": "grel:value.replace(\"null\",\"\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column AdmDateInserted using expression grel:value.replace(\"null\",\"\")",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "AdmDateInserted",
-    "expression": "grel:value.replace(\"null\",\"\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column IPAnatomy_tab using expression grel:value.replace(\"null\",\"\")",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "IPAnatomy_tab",
-    "expression": "grel:value.replace(\"null\",\"\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column IPOriginalNature_tab using expression grel:value.replace(\"null\",\"\")",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "IPOriginalNature_tab",
-    "expression": "grel:value.replace(\"null\",\"\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column IPCollection using expression grel:value.replace(\"null\",\"\")",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "IPCollection",
-    "expression": "grel:value.replace(\"null\",\"\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column InvTypeStatus using expression grel:value.replace(\"null\",\"\")",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "InvTypeStatus",
-    "expression": "grel:value.replace(\"null\",\"\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column IPTypeNo using expression grel:value.replace(\"null\",\"\")",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "IPTypeNo",
-    "expression": "grel:value.replace(\"null\",\"\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column Ide2DateIdentified0(1) using expression grel:value.replace(\"null\",\"\")",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "Ide2DateIdentified0(1)",
-    "expression": "grel:value.replace(\"null\",\"\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column Ide2IdentifiedBy1_tab(1) using expression grel:value.replace(\"null\",\"\")",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "Ide2IdentifiedBy1_tab(1)",
-    "expression": "grel:value.replace(\"null\",\"\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column SpecIRN using expression grel:value.trim()",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "SpecIRN",
-    "expression": "grel:value.trim()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column KenNo using expression grel:value.trim()",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "KenNo",
-    "expression": "grel:value.trim()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column locMod using expression grel:value.trim()",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "locMod",
-    "expression": "grel:value.trim()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column InvNoOfSp using expression grel:value.trim()",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "InvNoOfSp",
-    "expression": "grel:value.trim()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column IPLotNo using expression grel:value.trim()",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "IPLotNo",
-    "expression": "grel:value.trim()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column SitSiteRef_tab.SitSiteNumber using expression grel:value.trim()",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "SitSiteRef_tab.SitSiteNumber",
-    "expression": "grel:value.trim()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column IPCollection using expression grel:value.trim()",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "IPCollection",
-    "expression": "grel:value.trim()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column OriginalID using expression grel:value.trim()",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "OriginalID",
-    "expression": "grel:value.trim()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column Flag using expression grel:value.trim()",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "Flag",
-    "expression": "grel:value.trim()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column PrevCatNo using expression grel:value.trim()",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "PrevCatNo",
-    "expression": "grel:value.trim()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column Comments using expression grel:value.trim()",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "Comments",
-    "expression": "grel:value.trim()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column SpecTaxNo using expression grel:value.trim()",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "SpecTaxNo",
-    "expression": "grel:value.trim()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column Ide2DateIdentified0(1) using expression grel:value.trim()",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "Ide2DateIdentified0(1)",
-    "expression": "grel:value.trim()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column IPTypeNo using expression grel:value.trim()",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "IPTypeNo",
-    "expression": "grel:value.trim()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column Ide2IdentifiedBy1_tab(1) using expression grel:value.trim()",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "Ide2IdentifiedBy1_tab(1)",
-    "expression": "grel:value.trim()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column InvTypeStatus using expression grel:value.trim()",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "InvTypeStatus",
-    "expression": "grel:value.trim()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column AdmDateInserted using expression grel:value.trim()",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "AdmDateInserted",
-    "expression": "grel:value.trim()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column IPAnatomy_tab using expression grel:value.trim()",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "IPAnatomy_tab",
-    "expression": "grel:value.trim()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column IPOriginalNature_tab using expression grel:value.trim()",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "IPOriginalNature_tab",
-    "expression": "grel:value.trim()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column SpecIRN using expression grel:value.replace(/\\s+/,' ')",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "SpecIRN",
-    "expression": "grel:value.replace(/\\s+/,' ')",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column KenNo using expression grel:value.replace(/\\s+/,' ')",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "KenNo",
-    "expression": "grel:value.replace(/\\s+/,' ')",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column InvNoOfSp using expression grel:value.replace(/\\s+/,' ')",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "InvNoOfSp",
-    "expression": "grel:value.replace(/\\s+/,' ')",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column locMod using expression grel:value.replace(/\\s+/,' ')",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "locMod",
-    "expression": "grel:value.replace(/\\s+/,' ')",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column SitSiteRef_tab.SitSiteNumber using expression grel:value.replace(/\\s+/,' ')",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "SitSiteRef_tab.SitSiteNumber",
-    "expression": "grel:value.replace(/\\s+/,' ')",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column IPLotNo using expression grel:value.replace(/\\s+/,' ')",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "IPLotNo",
-    "expression": "grel:value.replace(/\\s+/,' ')",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column IPCollection using expression grel:value.replace(/\\s+/,' ')",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "IPCollection",
-    "expression": "grel:value.replace(/\\s+/,' ')",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column OriginalID using expression grel:value.replace(/\\s+/,' ')",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "OriginalID",
-    "expression": "grel:value.replace(/\\s+/,' ')",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column Flag using expression grel:value.replace(/\\s+/,' ')",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "Flag",
-    "expression": "grel:value.replace(/\\s+/,' ')",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column PrevCatNo using expression grel:value.replace(/\\s+/,' ')",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "PrevCatNo",
-    "expression": "grel:value.replace(/\\s+/,' ')",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column SpecTaxNo using expression grel:value.replace(/\\s+/,' ')",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "SpecTaxNo",
-    "expression": "grel:value.replace(/\\s+/,' ')",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column Ide2IdentifiedBy1_tab(1) using expression grel:value.replace(/\\s+/,' ')",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "Ide2IdentifiedBy1_tab(1)",
-    "expression": "grel:value.replace(/\\s+/,' ')",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column Comments using expression grel:value.replace(/\\s+/,' ')",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "Comments",
-    "expression": "grel:value.replace(/\\s+/,' ')",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column AdmDateInserted using expression grel:value.replace(/\\s+/,' ')",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "AdmDateInserted",
-    "expression": "grel:value.replace(/\\s+/,' ')",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column IPAnatomy_tab using expression grel:value.replace(/\\s+/,' ')",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "IPAnatomy_tab",
-    "expression": "grel:value.replace(/\\s+/,' ')",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column IPOriginalNature_tab using expression grel:value.replace(/\\s+/,' ')",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "IPOriginalNature_tab",
-    "expression": "grel:value.replace(/\\s+/,' ')",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column InvTypeStatus using expression grel:value.replace(/\\s+/,' ')",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "InvTypeStatus",
-    "expression": "grel:value.replace(/\\s+/,' ')",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column IPTypeNo using expression grel:value.replace(/\\s+/,' ')",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "IPTypeNo",
-    "expression": "grel:value.replace(/\\s+/,' ')",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column Ide2DateIdentified0(1) using expression grel:value.replace(/\\s+/,' ')",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "Ide2DateIdentified0(1)",
-    "expression": "grel:value.replace(/\\s+/,' ')",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column SitSiteRef_tab.SitSiteNumber using expression grel:\"LACMIP \"+value",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "SitSiteRef_tab.SitSiteNumber",
-    "expression": "grel:\"LACMIP \"+value",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column IPOriginalNature_tab using expression grel:\"body fossil\"",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": [
-        {
-          "omitError": false,
-          "expression": "isBlank(value)",
-          "selectBlank": false,
-          "selection": [
-            {
-              "v": {
-                "v": true,
-                "l": "true"
-              }
-            }
-          ],
-          "selectError": false,
-          "invert": false,
-          "name": "IPOriginalNature_tab",
-          "omitBlank": false,
-          "type": "list",
-          "columnName": "IPOriginalNature_tab"
-        }
-      ]
-    },
-    "columnName": "IPOriginalNature_tab",
-    "expression": "grel:\"body fossil\"",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column IPAnatomy_tab using expression grel:\"body\"",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": [
-        {
-          "omitError": false,
-          "expression": "isBlank(value)",
-          "selectBlank": false,
-          "selection": [
-            {
-              "v": {
-                "v": true,
-                "l": "true"
-              }
-            }
-          ],
-          "selectError": false,
-          "invert": false,
-          "name": "IPAnatomy_tab",
-          "omitBlank": false,
-          "type": "list",
-          "columnName": "IPAnatomy_tab"
-        }
-      ]
-    },
-    "columnName": "IPAnatomy_tab",
-    "expression": "grel:\"body\"",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column Ide2IdentifiedBy1_tab(1) using expression grel:\"unknown\"",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": [
-        {
-          "omitError": false,
-          "expression": "isBlank(value)",
-          "selectBlank": false,
-          "selection": [
-            {
-              "v": {
-                "v": true,
-                "l": "true"
-              }
-            }
-          ],
-          "selectError": false,
-          "invert": false,
-          "name": "Ide2IdentifiedBy1_tab(1)",
-          "omitBlank": false,
-          "type": "list",
-          "columnName": "Ide2IdentifiedBy1_tab(1)"
-        }
-      ]
-    },
-    "columnName": "Ide2IdentifiedBy1_tab(1)",
-    "expression": "grel:\"unknown\"",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/mass-edit",
-    "description": "Mass edit cells in column Ide2IdentifiedBy1_tab(1)",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "Ide2IdentifiedBy1_tab(1)",
-    "expression": "value",
-    "edits": [
-      {
-        "fromBlank": false,
-        "fromError": false,
-        "from": [
-          "E .Krimmel"
-        ],
-        "to": "Erica Krimmel"
-      }
-    ]
-  },
-  {
-    "op": "core/mass-edit",
-    "description": "Mass edit cells in column Ide2IdentifiedBy1_tab(1)",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "Ide2IdentifiedBy1_tab(1)",
-    "expression": "value",
-    "edits": [
-      {
-        "fromBlank": false,
-        "fromError": false,
-        "from": [
-          "E, Krimmel"
-        ],
-        "to": "Erica Krimmel"
-      }
-    ]
-  },
-  {
-    "op": "core/mass-edit",
-    "description": "Mass edit cells in column Ide2IdentifiedBy1_tab(1)",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "Ide2IdentifiedBy1_tab(1)",
-    "expression": "value",
-    "edits": [
-      {
-        "fromBlank": false,
-        "fromError": false,
-        "from": [
-          "E. Krimmel"
-        ],
-        "to": "Erica Krimmel"
-      }
-    ]
-  },
-  {
-    "op": "core/mass-edit",
-    "description": "Mass edit cells in column Ide2IdentifiedBy1_tab(1)",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "Ide2IdentifiedBy1_tab(1)",
-    "expression": "value",
-    "edits": [
-      {
-        "fromBlank": false,
-        "fromError": false,
-        "from": [
-          "L. Walker"
-        ],
-        "to": "Lindsay Walker"
-      }
-    ]
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column InvTypeStatus using expression value.toLowercase()",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "InvTypeStatus",
-    "expression": "value.toLowercase()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/column-addition",
-    "description": "Create column IPDisposition at index 3 based on column IPLotNo using expression grel:\"in collection\"",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "newColumnName": "IPDisposition",
-    "columnInsertIndex": 3,
-    "baseColumnName": "IPLotNo",
-    "expression": "grel:\"in collection\"",
-    "onError": "set-to-blank"
-  },
-  {
-    "op": "core/column-addition",
-    "description": "Create column IPProject at index 4 based on column IPDisposition using expression grel:\"CSC\"",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "newColumnName": "IPProject",
-    "columnInsertIndex": 4,
-    "baseColumnName": "IPDisposition",
-    "expression": "grel:\"CSC\"",
-    "onError": "set-to-blank"
-  },
-  {
-    "op": "core/column-addition",
-    "description": "Create column AdmPublishWebNoPassword at index 5 based on column IPProject using expression grel:\"Yes\"",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "newColumnName": "AdmPublishWebNoPassword",
-    "columnInsertIndex": 5,
-    "baseColumnName": "IPProject",
-    "expression": "grel:\"Yes\"",
-    "onError": "set-to-blank"
-  },
-  {
-    "op": "core/column-addition",
-    "description": "Create column Ide2CurrentID_tab(1) at index 10 based on column SpecTaxNo using expression grel:\"Yes\"",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "newColumnName": "Ide2CurrentID_tab(1)",
-    "columnInsertIndex": 10,
-    "baseColumnName": "SpecTaxNo",
-    "expression": "grel:\"Yes\"",
-    "onError": "set-to-blank"
-  },
-  {
-    "op": "core/column-addition",
-    "description": "Create column Ide2FiledAs_tab(1) at index 10 based on column SpecTaxNo using expression grel:\"Yes\"",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "newColumnName": "Ide2FiledAs_tab(1)",
-    "columnInsertIndex": 10,
-    "baseColumnName": "SpecTaxNo",
-    "expression": "grel:\"Yes\"",
-    "onError": "set-to-blank"
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column IPDisposition using expression grel:\"unknown\"",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": [
-        {
-          "omitError": false,
-          "expression": "value",
-          "selectBlank": false,
-          "selection": [
-            {
-              "v": {
-                "v": "provisional",
-                "l": "provisional"
-              }
-            }
-          ],
-          "selectError": false,
-          "invert": false,
-          "name": "Flag",
-          "omitBlank": false,
-          "type": "list",
-          "columnName": "Flag"
-        }
-      ]
-    },
-    "columnName": "IPDisposition",
-    "expression": "grel:\"unknown\"",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
+    "op": "core/column-rename",
+    "description": "Rename column SpecIRN to AuxRem1",
+    "oldColumnName": "SpecIRN",
+    "newColumnName": "AuxRem1"
   },
   {
     "op": "core/column-split",
     "description": "Split column PrevCatNo by separator",
     "engineConfig": {
-      "mode": "row-based",
-      "facets": []
+      "facets": [],
+      "mode": "row-based"
     },
     "columnName": "PrevCatNo",
     "guessCellType": true,
@@ -1632,49 +100,966 @@
   },
   {
     "op": "core/text-transform",
-    "description": "Text transform on cells in column IPCollection using expression grel:\"TYPE\"",
+    "description": "Text transform on cells in column AuxRem1 using expression grel:value.toString()",
     "engineConfig": {
-      "mode": "row-based",
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "AuxRem1",
+    "expression": "grel:value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column OriginalID using expression grel:value.toString()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "OriginalID",
+    "expression": "grel:value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column locMod using expression grel:value.toString()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "locMod",
+    "expression": "grel:value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column IPLotNo using expression grel:value.toString()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "IPLotNo",
+    "expression": "grel:value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column SitSiteRef_tab.SitSiteNumber using expression grel:value.toString()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "SitSiteRef_tab.SitSiteNumber",
+    "expression": "grel:value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column IPCatInstCode_tab using expression grel:value.toString()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "IPCatInstCode_tab",
+    "expression": "grel:value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column InvNoOfSp using expression grel:value.toString()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "InvNoOfSp",
+    "expression": "grel:value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column IPCatInstNumber_tab using expression grel:value.toString()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "IPCatInstNumber_tab",
+    "expression": "grel:value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column IPCollection using expression grel:value.toString()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "IPCollection",
+    "expression": "grel:value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Flag using expression grel:value.toString()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Flag",
+    "expression": "grel:value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column KenNo using expression grel:value.toString()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "KenNo",
+    "expression": "grel:value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column SpecTaxNo using expression grel:value.toString()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "SpecTaxNo",
+    "expression": "grel:value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Ide2IdentifiedBy1_tab(1) using expression grel:value.toString()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Ide2IdentifiedBy1_tab(1)",
+    "expression": "grel:value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Comments using expression grel:value.toString()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Comments",
+    "expression": "grel:value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column AdmDateInserted using expression grel:value.toString()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "AdmDateInserted",
+    "expression": "grel:value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column IPAnatomy_tab using expression grel:value.toString()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "IPAnatomy_tab",
+    "expression": "grel:value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column IPOriginalNature_tab using expression grel:value.toString()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "IPOriginalNature_tab",
+    "expression": "grel:value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column MigrationStatus using expression grel:value.toString()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "MigrationStatus",
+    "expression": "grel:value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column InvTypeStatus using expression grel:value.toString()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "InvTypeStatus",
+    "expression": "grel:value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column IPTypeNo using expression grel:value.toString()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "IPTypeNo",
+    "expression": "grel:value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Ide2DateIdentified0(1) using expression grel:value.toString()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Ide2DateIdentified0(1)",
+    "expression": "grel:value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column AuxRem1 using expression grel:value.trim()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "AuxRem1",
+    "expression": "grel:value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column OriginalID using expression grel:value.trim()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "OriginalID",
+    "expression": "grel:value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column InvNoOfSp using expression grel:value.trim()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "InvNoOfSp",
+    "expression": "grel:value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column locMod using expression grel:value.trim()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "locMod",
+    "expression": "grel:value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column SitSiteRef_tab.SitSiteNumber using expression grel:value.trim()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "SitSiteRef_tab.SitSiteNumber",
+    "expression": "grel:value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column IPLotNo using expression grel:value.trim()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "IPLotNo",
+    "expression": "grel:value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column IPCatInstCode_tab using expression grel:value.trim()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "IPCatInstCode_tab",
+    "expression": "grel:value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column IPCollection using expression grel:value.trim()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "IPCollection",
+    "expression": "grel:value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Flag using expression grel:value.trim()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Flag",
+    "expression": "grel:value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column KenNo using expression grel:value.trim()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "KenNo",
+    "expression": "grel:value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column SpecTaxNo using expression grel:value.trim()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "SpecTaxNo",
+    "expression": "grel:value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Comments using expression grel:value.trim()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Comments",
+    "expression": "grel:value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column AdmDateInserted using expression grel:value.trim()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "AdmDateInserted",
+    "expression": "grel:value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column IPAnatomy_tab using expression grel:value.trim()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "IPAnatomy_tab",
+    "expression": "grel:value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column IPOriginalNature_tab using expression grel:value.trim()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "IPOriginalNature_tab",
+    "expression": "grel:value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column IPCatInstNumber_tab using expression grel:value.trim()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "IPCatInstNumber_tab",
+    "expression": "grel:value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column MigrationStatus using expression grel:value.trim()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "MigrationStatus",
+    "expression": "grel:value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column InvTypeStatus using expression grel:value.trim()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "InvTypeStatus",
+    "expression": "grel:value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column IPTypeNo using expression grel:value.trim()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "IPTypeNo",
+    "expression": "grel:value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Ide2DateIdentified0(1) using expression grel:value.trim()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Ide2DateIdentified0(1)",
+    "expression": "grel:value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Ide2IdentifiedBy1_tab(1) using expression grel:value.trim()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Ide2IdentifiedBy1_tab(1)",
+    "expression": "grel:value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column AuxRem1 using expression grel:value.replace(/\\\\s+/,' ')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "AuxRem1",
+    "expression": "grel:value.replace(/\\\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column OriginalID using expression grel:value.replace(/\\\\s+/,' ')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "OriginalID",
+    "expression": "grel:value.replace(/\\\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column locMod using expression grel:value.replace(/\\\\s+/,' ')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "locMod",
+    "expression": "grel:value.replace(/\\\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column InvNoOfSp using expression grel:value.replace(/\\\\s+/,' ')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "InvNoOfSp",
+    "expression": "grel:value.replace(/\\\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column IPLotNo using expression grel:value.replace(/\\\\s+/,' ')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "IPLotNo",
+    "expression": "grel:value.replace(/\\\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column SitSiteRef_tab.SitSiteNumber using expression grel:value.replace(/\\\\s+/,' ')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "SitSiteRef_tab.SitSiteNumber",
+    "expression": "grel:value.replace(/\\\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column IPCatInstCode_tab using expression grel:value.replace(/\\\\s+/,' ')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "IPCatInstCode_tab",
+    "expression": "grel:value.replace(/\\\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column IPCatInstNumber_tab using expression grel:value.replace(/\\\\s+/,' ')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "IPCatInstNumber_tab",
+    "expression": "grel:value.replace(/\\\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column IPCollection using expression grel:value.replace(/\\\\s+/,' ')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "IPCollection",
+    "expression": "grel:value.replace(/\\\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Flag using expression grel:value.replace(/\\\\s+/,' ')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Flag",
+    "expression": "grel:value.replace(/\\\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column KenNo using expression grel:value.replace(/\\\\s+/,' ')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "KenNo",
+    "expression": "grel:value.replace(/\\\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column SpecTaxNo using expression grel:value.replace(/\\\\s+/,' ')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "SpecTaxNo",
+    "expression": "grel:value.replace(/\\\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Ide2IdentifiedBy1_tab(1) using expression grel:value.replace(/\\\\s+/,' ')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Ide2IdentifiedBy1_tab(1)",
+    "expression": "grel:value.replace(/\\\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Comments using expression grel:value.replace(/\\\\s+/,' ')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Comments",
+    "expression": "grel:value.replace(/\\\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column AdmDateInserted using expression grel:value.replace(/\\\\s+/,' ')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "AdmDateInserted",
+    "expression": "grel:value.replace(/\\\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column IPAnatomy_tab using expression grel:value.replace(/\\\\s+/,' ')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "IPAnatomy_tab",
+    "expression": "grel:value.replace(/\\\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column MigrationStatus using expression grel:value.replace(/\\\\s+/,' ')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "MigrationStatus",
+    "expression": "grel:value.replace(/\\\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column IPOriginalNature_tab using expression grel:value.replace(/\\\\s+/,' ')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "IPOriginalNature_tab",
+    "expression": "grel:value.replace(/\\\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column InvTypeStatus using expression grel:value.replace(/\\\\s+/,' ')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "InvTypeStatus",
+    "expression": "grel:value.replace(/\\\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column IPTypeNo using expression grel:value.replace(/\\\\s+/,' ')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "IPTypeNo",
+    "expression": "grel:value.replace(/\\\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Ide2DateIdentified0(1) using expression grel:value.replace(/\\\\s+/,' ')",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Ide2DateIdentified0(1)",
+    "expression": "grel:value.replace(/\\\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column IPProject at index 2 based on column SitSiteRef_tab.SitSiteNumber using expression grel:\"EPICC\"",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "IPProject",
+    "columnInsertIndex": 2,
+    "baseColumnName": "SitSiteRef_tab.SitSiteNumber",
+    "expression": "grel:\"EPICC\"",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column SitSiteRef_tab.SitSiteNumber using expression grel:\"LACMIP \"+value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "SitSiteRef_tab.SitSiteNumber",
+    "expression": "grel:\"LACMIP \"+value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column AdmPublishWebNoPassword at index 1 based on column AuxRem1 using expression grel:\"Yes\"",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "AdmPublishWebNoPassword",
+    "columnInsertIndex": 1,
+    "baseColumnName": "AuxRem1",
+    "expression": "grel:\"Yes\"",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column Ide2CurrentID_tab(1) at index 9 based on column SpecTaxNo using expression grel:\"Yes\"",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "Ide2CurrentID_tab(1)",
+    "columnInsertIndex": 9,
+    "baseColumnName": "SpecTaxNo",
+    "expression": "grel:\"Yes\"",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column Ide2FiledAs_tab(1) at index 9 based on column SpecTaxNo using expression grel:\"Yes\"",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "Ide2FiledAs_tab(1)",
+    "columnInsertIndex": 9,
+    "baseColumnName": "SpecTaxNo",
+    "expression": "grel:\"Yes\"",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column IPDisposition at index 3 based on column SitSiteRef_tab.SitSiteNumber using expression grel:\"in collection\"",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "IPDisposition",
+    "columnInsertIndex": 3,
+    "baseColumnName": "SitSiteRef_tab.SitSiteNumber",
+    "expression": "grel:\"in collection\"",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column IPDisposition using expression grel:\"unknown\"",
+    "engineConfig": {
       "facets": [
         {
-          "omitError": false,
-          "expression": "isBlank(value)",
-          "selectBlank": false,
+          "type": "list",
+          "name": "Flag",
+          "expression": "value",
+          "columnName": "Flag",
+          "invert": false,
           "selection": [
             {
               "v": {
-                "v": false,
+                "v": "provisional",
+                "l": "provisional"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "IPDisposition",
+    "expression": "grel:\"unknown\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column IPCollection using expression grel:\"TYPE\"",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "IPTypeNo",
+          "expression": "isBlank(value).toString()",
+          "columnName": "IPTypeNo",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "false",
                 "l": "false"
               }
             }
           ],
-          "selectError": false,
-          "invert": false,
-          "name": "IPTypeNo",
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
           "omitBlank": false,
-          "type": "list",
-          "columnName": "IPTypeNo"
-        },
-        {
-          "omitError": false,
-          "expression": "isBlank(value)",
           "selectBlank": false,
-          "selection": [
-            {
-              "v": {
-                "v": true,
-                "l": "true"
-              }
-            }
-          ],
-          "selectError": false,
-          "invert": false,
-          "name": "IPCollection",
-          "omitBlank": false,
-          "type": "list",
-          "columnName": "IPCollection"
+          "omitError": false,
+          "selectError": false
         }
-      ]
+      ],
+      "mode": "row-based"
     },
     "columnName": "IPCollection",
     "expression": "grel:\"TYPE\"",
@@ -1683,34 +1068,174 @@
     "repeatCount": 10
   },
   {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column InvTypeStatus using expression value.toLowercase()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "InvTypeStatus",
+    "expression": "value.toLowercase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column IPOriginalNature_tab using expression grel:\"body fossil\"",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "IPOriginalNature_tab",
+          "expression": "isBlank(value).toString()",
+          "columnName": "IPOriginalNature_tab",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "true",
+                "l": "true"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "IPOriginalNature_tab",
+    "expression": "grel:\"body fossil\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column IPAnatomy_tab using expression grel:\"body\"",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "IPAnatomy_tab",
+          "expression": "isBlank(value).toString()",
+          "columnName": "IPAnatomy_tab",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "true",
+                "l": "true"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "IPAnatomy_tab",
+    "expression": "grel:\"body\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Ide2IdentifiedBy1_tab(1) using expression grel:\"unknown\"",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Ide2IdentifiedBy1_tab(1)",
+          "expression": "isBlank(value).toString()",
+          "columnName": "Ide2IdentifiedBy1_tab(1)",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "true",
+                "l": "true"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Ide2IdentifiedBy1_tab(1)",
+    "expression": "grel:\"unknown\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column AdmInsertedBy at index 20 based on column AdmDateInserted using expression grel:\"IP Staff\"",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "AdmInsertedBy",
+    "columnInsertIndex": 20,
+    "baseColumnName": "AdmDateInserted",
+    "expression": "grel:\"IP Staff\"",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column MigrationStatus",
+    "columnName": "MigrationStatus"
+  }
+  {
     "op": "core/column-reorder",
     "description": "Reorder columns",
     "columnNames": [
-      "SpecIRN",
+      "AuxRem1",
       "SitSiteRef_tab.SitSiteNumber",
       "locMod",
       "IPLotNo",
       "InvNoOfSp",
       "IPDisposition",
-      "IPOriginalNature_tab",
-      "IPAnatomy_tab",
+      "Flag",
+      "IPProject",
       "IPCollection",
-      "InvTypeStatus",
       "IPTypeNo",
+      "InvTypeStatus",
       "IPCatInstCode_tab",
       "IPCatInstNumber_tab",
-      "IPProject",
-      "AdmPublishWebNoPassword",
-      "AdmDateInserted",
+      "IPOriginalNature_tab",
+      "IPAnatomy_tab",
+      "Comments",
       "KenNo",
       "SpecTaxNo",
-      "Ide2FiledAs_tab(1)",
-      "Ide2CurrentID_tab(1)",
       "Ide2IdentifiedBy1_tab(1)",
       "Ide2DateIdentified0(1)",
+      "Ide2CurrentID_tab(1)",
+      "Ide2FiledAs_tab(1)",
       "OriginalID",
-      "Flag",
-      "Comments"
+      "AdmInsertedBy",
+      "AdmDateInserted",
+      "AdmPublishWebNoPassword"
     ]
   }
 ]
