@@ -4,7 +4,7 @@ navcat: Basics
 tags:
 last_modified_at: 2019-03-01
 ---
-Groups are a useful way to save and share recordsets in EMu. If you have a set of search criteria that you frequently use, or a set of specific records that you need to share with another person, Groups will help.
+Groups are a useful way to save and share recordsets in EMu. If you have a set of search criteria that you frequently use, or a set of specific records that you need to share with another person, groups will help.
 
 To access an existing group, navigate to *Tools > Group > Retrieve Group* and select the group you are looking for. Note that groups exist within modules, i.e. the module you are in affects the groups you see listed.
 
