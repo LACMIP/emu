@@ -2,7 +2,7 @@
 title: Modes of Operation
 navcat: Basics
 tags: quick-start
-last_modified_at: 2019-02-01
+last_modified_at: 2019-03-01
 ---
 Each module has four possible screen modes–Search, Display, New, and Edit–depending on your task. These modes are briefly described below, and also covered in the documentation for specific modules.
 
@@ -27,10 +27,6 @@ The following wildcards are useful to know when searching EMu. Remember to use t
 - `\!\*` means not anything, a.k.a. an empty field
 
 Combine wildcards to make your search more specific, e.g. `\^apple\$` returns "apple" but not "apple jar" or "red apple."
-
-### Range searches
-
-You can search numeric fields (i.e. integers) and dates using a range, for example `>=35 <=45` in the *Lot No.* field will search for lot numbers 35 through 45. Or `>=8/1/2015 <= 1/31/2019` in the *Collecting Date* will search for specimens collected between 8/1/2015 and 1/31/2019. Similarly, `26\2-4\]` will return all *LACMIP Type Numbers* from 2626-2640.
 
 ### Additional resources
 
@@ -80,8 +76,8 @@ Create a new record in any module (that you have the permissions for) by clickin
 
 ### Timesaving tips for new records
 
+If you are entering similar data in many new records, consider using the [ditto function](http://help.emu.axiell.com/latest/en/Topics/Common/The%20Ditto%20utility.htm?Highlight=ditto), which allows you to set a [record template](http://help.emu.axiell.com/latest/en/Topics/Common/Record%20Templates.htm). You may also wish to adjust your [default values](http://help.emu.axiell.com/latest/en/Topics/Common/Default%20values.htm?Highlight=default%20values).
+
 Sometimes, data is recorded in a [nested table versus a single field](http://help.emu.axiell.com/latest/en/Topics/Common/Tables.htm). For more information on working with data in this format, see Axiell's documentation (linked above). Rows in a nested table can be copy-pasted into another nested table.
 
 {% include figure image_path="/assets/images/modes_rowcopy.png" alt="copying a row in a nested table" caption="You can copy and paste an entire row from the nested table of one record to another." %}
-
-If you are entering similar data in many new records, consider using the [ditto function](http://help.emu.axiell.com/v5.1/en/Topics/Common/How%20to%20use%20the%20Ditto%20utility.htm), which allows you to set a [record template](http://help.emu.axiell.com/latest/en/Topics/Common/Record%20Templates.htm).
