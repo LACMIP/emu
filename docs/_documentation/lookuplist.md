@@ -2,7 +2,7 @@
 title: Lookup Lists
 navcat: Modules
 tags:
-last_modified_at: 2019-02-01
+last_modified_at: 2019-03-01
 ---
 The Lookup Lists module is where lookup list values are managed. **Generally, staff do not need to use this module**, as they should have permission to add values to a lookup list while editing a record, e.g. while entering a new county in the *County/Dist* field. Students may not have permission to do so, and in this case a staff member would need to add the value for them. **Staff do need to use the Lookup List module to add values to drop-down menus.** For general information about this module, please see [Axiell's documentation](http://help.emu.axiell.com/latest/en/Topics/Common/Lookup%20Lists%20module.htm).
 
@@ -28,10 +28,10 @@ You may need to add values to a lookup list if it populates a dropdown menu, or 
 
 Leave the example record open while also opening a new Lookup List record. Enter the *Lookup List Name*, and values for whatever levels are appropriate. Choose for the record to be either persistent or non-persistent (most of the time if you are going to the trouble of adding a lookup list record, you'll want it to be persistent). You should only edit fields on the first tab (*Lookup 1*) of this module. Keep in mind that while LACMIP staff have permission to add values, they cannot edit the content of values. For this reason, it is important to check your work and make sure spelling, etc. is correct before you save the new Lookup List record.
 
-You can also add values to the Lookup Lists module in bulk via a CSV file. Please contact the museum's database manager if you are interested in this option.
+You can also add values to the Lookup Lists module in bulk via a CSV file. Please contact the Museum's database manager if you are interested in this option.
 
 ## Cleaning up values in a lookup
 
-The only thing LACMIP staff can edit on a Lookup List record after it has been saved is whether the record is persistent or not. **Changing a record from persistent to not persistent means that any records whose values are not being used by records in other modules will disappear.** This is the only way to clean up values via the Lookup List module. If you want to clean up the content of values, e.g. fix all instances of "Warley Hill Fm." to be "Warley Hill Formation", this needs to be done in the data itself (see documentation for [Global Replace](http://help.emu.axiell.com/latest/en/Topics/Common/Global%20Replace.htm)). The Lookup List module will rebuilt itself and automatically fix values that are fixed in the data.
+The only thing LACMIP staff can edit on a Lookup List record after it has been saved is whether the record is persistent or not. **Changing a record from persistent to non-persistent means that any records whose values are not being used by records in other modules will disappear.** This is the only way to clean up values via the Lookup List module. If you want to clean up the content of values, e.g. fix all instances of "Warley Hill Fm." to be "Warley Hill Formation", this needs to be done in the data itself (see documentation for [Global Replace](http://help.emu.axiell.com/latest/en/Topics/Common/Global%20Replace.htm)). The Lookup List module will rebuild itself and automatically fix values that are fixed in the data.
 
 To reiterate, cleaning up values in the Lookup List module **does not** clean up values that exist on any individual record. However, changing *Persistent* to "No" for a particular Lookup List record, then replacing those values in your Catalogue/Sites/etc. module will remove the offending Lookup List record. Check with the Museum's database manager if you need help cleaning up lookup lists.
