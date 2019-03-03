@@ -1,8 +1,8 @@
 ---
 title: Cataloging Specimens
-navcat: Modules
+navcat: Workflows
 tags: cataloging
-last_modified_at: 2019-02-01
+last_modified_at: 2019-03-02
 ---
 
 See also [Catalogue]({{ site.baseurl }}/documentation/catalogue/).
