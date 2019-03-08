@@ -137,7 +137,7 @@ ID Reference
 Filed As
 : This field should be "Yes" wherever *Currently Accepted* is also "Yes" and "No" wherever *Currently Accepted* is also "No," **except** for the records of **type specimens with outdated taxonomy** (see [re-identifications]({{ site.baseurl }}/documentation/reidentify/) for more on this).
 
-*Filed As* describes how the specimen is physically organized (filed) in the collection. This is why types, which may have had their taxonomy updated since their inital publication, are not always filed with a currently accepted name.
+*Filed As* describes how the specimen is physically organized (filed) in the collection. This is why types, which may have had their taxonomy updated since their initial publication, are not always filed with a currently accepted name.
 
 Currently Accepted
 : This field should be "Yes" for any identification attaching a current taxonomic name, and "No" for invalid taxonomy as well as legacy identifications. Only one identification can have a value of "Yes" for *Currently Accepted*, so even if a legacy identification is taxonomically valid, you need to enter "No" for this field.
