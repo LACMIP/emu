@@ -106,7 +106,7 @@ Anatomy
 
 {% include figure image_path="/assets/images/catalogue_identification.png" alt="screenshot of the identification tab in the catalogue module" caption="Screenshot of the *Identifications (1)* tab of the Catalogue module. Highlighting a row in the *Identification List* brings up more detailed information in the fields above." %}
 
-This tab allows us to track identification history of a specimen lot. As illustrated in the figure above, it is a nested table where each row represents a unique identification event. If you are looking for information about adding identifications to multiple catalogue records at the same time, please read the [re-identifications]({{ site.baseurl }}/documentation/reidentify/) documentation. Fields on this tab are...
+This tab allows us to track identification history of a specimen lot. As illustrated in the figure above, it is a nested table where each row represents a unique identification event. If you are looking for information about adding identifications to multiple catalogue records at the same time, please read the [re-identifying]({{ site.baseurl }}/documentation/reidentify/) documentation. Fields on this tab are...
 
 Taxon
 : Attach a record from the [Taxonomy module]({{ site.baseurl }}/documentation/cataloging/). If you know the full name you wish to attach, type it into this field along with its rank (e.g. "calva varians species" or "bivalvia class") and EMu will find the record directly. If the name you enter has multiple taxonomy record options, EMu will bring those up for you to select from. You can also use the full features of the Taxonomy module search by clicking on the green plus sign.
@@ -133,7 +133,7 @@ ID Reference
 : A [bibliography record]({{ site.baseurl }}/documentation/bibliography/) related to the identification can be attached via this field, if desired.
 
 Filed As
-: This field should be "Yes" wherever *Currently Accepted* is also "Yes" and "No" wherever *Currently Accepted* is also "No," except for on the records of type specimens whose taxonomy is outdated (see [re-identifications]({{ site.baseurl }}/documentation/reidentify/) for more on this).
+: This field should be "Yes" wherever *Currently Accepted* is also "Yes" and "No" wherever *Currently Accepted* is also "No," except for on the records of type specimens whose taxonomy is outdated (see [re-identifying]({{ site.baseurl }}/documentation/reidentify/) for more on this).
 
 Currently Accepted
 : This field should be "Yes" for any identification attaching a current taxonomic name, and "No" for invalid taxonomy as well as legacy identifications. Only one identification can have a value of "Yes" for *Currently Accepted*, so even if a legacy identification is taxonomically valid, you need to enter "No" for this field.
