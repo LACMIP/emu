@@ -1,5 +1,5 @@
 ---
-title: Migrating from Google Earth
+title: Migrating (Google Earth)
 navcat: Workflows
 tags: georeferencing
 toc: false
