@@ -22,3 +22,6 @@ If you are using EMu remotely, log into the VPN and import the CSV to the remote
 {% include figure image_path="/assets/images/googleearth_replacepref.png" alt="screenshot of EMu replace tool" caption="Screenshot of the replace tool set up to find all values of 'Yes' in the *Preferred* field and replace them with 'No.'" %}
 
 Finally, import the CSV into the Sites module via the custom import tool (see [importing data]({{ site.baseurl }}/documentation/import/) for further documentation on this tool).
+
+You can only complete this import if you are logged into the "IP Importer" group, which you can select by right-clicking the command center and going to *Options > Security*. If you do not see this group your account may not have the proper permissions; contact the Museum's database manager for assistance.
+{: .notice--warning}
