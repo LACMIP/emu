@@ -85,6 +85,8 @@ Project
 Lot Remarks
 : Space for comments that do not fit elsewhere. Some parts of the collection more commonly have information for this field than others, e.g. fossil insects tend to have lifestage and other extra notes to record here.
 
+Successive lot remarks (i.e., remarks made on different days by different people) should be formatted as such: Firstname1 Lastname1, Year1: Remark1. Firstname2 Lastname2, Year2: Remark. Etc. For example: Mary Stecheson, 2013: Specimen broken in transit. Keana Tang, 2019: Specimen is countertype of LACMIP Type 2889.
+
 IP Publications
 : The fields in this section allow you to attach a [bibliography record]({{ site.baseurl }}/documentation/bibliography/) to the catalogue record. This is usually only appropriate for specimens that belong to the Type Collection. *Pages*, *Fig.*, and *Type* are all used to provide more details about the citation.
 
@@ -133,7 +135,9 @@ ID Reference
 : A [bibliography record]({{ site.baseurl }}/documentation/bibliography/) related to the identification can be attached via this field, if desired.
 
 Filed As
-: This field should be "Yes" wherever *Currently Accepted* is also "Yes" and "No" wherever *Currently Accepted* is also "No," except for on the records of type specimens whose taxonomy is outdated (see [re-identifying]({{ site.baseurl }}/documentation/reidentify/) for more on this).
+: This field should be "Yes" wherever *Currently Accepted* is also "Yes" and "No" wherever *Currently Accepted* is also "No," **except** for the records of **type specimens with outdated taxonomy** (see [re-identifications]({{ site.baseurl }}/documentation/reidentify/) for more on this).
+
+*Filed As* describes how the specimen is physically organized (filed) in the collection. This is why types, which may have had their taxonomy updated since their inital publication, are not always filed with a currently accepted name.
 
 Currently Accepted
 : This field should be "Yes" for any identification attaching a current taxonomic name, and "No" for invalid taxonomy as well as legacy identifications. Only one identification can have a value of "Yes" for *Currently Accepted*, so even if a legacy identification is taxonomically valid, you need to enter "No" for this field.
