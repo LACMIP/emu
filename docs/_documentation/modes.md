@@ -61,15 +61,15 @@ If you have permission to edit a record, you will be in edit mode when you enter
 
 Sometimes you need to make edits that affect multiple records and it would be inefficient to do them field-by-field, record-by-record. For this circumstance, EMu has a powerful tool called [Global Replace](http://help.emu.axiell.com/latest/en/Topics/Common/Global%20Replace.htm).
 
-**You can easily create unintended consequences**, so be careful and read the Axiell documentation (linked above) thoroughly.:warning:
+**You can easily create unintended consequences using global replace**, so be careful and read the Axiell documentation (linked above) thoroughly.
+{: .notice--warning}
 
+<img src="{{ site.baseurl }}/assets/images/modes_replace.png" alt="" width="300"/>{: .align-right}
 A few tips for using global replace...
-- when you use the global replace tool, it will do *all* replace commands listed, so remember to **clear any past replaces** when you enter a new one.
+- when you use the global replace tool, it will do *all* replace commands listed (e.g. what you see in the image to the right), so remember to **clear any past replaces** when you enter a new one.
 - to use global replace to **fill blank fields with values**, use *Text to find:* = "^$" and be sure to check the regular expression box.
 - always do a test global replace on one selected record before attempting to affect multiple records
 - see [this article](http://help.emu.axiell.com/latest/en/Topics/Common/Wildcards%20in%20a%20Global%20Replace.htm) for information on advanced global replace using **wildcards**.
-
-{% include figure image_path="/assets/images/modes_replace.png" alt="global replace" caption="Global replace of the Catalogue module in EMu."%}
 
 ### Deleting records
 
