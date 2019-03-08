@@ -69,7 +69,7 @@ A few tips for using global replace...
 - always do a test global replace on one selected record before attempting to affect multiple records
 - see [this article](http://help.emu.axiell.com/latest/en/Topics/Common/Wildcards%20in%20a%20Global%20Replace.htm) for information on advanced global replace using **wildcards**.
 
-{% include figure image_path="/assets/images/modes_replace.png" alt="global replace" caption="Global replace of the Catalogue module in EMu." width="100" %}
+{% include figure image_path="/assets/images/modes_replace.png" alt="global replace" caption="Global replace of the Catalogue module in EMu."%}
 
 ### Deleting records
 
