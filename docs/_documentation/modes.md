@@ -65,6 +65,8 @@ Sometimes you need to make edits that affect multiple records and it would be in
 - always do a test global replace on one selected record before attempting to affect multiple records
 - see [this article](http://help.emu.axiell.com/latest/en/Topics/Common/Wildcards%20in%20a%20Global%20Replace.htm) for information on advanced global replace using **wildcards**.
 
+{% include figure image_path="/assets/images/modes_replace.png" alt="global replace" caption="Global replace of the Catalogue module in EMu." %}
+
 ### Deleting records
 
 Occasionally you may need to delete a record. Deleting records can be very slow due to EMu’s background validation checks, which run through all module attachments to avoid orphaning records. This takes time. To avoid having deletions be an interruption in your workflow, you can add them to a [group]({{ site.baseurl }}/documentation/groups/) and wait until an appropriate time to delete the entire group of records at once (maybe during lunch or at the end of the day). A similar option is to mark records as “Retired” on the security tab instead of deleting them. A “Retired” record will disappear from all searches and reports, and (if desired), can be deleted overnight. LACMIP does not typically use the retire functionality.
