@@ -7,6 +7,9 @@ last_modified_at: 2019-03-02
 
 EMu's import tool is the primary way for LACMIP users to get bulk data into the database, primarily for records in the [Catalogue]({{ site.baseurl }}/documentation/catalogue/), [Bibliography]({{ site.baseurl }}/documentation/bibliography/), and [Sites]({{ site.baseurl }}/documentation/sites/) modules. Keep in mind that there are some modules which LACMIP staff do not have permission to import data into (e.g. Taxonomy).
 
+Other modules have import access restricted to a group of users. E.g. to import data in the Sites module you must be logged into the "IP Importer" group, which you can select by right-clicking the command center and going to *Options > Security*. If you do not see this group your account may not have the proper permissions; contact the Museum's database manager for assistance.
+{: .notice--warning}
+
 The import tool expects to see a text file (CSV, TAB, TXT, XML) formatted with column names that correspond to EMu field names. Remember that the field names are different than the display names you see in the EMu interface, e.g. *IPCollName* vs. *Collection*. To find the name you need, use the question mark tool to click inside a field and bring up the help dialog box, then look under *Field Information > Column*. Your file should not include any columns that don't correspond to an EMu field, and it **must include a column that uniquely identifies an EMu record (e.g. by *irn*, by *Loc. No*, etc.).**
 
 If you need help setting up your import file, reach out to LACMIP staff or the Museum's database manager. **In general you should use the import functionality of EMu cautiously because it does not provide all of the data quality checks that direct data entry does**, for instance you can import a duplicate catalog number but not create one directly in EMu.
