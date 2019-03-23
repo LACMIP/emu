@@ -11,39 +11,6 @@
     "newColumnName": "currentName_irn"
   },
   {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column currentName_irn using expression null",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": [
-        {
-          "omitError": false,
-          "expression": "grel:value==cells[\"irn\"].value",
-          "selectBlank": false,
-          "selection": [
-            {
-              "v": {
-                "v": true,
-                "l": "true"
-              }
-            }
-          ],
-          "selectError": false,
-          "invert": false,
-          "name": "currentName_irn",
-          "omitBlank": false,
-          "type": "list",
-          "columnName": "currentName_irn"
-        }
-      ]
-    },
-    "columnName": "currentName_irn",
-    "expression": "null",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
     "op": "core/column-reorder",
     "description": "Reorder columns",
     "columnNames": [
@@ -75,85 +42,53 @@
     "op": "core/column-addition",
     "description": "Create column TAXON at index 20 based on column ClaSubspecies using expression grel:cells[\"ClaGenus\"].value+\" (\"+\ncells[\"ClaSubgenus\"].value+\") \"+\ncells[\"ClaSpecies\"].value+\" \"+\ncells[\"ClaSubspecies\"].value",
     "engineConfig": {
-      "mode": "row-based",
       "facets": [
         {
-          "omitError": false,
-          "expression": "isBlank(value)",
-          "selectBlank": false,
-          "selection": [
-            {
-              "v": {
-                "v": false,
-                "l": "false"
-              }
-            }
-          ],
-          "selectError": false,
-          "invert": false,
-          "name": "ClaSubspecies",
-          "omitBlank": false,
           "type": "list",
-          "columnName": "ClaSubspecies"
-        },
-        {
-          "omitError": false,
-          "expression": "isBlank(value)",
-          "selectBlank": false,
-          "selection": [
-            {
-              "v": {
-                "v": false,
-                "l": "false"
-              }
-            }
-          ],
-          "selectError": false,
-          "invert": false,
-          "name": "ClaSpecies",
-          "omitBlank": false,
-          "type": "list",
-          "columnName": "ClaSpecies"
-        },
-        {
-          "omitError": false,
-          "expression": "isBlank(value)",
-          "selectBlank": false,
-          "selection": [
-            {
-              "v": {
-                "v": false,
-                "l": "false"
-              }
-            }
-          ],
-          "selectError": false,
-          "invert": false,
           "name": "ClaSubgenus",
-          "omitBlank": false,
-          "type": "list",
-          "columnName": "ClaSubgenus"
-        },
-        {
-          "omitError": false,
-          "expression": "isBlank(value)",
-          "selectBlank": false,
+          "expression": "isBlank(value).toString()",
+          "columnName": "ClaSubgenus",
+          "invert": false,
           "selection": [
             {
               "v": {
-                "v": false,
+                "v": "false",
                 "l": "false"
               }
             }
           ],
-          "selectError": false,
-          "invert": false,
-          "name": "ClaGenus",
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
           "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
           "type": "list",
-          "columnName": "ClaGenus"
+          "name": "ClaRank",
+          "expression": "value",
+          "columnName": "ClaRank",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Subspecies",
+                "l": "Subspecies"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
         }
-      ]
+      ],
+      "mode": "row-based"
     },
     "newColumnName": "TAXON",
     "columnInsertIndex": 20,
@@ -165,85 +100,53 @@
     "op": "core/text-transform",
     "description": "Text transform on cells in column TAXON using expression grel:cells[\"ClaGenus\"].value+\" \"+\ncells[\"ClaSpecies\"].value+\" \"+\ncells[\"ClaSubspecies\"].value",
     "engineConfig": {
-      "mode": "row-based",
       "facets": [
         {
-          "omitError": false,
-          "expression": "isBlank(value)",
-          "selectBlank": false,
-          "selection": [
-            {
-              "v": {
-                "v": false,
-                "l": "false"
-              }
-            }
-          ],
-          "selectError": false,
-          "invert": false,
-          "name": "ClaSubspecies",
-          "omitBlank": false,
           "type": "list",
-          "columnName": "ClaSubspecies"
-        },
-        {
-          "omitError": false,
-          "expression": "isBlank(value)",
-          "selectBlank": false,
-          "selection": [
-            {
-              "v": {
-                "v": false,
-                "l": "false"
-              }
-            }
-          ],
-          "selectError": false,
+          "name": "ClaSubgenus",
+          "expression": "isBlank(value).toString()",
+          "columnName": "ClaSubgenus",
           "invert": false,
-          "name": "ClaSpecies",
-          "omitBlank": false,
-          "type": "list",
-          "columnName": "ClaSpecies"
-        },
-        {
-          "omitError": false,
-          "expression": "isBlank(value)",
-          "selectBlank": false,
           "selection": [
             {
               "v": {
-                "v": true,
+                "v": "true",
                 "l": "true"
               }
             }
           ],
-          "selectError": false,
-          "invert": false,
-          "name": "ClaSubgenus",
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
           "omitBlank": false,
-          "type": "list",
-          "columnName": "ClaSubgenus"
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
         },
         {
-          "omitError": false,
-          "expression": "isBlank(value)",
-          "selectBlank": false,
+          "type": "list",
+          "name": "ClaRank",
+          "expression": "value",
+          "columnName": "ClaRank",
+          "invert": false,
           "selection": [
             {
               "v": {
-                "v": false,
-                "l": "false"
+                "v": "Subspecies",
+                "l": "Subspecies"
               }
             }
           ],
-          "selectError": false,
-          "invert": false,
-          "name": "ClaGenus",
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
           "omitBlank": false,
-          "type": "list",
-          "columnName": "ClaGenus"
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
         }
-      ]
+      ],
+      "mode": "row-based"
     },
     "columnName": "TAXON",
     "expression": "grel:cells[\"ClaGenus\"].value+\" \"+\ncells[\"ClaSpecies\"].value+\" \"+\ncells[\"ClaSubspecies\"].value",
@@ -255,85 +158,53 @@
     "op": "core/text-transform",
     "description": "Text transform on cells in column TAXON using expression grel:cells[\"ClaGenus\"].value+\" (\"+\ncells[\"ClaSubgenus\"].value+\") \"+\ncells[\"ClaSpecies\"].value",
     "engineConfig": {
-      "mode": "row-based",
       "facets": [
         {
-          "omitError": false,
-          "expression": "isBlank(value)",
-          "selectBlank": false,
-          "selection": [
-            {
-              "v": {
-                "v": true,
-                "l": "true"
-              }
-            }
-          ],
-          "selectError": false,
-          "invert": false,
-          "name": "TAXON",
-          "omitBlank": false,
           "type": "list",
-          "columnName": "TAXON"
-        },
-        {
-          "omitError": false,
-          "expression": "isBlank(value)",
-          "selectBlank": false,
-          "selection": [
-            {
-              "v": {
-                "v": false,
-                "l": "false"
-              }
-            }
-          ],
-          "selectError": false,
-          "invert": false,
-          "name": "ClaSpecies",
-          "omitBlank": false,
-          "type": "list",
-          "columnName": "ClaSpecies"
-        },
-        {
-          "omitError": false,
-          "expression": "isBlank(value)",
-          "selectBlank": false,
-          "selection": [
-            {
-              "v": {
-                "v": false,
-                "l": "false"
-              }
-            }
-          ],
-          "selectError": false,
-          "invert": false,
           "name": "ClaSubgenus",
-          "omitBlank": false,
-          "type": "list",
-          "columnName": "ClaSubgenus"
-        },
-        {
-          "omitError": false,
-          "expression": "isBlank(value)",
-          "selectBlank": false,
+          "expression": "isBlank(value).toString()",
+          "columnName": "ClaSubgenus",
+          "invert": false,
           "selection": [
             {
               "v": {
-                "v": false,
+                "v": "false",
                 "l": "false"
               }
             }
           ],
-          "selectError": false,
-          "invert": false,
-          "name": "ClaGenus",
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
           "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
           "type": "list",
-          "columnName": "ClaGenus"
+          "name": "ClaRank",
+          "expression": "value",
+          "columnName": "ClaRank",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Species",
+                "l": "Species"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
         }
-      ]
+      ],
+      "mode": "row-based"
     },
     "columnName": "TAXON",
     "expression": "grel:cells[\"ClaGenus\"].value+\" (\"+\ncells[\"ClaSubgenus\"].value+\") \"+\ncells[\"ClaSpecies\"].value",
@@ -345,66 +216,53 @@
     "op": "core/text-transform",
     "description": "Text transform on cells in column TAXON using expression grel:cells[\"ClaGenus\"].value+\" \"+\ncells[\"ClaSpecies\"].value",
     "engineConfig": {
-      "mode": "row-based",
       "facets": [
         {
-          "omitError": false,
-          "expression": "isBlank(value)",
-          "selectBlank": false,
+          "type": "list",
+          "name": "ClaSubgenus",
+          "expression": "isBlank(value).toString()",
+          "columnName": "ClaSubgenus",
+          "invert": false,
           "selection": [
             {
               "v": {
-                "v": true,
+                "v": "true",
                 "l": "true"
               }
             }
           ],
-          "selectError": false,
-          "invert": false,
-          "name": "TAXON",
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
           "omitBlank": false,
-          "type": "list",
-          "columnName": "TAXON"
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
         },
         {
-          "omitError": false,
-          "expression": "isBlank(value)",
-          "selectBlank": false,
+          "type": "list",
+          "name": "ClaRank",
+          "expression": "value",
+          "columnName": "ClaRank",
+          "invert": false,
           "selection": [
             {
               "v": {
-                "v": false,
-                "l": "false"
+                "v": "Species",
+                "l": "Species"
               }
             }
           ],
-          "selectError": false,
-          "invert": false,
-          "name": "ClaSpecies",
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
           "omitBlank": false,
-          "type": "list",
-          "columnName": "ClaSpecies"
-        },
-        {
-          "omitError": false,
-          "expression": "isBlank(value)",
           "selectBlank": false,
-          "selection": [
-            {
-              "v": {
-                "v": false,
-                "l": "false"
-              }
-            }
-          ],
-          "selectError": false,
-          "invert": false,
-          "name": "ClaGenus",
-          "omitBlank": false,
-          "type": "list",
-          "columnName": "ClaGenus"
+          "omitError": false,
+          "selectError": false
         }
-      ]
+      ],
+      "mode": "row-based"
     },
     "columnName": "TAXON",
     "expression": "grel:cells[\"ClaGenus\"].value+\" \"+\ncells[\"ClaSpecies\"].value",
@@ -416,66 +274,31 @@
     "op": "core/text-transform",
     "description": "Text transform on cells in column TAXON using expression grel:cells[\"ClaGenus\"].value+\" (\"+\ncells[\"ClaSubgenus\"].value+\") sp.\"",
     "engineConfig": {
-      "mode": "row-based",
       "facets": [
         {
-          "omitError": false,
-          "expression": "isBlank(value)",
-          "selectBlank": false,
+          "type": "list",
+          "name": "ClaRank",
+          "expression": "value",
+          "columnName": "ClaRank",
+          "invert": false,
           "selection": [
             {
               "v": {
-                "v": true,
-                "l": "true"
+                "v": "Subgenus",
+                "l": "Subgenus"
               }
             }
           ],
-          "selectError": false,
-          "invert": false,
-          "name": "TAXON",
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
           "omitBlank": false,
-          "type": "list",
-          "columnName": "TAXON"
-        },
-        {
-          "omitError": false,
-          "expression": "isBlank(value)",
           "selectBlank": false,
-          "selection": [
-            {
-              "v": {
-                "v": false,
-                "l": "false"
-              }
-            }
-          ],
-          "selectError": false,
-          "invert": false,
-          "name": "ClaSubgenus",
-          "omitBlank": false,
-          "type": "list",
-          "columnName": "ClaSubgenus"
-        },
-        {
           "omitError": false,
-          "expression": "isBlank(value)",
-          "selectBlank": false,
-          "selection": [
-            {
-              "v": {
-                "v": false,
-                "l": "false"
-              }
-            }
-          ],
-          "selectError": false,
-          "invert": false,
-          "name": "ClaGenus",
-          "omitBlank": false,
-          "type": "list",
-          "columnName": "ClaGenus"
+          "selectError": false
         }
-      ]
+      ],
+      "mode": "row-based"
     },
     "columnName": "TAXON",
     "expression": "grel:cells[\"ClaGenus\"].value+\" (\"+\ncells[\"ClaSubgenus\"].value+\") sp.\"",
@@ -487,47 +310,31 @@
     "op": "core/text-transform",
     "description": "Text transform on cells in column TAXON using expression grel:cells[\"ClaGenus\"].value+\" sp.\"",
     "engineConfig": {
-      "mode": "row-based",
       "facets": [
         {
-          "omitError": false,
-          "expression": "isBlank(value)",
-          "selectBlank": false,
+          "type": "list",
+          "name": "ClaRank",
+          "expression": "value",
+          "columnName": "ClaRank",
+          "invert": false,
           "selection": [
             {
               "v": {
-                "v": true,
-                "l": "true"
+                "v": "Genus",
+                "l": "Genus"
               }
             }
           ],
-          "selectError": false,
-          "invert": false,
-          "name": "TAXON",
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
           "omitBlank": false,
-          "type": "list",
-          "columnName": "TAXON"
-        },
-        {
-          "omitError": false,
-          "expression": "isBlank(value)",
           "selectBlank": false,
-          "selection": [
-            {
-              "v": {
-                "v": false,
-                "l": "false"
-              }
-            }
-          ],
-          "selectError": false,
-          "invert": false,
-          "name": "ClaGenus",
-          "omitBlank": false,
-          "type": "list",
-          "columnName": "ClaGenus"
+          "omitError": false,
+          "selectError": false
         }
-      ]
+      ],
+      "mode": "row-based"
     },
     "columnName": "TAXON",
     "expression": "grel:cells[\"ClaGenus\"].value+\" sp.\"",
@@ -539,47 +346,31 @@
     "op": "core/text-transform",
     "description": "Text transform on cells in column TAXON using expression grel:cells[\"ClaTribe\"].value+\" indet.\"",
     "engineConfig": {
-      "mode": "row-based",
       "facets": [
         {
-          "omitError": false,
-          "expression": "isBlank(value)",
-          "selectBlank": false,
+          "type": "list",
+          "name": "ClaRank",
+          "expression": "value",
+          "columnName": "ClaRank",
+          "invert": false,
           "selection": [
             {
               "v": {
-                "v": true,
-                "l": "true"
+                "v": "Tribe",
+                "l": "Tribe"
               }
             }
           ],
-          "selectError": false,
-          "invert": false,
-          "name": "TAXON",
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
           "omitBlank": false,
-          "type": "list",
-          "columnName": "TAXON"
-        },
-        {
-          "omitError": false,
-          "expression": "isBlank(value)",
           "selectBlank": false,
-          "selection": [
-            {
-              "v": {
-                "v": false,
-                "l": "false"
-              }
-            }
-          ],
-          "selectError": false,
-          "invert": false,
-          "name": "ClaTribe",
-          "omitBlank": false,
-          "type": "list",
-          "columnName": "ClaTribe"
+          "omitError": false,
+          "selectError": false
         }
-      ]
+      ],
+      "mode": "row-based"
     },
     "columnName": "TAXON",
     "expression": "grel:cells[\"ClaTribe\"].value+\" indet.\"",
@@ -591,47 +382,31 @@
     "op": "core/text-transform",
     "description": "Text transform on cells in column TAXON using expression grel:cells[\"ClaSubfamily\"].value+\" indet.\"",
     "engineConfig": {
-      "mode": "row-based",
       "facets": [
         {
-          "omitError": false,
-          "expression": "isBlank(value)",
-          "selectBlank": false,
+          "type": "list",
+          "name": "ClaRank",
+          "expression": "value",
+          "columnName": "ClaRank",
+          "invert": false,
           "selection": [
             {
               "v": {
-                "v": true,
-                "l": "true"
+                "v": "Subfamily",
+                "l": "Subfamily"
               }
             }
           ],
-          "selectError": false,
-          "invert": false,
-          "name": "TAXON",
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
           "omitBlank": false,
-          "type": "list",
-          "columnName": "TAXON"
-        },
-        {
-          "omitError": false,
-          "expression": "isBlank(value)",
           "selectBlank": false,
-          "selection": [
-            {
-              "v": {
-                "v": false,
-                "l": "false"
-              }
-            }
-          ],
-          "selectError": false,
-          "invert": false,
-          "name": "ClaSubfamily",
-          "omitBlank": false,
-          "type": "list",
-          "columnName": "ClaSubfamily"
+          "omitError": false,
+          "selectError": false
         }
-      ]
+      ],
+      "mode": "row-based"
     },
     "columnName": "TAXON",
     "expression": "grel:cells[\"ClaSubfamily\"].value+\" indet.\"",
@@ -643,47 +418,31 @@
     "op": "core/text-transform",
     "description": "Text transform on cells in column TAXON using expression grel:cells[\"ClaFamily\"].value+\" indet.\"",
     "engineConfig": {
-      "mode": "row-based",
       "facets": [
         {
-          "omitError": false,
-          "expression": "isBlank(value)",
-          "selectBlank": false,
+          "type": "list",
+          "name": "ClaRank",
+          "expression": "value",
+          "columnName": "ClaRank",
+          "invert": false,
           "selection": [
             {
               "v": {
-                "v": true,
-                "l": "true"
+                "v": "Family",
+                "l": "Family"
               }
             }
           ],
-          "selectError": false,
-          "invert": false,
-          "name": "TAXON",
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
           "omitBlank": false,
-          "type": "list",
-          "columnName": "TAXON"
-        },
-        {
-          "omitError": false,
-          "expression": "isBlank(value)",
           "selectBlank": false,
-          "selection": [
-            {
-              "v": {
-                "v": false,
-                "l": "false"
-              }
-            }
-          ],
-          "selectError": false,
-          "invert": false,
-          "name": "ClaFamily",
-          "omitBlank": false,
-          "type": "list",
-          "columnName": "ClaFamily"
+          "omitError": false,
+          "selectError": false
         }
-      ]
+      ],
+      "mode": "row-based"
     },
     "columnName": "TAXON",
     "expression": "grel:cells[\"ClaFamily\"].value+\" indet.\"",
@@ -695,47 +454,31 @@
     "op": "core/text-transform",
     "description": "Text transform on cells in column TAXON using expression grel:cells[\"ClaSuperfamily\"].value+\" indet.\"",
     "engineConfig": {
-      "mode": "row-based",
       "facets": [
         {
-          "omitError": false,
-          "expression": "isBlank(value)",
-          "selectBlank": false,
+          "type": "list",
+          "name": "ClaRank",
+          "expression": "value",
+          "columnName": "ClaRank",
+          "invert": false,
           "selection": [
             {
               "v": {
-                "v": true,
-                "l": "true"
+                "v": "Superfamily",
+                "l": "Superfamily"
               }
             }
           ],
-          "selectError": false,
-          "invert": false,
-          "name": "TAXON",
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
           "omitBlank": false,
-          "type": "list",
-          "columnName": "TAXON"
-        },
-        {
-          "omitError": false,
-          "expression": "isBlank(value)",
           "selectBlank": false,
-          "selection": [
-            {
-              "v": {
-                "v": false,
-                "l": "false"
-              }
-            }
-          ],
-          "selectError": false,
-          "invert": false,
-          "name": "ClaSuperfamily",
-          "omitBlank": false,
-          "type": "list",
-          "columnName": "ClaSuperfamily"
+          "omitError": false,
+          "selectError": false
         }
-      ]
+      ],
+      "mode": "row-based"
     },
     "columnName": "TAXON",
     "expression": "grel:cells[\"ClaSuperfamily\"].value+\" indet.\"",
@@ -747,47 +490,31 @@
     "op": "core/text-transform",
     "description": "Text transform on cells in column TAXON using expression grel:cells[\"ClaInfraorder\"].value+\" indet.\"",
     "engineConfig": {
-      "mode": "row-based",
       "facets": [
         {
-          "omitError": false,
-          "expression": "isBlank(value)",
-          "selectBlank": false,
+          "type": "list",
+          "name": "ClaRank",
+          "expression": "value",
+          "columnName": "ClaRank",
+          "invert": false,
           "selection": [
             {
               "v": {
-                "v": true,
-                "l": "true"
+                "v": "Infraorder",
+                "l": "Infraorder"
               }
             }
           ],
-          "selectError": false,
-          "invert": false,
-          "name": "TAXON",
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
           "omitBlank": false,
-          "type": "list",
-          "columnName": "TAXON"
-        },
-        {
-          "omitError": false,
-          "expression": "isBlank(value)",
           "selectBlank": false,
-          "selection": [
-            {
-              "v": {
-                "v": false,
-                "l": "false"
-              }
-            }
-          ],
-          "selectError": false,
-          "invert": false,
-          "name": "ClaInfraorder",
-          "omitBlank": false,
-          "type": "list",
-          "columnName": "ClaInfraorder"
+          "omitError": false,
+          "selectError": false
         }
-      ]
+      ],
+      "mode": "row-based"
     },
     "columnName": "TAXON",
     "expression": "grel:cells[\"ClaInfraorder\"].value+\" indet.\"",
@@ -799,47 +526,31 @@
     "op": "core/text-transform",
     "description": "Text transform on cells in column TAXON using expression grel:cells[\"ClaSuborder\"].value+\" indet.\"",
     "engineConfig": {
-      "mode": "row-based",
       "facets": [
         {
-          "omitError": false,
-          "expression": "isBlank(value)",
-          "selectBlank": false,
+          "type": "list",
+          "name": "ClaRank",
+          "expression": "value",
+          "columnName": "ClaRank",
+          "invert": false,
           "selection": [
             {
               "v": {
-                "v": true,
-                "l": "true"
+                "v": "Suborder",
+                "l": "Suborder"
               }
             }
           ],
-          "selectError": false,
-          "invert": false,
-          "name": "TAXON",
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
           "omitBlank": false,
-          "type": "list",
-          "columnName": "TAXON"
-        },
-        {
-          "omitError": false,
-          "expression": "isBlank(value)",
           "selectBlank": false,
-          "selection": [
-            {
-              "v": {
-                "v": false,
-                "l": "false"
-              }
-            }
-          ],
-          "selectError": false,
-          "invert": false,
-          "name": "ClaSuborder",
-          "omitBlank": false,
-          "type": "list",
-          "columnName": "ClaSuborder"
+          "omitError": false,
+          "selectError": false
         }
-      ]
+      ],
+      "mode": "row-based"
     },
     "columnName": "TAXON",
     "expression": "grel:cells[\"ClaSuborder\"].value+\" indet.\"",
@@ -851,47 +562,31 @@
     "op": "core/text-transform",
     "description": "Text transform on cells in column TAXON using expression grel:cells[\"ClaOrder\"].value+\" indet.\"",
     "engineConfig": {
-      "mode": "row-based",
       "facets": [
         {
-          "omitError": false,
-          "expression": "isBlank(value)",
-          "selectBlank": false,
+          "type": "list",
+          "name": "ClaRank",
+          "expression": "value",
+          "columnName": "ClaRank",
+          "invert": false,
           "selection": [
             {
               "v": {
-                "v": true,
-                "l": "true"
+                "v": "Order",
+                "l": "Order"
               }
             }
           ],
-          "selectError": false,
-          "invert": false,
-          "name": "TAXON",
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
           "omitBlank": false,
-          "type": "list",
-          "columnName": "TAXON"
-        },
-        {
-          "omitError": false,
-          "expression": "isBlank(value)",
           "selectBlank": false,
-          "selection": [
-            {
-              "v": {
-                "v": false,
-                "l": "false"
-              }
-            }
-          ],
-          "selectError": false,
-          "invert": false,
-          "name": "ClaOrder",
-          "omitBlank": false,
-          "type": "list",
-          "columnName": "ClaOrder"
+          "omitError": false,
+          "selectError": false
         }
-      ]
+      ],
+      "mode": "row-based"
     },
     "columnName": "TAXON",
     "expression": "grel:cells[\"ClaOrder\"].value+\" indet.\"",
@@ -903,47 +598,31 @@
     "op": "core/text-transform",
     "description": "Text transform on cells in column TAXON using expression grel:cells[\"ClaSuperorder\"].value+\" indet.\"",
     "engineConfig": {
-      "mode": "row-based",
       "facets": [
         {
-          "omitError": false,
-          "expression": "isBlank(value)",
-          "selectBlank": false,
+          "type": "list",
+          "name": "ClaRank",
+          "expression": "value",
+          "columnName": "ClaRank",
+          "invert": false,
           "selection": [
             {
               "v": {
-                "v": true,
-                "l": "true"
+                "v": "Superorder",
+                "l": "Superorder"
               }
             }
           ],
-          "selectError": false,
-          "invert": false,
-          "name": "TAXON",
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
           "omitBlank": false,
-          "type": "list",
-          "columnName": "TAXON"
-        },
-        {
-          "omitError": false,
-          "expression": "isBlank(value)",
           "selectBlank": false,
-          "selection": [
-            {
-              "v": {
-                "v": false,
-                "l": "false"
-              }
-            }
-          ],
-          "selectError": false,
-          "invert": false,
-          "name": "ClaSuperorder",
-          "omitBlank": false,
-          "type": "list",
-          "columnName": "ClaSuperorder"
+          "omitError": false,
+          "selectError": false
         }
-      ]
+      ],
+      "mode": "row-based"
     },
     "columnName": "TAXON",
     "expression": "grel:cells[\"ClaSuperorder\"].value+\" indet.\"",
@@ -955,47 +634,31 @@
     "op": "core/text-transform",
     "description": "Text transform on cells in column TAXON using expression grel:cells[\"ClaSubclass\"].value+\" indet.\"",
     "engineConfig": {
-      "mode": "row-based",
       "facets": [
         {
-          "omitError": false,
-          "expression": "isBlank(value)",
-          "selectBlank": false,
+          "type": "list",
+          "name": "ClaRank",
+          "expression": "value",
+          "columnName": "ClaRank",
+          "invert": false,
           "selection": [
             {
               "v": {
-                "v": true,
-                "l": "true"
+                "v": "Subclass",
+                "l": "Subclass"
               }
             }
           ],
-          "selectError": false,
-          "invert": false,
-          "name": "TAXON",
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
           "omitBlank": false,
-          "type": "list",
-          "columnName": "TAXON"
-        },
-        {
-          "omitError": false,
-          "expression": "isBlank(value)",
           "selectBlank": false,
-          "selection": [
-            {
-              "v": {
-                "v": false,
-                "l": "false"
-              }
-            }
-          ],
-          "selectError": false,
-          "invert": false,
-          "name": "ClaSubclass",
-          "omitBlank": false,
-          "type": "list",
-          "columnName": "ClaSubclass"
+          "omitError": false,
+          "selectError": false
         }
-      ]
+      ],
+      "mode": "row-based"
     },
     "columnName": "TAXON",
     "expression": "grel:cells[\"ClaSubclass\"].value+\" indet.\"",
@@ -1007,47 +670,31 @@
     "op": "core/text-transform",
     "description": "Text transform on cells in column TAXON using expression grel:cells[\"ClaClass\"].value+\" indet.\"",
     "engineConfig": {
-      "mode": "row-based",
       "facets": [
         {
-          "omitError": false,
-          "expression": "isBlank(value)",
-          "selectBlank": false,
+          "type": "list",
+          "name": "ClaRank",
+          "expression": "value",
+          "columnName": "ClaRank",
+          "invert": false,
           "selection": [
             {
               "v": {
-                "v": true,
-                "l": "true"
+                "v": "Class",
+                "l": "Class"
               }
             }
           ],
-          "selectError": false,
-          "invert": false,
-          "name": "TAXON",
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
           "omitBlank": false,
-          "type": "list",
-          "columnName": "TAXON"
-        },
-        {
-          "omitError": false,
-          "expression": "isBlank(value)",
           "selectBlank": false,
-          "selection": [
-            {
-              "v": {
-                "v": false,
-                "l": "false"
-              }
-            }
-          ],
-          "selectError": false,
-          "invert": false,
-          "name": "ClaClass",
-          "omitBlank": false,
-          "type": "list",
-          "columnName": "ClaClass"
+          "omitError": false,
+          "selectError": false
         }
-      ]
+      ],
+      "mode": "row-based"
     },
     "columnName": "TAXON",
     "expression": "grel:cells[\"ClaClass\"].value+\" indet.\"",
@@ -1059,47 +706,31 @@
     "op": "core/text-transform",
     "description": "Text transform on cells in column TAXON using expression grel:cells[\"ClaSubphylum\"].value+\" indet.\"",
     "engineConfig": {
-      "mode": "row-based",
       "facets": [
         {
-          "omitError": false,
-          "expression": "isBlank(value)",
-          "selectBlank": false,
+          "type": "list",
+          "name": "ClaRank",
+          "expression": "value",
+          "columnName": "ClaRank",
+          "invert": false,
           "selection": [
             {
               "v": {
-                "v": true,
-                "l": "true"
+                "v": "Subphylum",
+                "l": "Subphylum"
               }
             }
           ],
-          "selectError": false,
-          "invert": false,
-          "name": "TAXON",
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
           "omitBlank": false,
-          "type": "list",
-          "columnName": "TAXON"
-        },
-        {
-          "omitError": false,
-          "expression": "isBlank(value)",
           "selectBlank": false,
-          "selection": [
-            {
-              "v": {
-                "v": false,
-                "l": "false"
-              }
-            }
-          ],
-          "selectError": false,
-          "invert": false,
-          "name": "ClaSubphylum",
-          "omitBlank": false,
-          "type": "list",
-          "columnName": "ClaSubphylum"
+          "omitError": false,
+          "selectError": false
         }
-      ]
+      ],
+      "mode": "row-based"
     },
     "columnName": "TAXON",
     "expression": "grel:cells[\"ClaSubphylum\"].value+\" indet.\"",
@@ -1111,47 +742,31 @@
     "op": "core/text-transform",
     "description": "Text transform on cells in column TAXON using expression grel:cells[\"ClaPhylum\"].value+\" indet.\"",
     "engineConfig": {
-      "mode": "row-based",
       "facets": [
         {
-          "omitError": false,
-          "expression": "isBlank(value)",
-          "selectBlank": false,
+          "type": "list",
+          "name": "ClaRank",
+          "expression": "value",
+          "columnName": "ClaRank",
+          "invert": false,
           "selection": [
             {
               "v": {
-                "v": true,
-                "l": "true"
+                "v": "Phylum",
+                "l": "Phylum"
               }
             }
           ],
-          "selectError": false,
-          "invert": false,
-          "name": "TAXON",
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
           "omitBlank": false,
-          "type": "list",
-          "columnName": "TAXON"
-        },
-        {
-          "omitError": false,
-          "expression": "isBlank(value)",
           "selectBlank": false,
-          "selection": [
-            {
-              "v": {
-                "v": false,
-                "l": "false"
-              }
-            }
-          ],
-          "selectError": false,
-          "invert": false,
-          "name": "ClaPhylum",
-          "omitBlank": false,
-          "type": "list",
-          "columnName": "ClaPhylum"
+          "omitError": false,
+          "selectError": false
         }
-      ]
+      ],
+      "mode": "row-based"
     },
     "columnName": "TAXON",
     "expression": "grel:cells[\"ClaPhylum\"].value+\" indet.\"",
@@ -1163,226 +778,34 @@
     "op": "core/text-transform",
     "description": "Text transform on cells in column TAXON using expression grel:cells[\"ClaKingdom\"].value+\" indet.\"",
     "engineConfig": {
-      "mode": "row-based",
       "facets": [
         {
-          "omitError": false,
-          "expression": "isBlank(value)",
-          "selectBlank": false,
+          "type": "list",
+          "name": "ClaRank",
+          "expression": "value",
+          "columnName": "ClaRank",
+          "invert": false,
           "selection": [
             {
               "v": {
-                "v": true,
-                "l": "true"
+                "v": "Kingdom",
+                "l": "Kingdom"
               }
             }
           ],
-          "selectError": false,
-          "invert": false,
-          "name": "TAXON",
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
           "omitBlank": false,
-          "type": "list",
-          "columnName": "TAXON"
-        },
-        {
-          "omitError": false,
-          "expression": "isBlank(value)",
           "selectBlank": false,
-          "selection": [
-            {
-              "v": {
-                "v": false,
-                "l": "false"
-              }
-            }
-          ],
-          "selectError": false,
-          "invert": false,
-          "name": "ClaKingdom",
-          "omitBlank": false,
-          "type": "list",
-          "columnName": "ClaKingdom"
+          "omitError": false,
+          "selectError": false
         }
-      ]
+      ],
+      "mode": "row-based"
     },
     "columnName": "TAXON",
     "expression": "grel:cells[\"ClaKingdom\"].value+\" indet.\"",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/column-rename",
-    "description": "Rename column ClaRank to Ide2QualifierRank_tab",
-    "oldColumnName": "ClaRank",
-    "newColumnName": "Ide2QualifierRank_tab"
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column Ide2QualifierRank_tab using expression value.toLowercase()",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "Ide2QualifierRank_tab",
-    "expression": "value.toLowercase()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/column-addition",
-    "description": "Create column Ide2Qaulifier_tab at index 21 based on column TAXON using expression grel:\"sp.\"",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": [
-        {
-          "mode": "text",
-          "invert": false,
-          "caseSensitive": false,
-          "query": " sp.",
-          "name": "TAXON",
-          "type": "text",
-          "columnName": "TAXON"
-        }
-      ]
-    },
-    "newColumnName": "Ide2Qaulifier_tab",
-    "columnInsertIndex": 21,
-    "baseColumnName": "TAXON",
-    "expression": "grel:\"sp.\"",
-    "onError": "set-to-blank"
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column Ide2Qaulifier_tab using expression grel:\"indet.\"",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": [
-        {
-          "mode": "text",
-          "invert": false,
-          "caseSensitive": false,
-          "query": " indet.",
-          "name": "TAXON",
-          "type": "text",
-          "columnName": "TAXON"
-        }
-      ]
-    },
-    "columnName": "Ide2Qaulifier_tab",
-    "expression": "grel:\"indet.\"",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/column-move",
-    "description": "Move column Ide2Qaulifier_tab to position 22",
-    "columnName": "Ide2Qaulifier_tab",
-    "index": 22
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column currentName_irn using expression null",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": [
-        {
-          "omitError": false,
-          "expression": "facetCount(value, 'value', 'TAXON') > 1",
-          "selectBlank": false,
-          "selection": [
-            {
-              "v": {
-                "v": true,
-                "l": "true"
-              }
-            }
-          ],
-          "selectError": false,
-          "invert": false,
-          "name": "TAXON",
-          "omitBlank": false,
-          "type": "list",
-          "columnName": "TAXON"
-        }
-      ]
-    },
-    "columnName": "currentName_irn",
-    "expression": "null",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column irn using expression value.toString()",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "irn",
-    "expression": "value.toString()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column currentName_irn using expression value.toString()",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "currentName_irn",
-    "expression": "value.toString()",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/mass-edit",
-    "description": "Mass edit cells in column currentName_irn",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "currentName_irn",
-    "expression": "value",
-    "edits": [
-      {
-        "fromBlank": false,
-        "fromError": false,
-        "from": [
-          "null"
-        ],
-        "to": ""
-      }
-    ]
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column currentName_irn using expression grel:value.replace(\".0\",\"\")",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "currentName_irn",
-    "expression": "grel:value.replace(\".0\",\"\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column irn using expression grel:value.replace(\".0\",\"\")",
-    "engineConfig": {
-      "mode": "row-based",
-      "facets": []
-    },
-    "columnName": "irn",
-    "expression": "grel:value.replace(\".0\",\"\")",
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10
@@ -1413,48 +836,1697 @@
       "ClaSpecies",
       "ClaSubspecies",
       "AutAuthorString",
-      "Ide2Qaulifier_tab",
-      "Ide2QualifierRank_tab"
+      "ClaRank"
     ]
   },
   {
-    "op": "core/mass-edit",
-    "description": "Mass edit cells in column Ide2Qaulifier_tab",
+    "op": "core/column-addition",
+    "description": "Create column PARENT at index 23 based on column ClaRank using expression grel:cells[\"ClaSpecies\"].value",
     "engineConfig": {
-      "mode": "row-based",
       "facets": [
         {
-          "omitError": false,
+          "type": "list",
+          "name": "ClaRank",
           "expression": "value",
-          "selectBlank": false,
+          "columnName": "ClaRank",
+          "invert": false,
           "selection": [
             {
               "v": {
-                "v": "Ichnofossil",
-                "l": "Ichnofossil"
+                "v": "Subspecies",
+                "l": "Subspecies"
               }
             }
           ],
-          "selectError": false,
-          "invert": false,
-          "name": "ClaPhylum",
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
           "omitBlank": false,
-          "type": "list",
-          "columnName": "ClaPhylum"
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
         }
-      ]
+      ],
+      "mode": "row-based"
     },
-    "columnName": "Ide2Qaulifier_tab",
-    "expression": "value",
-    "edits": [
-      {
-        "fromBlank": false,
-        "fromError": false,
-        "from": [
-          "sp."
-        ],
-        "to": "isp."
-      }
-    ]
+    "newColumnName": "PARENT",
+    "columnInsertIndex": 23,
+    "baseColumnName": "ClaRank",
+    "expression": "grel:cells[\"ClaSpecies\"].value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PARENT using expression grel:cells[\"ClaSubgenus\"].value",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ClaRank",
+          "expression": "value",
+          "columnName": "ClaRank",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Species",
+                "l": "Species"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "ClaSubgenus",
+          "expression": "isBlank(value).toString()",
+          "columnName": "ClaSubgenus",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "false",
+                "l": "false"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "PARENT",
+    "expression": "grel:cells[\"ClaSubgenus\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PARENT using expression grel:cells[\"ClaGenus\"].value",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ClaRank",
+          "expression": "value",
+          "columnName": "ClaRank",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Species",
+                "l": "Species"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "ClaSubgenus",
+          "expression": "isBlank(value).toString()",
+          "columnName": "ClaSubgenus",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "true",
+                "l": "true"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "PARENT",
+    "expression": "grel:cells[\"ClaGenus\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PARENT using expression grel:cells[\"ClaGenus\"].value",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ClaRank",
+          "expression": "value",
+          "columnName": "ClaRank",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Subgenus",
+                "l": "Subgenus"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "PARENT",
+    "expression": "grel:cells[\"ClaGenus\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PARENT using expression grel:cells[\"ClaTribe\"].value",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ClaRank",
+          "expression": "value",
+          "columnName": "ClaRank",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Genus",
+                "l": "Genus"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "ClaTribe",
+          "expression": "isBlank(value).toString()",
+          "columnName": "ClaTribe",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "false",
+                "l": "false"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "PARENT",
+    "expression": "grel:cells[\"ClaTribe\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PARENT using expression grel:cells[\"ClaSubfamily\"].value",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ClaRank",
+          "expression": "value",
+          "columnName": "ClaRank",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Genus",
+                "l": "Genus"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "ClaTribe",
+          "expression": "isBlank(value).toString()",
+          "columnName": "ClaTribe",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "true",
+                "l": "true"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "ClaSubfamily",
+          "expression": "isBlank(value).toString()",
+          "columnName": "ClaSubfamily",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "false",
+                "l": "false"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "PARENT",
+    "expression": "grel:cells[\"ClaSubfamily\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PARENT using expression grel:cells[\"ClaFamily\"].value",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ClaRank",
+          "expression": "value",
+          "columnName": "ClaRank",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Genus",
+                "l": "Genus"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "ClaTribe",
+          "expression": "isBlank(value).toString()",
+          "columnName": "ClaTribe",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "true",
+                "l": "true"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "ClaSubfamily",
+          "expression": "isBlank(value).toString()",
+          "columnName": "ClaSubfamily",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "true",
+                "l": "true"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "PARENT",
+    "expression": "grel:cells[\"ClaFamily\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PARENT using expression grel:cells[\"ClaSubfamily\"].value",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ClaRank",
+          "expression": "value",
+          "columnName": "ClaRank",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Tribe",
+                "l": "Tribe"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "PARENT",
+    "expression": "grel:cells[\"ClaSubfamily\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PARENT using expression grel:cells[\"ClaFamily\"].value",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ClaRank",
+          "expression": "value",
+          "columnName": "ClaRank",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Subfamily",
+                "l": "Subfamily"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "PARENT",
+    "expression": "grel:cells[\"ClaFamily\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PARENT using expression grel:cells[\"ClaSuperfamily\"].value",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ClaRank",
+          "expression": "value",
+          "columnName": "ClaRank",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Family",
+                "l": "Family"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "ClaSuperfamily",
+          "expression": "isBlank(value).toString()",
+          "columnName": "ClaSuperfamily",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "false",
+                "l": "false"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "PARENT",
+    "expression": "grel:cells[\"ClaSuperfamily\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PARENT using expression grel:cells[\"ClaInfraorder\"].value",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ClaRank",
+          "expression": "value",
+          "columnName": "ClaRank",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Family",
+                "l": "Family"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "ClaSuperfamily",
+          "expression": "isBlank(value).toString()",
+          "columnName": "ClaSuperfamily",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "true",
+                "l": "true"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "ClaInfraorder",
+          "expression": "isBlank(value).toString()",
+          "columnName": "ClaInfraorder",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "false",
+                "l": "false"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "PARENT",
+    "expression": "grel:cells[\"ClaInfraorder\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PARENT using expression grel:cells[\"ClaSuborder\"].value",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ClaRank",
+          "expression": "value",
+          "columnName": "ClaRank",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Family",
+                "l": "Family"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "ClaSuperfamily",
+          "expression": "isBlank(value).toString()",
+          "columnName": "ClaSuperfamily",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "true",
+                "l": "true"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "ClaInfraorder",
+          "expression": "isBlank(value).toString()",
+          "columnName": "ClaInfraorder",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "true",
+                "l": "true"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "ClaSuborder",
+          "expression": "isBlank(value).toString()",
+          "columnName": "ClaSuborder",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "false",
+                "l": "false"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "PARENT",
+    "expression": "grel:cells[\"ClaSuborder\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PARENT using expression grel:cells[\"ClaOrder\"].value",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ClaRank",
+          "expression": "value",
+          "columnName": "ClaRank",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Family",
+                "l": "Family"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "ClaSuperfamily",
+          "expression": "isBlank(value).toString()",
+          "columnName": "ClaSuperfamily",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "true",
+                "l": "true"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "ClaInfraorder",
+          "expression": "isBlank(value).toString()",
+          "columnName": "ClaInfraorder",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "true",
+                "l": "true"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "ClaSuborder",
+          "expression": "isBlank(value).toString()",
+          "columnName": "ClaSuborder",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "true",
+                "l": "true"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "PARENT",
+    "expression": "grel:cells[\"ClaOrder\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PARENT using expression grel:cells[\"ClaSuborder\"].value",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ClaRank",
+          "expression": "value",
+          "columnName": "ClaRank",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Superfamily",
+                "l": "Superfamily"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "ClaInfraorder",
+          "expression": "isBlank(value).toString()",
+          "columnName": "ClaInfraorder",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "true",
+                "l": "true"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "ClaSuborder",
+          "expression": "isBlank(value).toString()",
+          "columnName": "ClaSuborder",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "false",
+                "l": "false"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "PARENT",
+    "expression": "grel:cells[\"ClaSuborder\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PARENT using expression grel:cells[\"ClaOrder\"].value",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ClaRank",
+          "expression": "value",
+          "columnName": "ClaRank",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Superfamily",
+                "l": "Superfamily"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "ClaInfraorder",
+          "expression": "isBlank(value).toString()",
+          "columnName": "ClaInfraorder",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "true",
+                "l": "true"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "ClaSuborder",
+          "expression": "isBlank(value).toString()",
+          "columnName": "ClaSuborder",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "true",
+                "l": "true"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "PARENT",
+    "expression": "grel:cells[\"ClaOrder\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PARENT using expression grel:cells[\"ClaSuborder\"].value",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ClaRank",
+          "expression": "value",
+          "columnName": "ClaRank",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Infraorder",
+                "l": "Infraorder"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "ClaSuborder",
+          "expression": "isBlank(value).toString()",
+          "columnName": "ClaSuborder",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "false",
+                "l": "false"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "PARENT",
+    "expression": "grel:cells[\"ClaSuborder\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PARENT using expression grel:cells[\"ClaOrder\"].value",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ClaRank",
+          "expression": "value",
+          "columnName": "ClaRank",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Infraorder",
+                "l": "Infraorder"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "ClaSuborder",
+          "expression": "isBlank(value).toString()",
+          "columnName": "ClaSuborder",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "true",
+                "l": "true"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "PARENT",
+    "expression": "grel:cells[\"ClaOrder\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PARENT using expression grel:cells[\"ClaOrder\"].value",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ClaRank",
+          "expression": "value",
+          "columnName": "ClaRank",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Suborder",
+                "l": "Suborder"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "PARENT",
+    "expression": "grel:cells[\"ClaOrder\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PARENT using expression grel:cells[\"ClaSuperorder\"].value",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ClaRank",
+          "expression": "value",
+          "columnName": "ClaRank",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Order",
+                "l": "Order"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "ClaSuperorder",
+          "expression": "isBlank(value).toString()",
+          "columnName": "ClaSuperorder",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "false",
+                "l": "false"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "PARENT",
+    "expression": "grel:cells[\"ClaSuperorder\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PARENT using expression grel:cells[\"ClaSubclass\"].value",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ClaRank",
+          "expression": "value",
+          "columnName": "ClaRank",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Order",
+                "l": "Order"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "ClaSuperorder",
+          "expression": "isBlank(value).toString()",
+          "columnName": "ClaSuperorder",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "true",
+                "l": "true"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "ClaSubclass",
+          "expression": "isBlank(value).toString()",
+          "columnName": "ClaSubclass",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "false",
+                "l": "false"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "PARENT",
+    "expression": "grel:cells[\"ClaSubclass\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PARENT using expression grel:cells[\"ClaClass\"].value",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ClaRank",
+          "expression": "value",
+          "columnName": "ClaRank",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Order",
+                "l": "Order"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "ClaSuperorder",
+          "expression": "isBlank(value).toString()",
+          "columnName": "ClaSuperorder",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "true",
+                "l": "true"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "ClaSubclass",
+          "expression": "isBlank(value).toString()",
+          "columnName": "ClaSubclass",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "true",
+                "l": "true"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "PARENT",
+    "expression": "grel:cells[\"ClaClass\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PARENT using expression grel:cells[\"ClaSubclass\"].value",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ClaRank",
+          "expression": "value",
+          "columnName": "ClaRank",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Superorder",
+                "l": "Superorder"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "ClaSubclass",
+          "expression": "isBlank(value).toString()",
+          "columnName": "ClaSubclass",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "false",
+                "l": "false"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "PARENT",
+    "expression": "grel:cells[\"ClaSubclass\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PARENT using expression grel:cells[\"ClaClass\"].value",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ClaRank",
+          "expression": "value",
+          "columnName": "ClaRank",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Superorder",
+                "l": "Superorder"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "ClaSubclass",
+          "expression": "isBlank(value).toString()",
+          "columnName": "ClaSubclass",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "true",
+                "l": "true"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "PARENT",
+    "expression": "grel:cells[\"ClaClass\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PARENT using expression grel:cells[\"ClaClass\"].value",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ClaRank",
+          "expression": "value",
+          "columnName": "ClaRank",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Subclass",
+                "l": "Subclass"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "PARENT",
+    "expression": "grel:cells[\"ClaClass\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PARENT using expression grel:cells[\"ClaSubphylum\"].value",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ClaRank",
+          "expression": "value",
+          "columnName": "ClaRank",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Class",
+                "l": "Class"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "ClaSubphylum",
+          "expression": "isBlank(value).toString()",
+          "columnName": "ClaSubphylum",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "false",
+                "l": "false"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "PARENT",
+    "expression": "grel:cells[\"ClaSubphylum\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PARENT using expression grel:cells[\"ClaPhylum\"].value",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ClaRank",
+          "expression": "value",
+          "columnName": "ClaRank",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Class",
+                "l": "Class"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "ClaSubphylum",
+          "expression": "isBlank(value).toString()",
+          "columnName": "ClaSubphylum",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "true",
+                "l": "true"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "PARENT",
+    "expression": "grel:cells[\"ClaPhylum\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PARENT using expression grel:cells[\"ClaPhylum\"].value",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ClaRank",
+          "expression": "value",
+          "columnName": "ClaRank",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Subphylum",
+                "l": "Subphylum"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "PARENT",
+    "expression": "grel:cells[\"ClaPhylum\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PARENT using expression grel:cells[\"ClaKingdom\"].value",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "ClaRank",
+          "expression": "value",
+          "columnName": "ClaRank",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Phylum",
+                "l": "Phylum"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "PARENT",
+    "expression": "grel:cells[\"ClaKingdom\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
   }
 ]
