@@ -85,10 +85,10 @@ Project
 Lot Remarks
 : Space for comments that do not fit elsewhere. Some parts of the collection more commonly have information for this field than others, e.g. fossil insects tend to have lifestage and other extra notes to record here.
 
-Successive lot remarks (i.e., remarks made on different days by different people) should be formatted as such: Firstname1 Lastname1, Year1: Remark1. Firstname2 Lastname2, Year2: Remark. Etc. For example: Mary Stecheson, 2013: Specimen broken in transit. Keana Tang, 2019: Specimen is countertype of LACMIP Type 2889.
+: Successive lot remarks (i.e., remarks made on different days by different people) should be formatted as such: Firstname1 Lastname1, Year1: Remark1. Firstname2 Lastname2, Year2: Remark. Etc. For example: Mary Stecheson, 2013: Specimen broken in transit. Keana Tang, 2019: Specimen is countertype of LACMIP Type 2889.
 
 IP Publications
-: The fields in this section allow you to attach a [bibliography record]({{ site.baseurl }}/documentation/bibliography/) to the catalogue record. This is usually only appropriate for specimens that belong to the Type Collection. *Pages*, *Fig.*, and *Type* are all used to provide more details about the citation.
+: The fields in this section allow you to attach a [bibliography record]({{ site.baseurl }}/documentation/bibliography/) to the catalogue record. This is usually only appropriate for specimens that belong to the Type Collection. *Pages*, *Fig.*, and *Type* are all used to provide more details about the citation. For these fields, do not hypenate successive numbers.
 
 Original Nature
 : A controlled vocabulary recording the kind of fossil present. It is possible to record more than one value (one per row), e.g. if you have a specimen lot that includes the body fossil as well as a cast of it. Vocabulary includes:
