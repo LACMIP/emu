@@ -65,10 +65,28 @@ The following are currently values we use in the *Descriptions* tab:
 
 *Label* | *Description*
 --- | ---
-Age Range | Enter information about the geologic age in shorthand. Ex: "K(t)", "K(t)-K(s)", "K(t), K(ca)", "K(t)?"
 Project | Assign this taxon to a project; or if the taxon belongs to more than one project enter each project in a separate *Label-Description* pair. Current project options are: "Barstow Arthropods", "Cretaceous Pacific Slope", "EPICC", "McKittrick Tar Pits", "Nonmarine", "Quaternary nonmarine arthropods", "Rancho La Brea Tar Pits", "Statz Collection"
-Type specimens | Note any type specimens associated with this taxon in the literature, always including the collection prefix. Ex: "LACMIP Type Number: 4277", "UCMP Type Number: 89753, 89754."
+Type specimens | Note any type specimens associated with this taxon in the literature. Cretaceous taxa are formatted to always including the collection prefix. Ex: "LACMIP Type Number: 4277", "UCMP Type Number: 89753, 89754." EPICC taxa are formatted per their own standard.
+Age Range | Enter information about the geologic age in shorthand. Ex: "K(t)", "K(t)-K(s)", "K(t), K(ca)", "K(t)?"
+Geographic Range | Enter information about the geographic range, typically at the state or country level and ordered from north to south. Ex: "California, Baja California, Ecuador"
+Length (mm) | Average length of an individual of this taxon, measured in millimeters. Should be numeric with at most two decimal places.
+Width (mm) | Average width of an individual of this taxon, measured in millimeters. Should be numeric with at most two decimal places.
+Height (mm) | Average height of an individual of this taxon, measured in millimeters. Should be numeric with at most two decimal places.
+High Lat. (dec.) | Furthest north latitude of expected distribution for this taxon. Should be numeric with at most two decimal places.
+Low Lat. (dec.) | Furthest south latitude of expected distribution for this taxon. Should be numeric with at most two decimal places.
+Min. Depth (m) | Average minimum depth of expected habitat for this taxon, measured in meters. Should be an integer.
+Max. Depth (m) | Average maximum depth of expected habitat for this taxon, measured in meters. Should be an integer.
+Depth Zone | Numerically-coded system for recording depth zones. Should be an integer.
+Substrate | Semi-controlled vocabulary denoting typical substrate. Ex: "pelagic" or "sand"
+Abundance | Alpha-coded system for recording abundance.
+Min. Temp. (C) | Average minimum temperature of expected range for this taxon, measured in degrees celsius. Should be numeric with at most two decimal places.
+Max. Temp. (C) | Average maximum temperature of expected range for this taxon, measured in degrees celsius. Should be numeric with at most two decimal places.
 Notes | Random notes about the taxonomic record. Make every effort to find a better home (e.g. maybe on the *Citations* or *Validity* tabs) for information you may be tempted to put here.
+Ecology Comments | General comments about a taxon's ecology that do not fit elsewhere.
+Recent Distribution | Reserved for Austin Hendy notes.
+
+The paired values above will be migrated to a new "Ecology" tab in the pending (spring 2019) EMu update. This will significantly data entry and quality.
+{: .notice--warning}
 
 ## Citations tab
 
@@ -88,12 +106,12 @@ Date
 : Select today's date.
 
 Cited Locality
-: LACMIP uses this field to track specific collecting localities where this taxon is known to occur. These should be listed e.g. "CIT 1154" or "LACMIP 363, LACMIP 8099."
+: LACMIP uses this field to track specific collecting localities where this taxon is known to occur. These should be listed e.g. "CIT 1154" or "LACMIP 363, LACMIP 8099." This field has primarily been used for Cretaceous taxa.
 
 Remarks
-: The bulk of your comments will go in this field, because it is where we record information about geographic and stratigraphic occurrence. Format this as "**STATE: Formation: Subunit**", repeating all higher levels for each occurrence. Ex: "CALIFORNIA: Ladd Fm: Baker Canyon; CALIFORNIA: Ladd Fm: Holz Shale." Formations and subunits should be formatted in line with lithostratigraphic information in the LACMIP Sites module. See table below for more formatting examples.
+: The bulk of your comments will go in this field, because it is where we record information about geographic and stratigraphic occurrence. Formats for different taxonomic dictionaries (Cretaceous vs. EPICC) differ. The generic Cretaceous format is "**STATE: Formation: Subunit**", repeating all higher levels for each occurrence. Ex: "CALIFORNIA: Ladd Fm: Baker Canyon; CALIFORNIA: Ladd Fm: Holz Shale." Formations and subunits should be formatted in line with lithostratigraphic information in the LACMIP Sites module. EPICC fossil distribution information is recorded in a single bibliographic remarks field (in order to preserve the north-to-south order of occurrences). See table below for more formatting examples.
 
-  *Citation Remarks* | *Explanation*
+  *Citation Remarks (Cretaceous taxa)* | *Explanation*
   --- | ---
   STATE: Formation: Subunit | Denotes published species occurrence, or species occurrence found in LACMIP Collections. If the latter, "Cited In:" should also be "LACMIP Collection". Separate multiple occurrences for a given citation with semi-colons.
   [STATE: Formation: Subunit][ANTIQUATED] | Denotes antiquated species occurrence.
@@ -122,13 +140,17 @@ Reason
 : Not in use.
 
 Reference
-: Attach a [bibliography record]({{ site.baseurl }}/documentation/bibliography/) to support your validity comment. For comments based on notes or specimens in the collection, this can be the "LACMIP Collection" record. Personal communication can be cited here as well.
+: Attach a [bibliography record]({{ site.baseurl }}/documentation/bibliography/) to support your validity comment. For comments based on the pre-migration EPICC taxonomic dictionary, this exists as a bibliographic record (irn 3062). For comments based on notes or specimens in the collection, this can be the "LACMIP Collection" record. Personal communication can be cited here as well.
 
 Comments
 : Enter your comments here. **See table below for preferred comments and formatting consistency.**  If you are unsure of what comment to add, do a wildcard search (*Comments* = `\*`) for all current validity comments in use and proceed accordingly. Suggestion: use the Ditto function to maintain consistency when entering the same comments on multiple taxon records.
 
   *Validity Comments* | *Explanation*
   --- | ---
+  Good | EPICC taxonomic dictionary category for well-vetted names.
+  Okay | EPICC taxonomic dictionary category for possibly suspicious names.
+  Poor | EPICC taxonomic dictionary category for suspicious names.
+  Invalid | EPICC taxonomic dictionary category for invalid names.
   Genus changed in Treatise 1996. | Add if rationale for taxonomic update needs documentation.
   Genus should be in quotation marks. | Track special characters (") using standardized validity comments.
   Genus should be followed by question mark. | Track special characters (?) using standardized validity comments.
