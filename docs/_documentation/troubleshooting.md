@@ -31,3 +31,9 @@ EMu returns an error when you try to delete a record, saying something e.g. `att
 {: .notice--warning}
 
 **Solution**: Because EMu is a relational database, you cannot delete any record that would leave unresolved relationships to other records. In other words, if the bibliography record you are trying to delete is attached to a taxonomy record, EMu will give you an error. To resolve this, figure out where the record you want to delete is attached to and remove these connections.
+
+## Problem: CSV won't import
+EMu returns errors when you attempt to  a CSV file.
+{: .notice--warning}
+
+**Solution**: If *every* row returns an error, you likely have an issue with the names of your columns. Go back to EMu and check each field name (see [import]({{ site.baseurl }}/documentation/import/) documentation for how to do this) against those in your spreadsheet. Remember that you need to be particularly aware of import columns that reference a module other than the one you are importing into, and that affect fields in nested tables. **If you are unsure how to properly name your columns, contacting the Museum's database manager for help is preferable to accidentally importing a bunch of data into the wrong place.** If only *some* rows return errors, you likely have issues with values in your cells. Try using EMu's import tool "Validate" functionality to see if you can pinpoint the culprit. Check for alpha characters in numeric fields, non-dates in date fields, etc.
