@@ -11,7 +11,7 @@ First, open Google Earth and download a KML version of the “LACMIP Georeferenc
 
 {% include figure image_path="/assets/images/googleearth_screenshot.png" alt="screenshot of Google Earth" caption="Screenshot illustrating where to find the LACMIP Georeferencing folder in Google Earth." %}
 
-Open the KML file in a text editor and trim it by searching for the first instance of the `<Placemark>` element and deleting everything above this tag and below the `<Document>` tag. Save the file, then import into OpenRefine and run the script called *[_OpenRefineScript_GoogleEarth-to-EMu.json]({{ site.url_scripts }})*.
+Open the KML file in a text editor and trim it by searching for the first instance of the `<Placemark>` element and deleting everything above this tag and below the `<Document>` tag. Save the file, then import into OpenRefine and run the script called *[_OpenRefineScript_GoogleEarth-to-EMu.json]({{ site.url_scripts }})* (please note that this script was written for OpenRefine 3.1 so if it isn't working for you, check your version).
 
 {% include figure image_path="/assets/images/googleearth_refinexml.png" alt="screenshot of OpenRefine" caption="Screenshot illustrating how to properly import the KML file into OpenRefine by defining it as XML format and selecting the `<Placemark>` element)" %}
 

@@ -66,7 +66,7 @@ Type Status
     - "syntype"
 
 Collectors
-: The fields in this section–*Collector Name*, *Start Date*, and *End Date*–will be moved to the [Sites module]({{ site.baseurl }}/documentation/sites/) with the next EMu update. Until then, we do need information here for printing labels. Enter multiple collectors into the same *Collector Name* row, e.g. "LouElla Saul, Mary Ann Swanson." Enter different values for *Start Date* and *End Date* if you have a date range, e.g. "2/17/2019" and "2/20/2019", or the same value if there is no explicit range, e.g. "2/17/2019" and "2/17/2019," or "2019" and "2019." Do not use the *Uncertain* field, and do not use more than one row of this nested table.
+: The fields in this section–*Collector Name*, *Start Date*, and *End Date*–will be moved to the [Sites module]({{ site.baseurl }}/documentation/sites/) with the next EMu update. Until then, we do need information here for printing labels. Enter multiple collectors into the same *Collector Name* row, e.g. "LouElla Saul, Mary Ann Swanson." Enter different values for *Start Date* and *End Date* if you have a date range, e.g. "2/17/2019" and "2/20/2019", or the same value if there is no explicit range, e.g. "2/17/2019" and "2/17/2019," or "2019" and "2019." Do not use the *Uncertain* field, and do not use more than one row of this nested table (i.e. all collectors should be listed in a single row).
 
 Collection
 : A controlled vocabulary to indicate which physical part of the collection this specimen lot should be housed in. Vocabulary includes:
@@ -148,7 +148,7 @@ LACMIP does not use the *Location* tab yet. It is designed to track physical spe
 
 ## Registrar tab
 
-The *Registrar* tab contains information about the provenance and disposition of the physical specimen(s) and is maintained by the Museum registrar. Please do not edit fields on this tab.
+The *Registrar* tab contains information about the provenance and disposition of the physical specimen(s) and is maintained by the Museum registrar. It is not visible to LACMIP student permission groups. Please do not edit fields on this tab.
 
 ## Multimedia tab
 
@@ -161,6 +161,8 @@ If a specimen has been imaged, the image should be attached to the catalogue rec
 {% include figure image_path="/assets/images/catalogue_admin.png" alt="screenshot of the admin tab in the catalogue module" caption="Screenshot of the *Admin* tab of the Catalogue module, highlighting provenance and GUID data." %}
 
 The *Admin* tab contains information about the record's digital provenance and edit history. This can be a useful way to check when and by whom a record was created or most recently modified. This tab is also where the record's GUID, or Global Unique Identifier, is stored. For catalogue records this is a critical identifier that gets published with the specimen occurrence data and ensures users can trace the data back to its source (i.e. the catalogue record at LACMIP).
+
+The *Admin* tab is not visible to LACMIP student permission groups.
 
 ## Security tab
 

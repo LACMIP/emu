@@ -2,7 +2,7 @@
 title: Accessing EMu
 navcat: Basics
 tags: cataloging georeferencing quick-start taxonomy
-last_modified_at: 2019-03-01
+last_modified_at: 2019-05-11
 ---
 
 EMu is software that is hosted on an internal server and runs on your desktop. The Museum's database manager (Bill Mertz) is responsible for maintaining this system and for providing access.
@@ -13,6 +13,10 @@ Every person who uses EMu should have their own account, and even temporary user
 
 It is important to only request accounts for users who will actively use EMu, and to tell the database manager when an account should be closed. We track LACMIP non-staff accounts in a spreadsheet called *EMu_LACMIP-Users.xlxs* in the folder *Dropbox > EMu > Admin*.
 {: .notice--warning}
+
+### Guest access
+
+For visiting researchers or other users who need read-only access to LACMIP data in EMu, they can log in under the username "ipviewer" and password "ipviewer."
 
 ## Logging in & out
 
@@ -30,9 +34,27 @@ To transfer files into the remote desktop, drag and drop them. You will see a st
 
 ## User permissions
 
-LACMIP full-time staff should have rights to create, edit, and delete [Catalogue]({{ site.baseurl }}/documentation/catalogue/), [Multimedia]({{ site.baseurl }}/documentation/multimedia/), [Bibliography]({{ site.baseurl }}/documentation/bibliography/), [Site]({{ site.baseurl }}/documentation/sites/), and [Taxonomy]({{ site.baseurl }}/documentation/taxonomy/) records. Staff can create [Lookup]({{ site.baseurl }}/documentation/lookuplist/) and [Transaction]({{ site.baseurl }}/documentation/transactions/) records, but not delete or edit them. Staff can only view [Accession]({{ site.baseurl }}/documentation/accessions/) and [Party]({{ site.baseurl }}/documentation/parties/) records.
+Permissions for LACMIP EMu users are determined by what "permission group" they log in under. These groups are set up and assigned to users by the Museum's database manager. The following permission groups are currently in use:
 
-Permissions for LACMIP part-time staff, interns, and volunteers can be set on a case-by-case basis by the Museum's database manager.
+### Invertebrate Paleontology
+
+This group is for LACMIP full-time staff, and gives them permissions to create, edit, and delete [Catalogue]({{ site.baseurl }}/documentation/catalogue/), [Multimedia]({{ site.baseurl }}/documentation/multimedia/), [Bibliography]({{ site.baseurl }}/documentation/bibliography/), [Site]({{ site.baseurl }}/documentation/sites/), [Taxonomy]({{ site.baseurl }}/documentation/taxonomy/) and [Locations]({{ site.baseurl }}/documentation/locations/) records. Staff can create [Lookup]({{ site.baseurl }}/documentation/lookuplist/) and [Transaction]({{ site.baseurl }}/documentation/transactions/) records, but not delete or edit them. Staff can only view [Accession]({{ site.baseurl }}/documentation/accessions/) and [Party]({{ site.baseurl }}/documentation/parties/) records, and there are field-level restrictions in multiple modules.
+
+### IP Cataloging
+
+LACMIP part-time staff, students, and volunteers who participate in cataloging will log in under this permission group. Modules and tabs that are extraneous to cataloging are hidden for this group in order to streamline the user interface.
+
+IP Cataloging users are restricted from editing anything in the [Taxonomy]({{ site.baseurl }}/documentation/taxonomy/) or [Sites]({{ site.baseurl }}/documentation/sites/) modules and from using the [Global Replace]({{ site.baseurl }}/documentation/modes/) tool. In order to control data quality, these users are also required to select a value from an existing lookup list for many fields, e.g. *Institution Code*.
+
+### IP Georeferencing
+
+LACMIP part-time staff, students, and volunteers who participate in georeferencing will log in under this permission group. Modules and tabs that are extraneous to cataloging are hidden for this group in order to streamline the user interface.
+
+IP Georeferencing users are restricted from editing anything in the [Taxonomy]({{ site.baseurl }}/documentation/taxonomy/) or [Catalogue]({{ site.baseurl }}/documentation/catalogue/) modules and from using the [Global Replace]({{ site.baseurl }}/documentation/modes/) tool. In order to control data quality, these users are also required to select a value from an existing lookup list for many fields, e.g. *Start Age*.
+
+### IP Importer
+
+This permission group is an extension of the "Invertebrate Paleontology" group, with the added ability to edit the *Loc ID* field in the Sites module. All full-time LACMIP staff should be able to log in under this group, but the only reason to do so is if you are [migrating georeferencing data into EMu from Google Earth]({{ site.baseurl }}/documentation/googleearth/).
 
 ## Sharing
 
