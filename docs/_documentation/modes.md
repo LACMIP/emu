@@ -28,7 +28,7 @@ The following wildcards are useful to know when searching EMu. Remember to use t
 
 Combine wildcards to make your search more specific, e.g. `\^apple\$` returns "apple" but not "apple jar" or "red apple."
 
-More advanced searching is required to find consecutive spaces. To do so, in the search form, enter any character in the field you would like to search. Then select *File > Show Search...*; an *Edit Search...* text box will appear. Scroll down to find the name of the field you're trying to search, e.g. *IPCatInstNumber*. Replace the `contains '[character you entered in the search form]'` with `like '\*`  `\*'`. (Note: The number of spaces you enter between the "`'\*`  `\*'`" is the number of spaces EMu will search for). Select OK.
+More advanced searching is required to find consecutive spaces. To do so, in the search form, enter any character in the field you would like to search. Then select *File > Show Search...*; an *Edit Search...* text box will appear. Scroll down to find the name of the field you're trying to search, e.g. *IPCatInstNumber*. Replace `contains '[character you entered in the search form]'` with `like '\*`  `\*'`. (Note: The number of spaces you enter between the "`'\*`  `\*'`" is the number of spaces EMu will search for). Select OK.
 
 {% include figure image_path="/assets/images/double_spaces.png" alt="edit mode" caption="Example search for consecutive spaces in EMu." %}
 
