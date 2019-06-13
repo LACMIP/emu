@@ -153,6 +153,7 @@ Comments
   Invalid | EPICC taxonomic dictionary category for invalid names.
   Genus changed in Treatise 1996. | Add if rationale for taxonomic update needs documentation.
   Genus should be in quotation marks. | Track special characters (") using standardized validity comments.
+  Occurrence from [locality] should be written as _Genus_ cf. _species_. | Track occurences with special formatting instructions, e.g. "Occurrence from Kuskokwim Group should be written as Mytiloides cf. opalensis."
   Genus should be followed by question mark. | Track special characters (?) using standardized validity comments.
   Manuscript name. Species should be in quotation marks. | Call out special characters (") required to format manuscript names using standardized validity comments.
   Name found in collection; validity unknown. | Validity of taxon unknown. This is different than documenting an invalid or questionable taxon occurrence (see *Citations: Remarks* above).
