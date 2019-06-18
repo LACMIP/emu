@@ -10,7 +10,7 @@ For detailed instructions on entering new records in this module, please [Catalo
 
 ## Invert. Paleo. tab
 
-{% include figure image_path="/assets/images/catalogue_invertpaleo.png" alt="screenshot of the invert paleo tab in the catalogue module" caption="Screenshot of the *Invert. Paleo.* tab of the Catalogue module." %}
+{% include figure image_path="/assets/images/catalogue_invertpaleo.png" alt="screenshot of the invert paleo tab in the catalogue module" caption="Screenshot of the *Invert. Paleo.* tab of the Catalogue module. Users in the *Invertebrate Paleontology* and *IP Cataloging* permission groups have certain fields highlighted to assist with data entry. The Museum's database manager can adjust this or other field highlighting as desired." %}
 
 This tab, along with *Identifications (1)*, is where the bulk of our specimen data lives. Fields on this tab are...
 
