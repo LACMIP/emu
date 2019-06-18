@@ -1,6 +1,6 @@
 ---
 title: Groups
-navcat: Basics
+navcat: Modules
 tags:
 last_modified_at: 2019-06-18
 ---
