@@ -175,7 +175,7 @@ The only field you need to be concerned with on the *Security* tab is *Publish o
 - records representing unsorted fossils
 - records that may have been incorrectly catalogued
 
-By default, EMu checks "Yes" for the *Publish on Internet* field. If you feel that a record should not be made public, please go to this tab and check "No."
+By default, EMu checks "Yes" for the *Publish on Internet* field, and also sets this as the default for searching catalogue records. If you feel that a record should not be made public, please go to this tab and check "No."
 
 ## Auxiliary tab
 
