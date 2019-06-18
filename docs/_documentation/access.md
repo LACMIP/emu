@@ -2,7 +2,7 @@
 title: Accessing EMu
 navcat: Basics
 tags: cataloging georeferencing quick-start taxonomy
-last_modified_at: 2019-05-11
+last_modified_at: 2019-06-18
 ---
 
 EMu is software that is hosted on an internal server and runs on your desktop. The Museum's database manager (Bill Mertz) is responsible for maintaining this system and for providing access.
