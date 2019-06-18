@@ -1,7 +1,7 @@
 ---
 title: Multimedia
 navcat: Modules
-tags:
+tags: imaging
 toc: false
 last_modified_at: 2019-02-01
 ---
