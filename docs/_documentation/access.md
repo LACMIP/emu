@@ -42,6 +42,8 @@ Permissions for LACMIP EMu users are determined by what "permission group" they 
 
 This group is for LACMIP full-time staff, and gives them permissions to create, edit, and delete [Catalogue]({{ site.baseurl }}/documentation/catalogue/), [Multimedia]({{ site.baseurl }}/documentation/multimedia/), [Bibliography]({{ site.baseurl }}/documentation/bibliography/), [Site]({{ site.baseurl }}/documentation/sites/), [Taxonomy]({{ site.baseurl }}/documentation/taxonomy/) and [Locations]({{ site.baseurl }}/documentation/locations/) records. Staff can create [Lookup]({{ site.baseurl }}/documentation/lookuplist/) and [Transaction]({{ site.baseurl }}/documentation/transactions/) records, but not delete or edit them. Staff can only view [Accession]({{ site.baseurl }}/documentation/accessions/) and [Party]({{ site.baseurl }}/documentation/parties/) records, and there are field-level restrictions in multiple modules.
 
+Members of the Invertebrate Paleontology permission group also have the ability to set security permissions on [groups]({{ site.baseurl }}/documentation/groups/) that they create. This is important because by default users can only edit or delete groups that they create.
+
 ### IP Cataloging
 
 LACMIP part-time staff, students, and volunteers who participate in cataloging will log in under this permission group. Modules and tabs that are extraneous to cataloging are hidden for this group in order to streamline the user interface.
