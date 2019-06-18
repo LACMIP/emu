@@ -2,7 +2,7 @@
 title: Modes of Operation
 navcat: Basics
 tags: quick-start
-last_modified_at: 2019-03-01
+last_modified_at: 2019-06-18
 ---
 Each module has four possible screen modes–Search, Display, New, and Edit–depending on your task. These modes are briefly described below, and also covered in the documentation for specific modules.
 
@@ -72,6 +72,7 @@ Sometimes you need to make edits that affect multiple records and it would be in
 A few tips for using global replace...
 - when you use the global replace tool, it will do *all* replace commands listed (e.g. what you see in the image to the right), so remember to **clear any past replaces** when you enter a new one.
 - to use global replace to **fill blank fields with values**, use *Text to find:* = "^$" and be sure to check the regular expression box.
+- **global replace does not operate exactly the same as the search function**, for example if you want to replace double spaces you can do so by typing double spaces into the replace window (whereas searching treats spaces as boolean AND statements and so searching for "Monster Truck" means find the word "Monster" AND the word "Truck").
 - always do a test global replace on one selected record before attempting to affect multiple records
 - see [this article](http://help.emu.axiell.com/latest/en/Topics/Common/Wildcards%20in%20a%20Global%20Replace.htm) for information on advanced global replace using **wildcards**.
 
