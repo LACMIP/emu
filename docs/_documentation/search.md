@@ -2,7 +2,7 @@
 title: Advanced Searching
 navcat: Basics
 tags:
-last_modified_at: 2019-03-01
+last_modified_at: 2019-06-18
 ---
 EMu offers a variety of methods to search for records. Please see the [search mode]({{ site.baseurl }}/documentation/modes/) documentation for an overview, or below for assorted advanced topics. Axiell also has several good resources for learning more about searching in EMu:
 - information on [basic search](http://help.emu.axiell.com/latest/en/Topics/Common/How%20to%20search.htm)
@@ -34,6 +34,12 @@ Date fields are also formatted so that you can search by ranges, e.g. entering `
 Some fields that frequently have numbers in them are not technically defined as numeric, which means that you cannot use the basic range search as described above. You can use a regular expression to approximate similar results. For example, the field *LACMIP Type No.* is not defined as an integer because occasionally one specimen has two type numbers, e.g. "3504, 3505." If you wanted to search for the same range as above (any records where the value in a field is between 2330 and 2350) on the *LACMIP Type No.* field you could use the regular expression `23\[3-5\]\?`. What this expression is saying is "look for values that have `23` followed by a single digit that is either `3`, `4`, or `5` followed by any single character."
 
 For more on searching with ranges, see Axiell's documentation [here](http://help.emu.axiell.com/latest/en/Topics/Common/Types%20of%20search.htm).
+
+## Spaces
+
+More advanced searching is required to find consecutive spaces. To do so, in the search form, enter any character in the field you would like to search. Then select *File > Show Search...*; an *Edit Search...* text box will appear. Scroll down to find the name of the field you're trying to search, e.g. *IPCatInstNumber*. Replace `contains '[character you entered in the search form]'` with `like '\*`  `\*'`. (Note: The number of spaces you enter between the `'\*`  `\*'` is the number of spaces EMu will search for). Select OK.
+
+{% include figure image_path="/assets/images/double_spaces.png" alt="edit mode" caption="Example search for consecutive spaces in EMu." %}
 
 ## Nested tables
 
