@@ -51,9 +51,18 @@ The other way to **subtract records** is via the Groups module. If you do not se
 
 {% include figure image_path="/assets/images/groups_subtract.png" alt="image of EMu groups module" caption="Screenshot of the *Static* tab in the Groups module, showing how to subtract records from a group."%}
 
+## Adjusting group security
+Members of the Invertebrate Paleontology permission group have the ability to set the security on groups that they create. This is important because by default users can only edit or delete groups that they create. The most common use case for adjusting these default security settings is in managing Catalogue record groups for [label printing]({{ site.baseurl }}/documentation/labels/). To adjust the security settings:
+1. Search for a group in the Groups module as described under the section on subtracting records, above.
+1. From the results, double-click to open your group.
+1. Navigate to the *Security* tab, where you should see a list of users and user permission groups, as shown in the image below. You can select "Add" if you do not already see the user or permission group you need.
+1. Clicking on any user or user permission group from the list will allow you to edit its permissions by checking or unchecking the "Edit" and "Delete" boxes. For label printing groups, you will want to check both "Edit" and "Delete" for Invertebrate Paleontology, and "Edit" for whichever IP Cataloger user you are creating this group for.
+
+{% include figure image_path="/assets/images/groups_security.png" alt="image of EMu groups module" caption="Screenshot of the *Security* tab in the Groups module, showing where to adjust the security settings for user permission groups (left) and individual users (right)."%}
+
 ## Shared groups
 
-Groups that are shared with the "Invertebrate Paleontology" user group will be visible when you go to retrieved a group. An incomplete list of shared groups is highlighted below.
+Groups that are shared with your user permission group will be visible when you go to retrieved a group. An incomplete list of shared groups is highlighted below.
 
 ### Multimedia
 
