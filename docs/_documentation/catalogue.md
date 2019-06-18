@@ -135,16 +135,33 @@ ID Reference
 : A [bibliography record]({{ site.baseurl }}/documentation/bibliography/) related to the identification can be attached via this field, if desired.
 
 Filed As
-: This field should be "Yes" wherever *Currently Accepted* is also "Yes" and "No" wherever *Currently Accepted* is also "No," **except** for the records of **type specimens with outdated taxonomy** (see [re-identifications]({{ site.baseurl }}/documentation/reidentify/) for more on this).
-
-*Filed As* describes how the specimen is physically organized (filed) in the collection. This is why types, which may have had their taxonomy updated since their initial publication, are not always filed with a currently accepted name.
+: This field should be "Yes" wherever *Currently Accepted* is also "Yes" and "No" wherever *Currently Accepted* is also "No," **except** for the records of **type specimens with outdated taxonomy** (see [re-identifications]({{ site.baseurl }}/documentation/reidentify/) for more on this). *Filed As* describes how the specimen is physically organized (filed) in the collection. This is why types, which may have had their taxonomy updated since their initial publication, are not always filed with a currently accepted name.
 
 Currently Accepted
 : This field should be "Yes" for any identification attaching a current taxonomic name, and "No" for invalid taxonomy as well as legacy identifications. Only one identification can have a value of "Yes" for *Currently Accepted*, so even if a legacy identification is taxonomically valid, you need to enter "No" for this field.
 
 ## Location tab
 
-LACMIP does not use the *Location* tab yet. It is designed to track physical specimen movement.
+{% include figure image_path="/assets/images/catalogue_location.png" alt="screenshot of the location tab in the catalogue module" caption="Screenshot of the *Location* tab of the Catalogue module." %}
+
+LACMIP is still exploring how to use the *Location* tab, which is designed to track physical specimen movement. See the [Locations]({{ site.baseurl }}/documentation/locations/) module for an overview of the records you attach to this tab. Fields on this tab are...
+
+Current Location
+: Attach a [Locations]({{ site.baseurl }}/documentation/locations/) record here to indicate the current physical location of a specimen. Data from the Cretaceous inventory has been imported into EMu to auto-fill this field, although this data may not be up-to-date in all cases.
+
+Movement metadata
+: Fields like *Authorized By*, *Date Moved*, and *Reason* provide space to document metadata about specimen movement. LACMIP has not yet considered how to best use these fields.
+
+Permanent Location
+: Attach a [Locations]({{ site.baseurl }}/documentation/locations/) record here to indicate where a specimen should permanently be located, e.g. if the specimen is missing the *Current Location* is just "Carson Warehouse" and then *Permanent Location* records where the specimen ought to be. Data from the Cretaceous inventory has been imported into EMu to auto-fill this field, although this data may not be up-to-date in all cases.
+
+Temporary Location
+: Attach a [Locations]({{ site.baseurl }}/documentation/locations/) record here to indicate a temporary physical location of a specimen.
+
+Independently Movable
+: This field is a yes/no box to indicate whether or not a specimen can be independently moved. LACMIP does not currently have a use case for this box being checked "no."
+
+Data in the fields above is tracked in the *Movement History* table. Please note that you cannot delete rows from this table, so if you enter and save a location accidentally, you cannot then delete it from the *Movement History* table. In practice, this is fine and you shouldn't worry about a "messy" entry.
 
 ## Registrar tab
 
