@@ -22,6 +22,8 @@ For visiting researchers or other users who need read-only access to LACMIP data
 
 To log in to EMu, open the program and enter your username and password. You will also need to enter data for the host (“kemu”) and service (“emulacm”). It is very important that when you are done using EMu you shut down the program. The Museum pays for a certain number of licenses, which means that only an amount of users equal to the number of licenses can have EMu open at any given time.
 
+If you would like to change your password, open any module in EMu and go to *Tools > Change Password...*
+
 ## Remote access
 
 Users can access EMu offsite from the Museum (e.g. at the LACMIP warehouse) via the Marconi server. Marconi connects you to a remote desktop at the Museum, which runs the actual EMu software. You will need to log in to the Museum's VPN before you can complete the EMu login process described above.
