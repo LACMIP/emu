@@ -2,7 +2,7 @@
 title: Troubleshooting
 navcat: Basics
 tags: quick-start
-last_modified_at: 2019-02-01
+last_modified_at: 2019-06-18
 ---
 Listed here are some common issues we have encountered while using EMu. If you are having trouble and none of the issues here apply to you, try searching this documentation website, asking other LACMIP EMu users, or contacting the Museum's database manager, Bill Mertz.
 
@@ -37,3 +37,9 @@ EMu returns errors when you attempt to  a CSV file.
 {: .notice--warning}
 
 **Solution**: If *every* row returns an error, you likely have an issue with the names of your columns. Go back to EMu and check each field name (see [import]({{ site.baseurl }}/documentation/import/) documentation for how to do this) against those in your spreadsheet. Remember that you need to be particularly aware of import columns that reference a module other than the one you are importing into, and that affect fields in nested tables. **If you are unsure how to properly name your columns, contacting the Museum's database manager for help is preferable to accidentally importing a bunch of data into the wrong place.** If only *some* rows return errors, you likely have issues with values in your cells. Try using EMu's import tool "Validate" functionality to see if you can pinpoint the culprit. Check for alpha characters in numeric fields, non-dates in date fields, etc.
+
+## Problem: Everything in the VPN is tiny
+When you log into the VPN the remote window appears very very small in your browser window (too small to use at all).
+{: .notice--warning}
+
+**Solution**: This is usually an intermittent glitch. If you are using Chrome as your browser, try turning off its hardware acceleration by going to *Preferences > Advanced > System* and sliding the setting to "off" where the preference is "Use hardware acceleration where available." Hardware acceleration has been known to cause occasional odd behavior with remote connections. Alternatively, try using a different browser to access to VPN. Typically this problem resolves itself over time.
