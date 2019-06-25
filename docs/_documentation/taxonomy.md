@@ -2,9 +2,9 @@
 title: Taxonomy
 navcat: Modules
 tags: quick-start taxonomy
-last_modified_at: 2019-03-01
+last_modified_at: 2019-06-25
 ---
-The Taxonomy module is the primary record for information about taxonomic concepts, both accepted and unaccepted. Please see [Axiell's documentation](http://help.emu.axiell.com/latest/en/Topics/EMu/Taxonomy%20module.htm) for generic information about this module.
+The Taxonomy module is the primary record for information about taxonomic concepts, **both accepted and unaccepted**. Please see [Axiell's documentation](http://help.emu.axiell.com/latest/en/Topics/EMu/Taxonomy%20module.htm) for generic information about this module, as well as the [EPICC Taxonomy]({{ site.baseurl }}/documentation/epicctaxonomy/) documentation for details specific to that project.
 
 ## Taxonomic hierarchy
 
@@ -12,11 +12,9 @@ Taxonomy in EMu follows familiar hierarchical levels, beginning with kingdom and
 
 EMu stores taxonomy as a massive lookup list. Each level of taxonomic hierarchy, e.g. species or family or subclass, is a level in the lookup list. This means that you can find records based on their relationships to other records, like all the species in a genus. This also helps LACMIP maintain updated taxonomy because edits made to parent records automatically affect child records; for instance, if the name of a genus changes you only need to edit the single genus-level record and all the species within that genus will inherit those changes.
 
-If you need to edit the rank of a taxonomy record, e.g. "Psocodea exists as an order but should now be a superorder," you'll need to contact the Museum's database manager, as LACMIP staff do not have permission to make these edits.
-
 ## Creating a new taxonomy record
 
-Prior to creating a new taxonomy record, it is essential that you search for it to make sure your taxon doesn't already exist in EMu. We occasionally have duplicate taxon records where the name is unaccepted and needed to be synonymized with two different valid names, but in no other circumstance should we create duplicate taxonomy records. **EMu will not give any kind of warning if you are about to create a duplicate**, so the responsibility is on you.
+Prior to creating a new taxonomy record, it is essential that you search for it to make sure your taxon doesn't already exist in EMu. We occasionally have duplicate taxon records where the name is unaccepted and needed to be synonymized with two different accepted names, but in no other circumstance should we create duplicate taxonomy records. **EMu will not give any kind of warning if you are about to create a duplicate**, so the responsibility is on you.
 {: .notice--warning}
 
 ### Invertebrates tab
@@ -27,7 +25,10 @@ To create a new taxonomy record, click on the "new" icon in the top toolbar and 
 
 The initial tab of a taxonomy record contains the core taxonomic concept information. **The first field you need to fill out is the lowest taxonomic rank of the taxon you are creating**, e.g. if you need to create a new record for "Calva varia" you would enter "varia" in the *Species* field, or to create a record for "Inoceramidae" you would enter "Inoceramidae" in the *Family* field. **You will only ever enter data into one level of the taxonomic hierarchy fields.**
 
-**The next field you need to fill out is the *Parent Taxon* field**. This should be the direct parent of your new taxon, e.g. for "Calva varia" the *Parent Taxon* would be the genus "Calva", or for "Inoceramidae" the *Parent Taxon* would be the order "Pteriida." If your parent taxon does not already exist in EMu, you can open up an additional Taxonomy module window to create it and then attach it here.
+**The next field you need to fill out is the *Parent Taxon* field**. This should be the direct parent of your new taxon, e.g. for "Calva varia" the *Parent Taxon* would be the genus "Calva", or for "Inoceramidae" the *Parent Taxon* would be the order "Pteriida." If your parent taxon does not already exist in EMu, you can open up an additional Taxonomy module window to create it and then attach it here. In many cases where the higher taxonomy for an unaccepted synonym name does not already exist in EMu or is unknown, the record is parented directly to phylum "Mollusca."
+
+Be careful that EMu does not automatically fill out any taxonomic hierarchy fields for you between your lowest taxonomic rank field and your parent taxon field. If it does, delete the content prior to saving! For example, if you are trying to create a new species-level record for *Cucullaea grossaforma* and a record for *Cucullaea (Idonearca) grossaforma* already exists, EMu will try to be helpful and autofill *Idonearca* in the subgenus field.
+{: .notice--warning}
 
 The other fields on this tab are...
 
@@ -44,7 +45,7 @@ Rank
 : EMu will assign the value to this field based on the lowest taxonomic rank of the record, e.g. the taxon "Calva varia" will be assigned the rank "Species."
 
 Currently Accepted?
-: Select either "Yes" for taxonomic names that are accepted, "No" for those that aren't, or "Unknown" for rare cases in which we really cannot determine the status of a name (a good rule of thumb is to only use "Unknown" if the name will never get printed on a specimen label). If you select "No" EMu will prompt you to tell it what the *Current Name* should be. If the current name does not yet exist in EMu, you'll need to open up another Taxonomy module window to create it before attaching it to the unaccepted name. Any accepted taxonomy record linked to unaccepted synonyms will list the synonyms on the *All Synonyms* tab.
+: Select "Yes" for taxonomic names that are accepted, and "Unknown" for unaccepted names that you do not wish to synonymize to an accepted name. Select "No" for names that are also unaccepted but for which you do want to synonymize with a *Current Name*. If the current name does not yet exist in EMu, you'll need to open up another Taxonomy module window to create it before attaching it to the unaccepted name. Any accepted taxonomy record linked to unaccepted synonyms will list the synonyms on the *All Synonyms* tab. Linking accepted and unaccepted names via these fields can be a helpful way to track relationships between taxon concepts, but it is also limited because EMu only allows for one-to-one relationships (i.e. one unaccepted name links to one and only one accepted name). See the [EPICC Taxonomy]({{ site.baseurl }}/documentation/epicctaxonomy/) documentation for more thoughts on alternative ways to deal with synonyms.
 
 Current Name
 : See *Currently Accepted*, above. If a name is accepted, then EMu will automatically fill out the *Current Name* field.
@@ -85,8 +86,19 @@ Notes | Random notes about the taxonomic record. Make every effort to find a bet
 Ecology Comments | General comments about a taxon's ecology that do not fit elsewhere.
 Recent Distribution | Reserved for Austin Hendy notes.
 
-The paired values above will be migrated to a new "Ecology" tab in the pending (spring 2019) EMu update. This will significantly data entry and quality.
+The paired values above will be migrated to a new "Ecology" tab in the pending (spring 2019) EMu update. This will significantly data improve entry and quality.
 {: .notice--warning}
+
+## Editing a taxonomy record
+
+You may need to edit an existing taxonomy record for a variety of reasons, mostly related to information kept on the *Descriptions* tab, which is detailed in the section above, or on the *Citations* and *Validity* tabs, which are detailed in subsequent sections. **If you think you need to edit information that is part of the taxonomic hierarchy fields on the *Invertebrates* tab, carefully consider what you are doing.** Taxonomy records are attached to Catalogue records, which means that when you edit fields that belong to the taxonomic hierarchy, like *Genus* or *Family*, these edits carry over to any associated Catalogue records. Thinking of each taxonomy record as a "taxon concept" can help you decided whether it is more appropriate to edit an existing record or create a new record. For example...
+
+*Situation* | *Action*
+--- | ---
+You determine that *Cucullaea grossaforma* should really be *"Cucullaea" grossaforma*. | Edit the existing species-level record for *Cucullaea grossaforma* by attaching it to a new parent taxon–*"Cucullaea"* instead of *Cucullaea*. In order to do this you will first need to search for the genus *Cucullaea* to see if *"Cucullaea"* already exists. If it does not, create a new taxonomy record for it by ditto-ing the record for *Cucullaea*. Catalogue records associated with the old *Cucullaea grossaforma* will now automatically be associated with the new *"Cucullaea" grossaforma*.
+The genus *Yaadia* has been placed in a new family, Steinmanellidae. | First check to see if Steinmanellidae exists; if not, create a record for it. Next, find the genus-level record for *Yaadia* and edit the parent taxon from the old family (Trigoniidae) to the new family (Steinmanellidae). All subgenus-, species-, and subspecies-level records below *Yaadia* will automatically have their higher taxonomy updated.
+The species *Yaadia branti* has been moved to a new genus, *Popenoella*. | You will need to create a new taxonomy record for *Popenoella branti* (and for *Popenoella* if a genus-level record does not already exist). Update the record for *Yaadia branti* to "Currently Accepted?"="No" or "Unknown." Check the Catalogue module for any specimens identified as *Yaadia branti* and use the [re-identify tool]({{ site.baseurl }}/documentation/reidentify/) to update their identification to *Popenoella branti*.
+The order Psocodea has been elevated to superorder. | LACMIP staff do not have permission to edit the rank of a taxonomic name, so you'll either need to contact the Museum's database manager or create a new record where Psocodea is at the superorder level. Consider whether or not you want to maintain the history of Psocodea having once been an order; if so, then create a new name and if not then go with editing the existing record.
 
 ## Citations tab
 
@@ -109,9 +121,9 @@ Cited Locality
 : LACMIP uses this field to track specific collecting localities where this taxon is known to occur. These should be listed e.g. "CIT 1154" or "LACMIP 363, LACMIP 8099." This field has primarily been used for Cretaceous taxa.
 
 Remarks
-: The bulk of your comments will go in this field, because it is where we record information about geographic and stratigraphic occurrence. Formats for different taxonomic dictionaries (Cretaceous vs. EPICC) differ. The generic Cretaceous format is "**STATE: Formation: Subunit**", repeating all higher levels for each occurrence. Ex: "CALIFORNIA: Ladd Fm: Baker Canyon; CALIFORNIA: Ladd Fm: Holz Shale." Formations and subunits should be formatted in line with lithostratigraphic information in the LACMIP Sites module. EPICC fossil distribution information is recorded in a single bibliographic remarks field (in order to preserve the north-to-south order of occurrences). See table below for more formatting examples.
+: The bulk of your comments will go in this field, because it is where we record information about geographic and stratigraphic occurrence. Formats for different taxonomic dictionaries (Cretaceous vs. EPICC) differ. The generic Cretaceous format is "**STATE: Formation: Subunit**", repeating all higher levels for each occurrence. Ex: "CALIFORNIA: Ladd Fm: Baker Canyon; CALIFORNIA: Ladd Fm: Holz Shale." Formations and subunits should be formatted in line with lithostratigraphic information in the LACMIP Sites module. EPICC fossil distribution information is recorded in a single bibliographic remarks field in order to preserve the north-to-south order of occurrences (see [here]({{ site.baseurl }}/documentation/epicctaxonomy/) for details). The table below provides general formatting examples.
 
-  *Citation Remarks (Cretaceous taxa)* | *Explanation*
+  *Citation Remarks* | *Explanation*
   --- | ---
   STATE: Formation: Subunit | Denotes published species occurrence, or species occurrence found in LACMIP Collections. If the latter, "Cited In:" should also be "LACMIP Collection". Separate multiple occurrences for a given citation with semi-colons.
   [STATE: Formation: Subunit][ANTIQUATED] | Denotes antiquated species occurrence.
@@ -130,17 +142,21 @@ To ditto citations:
 
 ## Validity tab
 
-LACMIP uses the *Validity* tab to track more specific information about the status of a name. Often, all we need to know is the value for *Currently Accepted?* on the *Invertebrates* tab, but sometimes older names are more complicated and the *Validity* tab gives us the space to record this complexity. Validity comments should **not** be related to species **occurrences**; this information is tracked in the *Citations* tab. That said, sometimes the validity of a name varies depending on what geologic timeframe it is applied to, and because we do have specimens from a wide range of timeframes you may need to record that variation on this tab.
+LACMIP uses the *Validity* tab to track more specific information about the status of a name, as well as taxonomic name history.
+
+For tracking name status, often all we need to know is the value for *Currently Accepted?* on the *Invertebrates* tab, but sometimes older names are more complicated and the *Validity* tab gives us the space to record this complexity. **Validity comments should not be related to species occurrences**; this information is tracked in the *Citations* tab. That said, sometimes the validity of a name varies depending on what geologic timeframe it is applied to, and because we do have specimens from a wide range of timeframes you may need to record that variation on this tab.
+
+For more on using the *Validity* tab to track taxonomic name history, please see documentation about managing [EPICC Taxonomy]({{ site.baseurl }}/documentation/epicctaxonomy/).
 
 {% include figure image_path="/assets/images/taxonomy_validity.png" alt="Validity tab of the EMu taxonomy module" caption="Screenshot of the *Validity* tab of the Taxonomy module." %}
 
-The fields on this tab are...
+You can enter as many rows as you need in the *Name Status (Validity)* table. If you want to re-order the entries, click and drag the lefthand row number. The fields on this tab are...
 
 Reason
 : Not in use.
 
 Reference
-: Attach a [bibliography record]({{ site.baseurl }}/documentation/bibliography/) to support your validity comment. For comments based on the pre-migration EPICC taxonomic dictionary, this exists as a bibliographic record (irn 3062). For comments based on notes or specimens in the collection, this can be the "LACMIP Collection" record. Personal communication can be cited here as well.
+: Attach a [bibliography record]({{ site.baseurl }}/documentation/bibliography/) to support your validity comment. For comments based on the pre-migration EPICC taxonomic dictionary, this exists as a "EPICC Taxonomic Dictionary" bibliographic record. For comments based on notes or specimens in the collection, this can be the "LACMIP Collection" record. Personal communication can be cited here as well.
 
 Comments
 : Enter your comments here. **See table below for preferred comments and formatting consistency.**  If you are unsure of what comment to add, do a wildcard search (*Comments* = `\*`) for all current validity comments in use and proceed accordingly. Suggestion: use the Ditto function to maintain consistency when entering the same comments on multiple taxon records.
@@ -152,10 +168,10 @@ Comments
   Poor | EPICC taxonomic dictionary category for suspicious names.
   Invalid | EPICC taxonomic dictionary category for invalid names.
   Genus changed in Treatise 1996. | Add if rationale for taxonomic update needs documentation.
-  Genus should be in quotation marks. | Track special characters (") using standardized validity comments.
-  Occurrence from [locality] should be written as _Genus_ cf. _species_. | Track occurences with special formatting instructions, e.g. "Occurrence from Kuskokwim Group should be written as Mytiloides cf. opalensis."
-  Genus should be followed by question mark. | Track special characters (?) using standardized validity comments.
-  Manuscript name. Species should be in quotation marks. | Call out special characters (") required to format manuscript names using standardized validity comments.
+  Genus should be in quotation marks. | Track the provenance of why quotation marks are present.
+  Manuscript name. Species should be in quotation marks. | Track the provenance of why quotation marks are present.
+  Genus should be followed by question mark. | Track the provenance of why a question mark is present.
+  Occurrence from [locality] should be written as _Genus_ cf. _species_. | Track occurrences with special formatting instructions, e.g. "Occurrence from Kuskokwim Group should be written as Mytiloides cf. opalensis."
   Name found in collection; validity unknown. | Validity of taxon unknown. This is different than documenting an invalid or questionable taxon occurrence (see *Citations: Remarks* above).
   Show name to R. L. Squires. | Begin "expert opinion" comments with "Show name to…"
 
@@ -164,7 +180,6 @@ Comments by
 
 Date commented
 : Enter the date for which the comment was created.
-
 
 ## Permissions
 

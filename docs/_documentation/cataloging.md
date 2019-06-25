@@ -2,7 +2,7 @@
 title: Cataloging
 navcat: Workflows
 tags: cataloging
-last_modified_at: 2019-05-11
+last_modified_at: 2019-06-25
 ---
 
 Cataloging (a.k.a. databasing) is a critical step in digitization, and the creation of accurate digital catalog records facilitates both better collection management and easier access to specimen data for research. LACMIP has used several different databases to enter and manage specimen catalog records over the past couple decades, mostly recently Microsoft Access and currently Axiell EMu. Cataloging in EMu offers several key benefits over doing so in Access, including more consistent and efficient data entry.
@@ -141,5 +141,5 @@ In order to edit a catalogue record you first need to find it. Search for the ca
 Any time you create or edit a catalogue record, it also needs to be printed and physically placed with the specimen. [Printing labels]({{ site.baseurl }}/documentation/labels/) is usually done by LACMIP staff on a regular basis, but you will need to mark what records require printing. The best way to do this is to finish your cataloging session and then:
 1. Do a new search to find all records where *Modified By* is you and *Modification Date* is today (find these fields on the *Admin* tab).
 1. View your search results as a [list]({{ site.baseurl }}/documentation/modes/) in order to visually scan through and confirm that these records look like what you did today.
-1. Add the search results to a [group]({{ site.baseurl }}/documentation/groups/) by navigating to *Tools > Group > All Records in Results...* and creating a new group called "PRINT - [your name] - [date]."
-1. Share this group with LACMIP staff by adding access for "Invertebrate Paleontology" on the Security tab of the group's properties.
+1. Add the search results to a [group]({{ site.baseurl }}/documentation/groups/) by navigating to *Tools > Group > All Records in Results...* and creating a new group called "PRINT - [your name] - [date]" or, if you see the option to, adding your records to an existing group called "PRINT - [your name]."
+1. If you created a new group, you'll nee to share this group with LACMIP staff by adding access for "Invertebrate Paleontology" on the Security tab of the group's properties.
