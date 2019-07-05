@@ -14,6 +14,5 @@ However, **loans should still be tracked by LACMIP in the Catalogue Module** by 
 **On loan to Firstname Lastname, Institutional Affiliation (YYYY-MM-DD) (email[at]email).**
  {: .notice--warning} 
 
-
 {% include figure image_path="/assets/images/catalogue_loans.png" alt="screenshot of the Catalogue module in EMu" caption="" %}
 {% include figure image_path="/assets/images/catalogue_loans2.png" alt="screenshot of the Catalogue module in EMu" caption="How to track specimens on loan in the Catalogue Module." %}
