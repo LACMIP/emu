@@ -26,7 +26,7 @@ Disp.
     - "discarded" for specimens permanently removed from the collection
     - "in collection" for specimens physically locatable
     - "missing" for specimens whose whereabouts are unknown
-    - "on loan" for specimens out on loan (refer to [transactions] for more on loans)
+    - "on loan" for specimens out on loan (refer to [transactions]({{ site.baseurl }}/documentation/transactions/) for more on loans)
     - "unknown" for specimens that haven't been physically located, but are also not definitely missing; typically this term is assigned to legacy specimen data records where we have not attempted to locate the physical specimen yet
 
 Lot No.
