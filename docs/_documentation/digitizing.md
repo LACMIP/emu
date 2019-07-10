@@ -82,4 +82,4 @@ See separate documentation for [georeferencing]({{ site.baseurl }}/documentation
 
 ## Imaging
 
-Specimen image capture and processing are essential components of digitization. Current documentation for imaging fossil insects can be downloaded from [here]({{ site.baseurl }}/docs/assets/images/LACMIP_Compression_Fossil_Imaging_Protocol.pdf).
+Specimen image capture and processing are essential components of digitization. Current documentation for imaging fossil insects can be accessed [here]({{ site.baseurl }}/docs/assets/images/LACMIP_Compression_Fossil_Imaging_Protocol.pdf).
