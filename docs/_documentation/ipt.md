@@ -45,7 +45,7 @@ Only derivative JPG images are uploaded to EMu for ease of reference by LACMIP s
 {% include figure image_path="/assets/images/ipt_multimedia.jpg" alt="Multimedia tab of the Multimedia Module" %}
 {% include figure image_path="/assets/images/ipt_security.jpg" alt="Security tab of the Multimedia module" caption="_Publish to Internet = YES_" if you want any images with the same filename in the DAMS to be shared publicly to aggregators." %}
 
-Images (archived and derivatives) are stored on the Museum's internal NEWTON server. Permission to access these folders must be granted by the IT department and can only be done on-site using a tethered Internet connection. Images can be added en masse to LACMIP's folders (IP Grant, IP Archive) by copying them straight into the appropriate folder on the server; however, all other management of these files (moving, renaming, etc.) must be done through the Extensis Portfolio interface.
+Images (archived and derivatives) are stored on an internal museum server. Permission to access these folders must be granted by the IT department and can only be done on-site, preferably using a tethered ethernet connection. Images can be added in bulk to LACMIP's folders (IP Grant, IP Archive) by copying them straight into the appropriate folder on the server; however, all other management of these files (moving, renaming, etc.) must be done through the Extensis Portfolio interface.
 
 Images saved to the "IP Grant" folder can be shared publicly; images saved to the "IP Archive" folder cannot be externally accessed. The latter folder primarily exists for archiving original, unedited images (DNGs, TIFs).
 
