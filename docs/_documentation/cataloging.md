@@ -53,7 +53,7 @@ Begin by creating a new catalogue record (*File > New Record*) and following the
 1. Check that the EMu *Collection* field matches what the paper ID tag says. The default in EMu is "ST" so you really only need to pay attention to tags where "TX" is circled. TX (taxonomic) specimens should also have a blue "Moved to Taxonomic Coll." paper tag in addition to the standard white paper ID tag.
 1. *Project* depends on the specimens you are cataloging, e.g. "EPICC".
 1. You will almost always be cataloging specimens with a consistent *Original Nature*, typically "body fossil" for mollusks.
-1. You will frequently be cataloging specimens with a consistent *Anatomy*, typically "body" for mollusks.
+1. You will frequently be cataloging specimens with a consistent *Anatomy*, typically "shell(s)" for mollusks.
 
 **On the *Identifications (1)* tab...**
 
