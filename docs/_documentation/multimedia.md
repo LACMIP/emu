@@ -14,3 +14,5 @@ LACMIP does not use EMu as a DAMS, and therefore only a skeleton crew of fields 
 As of 2019, LACMIP's strategy has been to manage media metadata via the EXIF information embedded within the file itself. EMu imports the EXIF metadata into an *EXIF* tab and this information is searchable via the *Value* field.
 
 {% include figure image_path="/assets/images/multimedia_exif.png" alt="screenshot of multimedia module exif tab" caption="EXIF tab in the Multimedia module." %}
+
+Information about managing media and how it is published can be found under [Publishing Data](https://lacmip.github.io/emu/documentation/ipt/).
