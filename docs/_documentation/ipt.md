@@ -42,8 +42,8 @@ If you have images or other media associated with specimens, these can (and shou
 
 Only derivative JPG images are uploaded to EMu for ease of reference by LACMIP staff. However, while the images in EMu are not directly shared online, the security settings for the images in EMu determine whether the corresponding images in the Museum's DAMS (=Extensis Portfolio) are shared to aggregators.
 
-{% include figure image_path="/assets/images/ipt_multimedia.jpg" alt="Multimedia tab of the Multimedia Module" %}
-{% include figure image_path="/assets/images/ipt_security.jpg" alt="Security tab of the Multimedia module" caption="_Publish to Internet = YES_" if you want any images with the same filename in the DAMS to be shared publicly to aggregators." %}
+{% include figure image_path="/assets/images/ipt_multimedia.png" alt="Multimedia tab of the Multimedia Module" %}
+{% include figure image_path="/assets/images/ipt_security.png" alt="Security tab of the Multimedia module" caption="*Publish to Internet = YES* if you want any images with the same filename in the DAMS to be shared publicly to aggregators." %}
 
 Images (archived and derivatives) are stored on an internal museum server. Permission to access these folders must be granted by the IT department and can only be done on-site, preferably using a tethered ethernet connection. Images can be added in bulk to LACMIP's folders (IP Grant, IP Archive) by copying them straight into the appropriate folder on the server; however, all other management of these files (moving, renaming, etc.) must be done through the Extensis Portfolio interface.
 
