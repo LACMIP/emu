@@ -15,4 +15,4 @@ As of 2019, LACMIP's strategy has been to manage media metadata via the EXIF inf
 
 {% include figure image_path="/assets/images/multimedia_exif.png" alt="screenshot of multimedia module exif tab" caption="EXIF tab in the Multimedia module." %}
 
-Information about managing media and how it is published can be found under [Publishing Data](https://lacmip.github.io/emu/documentation/ipt/).
+Information about managing LACMIP's media with respect to data publishing can be found [here](https://lacmip.github.io/emu/documentation/ipt/).
