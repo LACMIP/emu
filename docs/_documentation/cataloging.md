@@ -142,4 +142,4 @@ Any time you create or edit a catalogue record, it also needs to be printed and 
 1. Do a new search to find all records where *Modified By* is you and *Modification Date* is today (find these fields on the *Admin* tab).
 1. View your search results as a [list]({{ site.baseurl }}/documentation/modes/) in order to visually scan through and confirm that these records look like what you did today.
 1. Add the search results to a [group]({{ site.baseurl }}/documentation/groups/) by navigating to *Tools > Group > All Records in Results...* and creating a new group called "PRINT - [your name] - [date]" or, if you see the option to, adding your records to an existing group called "PRINT - [your name]."
-1. If you created a new group, you'll nee to share this group with LACMIP staff by adding access for "Invertebrate Paleontology" on the Security tab of the group's properties.
+1. If you created a new group, you'll nee to share this group with whomever will be printing labels. Add access to the group by adding "swiedrick" (or whoever will be printing your labels) on the Security tab of the group's properties.
