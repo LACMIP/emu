@@ -68,5 +68,4 @@ To update storage locations using the *Relocate* tool, search for and select all
 
 Storage location history is visible on the *Location* tab in the *Movement History* table. Note that **only the database administrator can remove rows from this table** once they have been added and saved, so please **update storage locations carefully**.
 
-{% include figure image_path="/assets/images/catalogue_location1.png" alt="screenshot of the Locations module in EMu" caption="Storage locations can be updated on individual records (above) or for multiple records (below)." %}
-{% include figure image_path="/assets/images/catalogue_location2.png" alt="screenshot of the Locations module in EMu" %}
+{% include figure image_path="/assets/images/catalogue_location1.png" alt="screenshot of the Locations module in EMu" caption="Storage locations can be updated on individual records (above) or for multiple records (below)." %} {% include figure image_path="/assets/images/catalogue_location2.png" alt="screenshot of the Locations module in EMu" %}
