@@ -86,7 +86,10 @@ Lot Remarks
 : Space for comments that do not fit elsewhere. Some parts of the collection more commonly have information for this field than others, e.g. fossil insects tend to have lifestage and other extra notes to record here.
 
 IP Publications
-: The fields in this section allow you to attach a [bibliography record]({{ site.baseurl }}/documentation/bibliography/) to the catalogue record. This is usually only appropriate for specimens that belong to the Type Collection. *Pages*, *Fig.*, and *Type* are all used to provide more details about the citation. For these fields, do not hypenate successive numbers.
+: The fields in this section allow you to attach a [bibliography record]({{ site.baseurl }}/documentation/bibliography/) to the catalogue record. This is usually only appropriate for specimens in the Type Collection. Publications in this table should be listed chronologically with the oldest (first) publication appearing at the top of the list; you can click and drag to reorder these entries if needed. Do not hypenate successive numbers. Data entered into each field should be formatted as follows:
+    - *Pages*: Enter the page number, but do not enter "p.", "pg.", etc. before the number.
+    - *Fig*: Enter the plate and figure number(s) separated by a colon. If a specimen is figured on multiple plates, separate these entries with a semicolon. For example: "pl. 1: fig. 1, 2, 3" or "pl. 1: fig. 1, 2; pl. 4: fig. 3b, 3c". If the figure is unnumbered, enter "fig. unnumbered". If the specimen is unfigured, enter "unfigured".
+    - *Type*: Indicate what kind of type the specimen should be as stated in the publication. 
 
 Original Nature
 : A controlled vocabulary recording the kind of fossil present. It is possible to record more than one value (one per row), e.g. if you have a specimen lot that includes the body fossil as well as a cast of it. Vocabulary includes:
