@@ -87,7 +87,7 @@ Lot Remarks
 
 IP Publications
 : The fields in this section allow you to attach a [bibliography record]({{ site.baseurl }}/documentation/bibliography/) to the catalogue record. This is usually only appropriate for specimens in the Type Collection. Publications in this table should be listed chronologically with the oldest (first) publication appearing at the top of the list; you can click and drag to reorder these entries if needed. Do not hypenate successive numbers. Data entered into each field should be formatted as follows:
-    - *Pages*: Enter the page number, but do not enter "p.", "pg.", etc. before the number.
+    - *Pages*: Enter the page number(s) where the specimen is described, but do not enter "p.", "pg.", etc. before the number(s).
     - *Fig*: Enter the plate and figure number(s) separated by a colon. If a specimen is figured on multiple plates, separate these entries with a semicolon. For example: "pl. 1: fig. 1, 2, 3" or "pl. 1: fig. 1, 2; pl. 4: fig. 3b, 3c". If the figure is unnumbered, enter "fig. unnumbered". If the specimen is unfigured, enter "unfigured".
     - *Type*: Indicate what kind of type the specimen should be as stated in the publication. 
 
