@@ -90,7 +90,7 @@ Lot Remarks
     - SEX should be recorded verbatim, but do not abbreviate, e.g. "female" (not "f").
     - ASSOC SPMS refers to specimens that are physically attached/stored in the same container, but cataloged as separate lots; for example, a barnacle stuck to a clam or a predation trace on a snail. Please record this information on the catalog records for all relevant lots.
     - VERBATIM REMARKS ON SPECIMEN refers to any data written on the specimen or its label that should be recorded, but does not fit in any other field. Note that comments relating to the identification of a specimen do not go in *Lot Remarks*, but in the appropriate *Comments* field on the *Identification (1)* tab.
-    {% include figure image_path="/assets/images/catalogue_lotremarks.png" alt="screenshot of the Lot Remarks field in the catalogue module" caption="Screenshot of the Lot Remarks field in the Catalogue module." %}
+    {% include figure image_path="/assets/images/catalogue_lotremarks.png" alt="screenshot of the Lot Remarks field in the catalogue module" caption="Screenshot of the Lot Remarks field in the Catalogue module" %}
     
 IP Publications
 : The fields in this section allow you to attach a [bibliography record]({{ site.baseurl }}/documentation/bibliography/) to the catalogue record. This is usually only appropriate for specimens in the Type Collection. Publications in this table should be listed chronologically with the oldest (first) publication appearing at the top of the list; you can click and drag to reorder these entries if needed. Data entered into each field should be formatted as follows:
