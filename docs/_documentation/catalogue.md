@@ -90,7 +90,7 @@ Lot Remarks
     - SEX should be recorded verbatim, but do not abbreviate, e.g. "female" (not "f").
     - ASSOC SPMS refers to specimens that are physically attached/stored in the same container, but cataloged as separate lots; for example, a barnacle stuck to a clam or a predation trace on a snail. Please record this information on the catalog records for all relevant lots.
     - VERBATIM REMARKS ON SPECIMEN refers to any data written on the specimen or its label that should be recorded, but does not fit in any other field. Note that comments relating to the identification of a specimen do not go in *Lot Remarks*, but in the appropriate *Comments* field on the *Identification (1)* tab.
-    {% include figure image_path="/assets/images/catalogue_lotremarks.png" alt="" caption="" %}
+    {% include figure image_path="/assets/images/catalogue_lotremarks.png" alt="Lot Remarks" caption="Formatting for *Lot Remarks* field in the *Catalogue* module" %}
     
 
 IP Publications
