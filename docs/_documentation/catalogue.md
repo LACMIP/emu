@@ -78,9 +78,11 @@ Collection
 
 Project
 : A controlled vocabulary to group catalogue records by project. This is useful for tracking project headway, but not every specimen will need a value in this field. You can add values to this controlled vocabulary via the [Lookup Lists module]({{ site.baseurl }}/documentation/lookuplist/). Current vocabulary includes:
-    - "CSC" for Cretaceous Seas of California (CSBR grant, 2016-2019)
     - "EPICC" for Eastern Pacific Invertebrate Communities of the Cenozoic (TCN grant, 2015-2020)
+    - "CSC" for Cretaceous Seas of California (CSBR grant, 2016-2019)
+    - "Paleozoic" for ongoing (unfunded) digitization (2016-present)
     - "FIC" for Fossil Insect Collaborative (PEN grant, 2017-2020)
+    - "Cretaceous World" for Cretaceous Western Interior & Pacific Northwest (PEN grant, 2019-2021)
 
 Lot Remarks
 : Space for comments that do not fit elsewhere. Some parts of the collection more commonly have information for this field than others, e.g. fossil insects tend to have lifestage and other extra notes to record here. Information in this field that fits into one of the following categories should be entered as shown in the image below.
@@ -88,7 +90,7 @@ Lot Remarks
     - SEX should be recorded verbatim, but do not abbreviate, e.g. "female" (not "f").
     - ASSOC SPMS refers to specimens that are physically attached/stored in the same container, but cataloged as separate lots; for example, a barnacle stuck to a clam or a predation trace on a snail. Please record this information on the catalog records for all relevant lots.
     - VERBATIM REMARKS ON SPECIMEN refers to any data phyiscally written on the specimen or its label that should be recorded, but does not fit in any other field. Note that comments relating to the identification of a specimen do not go in *Lot Remarks*, but in the appropriate *Comments* field on the *Identification (1)* tab.
-    {% include figure image_path="/assets/images/catalogue_lotremarks.png" %}
+    {% include figure image_path="/assets/images/catalogue_lotremarks.png" alt="" caption="" %}
     
 
 IP Publications
