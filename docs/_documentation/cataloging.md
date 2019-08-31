@@ -54,6 +54,7 @@ Begin by creating a new catalogue record (*File > New Record*) and following the
 1. *Project* depends on the specimens you are cataloging, e.g. "EPICC".
 1. You will almost always be cataloging specimens with a consistent *Original Nature*, typically "body fossil" for mollusks.
 1. You will frequently be cataloging specimens with a consistent *Anatomy*, typically "shell(s)" for mollusks.
+1. Rarely, you may need to enter information into the *Lot Remarks* field. This field is reserved for information that does not fit anywhere else. If multiple specimens are physically attached but cataloged as separate lots (for example, a barnacle stuck to a clam), this association should be recorded. For example, "ASSOC SPMS: 5103.22, 5102.23", and this note would be entered into the *Lot Remarks* field for both LACMIP 5103.22 and LACMIP 5102.23. Any comments made by LACMIP staff on the ID tags relating to a specimen's identification should be entered into the *Comments* field on the *Identifications (1)* tab (explained below) and not in *Lot Remarks*.
 
 **On the *Identifications (1)* tab...**
 
