@@ -110,7 +110,7 @@ Original Nature
     - "synthetic"
 
 Anatomy
-: A controlled vocabulary describing the part of the individual present. Typically mollusks will just be "body." There are many options, which you can view by clicking on the icon to the right of the field. It is possible to record more than one value (one per row). You can add values to this controlled vocabulary via the [Lookup Lists module]({{ site.baseurl }}/documentation/lookuplist/).
+: A controlled vocabulary describing the part of the individual present. Typically mollusks will just be "body." There are many options, which you can view by clicking on the icon to the right of the field. It is possible to record more than one value (one per row). You can add values to this controlled vocabulary via the [Lookup Lists module]({{ site.baseurl }}/documentation/lookuplist/). Leave this field blank for trace fossils.
 
 ## Identification (1) tab
 
