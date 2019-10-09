@@ -2,7 +2,7 @@
 title: Sites
 navcat: Modules
 tags: georeferencing quick-start
-last_modified_at: 2019-20-09
+last_modified_at: 2019-10-09
 ---
 The Sites module is our primary resource for information about specimen collecting localities. Please see [Axiell's documentation](http://help.emu.axiell.com/latest/en/Topics/EMu/Sites%20module.htm) for generic information about this module. Continue reading here to understand how LACMIP uses the fields available in the Sites module.
 
