@@ -64,7 +64,7 @@ FYI when used in *Nearest Place*, "area" generally denotes that the locality is 
 
 ## IP Locality (2) tab
 
-{% include figure image_path="/assets/images/Sites_LatLong2_2019upgrade.png" alt="sites module in EMu" caption="Screenshot of the *IP Locality (2)* tab of the Sites module." %}
+{% include figure image_path="/assets/images/sites_IPLocality2_2019upgrade" alt="sites module in EMu" caption="Screenshot of the *IP Locality (2)* tab of the Sites module." %}
 
 The *IP Locality (2)* tab provides information about the site's geologic age and lithostratigraphy, as well as township and range coordinate data. Both the *Start/End Age* (*Period*, *Epoch*, *Age*) and *Lithostratigraphic* (*Group*, *Formation*, *Member*) fields belong to lookup lists, which means that if you enter the most specific information first, EMu will fill out the higher level fields. For instance, if you have a site dated to the Turonian, you would enter "Turonian" into *Age* and EMu would fill in *Epoch* = "Late Cretaceous" and *Period* = "Cretaceous." Unfortunately, EMu will not automatically fill out the *End Age* fields based on what you enter for *Start Age*, so you'd need to enter data into those the same way.
 
@@ -105,7 +105,7 @@ TRS
 
 ## Lat/Long(2) tab
 
-{% include figure image_path="/assets/images/sites_latlong2_2019upgrade.png" alt="sites module in EMu" caption="Screenshot of the *Lat/Long* tab of the Sites module. The top of the tab displays details for the highlighted row in the *Latitude/Longitude List* table (bottom). Note that the *Latitude/Longitude Details* table (top, highlighted in red) is a table nested within a nested table." %}
+{% include figure image_path="/assets/images/Sites_LatLong2_2019upgrade.png" alt="sites module in EMu" caption="Screenshot of the *Lat/Long* tab of the Sites module. The top of the tab displays details for the highlighted row in the *Latitude/Longitude List* table (bottom). Note that the *Latitude/Longitude Details* table (top, highlighted in red) is a table nested within a nested table." %}
 
 The *Lat/Long(2)* tab provides information about [georeferencing]({{ site.baseurl }}/documentation/georeferencing/) associated with this site. One site may have multiple instances of georeferencing, typically because it was assigned a preliminary set of coordinates and then revisited to assign higher quality coordinates. Each instance is listed in the *Latitude/Longitude List* table, as shown in the figure above.
 
