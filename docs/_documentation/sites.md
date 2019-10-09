@@ -8,7 +8,7 @@ The Sites module is our primary resource for information about specimen collecti
 
 ## IP Locality (1) tab
 
-{% include figure image_path="/assets/images/sites_iplocality_2019upgrade.png" alt="sites module in EMu" caption="Screenshot of the *IP Locality (1)* tab of the Sites module." %}
+{% include figure image_path="/assets/images/sites_IPLocality_2019upgrade.png" alt="sites module in EMu" caption="Screenshot of the *IP Locality (1)* tab of the Sites module." %}
 
 The *IP Locality (1)* tab provides information about the verbatim locality description, as well as
 geographic context. Fields on this tab are...
@@ -64,7 +64,7 @@ FYI when used in *Nearest Place*, "area" generally denotes that the locality is 
 
 ## IP Locality (2) tab
 
-{% include figure image_path="/assets/images/sites_iplocality2.png" alt="sites module in EMu" caption="Screenshot of the *IP Locality (2)* tab of the Sites module." %}
+{% include figure image_path="/assets/images/Sites_LatLong2_2019upgrade.png" alt="sites module in EMu" caption="Screenshot of the *IP Locality (2)* tab of the Sites module." %}
 
 The *IP Locality (2)* tab provides information about the site's geologic age and lithostratigraphy, as well as township and range coordinate data. Both the *Start/End Age* (*Period*, *Epoch*, *Age*) and *Lithostratigraphic* (*Group*, *Formation*, *Member*) fields belong to lookup lists, which means that if you enter the most specific information first, EMu will fill out the higher level fields. For instance, if you have a site dated to the Turonian, you would enter "Turonian" into *Age* and EMu would fill in *Epoch* = "Late Cretaceous" and *Period* = "Cretaceous." Unfortunately, EMu will not automatically fill out the *End Age* fields based on what you enter for *Start Age*, so you'd need to enter data into those the same way.
 
@@ -144,7 +144,7 @@ Determination By
 Determination Date
 : Equivalent to [dwc:georeferencedDate](https://dwc.tdwg.org/terms/#dwc:georeferencedDate): "The date on which the Location was georeferenced."
 
-Derive Centroid, Centroid Latitude (DMS), Dec., Centroid Longitude (DMS), Dec.
+Derive Centroid
 : Leave *Derive Centroid* as the default "System" and don't worry about any of these fields.
 
 
