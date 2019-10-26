@@ -5,7 +5,7 @@ tags:
 toc: false
 last_modified_at: 2019-10-26
 ---
-Every time an EMu user inserts or modifies a record, EMu documents this change. The Audit Trails module is where this documentation is recorded.
+Every time an EMu user inserts or modifies a record, EMu documents this change. The Audit Trails module is where this information is recorded.
 
 ## Search Audit Trails via the Audit tab
 
@@ -15,9 +15,7 @@ Example:
 
 {% include figure image_path="/assets/images/catalogue_auditsearch.png" alt="searching the Catalogue module's Audit tab" caption="Searching the *Audit* tab in the Catalogue module." %}
 
-Result: 17 matches
-
-Open any one of the records and look at the Audit tab.  
+Open any one of the records and look at the *Audit* tab.  
  
 {% include figure image_path="/assets/images/catalogue_audit.png" alt="searching the Catalogue module's Audit tab" caption="Searching the *Audit* tab in the Catalogue module." %}
 
@@ -27,6 +25,6 @@ Select the "dlucas" row and click the blue arrow at right to see the details in 
 
 {% include figure image_path="/assets/images/audittrails_summary.png" alt="searching the Catalogue module's Audit tab" caption="Results displayed in the Audit Trails module." %}
 
- Therefore, in this instance, "dlucas" changed *Type Status* from "figured" to "hypotype", and *Project* from "EPICC" to "IMLS".
+ In this instance, "dlucas" changed *Type Status* from "figured" to "hypotype", and *Project* from "EPICC" to "IMLS".
 
 Your color scheme may be different.  In this example, pink indicates new data, and blue replaced data. The color scheme can be customized in Tools > Options... > Colours.
