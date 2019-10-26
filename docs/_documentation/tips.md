@@ -56,3 +56,15 @@ Changing your default caching settings in EMu affects the amount of time the pro
 
 For people doing specimen cataloging, we recommend setting *Cached at Startup* and *Maximum Cached* to 1 each for the Catalogue, Sites, and Taxonomy modules, and checking the box for *Read Modules Schema on Startup*. Startup definitely takes longer (up to 1.5 or even 2 minutes vs. 1-3 seconds) but that's not a big deal if the performance once EMu is running is significantly better, which it is!
 {: .notice--warning}
+
+### Hide tabs the are for displaying Reverse Attachments only
+
+Some tabs are for displaying Reverse Attachments only.  They are not "designed" collection tabs. An example is the *Objects* tab, which can be displayed or hidden as you need them.
+
+To display/hide these tabs, in any module:
+1. View > Attachments > Options:
+    - *Show Tabs* displays Reverse Attachment tabs in Display mode.
+    - *Show Filled Tabs* only shows  Reverse Attachment tabs that have Reverse Attachments.
+    - *Show Search Tabs* will display all Reverse Attachment tabs in Search Mode only.
+
+EMu might run slower if you check *Show Tabs*.  Best practice is to leave it as *Hide Tabs* until you are looking at a record and want to see the Reverse Attachment tabs.  If using EMu on a PC, you can show/hide these tabs with F4. 
