@@ -5,7 +5,7 @@ tags:
 toc: false
 last_modified_at: 2019-10-26
 ---
-Every time an EMu user inserts or modifies a record, EMu documents this change; the Audit Trails module is where this documentation lives. 
+Every time an EMu user inserts or modifies a record, EMu documents this change. The Audit Trails module is where this documentation is recorded.
 
 ## Search Audit Trails via the Audit tab
 
