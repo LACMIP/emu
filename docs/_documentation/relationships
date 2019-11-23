@@ -8,3 +8,5 @@ last_modified_at: 2019-11-23
 Sometimes specimens that are phyiscally stuck together must be cataloged separately. For example, when a bivalve and gastropod occur on the same rock, but constitute different specimen records in EMu. These records must be associated using the _Relationships_ tab in the Catalogue module.
 
 ## Workflow for associating specimen records
+
+{% include figure image_path="/assets/images/catalogue_relationships1.png" alt="screenshot of the Relationships tab in the catalogue module" %}
