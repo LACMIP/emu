@@ -2,7 +2,7 @@
 title: Catalogue
 navcat: Modules
 tags: cataloging quick-start
-last_modified_at: 2019-06-18
+last_modified_at: 2019-11-23
 ---
 The Catalogue module is the primary place for information about each specimen lot, and a node linking together data from many of the other modules. Please see [Axiell's documentation](http://help.emu.axiell.com/latest/en/Topics/EMu/Catalogue%20module.htm) for generic information about this module. Continue reading here to understand how LACMIP uses the fields available in the Catalogue module.
 
@@ -153,7 +153,9 @@ Currently Accepted
 
 {% include figure image_path="/assets/images/catalogue_relationships.png" alt="screenshot of the relationships tab in the catalogue module" caption="Screenshot of the *Relationships* tab of the Catalogue module." %}
 
-This tab allows you to associate catalog records, for example, when two different species are preserved on the same rock. The workflow used to associate records can be found [here]({{ site.baseurl }}/documentation/relationships/). Associating records using the *Relationships* tab is especially important for speciemens filed in LACMIP's taxonomic collection; if this information is not recorded, it is very difficult to relocate associated speciemens, for example, bivalves attached to gastropods that are filed under Gastropoda.
+This tab allows you to associate catalog records, for example, when a bivalve and gastropod are preserved on the same rock and cataloged separately. The workflow used to do this can be found [here]({{ site.baseurl }}/documentation/relationships/).
+
+Associating records using the *Relationships* tab is especially important for specimens filed in LACMIP's taxonomic collection; if this information is not recorded, these specimens may be nearly impossible to relocate.
 
 ## Location tab
 
