@@ -5,11 +5,11 @@ tags: cataloging
 last_modified_at: 2019-11-23
 ---
 
-Specimens that are physically stuck together but represent different taxa are cataloged separately (for example, when a bivalve and gastropod are preserved on the same rock). Their respective catalog records must be associated using the *Relationships* tab in the Catalogue module.
+Specimens that are physically stuck together but represent different taxa are cataloged separately (for example, when a bivalve and gastropod are preserved on the same rock, or when a trace fossil is cataloged on another specimen). Their respective catalog records must be associated using the *Relationships* tab in the Catalogue module.
 
-**Suggested workflow for associating specimen records:**
+## Suggested workflow
 
-* Open another instance of the Catalogue module.
+* Once you have cataloged all specimens to be associated, open another instance of the Catalogue module.
 {% include figure image_path="/assets/images/catalogue_relationships1.png" alt="screenshot of the Relationships tab in the catalogue module" %}
 
 * In this new instance, search for the specimen records to be associated. Be sure you searched for the correct records. :warning:
