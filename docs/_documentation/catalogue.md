@@ -149,6 +149,12 @@ Filed As
 Currently Accepted
 : This field should be "Yes" for any identification attaching a current taxonomic name, and "No" for invalid taxonomy as well as legacy identifications. Only one identification can have a value of "Yes" for *Currently Accepted*, so even if a legacy identification is taxonomically valid, you need to enter "No" for this field.
 
+## Relationships tab
+
+{% include figure image_path="/assets/images/catalogue_relationships.png" alt="screenshot of the relationships tab in the catalogue module" caption="Screenshot of the *Relationships* tab of the Catalogue module." %}
+
+This tab allows you to associate catalog records, for example, when two different species are preserved on the same rock. The workflow used to associate records can be found [here]({{ site.baseurl }}/documentation/relationships/). Associating records using the *Relationships* tab is especially important for speciemens filed in LACMIP's taxonomic collection; if this information is not recorded, it is very difficult to relocate associated speciemens, for example, bivalves attached to gastropods that are filed under Gastropoda.
+
 ## Location tab
 
 {% include figure image_path="/assets/images/catalogue_location.png" alt="screenshot of the location tab in the catalogue module" caption="Screenshot of the *Location* tab of the Catalogue module." %}
