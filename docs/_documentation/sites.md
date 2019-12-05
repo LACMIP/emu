@@ -2,7 +2,7 @@
 title: Sites
 navcat: Modules
 tags: georeferencing quick-start
-last_modified_at: 2019-10-09
+last_modified_at: 2019-12-05
 ---
 The Sites module is our primary resource for information about specimen collecting localities. Please see [Axiell's documentation](http://help.emu.axiell.com/latest/en/Topics/EMu/Sites%20module.htm) for generic information about this module. Continue reading here to understand how LACMIP uses the fields available in the Sites module.
 
@@ -36,6 +36,7 @@ NearestPlace
 
 Alternate Loc ID
 : A table of paired values: *Institution Code* and *Institution Number*. This is common for specimens transferred to LACMIP from other institutions, and is also where you can find field numbers assigned by collectors. Ex: *Institution Code* = "CIT" and *Institution Number* = "5046", or *Institution Code* = "field number" and *Institution Number* = "AH180817."
+{% include figure image_path="/assets/images/sites_alternatelocidexample.jpg" alt="Example of old locality numbers recorded in *Alternate Loc ID*" caption="Example of old locality numbers recorded in *Alternate Loc ID*" %}
 
 Collectors
 : Each LACMIP locality should represent a unique collecting event in time and space. *Names* in this field are formatted as Firstname Lastname (for example: A. Hendy, L. Walker). If the collector is unknown, please enter "unknown" in this field. Each locality should also correspond to a specific date; as such, the *Start Date* and *End Date* should be the same, and can be as specific as a day (e.g. 07/18/1946 - 07/18/1946) or as vague as a year (e.g. 1946-1946). Leave this field blank if you do not know when the collecting event took place. Do not enter data into *Verbatim* under these fields.
