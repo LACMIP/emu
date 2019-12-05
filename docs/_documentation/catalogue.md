@@ -50,6 +50,7 @@ Accn. No.
 Inst. Code & Inst. Number
 : Paired values of specimen numbers assigned **during curation** by another institution or the collector. For example, many UCLA specimens have old catalog numbers pasted onto them (white paper rectangles), such as "UCLA 4539". In this case, enter this number into EMu as *Inst. Code* = "UCLA" and *Inst. Number* = "4539." For specimen numbers assigned by the collector, such as "McK 227" assigned by W. D. Pierce, *Inst. Code* = "collector number" and *Inst. Number* = "PIERCE McK 227". Take care **not** to record **locality** numbers from other institutions in this field (record them in *Alternate Loc ID* in the [Sites module]({{ site.baseurl }}/documentation/sites/)).
 {% include figure image_path="/assets/images/catalogue_alternativenumbers.png" alt="screenshot of the *Alternative Numbers* field in the catalogue module" caption="Screenshot of the *Alternative Numbers* field in the Catalogue module." %}
+{% include figure image_path="/assets/images/catalogue_alternativenumbersexample.png" alt="Example of an old catalog number to be entered in *Alternative Numbers*" caption="Example of an old catalog number to be entered in *Alternative Numbers*" %}
 
 Identification
 : Displays *Modified Taxon*, *Identified By*, and *ID Date* from the *Identification (1)* tab (see below for details).
