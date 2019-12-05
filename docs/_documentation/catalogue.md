@@ -83,7 +83,7 @@ Project
     - "WIS" for Cretaceous Western Interior & Pacific Northwest (PEN grant, 2019-2021)
 
 Lot Remarks
-: Space for comments that do not fit elsewhere. Some parts of the collection more commonly have information for this field than others, e.g. fossil insects tend to have lifestage and other extra notes to record here. Information in this field that fits into one of the following categories should be entered exactly as shown in the image below (i.e., order matters, as well as capitalization and punctuation/separators).
+: **#1 Rule for *Lot Remarks*: Avoid entering data into this field unless you are 100% certain the information is new AND cannot be recorded anywhere else in EMu.** In other words, this field provides space for recording data or comments for which an appropriate field does not yet exist. To facilitate migration of data in *Lot Remarks* to more appropriate fields in the future, information added to this field should should be entered exactly as shown below (order matters, as well as capitalization and punctuation/separators). Please consult the Collections Manager if you are unsure whether you have information that should be added to *Lot Remarks*.
     - LIFESTAGE should be recorded verbatim.
     - SEX should be recorded verbatim, but do not abbreviate, e.g. "female" (not "f").
     - VERBATIM REMARKS ON SPM refers to any data written on the specimen or its label that should be recorded, but does not fit in any other field. Note that comments relating to the identification of a specimen do not go in *Lot Remarks*, but in the appropriate *Comments* field on the *Identification (1)* tab.
