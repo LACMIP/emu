@@ -48,7 +48,7 @@ Accn. No.
 : Do not use this field.
 
 Inst. Code & Inst. Number
-: Paired values of specimen numbers assigned **during curation** by another institution or collector. For example, many UCLA specimens have old catalog numbers pasted onto the specimens on white rectangles, such as "UCLA 4539". In this case, enter this number into EMu as *Inst. Code* = "UCLA" and *Inst. Number* = "4539." For specimen numbers assigned by the collector, such as "McK 227" assigned by W. D. Pierce, *Inst. Code* = "collector number" and *Inst. Number* = "PIERCE McK 227". Take care **not** to record **locality** numbers from other institutions here (record them in the *Alternate Loc ID* in the [Sites module]({{ site.baseurl }}/documentation/sites/)).
+: Paired values of specimen numbers assigned **during curation** by another institution or the collector. For example, many UCLA specimens have old catalog numbers pasted onto the specimens on white rectangles, such as "UCLA 4539". In this case, enter this number into EMu as *Inst. Code* = "UCLA" and *Inst. Number* = "4539." For specimen numbers assigned by the collector, such as "McK 227" assigned by W. D. Pierce, *Inst. Code* = "collector number" and *Inst. Number* = "PIERCE McK 227". Take care **not** to record **locality** numbers from other institutions here (record them in the *Alternate Loc ID* in the [Sites module]({{ site.baseurl }}/documentation/sites/)).
 {% include figure image_path="/assets/images/catalogue_alternativenumbers.png" alt="screenshot of the *Alternative Numbers* field in the catalogue module" caption="Screenshot of the *Alternative Numbers* field in the Catalogue module." %}
 
 Identification
