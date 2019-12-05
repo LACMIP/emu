@@ -20,4 +20,4 @@ Specimens that are physically stuck together but represent different taxa are ca
 * Select all records to be associated in the second instance of the Catalogue module. Drag them into the *Related Records* fields on the first specimen record.
 * Save this change and repeat steps 3-4 for all other specimen records that need to be associated. :repeat:
 {% include figure image_path="/assets/images/catalogue_relationships4.png" alt="screenshot of the Relationships tab in the catalogue module" %}
-{% include figure image_path="/assets/images/relationships_assocspmsexample.png" alt="Example of a catalog record that is associated with other catalog records." caption="If these steps are successfully completed, an icon will appear on the record indicating the specimen lot is now associated with other specimen records." %}
+{% include figure image_path="/assets/images/relationships_assocspmsexample.png" alt="Example of a catalog record that is associated with other records." caption="If these steps are successfully completed, an icon will appear on the record indicating the specimen lot is now associated with other specimen records." %}
