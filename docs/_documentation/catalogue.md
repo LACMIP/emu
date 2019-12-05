@@ -2,7 +2,7 @@
 title: Catalogue
 navcat: Modules
 tags: cataloging quick-start
-last_modified_at: 2019-11-23
+last_modified_at: 2019-12-04
 ---
 The Catalogue module is the primary place for information about each specimen lot, and a node linking together data from many of the other modules. Please see [Axiell's documentation](http://help.emu.axiell.com/latest/en/Topics/EMu/Catalogue%20module.htm) for generic information about this module. Continue reading here to understand how LACMIP uses the fields available in the Catalogue module.
 
@@ -66,9 +66,6 @@ Type Status
     - "syntype"
     - "unpublished type" (see _IP Publications_ below)
 
-Collectors
-: The fields in this section–*Collector Name*, *Start Date*, and *End Date*–will be moved to the [Sites module]({{ site.baseurl }}/documentation/sites/) with the next EMu update. Until then, we do need information here for printing labels. Enter multiple collectors into the same *Collector Name* row, e.g. "LouElla Saul, Mary Ann Swanson." Enter different values for *Start Date* and *End Date* if you have a date range, e.g. "2/17/2019" and "2/20/2019", or the same value if there is no explicit range, e.g. "2/17/2019" and "2/17/2019," or "2019" and "2019." Do not use the *Uncertain* field, and do not use more than one row of this nested table (i.e. all collectors should be listed in a single row).
-
 Collection
 : A controlled vocabulary to indicate which physical part of the collection this specimen lot should be housed in. Vocabulary includes:
     - "ED" for specimens in the Education Collection
@@ -83,14 +80,13 @@ Project
     - "CSC" for Cretaceous Seas of California (CSBR grant, 2016-2019)
     - "Paleozoic" for ongoing (unfunded) digitization (2016-present)
     - "FIC" for Fossil Insect Collaborative (PEN grant, 2017-2020)
-    - "Cretaceous World" for Cretaceous Western Interior & Pacific Northwest (PEN grant, 2019-2021)
+    - "WIS" for Cretaceous Western Interior & Pacific Northwest (PEN grant, 2019-2021)
 
 Lot Remarks
-: Space for comments that do not fit elsewhere. Some parts of the collection more commonly have information for this field than others, e.g. fossil insects tend to have lifestage and other extra notes to record here. Information in this field that fits into one of the following categories should be entered as shown in the image below.
+: Space for comments that do not fit elsewhere. Some parts of the collection more commonly have information for this field than others, e.g. fossil insects tend to have lifestage and other extra notes to record here. Information in this field that fits into one of the following categories should be entered exactly as shown in the image below (i.e., order matters, as well as capitalization and punctuation/separators).
     - LIFESTAGE should be recorded verbatim.
     - SEX should be recorded verbatim, but do not abbreviate, e.g. "female" (not "f").
-    - ASSOC SPMS refers to specimens that are physically attached/stored in the same container, but cataloged as separate lots; for example, a barnacle stuck to a clam or a predation trace on a snail. Please record this information on the catalog records for all relevant lots.
-    - VERBATIM REMARKS ON SPECIMEN refers to any data written on the specimen or its label that should be recorded, but does not fit in any other field. Note that comments relating to the identification of a specimen do not go in *Lot Remarks*, but in the appropriate *Comments* field on the *Identification (1)* tab.
+    - VERBATIM REMARKS ON SPM refers to any data written on the specimen or its label that should be recorded, but does not fit in any other field. Note that comments relating to the identification of a specimen do not go in *Lot Remarks*, but in the appropriate *Comments* field on the *Identification (1)* tab.
     {% include figure image_path="/assets/images/catalogue_lotremarks.png" alt="screenshot of the Lot Remarks field in the catalogue module" caption="Screenshot of the Lot Remarks field in the Catalogue module" %}
     
 IP Publications
@@ -100,7 +96,7 @@ IP Publications
     - *Type*: Indicate what kind of type the specimen is according to the publication. "Unpublished type" is reserved for specimens referenced in theses, dissertations, and historic manuscripts that will never be published.
 
 Original Nature
-: A controlled vocabulary recording the kind of fossil present. It is possible to record more than one value (one per row), e.g. if you have a specimen lot that includes the body fossil as well as a cast of it. Vocabulary includes:
+: A controlled vocabulary recording the kind of fossil present. It is possible to record more than one value (one per row), e.g. if you have a specimen lot that includes the body fossil as well as a cast or latex peel associated with it. Vocabulary includes:
     - "body fossil"
     - "cast"
     - "compression fossil"
