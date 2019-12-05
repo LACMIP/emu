@@ -33,7 +33,7 @@ Lot No.
 : Combined with the locality number, this turns into *Cat. No.*, a unique, human-readable identifier for a specimen lot. EMu will auto-generate the next available lot number for you.
 
 P/CP
-: Part/Counterpart. Checking this box indicates that the specimen lot contains two pieces which fit together to represent a single animal.
+: Part/Counterpart. Checking this box indicates that the specimen lot contains two (or more) pieces that fit together to represent a single animal. This is typically reserved for complete part-counterpart pairs of compression fossils and concretions.
 
 Accn. Lot
 : Attach an accession record here. Most LACMIP specimens do not have accession information digitally available yet. Please contact the Museum registrar if you need to attach accession information that has not already been digitized. LACMIP staff do not have permission to add/modify records in the [Accession Lots module]({{ site.baseurl }}/documentation/accessions/).
