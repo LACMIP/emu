@@ -87,6 +87,7 @@ Lot Remarks
     - LIFESTAGE should be recorded verbatim.
     - SEX should be recorded verbatim, but do not abbreviate, e.g. "female" (not "f").
     - VERBATIM REMARKS ON SPM refers to any data written on the specimen or its label that should be recorded, but does not fit in any other field. Note that comments relating to the identification of a specimen do not go in *Lot Remarks*, but in the appropriate *Comments* field on the *Identification (1)* tab.
+    
     {% include figure image_path="/assets/images/catalogue_lotremarks.png" alt="screenshot of the Lot Remarks field in the catalogue module." caption="Screenshot of the Lot Remarks field in the Catalogue module." %}
     
 IP Publications
