@@ -140,13 +140,13 @@ Modifier Rank
 {% include figure image_path="/assets/images/catalogue_identification2.png" alt="screenshot of the identification tab in the catalogue module" caption="Screenshot of the *Identifications (1)* tab of the Catalogue module. This example record demonstrates a taxonomic verification applied to a type specimen record." %}
 
 Identified By
-: Full name(s) of the person(s) who made this identification, e.g. "LouElla Saul." For multiple identifiers, please use initials rather than full names, e.g. L. R. Saul, J. Alderson. **Note:** If you are updating or verifying the taxonomy of a specimen, *but not examining physical the specimen*, please also enter "Taxonomy verified." or "Taxonomy updated." in *Comments*. Likewise, *ID Reference* should also be completed for taxonomic updates and verifications.
+: Full name(s) of the person(s) who made this identification, e.g. "LouElla Saul." For multiple identifiers, please use initials rather than full names, e.g. "L. R. Saul, J. Alderson". **Note:** If you are *updating or verifying the taxonomy of a specimen, but not physically/critically examining it*, also enter "Taxonomy verified." or "Taxonomy updated." in *Comments* (see below). Likewise, *ID Reference* should also be completed for taxonomic updates and verifications (again, see below).
 
 Date Identified
 : Date on which the identification was made. This can be as granular as a day (e.g. "3/20/2018") or as coarse as a year (e.g. "2018"). For historic identifications (i.e., pre-2015), you may leave this field blank if no identification date has been clearly indicated on the specimen label.
 
 Comments
-: Any comments about the identification. Enter "Taxonomy verified." or "Taxonomy updated." in this field if you are simply updating the specimen's currently accepted name, but not physically/critically evaluating the specimen's true taxonomic identity. To be clear:
+: Any comments relating to the specimen lot's identification. Enter "Taxonomy verified." or "Taxonomy updated." in this field if you are simply updating the specimen's currently accepted name, but not physically/critically evaluating the specimen's true taxonomic identity. To be clear:
     - "Taxonomy updated." refers to new identifications that alter existing taxonomy, e.g. when a species is moved to a new genus, but the specimen was not physically examined by the identifier(s).
     - "Taxonomy verified." refers to repeat identifications that verify existing/historic identifications in the database, e.g. no taxonomic change is made to indicate the existing identification remains valid.
 
