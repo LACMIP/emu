@@ -56,12 +56,13 @@ Identification
 : Displays *Modified Taxon*, *Identified By*, and *ID Date* from the *Identification (1)* tab (see below for details).
 
 Type Status
-: A controlled vocabulary to classify the kind of type specimen. Vocabulary includes:
-    - "figured"
+: A controlled vocabulary to classify the kind of type specimen. Please enter the type status of highest priority that applies to the specimen. (For example, choose "holotype" or "syntype" over "hypotype"). The controlled vocabulary includes:
+    - "allotype"
     - "holotype"
-    - "hypotype"
+    - "hypotype" (to replace "figured")
     - "lectotype"
     - "neotype"
+    - "paratype
     - "paralectotype"
     - "paraleptotype"
     - "paratype"
@@ -74,7 +75,7 @@ Collection
     - "Other" for specimens of unexplained or extraordinary physical circumstances
     - "ST" for specimens in the Stratigraphic Collection
     - "TX" for specimens in the Taxonomic Collection
-    - "Type" for specimens in the Type Collection (housed at the main Museum building)
+    - "TYPE" for specimens in the Type Collection (housed at the main Museum building)
 
 Project
 : A controlled vocabulary to group catalogue records by project. This is useful for tracking project headway, but not every specimen will need a value in this field. You can add values to this controlled vocabulary via the [Lookup Lists module]({{ site.baseurl }}/documentation/lookuplist/). Current vocabulary includes:
