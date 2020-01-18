@@ -30,7 +30,7 @@ Disp.
     - "unknown" for specimens that haven't been physically located, but are also not definitely missing; typically this term is assigned to legacy specimen data records where we have not attempted to locate the physical specimen yet
 
 Lot No.
-: Combined with the locality number, this turns into *Cat. No.*, a unique, human-readable identifier for a specimen lot. EMu will auto-generate the next available lot number for you.
+: Combined with the locality number, this turns into *Cat. No.*, a unique, human-readable identifier for a specimen lot. EMu will auto-generate the next available lot number for you. If EMu does *not* automatically generate the *Lot No.*, do not proceed with cataloging and immediately alert the collections staff!
 
 P/CP
 : Part/Counterpart. Checking this box indicates that the specimen lot contains two or more pieces that fit together to represent a single animal. This is typically reserved for complete part-counterpart pairs of compression fossils and concretions.
@@ -39,7 +39,8 @@ Accn. Lot
 : Attach an accession record here. Most LACMIP specimens do not have accession information digitally available yet. Please contact the Museum registrar if you need to attach accession information that has not already been digitized. LACMIP staff do not have permission to add/modify records in the [Accession Lots module]({{ site.baseurl }}/documentation/accessions/).
 
 LACMIP Type No.
-: Specimens in the type collection have a type number; it should be recorded here.
+: Specimens in the type collection have a type number; it should be recorded here. *LACMIP Type No.'s* are labelled on specimens in bright red, yellow, or blue paint. If you are unsure whether a number is a type number, consult the Collections Manager.
+{% include figure image_path="/assets/images/catalogue_LACMIPtypeno.png" alt="example LACMIP Type No." caption="*LACMIP Type No.'s* are labelled on specimens in bright red, yellow, or blue paint." %}
 
 Field No.
 : A number assigned to a specimen lot **at the time of collection**, typically by the collector. This is not common in the majority of the LACMIP collections (fossil insects being an exception).
