@@ -99,18 +99,24 @@ IP Publications
     - *Type*: Indicate what kind of type the specimen is according to the publication. "Unpublished type" is reserved for specimens referenced in theses, dissertations, and historic manuscripts that will never be published.
 
 Original Nature
-: A controlled vocabulary recording the kind of fossil present. It is possible to record more than one value (one per row), e.g. if you have a specimen lot that includes the body fossil as well as a cast or latex peel associated with it. Vocabulary includes:
+: A controlled vocabulary recording the kind of fossil present. It is possible to record more than one value (one per row) per catalog record, e.g. if you have a specimen lot that includes the body fossil as well as a cast or latex peel associated with it. Vocabulary includes:
     - "body fossil"
-    - "cast"
+    - "boring"
+    - "bulk" (to indicate the lot includes unsorted specimens or similar material)
+    - "cast" (applies to natural casts, not manmade)
     - "compression fossil"
+    - "concretion"
     - "encrustation"
-    - "mold"
+    - "ichnofabric"
+    - "micromount"
+    - "mold" (applies to natural molds, not manmade)
     - "slab"
     - "slide"
-    - "synthetic"
+    - "synthetic" (applies to facsimiles, i.e., plastercasts and rubber peels).
+    - "trackway"
 
 Anatomy
-: A controlled vocabulary describing the part of the individual present. Typically mollusks will just be "body." There are many options, which you can view by clicking on the icon to the right of the field. It is possible to record more than one value (one per row). You can add values to this controlled vocabulary via the [Lookup Lists module]({{ site.baseurl }}/documentation/lookuplist/). Leave this field blank for trace fossils.
+: A controlled vocabulary describing the part of the individual present. Typically, mollusks will just be "shell(s)." There are many options, which you can view by clicking on the icon to the right of the field. It is possible to record more than one value (one per row). You can add values to this controlled vocabulary via the [Lookup Lists module]({{ site.baseurl }}/documentation/lookuplist/). Leave this field blank for trace fossils.
 
 ## Identification (1) tab
 
