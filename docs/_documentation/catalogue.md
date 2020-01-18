@@ -98,8 +98,7 @@ IP Publications
     - *Pages*: Enter the page number(s) where the specimen is described. Do not enter "p.", "pg.", etc. before the number(s).
     - *Fig*: Enter the plate and figure number(s) separated by a colon. For example: "pl. 1: fig. 1-3". If a specimen is figured on multiple plates, separate these entries with a semicolon. For example, "pl. 1: fig. 1-5; pl. 4: fig. 3b, 3c". If the figure is unnumbered, enter "fig. unnumbered". If the specimen is unfigured, enter "unfigured".
     - *Type*: Indicate what kind of type the specimen is according to the publication. "Unpublished type" is reserved for specimens referenced in theses, dissertations, and historic manuscripts that will never be published.
-    
-{% include figure image_path="/assets/images/catalogue_IPpublications.png" alt="screenshot of *IP Publications* table in the Catalogue module" caption="Publications that reference LACMIP specimens by catalog or type number must be chronologically documented in the *IP Publications* table." %}
+{% include figure image_path="/assets/images/catalogue_IPpublications.png" alt="screenshot of the IP Publications field in the catalogue module" caption="Publications that reference LACMIP specimens by catalog or type number must be chronologically documented in the *IP Publications* table" %}
 
 Original Nature
 : A controlled vocabulary recording the kind of fossil present. It is possible to record more than one value (one per row) per catalog record, e.g. if you have a specimen lot that includes the body fossil as well as a cast or latex peel associated with it. Vocabulary includes:
