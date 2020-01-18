@@ -39,8 +39,8 @@ Accn. Lot
 : Attach an accession record here. Most LACMIP specimens do not have accession information digitally available yet. Please contact the Museum registrar if you need to attach accession information that has not already been digitized. LACMIP staff do not have permission to add/modify records in the [Accession Lots module]({{ site.baseurl }}/documentation/accessions/).
 
 LACMIP Type No.
-: Specimens in the type collection have a type number; it should be recorded here. LACMIP type numbers are labelled on specimens in bright red, yellow, or blue paint. If you are unsure whether a number is a type number, consult the Collections Manager.
-{% include figure image_path="/assets/images/catalogue_LACMIPtypeno.png" alt="example LACMIP Type No." caption="LACMIP type numbers are indicated by bright red, yellow, or blue paint." %}
+: Specimens in the type collection have a type number; record this information here. LACMIP type numbers are labelled on specimens in bright red, yellow, or blue paint. If you are unsure whether a number is a type number, consult the Collections Manager.
+{% include figure image_path="/assets/images/catalogue_LACMIPtypeno.png" alt="example LACMIP Type No." caption="LACMIP type numbers are indicated by bright red, yellow, or blue paint. Red = holotypes, syntypes, lectotypes; Yellow = paratypes, paralectotypes; Blue = hypotypes (figured or unfigured specimens)." %}
 
 Field No.
 : A number assigned to a specimen lot **at the time of collection**, typically by the collector. This is not common in the majority of the LACMIP collections (fossil insects being an exception).
@@ -98,7 +98,8 @@ IP Publications
     - *Pages*: Enter the page number(s) where the specimen is described. Do not enter "p.", "pg.", etc. before the number(s).
     - *Fig*: Enter the plate and figure number(s) separated by a colon. For example: "pl. 1: fig. 1-3". If a specimen is figured on multiple plates, separate these entries with a semicolon. For example, "pl. 1: fig. 1-5; pl. 4: fig. 3b, 3c". If the figure is unnumbered, enter "fig. unnumbered". If the specimen is unfigured, enter "unfigured".
     - *Type*: Indicate what kind of type the specimen is according to the publication. "Unpublished type" is reserved for specimens referenced in theses, dissertations, and historic manuscripts that will never be published.
-    {% include figure image_path="/assets/images/catalogue_IPpublications.png" alt="example LACMIP Type No." caption="LACMIP type numbers are labelled on specimens in bright red, yellow, or blue paint." %}
+    
+{% include figure image_path="/assets/images/catalogue_IPpublications.png" alt="example LACMIP Type No." caption="LACMIP type numbers are labelled on specimens in bright red, yellow, or blue paint." %}
 
 Original Nature
 : A controlled vocabulary recording the kind of fossil present. It is possible to record more than one value (one per row) per catalog record, e.g. if you have a specimen lot that includes the body fossil as well as a cast or latex peel associated with it. Vocabulary includes:
