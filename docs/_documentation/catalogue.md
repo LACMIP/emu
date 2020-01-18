@@ -40,7 +40,7 @@ Accn. Lot
 
 LACMIP Type No.
 : Specimens in the type collection have a type number; it should be recorded here. LACMIP type numbers are labelled on specimens in bright red, yellow, or blue paint. If you are unsure whether a number is a type number, consult the Collections Manager.
-{% include figure image_path="/assets/images/catalogue_LACMIPtypeno.png" alt="example LACMIP Type No." caption="LACMIP type numbers are labelled on specimens in bright red, yellow, or blue paint." %}
+{% include figure image_path="/assets/images/catalogue_LACMIPtypeno.png" alt="example LACMIP Type No." caption="LACMIP type numbers are indicated by bright red, yellow, or blue paint." %}
 
 Field No.
 : A number assigned to a specimen lot **at the time of collection**, typically by the collector. This is not common in the majority of the LACMIP collections (fossil insects being an exception).
