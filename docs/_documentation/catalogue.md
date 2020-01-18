@@ -103,16 +103,16 @@ Original Nature
     - "body fossil"
     - "boring"
     - "bulk" (to indicate the lot includes unsorted specimens or similar material)
-    - "cast" (applies to natural casts, not manmade)
+    - "cast" (applies to natural casts, not man-made)
     - "compression fossil"
     - "concretion"
     - "encrustation"
     - "ichnofabric"
     - "micromount"
-    - "mold" (applies to natural molds, not manmade)
+    - "mold" (applies to natural molds, not man-made)
     - "slab"
     - "slide"
-    - "synthetic" (applies to facsimiles, i.e., plastercasts and rubber peels).
+    - "synthetic" (applies to facsimiles, e.g., plaster casts and rubber peels).
     - "trackway"
 
 Anatomy
@@ -128,25 +128,30 @@ Taxon
 : Attach a record from the [Taxonomy module]({{ site.baseurl }}/documentation/cataloging/). If you know the full name you wish to attach, type it into this field along with its rank (e.g. "calva varians species" or "bivalvia class") and EMu will find the record directly. If the name you enter has multiple taxonomy record options, EMu will bring those up for you to select from. You can also use the full features of the Taxonomy module search by clicking on the green plus sign.
 
 Modifier
-: Any part of the identification other than the taxonomic name, e.g. "cf." or "sp." or "indet." This is a controlled vocabulary; you can see the value options by clicking on the icon to the right of the field. Along with *Modifier Rank* and *Taxon*, this field gets arranged into *Modified Taxon*.
+: Any part of the identification other than the taxonomic name, e.g. "cf." or "sp." or "indet." This is a controlled vocabulary; you can see the value options by clicking on the icon to the right of the field. Along with *Modifier Rank* and *Taxon*, this field gets arranged into *Modified Taxon*. EMu should automatically complete this field for you.
 
 Modifier Rank
-: If there is a value for *Modifier*, then EMu also needs this field to tell it where to place the modifier. For the modifiers "sp." and "indet." this should be the taxonomic rank of the lowest level included in *Taxon*. For identification qualification modifiers such as "cf." this should be the taxonomic rank before which the modifier gets placed. For example...
+: If there is a value for *Modifier*, then EMu also needs this field to tell it where to place the modifier. For the modifiers "sp." and "indet." this should be the taxonomic rank of the lowest level included in *Taxon*. For identification qualification modifiers such as "cf." this should be the taxonomic rank before which the modifier gets placed. EMu should automatically complete this field for you. The logic behind this field is as follows...
     - for an identification of "Calva sp.": *Taxon* = "Calva" / *Modifier* = "sp." / *Modifier Rank* = "genus"
     - for an identification of "Veneridae indet.": *Taxon* = "Veneridae" / *Modifier* = "indet." / *Modifier Rank* = "family"
     - for an identification of "Calva cf. varia": *Taxon* = "Calva varia" / *Modifier* = "cf." / *Modifier Rank* = "species"
+    - for an identification of and ichnotaxon (*Kingdom* = "Ichnotaxa"): *Taxon* = "Oichnus" / *Modifier* = "isp." / *Modifier Rank* = "genus"
 
 Identified By
-: Full name(s) of the person or people who made this identification, e.g. "LouElla Saul." For legacy data we frequently do not track this data.
+: Full name(s) of the person(s) who made this identification, e.g. "LouElla Saul." For multiple identifiers, please use initials rather than full names, e.g. L. R. Saul, J. Alderson. **Note:** If you are updating or verifying the taxonomy of a specimen, *but not examining physical the specimen*, please also enter "Taxonomy verified." or "Taxonomy updated." in *Comments*. Likewise, *ID Reference* should also be completed for taxonomic updates and verifications.
 
 Date Identified
-: Date on which the identification was made. This can be as granular as a day (e.g. "3/20/2018") or as coarse as a year (e.g. "2018"). For legacy data we frequently do not track this data.
+: Date on which the identification was made. This can be as granular as a day (e.g. "3/20/2018") or as coarse as a year (e.g. "2018"). For historic identifications (i.e., pre-2015), you may leave this field blank if no identification date has been clearly indicated on the specimen label.
 
 Comments
-: Any comments about the identification.
+: Any comments about the identification. Enter "Taxonomy verified." or "Taxonomy updated." in this field if you are simply updating the specimen's currently accepted name, but not physically/critically evaluating the specimen's true taxonomic identity. To be clear:
+    - "Taxonomy updated." refers to new identifications that alter existing taxonomy, e.g. when a species is moved to a new genus, but the specimen was not physically examined by the identifier(s).
+        - "Taxonomy verified." refers to repeat identifications that verify existing/historic identifications in the database, e.g. no taxonomic change is made to indicate the existing identification remains valid.
 
 ID Reference
-: A [bibliography record]({{ site.baseurl }}/documentation/bibliography/) related to the identification can be attached via this field, if desired.
+: A [bibliography record]({{ site.baseurl }}/documentation/bibliography/) related to the identification can be attached via this field. While providing this information is optional for specimens in the stratigraphic collections, it must be provided for all taxonomic updates and verifications added to type specimen records.
+
+{% include figure image_path="/assets/images/catalogue_identification2.png" alt="screenshot of the identification tab in the catalogue module" caption="Screenshot of the *Identifications (1)* tab of the Catalogue module. This example record demonstrates a taxonomic verification applied to a type specimen record." %}
 
 Filed As
 : This field should be "Yes" wherever *Currently Accepted* is also "Yes" and "No" wherever *Currently Accepted* is also "No," **except** for the records of **type specimens with outdated taxonomy** (see [re-identifications]({{ site.baseurl }}/documentation/reidentify/) for more on this). *Filed As* describes how the specimen is physically organized (filed) in the collection. This is why types, which may have had their taxonomy updated since their initial publication, are not always filed with a currently accepted name.
