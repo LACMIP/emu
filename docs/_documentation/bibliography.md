@@ -13,10 +13,10 @@ Please note that we typically do **not** use **semicolons** in any of the Biblio
 {% include figure image_path="/assets/images/bibliography_publications.png" alt="screenshot of bibliography module" caption="Bibliography module in EMu." %}
 
 ## Publications(2) tab
-This tab is where the bulk of our bibliographic information as it pertains to type specimens and references used for specimen identifications. Essential fields to fill out on this tab (when applicable) include:
+This tab is where the bulk of our bibliographic information is recorded. This information typically pertains to type specimens and references used in specimen identifications. Essential fields to fill out on this tab (when applicable) include:
 
 Title
-: Title of the publications, thesis or book chapter (but not book title). Do **not** add trailing periods to text in this field.
+: Title of the publication, thesis, or book chapter. Do **not** add trailing periods to text in this field.
 
 Book Title
 : Title of the book. Do **not** add trailing periods to text in this field.
@@ -25,13 +25,13 @@ Journal
 : Title of the journal. Search the associated lookup list before adding new values to this list.
 
 Author
-: Author(s) of the publication, thesis, etc. Search the associated lookup list before adding new values to this list. New entries to this list should be formatted, "Lastname, Initial." (e.g., "Saul, L. R."). When multiple authors are present, use commas as separators, and "and" (not an ampersand) before the last author (e.g., Saul, L. R., Squires, R. S., and Goedert, J. L."
+: Author(s) of the publication, thesis, etc. Search the associated lookup list before adding new values to this list. New entries should be formatted, "Lastname, Initial." (e.g., "Saul, L. R."). When multiple authors are present, use commas as separators, and "and" (not an ampersand) before the last author (e.g., Saul, L. R., Squires, R. S., **and** Goedert, J. L.").
 
 Year
 : Year of publication. If no date is indicated on the publication, enter "n.d."
 
 Year Letter
-: If an author or group of authors published multiple papers/books in the same year, a letter should be assigned to the year if a letter was also assigned to the publication in the LACMIP Type Reprint Library. Some of this literature is digitally available from https://decapoda.nhm.org/references/search.html (restrict your search to "Invertebrate Paleontology").
+: If an author or group of authors published multiple papers/books in the same year, a letter may have been appended to the year in the LACMIP Type Reprint Library. Some of this literature is digitally available from [https://decapoda.nhm.org/references/search.html] (restrict your search to "Invertebrate Paleontology").
 
 DOI
 : Digital Object Identifier. A non-essential field for LACMIP's purposes, but nice to have if available.
@@ -46,10 +46,10 @@ Pages
 : Page range (for articles) or total number of pages (for books). Do not abbreviate (e.g., "78-79", not "78-9").
 
 Series
-: ?????
+: Publication series. This field is used occasionally and applies to serial publications. Examples include "SEPM Pacific Section Guidebook", "Treatise on Invertebrate Paleontology", "University of California Publications in Geological Sciences", and "USGS Professional Paper".
 
 Editor
-: Book editor(s). If necessary, include editors in this field. Enter editor names using the same formatting as in _Author_. 
+: Book editor(s). If necessary, include editors in this field. Enter names using the same formatting as in _Author_. 
 
 Remarks
 : Translated titles, URLs, etc. Much of the information in this field was imported from an external citation manager (Zotero), and does not need to be hand-keystroked into EMu.
