@@ -31,7 +31,7 @@ Year
 : Year of publication. If no date is indicated on the publication, enter "n.d."
 
 Year Letter
-: If an author or group of authors published multiple papers/books in the same year, a letter may have been appended to the year in the LACMIP Type Reprint Library. Some of this literature is digitally available from (decapoda.nhm.org)[https://decapoda.nhm.org/references/search.html] (restrict your search to "Invertebrate Paleontology").
+: If an author or group of authors published multiple papers/books in the same year, a letter may have been appended to the year in the LACMIP Type Reprint Library. Some of this literature is digitally available from [decapoda.nhm.org](https://decapoda.nhm.org/references/search.html) (restrict your search to "Invertebrate Paleontology").
 
 DOI
 : Digital Object Identifier. A non-essential field for LACMIP's purposes, but nice to have if available.
