@@ -77,7 +77,7 @@ Collection
     - "ST" for specimens in the Stratigraphic Collection
     - "TX" for specimens in the Taxonomic Collection
     - "TYPE" for specimens in the Type Collection (housed at the main Museum building)
-    - "GEO" for records representing derivative samples collected from ST/TX/TYPE specimens (for example, powdered aragonite to be used in destructive analysis). Records created for "GEO" samples should be related to the records for specimens from which they were derived à la (the Relationships tab)[https://lacmip.github.io/emu/documentation/relationships/].
+    - "GEO" for records representing derivative samples collected from ST/TX/TYPE specimens (for example, powdered aragonite to be used in destructive analysis). Records created for "GEO" samples should be associated with the records for specimens from which they were derived using the [Relationships tab](https://lacmip.github.io/emu/documentation/relationships/).
     
 
 Project
