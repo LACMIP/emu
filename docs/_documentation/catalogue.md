@@ -2,7 +2,7 @@
 title: Catalogue
 navcat: Modules
 tags: cataloging quick-start
-last_modified_at: 2019-01-18
+last_modified_at: 2020-02-07
 ---
 The Catalogue module is the primary place for information about each specimen lot, and a node linking together data from many of the other modules. Please see [Axiell's documentation](http://help.emu.axiell.com/latest/en/Topics/EMu/Catalogue%20module.htm) for generic information about this module. Continue reading here to understand how LACMIP uses the fields available in the Catalogue module.
 
@@ -77,6 +77,8 @@ Collection
     - "ST" for specimens in the Stratigraphic Collection
     - "TX" for specimens in the Taxonomic Collection
     - "TYPE" for specimens in the Type Collection (housed at the main Museum building)
+    - "GEO" for records representing derivative samples collected from ST/TX/TYPE specimens (for example, powdered aragonite to be used in destructive analysis). Records created for "GEO" samples should be related to the records for specimens from which they were derived à la (the Relationships tab)[https://lacmip.github.io/emu/documentation/relationships/].
+    
 
 Project
 : A controlled vocabulary to group catalogue records by project. This is useful for tracking project headway, but not every specimen will need a value in this field. You can add values to this controlled vocabulary via the [Lookup Lists module]({{ site.baseurl }}/documentation/lookuplist/). Current vocabulary includes:
