@@ -126,7 +126,7 @@ Remarks
   *Citation Remarks* | *Explanation*
   --- | ---
   STATE: Formation: Subunit | Denotes published species occurrence, or species occurrence found in LACMIP Collections. If the latter, "Cited In:" should also be "LACMIP Collection". Separate multiple occurrences for a given citation with semi-colons.
-  [STATE: Formation: Subunit][ANTIQUATED] | Denotes antiquated species occurrence.
+  [ANTIQUATED: STATE: Formation: Subunit] | Denotes antiquated species occurrence.
   [STATE: Formation: Subunit][SPECIMEN NEEDS EXAMINATION] | Denotes highly suspect species occurrence. If the citation for the occurrence is also the LACMIP Collection, add some additional description for searchability, e.g. [PIERCE OCCURRENCE - SPECIMEN NEEDS EXAMINATION]
 
 Primary Citation
