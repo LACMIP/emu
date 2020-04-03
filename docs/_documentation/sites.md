@@ -122,9 +122,9 @@ Radius (Numeric)
 
  *Radius* | *Explanation*
    --- | ---
-   5 m | Typically applied to localities with GPS-derived coordinates.
-   50 m | Applied to localities georeferenced with great certainity, but without precise coordinates available.
-   2500 m | Applied to localities of greatest uncertainty, short of the locality description being inadequate for georeferencing.
+   5 | Typically applied to localities with GPS-derived coordinates.
+   50 | Applied to localities georeferenced with great certainity, but without precise coordinates available.
+   2500 | Applied to localities of greatest uncertainty, short of the locality description being inadequate for georeferencing.
    other | Other values (up to 2500 m) may be determined at the discretion of the georeferencer.
 
 Units
