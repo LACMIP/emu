@@ -122,9 +122,9 @@ Radius (Numeric)
 
  *Radius* | *Explanation*
    --- | ---
-   5 | Typically applied to localities with GPS-derived coordinates.
-   50 | Applied to localities georeferenced with great certainity, but without precise coordinates available.
-   2500 | Applied to localities of greatest uncertainty, short of the locality description being inadequate for georeferencing.
+   5 | Typically applies to localities with GPS-derived coordinates.
+   50 | Applies to localities georeferenced with great certainity, but without precise coordinates available.
+   2500 | Applies to localities of greatest uncertainty, short of the locality description being inadequate for georeferencing.
    other | Other values (up to 2500 m) may be determined at the discretion of the georeferencer.
 
 Units
@@ -134,10 +134,18 @@ Datum
 : Equivalent to [dwc:geodeticDatum](https://dwc.tdwg.org/terms/#dwc:geodeticDatum): "The ellipsoid, geodetic datum, or spatial reference system (SRS) upon which the geographic coordinates given in decimalLatitude and decimalLongitude as based." Most LACMIP georeferencing is done in the "WGS84" datum.
 
 Preferred
-: Check "Yes" if this georeference instance is the best available. Only one may be marked preferred. This field determines what coordinates are exported from EMu (at least in the reports we currently have set up).
+: Check "Yes" if this georeference instance is the best available. Only one may be marked preferred. This field determines what coordinates are exported from EMu.
 
 Verification Status
 : Equates to [dwc:georeferenceVerificationStatus](https://dwc.tdwg.org/terms/#georeferenceVerificationStatus) (i.e. "A categorical description of the extent to which the georeference has been verified to represent the best possible spatial description").
+
+: Values used by LACMIP include:
+
+ *Verification Status* | *Explanation*
+   --- | ---
+   verified by curator | Indicates a locality has been georeferenced within a relatively small radius of uncertainity, typically ≤50 m. i.e., these localities are relatively trustworthy with respect to their accuracy and precision.
+   verified by collector | Indicates a locality has been georeferenced within a relatively small radius of uncertainity according to data directly acquired from the collector (e.g., GPS coordinates), typically ≤50 m. i.e., these localities are relatively trustworthy with respect to their accuracy and precision.
+   requires verification | Indicates localities of greater uncertainty, typically with a >50 m radius of uncertainty.
 
 Notes
 : Equivalent to [dwc:georeferenceRemarks](https://dwc.tdwg.org/terms/#dwc:georeferenceRemarks): "Notes or comments about the spatial description determination, explaining assumptions made in addition or opposition to the those formalized in the method referred to in georeferenceProtocol."
