@@ -120,7 +120,7 @@ Radius (Numeric)
 
 : Standard radii used by LACMIP include:
 
- *Radius* | *Explanation*
+ *Value* | *Explanation*
    --- | ---
    5 | Typically applies to localities with GPS-derived coordinates.
    50 | Applies to localities georeferenced with great certainity, but without precise coordinates available.
@@ -141,7 +141,7 @@ Verification Status
 
 : Values used by LACMIP include:
 
- *Verification Status* | *Explanation*
+ *Value* | *Explanation*
    --- | ---
    verified by curator | Indicates a locality has been georeferenced within a relatively small radius of uncertainity, typically ≤50 m. i.e., these localities are relatively trustworthy with respect to their accuracy and precision.
    verified by collector | Indicates a locality has been georeferenced within a relatively small radius of uncertainity according to data directly acquired from the collector (e.g., GPS coordinates), typically ≤50 m. i.e., these localities are relatively trustworthy with respect to their accuracy and precision.
