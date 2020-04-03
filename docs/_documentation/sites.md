@@ -119,6 +119,7 @@ Radius (Numeric)
 : Equivalent to [dwc:coordinateUncertaintyInMeters](https://dwc.tdwg.org/terms/#dwc:coordinateUncertaintyInMeters), i.e. an error radius around the geographic point. **LACMIP radii should always be in meters** (see *Units* below). 
 
 Standard radii used by LACMIP include:
+
 *Radius* | *Explanation*
   --- | ---
   5 m | Typically applied to localities with GPS-derived coordinates.
