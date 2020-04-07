@@ -128,7 +128,7 @@ The *Lat/Long(2)* tab provides information about [georeferencing]({{ site.baseur
 Fields on this tab are...
 
 Latitude/Longitude Details
-: =[dwc:decimalLatitude](https://dwc.tdwg.org/terms/#dwc:decimalLatitude) & [dwc:decimalLongitude](https://dwc.tdwg.org/terms/#dwc:decimalLongitude), respectively, and concatenated into [dwc:verbatimCoordinates](https://dwc.tdwg.org/terms/#dwc:verbatimCoordinates)
+: = [dwc:decimalLatitude](https://dwc.tdwg.org/terms/#dwc:decimalLatitude) & [dwc:decimalLongitude](https://dwc.tdwg.org/terms/#dwc:decimalLongitude), respectively, and concatenated into [dwc:verbatimCoordinates](https://dwc.tdwg.org/terms/#dwc:verbatimCoordinates)
 : A nested table of coordinates within the nested table of georeferencing instances. The only reason you should use multiple rows in this table is to describe the vertices of a polygon. Typically LACMIP uses the fields *Latitude (Dec.)* and *Longitude (Dec.)* to record coordinates in decimal degrees, which EMu will automatically convert to degree-minute-second (DMS) format as well. These values are truncated to two decimal places when published online, e.g., "33.66, -117.56".
 
 Radius (Numeric)
