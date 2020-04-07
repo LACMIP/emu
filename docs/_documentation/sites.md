@@ -57,7 +57,7 @@ Verbatim Locality
 
 
 : The locality description as originally recorded by the collector. Most of the LACMIP site records have been through multiple iterations of digital life, and this data is not truly verbatim anymore, but ideally it includes exactly what the collector recorded, as well as any notes made later by other people (and clearly indicated as such by enclosing the comment in brackets). If relevant multimedia has been attached to the record after the fact, such as emails saved in PDF format, add a descriptive comment to the *Verbatim Locality* text, e.g. "[See attached correspondence from John Alderson.]."
-{% include figure image_path="/assets/images/sites_verbatim-attachment.png" alt="entering new geographic data" caption="entering new geographic data" %}
+{% include figure image_path="/assets/images/sites_verbatim-attachment.png" alt="How to enter new geographic data into *Verbatim Locality*" caption="Enclose new, after-the-fact information in *Verbatim Locality* with square brackets." %}
 
 ### Entering new geographic data
 
