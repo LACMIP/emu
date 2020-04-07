@@ -39,7 +39,7 @@ NearestPlace
 Alternate Loc ID
 : = [dwc:locationRemarks](https://dwc.tdwg.org/terms/#dwc:locationRemarks) with the prefix, "Alternate Location ID", e.g., "Alternate Location ID: field number SS-19a-52"
 : A table of paired values: *Institution Code* and *Institution Number*. This is common for specimens transferred to LACMIP from other institutions, and is also where you can find field numbers assigned by collectors. Ex: *Institution Code* = "CIT" and *Institution Number* = "1400", or *Institution Code* = "field number" and *Institution Number* = "AH180817".
-{% include figure image_path="/assets/images/sites_IPLocality_alternatelocID.png" %}
+{% include figure image_path="/assets/images/sites_IPLocality_alternatelocID.png" alt="Examples of old locality numbers recorded in *Alternate Loc ID*" caption="Example of old locality numbers recorded in *Alternate Loc ID* for LACMIP 10446." %}
 {% include figure image_path="/assets/images/sites_alternatelocidexample.jpg" alt="Examples of old locality numbers recorded in *Alternate Loc ID*" caption="Examples of old locality numbers recorded in *Alternate Loc ID*. In historic LACMIP collections, these numbers are typically recorded on colored dot labels (green = UCLA; gold = CIT; red = CSUN or another instituion). Note that white, painted-on numbers do not need to be recorded in this field as they represent LACMIP locality numbers." %}
 
 Collectors
@@ -47,11 +47,9 @@ Collectors
 : Each LACMIP locality should represent a unique collecting event in time and space. *Names* in this field are formatted as First initial Lastname (for example: A. Hendy, L. Walker). If the collector is unknown, please enter "unknown" in this field. Each locality should also correspond to a specific date; as such, the *Start Date* and *End Date* should be the same, and can be as specific as a day (e.g. 07/18/1946 - 07/18/1946) or as vague as a year (e.g. 1946-1946). Leave this field blank if you do not know when the collecting event took place. *Verbatim* is occasionally used to record collectors names in full as originally recorded, as well as the verbatim original representation of the date and time of the collecting event, e.g. "fall 1940" or "17-IV-1985"; this field is not published.
 
 Geographic Citation
-:[_this field is not published online_]
 : Attach a [bibliography record]({{ site.baseurl }}/documentation/bibliography/) to the site. Maps are included in the LACMIP EMu bibliography, and also commonly referenced in verbatim localities. If you are attaching a map, **make sure to select the correct year**, e.g. "United States Geologic Survey; 1952; Calabasas" vs. "United States Geologic Survey; 1974; Calabasas." You may need to create a new bibliography record if the map you need to attach does not exist. Publications and/or reports are other common geographic citations.
 
 Source
-:[_this field is not published online_]
 : The original source for the electronic record, typically a paper registry (e.g. "UCLA locality registry"), a publication (e.g. "Squires & Saul, 2003"), a person (e.g. "Edward C. Wilson (personal communication)"), or field notes (e.g. "Robert J. Stanton Jr. Notebook 6.4"). Other standard values for this field are "assigned by collection manager" and "not recorded."
 <img src="{{ site.baseurl }}/assets/images/sites_verbatim-attachment.png" alt="entering new geographic data" width="400"/>{: .align-right}
 
