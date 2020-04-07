@@ -14,6 +14,7 @@ The *IP Locality (1)* tab provides information about the verbatim locality descr
 geographic context. Fields on this tab are...
 
 Loc ID
+: =[dwc:locationID](https://dwc.tdwg.org/terms/#dwc:locationID)
 : The unique number assigned to a collecting event, always prefaced by "LACMIP," e.g. "LACMIP 8199". For invertebrate paleontology collections, each collecting event typically receives its own locality number, since the stratigraphic information may vary even when the geographic information is exactly the same.
 
 Loc Summary
