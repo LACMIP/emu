@@ -83,34 +83,40 @@ Uncertain (Start/End Age)
 : Use this to indicate if the age of a site is uncertain.
 
 Period
+: = [dwc:earliestPeriodOrLowestSystem](https://dwc.tdwg.org/terms/#dwc:earliestPeriodOrLowestSystem) & [dwc:latestPeriodOrHighestSystem](https://dwc.tdwg.org/terms/#dwc:latestPeriodOrHighestSystem)
 : The geologic period (a.k.a. system) of the strata that the site was collected from.
 
 Epoch
+: = [dwc:earliestEpochOrLowestSeries](https://dwc.tdwg.org/terms/#dwc:earliestEpochOrLowestSeries) & [dwc:latestEpochOrHighestSeries](https://dwc.tdwg.org/terms/#dwc:latestEpochOrHighestSeries)
 : The geologic epoch (a.k.a. series) of the strata that the site was collected from.
 
 Age
+: = [dwc:earliestAgeOrLowestStage](https://dwc.tdwg.org/terms/#dwc:earliestAgeOrLowestStage) & [dwc:latestAgeOrHighestStage](https://dwc.tdwg.org/terms/#dwc:latestAgeOrHighestStage)
 : The geologic age (a.k.a. stage) of the strata that the site was collected from.
 
 Uncertain (Lithostratigraphic)
 : Use this to indicate if the lithostratigraphy of a site is uncertain.
 
 Group
+: = [dwc:group](https://dwc.tdwg.org/terms/#dwc:group)
 : The geologic group that a formation belongs to. Rarely used by LACMIP.
 
 Formation
+: = [dwc:formation](https://dwc.tdwg.org/terms/#dwc:formation)
 : The geologic formation that a site was collected from. If you enter the beginning of a formation name and click the lookup symbol to the right of the field, EMu will bring up a list of options. Selecting from this list helps us maintain consistent data. When entering a new formations, spell out "Formation," e.g. "Ladd Formation."
 
 Member
+: = [dwc:member](https://dwc.tdwg.org/terms/#dwc:member)
 : The member within a formation, if known. As with *Formation*, best practice is to spell out geologic terms like "Member" or "Sandstone," etc.
 
-LMA
-: LMA stands for "Land Mammal Age" but LACMIP uses this field to record biostratigraphic zone data, e.g. "Domengine."
+BioStrat Zone
+: Used to record biostratigraphic zone data, e.g. "Domengine."
 
 Strat. Details
-: Any extra information you have concerning the stratigraphy of the site.
+: Any extra information you have concerning the stratigraphy of the site, such as "2 meters east of LACMIP 42821".
 
 TRS
-: This nested table includes fields for township and range data.
+: This nested table includes fields for legacy township and range data.
 
 ## Lat/Long(2) tab
 
