@@ -43,7 +43,7 @@ Alternate Loc ID
 {% include figure image_path="/assets/images/sites_alternatelocidexample.jpg" alt="Examples of old locality numbers recorded in *Alternate Loc ID*" caption="Examples of old locality numbers recorded in *Alternate Loc ID*. In historic LACMIP collections, these numbers are typically recorded on colored dot labels (green = UCLA; gold = CIT; red = CSUN or another instituion). Note that white, painted-on numbers do not need to be recorded in this field as they represent LACMIP locality numbers." %}
 
 Collectors
-: = [dwc:recordedBy](https://dwc.tdwg.org/terms/#dwc:recordedby) & [dwc:eventDate](https://dwc.tdwg.org/terms/#dwc:eventdate)
+: = [dwc:recordedBy](https://dwc.tdwg.org/terms/#dwc:recordedBy) & [dwc:eventDate](https://dwc.tdwg.org/terms/#dwc:eventDate)
 : Each LACMIP locality should represent a unique collecting event in time and space. *Names* in this field are formatted as First initial Lastname (for example: A. Hendy, L. Walker). If the collector is unknown, please enter "unknown" in this field. Each locality should also correspond to a specific date; as such, the *Start Date* and *End Date* should be the same, and can be as specific as a day (e.g. 07/18/1946 - 07/18/1946) or as vague as a year (e.g. 1946-1946). Leave this field blank if you do not know when the collecting event took place. *Verbatim* is occasionally used to record collectors names in full as originally recorded, as well as the verbatim original representation of the date and time of the collecting event, e.g. "fall 1940" or "17-IV-1985"; this field is not published.
 
 Geographic Citation
@@ -53,7 +53,7 @@ Source
 : The original source for the electronic record, typically a paper registry (e.g. "UCLA locality registry"), a publication (e.g. "Squires & Saul, 2003"), a person (e.g. "Edward C. Wilson (personal communication)"), or field notes (e.g. "Robert J. Stanton Jr. Notebook 6.4"). Other standard values for this field are "assigned by collection manager" and "not recorded."
 
 Verbatim Locality
-: = [dwc:verbatimLocality](https://dwc.tdwg.org/terms/#dwc:verbatimlocality); however, LACMIP does not publish this information online. Instead, [dwc:informationWithheld](https://dwc.tdwg.org/terms/#dwc:informationWithheld) is included and autofilled with "verbatim locality description and coordinates withheld but available to researchers upon request"
+: = [dwc:verbatimLocality](https://dwc.tdwg.org/terms/#dwc:verbatimLocality); however, LACMIP does not publish this information online. Instead, [dwc:informationWithheld](https://dwc.tdwg.org/terms/#dwc:informationWithheld) is included and autofilled with "verbatim locality description and coordinates withheld but available to researchers upon request"
 
 
 
