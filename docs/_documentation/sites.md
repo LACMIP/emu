@@ -2,7 +2,7 @@
 title: Sites
 navcat: Modules
 tags: georeferencing quick-start
-last_modified_at: 2020-04-02
+last_modified_at: 2020-04-06
 ---
 The Sites module is our primary resource for information about specimen collecting localities. Please see [Axiell's documentation](http://help.emu.axiell.com/latest/en/Topics/EMu/Sites%20module.htm) for generic information about this module. Continue reading here to understand how LACMIP uses the fields available in the Sites module.
 
@@ -116,7 +116,7 @@ Latitude/Longitude Details
 : A nested table of coordinates within the nested table of georeferencing instances. The only reason you should use multiple rows in this table is to describe the vertices of a polygon. Typically LACMIP uses the fields *Latitude (Dec.)* and *Longitude (Dec.)* to record coordinates in decimal degrees, which EMu will automatically convert to degree-minute-second (DMS) format as well. These fields are equivalent to [dwc:decimalLatitude](https://dwc.tdwg.org/terms/#dwc:decimalLatitude) and [dwc:decimalLongitude](https://dwc.tdwg.org/terms/#dwc:decimalLongitude), respectively.
 
 Radius (Numeric)
-: Equivalent to [dwc:coordinateUncertaintyInMeters](https://dwc.tdwg.org/terms/#dwc:coordinateUncertaintyInMeters), i.e. an error radius around the geographic point. **LACMIP radii should always be in meters** (see *Units* below). If a locality cannot be placed within a 2500 m radius of uncertainty, it [cannot be georeferenced] (https://lacmip.github.io/emu/documentation/georeferencing/#localities-that-cannot-be-georeferenced).
+: Equivalent to [dwc:coordinateUncertaintyInMeters](https://dwc.tdwg.org/terms/#dwc:coordinateUncertaintyInMeters), i.e. an error radius around the geographic point. **LACMIP radii should always be in meters** (see *Units* below). If a locality cannot be placed within a 2500 m radius of uncertainty, it [cannot be georeferenced](https://lacmip.github.io/emu/documentation/georeferencing/#localities-that-cannot-be-georeferenced).
 
 : Standard radii used by LACMIP include:
 
