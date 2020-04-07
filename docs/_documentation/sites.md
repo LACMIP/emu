@@ -188,7 +188,7 @@ Derive Centroid
 
 EMu will link out to Google Maps for any Site record that has been georeferenced. To use this feature, navigate to *Tools > Resources > Search Google Maps*. You may need to set Chrome as your default browser on the VPN. To do this, open Chrome and follow the instructions to make it your default.
 
-{% include figure image_path="/assets/images/sites_googlemaps.png" alt="sites module in EMu" caption="How to display georeferenced localities in Google maps." %}
+{% include figure image_path="/assets/images/sites_googlemaps.png" alt="sites module in EMu" caption="How to view a locality with coordinates in Google maps." %}
 
 ## Notes tab
 
