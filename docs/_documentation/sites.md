@@ -132,7 +132,7 @@ Latitude/Longitude Details
 
 Radius (Numeric)
 : = [dwc:coordinateUncertaintyInMeters](https://dwc.tdwg.org/terms/#dwc:coordinateUncertaintyInMeters) 
-: An error radius around the geographic point. **LACMIP radii should always be in meters** (see *Units* below). If a locality cannot be placed within a 2500 m radius of uncertainty, it [cannot be georeferenced](https://lacmip.github.io/emu/documentation/georeferencing/#localities-that-cannot-be-georeferenced). Standard radii used by LACMIP include:
+: An error radius around the geographic point. **LACMIP radii should always be in meters** (see *Units* below). If a locality cannot be placed within a 2500 m radius of uncertainty, it [cannot be georeferenced](https://lacmip.github.io/emu/documentation/georeferencing/#localities-that-cannot-be-georeferenced). Values used by LACMIP include:
 
  *Value* | *Explanation*
    --- | ---
@@ -153,9 +153,7 @@ Preferred
 
 Verification Status
 : = [dwc:georeferenceVerificationStatus](https://dwc.tdwg.org/terms/#georeferenceVerificationStatus)
-: "A categorical description of the extent to which the georeference has been verified to represent the best possible spatial description".
-
-: Values used by LACMIP include:
+: "A categorical description of the extent to which the georeference has been verified to represent the best possible spatial description". Values used by LACMIP include:
 
  *Value* | *Explanation*
    --- | ---
