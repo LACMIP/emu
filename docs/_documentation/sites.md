@@ -33,7 +33,7 @@ City/Town
 : An administrative boundary of the smallest unit, e.g. a park or a city. LACMIP uses this field for aggregating data (e.g. to report to the National Park Service on what specimens we have from NPS property). Example values include: "Los Angeles"; "BLM Public Land, Inyo Mountains Wilderness"; "Los Padres National Forest, Sespe Wilderness"; "Bryce Canyon National Park", "Makah Indian Reservation"
 
  *Example Values*
-   --- | ---
+   --- |
    Los Angeles
    Bryce Canyon National Park
    BLM Public Land, Inyo Mountains Wilderness
