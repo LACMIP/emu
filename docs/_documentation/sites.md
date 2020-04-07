@@ -26,24 +26,15 @@ Continent, Country, State/Prov.
 
 County/Dist.
 : = [dwc:county](https://dwc.tdwg.org/terms/#dwc:county)
-: County or district-level geographic data, with the administrative unit included, e.g. "Los Angeles County", "Ardennes Department", "Staffordshire", "Winn Parish, or "Southeast Fairbanks Census Area".
+: County or district-level geographic data, with the administrative unit included. Example values include: "Los Angeles County"; "Ardennes Department"; "Staffordshire"; "Winn Parish"; "Southeast Fairbanks Census Area".
 
 City/Town
 : = [dwc:municipality](https://dwc.tdwg.org/terms/#dwc:municipality)
-: An administrative boundary of the smallest unit, e.g. a park or a city. LACMIP uses this field for aggregating data (e.g. to report to the National Park Service on what specimens we have from NPS property). Example values include: "Los Angeles"; "BLM Public Land, Inyo Mountains Wilderness"; "Los Padres National Forest, Sespe Wilderness"; "Bryce Canyon National Park", "Makah Indian Reservation"
-
- *Example Values*
-   --- |
-   Los Angeles
-   Bryce Canyon National Park
-   BLM Public Land, Inyo Mountains Wilderness
-   Los Padres National Forest, Sespe Wilderness
-   El Capitan State Beach
-   Makah Indian Reservation
-   San Clemente Island Naval Reservation
+: An administrative boundary of the smallest unit, e.g. a park or a city. LACMIP uses this field for aggregating data (e.g. to report to the National Park Service on what specimens we have from NPS property). Example values include: "Los Angeles"; "BLM Public Land, Inyo Mountains Wilderness"; "Los Padres National Forest, Sespe Wilderness"; "Bryce Canyon National Park"; "Makah Indian Reservation".
 
 NearestPlace
-: Land features or sub-administrative units, e.g. a peak or a neighborhood. This field is equivalent to "feature" and is printed out on labels. Units should always be **organized from larger to smaller**, e.g. "Santa Cruz Island, Potato Harbor." When *NearestPlace* includes a **street address** or intersection the city should be included, e.g. "Los Angeles, Bagley Ave & Adams St," even if the city is also included in the *City/Town* field. **Islands** should always be included in *NearestPlace*. Other conventions include **abbreviating road features** (e.g. "St," "US Hwy 101," "CA Hwy 33") and using the value "unknown locality" when the verbatim description is too vague to determine an actual feature from.
+: = [dwc:locality](https://dwc.tdwg.org/terms/#dwc:locality)
+: Land features or sub-administrative units, e.g. a peak or a neighborhood. This field is equivalent to "feature" and is printed out on labels. Units should always be **organized from larger to smaller**, e.g. "Santa Cruz Island, Potato Harbor" and "Calico Mountains, Mule Canyon". When *NearestPlace* includes a **street address** or intersection the city should be included, e.g. "Los Angeles, Bagley Ave & Adams St," even if the city is also included in the *City/Town* field. **Islands** should always be included in *NearestPlace*. Other conventions include **abbreviating road features** (e.g. "St," "US Hwy 101," "CA Hwy 33") and using the value "unknown locality" when the verbatim description is too vague to determine an actual feature from.
 
 Alternate Loc ID
 : A table of paired values: *Institution Code* and *Institution Number*. This is common for specimens transferred to LACMIP from other institutions, and is also where you can find field numbers assigned by collectors. Ex: *Institution Code* = "CIT" and *Institution Number* = "1400", or *Institution Code* = "field number" and *Institution Number* = "AH180817."
