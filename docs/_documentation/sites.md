@@ -127,11 +127,11 @@ The *Lat/Long(2)* tab provides information about [georeferencing]({{ site.baseur
 Fields on this tab are...
 
 Latitude/Longitude Details
-:= [dwc:decimalLatitude](https://dwc.tdwg.org/terms/#dwc:decimalLatitude) & [dwc:decimalLongitude](https://dwc.tdwg.org/terms/#dwc:decimalLongitude), respectively, and concatenated into [dwc:verbatimCoordinates](https://dwc.tdwg.org/terms/#dwc:verbatimCoordinates)
+: =[dwc:decimalLatitude](https://dwc.tdwg.org/terms/#dwc:decimalLatitude) & [dwc:decimalLongitude](https://dwc.tdwg.org/terms/#dwc:decimalLongitude), respectively, and concatenated into [dwc:verbatimCoordinates](https://dwc.tdwg.org/terms/#dwc:verbatimCoordinates)
 : A nested table of coordinates within the nested table of georeferencing instances. The only reason you should use multiple rows in this table is to describe the vertices of a polygon. Typically LACMIP uses the fields *Latitude (Dec.)* and *Longitude (Dec.)* to record coordinates in decimal degrees, which EMu will automatically convert to degree-minute-second (DMS) format as well. These values are truncated to two decimal places when published online, e.g., "33.66, -117.56".
 
 Radius (Numeric)
-:= [dwc:coordinateUncertaintyInMeters](https://dwc.tdwg.org/terms/#dwc:coordinateUncertaintyInMeters) 
+: = [dwc:coordinateUncertaintyInMeters](https://dwc.tdwg.org/terms/#dwc:coordinateUncertaintyInMeters) 
 : An error radius around the geographic point. **LACMIP radii should always be in meters** (see *Units* below). If a locality cannot be placed within a 2500 m radius of uncertainty, it [cannot be georeferenced](https://lacmip.github.io/emu/documentation/georeferencing/#localities-that-cannot-be-georeferenced). Standard radii used by LACMIP include:
 
  *Value* | *Explanation*
@@ -145,14 +145,14 @@ Units
 : Units for the error radius given in *Radius (Numeric)*. LACMIP radii should always be in meters.
 
 Datum
-:=[dwc:geodeticDatum](https://dwc.tdwg.org/terms/#dwc:geodeticDatum)
+: = [dwc:geodeticDatum](https://dwc.tdwg.org/terms/#dwc:geodeticDatum)
 : "The ellipsoid, geodetic datum, or spatial reference system (SRS) upon which the geographic coordinates given in decimalLatitude and decimalLongitude as based." Most LACMIP georeferencing is done in the "WGS84" datum.
 
 Preferred
 : Check "Yes" if this georeference instance is the best available. Only one may be marked preferred. This field determines what coordinates are exported from EMu.
 
 Verification Status
-:= [dwc:georeferenceVerificationStatus](https://dwc.tdwg.org/terms/#georeferenceVerificationStatus)
+: = [dwc:georeferenceVerificationStatus](https://dwc.tdwg.org/terms/#georeferenceVerificationStatus)
 : "A categorical description of the extent to which the georeference has been verified to represent the best possible spatial description".
 
 : Values used by LACMIP include:
@@ -164,23 +164,23 @@ Verification Status
    requires verification | Indicates localities of greater uncertainty, typically with a >50 m radius of uncertainty.
 
 Notes
-:= [dwc:georeferenceRemarks](https://dwc.tdwg.org/terms/#dwc:georeferenceRemarks)
+: = [dwc:georeferenceRemarks](https://dwc.tdwg.org/terms/#dwc:georeferenceRemarks)
 : "Notes or comments about the spatial description determination, explaining assumptions made in addition or opposition to the those formalized in the method referred to in georeferenceProtocol."
 
 Determination Source
-:= [dwc:georeferenceSources](https://dwc.tdwg.org/terms/#dwc:georeferenceSources)
+: = [dwc:georeferenceSources](https://dwc.tdwg.org/terms/#dwc:georeferenceSources)
 : "A list (concatenated and separated) of maps, gazetteers, or other resources used to georeference the Location, described specifically enough to allow anyone in the future to use the same resources." At LACMIP this is frequently assumed to be Google Earth, the topo map linked to the site record, and any associated maps attached as multimedia.
 
 Determination Method
-:= [dwc:georeferenceProtocol](https://dwc.tdwg.org/terms/#dwc:georeferenceProtocol)
+: = [dwc:georeferenceProtocol](https://dwc.tdwg.org/terms/#dwc:georeferenceProtocol)
 : "A description or reference to the methods used to determine the spatial footprint, coordinates, and uncertainties." See lookup list for LACMIP controlled vocabulary, e.g. "LACMIP georeferencing 2019" or "GPS reading in field."
 
 Determination By
-:= [dwc:georeferencedBy](https://dwc.tdwg.org/terms/#dwc:georeferencedBy)
+: = [dwc:georeferencedBy](https://dwc.tdwg.org/terms/#dwc:georeferencedBy)
 "A list (concatenated and separated) of names of people, groups, or organizations who determined the georeference (spatial representation) for the Location." You will need to attach a [Parties]({{ site.baseurl }}/documentation/parties/) record to this field.
 
 Determination Date
-:= [dwc:georeferencedDate](https://dwc.tdwg.org/terms/#dwc:georeferencedDate)
+: = [dwc:georeferencedDate](https://dwc.tdwg.org/terms/#dwc:georeferencedDate)
 : "The date on which the Location was georeferenced."
 
 Derive Centroid
