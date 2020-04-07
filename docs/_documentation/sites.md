@@ -14,23 +14,33 @@ The *IP Locality (1)* tab provides information about the verbatim locality descr
 geographic context. Fields on this tab are...
 
 Loc ID
-: =[dwc:locationID](https://dwc.tdwg.org/terms/#dwc:locationID)
+: = [dwc:locationID](https://dwc.tdwg.org/terms/#dwc:locationID)
 : The unique number assigned to a collecting event, always prefaced by "LACMIP," e.g. "LACMIP 8199". For invertebrate paleontology collections, each collecting event typically receives its own locality number, since the stratigraphic information may vary even when the geographic information is exactly the same.
-
-Loc Summary
-: Not in use.
 
 Uncertain
 : A field to track missing or incomplete locality information. When the LACMIP locality registry was migrated into EMu, we created a record for every number in the series to avoid having any gaps; the *Uncertain* box has been checked for any EMu Sites record that did not have a corresponding row in the original locality registry spreadsheet. We are currently working though paper sources to update these uncertain records.
 
 Continent, Country, State/Prov.
+: = [dwc:continent](https://dwc.tdwg.org/terms/#dwc:continent), [dwc:country](https://dwc.tdwg.org/terms/#dwc:country), [dwc:stateProvince](https://dwc.tdwg.org/terms/#dwc:stateProvince)
 : Self-explanatory geographic data fields.
 
 County/Dist.
-: County or district-level geographic data, with the administrative unit included, e.g. "Los Angeles County" or "Winn Parish."
+: = [dwc:county](https://dwc.tdwg.org/terms/#dwc:county)
+: County or district-level geographic data, with the administrative unit included, e.g. "Los Angeles County", "Ardennes Department", "Staffordshire", "Winn Parish, or "Southeast Fairbanks Census Area".
 
 City/Town
-: An administrative boundary of the smallest unit, e.g. a park or a city. LACMIP uses this field for aggregating data (e.g. to report to the National Park Service on what specimens we have from NPS property) but not for printing on labels.
+: = [dwc:municipality](https://dwc.tdwg.org/terms/#dwc:municipality)
+: An administrative boundary of the smallest unit, e.g. a park or a city. LACMIP uses this field for aggregating data (e.g. to report to the National Park Service on what specimens we have from NPS property). Example values include: "Los Angeles"; "BLM Public Land, Inyo Mountains Wilderness"; "Los Padres National Forest, Sespe Wilderness"; "Bryce Canyon National Park", "Makah Indian Reservation"
+
+ *Example Values*
+   --- | ---
+   Los Angeles
+   Bryce Canyon National Park
+   BLM Public Land, Inyo Mountains Wilderness
+   Los Padres National Forest, Sespe Wilderness
+   El Capitan State Beach
+   Makah Indian Reservation
+   San Clemente Island Naval Reservation
 
 NearestPlace
 : Land features or sub-administrative units, e.g. a peak or a neighborhood. This field is equivalent to "feature" and is printed out on labels. Units should always be **organized from larger to smaller**, e.g. "Santa Cruz Island, Potato Harbor." When *NearestPlace* includes a **street address** or intersection the city should be included, e.g. "Los Angeles, Bagley Ave & Adams St," even if the city is also included in the *City/Town* field. **Islands** should always be included in *NearestPlace*. Other conventions include **abbreviating road features** (e.g. "St," "US Hwy 101," "CA Hwy 33") and using the value "unknown locality" when the verbatim description is too vague to determine an actual feature from.
