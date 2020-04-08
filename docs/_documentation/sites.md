@@ -2,7 +2,7 @@
 title: Sites
 navcat: Modules
 tags: georeferencing quick-start
-last_modified_at: 2020-04-07
+last_modified_at: 2020-04-08
 ---
 The Sites module is our primary resource for information about specimen collecting localities. Please see [Axiell's documentation](http://help.emu.axiell.com/latest/en/Topics/EMu/Sites%20module.htm) for generic information about this module. The equivalent [Darwin Core terms](https://dwc.tdwg.org/terms/) are provided where applicable. Continue reading to understand how LACMIP uses the fields available in the Sites module.
 
@@ -26,11 +26,22 @@ Continent, Country, State/Prov.
 
 County/Dist.
 : = [dwc:county](https://dwc.tdwg.org/terms/#dwc:county)
-: County or district-level geographic data, with the administrative unit included. Example values include: "Los Angeles County"; "Ardennes Department"; "Staffordshire"; "Winn Parish"; "Southeast Fairbanks Census Area".
+: County or district-level geographic data, with the administrative unit included. Example values include:
+- "Ardennes Department"
+- "Los Angeles County"
+- "Southeast Fairbanks Census Area"
+- "Staffordshire"
+- "Winn Parish"
 
 City/Town
 : = [dwc:municipality](https://dwc.tdwg.org/terms/#dwc:municipality)
-: An administrative boundary of the smallest unit, e.g. a park or a city. LACMIP uses this field for aggregating data (e.g. to report to the National Park Service on what specimens we have from NPS property). Example values include: "Los Angeles"; "BLM Public Land, Inyo Mountains Wilderness"; "Los Padres National Forest, Sespe Wilderness"; "Bryce Canyon National Park"; "Makah Indian Reservation". This field may be blank if a locality does not occur within an offical administrative boundary that falls within this category.
+: An administrative boundary of the smallest unit, e.g. a park or a city. LACMIP uses this field for aggregating data (e.g. to report to the National Park Service on what specimens we have from NPS property). This field may be blank if a locality does not occur within an offical administrative boundary that falls within this category. Example values include:
+- "Los Angeles"
+- "BLM Public Land, Inyo Mountains Wilderness"
+- "Bryce Canyon National Park"
+- "Los Padres National Forest, Sespe Wilderness"
+- "Makah Indian Reservation"
+- "Santa Monica Mountains National Recreation Area, Topanga State Park"
 
 NearestPlace
 : = [dwc:locality](https://dwc.tdwg.org/terms/#dwc:locality)
