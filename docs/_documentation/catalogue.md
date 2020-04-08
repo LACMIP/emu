@@ -68,7 +68,6 @@ Type Status
     - "paraleptotype"
     - "paratype"
     - "syntype"
-    - "unpublished type" (see _IP Publications_ below)
 
 Collection
 : A controlled vocabulary to indicate which physical part of the collection this specimen lot should be housed in. Vocabulary includes:
@@ -99,7 +98,7 @@ IP Publications
 : The fields in this section allow you to attach a [bibliography record]({{ site.baseurl }}/documentation/bibliography/) to the catalogue record. This is usually only appropriate for specimens in the Type Collection. Publications in this table should be listed chronologically with the oldest (first) publication appearing at the top of the list; you can click and drag to reorder these entries if needed. Data entered into each field should be formatted as follows:
     - *Pages*: Enter the page number(s) where the specimen is described. Do not enter "p.", "pg.", etc. before the number(s).
     - *Fig*: Enter the plate and figure number(s) separated by a colon. For example: "pl. 1: fig. 1-3". If a specimen is figured on multiple plates, separate these entries with a semicolon. For example, "pl. 1: fig. 1-5; pl. 4: fig. 3b, 3c". If the figure is unnumbered, enter "fig. unnumbered". If the specimen is unfigured, enter "unfigured".
-    - *Type*: Indicate what kind of type the specimen is according to the publication. "Unpublished type" is reserved for specimens referenced in theses, dissertations, and historic manuscripts that will never be published.
+    - *Type*: Indicate what kind of type the specimen is according to the publication. For unpublished types in theses and dissertations, leave this field blank. 
 
 {% include figure image_path="/assets/images/catalogue_IPpublications.png" alt="screenshot of the IP Publications field in the catalogue module" caption="Publications that reference LACMIP specimens by catalog or type number must be chronologically documented in the *IP Publications* table." %}
 
