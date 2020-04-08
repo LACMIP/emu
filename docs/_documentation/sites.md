@@ -42,6 +42,7 @@ City/Town
 - "Los Padres National Forest, Sespe Wilderness"
 - "Makah Indian Reservation"
 - "Santa Monica Mountains National Recreation Area, Topanga State Park"
+- "Vandenberg Air Force Base"
 
 NearestPlace
 : = [dwc:locality](https://dwc.tdwg.org/terms/#dwc:locality)
