@@ -50,9 +50,10 @@ Not all site records have sufficient information to georeference. For example, a
 {% include figure image_path="/assets/images/georeferencing_unable.png" alt="screenshot of EMu record for a site that cannot be georeferenced" caption="Screenshot demonstrating how to fill out fields on the *Lat/Long* tab of the EMu Sites module for a locality that cannot be georeferenced." %}
 
 For a site record where the locality description is too vague to georeference, fill out the following fields on the *Lat/Long* tab...
-- *Comment* = "needs verification" (or "verified by curator" if that applies to you)
+- *Preferred* = "Yes"
+- *Verification Status* = "requires verification" (or "verified by curator" if that applies to you)
 - *Determination Source* = "N/A"
 - *Determination Method* = "locality description inadequate for georeferencing"
 - *Determined By* = attach the Parties record for yourself
 - *Determination Date* = select today's date
-- *Preferred* = "Yes"
+
