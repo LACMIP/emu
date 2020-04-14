@@ -2,7 +2,7 @@
 title: Georeferencing
 navcat: Workflows
 tags: georeferencing
-last_modified_at: 2019-03-01
+last_modified_at: 2020-04-14
 ---
 As of late 2018, all LACMIP locality records are maintained in EMu, the collection management system of the NHMLA. However, **georeferencing for LACMIP localities is conducted primarily in Google Earth**, with the Google Earth data being [exported and added back to EMu]({{ site.baseurl }}/documentation/googleearth/) on a regular basis.
 
