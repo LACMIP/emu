@@ -2,7 +2,7 @@
 title: Re-identifying
 navcat: Workflows
 tags: taxonomy
-last_modified_at: 2019-03-01
+last_modified_at: 2020-04-13
 ---
 Whether because of evolving taxonomy or differing expert opinions, re-identifying specimens is a constant aspect of maintaining biological collections. LACMIP maintains a record of past and present identifications in the [Catalogue module]({{ site.baseurl }}/documentation/catalogue/) of EMu.
 
@@ -25,16 +25,15 @@ Make sure to save your changes, and to [print new labels]({{ site.baseurl }}/doc
 
 ## Bulk re-identification
 
-<img src="{{ site.baseurl }}/assets/images/reidentify_search.png" alt="" width="300"/>{: .align-right}
-When taxonomy itself changes, you may want to use EMu's *Re-identify* tool to update the catalogue records in bulk. Begin by searching for the scientific name that you want to update in the *Modified Taxon* field of the Catalogue module search, and selecting the resulting records.
+When taxonomy itself changes, you may want to use EMu's *Re-identify* tool to update the catalogue records in bulk. Begin by searching for the catalogue records with identifications that you would like to change. Selecting the resulting records.  (If you are new to using the *Re-identify* tool, select only one record to reidentify before repeating this method to modify many records at once.)
 
 {% include figure image_path="/assets/images/reidentify_tool.png" alt="re-identification tool" caption="Screenshot of the EMu Catalogue module illustrating how to find the re-identification tool under *Tools > Re-identify*. " %}
 
 The *Re-identify* tool allows you to choose between affecting the *Current Record* or *Selected Records*. For taxonomic name updates, you'll likely want to use *Selected Records*, with all of the records in your search results included.
 
-In the new window that EMu brings up (see figure below), enter the same information as you are used to entering at the specimen level. **For bulk re-identifications, you should include a comment if you did not look at each specimen.** (Suggested comment: "Taxonomy updated, but specimen not examined.") Remember to change both *Currently Accepted?* and *Filed as?* to "Yes" if you are updating the identification to a current name or "No" if you are adding an old identification to the catalogue record. The only specimens where a single name should have different values for *Currently Accepted?* and *Filed as?* are types.
+In the new window that EMu brings up (see figure below), enter the same information as you would were you entering this information for one specimen record. **For bulk re-identifications, you should include a comment if you did not look at each specimen.** Enter the comment "Taxonomy updated." if your identification alters the currently accepted name; enter "Taxonomy verified." if your identification does not change the currently accepted name, but is intended to verify that an existing/historic identification remains valid. Remember to change both *Currently Accepted?* and *Filed as?* to "Yes" if you are updating the identification to a current name *or* "No" if you are adding an old identification to the catalogue record. The only specimens where a single name should have different values for *Currently Accepted?* and *Filed as?* are types. (Read more about reidentifying type specimens in documentation for the [Catalogue module]({{ site.baseurl }}/documentation/catalogue/#identification-1-tab).
 
-{% include figure image_path="/assets/images/reidentify_types.png" alt="re-identification tool" caption="Screenshot of the EMu Catalogue module illustrating how to re-identify **type specimens (left)** vs. **non-type specimens (right)**." %}
+{% include figure image_path="/assets/images/reidentify_example.png" alt="re-identification tool" caption="Screenshot of the EMu Catalogue module illustrating how to re-identify specimens from the LACMIP taxonomic and stratigraphic collections." %}
 
 ## Checking data quality
 
