@@ -57,3 +57,10 @@ For a site record where the locality description is too vague to georeference, f
 - *Determined By* = attach the Parties record for yourself
 - *Determination Date* = select today's date
 
+## Suggested Resources
+
+- [USGS National Geologic Map Database](https://ngmdb.usgs.gov/ngmdb/ngmdb_home.html)
+- [USGS TopoView](https://ngmdb.usgs.gov/topoview/viewer/#4/39.98/-100.06)
+- [USGS Feature Query Form](https://geonames.usgs.gov/apex/f?p=138:1:0::NO:::)
+- [EarthPoint Township & Range on Google Earth](http://www.earthpoint.us/Townships.aspx)
+
