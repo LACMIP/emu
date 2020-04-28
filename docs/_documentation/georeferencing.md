@@ -65,6 +65,6 @@ For a site record where the locality description is too vague to georeference, f
 - [USGS TopoView](https://ngmdb.usgs.gov/topoview/viewer/#4/39.98/-100.06)
 - [USGS Feature Query Form](https://geonames.usgs.gov/apex/f?p=138:1:0::NO:::)
 
-![Video of Introduction to LACMIP Georeferencing](https://vimeo.com/409784937)
-![Video of Worked Example](https://vimeo.com/409780588)
+- [Introduction to LACMIP Georeferencing](https://vimeo.com/409784937)
+- [Worked Example](https://vimeo.com/409780588)
 
