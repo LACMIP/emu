@@ -28,6 +28,7 @@ County/Dist.
 : = [dwc:county](https://dwc.tdwg.org/terms/#dwc:county)
 : County or district-level geographic data, with the administrative unit included. Example values include:
 - "Ardennes Department"
+- "Capital District"
 - "Los Angeles County"
 - "Southeast Fairbanks Census Area"
 - "Staffordshire"
