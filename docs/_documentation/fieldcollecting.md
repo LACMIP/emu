@@ -4,6 +4,7 @@ navcat: Workflows
 tags: georeferencing
 last_modified_at: 2020-04-27
 ---
+
 # Using Collector for ArcGIS to capture field localities
 Starting in 2020, LACMIP began capturing field localities by utilizing the museum’s ArcGIS Online subscription. Collector is developed by Esri to streamline the field collecting process. This guide will go over how to use the Collector for ArcGIS app when collecting at new localities.
 
@@ -75,4 +76,4 @@ Collector has a tool to measure distances of lines or polygons drawn by the user
 1. Units can be changed by tapping the units (set to mi/sq mi by default) in the lower right.
 
 # Downloading points from ArcGIS Online
-The workflow to
+
