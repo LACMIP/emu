@@ -13,8 +13,6 @@ Specimens that are physically stuck together but represent different taxa must b
 {% include figure image_path="/assets/images/catalogue_relationships1.png" alt="screenshot of the Relationships tab in the catalogue module" %}
 
 *2.* In the new instance of the Catalogue module, search for all records to be associated.
-{% include figure image_path="/assets/images/catalogue_relationships2.png" alt="screenshot of the Relationships tab in the catalogue module" %}
-{% include figure image_path="/assets/images/catalogue_relationships3.png" alt="screenshot of the Relationships tab in the catalogue module" %}
 
 *3.* In the original instance of the Catalogue module, open one of the specimen records and navigate to the *Relationships* tab.
 
@@ -23,5 +21,3 @@ Specimens that are physically stuck together but represent different taxa must b
 *5.* **Circular relationships should be avoided.** Therefore, delete the row in the _Related Records_ table that references the specimen record you are actively working on (right-click on the row and select "Delete".)
 
 *6.* Save this change and :repeat:repeat steps 3-5:repeat: for all other specimen records that need to be associated.
-
-{% include figure image_path="/assets/images/relationships_assocspmsexample.png" alt="Example of a catalog record that is associated with other records." caption="If a relationship is created between two or more Catalogue records, an icon will appear in the summary line." %}
