@@ -32,7 +32,9 @@ Sub-Type
     - "Other"
     
 Description
-: Begin by describing the event or request using an action, e.g. "Sent surface scans of 15 ammonoids to..." Descriptions should be brief and mention any relevant taxa, geologic context, or collections involved in or affected by the request/event, e.g., "...the Stoyanow Collection". When _Sub-Type_="Request (Locality Numbers)", include LACMIP **locality numbers** in this field.
+: Begin by describing the event or request using an action, e.g. "Sent surface scans of 15 ammonoids to..." Descriptions should be brief and mention any relevant taxa, geologic context, or collections involved in or affected by the request/event, e.g., "...the Stoyanow Collection".
+
+: When _Sub-Type_="Request (Locality Numbers)", include LACMIP **locality numbers** in this field.
 
 
 ## Project 2 tab
@@ -45,7 +47,7 @@ Organisers
 Funding Associations
 : Attach the appropriate Parties records for any funding sources related to the request or event whenever applicable.
 
-:**Tip:** If you enter "Cretaceous" in this field and hit tab, the record for the "Connecting the Cretaceous Seas" PEN will appear. That said, always open the full Parties record to check that the correct record was attached. New [Parties]({{ site.baseurl }}/documentation/parties/) records for funding sources can only be added by the database administrator.
+: **Tip:** If you enter "Cretaceous" in this field and hit tab, the record for the "Connecting the Cretaceous Seas" PEN will appear. That said, always open the full Parties record to check that the correct record was attached. New [Parties]({{ site.baseurl }}/documentation/parties/) records for funding sources can only be added by the database administrator.
 
 Intended Audience
 : For outreach-related requests and events, select the appropriate value from the controlled vocabulary:
