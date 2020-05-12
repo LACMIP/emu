@@ -85,8 +85,8 @@ Only attach objects to records in the Projects module for specimens that researc
 
 {% include figure image_path="/assets/images/projects_statistics.png" alt="screenshot of the Statistics tab in the Projects module" caption="Screenshot of the *Statistics* tab in the Projects module. Users in the *Invertebrate Paleontology* permission group can enter and edit data in this module." %}
 
-To fill out the _Project Statistics_ table, it is highly recommended that one dittos this information from an existing record of the **same sub-type** (e.g. "Tour (Carson)") to ensure data are entered consistently and correctly.
-{: .notice--warning}`.
+To fill out the _Project Statistics_ table, it is **highly recommended** that one **dittos** this information from an existing record of the **same sub-type** (e.g. "Tour (Carson)") to ensure data are entered consistently and correctly.
+{: .notice--warning}
 
 Type of Statistic
 : A table to document basic statistics regarding the event or request. Please take care to complete this information consistently. 
