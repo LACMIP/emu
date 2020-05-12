@@ -21,7 +21,6 @@ Specimens that are physically stuck together but represent different taxa must b
 *4.* Select all records to be associated in the second instance of the Catalogue module. Drag them into the *Related Records* fields on the first specimen record.
 
 *5.* **Circular relationships should be avoided.** Therefore, delete the row in the _Related Records_ table that references the specimen record you are actively working on.
-{: .notice--warning}
 
 *6.* Save this change and repeat steps 3-5 for all other specimen records that need to be associated. :repeat:
 
