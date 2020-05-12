@@ -10,7 +10,6 @@ Specimens that are physically stuck together but represent different taxa must b
 ## Workflow
 
 *1.* After cataloging all specimens to be associated, open a second instance of the Catalogue module from within the _Related Records_ field. 
-{% include figure image_path="/assets/images/catalogue_relationships1.png" alt="screenshot of the Relationships tab in the catalogue module" %}
 
 *2.* In the new instance of the Catalogue module, search for all records to be associated.
 
