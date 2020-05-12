@@ -84,7 +84,7 @@ To fill out the _Project Statistics_ table, it is **highly recommended** that on
 
 Type of Statistic
 : A table to document basic statistics regarding the event or request. Please take care to complete this information consistently. 
-    - DURATION: Enter, to the nearest hour, the amount of time spent fullfilling this request/event.
+    - DURATION: Enter, to the nearest hour, the amount of time spent fullfilling this request/event in _Value_.
     - ATTENDANCE: For outreach events and facility visits, enter the number of attendees in _Value_. In _Comments_, enter names of the primarily individuals involved, e.g. "Kevin Kelley, Patrick Hsieh, SCPS members" or "Nicole Roberts, BIO125 students".
     - REVENUE ($): If an event or request results in revenue for the department, add this number in the _Value_ column with a _Comment_ indicating where the funds were distributed.
     - FACILITIES: If a visit results in use of specific equipment or facilties, list this in _Comments_.
