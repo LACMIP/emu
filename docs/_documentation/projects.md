@@ -6,9 +6,9 @@ last_modified_at: 2020-05-12
 ---
 The Projects module is used to track and report statistics for collections-related research and outreach requests. Only members of the Invertebrate Paleontology permissions group use this module.
 
-New users to the Projects module should view previously created records to review examples. Do this by searching for all previous entires in this module and viewing the results using the "IP Requests" list view (_View > List Settings > Choose List > IP Requests_). Sort the results by "Project Sub-Type".
+New users to the Projects module should view previously created records to review examples. Do this by recalling all records of the most relevant project _Sub-Type_ on the search form and viewing the results using the "IP Requests" list view (_View > List Settings > Choose List > IP Requests_).
 
-{% include figure image_path="/assets/images/projects_overview.png" alt="Search results in the Projects module." caption="Search results in the Projects module displayed using the Project Sub-Type list view." %}
+{% include figure image_path="/assets/images/projects_search.png" alt="Search results in the Projects module." caption="Before creating new records, search for existing records in of the same _Sub-Type_ in the Projects module." %}
 
 
 ## Project 1 tab
@@ -80,7 +80,7 @@ Any cataloged specimen lots associated with the event or request should be attac
 
 {% include figure image_path="/assets/images/projects_statistics.png" alt="screenshot of the Statistics tab in the Projects module" caption="Screenshot of the *Statistics* tab in the Projects module." %}
 
-To fill out the _Project Statistics_ table, it is **highly recommended** that one [**dittos**](http://help.emu.axiell.com/latest/en/Topics/Common/The%20Ditto%20utility.htm?Highlight=ditto) this information from an existing record of the **same sub-type** (e.g. "Tour (Carson)") to ensure consistent data entry.
+To fill out the _Project Statistics_ table, it is **highly recommended** that one [**dittos**](http://help.emu.axiell.com/latest/en/Topics/Common/The%20Ditto%20utility.htm?Highlight=ditto) this information from an existing record of the **same Sub-Type** (e.g. "Tour (Carson)") to ensure consistent data entry.
 {: .notice--warning}
 
 Type of Statistic
