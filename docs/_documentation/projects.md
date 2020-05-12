@@ -6,7 +6,7 @@ last_modified_at: 2020-05-12
 ---
 The Projects module is used to track and report statistics for collections-related research and outreach requests. Only members of the Invertebrate Paleontology permissions group use this module.
 
-New users to the Projects module should view previously created records to review examples. Do this by recalling all records of the most relevant project [_Sub-Type_](https://lacmip.github.io/emu/documentation/projects/#project-1-tab) on the search form and viewing the results using the "IP Requests" list view (_View > List Settings > Choose List > IP Requests_).
+New users to the Projects module should view previously created records to review examples. Do this by recalling all records of the most relevant project [_Sub-Type_](https://lacmip.github.io/emu/documentation/projects/#project-1-tab) on the search form and viewing the results using the "IP Requests" list view (_View > List Settings > Choose List >_ "IP Requests").
 
 {% include figure image_path="/assets/images/projects_search.png" alt="Search results in the Projects module." caption="Before creating new records, search for existing records in of the same _Sub-Type_ in the Projects module." %}
 
