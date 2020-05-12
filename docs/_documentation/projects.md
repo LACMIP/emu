@@ -68,7 +68,7 @@ Commencement Date
 {% include figure image_path="/assets/images/projects_objects.png" alt="screenshot of the Objects tab in the Projects module" caption="Screenshot of the *Objects* tab in the Projects module." %}
 
 Objects Associated With Project table
-: Any cataloged specimen lots associated with the event or request should be attached to this table. Do so by opening the Catalogue module from within the _Object_ field and searching. Sort your results by catalog number. Select all resulting records in the Catalogue module and drag them into the _Objects Associated With Project_ table.
+: Any cataloged specimen lots associated with the event or request should be attached to this table. Do so by opening the Catalogue module from within the _Object_ field and searching. Sort your results by catalog number. Select all resulting records in the Catalogue module and drag them into the _Objects Associated With Project_ table. **Note:** After the Projects record is saved, it will be visible on the object's [Project tab](https://lacmip.github.io/emu/documentation/catalogue/#project-tab) in the Catalogue module.
 
 **Only attach objects** to records in the Projects module for specimens **that you, researchers, or visitors came in direct contact with** to fullfill a request.
 {: .notice--warning}
