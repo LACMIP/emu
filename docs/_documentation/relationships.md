@@ -22,6 +22,6 @@ Specimens that are physically stuck together but represent different taxa must b
 
 *5.* **Circular relationships should be avoided.** Therefore, delete the row in the _Related Records_ table that references the specimen record you are actively working on.
 
-*6.* Save this change and repeat steps 3-5 for all other specimen records that need to be associated. :repeat:
+*6.* Save this change and :repeat:repeat steps 3-5:repeat: for all other specimen records that need to be associated.
 
 {% include figure image_path="/assets/images/relationships_assocspmsexample.png" alt="Example of a catalog record that is associated with other records." caption="If a relationship is created between two or more Catalogue records, an icon will appear in the summary line." %}
