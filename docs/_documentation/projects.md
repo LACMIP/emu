@@ -83,7 +83,7 @@ Any cataloged specimen lots associated with the event or request should be attac
 
 {% include figure image_path="/assets/images/projects_statistics.png" alt="screenshot of the Statistics tab in the Projects module" caption="Screenshot of the *Statistics* tab in the Projects module." %}
 
-To fill out the _Project Statistics_ table, it is **highly recommended** that one [**dittos**](http://help.emu.axiell.com/latest/en/Topics/Common/The%20Ditto%20utility.htm?Highlight=ditto) this information from an existing record of the **same Sub-Type** (e.g. "Tour (Carson)") to ensure consistent data entry.
+To fill out the _Project Statistics_ table, it is **highly recommended** that one [**dittos**](http://help.emu.axiell.com/latest/en/Topics/Common/The%20Ditto%20utility.htm?Highlight=ditto) this information from an existing record of the **same Sub-Type**, e.g. "Tour (Carson)", to ensure consistent data entry.
 {: .notice--warning}
 
 Type of Statistic
