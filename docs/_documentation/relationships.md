@@ -21,3 +21,7 @@ Specimens that are physically stuck together but represent different taxa must b
 *5.* **Circular relationships should be avoided.** Therefore, delete the row in the _Related Records_ table that references the specimen record you are actively working on (right-click on the row and select "Delete".)
 
 *6.* Save this change and :repeat:repeat steps 3-5:repeat: for all other specimen records that need to be associated.
+
+## Video tutorial
+
+{% include video id="417827299" provider="vimeo" %}
