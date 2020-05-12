@@ -92,4 +92,4 @@ Type of Statistic
     - ATTENDANCE: For outreach events and facility visits, enter the number of attendees in _Value_. In _Comments_, enter names of the primarily individuals involved, e.g. "Kevin Kelley, Patrick Hsieh, SCPS members" or "Nicole Roberts, BIO125 students".
     - REVENUE ($): If an event or request results in revenue for the department, add this number in the _Value_ column with a _Comment_ indicating where the funds were distributed.
     - FACILITIES: If a visit results in use of specific equipment or facilties, list this in _Comments_.
-    - AFFILIATION: Enter the affiliation for whomever made the research or outreach request, including internal affiliations (e.g. "NHMLA (Creative Services)"] in _Comments_.
+    - AFFILIATION: Enter the affiliation for whomever made the research or outreach request, including internal affiliations, e.g. "NHMLA (Creative Services)", in _Comments_.
