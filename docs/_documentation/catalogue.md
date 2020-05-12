@@ -198,8 +198,7 @@ Data in the fields above is tracked in the *Movement History* table. Please note
 
 {% include figure image_path="/assets/images/catalogue_project.png" alt="screenshot of the project tab in the catalogue module" caption="Screenshot of the *Project* tab of the Catalogue module." %}
 
-Exhibition Summary
-: For specimens that are associated with specific events or requests documented in the [Projects module](https://lacmip.github.io/emu/documentation/projects/), any associated Projects records will be listed here.
+For specimen records that are associated with specific events or requests documented in the [Projects module](https://lacmip.github.io/emu/documentation/projects/), any associated Projects records will be listed in the _Exhibition Summary_ table.
 
 ## Registrar tab
 
