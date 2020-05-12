@@ -39,7 +39,7 @@ File extensions written as part of a filename are lowercase, e.g. *example.jpg*,
 Highlight important information using classes, e.g.
 ```
 whatever text I want to write
-{: .notice--warning}`.
+{: .notice--warning}
 ```
 Adding `{: .notice--warning}` on a new line after your text block will highlight it in a box with a light yellow background.
 
