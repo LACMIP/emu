@@ -194,6 +194,13 @@ Independently Movable
 
 Data in the fields above is tracked in the *Movement History* table. Please note that you cannot delete rows from this table, so if you enter and save a location accidentally, you cannot then delete it from the *Movement History* table. In practice, this is fine and you shouldn't worry about a "messy" entry.
 
+## Project tab
+
+{% include figure image_path="/assets/images/catalogue_project.png" alt="screenshot of the project tab in the catalogue module" caption="Screenshot of the *Project* tab of the Catalogue module." %}
+
+Exhibition Summary
+: For specimens that are associated with specific events or requests documented in the [Projects module](https://lacmip.github.io/emu/documentation/projects/), any associated Projects records will be listed here.
+
 ## Registrar tab
 
 The *Registrar* tab contains information about the provenance and disposition of the physical specimen(s) and is maintained by the Museum registrar. It is not visible to LACMIP student permission groups. Please do not edit fields on this tab.
