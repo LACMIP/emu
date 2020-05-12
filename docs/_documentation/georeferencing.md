@@ -66,6 +66,5 @@ For a site record where the locality description is too vague to georeference, f
 - [USGS Feature Query Form](https://geonames.usgs.gov/apex/f?p=138:1:0::NO:::)
 - [VIDEO: Introduction to LACMIP Georeferencing](https://vimeo.com/409784937)
 
-{% include iframe.html videoid = "409784937" source = "vimeo" %}
-{% include iframe.html videoid = "409780588" source = "vimeo" %} 
-
+{% include video id="409784937" provider="vimeo" %}
+{% include video id="409780588" provider="vimeo" %}
