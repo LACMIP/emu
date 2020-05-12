@@ -41,7 +41,7 @@ Description
 
 ## Project 2 tab
 
-{% include figure image_path="/assets/images/projects_project2.png" alt="screenshot of the Project 2 tab in the Projects module" caption="Screenshot of the *Project 2* tab of the Projects module.
+{% include figure image_path="/assets/images/projects_project2.png" alt="screenshot of the Project 2 tab in the Projects module" caption="Screenshot of the *Project 2* tab of the Projects module. %}
 
 Information must be entered in one field on the *Project 2* tab:
 
@@ -63,9 +63,21 @@ Intended Audience
 
 ## Dates tab
 
-{% include figure image_path="/assets/images/projects_dates.png" alt="screenshot of the Dates tab in the Projects module" caption="Screenshot of the *Dates* tab of the Projects module.
+{% include figure image_path="/assets/images/projects_dates.png" alt="screenshot of the Dates tab in the Projects module" caption="Screenshot of the *Dates* tab of the Projects module. %}
 
 Information must be entered in one field on the *Dates* tab:
 
 Commencement Date
 : Select the date that the event occurred or the request was fulfilled.
+
+
+## Objects tab
+
+{% include figure image_path="/assets/images/projects_objects.png" alt="screenshot of the Objects tab in the Projects module" caption="Screenshot of the *Objects* tab of the Projects module. %}
+
+Any cataloged specimen lots associated with the event or request should be attached to the _Objects Associated With Project_ table on the _Objects_ tab. Do so by opening the Catalogue module from the _Object_ field and searching for the relevant catalogue records. Sort the results by catalog number. Select all records in the Catalogue module and drag them into the _Objects Associated With Project_ table.
+
+Only attach objects to records in the Projects module for specimens that researchers and visitors came in direct contact with, or objects that you had to physically handle to fullfill a request. (I.e., do not attach all existing catalogue records for general tours of type room or entire LACMIP collection!)
+
+{% include figure image_path="/assets/images/projects_objects_drag.png" alt="screenshot of the Objects tab in the Projects module" caption="Screenshot of the *Objects* tab of the Projects module. %}
+
