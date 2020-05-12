@@ -24,4 +24,4 @@ Specimens that are physically stuck together but represent different taxa must b
 
 *6.* Save this change and repeat steps 3-5 for all other specimen records that need to be associated. :repeat:
 
-{% include figure image_path="/assets/images/relationships_assocspmsexample.png" alt="Example of a catalog record that is associated with other records." caption="If these steps are successfully completed, an icon will appear on the record indicating the specimen lot is now associated with other specimen records." %}
+{% include figure image_path="/assets/images/relationships_assocspmsexample.png" alt="Example of a catalog record that is associated with other records." caption="If a relationship is created between two or more Catalogue records, an icon will appear in the summary line." %}
