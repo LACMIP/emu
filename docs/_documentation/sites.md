@@ -68,6 +68,7 @@ Source
 Verbatim Locality
 : = [dwc:verbatimLocality](https://dwc.tdwg.org/terms/#dwc:verbatimLocality); however, LACMIP does not publish this information online. Instead, [dwc:informationWithheld](https://dwc.tdwg.org/terms/#dwc:informationWithheld) is included and autofilled with "verbatim locality description and coordinates withheld but available to researchers upon request".
 
+
 : The locality description as originally recorded by the collector. Most of the LACMIP site records have been through multiple iterations of digital life, and this data is not truly verbatim anymore, but ideally it includes exactly what the collector recorded, as well as any notes made later by other people (and clearly indicated as such by enclosing the comment in brackets).
 
 {% include figure image_path="/assets/images/sites_verbatim_attachment.png" alt="How to enter new geographic data into *Verbatim Locality*" caption="Enclose new, after-the-fact information in *Verbatim Locality* with square brackets, with the name of whomever made the comment and the date (YYYY-MM-DD) separated by semicolons; e.g. [Presumed to be Waldron, Indiana; A. Hendy; 2017-11-08]" %}
