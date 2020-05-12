@@ -45,8 +45,7 @@ Organisers
 Funding Associations
 : Attach the appropriate Parties records for any funding sources related to the request or event whenever applicable.
 
-
-Tip: If you enter "Cretaceous" in this field and hit tab, the record for the "Connecting the Cretaceous Seas" PEN will appear. That said, always open the full Parties record to check that the correct record was attached. New [Parties]({{ site.baseurl }}/documentation/parties/) records for funding sources can only be added by the database administrator.
+:**Tip:** If you enter "Cretaceous" in this field and hit tab, the record for the "Connecting the Cretaceous Seas" PEN will appear. That said, always open the full Parties record to check that the correct record was attached. New [Parties]({{ site.baseurl }}/documentation/parties/) records for funding sources can only be added by the database administrator.
 
 Intended Audience
 : For outreach-related requests and events, select the appropriate value from the controlled vocabulary:
