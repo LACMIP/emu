@@ -6,16 +6,16 @@ last_modified_at: 2020-05-12
 ---
 The Projects module is used to track and report statistics for collections-related research and outreach requests. Only members of the Invertebrate Paleontology permissions group can add and edit information in this module.
 
-Before creating new records, new users of the Projects module should view previously created records in this module for examples. This can be done by searching for all previous entires in this module and selecting the "IP Requests" list view (_View > List Settings > Choose List > IP Requests_). Sort the results by "Project Sub-Type".
+Before creating new records, new users in the Projects module should view previously created records in this module for examples. This can be done by searching for all previous entires in this module and selecting the "IP Requests" list view (_View > List Settings > Choose List > IP Requests_). Sort the results by "Project Sub-Type".
 
 It is recommended that new entries in the Projects module are created using the [ditto function](http://help.emu.axiell.com/latest/en/Topics/Common/The%20Ditto%20utility.htm?Highlight=ditto) to use existing records as templates to maintain consistency in data entry in this module.
 
-{% include figure image_path="/assets/images/projects_overview" alt="Search results in the Projects module." caption="Search results in the Projects module." %}
+{% include figure image_path="/assets/images/projects_overview.png" alt="Search results in the Projects module." caption="Search results in the Projects module." %}
 
 
 ## Project 1 tab
 
-{% include figure image_path="/assets/images/projects_project1.png" alt="screenshot of the Project 1 tab in the Projects module" caption="Screenshot of the *Projects 1* tab of the Projects module. Users in the *Invertebrate Paleontology* permission group can enter and edit data in this module." %}
+{% include figure image_path="/assets/images/projects_project1.png" alt="screenshot of the Project 1 tab in the Projects module" caption="Screenshot of the *Projects 1* tab in the Projects module. Users in the *Invertebrate Paleontology* permission group can enter and edit data in this module." %}
 
 Information must be entered in two fields on the *Projects 1* tab:
 
@@ -41,7 +41,7 @@ Description
 
 ## Project 2 tab
 
-{% include figure image_path="/assets/images/projects_project2.png" alt="screenshot of the Project 2 tab in the Projects module" caption="Screenshot of the *Project 2* tab of the Projects module." %}
+{% include figure image_path="/assets/images/projects_project2.png" alt="screenshot of the Project 2 tab in the Projects module" caption="Screenshot of the *Project 2* tab in the Projects module." %}
 
 Information must be entered in one field on the *Project 2* tab:
 
@@ -63,7 +63,7 @@ Intended Audience
 
 ## Dates tab
 
-{% include figure image_path="/assets/images/projects_dates.png" alt="screenshot of the Dates tab in the Projects module" caption="Screenshot of the *Dates* tab of the Projects module." %}
+{% include figure image_path="/assets/images/projects_dates.png" alt="screenshot of the Dates tab in the Projects module" caption="Screenshot of the *Dates* tab in the Projects module." %}
 
 Information must be entered in one field on the *Dates* tab:
 
@@ -73,11 +73,25 @@ Commencement Date
 
 ## Objects tab
 
-{% include figure image_path="/assets/images/projects_objects.png" alt="screenshot of the Objects tab in the Projects module" caption="Screenshot of the *Objects* tab of the Projects module." %}
+{% include figure image_path="/assets/images/projects_objects.png" alt="screenshot of the Objects tab in the Projects module" caption="Screenshot of the *Objects* tab in the Projects module." %}
 
 Any cataloged specimen lots associated with the event or request should be attached to the _Objects Associated With Project_ table on the _Objects_ tab. Do so by opening the Catalogue module from the _Object_ field and searching for the relevant catalogue records. Sort the results by catalog number. Select all records in the Catalogue module and drag them into the _Objects Associated With Project_ table.
 
-Only attach objects to records in the Projects module for specimens that researchers and visitors came in direct contact with, or objects that you had to physically handle to fullfill a request. (I.e., do not attach all existing catalogue records for general tours of type room or entire LACMIP collection!)
+Only attach objects to records in the Projects module for specimens that researchers and visitors come in direct contact with, or objects that you physically handled to fullfill a request. (i.e., do not attach all existing catalogue records for general tours of type room or entire LACMIP collection!)
 
-{% include figure image_path="/assets/images/projects_objects_drag.png" alt="screenshot of the Objects tab in the Projects module" caption="Screenshot of the *Objects* tab of the Projects module." %}
+{% include figure image_path="/assets/images/projects_objects_drag.png" alt="screenshot of the Objects tab in the Projects module" caption="Screenshot of the *Objects* tab in the Projects module." %}
 
+## Statistics tab
+
+{% include figure image_path="/assets/images/projects_statistics.png" alt="screenshot of the Statistics tab in the Projects module" caption="Screenshot of the *Statistics* tab in the Projects module. Users in the *Invertebrate Paleontology* permission group can enter and edit data in this module." %}
+
+To fill out the _Project Statistics_ table, it is highly recommended that one dittos this information from an existing record of the **same sub-type** (e.g. "Tour (Carson)") to ensure data are entered consistently and correctly.
+{: .notice--warning}`.
+
+Type of Statistic
+: A table to document basic statistics regarding the event or request. Please take care to complete this information consistently. 
+    - DURATION: enter, to the nearest hour, the amount of time spent fullfilling this request
+    - ATTENDANCE: for outreach and research/facility visits, enter the number of attendees. In the comments, enter names of individuals, when relevant, e.g. "Kevin Kelley, Patrick Hsieh". For tours, enter the name(s) of the group leader(s), e.g. "Nicole Roberts, BIO125 students".
+    - REVENUE ($): if an event or request results in revenue, add this number in the _Value_ column with a _Comment_ indicating where the funds were distributed
+    - FACILITIES: if a visit results in visitors using specific equipment or facilties, list the equipment used in the _Comments_ field
+    - AFFILIATION: enter the affiliation of whomever made the research or outreach request
