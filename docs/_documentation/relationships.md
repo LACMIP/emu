@@ -2,10 +2,10 @@
 title: Associating Records
 navcat: Workflows
 tags: cataloging
-last_modified_at: 2019-12-05
+last_modified_at: 2020-05-12
 ---
 
-Specimens that are physically stuck together but represent different taxa must be cataloged separately (e.g., when a bivalve and gastropod are preserved on the same rock, or when a trace fossil is found on a body fossil). These records must be associated using the [*Relationships* tab](https://lacmip.github.io/emu/documentation/catalogue/) in the Catalogue module.
+Specimens that are physically stuck together but represent different taxa must be cataloged separately (e.g., when a bivalve and gastropod are preserved on the same rock, or when a trace fossil is found on a body fossil). These records must be associated using the [Relationships tab](https://lacmip.github.io/emu/documentation/catalogue/) in the Catalogue module.
 
 ## Workflow
 
@@ -13,7 +13,7 @@ Specimens that are physically stuck together but represent different taxa must b
 
 *2.* In the new instance of the Catalogue module, search for all records to be associated.
 
-*3.* In the original instance of the Catalogue module, open one of the specimen records and navigate to the *Relationships* tab.
+*3.* In the original instance of the Catalogue module, open one of the specimen records and navigate to the Relationships tab.
 
 *4.* Select all records to be associated in the second instance of the Catalogue module. Drag them into the *Related Records* table in the original instance of the Catalogue module. If you are trying to associate more than three records, enlarge the active window so more row are visible in the _Related Records_ table.
 
