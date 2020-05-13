@@ -55,5 +55,5 @@ Images saved to the "IP Grant" folder can be shared publicly; images saved to th
 Remember to update the data and associated media that you have published based on whatever frequency makes sense for your collection, but probably at least annually. If you are actively digitizing or otherwise making changes/additions to your data in EMu you may want to update your IPT data more frequently.
 
 ### Suggested resources
+
 {% include video id="eDH9IoTrMVE" provider="youtube" %}
-- [VIDEO: Introduction to the GBIF IPT](https://youtu.be/eDH9IoTrMVE)
