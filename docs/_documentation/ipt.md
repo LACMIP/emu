@@ -13,7 +13,7 @@ The [Integrated Publishing Toolkit (IPT)](https://www.gbif.org/ipt) is what we u
 The following is provided for general reference. If you are going through this process you may want to reach out to LACMIP staff and the Museum's database manager for assistance.
 {: .notice--warning}
 
-### IPT
+## IPT
 
 The IPT is software for publishing both specimen data and collection-level metadata, as exemplified above. It can be installed on any server; NHMLA is currently using [iDigBio's installation of the IPT](http://ipt.idigbio.org/). The figure and text below provide a step-by-step explanation of what we use the IPT for.
 
