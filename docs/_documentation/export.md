@@ -9,6 +9,8 @@ There are several primary ways to get data out of EMu: copy-paste, user-created 
 Please note that for any of the export methods below, there are a couple extra steps if you are accessing EMu via the VPN. To get a file from the remote desktop of the VPN to your local computer, simply drag it into the folder *This PC > G on Guacamole RDP > Download*. A progress bar will show up in the lower right of the remote desktop, allowing you to click on the filename to transfer it to your local computer.
 {: .notice--warning}
 
+When importing and exporting data to/from EMu, it is best to open CSV files as text. This will preserve any formatting (such as trailing zeroes and dates) that may be inadvertently altered in Excel. To open a file as text: _Excel > File > New > Data > From Text_. Select the file you wish to open and any relevant delimitors. For Data Format, choose _Text_ and highlight all columns in the preview window, then _Finish_. Choose the first cell in the spreadsheet to complete your import.
+
 ## Copy-paste
 
 In the [display mode]({{ site.baseurl }}/documentation/modes/) of any module, you can select records, copy them, and paste them into an Excel document (within the VPN, if you are accessing EMu remotely). Adjust the display columns shown to be able to copy-paste different data. This method is very simple and works well for exports where the information you need exists primarily in a single module.
