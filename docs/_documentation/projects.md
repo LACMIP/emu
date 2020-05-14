@@ -67,7 +67,7 @@ Commencement Date
 
 {% include figure image_path="/assets/images/projects_objects.png" alt="screenshot of the Objects tab in the Projects module" caption="Screenshot of the *Objects* tab in the Projects module." %}
 
-Objects Associated With Project table
+Objects Associated With Project nested table
 : Any cataloged specimen lots associated with the event or request should be attached to this table. Do so by opening the Catalogue module from within the _Object_ field and searching. Sort your results by catalog number. Select all resulting records in the Catalogue module and drag them into the _Objects Associated With Project_ table. **Note:** After the Projects record is saved, it will be visible on the object's [Project tab](https://lacmip.github.io/emu/documentation/catalogue/#project-tab) in the Catalogue module.
 
 **Only attach objects** to records in the Projects module for specimens **that you, researchers, or visitors came in direct contact with** to fullfill a request.
@@ -82,7 +82,7 @@ Objects Associated With Project table
 To fill out the _Project Statistics_ table, it is **highly recommended** that one [**dittos**](http://help.emu.axiell.com/latest/en/Topics/Common/The%20Ditto%20utility.htm?Highlight=ditto) this information from an existing record of the **same Sub-Type**, e.g. "Tour (Carson)", to ensure consistent data entry.
 {: .notice--warning}
 
-Type of Statistic
+Type of Statistic table
 : A table to document basic statistics regarding the event or request. Please take care to complete this information consistently with other records of the same project sub-type. 
     - DURATION: Enter, to the nearest hour, the amount of time spent fullfilling this request/event in _Value_.
     - ATTENDANCE: For outreach events and facility visits, enter the number of attendees in _Value_. In _Comments_, enter names of the primarily individuals involved, e.g. "Kevin Kelley, Patrick Hsieh, SCPS members" or "Nicole Roberts, BIO125 students".
