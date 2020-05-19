@@ -5,54 +5,61 @@ tags:
 last_modified_at: 2020-05-13
 ---
 
-**Proper citation of musuem collections is critical to sustaining of these resources**. If you intend to include LACMIP specimens or localities in publication, please follow the protocols outlined below. Likewise, please share any publications that result from the use of these collections or their anscillary data with LACMIP staff. Questions and related inquiries can be directed to the collections manager: [lwalker@nhm.org](lwalker@nhm.org).
+**Proper citation of museum collections is critical to sustaining these resources**. If you intend to include LACMIP specimens or localities in publication, please follow the protocols outlined below. Likewise, please share any publications that result from the use of these collections or their anscillary data with LACMIP staff. Questions and related inquiries can be directed to the collections manager: [lwalker@nhm.org](lwalker@nhm.org).
 
 # Citing LACMIP specimens
 ## How to cite?
-Specimens designated as types recognized by the [ICZN](https://www.iczn.org/outreach/faqs/#faq-4) should be referenced in-text using the catalog number (LACMIP locality#.lot#) and the type number (LACMIP Type #).
+Specimens designated as types recognized by the [ICZN](https://www.iczn.org/outreach/faqs/#faq-4) should be referenced in-text using the **catalog number** and the **type number**.
 
-For example, "Fig. 1: **LACMIP 2533.234, LACMIP Type 3364**".
+Example: "**LACMIP 2533.234, LACMIP Type 3364**"
 {: .notice--warning}
 
 ## Where can I find the catalog number?
-During digitization, all LACMIP specimens receive a catalog number, which includes a locality and lot number. Each cataloged lot may contain one [or more](https://www.gbif.org/occurrence/2012634986) specimens.
+All digitized LACMIP specimens have received a catalog number, which includes a locality and lot number (=LACMIP loc#.lot#). In turn, each cataloged lot may contain one or more individual specimens.
 
-For example, LACMIP 2533.234 represents the 234th specimen lot cataloged from LACMIP locality 2533. 
+Example 1: [LACMIP 10088.8](https://www.gbif.org/occurrence/2012637492) represents the 8th specimen lot cataloged from LACMIP locality 10088. This specimen lot contains one specimen.
 {: .notice--warning}
 
-* **For specimens that have been digitized**, these numbers can be found by querying the LACMIP datasets on GBIF and iDigBio, which currently include all fossil insects and Cretaceous marine invertebrates from California (more coming soon). [See below](https://lacmip.github.io/emu/documentation/citing/#citing-digitized-collections) for more information on citing digitized collections. 
+Example 2: [LACMIP 23192.1](https://www.gbif.org/occurrence/2012634986) represents the 1st specimen lot cataloged from LACMIP locality 23192. This specimen lot contains multiple specimens. 
+{: .notice--warning}
 
-* **For specimens that have not been digitized**, catalog numbers must be acquired from the collections manager.
+**For specimens that have been digitized**, these numbers can be found by querying the LACMIP datasets on GBIF and iDigBio, which currently include all fossil insects and Cretaceous marine invertebrates from California (more coming soon). 
+- [LACMIP's GBIF dataset](https://doi.org/10.15468/6nxzen)
+- [LACMIP's iDigBio recordset](https://www.idigbio.org/portal/recordsets/5082e6c8-8f5b-4bf6-a930-e3e6de7bf6fb)
+
+[See below](https://lacmip.github.io/emu/documentation/citing/#citing-digitized-collections) for more information on how to cite digitized collections. 
+
+**For specimens that have not been digitized**, catalog numbers must be acquired from the collections manager.
 
 ## Where can I find the type number?
-Specimens that receive LACMIP type numbers include:
+**Specimens that receive LACMIP type numbers include:**
 - holotypes, syntypes, paratypes, lectotypes, neotypes, allotypes
 
-Specimens that do **not** receive LACMIP type numbers include:
+**Specimens with type numbers for internal use only include:**
 - hypotypes (figured or unfigured)
 
-Hypotypes should reference the catalog number in-text, _and the type number if it is preexisting_; however, designation of any new type numbers for non name-bearing specimens is unnecessary.
-
-In the 1970s-80s, catalogs of LACMIP type specimens were published by the museum. These catalogs, which include older type numbers, can be accessed [here](URL).
+If a specimen has a type number, this number must be referenced in-text, even for hypotypes that were historically designated type numbers.
 
 ## What if I have numerous specimens to cite?
-If citing both the catalog and type numbers in-text is overly cumbersome, the catalog number takes precedent in-text. **_However_**, both numbers should be included elsewhere in the publication. We suggest doing so in either a list or table. For example:
+If citing both the catalog and type numbers in-text becomes overly cumbersome, the catalog number takes precedent in-text. **_However_**, both numbers should be included elsewhere in the publication. We suggest doing so in either list or table format. For example:
 
 *Catalog No.* | *Type No.*
    --- | ---
    LACMIP 2533.234 | LACMIP Type 3364
    LACMIP 2533.235 | LACMIP Type 3365
    LACMIP 2533.236 | LACMIP Type 3366
+   {: .notice--warning}
 
 # Citing LACMIP localities
 LACMIP localities should be cited in text as "**LACMIP locality #**" or "**LACMIP loc. #**".
 
-For example, "Fig. 1: **LACMIP loc. 2533**".
+Example: "**LACMIP loc. 2533**" or "**LACMIP locality 2533**".
 {: .notice--warning}
 
-If you need to request new the creation of new localities, please download and complete this form and return it to the collections manager: [Locality Request Form](URL).
+If you need to request new the creation of new localities, contact the collections manager.
 
 # Citing digitized collections
-All LACMIP digital specimen data are formatted to the biodiversity data standards maintained by [TDWG](https://www.tdwg.org). Publishe data can be queried on GBIF and iDigBio.
+If your research has benefitted from LACMIP's digitized collections data in any way, please include the most current citation for our dataset on GBIF in your works cited list.
 
-https://www.gbif.org/dataset/f0a7ca6e-8da6-4629-97bd-0368705a4d6b#citation
+{% include figure image_path="/assets/images/citing_GBIF.jpg" alt="image of LACMIP's occurrence dataset on GBIF.org" caption="Please cite the LACMIP occurrence dataset on GBIF if you have used our digitized collections data in your research." %}
+
