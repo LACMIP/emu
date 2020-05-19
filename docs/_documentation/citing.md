@@ -39,7 +39,7 @@ See below for more information on [how to cite digitized collections](https://la
 **Specimens that receive type numbers include:**
 - holotypes, syntypes, paratypes, lectotypes, neotypes, allotypes, figured hypotypes
 
-**Specimens with type numbers for internal use only include:**
+**Specimens with type numbers for internal use only:**
 - unfigured hypotypes
 
 If a specimen has a historically designated LACMIP type number, it must be referenced in-text. However, note that LACMIP is no longer minting new type numbers for _unfigured_ hypotypes.
