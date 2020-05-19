@@ -7,7 +7,7 @@ last_modified_at: 2020-05-13
 
 **Proper citation of museum collections is critical to sustaining these resources**. If you intend to include LACMIP specimens or localities in publication, please follow the guidelines below. Likewise, in exchange for the use of LACMIP collections data in your research, we request that any resulting publications be shared with LACMIP staff.
 
-Related inquiries should be directed to the collections manager: [lwalker@nhm.org](lwalker@nhm.org).
+Questions and related inquiries should be directed to the collections manager: [lwalker@nhm.org](lwalker@nhm.org).
 
 # Citing LACMIP specimens
 ## How to cite?
@@ -47,7 +47,6 @@ If a specimen has a historically designated LACMIP type number, it must be refer
 ## What if I have numerous specimens to cite?
 If citing both the catalog and type numbers in-text becomes overly cumbersome, the catalog number takes precedent in-text. **_However_**, both numbers should still be included elsewhere in the publication. We suggest doing so in either list or table format.
 
-Example:
 *Catalog No.* | *Type No.*
    --- | ---
    LACMIP 2533.234 | LACMIP Type 3364
