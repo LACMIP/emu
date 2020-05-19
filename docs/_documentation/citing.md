@@ -46,7 +46,7 @@ If a specimen has a historically designated LACMIP type number, it must be refer
 
 The LACMIP collections began issuing type numbers for specimens used in publication in the late 1960s. These numbers have been cited in publications since then, but may be mistaken for LACMIP locality numbers (i.e., interpret with caution!). 
 
-For type specimens that have been digitized, these numbers can be found the on their corresponding occurrence records:
+For type specimens that have been digitized, these numbers can be found in the _dwc:otherCatalogueNumbers_ field--along with any other historically assigned numbers that might be cited elsewhere (e.g. UCLA numbers)--on their corresponding occurrence records:
 
 {% include figure image_path="/assets/images/citing_typenumber.png" alt="screenshot of a type number on GBIF" caption="Screenshot illustrating where to locate type numbers." %}
 
@@ -74,7 +74,7 @@ If your research has benefitted from LACMIP's digitized collections data in any 
 Example: Hendy A, Walker L, Mertz W (2020). LACM Invertebrate Paleontology. Version 1.7. Natural History Museum of Los Angeles County. Occurrence dataset [https://doi.org/10.15468/6nxzen](https://doi.org/10.15468/6nxzen) accessed via GBIF.org on 2020-05-19.
 {: .notice--warning}
 
-{% include figure image_path="/assets/images/citing_GBIF.png" alt="image of LACMIP's occurrence dataset on GBIF.org" caption="Cite LACMIP's GBIF dataset if you have used our digitized collections data in your research." %}
+{% include figure image_path="/assets/images/citing_GBIF.png" alt="image of LACMIP's occurrence dataset on GBIF.org" caption="Cite LACMIP's GBIF dataset if you have used our digitized collections in your research." %}
 
 Contact the collections manager if you would like to create a customized data download with a citable DOI.
 {% include figure image_path="/assets/images/citing_datadownload.png" alt="image of a custom data download on GBIF.org" caption="[Sample](https://doi.org/10.15468/dl.ykhkrs) GBIF data download with a unique, citable DOI." %}
