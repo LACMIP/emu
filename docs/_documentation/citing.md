@@ -44,11 +44,15 @@ See below for more information on [how to cite digitized collections](https://la
 
 If a specimen has a historically designated LACMIP type number, it must be referenced in-text. However, note that LACMIP is no longer minting new type numbers for unfigured hypotypes.
 
-The LACMIP collections began issuing type numbers for specimens used in publication in the late 1960s. These numbers have been cited in publications since then, but may be mistaken for LACMIP locality numbers (i.e., interpret with caution!). 
+The LACMIP collections began issuing type numbers for specimens used in publication in the late 1960s. In the 1980s, several large donations from UCLA and CIT (Cal Tech) were assimilated into the LACMIP collections. As such, all of these numbers have been cited in publications in various forms over the years. Below is one example which cites both UCLA and LACMIP type numbers, all of which now 
 
-For type specimens that have been digitized, these numbers can be found in the _dwc:otherCatalogueNumbers_ field--along with any other historically assigned numbers that might be cited elsewhere (e.g. UCLA numbers)--on their corresponding occurrence records:
+For type specimens that have been digitized, these numbers can be found in the _dwc:otherCatalogueNumbers_ field--along with any other historically assigned numbers that might be cited elsewhere (e.g. UCLA numbers)--on their corresponding occurrence records. Note that, unlike catalog numbers, type numbers are not easily searchable online. 
 
-{% include figure image_path="/assets/images/citing_typenumber.png" alt="screenshot of a type number on GBIF" caption="Screenshot illustrating where to locate type numbers." %}
+{% include figure image_path="/assets/images/citing_typenumber.png" alt="screenshot of a type number on GBIF" caption="Screenshot illustrating where to locate digitized type numbers." %}
+
+LACMIP type numbers can can also be located in the published literature. Historically, a large number of LACMIP type specimens were published in the NHMLA's _Contributions in Science_ series (1957-2017), which now digitally available from the [Biodiversity Heritage Library](https://www.biodiversitylibrary.org/bibliography/122696#/summary). 
+
+{% include figure image_path="/assets/images/citing_example.png" alt="screenshot of a type number on GBIF" caption="Examples of a type specimen figured in [Saul & Popenoe, 1992](https://www.biodiversitylibrary.org/page/52115141)" %}
 
 ## What if I have numerous specimens to cite?
 If citing both the catalog and type numbers in-text becomes overly cumbersome, the catalog number takes precedent in-text. **_However_**, both numbers should still be included elsewhere in the publication. We suggest doing so in either list or table format.
