@@ -44,6 +44,8 @@ See below for more information on [how to cite digitized collections](https://la
 
 If a specimen has a historically designated LACMIP type number, it must be referenced in-text. However, note that LACMIP is no longer minting new type numbers for unfigured hypotypes.
 
+{% include figure image_path="/assets/images/citing_typenumber.png" alt="screenshot of a type number on GBIF" caption="Screenshot illustrating where to locate type numbers on GBIF occurrence records." %}
+
 ## What if I have numerous specimens to cite?
 If citing both the catalog and type numbers in-text becomes overly cumbersome, the catalog number takes precedent in-text. **_However_**, both numbers should still be included elsewhere in the publication. We suggest doing so in either list or table format.
 
