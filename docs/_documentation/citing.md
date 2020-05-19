@@ -48,7 +48,7 @@ The LACMIP collections began issuing type numbers in the late 1960s. However, in
 
 A large number of LACMIP type specimens were published in the NHMLA's _Contributions in Science_ series (1957-2017), which is now available from the [Biodiversity Heritage Library](https://www.biodiversitylibrary.org/bibliography/122696#/summary). 
 
-Some type numbers can be found in the _dwc:otherCatalogueNumbers_ field on GBIF and iDigBio, along with any other historically assigned numbers (e.g. UCLA numbers). However, unlike catalog numbers, these numbers are not easily searchable online.
+**For specimens that have been digitized and made available online,** type numbers can be found in the _dwc:otherCatalogueNumbers_ field on GBIF and iDigBio, along with any other historically assigned numbers (e.g. UCLA numbers). However, unlike catalog numbers, these numbers are not easily searchable online.
 
 ## What if I have numerous specimens to cite?
 If citing both the catalog and type numbers in-text becomes overly cumbersome, the catalog number takes precedent in-text. **_However_**, both numbers should still be included elsewhere in the publication. We suggest doing so in either list or table format.
