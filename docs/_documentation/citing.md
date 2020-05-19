@@ -42,7 +42,7 @@ See below for more information on [how to cite digitized collections](https://la
 **Specimens with type numbers for internal use only:**
 - unfigured hypotypes
 
-If a specimen has a historically designated LACMIP type number, it must be referenced in-text. However, note that LACMIP is no longer minting new type numbers for _unfigured_ hypotypes.
+If a specimen has a historically designated LACMIP type number, it must be referenced in-text. However, note that LACMIP is no longer minting new type numbers for unfigured hypotypes.
 
 ## What if I have numerous specimens to cite?
 If citing both the catalog and type numbers in-text becomes overly cumbersome, the catalog number takes precedent in-text. **_However_**, both numbers should still be included elsewhere in the publication. We suggest doing so in either list or table format.
@@ -68,4 +68,4 @@ If your research has benefitted from LACMIP's digitized collections data in any 
 Example: Hendy A, Walker L, Mertz W (2020). LACM Invertebrate Paleontology. Version 1.7. Natural History Museum of Los Angeles County. Occurrence dataset [https://doi.org/10.15468/6nxzen](https://doi.org/10.15468/6nxzen) accessed via GBIF.org on 2020-05-19.
 {: .notice--warning}
 
-{% include figure image_path="/assets/images/citing_GBIF.png" alt="image of LACMIP's occurrence dataset on GBIF.org" caption="Please cite the LACMIP dataset on GBIF.org if you have used our digitized collections data in your research." %}
+{% include figure image_path="/assets/images/citing_GBIF.png" alt="image of LACMIP's occurrence dataset on GBIF.org" caption="Cite LACMIP's GBIF dataset if you have used our digitized collections data in your research." %}
