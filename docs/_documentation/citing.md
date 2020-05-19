@@ -5,9 +5,9 @@ tags:
 last_modified_at: 2020-05-13
 ---
 
-**Proper citation of museum collections is critical to sustaining these resources**. If you intend to include LACMIP specimens or localities in publication, please follow the guidelines below. Likewise, in exchange for the free use of LACMIP collections data in your research, we request that any resulting publications be shared with LACMIP staff.
+**Proper citation of museum collections is critical to sustaining these resources**. If you intend to include LACMIP specimens or localities in publication, please follow the guidelines below. Likewise, in exchange for the use of LACMIP collections data in your research, we request that any resulting publications be shared with LACMIP staff.
 
-Questions and related inquiries can be directed to the collections manager: [lwalker@nhm.org](lwalker@nhm.org).
+Related inquiries should be directed to the collections manager: [lwalker@nhm.org](lwalker@nhm.org).
 
 # Citing LACMIP specimens
 ## How to cite?
@@ -17,7 +17,7 @@ Example: "**LACMIP 2533.234, LACMIP Type 3364**"
 {: .notice--warning}
 
 ## Where can I find the catalog number?
-All digitized specimens have received a catalog number, which includes a locality number _and_ lot number (i.e., LACMIP loc#.lot#). In turn, each cataloged lot may contain one or more individual specimens. If you intend to illustrate a specimen from a lot with multiple individuals, it is LACMIP's preference that a new catalog number be generated for this individual specimen.
+LACMIP specimens receive catalog numbers during digitization, which includes a locality number _and_ lot number (i.e., LACMIP loc#.lot#). In turn, each cataloged lot may contain one or more individual specimens. If you intend to illustrate a specimen from a lot with multiple individuals, it is LACMIP's preference that a new catalog number be generated for this individual specimen.
 
 Example 1: [LACMIP 10088.8](https://www.gbif.org/occurrence/2012637492) represents the 8th specimen lot cataloged from LACMIP locality 10088. This specimen lot contains one specimen.
 {: .notice--warning}
