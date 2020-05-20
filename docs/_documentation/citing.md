@@ -22,7 +22,7 @@ LACMIP specimens receive catalog numbers during digitization, which includes a l
 Example 1: [LACMIP 10088.8](https://www.gbif.org/occurrence/2012637492) represents the 8th specimen lot cataloged from LACMIP locality 10088. This specimen lot contains one specimen.
 {: .notice--warning}
 
-Example 2: [LACMIP 23192.1](https://www.gbif.org/occurrence/2012634986) represents the 1st specimen lot cataloged from LACMIP locality 23192. This specimen lot contains multiple specimens. 
+Example 2: [LACMIP 23192.1](https://www.gbif.org/occurrence/2012634986) represents the 1st specimen lot cataloged from LACMIP locality 23192. This specimen lot contains multiple specimens. If any of the individual specimens in this lot were to be figured in publication, they would be isolated and recataloged with their own unique catalog numbers.
 {: .notice--warning}
 
 **For specimens that have been digitized**, catalog numbers can be found by querying the LACMIP datasets on GBIF and iDigBio, which currently include all fossil insects and Cretaceous marine invertebrates from California (more coming soon). 
@@ -44,14 +44,16 @@ See below for more information on [how to cite digitized collections](https://la
 
 If a specimen has a type number, it must be referenced in-text. Note that LACMIP is no longer minting new type numbers for unfigured hypotypes.
 
-The LACMIP collections began issuing type numbers in the late 1960s. However, in the 1980s, several large donations from UCLA and Cal Tech were assimilated into the LACMIP collections. As such, "UCLA" and "CIT" numbers cited in the literature now have new, equivalent LACMIP numbers.
+The LACMIP collections began issuing type numbers in the late 1960s. However, in the 1980s, several large donations from UCLA and Cal Tech were assimilated into the LACMIP collections. As such, "UCLA" and "CIT" numbers (among others) cited in the literature now have new, equivalent LACMIP numbers.
 
-A large number of LACMIP type specimens were published in the NHMLA's _Contributions in Science_ series (1957-2017), which is now available from the [Biodiversity Heritage Library](https://www.biodiversitylibrary.org/bibliography/122696#/summary). 
+A large number of LACMIP type specimens were published in the NHMLA's _Contributions in Science_ series (1957-2017), which is now available from the [Biodiversity Heritage Library](https://www.biodiversitylibrary.org/bibliography/122696#/summary).
+
+{% include figure image_path="/assets/images/citing_example.png" alt="example of LACMIP type specimens figured in publication" caption="Large portions of the LACMIP collections once belonged to UCLA and CIT and, as such, were originally cited using different numbers. These numbers now have equivalent LACMIP catalog and type numbers that should be cited as such. [LACMIP 10079.7](https://www.gbif.org/occurrence/2012641180), illustrated in pink above, is one example." %}
 
 **For specimens that have been digitized and made available online,** type numbers can be found in the _dwc:otherCatalogueNumbers_ field on GBIF and iDigBio, along with any other historically assigned numbers (e.g. UCLA numbers). However, unlike catalog numbers, these numbers are not easily searchable online.
 
 ## What if I have numerous specimens to cite?
-If citing both the catalog and type numbers in-text becomes overly cumbersome, the catalog number takes precedent in-text. **_However_**, both numbers should still be included elsewhere in the publication. We suggest doing so in either list or table format.
+If citing both the catalog and type numbers in-text is overly cumbersome, the catalog number takes precedent in-text. **_However_**, both numbers should still be included elsewhere in the publication. We suggest doing so in either list or table format.
 
 *Catalog No.* | *Type No.*
    --- | ---
@@ -76,5 +78,4 @@ Example: Hendy A, Walker L, Mertz W (2020). LACM Invertebrate Paleontology. Vers
 
 {% include figure image_path="/assets/images/citing_GBIF.png" alt="image of LACMIP's occurrence dataset on GBIF.org" caption="Cite LACMIP's GBIF dataset if you have used our digitized collections in your research." %}
 
-Contact the collections manager if you would like to create a customized data download with a citable DOI.
-{% include figure image_path="/assets/images/citing_datadownload.png" alt="image of a custom data download on GBIF.org" caption="[Sample](https://doi.org/10.15468/dl.ykhkrs) GBIF data download with a unique, citable DOI." %}
+{% include figure image_path="/assets/images/citing_datadownload.png" alt="image of a custom data download on GBIF.org" caption="[Sample](https://doi.org/10.15468/dl.ykhkrs) GBIF data download with a unique, citable DOI. Contact the collections manager if you would like a more customized data download with a citable DOI." %}
