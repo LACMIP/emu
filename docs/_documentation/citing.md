@@ -9,14 +9,14 @@ last_modified_at: 2020-05-20
 
 Questions and related inquiries should be directed to the collections manager: [lwalker@nhm.org](lwalker@nhm.org).
 
-## Citing LACMIP specimens
-### How to cite?
+# Citing LACMIP specimens
+## How to cite?
 Type and figured specimens should be referenced in-text using the **catalog number** and the **type number**.
 
 Example: "**LACMIP 2533.234, LACMIP Type 3364**"
 {: .notice--warning}
 
-### What if I have numerous specimens to cite?
+## What if I have numerous specimens to cite?
 If citing both the catalog and type numbers in-text becomes overly cumbersome, the catalog number takes precedent in-text. **_However_**, both numbers should still be included elsewhere in the publication. We suggest doing so in either list or table format.
 
 *Catalog No.* | *Type No.*
@@ -26,7 +26,7 @@ If citing both the catalog and type numbers in-text becomes overly cumbersome, t
    LACMIP 2533.236 | LACMIP Type 3366
    {: .notice--warning}
 
-### Where can I find these numbers?
+## Where can I find these numbers?
 **All LACMIP specimens receive catalog numbers during digitization.** Each catalog number includes a locality number _and_ lot number (i.e., LACMIP loc#.lot#), and, in turn, each lot may contain one or more individual specimens. If you intend to illustrate a specimen from a lot with multiple individuals, it is LACMIP's preference that a new catalog number be generated for each individual specimen. For example:
 
 - [LACMIP 10088.8](https://www.gbif.org/occurrence/2012637492) represents the 8th specimen lot cataloged from LACMIP locality 10088. This lot contains one specimen.
@@ -57,7 +57,7 @@ See below for more information on [how to cite digitized collections](https://la
 
 **For specimens that have not been digitized**, new numbers may need to be created. The collections manager can verify this information for you.
 
-## Citing LACMIP localities
+# Citing LACMIP localities
 LACMIP localities should be cited in text as "**LACMIP locality #**" or "**LACMIP loc. #**".
 
 Example: "**LACMIP loc. 2533**" or "**LACMIP locality 2533**".
@@ -65,7 +65,7 @@ Example: "**LACMIP loc. 2533**" or "**LACMIP locality 2533**".
 
 If you need new locality numbers, complete the [LACMIP Locality Request Form](https://docs.google.com/spreadsheets/d/1v1xc2jFS-fva_YW_9lPM89yGpv7XCacIA1H0SAAgA8w/edit?usp=sharing) and submit it to the collections manager with any relevant permitting documentation.
 
-## Citing digitized collections
+# Citing digitized collections
 **Digitizing collections requires significant resources that can only be sustained with evidence of use through proper attribution.** If your research has benefitted from LACMIP's digitized collections data in any way, _**please**_ include the suggested citation for [our GBIF dataset](https://doi.org/10.15468/6nxzen) or [the archived resource](http://ipt.idigbio.org/resource?r=lacm-ip) in your reference list.
 
 Example: Hendy A, Walker L, Mertz W (2020). LACM Invertebrate Paleontology. Version 1.7. Natural History Museum of Los Angeles County. Occurrence dataset [https://doi.org/10.15468/6nxzen](https://doi.org/10.15468/6nxzen) accessed via GBIF.org on 2020-05-19.
