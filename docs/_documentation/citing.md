@@ -80,4 +80,4 @@ Example: Hendy A, Walker L, Mertz W (2020). LACM Invertebrate Paleontology. Vers
 
 {% include figure image_path="/assets/images/citing_GBIF.png" alt="image of LACMIP's occurrence dataset on GBIF.org" caption="Cite LACMIP's GBIF dataset if you have used our digitized collections in your research." %}
 
-{% include figure image_path="/assets/images/citing_datadownload.png" alt="image of a custom data download on GBIF.org" caption="Contact the collections manager if you would like a more customized data download with a citable DOI. [example](https://doi.org/10.15468/dl.ykhkrs)" %}
+{% include figure image_path="/assets/images/citing_datadownload.png" alt="image of a custom data download on GBIF.org" caption="Contact the collections manager if you would like a more customized data download with a citable DOI, as in this [example](https://doi.org/10.15468/dl.ykhkrs)" %}
