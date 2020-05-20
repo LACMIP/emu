@@ -16,6 +16,16 @@ Type and figured specimens should be referenced in-text using the **catalog numb
 Example: "**LACMIP 2533.234, LACMIP Type 3364**"
 {: .notice--warning}
 
+## What if I have numerous specimens to cite?
+If citing both the catalog and type numbers in-text becomes overly cumbersome, the catalog number takes precedent in-text. **_However_**, both numbers should still be included elsewhere in the publication. We suggest doing so in either list or table format.
+
+*Catalog No.* | *Type No.*
+   --- | ---
+   LACMIP 2533.234 | LACMIP Type 3364
+   LACMIP 2533.235 | LACMIP Type 3365
+   LACMIP 2533.236 | LACMIP Type 3366
+   {: .notice--warning}
+
 ## Where can I find these numbers?
 **All LACMIP specimens receive catalog numbers** during digitization, which includes a locality number _and_ lot number (i.e., LACMIP loc#.lot#). In turn, each cataloged lot may contain one or more individual specimens. If you intend to illustrate a specimen from a lot with multiple individuals, it is LACMIP's preference that a new catalog number be generated for each individual specimen.
 
@@ -49,16 +59,6 @@ See below for more information on [how to cite digitized collections](https://la
 
 **For specimens that have not been digitized**, new numbers may need to be created.
 
-## What if I have numerous specimens to cite?
-If citing both the catalog and type numbers in-text becomes overly cumbersome, the catalog number takes precedent in-text. **_However_**, both numbers should still be included elsewhere in the publication. We suggest doing so in either list or table format.
-
-*Catalog No.* | *Type No.*
-   --- | ---
-   LACMIP 2533.234 | LACMIP Type 3364
-   LACMIP 2533.235 | LACMIP Type 3365
-   LACMIP 2533.236 | LACMIP Type 3366
-   {: .notice--warning}
-
 # Citing LACMIP localities
 LACMIP localities should be cited in text as "**LACMIP locality #**" or "**LACMIP loc. #**".
 
@@ -75,4 +75,4 @@ Example: Hendy A, Walker L, Mertz W (2020). LACM Invertebrate Paleontology. Vers
 
 {% include figure image_path="/assets/images/citing_GBIF.png" alt="image of LACMIP's occurrence dataset on GBIF.org" caption="Cite LACMIP's GBIF dataset if you have used our digitized collections in your research." %}
 
-{% include figure image_path="/assets/images/citing_datadownload.png" alt="image of a custom data download on GBIF.org" caption="Contact the collections manager if you would like a more customized data download with a citable DOI, as in this [example](https://doi.org/10.15468/dl.ykhkrs)" %}
+{% include figure image_path="/assets/images/citing_datadownload.png" alt="image of a custom data download on GBIF.org" caption="Contact the collections manager if you would like assistance creating a customized data download with a citable DOI, as in this [example](https://doi.org/10.15468/dl.ykhkrs)" %}
