@@ -40,8 +40,7 @@ The LACMIP collections began issuing **type numbers** in the 1960s. However, in 
 **Specimens with type numbers for internal use only:**
 - unfigured hypotypes
 
-If a specimen has a type number, it must be referenced in-text with the catalog number.
-**Note that LACMIP is no longer minting new type numbers for unfigured hypotypes.**
+If a specimen has a type number, it must be referenced in-text with the catalog number. **Note that LACMIP is no longer minting new type numbers for unfigured hypotypes**.
 
 A large number of LACMIP's type specimens were published in the NHMLA's _Contributions in Science_ series (1957-2017), which is now available from the [Biodiversity Heritage Library](https://www.biodiversitylibrary.org/bibliography/122696#/summary).
 
@@ -73,4 +72,4 @@ Example: Hendy A, Walker L, Mertz W (2020). LACM Invertebrate Paleontology. Vers
 
 {% include figure image_path="/assets/images/citing_GBIF.png" alt="image of LACMIP's occurrence dataset on GBIF.org" caption="Cite LACMIP's GBIF dataset if you have used our digitized collections in your research." %}
 
-{% include figure image_path="/assets/images/citing_datadownload.png" alt="image of a custom data download on GBIF.org" caption="Contact the collections manager if you would like assistance creating a customized data download with a citable DOI, as in this [example](https://doi.org/10.15468/dl.ykhkrs)." %}
+{% include figure image_path="/assets/images/citing_datadownload.png" alt="image of a custom data download on GBIF.org" caption="Contact the collections manager if you would like assistance creating a customized data download with a citable DOI, as in this [example](https://doi.org/10.15468/dl.ykhkrs).
