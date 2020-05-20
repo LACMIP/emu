@@ -2,7 +2,7 @@
 title: Citing Data
 navcat: Workflows
 tags:
-last_modified_at: 2020-05-13
+last_modified_at: 2020-05-20
 ---
 
 **Proper citation of museum collections is critical to sustaining these resources**. If you intend to include LACMIP specimens or localities in publication, please follow the guidelines below. Likewise, in exchange for the use of LACMIP collections data in your research, we request that any resulting publications be shared with LACMIP staff.
