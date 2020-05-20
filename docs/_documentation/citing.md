@@ -27,7 +27,7 @@ If citing both the catalog and type numbers in-text becomes overly cumbersome, t
    {: .notice--warning}
 
 ## Where can I find these numbers?
-**All LACMIP specimens receive catalog numbers during digitization**, which includes a locality number _and_ lot number (i.e., LACMIP loc#.lot#). In turn, each cataloged lot may contain one or more individual specimens. If you intend to illustrate a specimen from a lot with multiple individuals, it is LACMIP's preference that a new catalog number be generated for each individual specimen. For example:
+**All LACMIP specimens receive catalog numbers during digitization.** Each catalog number includes a locality number _and_ lot number (i.e., LACMIP loc#.lot#), and, in turn, each lot may contain one or more individual specimens. If you intend to illustrate a specimen from a lot with multiple individuals, it is LACMIP's preference that a new catalog number be generated for each individual specimen. For example:
 
 - [LACMIP 10088.8](https://www.gbif.org/occurrence/2012637492) represents the 8th specimen lot cataloged from LACMIP locality 10088. This lot contains one specimen.
 - [LACMIP 23192.1](https://www.gbif.org/occurrence/2012634986) represents the 1st specimen lot cataloged from LACMIP locality 23192. This lot contains multiple specimens.
