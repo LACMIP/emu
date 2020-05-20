@@ -40,7 +40,7 @@ The LACMIP collections began issuing **type numbers** in the 1960s. However, in 
 **Specimens with type numbers for internal use only:**
 - unfigured hypotypes
 
-If a specimen has a type number, it must be referenced in-text with the catalog number. **Note that LACMIP is no longer minting new type numbers for unfigured hypotypes**.
+If a specimen has a type number, it must be referenced in-text with the catalog number. _LACMIP is no longer minting new type numbers for unfigured hypotypes._
 
 A large number of LACMIP's type specimens were published in the NHMLA's _Contributions in Science_ series (1957-2017), which is now available from the [Biodiversity Heritage Library](https://www.biodiversitylibrary.org/bibliography/122696#/summary).
 
