@@ -29,8 +29,8 @@ If citing both the catalog and type numbers in-text becomes overly cumbersome, t
 ## Where can I find these numbers?
 **All LACMIP specimens receive catalog numbers during digitization**, which includes a locality number _and_ lot number (i.e., LACMIP loc#.lot#). In turn, each cataloged lot may contain one or more individual specimens. If you intend to illustrate a specimen from a lot with multiple individuals, it is LACMIP's preference that a new catalog number be generated for each individual specimen.
 
-- Example 1: [LACMIP 10088.8](https://www.gbif.org/occurrence/2012637492) represents the 8th specimen lot cataloged from LACMIP locality 10088. This specimen lot contains one specimen.
-- Example 2: [LACMIP 23192.1](https://www.gbif.org/occurrence/2012634986) represents the 1st specimen lot cataloged from LACMIP locality 23192. This specimen lot contains multiple specimens.
+### Example 1: [LACMIP 10088.8](https://www.gbif.org/occurrence/2012637492) represents the 8th specimen lot cataloged from LACMIP locality 10088. This specimen lot contains one specimen.
+### Example 2: [LACMIP 23192.1](https://www.gbif.org/occurrence/2012634986) represents the 1st specimen lot cataloged from LACMIP locality 23192. This specimen lot contains multiple specimens.
 
 The LACMIP collections began issuing **type numbers** in the 1960s. However, in the 1980s, several large donations were assimilated into the LACMIP collections, meaning some "UCLA" and "CIT" numbers (among others) cited in the literature now have new, equivalent LACMIP numbers.
 
@@ -65,7 +65,7 @@ Example: "**LACMIP loc. 2533**" or "**LACMIP locality 2533**".
 If you need new locality numbers, complete the [LACMIP Locality Request Form](https://docs.google.com/spreadsheets/d/1v1xc2jFS-fva_YW_9lPM89yGpv7XCacIA1H0SAAgA8w/edit?usp=sharing) and submit it to the collections manager with any relevant permitting documentation.
 
 # Citing digitized collections
-If your research has benefitted from LACMIP's digitized collections data in any way, _**please**_ include the suggested citation for [our GBIF dataset](https://doi.org/10.15468/6nxzen) or [the archived resource](http://ipt.idigbio.org/resource?r=lacm-ip) in your reference list. Collections digitization requires significant resources that can only be sustained with evidence of use through proper attribution.
+If your research has benefitted from LACMIP's digitized collections data in any way, _**please**_ include the suggested citation for [our GBIF dataset](https://doi.org/10.15468/6nxzen) or [the archived resource](http://ipt.idigbio.org/resource?r=lacm-ip) in your reference list. **Collections digitization requires significant resources that can only be sustained with evidence of use through proper attribution.**
 
 Example: Hendy A, Walker L, Mertz W (2020). LACM Invertebrate Paleontology. Version 1.7. Natural History Museum of Los Angeles County. Occurrence dataset [https://doi.org/10.15468/6nxzen](https://doi.org/10.15468/6nxzen) accessed via GBIF.org on 2020-05-19.
 {: .notice--warning}
