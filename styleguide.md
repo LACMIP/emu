@@ -47,6 +47,7 @@ Adding `{: .notice--warning}` on a new line after your text block will highlight
 
 There are several things you may wish to control at the page level by overwriting site defaults. These include...
 - remove the right-hand table of contents by including `toc: false` to the yml header of the page
+- create new headers by preceeding text on a new line with `#`; first- (`#`) and second-tier (`##`) headers will index in sidebar navigation
 
 ## Naming files
 
