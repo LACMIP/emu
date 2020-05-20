@@ -44,13 +44,13 @@ See below for more information on [how to cite digitized collections](https://la
 
 If a specimen has a type number, it must be referenced in-text. Note that LACMIP is no longer minting new type numbers for unfigured hypotypes.
 
-The LACMIP collections began issuing type numbers in the late 1960s. However, in the 1980s, several large donations from UCLA and Cal Tech were assimilated into the LACMIP collections. As such, "UCLA" and "CIT" numbers (among others) cited in the literature now have new, equivalent LACMIP numbers.
+The LACMIP collections began issuing type numbers in the late 1960s. However, in the 1980s, several large donations were assimilated into the LACMIP collections. As such, "UCLA" and "CIT" numbers (among others) cited in the literature now have new, equivalent LACMIP numbers.
 
-{% include figure image_path="/assets/images/citing_example.png" alt="example of LACMIP type specimens figured in publication" caption="Large portions of the LACMIP collections once belonged to UCLA and CIT and, as such, were originally cited using different numbers. These numbers now have equivalent LACMIP catalog and type numbers that should be cited as such. [LACMIP 10079.7](https://www.gbif.org/occurrence/2012641180), illustrated in pink above, is one example." %}
+{% include figure image_path="/assets/images/citing_example.png" alt="example of LACMIP type specimens figured in publication" caption="Large portions of the LACMIP collections once belonged to UCLA and CIT. As such, they were originally cited using different institutional numbers. These numbers now have equivalent LACMIP catalog and type numbers. As one example, [LACMIP 10079.7](https://www.gbif.org/occurrence/2012641180) is illustrated in pink above." %}
 
-**For specimens that have been digitized and made available online,** type numbers can be found in the _dwc:otherCatalogueNumbers_ field on GBIF and iDigBio, along with any other historically assigned numbers (e.g. UCLA numbers). However, unlike catalog numbers, these numbers are not easily searchable online.
+**For specimens that have been digitized and made available online,** type numbers can be found in the _dwc:otherCatalogueNumbers_ field on GBIF and iDigBio, along with any other historically assigned numbers. That said, unlike catalog numbers, these numbers are not easily discoverable within biodiversity data aggregators.
 
-{% include figure image_path="/assets/images/citing_typenumber.png" alt="example of LACMIP type specimens published to GBIF" caption="Screenshot illustrating where to locate other catalog numbers on GBIF occurrence records. These numbers are not easily discoverable in biodiversity data aggregators." %}
+{% include figure image_path="/assets/images/citing_typenumber.png" alt="example of LACMIP type specimens published to GBIF" caption="Screenshot illustrating where to locate other catalog numbers on GBIF occurrence records. These numbers are not easily searchable online." %}
 
 A large number of LACMIP type specimens were published in the NHMLA's _Contributions in Science_ series (1957-2017), which is now available from the [Biodiversity Heritage Library](https://www.biodiversitylibrary.org/bibliography/122696#/summary).
 
