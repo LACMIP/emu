@@ -22,7 +22,7 @@ LACMIP specimens receive catalog numbers during digitization, which includes a l
 Example 1: [LACMIP 10088.8](https://www.gbif.org/occurrence/2012637492) represents the 8th specimen lot cataloged from LACMIP locality 10088. This specimen lot contains one specimen.
 {: .notice--warning}
 
-Example 2: [LACMIP 23192.1](https://www.gbif.org/occurrence/2012634986) represents the 1st specimen lot cataloged from LACMIP locality 23192. This specimen lot contains multiple specimens. If any of the individual specimens in this lot were to be figured in publication, they would be isolated and recataloged with their own unique catalog numbers.
+Example 2: [LACMIP 23192.1](https://www.gbif.org/occurrence/2012634986) represents the 1st specimen lot cataloged from LACMIP locality 23192. This specimen lot contains multiple specimens
 {: .notice--warning}
 
 **For specimens that have been digitized**, catalog numbers can be found by querying the LACMIP datasets on GBIF and iDigBio, which currently include all fossil insects and Cretaceous marine invertebrates from California (more coming soon). 
