@@ -89,3 +89,9 @@ Type of Statistic table
     - REVENUE ($): If an event or request results in revenue for the department, add this number in the _Value_ column with a _Comment_ indicating where the funds were distributed.
     - FACILITIES: If a visit results in use of specific equipment or facilties, list this in _Comments_.
     - AFFILIATION: Enter the affiliation for whomever made the research or outreach request, including internal affiliations, e.g. "NHMLA (Creative Services)", in _Comments_.
+
+## Multimedia tab
+
+{% include figure image_path="/assets/images/projects_multimedia.png" alt="screenshot of the Multimedia tab in the Projects module" caption="Screenshot of the *Multimedia* tab in the Projects module." %}
+
+Attach any media created for this request to the Multimedia tab.
