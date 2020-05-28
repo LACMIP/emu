@@ -2,7 +2,7 @@
 title: Exporting Data
 navcat: Basics
 tags: taxonomy
-last_modified_at: 2019-06-18
+last_modified_at: 2020-05-28
 ---
 There are several primary ways to get data out of EMu: copy-paste, user-created reports, and complex reports using [Crystal Reports](https://www.crystalreports.com/).
 
@@ -47,8 +47,8 @@ Listed here are commonly used and maintained LACMIP reports. You will see more t
 
 The following shared reports are available in the [Catalogue module]({{ site.baseurl }}/documentation/catalogue/)...
 
-- **IP Basic Record Output (internal)**: (spreadsheet) provides basic specimen occurrence data in [Darwin Core](https://dwc.tdwg.org/) format
-- **IP Basic Record Output (external)**: (spreadsheet) same report as *IP Basic Record Output (internal)*, but excluding the column *dwc:verbatimLocality* and truncating *dwc:latitude* and *dwc:longitude* to two decimal places each; this is the data we [publish to the IPT]({{ site.baseurl }}/documentation/ipt/)
+- **IP Basic Record Output (for internal use)**: (spreadsheet) provides basic specimen occurrence data in [Darwin Core](https://dwc.tdwg.org/) format
+- **IP Basic Record Output - IPT (for external use)**: (spreadsheet) same report as *IP Basic Record Output (internal)*, but excluding several column, such as *dwc:verbatimLocality* and truncating *dwc:latitude* and *dwc:longitude* to one decimal place; this is the data we [publish to the IPT]({{ site.baseurl }}/documentation/ipt/)
 - **IP Cat Num Gaps**: (PDF) lists any gaps in catalog number sequences
 - **IP Labels Regular**: (PDF) see documentation for [printing labels]({{ site.baseurl }}/documentation/labels/)
 - **IP Labels Type**: (PDF) see documentation for [printing labels]({{ site.baseurl }}/documentation/labels/)
@@ -59,6 +59,7 @@ The following shared reports are available in the [Sites module](({{ site.baseur
 - **Earth Map IP**: (kml) opens selected LACMIP localities in Google Earth, if they are georeferenced
 - **IP Loc ID Gaps**: (PDF) lists any gaps in the LACMIP locality number sequence; there should never be any, which this report can confirm
 - **IP Locality Report**: (spreadsheet) export of what traditionally would be included in a locality registry
+- **IP Locality Cards**: (PDF) creates printable locality cards to be stored with new field collections
 
 The following shared reports are available in the [Taxonomy module](({{ site.baseurl }}/documentation/taxonomy/))...
 
