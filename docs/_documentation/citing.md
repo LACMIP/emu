@@ -2,10 +2,10 @@
 title: Citing Collections Data
 navcat: Workflows
 tags:
-last_modified_at: 2020-05-20
+last_modified_at: 2020-06-09
 ---
 
-**Proper citation of museum collections is critical to sustaining these resources**. If you intend to include LACMIP specimens or localities in publication, please follow the guidelines below. Likewise, in exchange for the use of LACMIP collections data in your research, we request that any resulting publications be shared with LACMIP staff.
+**Proper citation of museum collections is critical to sustaining these resource.** Of equal importance is the reproducibility of research. If you intend to include LACMIP specimens or localities in publication, please follow the guidelines below. Likewise, in exchange for the use of LACMIP collections data in your research, we request that any resulting publications be shared with LACMIP staff.
 
 Questions and related inquiries should be directed to the collections manager: [lwalker@nhm.org](lwalker@nhm.org).
 
@@ -65,7 +65,7 @@ Example: "**LACMIP loc. 2533**" or "**LACMIP locality 2533**".
 If you need new locality numbers, download and complete the [LACMIP Locality Request Form](https://docs.google.com/spreadsheets/d/1v1xc2jFS-fva_YW_9lPM89yGpv7XCacIA1H0SAAgA8w/edit?usp=sharing) and submit it to the collections manager with any relevant documentation, including permitting paperwork and field notes (Open [form](https://docs.google.com/spreadsheets/d/1v1xc2jFS-fva_YW_9lPM89yGpv7XCacIA1H0SAAgA8w/edit?usp=sharing) > _File_ > _Download_). Each LACMIP locality is intended to represent a unique sampling event; for example, if an individual collects the same bed on two different days, each event should be assigned a its own locality number.
 
 # Citing digitized collections
-**Digitization requires significant resources that can only be sustained with evidence of use through proper attribution.** If your research has benefitted from LACMIP's digitized collections data in any way, include the suggested citation for [our GBIF dataset](https://doi.org/10.15468/6nxzen) in your reference list.
+**Digitization requires significant resources that can only be sustained with evidence of use through proper attribution.** If your research has benefitted from LACMIP's digitized collections data in any way, please include the suggested citation for [our GBIF dataset](https://doi.org/10.15468/6nxzen) in your reference list.
 
 Example: Hendy A, Walker L, Mertz W (2020). LACM Invertebrate Paleontology. Version 1.7. Natural History Museum of Los Angeles County. Occurrence dataset [https://doi.org/10.15468/6nxzen](https://doi.org/10.15468/6nxzen) accessed via GBIF.org on 2020-05-19.
 {: .notice--warning}
