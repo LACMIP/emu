@@ -5,7 +5,7 @@ tags:
 last_modified_at: 2020-06-09
 ---
 
-**Proper citation of museum collections is critical to sustaining these resource.** Of equal importance is the reproducibility of research. If you intend to include LACMIP specimens or localities in publication, please follow the guidelines below. Likewise, in exchange for the use of LACMIP collections data in your research, we request that any resulting publications be shared with LACMIP staff.
+**Proper citation of museum collections is critical to sustaining these resource. Of equal importance is the reproducibility of your research.** If you intend to include LACMIP specimens or localities in publication, please follow the guidelines below. Likewise, in exchange for the use of LACMIP collections data in your research, we request that any resulting publications be shared with LACMIP staff.
 
 Questions and related inquiries should be directed to the collections manager: [lwalker@nhm.org](lwalker@nhm.org).
 
