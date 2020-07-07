@@ -2,17 +2,17 @@
 title: Cataloging
 navcat: Workflows
 tags: cataloging
-last_modified_at: 2019-06-25
+last_modified_at: 2020-07-07
 ---
 
-Cataloging (a.k.a. databasing) is a critical step in digitization, and the creation of accurate digital catalog records facilitates both better collection management and easier access to specimen data for research. LACMIP has used several different databases to enter and manage specimen catalog records over the past couple decades, mostly recently Microsoft Access and currently Axiell EMu. Cataloging in EMu offers several key benefits over doing so in Access, including more consistent and efficient data entry.
+Cataloging (a.k.a. databasing) is a critical step in digitization, and the creation of accurate digital catalog records facilitates collection management and access to specimen data for research. Over the past two decades, LACMIP has used several different databases to enter and manage specimen catalog records, most recently Microsoft Access and currently Axiell EMu. Cataloging in EMu offers several key benefits over Access, including more consistent and efficient data entry.
 
 **Before following the protocol here, please review documentation for the [Catalogue module]({{ site.baseurl }}/documentation/catalogue/).**
 {: .notice--warning}
 
 ## Understanding the ID tag
 
-{% include figure image_path="/assets/images/cataloging_idtag.jpg" alt="image of ID tag" caption="Figure showing a specimen identification tag, with numbers corresponding to the documentation below." %}
+{% include figure image_path="/assets/images/cataloging_idtag2020.png" alt="image of ID tag" caption="Figure showing a specimen identification tag, with numbers corresponding to the documentation below." %}
 
 Information to be digitally cataloged is written on the identification tag in each lot. Familiarize yourself with the anatomy of these tags before proceeding:
 1. **Catalog number**, a combination of the specimen's locality number and lot number, e.g. "LACMIP 2533.1" (where the locality number is "LACMIP 2533" and the lot number is "1")
