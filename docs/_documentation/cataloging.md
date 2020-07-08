@@ -2,7 +2,7 @@
 title: Cataloging
 navcat: Workflows
 tags: cataloging
-last_modified_at: 2020-07-07
+last_modified_at: 2020-07-08
 ---
 
 Cataloging (a.k.a. databasing) is a critical step in digitization, and the creation of accurate digital catalog records facilitates collection management and access to specimen data for research. Over the past two decades, LACMIP has used several different databases to enter and manage specimen catalog records, most recently Microsoft Access and currently Axiell EMu. Cataloging in EMu offers several key benefits over Access, including more consistent and efficient data entry.
@@ -36,22 +36,25 @@ There are two possible cataloging scenarios, and looking at the ID tag will tell
 
 Less commonly, if the specimen was previously cataloged and the existing record needs updating, the catalog number will already be filled out with both a locality and lot number (e.g. "LACMIP 2533.1"). Consult the Collections Manager the first time you think you've encountered this scenario. If this is the case, you will follow the instructions for ["Editing a Catalogue Record"]({{ site.baseurl }}/documentation/cataloging/#editing-a-catalogue-record). 
 
-### Creating a new catalogue record
+## Creating a new catalogue record
 
 Creating a new catalogue record is the most common kind of cataloging you will do when working with the LACMIP collection, which is enormous and will take years and years of concerted effort to completely catalog. There are a few important things to keep in mind when cataloging:
+- Work with one specimen lot (box) at a time. 
 - Some boxes contain multiple ID tags, i.e. for some specimens you will be creating multiple catalogue records. Always catalog the top ID tag first.
-- Never remove any labels from a specimen box.
-- Please do not reorganize the boxes within their trays during cataloging.
+- **Never remove any labels** from their boxes.
+- **Do not reorganize the boxes** within their trays during cataloging.
 
-EMu can facilitate very efficient cataloging if you take a few minutes to set up your workflow smartly. Default values and ditto-ing are two tools to help you do just that, and are explained further down in this section.
+EMu can facilitate very efficient cataloging if you take a few minutes to set up your workflow. Default values and ditto-ing are two tools to help you do just that, and are explained further down in this section.
 
-#### Entering the ID tag data
+### Entering the ID tag data
 
-Begin by creating a new catalogue record (*File > New Record*) and following the step-by-step instructions below. Please note that these are general instructions and you should **always feel free to ask questions** when you are unsure! Also, remember that the documentation for the [Catalogue module]({{ site.baseurl }}/documentation/catalogue/) provides more detailed information that you should review in addition to this.
+Begin by creating a new catalogue record (*File > New Record*) and following the step-by-step instructions below. Please note that these are general instructions and you should **always feel free to ask questions** when you are unsure! Also, remember that the documentation for the [Catalogue module]({{ site.baseurl }}/documentation/catalogue/) provides more detailed information about specific fields and possible values that you should also review.
+
+Before beginning, have an IP staff member print out th
 
 **On the *Invert. Paleo.* tab...**
 
-{% include figure image_path="/assets/images/cataloging_example2.png" alt="image of example catalogue record with ID tag" caption="Figure mapping fields from the paper ID tag to their EMu counterparts on the *Invert. Paleo.* tab of the Catalogue module. Yellow highlighting indicates fields that you need to fill out but for which information is not recorded on the ID tag." %}
+{% include figure image_path="/assets/images/cataloging_example1_2020.jpg" alt="image of example catalogue record with ID tag" caption="Figure mapping fields from the paper ID tag to their EMu counterparts on the *Invert. Paleo.* tab of the Catalogue module." %}
 
 1. Type the LACMIP locality number into the *Locality* field in EMu. You only need to enter the numerals. When you click outside of the field EMu will look up and attach the [site record]({{ site.baseurl }}/documentation/sites/) for this locality. Check that the information in this field looks correct, e.g. if you are cataloging material from the Chico Formation and the site record data says "Ladd Formation" that may be a sign you mis-typed the locality number.
 1. Write the lot number on the paper ID tag. EMu will autogenerate this in the *Lot No.* field. Please note that when EMu autogenerates this number is inconsistent, and may be either immediately or at the time you save the record.
