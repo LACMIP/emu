@@ -32,11 +32,11 @@ Cataloging begins with identification tags. As IP staff sort through the collect
 
 ## Two possibilities: to catalog or edit?
 
-There are two possible cataloging scenarios, and looking at the ID tag will tell you which. If the specimen has never been catalog number (and needs to be cataloged), only a locality number will be present, but the lot number will be blank. In this case, proceed with creating a new catalog record, as outlined immediately below. 
+There are two possible cataloging scenarios, and looking at the ID tag will tell you which. If the specimen needs a catalog number, only a locality number will be present (e.g., "LACMIP 2533."); the lot number will be blank. In this case, proceed with creating a new catalog record, as outlined immediately below. 
 
-Less commonly, if the specimen was previously cataloged and the existing record needs updating, the catalog number will already be filled out; follow the instructions in the "Editing a Catalogue Record" section, further below. Consult the Collections Manager the first time you think you've encountered this scenario.
+Less commonly, if the specimen was previously cataloged and the existing record needs updating, the catalog number will already be filled out with both a locality and lot number (e.g. "LACMIP 2533.1"). Consult the Collections Manager the first time you think you've encountered this scenario. If this is the case, you will follow the instructions for ["Editing a Catalogue Record"]({{ site.baseurl }}/documentation/cataloging/#editing-a-catalogue-record). 
 
-## Creating a new catalogue record
+### Creating a new catalogue record
 
 Creating a new catalogue record is the most common kind of cataloging you will do when working with the LACMIP collection, which is enormous and will take years and years of concerted effort to completely catalog. There are a few important things to keep in mind when cataloging:
 - Some boxes contain multiple ID tags, i.e. for some specimens you will be creating multiple catalogue records. Always catalog the top ID tag first.
@@ -45,7 +45,7 @@ Creating a new catalogue record is the most common kind of cataloging you will d
 
 EMu can facilitate very efficient cataloging if you take a few minutes to set up your workflow smartly. Default values and ditto-ing are two tools to help you do just that, and are explained further down in this section.
 
-### Entering the ID tag data
+#### Entering the ID tag data
 
 Begin by creating a new catalogue record (*File > New Record*) and following the step-by-step instructions below. Please note that these are general instructions and you should **always feel free to ask questions** when you are unsure! Also, remember that the documentation for the [Catalogue module]({{ site.baseurl }}/documentation/catalogue/) provides more detailed information that you should review in addition to this.
 
@@ -88,7 +88,7 @@ Begin by creating a new catalogue record (*File > New Record*) and following the
 
 That's it! Save the catalogue record, **make sure you remembered to record the lot number on the paper ID tag**, and move on to the next specimen.
 
-### Ditto-ing values
+#### Ditto-ing values
 
 Using EMu's [ditto](http://help.emu.axiell.com/latest/en/Topics/Common/The%20Ditto%20utility.htm?Highlight=ditto) function can help you quickly copy over information from one catalog record to the next. For example...
 - You have a tray of EPICC specimen lots to catalog and all belong to the same locality. Ditto the *Invert. Paleo.* tab.
@@ -101,7 +101,7 @@ To use the ditto function, create a new catalogue record and fill out the fields
 The keyboard shortcut for *Edit > Ditto > All Fields* is *Shift + F9*, or *Shift + Fn + F9*. Using this key command will save you a significant amount of time.
 {: .notice--warning}
 
-### Setting default values
+#### Setting default values
 
 **We recommend that new catalogers stick to using ditto (above) at least until they are more comfortable with EMu!**
 {: .notice--warning}
@@ -125,7 +125,7 @@ Now when you create a new record EMu will autofill the fields you just set as de
 
 For more on this topic, see Axiell's documentation for [setting defaults in EMu](http://help.emu.axiell.com/v5.1/en/Topics/Common/How%20to%20make%20use%20of%20default%20values.htm).
 
-### Using key commands
+#### Using key commands
 
 The effective use of key commands will make cataloging both easier and faster. See Axiell's [Keyboard Shortcuts & Quick Reference Guide](http://help.emu.axiell.com/latest/en/Resources/Downloads/Quick%20Reference%20Guide/EMu_QuickRef_Guide_IE_20170629.pdf) in addition to the quick tips below. Keep in mind that not all key commands work on a Mac and/or via the VPN remote access.
 
@@ -136,7 +136,7 @@ Must-have key commands for cataloging include:
 - **Save** with *Ctrl + s*.
 - Create a **new record** with *Crtl + n*.
 
-## Editing a catalogue record
+### Editing a catalogue record
 
 The most common reason that catalogue records need to be edited is to update the lot count and/or identification of a specimen that was cataloged circa 2002-2013. These specimens are frequently interspersed with previously uncataloged specimens in a single tray. There are a few important things to keep in mind when editing catalogue records:
 - Some boxes contain multiple ID tags, i.e. for some specimens you may be editing multiple catalogue records.
