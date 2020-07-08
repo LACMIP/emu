@@ -12,19 +12,21 @@ Cataloging (a.k.a. databasing) is a critical step in digitization, and the creat
 
 ## Understanding the ID tag
 
-{% include figure image_path="/assets/images/cataloging_idtag2020.png" alt="image of ID tag" caption="Figure showing a specimen identification tag, with numbers corresponding to the documentation below." %}
+{% include figure image_path="/assets/images/cataloging_idtag2020.jpg" alt="image of ID tag" caption="Figure showing a blank specimen identification tag. Each highlighted area corresponds to a step or field in the cataloging workflow, explained in more depth below." %}
+ 
+As IP staff sort through the collection, they identify as many specimens as possible. This information is hand recorded on specimen ID tags so that it can be transcribed into the database during cataloging. Familiarize yourself with the "anatomy" of these tags before proceeding:
 
-Information to be digitally cataloged is written on the identification tag in each lot. Familiarize yourself with the anatomy of these tags before proceeding:
-1. **Catalog number**, a combination of the specimen's locality number and lot number, e.g. "LACMIP 2533.1" (where the locality number is "LACMIP 2533" and the lot number is "1")
-2. **Previous number** assigned to the specimen by another institution, e.g. "UCLA 53347"
-3. **New ID** assigned by current LACMIP staff; sometimes the same as the Old ID
-4. **Old ID** previously assigned to the specimen; sometimes the same as the New ID
-5. **Comments** about the taxonomic identification
-6. **Edit** box, which is checked if the specimen needs catalogue record edits (vs. to be cataloged anew)
-7. **Count** of how many specimens are present (see documentation for [counting]({{ site.baseurl }}/documentation/digitizing/))
-8. **Collection**, either "ST" for specimens physically stored in the stratigraphic collection, or "TX" for specimens physically stored in the taxonomic collection
-9. **ID By**, or the name of the person who wrote out this label, often pre-printed
-10. **Date** of the identification, often pre-printed on the labels
+1. The **LACMIP number**, or **catalog number**, represents a combination of two numbers: a locality number + lot number. For example, the catalog number "LACMIP 2533.1" translates to lot 1 cataloged from locality 2533, meaning the 2nd and 3rd lots cataloged from this locality would be LACMIP 2533.2, LACMIP 2533.3, and so on.
+2. **Alt #** refers to catalog numbers assigned to the specimen by another institution, e.g. "UCLA 53347".
+3. **Count** refers to the number of specimens identified in the lot (see documentation for [counting]({{ site.baseurl }}/documentation/digitizing/)). There may be one or more specimens counted per lot.
+4. **Project** refers to the relevant project, typically funding-related.
+5. **TX/ST** refers to which subcollection the specimen is destined to be stored in, whereby "ST" specimens are physically stored in the stratigraphic collection, and "TX" specimens are physically stored in the taxonomic collection.
+6. **New ID** is the identification assigned by current LACMIP staff; these identifications may be the same as the Old ID.
+7. **ID By** is the name of the person who wrote out this label; this name is often pre-printed and includes the date of identification.
+8. **Old name** is a previously assigned identification to the specimen; sometimes the same as the New ID.
+9. **Old ID by** is the name of the person who wrote out the old identification label and, when known, also includes the date.
+10. Blank space is provided for when **Original Nature** and **Anatomy** descriptions deviate from their default values, "body fossil" and "shell(s)", respectively.
+11. Likewise, **additional comments** about the taxonomic identification may be written on the back of the specimen tag.
 
 There are two possible cataloging scenarios, and looking at the ID tag will tell you which. If the specimen has never been given a LACMIP catalog number **the *Edit* box will be unchecked** and you will create a new catalogue record, as detailed in the following section. If the specimen was previously cataloged and the existing record needs updating **the *Edit* box will be checked** and you will follow the instructions in the "Editing a Catalogue Record" section, below.
 
