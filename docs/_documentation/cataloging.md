@@ -16,17 +16,19 @@ Cataloging (a.k.a. databasing) is a critical step in digitization, and the creat
  
 As IP staff sort through the collection, they identify as many specimens as possible. This information is hand recorded on specimen ID tags so that it can be transcribed into the database during cataloging. Familiarize yourself with the "anatomy" of these tags before proceeding:
 
-1. The **LACMIP number**, or **catalog number**, represents a combination of two numbers: a locality number + lot number. For example, the catalog number "LACMIP 2533.1" translates to lot 1 cataloged from locality 2533, meaning the 2nd and 3rd lots cataloged from this locality would be LACMIP 2533.2, LACMIP 2533.3, and so on.
-2. **Alt #** refers to catalog numbers assigned to the specimen by another institution, e.g. "UCLA 53347".
-3. **Count** refers to the number of specimens identified in the lot (see documentation for [counting]({{ site.baseurl }}/documentation/digitizing/)). There may be one or more specimens counted per lot.
-4. **Project** refers to the relevant project, typically funding-related.
-5. **TX/ST** refers to which subcollection the specimen is destined to be stored in, whereby "ST" specimens are physically stored in the stratigraphic collection, and "TX" specimens are physically stored in the taxonomic collection.
-6. **New ID** is the identification assigned by current LACMIP staff; these identifications may be the same as the Old ID.
-7. **ID By** is the name of the person who wrote out this label; this name is often pre-printed and includes the date of identification.
-8. **Old name** is a previously assigned identification to the specimen; sometimes the same as the New ID.
-9. **Old ID by** is the name of the person who wrote out the old identification label and, when known, also includes the date.
-10. Blank space is provided for when **Original Nature** and **Anatomy** descriptions deviate from their default values, "body fossil" and "shell(s)", respectively.
-11. Likewise, **additional comments** about the taxonomic identification may be written on the back of the specimen tag.
+ *Value* | *Explanation*
+   --- | ---
+   **LACMIP number** | This is the **catalog number**, which represents a combination of two numbers: a locality number + lot number. For example, the catalog number "LACMIP 2533.1" translates to the 1st lot cataloged from LACMIP locality 2533. Likewise, the catalog numbers for the 2nd and 3rd lots cataloged from this same locality would be LACMIP 2533.2, LACMIP 2533.3, and so on.
+   **Alt #** | Refers to catalog numbers previously assigned to the specimen by another institution, e.g. "UCLA 53347"
+   **Count** | Refers to the number of specimens identified in the lot (see documentation for [counting]({{ site.baseurl }}/documentation/digitizing/)).
+   **Project** | Refers to the relevant project, typically funding-related, e.g. "FIC" or "WIS", and may be pre-printed.
+   **TX/ST** | Refers to which the collection in which the specimen is to be stored, whereby "ST" specimens are physically stored in the stratigraphic collection, and "TX" specimens are physically stored in the taxonomic collection.
+   **New ID** | This is the lot's identification assigned by current LACMIP staff; these identifications may be the same as the Old ID.
+   **ID By** | The name of the person who wrote out the ID tag; this name is often pre-printed and includes the date of identification
+   **Old name** | If applicable, this is an identification that was previously assigned to the specimen lot; sometimes it's the same as the New ID.
+   **Old ID by** | If applicable, this is the the person who made the old identification; when known, it also includes the date.
+   
+: Blank space is also provided to accomodate **Original Nature** (=mode of fossilization or preparation) and **Anatomy** (=anatomical elements), which is used when the values for these categories deviate from their default values, "body fossil" and "shell(s)", respectively. Likewise, **additional comments** about the taxonomic identification may be written on the back of the specimen tag, to be transcribed into _Comments_ for the **New ID**.
 
 There are two possible cataloging scenarios, and looking at the ID tag will tell you which. If the specimen has never been given a LACMIP catalog number **the *Edit* box will be unchecked** and you will create a new catalogue record, as detailed in the following section. If the specimen was previously cataloged and the existing record needs updating **the *Edit* box will be checked** and you will follow the instructions in the "Editing a Catalogue Record" section, below.
 
