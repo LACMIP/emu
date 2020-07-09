@@ -28,7 +28,7 @@ Cataloging begins with identification tags. As IP staff sort through the collect
    **Old name** | If applicable, this space is reserved for old identifications that were previously assigned to the specimen lot; sometimes this ID is the same as the New ID.
    **Old ID by** | If applicable, this space is reserved for the name of the person who made the old identification. If known, it will also include the date.
    
-   Above **New ID**, blank space is provided to accomodate **Original Nature** (the fossil's mode of preservation or preparation) and **Anatomy** (anatomical elements). This space is only used when the values for these categories deviate from their default values, "body fossil" and "shell(s)". Likewise, **additional comments** about the taxonomic identification may be written on the back of the specimen tag, to be transcribed into _Comments_ for the **New ID**.
+Above **New ID**, blank space is provided to accomodate **Original Nature** (the fossil's mode of preservation or preparation) and **Anatomy** (anatomical elements). This space is only used when the values for these categories deviate from their default values, "body fossil" and "shell(s)". Likewise, **additional comments** about the taxonomic identification may be written on the back of the specimen tag, to be transcribed into _Comments_ for the **New ID**.
 
 ## Two possibilities: to catalog or edit?
 
@@ -67,7 +67,6 @@ Immediately notify an IP staff member if EMu does not generate a lot number, or 
 1. If the paper ID tag has anything recorded next to *Prev.* enter it in the *Inst. Code* and *Inst. Number* EMu fields.
 1. Check that th *Collection* field matches what's on paper ID tag says. The default value is "ST", so you only need to change it if "TX" is circled. TX (taxonomic) specimens should also have a blue "Moved to Taxonomic Coll." paper tag in addition to the standard white paper ID tag.
 
-{% include figure image_path="/assets/images/cataloging_txtag.jpg" alt="image of example TX tag" caption="A blue "TX tag" will accompany any specimens that are to be stored in the taxonomic collection. Change the value for *Collection* to "TX" and write in the relevant lot number(s) on the blue tag." %
 
 1. *Project* depends on the specimens you are cataloging, e.g. "EPICC".
 1. You will almost always be cataloging specimens with a consistent *Original Nature*, typically "body fossil" for mollusks.
