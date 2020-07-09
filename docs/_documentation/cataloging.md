@@ -50,18 +50,25 @@ EMu can facilitate very efficient cataloging if you take a few minutes to set up
 
 Begin by creating a new catalogue record (*File > New Record*) and following the step-by-step instructions below. Please note that these are general instructions and you should **always feel free to ask questions** when you are unsure! Also, remember that the documentation for the [Catalogue module]({{ site.baseurl }}/documentation/catalogue/) provides more detailed information about specific fields and possible values that you should also review.
 
-Before beginning, have an IP staff member print out th
-
 **On the *Invert. Paleo.* tab...**
+
+Before beginning, right-click on the image below to enlarge it in a separate tab or window. An IP staff member can also print it out for you.
 
 {% include figure image_path="/assets/images/cataloging_example1_2020.jpg" alt="image of example catalogue record with ID tag" caption="Figure mapping fields from the paper ID tag to their EMu counterparts on the *Invert. Paleo.* tab of the Catalogue module." %}
 
-1. Type the LACMIP locality number into the *Locality* field in EMu. You only need to enter the numerals. When you click outside of the field EMu will look up and attach the [site record]({{ site.baseurl }}/documentation/sites/) for this locality. Check that the information in this field looks correct, e.g. if you are cataloging material from the Chico Formation and the site record data says "Ladd Formation" that may be a sign you mis-typed the locality number.
+1. Type the LACMIP locality number into the *Locality* field in EMu. You only need to enter the numerals. When you click outside of the field, EMu will look up and attach the [site record]({{ site.baseurl }}/documentation/sites/) for this locality. Check that the information in this field looks correct, e.g. if you are cataloging material from the Chico Formation and the site record data says "Ladd Formation", that would suggest you mis-typed the locality number.
 1. Write the lot number on the paper ID tag. EMu will autogenerate this in the *Lot No.* field. Please note that when EMu autogenerates this number is inconsistent, and may be either immediately or at the time you save the record.
-1. Enter the *Count* from the paper ID tag into the EMu *Lot Count* field.
+
+Immediately notify an IP staff member if EMu does not generate a lot number, or if you believe the lot number is incorrect (e.g., if a number was skipped).
+{: .notice--warning}
+
+1. Enter the *Count* from the paper ID tag into the EMu *Lot Count* field. (The record will not save if you leave this field blank.)
 1. Check that the EMu *Disp.* (disposition) is "in collection."
 1. If the paper ID tag has anything recorded next to *Prev.* enter it in the *Inst. Code* and *Inst. Number* EMu fields.
-1. Check that the EMu *Collection* field matches what the paper ID tag says. The default in EMu is "ST" so you really only need to pay attention to tags where "TX" is circled. TX (taxonomic) specimens should also have a blue "Moved to Taxonomic Coll." paper tag in addition to the standard white paper ID tag.
+1. Check that th *Collection* field matches what's on paper ID tag says. The default value is "ST", so you only need to change it if "TX" is circled. TX (taxonomic) specimens should also have a blue "Moved to Taxonomic Coll." paper tag in addition to the standard white paper ID tag.
+
+{% include figure image_path="/assets/images/cataloging_txtag.jpg" alt="image of example TX tag" caption="A blue "TX tag" will accompany any specimens that are to be stored in the taxonomic collection. Change the value for *Collection* to "TX" and write in the relevant lot number(s) on the blue tag." %
+
 1. *Project* depends on the specimens you are cataloging, e.g. "EPICC".
 1. You will almost always be cataloging specimens with a consistent *Original Nature*, typically "body fossil" for mollusks.
 1. You will frequently be cataloging specimens with a consistent *Anatomy*, typically "shell(s)" for mollusks.
