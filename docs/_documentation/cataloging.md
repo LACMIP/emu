@@ -16,7 +16,7 @@ Cataloging (a.k.a. databasing) is a critical step in digitization, and the creat
 
 Cataloging begins with identification tags. As IP staff sort through the collection, they identify specimens and record this information for transcription into the database. It is important that you familiarize yourself with the "anatomy" of these tags before proceeding:
 
- *Field* | *Explanation*
+ *ID Tag Field* | *Explanation*
    --- | ---
    **LACMIP loc#.lot#** | Reserved for the **catalog number**, which represents a combination of two numbers: a **locality number** and **lot number**. For example, the catalog number "LACMIP 2533.1" translates to the 1st lot cataloged from LACMIP locality 2533. Likewise, the catalog numbers for the 2nd and 3rd lots cataloged from this same locality would be LACMIP 2533.2, LACMIP 2533.3, and so on. _The lot number is the only thing you will write on the tag during cataloging._
    **Alt #** | Reserved for catalog numbers that were previously assigned to the specimen lot by another institution, e.g. "UCLA 53347".
@@ -56,12 +56,16 @@ Begin by creating a new catalogue record (*File > New Record*) and following the
 
 Before beginning, right-click on the image above to enlarge it in a separate tab or window. An IP staff member can also print it out for you." %}
 
+ *Cataloging Step* | *On the Invert. Paleo. tab...*
+   --- | ---
    1 | Type the LACMIP locality number into the *Locality* field in EMu. You only need to enter the numerals and immediately hit "tab". Pause before moving on; EMu will attach the corresponding [site record]({{ site.baseurl }}/documentation/sites/). Check that the information in this field looks correct, e.g. if you are cataloging material from the Chico Formation and the site record data says "Ladd Formation", that would suggest you mis-typed the locality number.
    2 | Write the auto-generated lot number on the paper ID tag. EMu will populate this in the *Lot No.* field.
    
 Immediately notify an IP staff member if EMu does **not** generate a lot number, or if you believe it was generated **incorrectly**. Lot numbers should increase sequentially.
 {: .notice--warning}
 
+ *Cataloging Step* | *On the Invert. Paleo. tab...*
+    --- | ---
    3 | Enter the *Count* from the paper ID tag into the EMu *Lot Count* field. (The record will not save if you leave this field blank.)
    4 | Check that the EMu *Disp.* (disposition) is "in collection."
    5 | Enter any information next to *Alt #* on the ID tag into the *Inst. Code* and *Inst. Number* fields in EMu.
@@ -69,6 +73,8 @@ Immediately notify an IP staff member if EMu does **not** generate a lot number,
    
 {% include figure image_path="/assets/images/cataloging_txtag.png" alt="image of example TX tag" caption="All specimens destined for the taxonomic collection should be accompanied by a blue TX tag. Add the lot numbers to these tags when you catalog them." %}
 
+ *Cataloging Step* | *On the Invert. Paleo. tab...*
+    --- | ---
    7 | *Project* depends on the specimens you are cataloging, e.g. "WIS". This value may be pre-printed on the ID tag.
    8 | For *Original Nature*, select "body fossil" unless something else is stated on the ID tag.
    9 | For *Anatomy*, select "shell(s)" unless something else is stated on the ID tag.
