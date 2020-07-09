@@ -56,7 +56,7 @@ Begin by creating a new catalogue record (*File > New Record*) and following the
 
 Before beginning, right-click on the image above to enlarge it in a separate tab or window. An IP staff member can also print it out for you." %}
 
- *Step* | On the Invert. Paleo. tab...*
+ *Step* | *On the Invert. Paleo. tab...*
    --- | ---
    1 | Type the LACMIP locality number into the *Locality* field in EMu. You only need to enter the numerals. When you click outside of the field, EMu will look up and attach the [site record]({{ site.baseurl }}/documentation/sites/) for this locality. Check that the information in this field looks correct, e.g. if you are cataloging material from the Chico Formation and the site record data says "Ladd Formation", that would suggest you mis-typed the locality number.
    2 | Write the lot number on the paper ID tag. EMu will autogenerate this in the *Lot No.* field. Please note that when EMu autogenerates this number is inconsistent, and may be either immediately or at the time you save the record.
