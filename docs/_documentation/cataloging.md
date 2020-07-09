@@ -52,16 +52,14 @@ Begin by creating a new catalogue record (*File > New Record*) and following the
 
 **On the *Invert. Paleo.* tab...**
 
-{% include figure image_path="/assets/images/cataloging_example1_2020.jpg" alt="image of example catalogue record with ID tag" caption="Figure mapping fields from the paper ID tag to their EMu counterparts on the *Invert. Paleo.* tab of the Catalogue module. 
-
-Before beginning, right-click on the image above to enlarge it in a separate tab or window. An IP staff member can also print it out for you." %}
+{% include figure image_path="/assets/images/cataloging_example1_2020.jpg" alt="image of example catalogue record with ID tag" caption="Figure mapping fields from the paper ID tag to their EMu counterparts on the *Invert. Paleo.* tab of the Catalogue module. **Before cataloging for the first time, right-click the image above to enlarge it in a separate tab or window.** An IP staff member can also print it out for you." %}
 
  *Step* | *On the Invert. Paleo. tab...*
    --- | ---
    1 | Type the LACMIP locality number into the *Locality* field in EMu. You only need to enter the numerals and immediately hit "tab". Pause before moving on; EMu will attach the corresponding [site record]({{ site.baseurl }}/documentation/sites/). Check that the information in this field looks correct, e.g. if you are cataloging material from the Chico Formation and the site record data says "Ladd Formation", that would suggest you mis-typed the locality number.
    2 | Write the auto-generated lot number on the paper ID tag. EMu will populate this in the *Lot No.* field.
    
-Immediately notify an IP staff member if EMu does **not** generate a lot number, or if you believe it was generated **incorrectly**. Lot numbers should increase sequentially.
+**Immediately notify an IP staff member if EMu does _not_ generate a lot number, or if you believe it was generated incorrectly**. Lot numbers should always increase sequentially.
 {: .notice--warning}
 
  *Step* | *On the Invert. Paleo. tab...*
@@ -81,13 +79,22 @@ Immediately notify an IP staff member if EMu does **not** generate a lot number,
 
 **On the *Identifications (1)* tab...**
 
-{% include figure image_path="/assets/images/cataloging_example1.png" alt="image of example catalogue record with ID tag" caption="Figure mapping fields from the paper ID tag to their EMu counterparts on the *Identifications (1)* tab of the Catalogue module. Yellow highlighting indicates fields that you need to check but for which information is not recorded on the ID tag." %}
+If you are new to taxonomy and binomial nomenclature, please watch the following video and review [this article](https://www.digitalatlasofancientlife.org/learn/systematics/taxonomy/) to familiarize yourself with these concepts before proceeding.
+{% include video id="409784937" provider="youtube" %}
 
-1. Look at the *Old ID* field on the paper ID tag. If it says "null" then you will only be entering one identification in EMu. If it has a name then you will be entering two identifications (one old, one new).
-1. Begin with the *New ID*. Type the taxonomic name into the *Taxon* field in EMu. If you know the taxonomic rank, including it will allow EMu to attach the appropriate [taxonomy record]({{ site.baseurl }}/documentation/taxonomy/) automatically, e.g. "turritella encina species" or "turritellidae family." If you do not include the rank then EMu will bring up a taxonomy search for you to select the record  you wish to attach by clicking on the green plus sign icon.
+{% include figure image_path="/assets/images/cataloging_example2_2020.jpg" alt="image of example catalogue record with ID tag" caption="Figure mapping fields from the paper ID tag to their EMu counterparts on the *Identifications (1)* tab of the Catalogue module. **Before cataloging for the first time, right-click the image above to enlarge it in a separate tab or window.** An IP staff member can also print it out for you." %}
 
-    Figuring out the taxonomic rank for an "indet." name can be tricky, but looking at the last few letters of the name can help. When rank = "family" the name usually ends with "dae," e.g. "Ostreidae." When rank = "order" the name usually ends with "ida," e.g. "Ostreida."
-    {: .notice--warning}
+Every specimen ID tag will have a *New ID* to be entered into the database; only some will also have an *Old name* to enter.
+
+ *Step* | *On the Identifications (1) tab...*
+   --- | ---
+   10 | Begin with the *New ID*. Type the name into the *Taxon* field in EMu, e.g. "turritella encina", and press tab. If _only one_ name in the database exists with this exact genus and species combination, the corresponding taxonomy record will automatically be attached after you press tab. If _multiple_ names in the database include this combination (e.g. "turritalla chicoensis"), all possible options in the Taxonomy module will appear, presenting you with all possible choices. The first time this happens, or whenever you are unsure of which name to choose, consult the Collections Manager.
+  
+Hints for entering identifications into EMu:
+- If the name written on the tag ends in "**sp.**", you are entering a **genus** (e.g. "Turritella sp."). In this case, only type in the genus name followed by the word "genus", "e.g. turritella genus". (EMu will not understand "Turritella sp.")
+- If the name written on the tag ends in "**indet.**", you are entering a name that ranks above genus, such as **family** or **order**. Family names typically end in "idae", e.g. "Turritell*idae*" or "Ostre*idae*".
+- If you cannot read the handwriting on the label, or no name is returned when you hit tab, ask an IP staff member for assistance. If no one is immediately available to assist you and you are trying to enter a *New ID* name, type "Unknown" in the *Taxon* field and "COULD NOT READ LABEL" in the *Comments* field; if you are trying to  enter an *Old name*, type "Old name" in the *Taxon* field and transcribe verbatim whatever is written on the label for *Old name*.
+{: .notice--warning}
 
 1. If the *New ID* includes a modifier (sp., indet., cf., aff.) record it in the EMu *Modifer* field and record the appropriate rank in the *Modifier Rank* field. For more details on modifiers, see the documentation for this field on the [Catalogue module page]({{ site.baseurl }}/documentation/catalogue/).
 1. Record *ID by* from the paper ID tag in *Identified By*. Names should be formatted "firstname lastname," e.g. "Shawn Wiedrick." This field is a lookup list in EMu so you can use a shortcut and just enter the last name for common identifiers, e.g. type in "Shawn" and "Shawn Wiedrick" will auto-complete.
