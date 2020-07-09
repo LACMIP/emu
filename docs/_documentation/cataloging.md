@@ -90,38 +90,35 @@ Begin by creating a new catalogue record (*File > New Record*) and following the
 
 **On the *Identifications (1)* tab...**
 
-####Tips for entering identifications into EMu:
-
-Every specimen ID tag will have a *New ID* to be entered into the database; only some will also have an *Old name* to enter.
-{: .notice--warning}
-
-If the name written on the tag ends in "**sp.**", you are entering a **genus** (e.g. "Turritella sp."). In this case, only type in the genus name followed by the word "genus", "e.g. turritella genus". (EMu will not understand "Turritella sp.").
-{: .notice--warning}
-
-If the name written on the tag ends in "**indet.**", you are entering a name that ranks above genus, such as **family** or **order**. Family names typically end in "idae", e.g. "Turritellidae" and "Ostreidae". (EMu will not understand "Turritellidae indet.")
-{: .notice--warning}
-
-If 
-
-**If you cannot read the handwriting on the ID tag**, or **no name is returned when you hit tab**, ask for assistance. If no one is immediately available to help and you are trying to enter a *New ID* name, type "Unknown kingdom" in the *Taxon* field and "COULD NOT ENTER NAME" in the *Comments* field; if you are trying to enter an *Old name*, type "Old name" in the *Taxon* field and transcribe verbatim whatever is written on the label for *Old name*.
-{: .notice--warning}
-
 {% include figure image_path="/assets/images/cataloging_example2_2020.jpg" alt="image of example catalogue record with ID tag" caption="Figure mapping fields from the paper ID tag to their EMu counterparts on the *Identifications (1)* tab of the Catalogue module. **Before cataloging for the first time, right-click the image above to enlarge it in a separate tab or window.** An IP staff member can also print it out for you." %}
 
  *Step* | *On the Identifications (1) tab...*
    --- | ---
    10 | Begin with the *New ID*. Type the name into the *Taxon* field in EMu, e.g. "turritella encina", and press tab. If _only one_ name in the database exists with this exact genus and species combination, the corresponding taxonomy record will automatically be attached after you press tab. If _multiple_ names in the database include this combination (e.g. "turritalla chicoensis"), all possible options in the Taxonomy module will appear, presenting you with all possible choices. The first time this happens, or whenever you are unsure of which name to choose, consult the Collections Manager.
+   
+If the name written on the tag ends in "**sp.**", you are entering a **genus** (e.g. "Turritella sp."). In this case, only type in the genus name followed by the word "genus", "e.g. turritella genus". (EMu will not understand "Turritella sp.").
+
+If the name written on the tag ends in "**indet.**", you are entering a name that ranks above genus, such as **family** or **order**. Family names typically end in "idae", e.g. "Turritellidae" and "Ostreidae". (EMu will not understand "Turritellidae indet.")
+{: .notice--warning}
+   
    11 | If the *New ID* includes a modifier (cf., aff.) record it in the EMu *Modifer* field and record the appropriate rank in the *Modifier Rank* field (typically, you would select *Modifier Rank*="genus" or "species"). For more details on modifiers, see the documentation for this field on the [Catalogue module page]({{ site.baseurl }}/documentation/catalogue/).
    12 | Record *ID by* from the paper ID tag in *Identified By*. Names should be formatted "firstname lastname," e.g. "Shawn Wiedrick". This field is a lookup list in EMu, so you can just enter the first name for common identifiers and the field will autocomplete, e.g. type in "Shawn", click on the lookup list icon, and "Shawn Wiedrick" will appear.
    13 | Record the date in *Date Identified* by selecting the calendar icon or typing in the date (DD/MM/YYYY). Dates do not need to include a day or month, i.e. they may be just a year.
    14 | If additional notes are written on the back of the ID tag, record them verbatim in *Comments*.
    15 | Select "Yes" for both *Filed As* and *Currently Accepted*.
-   16 | If an *Old name* has been provided on the ID tag, create a new identification by clicking in the second row of the *Identification List* table. You should see new, empty fields above. As with the first (new) identification, type the taxonomic name into the *Taxon* field in EMu and enter any modifier data into *Modifier* and *Modifier Rank*. For *Old name* only, if the taxon doesn't appear, you may enter "Old name" into the *Taxon* field in EMu and then type out the name into the *Comments* field.
+   
+Every specimen ID tag will have a *New ID* to be entered into the database; only some will also have an *Old name* to enter.
+{: .notice--warning}
+   
+   16 | If an *Old name* has been provided, create a new identification by clicking in the second row of the *Identification List* table. You should see new, empty fields above. As with the first (new) identification, type the taxonomic name into the *Taxon* field in EMu and enter any modifier data into *Modifier* and *Modifier Rank*. For *Old name* only, if the taxon doesn't appear, you may enter "Old name" into the *Taxon* field in EMu and then type out the name into the *Comments* field.
    17 | If *Old ID by* is provided, enter the name (formatted "Firstname Lastname"); enter "unknown" if this field on the ID tag is blank.
    18 | If a date is provided for the *Old ID by*, enter thsi into *Date Identified* in EMu.
    19 | Select "No" for both *Filed As* and *Currently Accepted*.
 
-{% include figure image_path="/assets/images/cataloging_taxonomynotfound.png" alt="image of Identifications tab" caption="If you come across a taxonomic name in either the new or old ID that you **cannot find in EMu**, create an identification for it anyway as shown here. Fill out any fields you can, including *Identified By* and *Date Identified*. Then type the name that you cannot find in the *Comments* field, prefaced with 'TAXONOMY NOT FOUND: '." %}
+{% include figure image_path="/assets/images/cataloging_taxonomynotfound_2020.jpg" alt="image of Identifications tab" caption="Example of how to proceed if you come across a taxonomic name on an ID tag that you **cannot find in EMu**. Right-click the image above to enlarge it in a separate tab or window." %}
+
+**If you cannot read the handwriting on the ID tag**, or **no name is returned when you hit tab**, ask for assistance. If no one is immediately available to help: 1) if you are trying to enter a *New ID* into EMu, leave the *Taxon* field blank and enter "TAXONOMY NOT FOUND" followed by the *New ID* in EMu's *Comments* field (e.g. "TAXONOMY NOT FOUND Bittscala sp."; 2) if you are trying to enter an *Old name*, type "Old name" in the *Taxon* field and transcribe whatever is written on the ID tag for *Old name* in EMu's *Comments* field (e.g. "Placenticeras pacificum").
+{: .notice--warning}
 
 That's it! Save the catalogue record, **make sure you remembered to record the lot number on the paper ID tag**, and move on to the next specimen.
 
