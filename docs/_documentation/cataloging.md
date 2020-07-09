@@ -7,8 +7,12 @@ last_modified_at: 2020-07-08
 
 Cataloging (a.k.a. databasing) is a critical step in digitization, and the creation of accurate digital catalog records facilitates collection management and access to specimen data for research. Over the past two decades, LACMIP has used several different databases to enter and manage specimen catalog records, most recently Microsoft Access and currently Axiell EMu. Cataloging in EMu offers several key benefits over Access, including more consistent and efficient data entry.
 
-**Before following the protocol here, please review documentation for the [Catalogue module]({{ site.baseurl }}/documentation/catalogue/).**
-{: .notice--warning}
+# Introduction
+
+If you are new to LACMIP's cataloging workflow, review this section before beginning to create new catalog records.
+
+## Introduction to the Catalogue module
+If you are new to EMu, please review documentation for the [Catalogue module]({{ site.baseurl }}/documentation/catalogue/) before proceeding.
 
 ## Understanding the ID tag
 
@@ -35,6 +39,12 @@ Above **New ID**, blank space is provided to accomodate **Original Nature** (the
 There are two possible cataloging scenarios, and looking at the ID tag will tell you which. If the specimen needs a catalog number, only a locality number will be present (e.g., "LACMIP 2533."); the lot number will be blank. In this case, proceed with creating a new catalog record, as outlined immediately below. 
 
 Less commonly, if the specimen was previously cataloged and the existing record needs updating, the catalog number will already be filled out with both a locality and lot number (e.g. "LACMIP 2533.1"). Consult the Collections Manager the first time you think you've encountered this scenario. If this is the case, you will follow the instructions for ["Editing a Catalogue Record"]({{ site.baseurl }}/documentation/cataloging/#editing-a-catalogue-record). 
+
+## Understanding taxonomy
+If you are new to taxonomy and binomial nomenclature, please watch the following video and review [this article](https://www.digitalatlasofancientlife.org/learn/systematics/taxonomy/) to familiarize yourself with these concepts before proceeding.
+{% include video id="409784937" provider="youtube" %}
+
+# Cataloging
 
 ## Creating a new catalogue record
 
@@ -76,27 +86,29 @@ Begin by creating a new catalogue record (*File > New Record*) and following the
    7 | *Project* depends on the specimens you are cataloging, e.g. "WIS". This value may be pre-printed on the ID tag.
    8 | For *Original Nature*, select "body fossil" unless something else is stated on the ID tag.
    9 | For *Anatomy*, select "shell(s)" unless something else is stated on the ID tag.
+   
 
 **On the *Identifications (1)* tab...**
 
-If you are new to taxonomy and binomial nomenclature, please watch the following video and review [this article](https://www.digitalatlasofancientlife.org/learn/systematics/taxonomy/) to familiarize yourself with these concepts before proceeding.
-{% include video id="409784937" provider="youtube" %}
+####Tips for entering identifications into EMu:
+Every specimen ID tag will have a *New ID* to be entered into the database; only some will also have an *Old name* to enter.
+{: .notice--warning}
+
+If the name written on the tag ends in "**sp.**", you are entering a **genus** (e.g. "Turritella sp."). In this case, only type in the genus name followed by the word "genus", "e.g. turritella genus". (EMu will not understand "Turritella sp.")
+{: .notice--warning}
+
+If the name written on the tag ends in "**indet.**", you are entering a name that ranks above genus, such as **family** or **order**. Family names typically end in "idae", e.g. "Turritell*idae*" or "Ostre*idae*".
+{: .notice--warning}
+
+If you cannot read the handwriting on the label, or no name is returned when you hit tab, ask an IP staff member for assistance. If no one is immediately available to assist you and you are trying to enter a *New ID* name, type "Unknown" in the *Taxon* field and "COULD NOT READ LABEL" in the *Comments* field; if you are trying to  enter an *Old name*, type "Old name" in the *Taxon* field and transcribe verbatim whatever is written on the label for *Old name*.
+{: .notice--warning}
 
 {% include figure image_path="/assets/images/cataloging_example2_2020.jpg" alt="image of example catalogue record with ID tag" caption="Figure mapping fields from the paper ID tag to their EMu counterparts on the *Identifications (1)* tab of the Catalogue module. **Before cataloging for the first time, right-click the image above to enlarge it in a separate tab or window.** An IP staff member can also print it out for you." %}
-
-Every specimen ID tag will have a *New ID* to be entered into the database; only some will also have an *Old name* to enter.
 
  *Step* | *On the Identifications (1) tab...*
    --- | ---
    10 | Begin with the *New ID*. Type the name into the *Taxon* field in EMu, e.g. "turritella encina", and press tab. If _only one_ name in the database exists with this exact genus and species combination, the corresponding taxonomy record will automatically be attached after you press tab. If _multiple_ names in the database include this combination (e.g. "turritalla chicoensis"), all possible options in the Taxonomy module will appear, presenting you with all possible choices. The first time this happens, or whenever you are unsure of which name to choose, consult the Collections Manager.
-  
-Hints for entering identifications into EMu:
-- If the name written on the tag ends in "**sp.**", you are entering a **genus** (e.g. "Turritella sp."). In this case, only type in the genus name followed by the word "genus", "e.g. turritella genus". (EMu will not understand "Turritella sp.")
-- If the name written on the tag ends in "**indet.**", you are entering a name that ranks above genus, such as **family** or **order**. Family names typically end in "idae", e.g. "Turritell*idae*" or "Ostre*idae*".
-- If you cannot read the handwriting on the label, or no name is returned when you hit tab, ask an IP staff member for assistance. If no one is immediately available to assist you and you are trying to enter a *New ID* name, type "Unknown" in the *Taxon* field and "COULD NOT READ LABEL" in the *Comments* field; if you are trying to  enter an *Old name*, type "Old name" in the *Taxon* field and transcribe verbatim whatever is written on the label for *Old name*.
-{: .notice--warning}
-
-1. If the *New ID* includes a modifier (sp., indet., cf., aff.) record it in the EMu *Modifer* field and record the appropriate rank in the *Modifier Rank* field. For more details on modifiers, see the documentation for this field on the [Catalogue module page]({{ site.baseurl }}/documentation/catalogue/).
+   11 | If the *New ID* includes a modifier (cf., aff.) record it in the EMu *Modifer* field and record the appropriate rank in the *Modifier Rank* field. For more details on modifiers, see the documentation for this field on the [Catalogue module page]({{ site.baseurl }}/documentation/catalogue/).
 1. Record *ID by* from the paper ID tag in *Identified By*. Names should be formatted "firstname lastname," e.g. "Shawn Wiedrick." This field is a lookup list in EMu so you can use a shortcut and just enter the last name for common identifiers, e.g. type in "Shawn" and "Shawn Wiedrick" will auto-complete.
 1. Record *Date* in *Date Identified*. Dates do not need to include a day or month, i.e. they may be just a year.
 1. Record anything in *Comments* on the paper ID tag in the EMu field *Comments*. Please type comments verbatim.
