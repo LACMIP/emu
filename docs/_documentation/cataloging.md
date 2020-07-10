@@ -33,7 +33,7 @@ Above **New ID**, blank space is provided to accomodate **Original Nature** (the
 
 ## To catalog or edit?
 
-There are two possible cataloging scenarios, and looking at the ID tag will tell you which. If the specimen needs a catalog number, only a locality number will be present (e.g., "LACMIP 2533."); the lot number will be blank. In this case, proceed with creating a new catalog record, as outlined immediately below. 
+There are two possible cataloging scenarios, and looking at the ID tag will tell you which. If the specimen needs a catalog number, only a locality number will be present (e.g., "LACMIP 2533."); the lot number will be blank. In this case, proceed with ["creating a new catalog record"]({{ site.baseurl }}/documentation/cataloging/#creating-a-new-catalog-record).
 
 Less commonly, if the specimen was previously cataloged and the existing record needs updating, the ID tag will already include both a locality and lot number (e.g. "LACMIP 2533.1"). If this is the case, you will follow the instructions for ["Editing a Catalogue Record"]({{ site.baseurl }}/documentation/cataloging/#editing-a-catalogue-record). Consult the Collections Manager the first time you think you've encountered this scenario. 
 
@@ -45,19 +45,20 @@ If you are new to taxonomy and binomial nomenclature, please watch the following
 Here are a few more important things to keep in mind:
 - Work with one specimen lot (box) at a time, and do not move specimens or labels between boxes.
 - Do not reorganize the boxes within their trays during cataloging.
-- Some boxes contain multiple ID tags; catalog them in order, beginnign with the ID tag on top.
+- Some boxes contain multiple ID tags; catalog them in order, starting with the ID tag on top.
+- If you're not sure about something, please ask questions!
 
 # Cataloging
 
 ## Creating a new catalogue record
 
-Creating a new catalogue record is the most common kind of cataloging you will do when working with the LACMIP collection, which is enormous and will take years and years of concerted effort to completely catalog.
+Creating a new catalogue record is the most common kind of cataloging you will do when working with the LACMIP collection, which is enormous and will take many years of concerted effort to completely catalog.
 
 ### Entering the ID tag data
 
 Begin by creating a new catalogue record (*File > New Record*) and following the step-by-step instructions below. Please note that these are general instructions and you should **always feel free to ask questions** when you are unsure! Also, remember that the documentation for the [Catalogue module]({{ site.baseurl }}/documentation/catalogue/) provides more detailed information about specific fields and possible values that you should also review.
 
-**On the *Invert. Paleo.* tab...**
+#### ***Invert. Paleo.* tab...**
 
 {% include figure image_path="/assets/images/cataloging_example1_2020.jpg" alt="image of example catalogue record with ID tag" caption="**Figure illustrating how the paper ID tag corresponds to various fields on the *Invert. Paleo.* tab of the Catalogue module.** Right-click the image above to enlarge it in a separate tab or window." %}
 
@@ -70,9 +71,9 @@ Begin by creating a new catalogue record (*File > New Record*) and following the
 {: .notice--warning}
 
    3 | Enter the *Count* from the paper ID tag into the EMu *Lot Count* field. (The record will not save if you leave this field blank.)
-   4 | Check that the EMu *Disp.* (disposition) is "in collection."
+   4 | Check that the *Disposition* in EMu is "in collection".
    5 | Enter any information next to *Alt #* on the ID tag into the *Inst. Code* and *Inst. Number* fields in EMu.
-   6 | Check that the *Collection* field matches what's on paper ID tag. The default value is "ST", so you only need to change it if "TX" is circled. TX (taxonomic) specimens should also have a blue "Moved to Taxonomic Coll." tag in addition to the standard white ID tag. Add lot numbers to these tags are you are cataloging.
+   6 | Check that the *Collection* field matches what's on paper ID tag. The default value is "ST", so you only need to change it if "TX" is circled. TX (taxonomic) specimens should also have a blue "Moved to Taxonomic Coll." tag in addition to the standard white ID tag. Add lot numbers to these tags as are you are cataloging.
    
 {% include figure image_path="/assets/images/cataloging_txtag.png" alt="image of example TX tag" caption="All specimens destined for the taxonomic collection should be accompanied by a blue TX tag. Add the lot numbers to these tags when you catalog them." %}
 
@@ -80,22 +81,22 @@ Begin by creating a new catalogue record (*File > New Record*) and following the
    8 | For *Original Nature*, select "body fossil" unless something else is stated on the ID tag.
    9 | For *Anatomy*, select "shell(s)" unless something else is stated on the ID tag.
 
-**On the *Identifications (1)* tab...**
+#### ***Identifications (1)* tab...**
 
 {% include figure image_path="/assets/images/cataloging_example2_2020.jpg" alt="image of example catalogue record with ID tag" caption="**Figure illustrating how to enter *New ID* and *Old name* data on the *Identifications (1)* tab of the Catalogue module.** Right-click the image above to enlarge it in a separate tab or window." %}
 
  *Step* | *On the Identifications (1) tab...*
    --- | ---
-   10 | Begin with the *New ID*. Type the name into the *Taxon* field in EMu, e.g. "turritella encina", and press tab. If _only one_ name in the database exists with this exact genus and species combination, the corresponding taxonomy record will automatically be attached after you press tab. If _multiple_ names in the database include this combination (e.g. "turritalla chicoensis"), all possible options in the Taxonomy module will appear, presenting you with all possible choices. The first time this happens, or whenever you are unsure of which name to choose, consult the Collections Manager.
+   10 | Begin with the *New ID*. Type the name into the *Taxon* field in EMu, e.g. "Turritella encina", and press tab. If _only one_ name in the database exists with this exact genus and species combination, the corresponding taxonomy record will automatically be attached after you press tab. If _multiple_ names in the database include this combination (e.g. "Turritella chicoensis"), all possible options in the Taxonomy module will appear, presenting you with choices. The first time this happens, or whenever you are unsure of which name to choose, consult the Collections Manager.
    
-If the name written on the tag ends in "**sp.**", you are entering a **genus** (e.g. "Turritella sp."). In this case, only type in the genus name followed by the word "genus", "e.g. turritella genus". (EMu will not understand "Turritella sp.").
+If the identification written on the tag ends in "**sp.**" or "**isp.**", you are entering a **genus-level ID** (e.g. "Turritella sp."). In this case, only type in the genus name followed by the word "genus", "e.g. Turritella genus". (EMu will not understand "Turritella sp.").
 {: .notice--warning}
 
-If the name written on the tag ends in "**indet.**", you are entering a name that ranks above genus, such as **family** or **order**. Family names typically end in "idae", e.g. "Turritellidae" and "Ostreidae". (EMu will not understand "Turritellidae indet.")
+If the identification written on the tag ends in "**indet.**", you are entering a name that ranks above genus, such as **family** or **order**. Family names typically end in "-idae" (e.g. "Turritellidae"). In this case, only type in the name before "indet" followed by the taxon's rank. (EMu will not understand "Turritellidae indet.") An IP staff member can assist if you are not sure of the correct rank to use.
 {: .notice--warning}
    
-   11 | If the *New ID* includes a modifier (cf., aff.) record it in the EMu *Modifer* field and record the appropriate rank in the *Modifier Rank* field (typically, you would select *Modifier Rank*="genus" or "species"). For more details on modifiers, see the documentation for this field on the [Catalogue module page]({{ site.baseurl }}/documentation/catalogue/).
-   12 | Record *ID by* from the paper ID tag in *Identified By*. Names should be formatted "firstname lastname," e.g. "Shawn Wiedrick". This field is a lookup list in EMu, so you can just enter the first name for common identifiers and the field will autocomplete, e.g. type in "Shawn", click on the lookup list icon, and "Shawn Wiedrick" will appear.
+   11 | If the *New ID* includes a modifier (cf., aff.) record it in the EMu *Modifer* field and record the appropriate rank in the *Modifier Rank* field (typically, *Modifier Rank*="genus" or "species"). For more details on modifiers, see the documentation for this field on the [Catalogue module page]({{ site.baseurl }}/documentation/catalogue/).
+   12 | Record *ID by* from the paper ID tag in *Identified By*. Names should be formatted "Firstname Lastname," e.g. "Shawn Wiedrick". This field is a lookup list in EMu, so you can just enter the first name for common identifiers and the field will autocomplete, e.g. type in "Shawn", click on the lookup list icon, and "Shawn Wiedrick" will appear.
    13 | Record the date in *Date Identified* by selecting the calendar icon or typing in the date (DD/MM/YYYY). Dates do not need to include a day or month, i.e. they may be just a year.
    14 | If additional notes are written on the back of the ID tag, record them verbatim in *Comments*.
    15 | Select "Yes" for both *Filed As* and *Currently Accepted*.
@@ -103,19 +104,30 @@ If the name written on the tag ends in "**indet.**", you are entering a name tha
 Every specimen ID tag will have a *New ID* to be entered into the database; only some will also have an *Old name* to enter.
 {: .notice--warning}
    
-   16 | If an *Old name* has been provided, create a new identification by clicking in the second row of the *Identification List* table. You should see new, empty fields above. As with the first (new) identification, type the taxonomic name into the *Taxon* field in EMu and enter any modifier data into *Modifier* and *Modifier Rank*. For *Old name* only, if the taxon doesn't appear, you may enter "Old name" into the *Taxon* field in EMu and then type out the name into the *Comments* field.
-   17 | If *Old ID by* is provided, enter the name (formatted "Firstname Lastname"); enter "unknown" if this field on the ID tag is blank.
-   18 | If a date is provided for the *Old ID by*, enter thsi into *Date Identified* in EMu.
+   16 | If an *Old name* has been provided, create another identification by clicking in the second row of the *Identification List* table. You should see new, empty fields above. As with the first (new) identification, type the taxonomic name into the *Taxon* field in EMu and enter any modifier data into *Modifier* and *Modifier Rank*. If the taxon doesn't appear--for *Old name* only--you may enter "Old name" into the *Taxon* field in EMu and then type out that name into the *Comments* field.
+   17 | If *Old ID by* is provided, enter the name (formatted "Firstname Lastname"); enter "unknown" if this field is blank on the ID tag.
+   18 | If a date is provided for the *Old ID by* value, enter this information into *Date Identified* in EMu.
    19 | Select "No" for both *Filed As* and *Currently Accepted*.
 
 {% include figure image_path="/assets/images/cataloging_taxonomynotfound_2020.jpg" alt="image of Identifications tab" caption="**Example of how to proceed if you come across an identification on an ID tag that you cannot find in EMu**. Right-click the image above to enlarge it in a separate tab or window." %}
 
-**If you cannot read the handwriting on the ID tag**, or **no name is returned when you hit tab**, ask for assistance. If no one is immediately available to help: 1) if you are trying to enter a *New ID* into EMu, leave the *Taxon* field blank and enter "TAXONOMY NOT FOUND" followed by the *New ID* in EMu's *Comments* field (e.g. "TAXONOMY NOT FOUND Bittscala sp."; 2) if you are trying to enter an *Old name*, type "Old name" in the *Taxon* field and transcribe whatever is written on the ID tag for *Old name* in EMu's *Comments* field (e.g. "Placenticeras pacificum").
+**If you cannot read the handwriting on the ID tag**, or **no name is returned when you hit tab**, ask for assistance. **If no one is immediately available to help:** 1) if you are trying to enter a *New ID* into EMu, leave the *Taxon* field blank and enter "TAXONOMY NOT FOUND" followed by the *New ID* in EMu's *Comments* field (e.g. "TAXONOMY NOT FOUND Bittscala sp."; 2) if you are trying to enter an *Old name*, type "Old name" in the *Taxon* field and transcribe whatever is written on the ID tag for *Old name* in EMu's *Comments* field (e.g. "Pecten sp.").
 {: .notice--warning}
 
 That's it! Save the catalogue record, **make sure you remembered to record the lot number on the paper ID tag**, and move on to the next specimen.
 
-#### Ditto-ing values
+## Editing a catalogue record
+
+The most common reason that catalogue records need to be edited is to update the lot count and/or identification of a specimen that was cataloged circa 2002-2013. These specimens are frequently interspersed with previously uncataloged specimens in a single tray. There are a few important things to keep in mind when editing catalogue records:
+- Some boxes contain multiple ID tags, i.e. for some specimens you may be editing multiple catalogue records.
+- Never remove any labels from a specimen box.
+- Please do not reorganize the boxes within their trays during cataloging.
+
+In order to edit a catalogue record you first need to find it. Search for the catalogue number (e.g. "26376.19") in the *Cat. No.* field of the EMu [Catalogue module]({{ site.baseurl }}/documentation/catalogue/) in [search mode]({{ site.baseurl }}/documentation/modes/). View the record in edit mode and systematically check that the information on the new ID tag is accurate in EMu. Where it is not–e.g. if the *Lot Count* in EMu is "6" but on the new ID tag it is "3"–update EMu. You will **always** need to add an identification to the EMu catalogue record based on the ID tag *New ID*, *ID By*, and *Date* fields. You will also **almost always** need to update *Disposition* to "in collection."
+
+# Tips
+
+## Ditto-ing values
 
 EMu can facilitate very efficient cataloging if you take a few minutes to set up your workflow. Default values and ditto-ing are two tools to help you do just that, and are explained further down in this section.
 
@@ -130,7 +142,7 @@ To use the ditto function, create a new catalogue record and fill out the fields
 The keyboard shortcut for *Edit > Ditto > All Fields* is *Shift + F9*, or *Shift + Fn + F9*. Using this key command will save you a significant amount of time.
 {: .notice--warning}
 
-#### Setting default values
+## Setting default values
 
 **We recommend that new catalogers stick to using ditto (above) at least until they are more comfortable with EMu!**
 {: .notice--warning}
@@ -154,7 +166,7 @@ Now when you create a new record EMu will autofill the fields you just set as de
 
 For more on this topic, see Axiell's documentation for [setting defaults in EMu](http://help.emu.axiell.com/v5.1/en/Topics/Common/How%20to%20make%20use%20of%20default%20values.htm).
 
-#### Using key commands
+## Using key commands
 
 The effective use of key commands will make cataloging both easier and faster. See Axiell's [Keyboard Shortcuts & Quick Reference Guide](http://help.emu.axiell.com/latest/en/Resources/Downloads/Quick%20Reference%20Guide/EMu_QuickRef_Guide_IE_20170629.pdf) in addition to the quick tips below. Keep in mind that not all key commands work on a Mac and/or via the VPN remote access.
 
@@ -164,15 +176,6 @@ Must-have key commands for cataloging include:
 - **Fill in all tabs using ditto** with *Shift + F9*, or *Shift + Fn + F9* on a Mac
 - **Save** with *Ctrl + s*.
 - Create a **new record** with *Crtl + n*.
-
-### Editing a catalogue record
-
-The most common reason that catalogue records need to be edited is to update the lot count and/or identification of a specimen that was cataloged circa 2002-2013. These specimens are frequently interspersed with previously uncataloged specimens in a single tray. There are a few important things to keep in mind when editing catalogue records:
-- Some boxes contain multiple ID tags, i.e. for some specimens you may be editing multiple catalogue records.
-- Never remove any labels from a specimen box.
-- Please do not reorganize the boxes within their trays during cataloging.
-
-In order to edit a catalogue record you first need to find it. Search for the catalogue number (e.g. "26376.19") in the *Cat. No.* field of the EMu [Catalogue module]({{ site.baseurl }}/documentation/catalogue/) in [search mode]({{ site.baseurl }}/documentation/modes/). View the record in edit mode and systematically check that the information on the new ID tag is accurate in EMu. Where it is not–e.g. if the *Lot Count* in EMu is "6" but on the new ID tag it is "3"–update EMu. You will **always** need to add an identification to the EMu catalogue record based on the ID tag *New ID*, *ID By*, and *Date* fields. You will also **almost always** need to update *Disposition* to "in collection."
 
 ## Flagging records to print
 
