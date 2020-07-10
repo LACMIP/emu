@@ -89,15 +89,15 @@ Begin by creating a new catalogue record (*File > New Record*) and following the
    --- | ---
    10 | Begin with the *New ID*. Type the name into the *Taxon* field in EMu, e.g. "Turritella encina", and press tab. If _only one_ name in the database exists with this exact genus and species combination, the corresponding taxonomy record will automatically be attached after you press tab. If _multiple_ names in the database include this combination (e.g. "Turritella chicoensis"), all possible options in the Taxonomy module will appear, presenting you with choices. The first time this happens, or whenever you are unsure of which name to choose, consult the Collections Manager.
    
-If the identification written on the tag ends in "**sp.**" or "**isp.**", you are entering a **genus-level ID** (e.g. "Turritella sp."). In this case, only type in the genus name followed by the word "genus", "e.g. Turritella genus". (EMu will not understand "Turritella sp.").
+If the identification written on the tag ends in "**sp.**" or "**isp.**", you are entering a **genus-level ID** (e.g. "Turritella sp."). In this case, only type in the genus name followed by the word "genus", e.g. "Turritella genus" (EMu will not understand "Turritella sp.").
 {: .notice--warning}
 
-If the identification written on the tag ends in "**indet.**", you are entering a name that ranks above genus, such as **family** or **order**. Family names typically end in "-idae" (e.g. "Turritellidae"). In this case, only type in the name before "indet" followed by the taxon's rank. (EMu will not understand "Turritellidae indet.") An IP staff member can assist if you are not sure of the correct rank to use.
+If the identification written on the tag ends in "**indet.**", you are entering a name that ranks above genus, such as **family** or **order**. Family names typically end in "-idae" (e.g. "Turritellidae"). In this case, only type in the name before "indet" followed by the taxon's rank, e.g. "Turritellidae family" (EMu will not understand "Turritellidae indet."). Please ask if you are not sure of the correct rank to use.
 {: .notice--warning}
    
-   11 | If the *New ID* includes a modifier (cf., aff.) record it in the EMu *Modifer* field and record the appropriate rank in the *Modifier Rank* field (typically, *Modifier Rank*="genus" or "species"). For more details on modifiers, see the documentation for this field on the [Catalogue module page]({{ site.baseurl }}/documentation/catalogue/).
-   12 | Record *ID by* from the paper ID tag in *Identified By*. Names should be formatted "Firstname Lastname," e.g. "Shawn Wiedrick". This field is a lookup list in EMu, so you can just enter the first name for common identifiers and the field will autocomplete, e.g. type in "Shawn", click on the lookup list icon, and "Shawn Wiedrick" will appear.
-   13 | Record the date in *Date Identified* by selecting the calendar icon or typing in the date (DD/MM/YYYY). Dates do not need to include a day or month, i.e. they may be just a year.
+   11 | If the *New ID* includes a modifier (cf., aff.) record it in the EMu *Modifer* field and record the appropriate rank in the *Modifier Rank* field (typically, *Modifier Rank*="genus" or "species"). For more details on modifiers, see the documentation for this field on the [Catalogue module page]({{ site.baseurl }}/documentation/catalogue/#identification-1-tab).
+   12 | Record *ID by* from the paper ID tag in *Identified By*. Names should be formatted "Firstname Lastname," e.g. "Shawn Wiedrick". This field is a lookup list in EMu, so you can just enter the first name (e.g. "Shawn") and click on the lookup list icon, and "Shawn Wiedrick" should autofill.
+   13 | Record the date in *Date Identified* by selecting the calendar icon or typing it in. Dates do not need to include a day or month, i.e. they may be just a year.
    14 | If additional notes are written on the back of the ID tag, record them verbatim in *Comments*.
    15 | Select "Yes" for both *Filed As* and *Currently Accepted*.
    
@@ -118,12 +118,11 @@ That's it! Save the catalogue record, **make sure you remembered to record the l
 
 ## Editing a catalogue record
 
-The most common reason that catalogue records need to be edited is to update the lot count and/or identification of a specimen that was cataloged circa 2002-2013. These specimens are frequently interspersed with previously uncataloged specimens in a single tray. There are a few important things to keep in mind when editing catalogue records:
-- Some boxes contain multiple ID tags, i.e. for some specimens you may be editing multiple catalogue records.
-- Never remove any labels from a specimen box.
-- Please do not reorganize the boxes within their trays during cataloging.
+{% include figure image_path="/assets/images/cataloging_edits.jpg" alt="image of old specimen labels" caption="Example of LACMIP specimen labels from c. 2002-2013. Lots with labels that look like this have already been cataloged." %}
 
-In order to edit a catalogue record you first need to find it. Search for the catalogue number (e.g. "26376.19") in the *Cat. No.* field of the EMu [Catalogue module]({{ site.baseurl }}/documentation/catalogue/) in [search mode]({{ site.baseurl }}/documentation/modes/). View the record in edit mode and systematically check that the information on the new ID tag is accurate in EMu. Where it is not–e.g. if the *Lot Count* in EMu is "6" but on the new ID tag it is "3"–update EMu. You will **always** need to add an identification to the EMu catalogue record based on the ID tag *New ID*, *ID By*, and *Date* fields. You will also **almost always** need to update *Disposition* to "in collection."
+The most common reason that catalogue records need to be edited is to update the lot count and/or identification of a specimen that was cataloged circa 2002-2013. These specimens are frequently interspersed with previously uncataloged specimens in a single tray. Some boxes contain multiple ID tags, i.e. for some specimens you may be editing multiple catalogue records. If you need to edit catalog records, retain these labels; they must stay with the specimens, even after editing.
+
+In order to edit a catalogue record you first need to find it. Search for the catalogue number (e.g. "26376") in the *Cat. No.* field of the EMu [Catalogue module]({{ site.baseurl }}/documentation/catalogue/) in [search mode]({{ site.baseurl }}/documentation/modes/). View the record in edit mode and systematically check that the information on the new ID tag is accurate in EMu. Where it is not (e.g. if the *Lot Count* in EMu is "6" but on the new ID tag it is "3") update this information in EMu. You will **always** need to add an identification to the EMu catalogue record based on the ID tag *New ID*, *ID By*, and *Date* fields. You will **almost always** also need to update *Disposition* to "in collection."
 
 # Tips
 
