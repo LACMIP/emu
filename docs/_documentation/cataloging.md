@@ -2,7 +2,7 @@
 title: Cataloging
 navcat: Workflows
 tags: cataloging
-last_modified_at: 2020-07-08
+last_modified_at: 2020-07-09
 ---
 
 Cataloging (a.k.a. databasing) is a critical step in digitization, and the creation of accurate digital catalog records facilitates collection management and access to specimen data for research. Over the past two decades, LACMIP has used several different databases to enter and manage specimen catalog records, most recently Microsoft Access and currently Axiell EMu. Cataloging in EMu offers several key benefits over Access, including more consistent and efficient data entry.
@@ -15,7 +15,7 @@ If you are new to LACMIP's cataloging workflow, review this section before creat
 
 {% include figure image_path="/assets/images/cataloging_idtag2020.jpg" alt="image of ID tag" caption="Figure showing a blank specimen identification tag. Each highlighted area corresponds to a step or field in the cataloging workflow, explained in more depth below." %}
 
-Cataloging begins with identification tags. As IP staff sort through the collection, they identify specimens and record this information for transcription into the database. It is important that you familiarize yourself with the "anatomy" of these tags before proceeding:
+Cataloging begins with identification tags. As IP staff sort through the collection, they identify specimens and record this information for transcription into the database. It is important that you familiarize yourself with these tags before proceeding:
 
  *ID Tag Field* | *Explanation*
    --- | ---
@@ -24,9 +24,9 @@ Cataloging begins with identification tags. As IP staff sort through the collect
    **Count** | Reserved for the number of individual specimens in the lot to which a given identification applies, e.g. "3", if 3 _Turritella_ snails are identified. (See documentation for [counting]({{ site.baseurl }}/documentation/digitizing/)).
    **Project** | Refers to the relevant project, typically funding-related, e.g. "FIC" or "WIS"; this value may be pre-printed on the tag.
    **TX/ST** | Refers to the collection in which the specimen lot is to be stored, whereby "ST" = the stratigraphic collection and "TX" = the taxonomic collection.
-   **New ID** | Reserved for the specimen lot's identification as assigned by current LACMIP staff; the New ID may be the same as the Old name.
+   **New ID** | Reserved for the specimen lot's identification as assigned by current LACMIP staff.
    **ID by** | Reserved for the name of the person who wrote out the ID tag; this name is often pre-printed on the label and includes the date of identification.
-   **Old name** | If applicable, this space is reserved for old identifications that were previously assigned to the specimen lot; sometimes this ID is the same as the New ID.
+   **Old name** | If applicable, this space is reserved for old identifications that were previously assigned to the specimen lot; sometimes this ID is the same as the *New ID*.
    **Old ID by** | If applicable, this space is reserved for the name of the person who made the old identification. If known, it will also include the date.
    
 Above **New ID**, blank space is provided to accomodate **Original Nature** (the fossil's mode of preservation or preparation) and **Anatomy** (anatomical elements). This space is only used when the values for these categories deviate from their default values, "body fossil" and "shell(s)". Likewise, **additional comments** about the taxonomic identification may be written on the back of the specimen tag, to be transcribed into _Comments_ for the **New ID**.
@@ -35,29 +35,27 @@ Above **New ID**, blank space is provided to accomodate **Original Nature** (the
 
 There are two possible cataloging scenarios, and looking at the ID tag will tell you which. If the specimen needs a catalog number, only a locality number will be present (e.g., "LACMIP 2533."); the lot number will be blank. In this case, proceed with creating a new catalog record, as outlined immediately below. 
 
-Less commonly, if the specimen was previously cataloged and the existing record needs updating, the catalog number will already be filled out with both a locality and lot number (e.g. "LACMIP 2533.1"). Consult the Collections Manager the first time you think you've encountered this scenario. If this is the case, you will follow the instructions for ["Editing a Catalogue Record"]({{ site.baseurl }}/documentation/cataloging/#editing-a-catalogue-record). 
+Less commonly, if the specimen was previously cataloged and the existing record needs updating, the ID tag will already include both a locality and lot number (e.g. "LACMIP 2533.1"). If this is the case, you will follow the instructions for ["Editing a Catalogue Record"]({{ site.baseurl }}/documentation/cataloging/#editing-a-catalogue-record). Consult the Collections Manager the first time you think you've encountered this scenario. 
 
 ## Taxonomy 101
 If you are new to taxonomy and binomial nomenclature, please watch the following video and review [this article](https://www.digitalatlasofancientlife.org/learn/systematics/taxonomy/) to familiarize yourself with these concepts before proceeding.
 {% include video id="12XO8vYqBsA" provider="youtube" %}
 
+## Other rules
+Here are a few more important things to keep in mind:
+- Work with one specimen lot (box) at a time, and do not move specimens or labels between boxes.
+- Do not reorganize the boxes within their trays during cataloging.
+- Some boxes contain multiple ID tags; catalog them in order, beginnign with the ID tag on top.
 
 # Cataloging
 
 ## Creating a new catalogue record
 
-Creating a new catalogue record is the most common kind of cataloging you will do when working with the LACMIP collection, which is enormous and will take years and years of concerted effort to completely catalog. There are a few important things to keep in mind when cataloging:
-- Work with one specimen lot (box) at a time. 
-- Some boxes contain multiple ID tags, i.e. for some specimens you will be creating multiple catalogue records. Always catalog the top ID tag first.
-- **Never remove any labels** from their boxes.
-- **Do not reorganize the boxes** within their trays during cataloging.
-
-EMu can facilitate very efficient cataloging if you take a few minutes to set up your workflow. Default values and ditto-ing are two tools to help you do just that, and are explained further down in this section.
+Creating a new catalogue record is the most common kind of cataloging you will do when working with the LACMIP collection, which is enormous and will take years and years of concerted effort to completely catalog.
 
 ### Entering the ID tag data
 
 Begin by creating a new catalogue record (*File > New Record*) and following the step-by-step instructions below. Please note that these are general instructions and you should **always feel free to ask questions** when you are unsure! Also, remember that the documentation for the [Catalogue module]({{ site.baseurl }}/documentation/catalogue/) provides more detailed information about specific fields and possible values that you should also review.
-
 
 **On the *Invert. Paleo.* tab...**
 
@@ -81,8 +79,6 @@ Begin by creating a new catalogue record (*File > New Record*) and following the
    7 | *Project* depends on the specimens you are cataloging, e.g. "WIS". This value may be pre-printed on the ID tag.
    8 | For *Original Nature*, select "body fossil" unless something else is stated on the ID tag.
    9 | For *Anatomy*, select "shell(s)" unless something else is stated on the ID tag.
-   
-
 
 **On the *Identifications (1)* tab...**
 
@@ -120,6 +116,8 @@ Every specimen ID tag will have a *New ID* to be entered into the database; only
 That's it! Save the catalogue record, **make sure you remembered to record the lot number on the paper ID tag**, and move on to the next specimen.
 
 #### Ditto-ing values
+
+EMu can facilitate very efficient cataloging if you take a few minutes to set up your workflow. Default values and ditto-ing are two tools to help you do just that, and are explained further down in this section.
 
 Using EMu's [ditto](http://help.emu.axiell.com/latest/en/Topics/Common/The%20Ditto%20utility.htm?Highlight=ditto) function can help you quickly copy over information from one catalog record to the next. For example...
 - You have a tray of EPICC specimen lots to catalog and all belong to the same locality. Ditto the *Invert. Paleo.* tab.
