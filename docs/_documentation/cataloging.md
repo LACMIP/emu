@@ -140,12 +140,16 @@ Using EMu's [ditto](http://help.emu.axiell.com/latest/en/Topics/Common/The%20Dit
 - You have five specimen lots wtih the same identification, all identified by the same person on the same date. Ditto the *Identifications (1)* tab.
 
 <img src="{{ site.baseurl }}/assets/images/cataloging_ditto.png" alt="" width="300"/>{: .align-right}
+
 To use the ditto function:
 
-*Step* | *Action*
+*Step* | *To Ditto...*
    --- | ---
    1 | Create a new catalogue record and fill out the fields you want to ditto. A good selection of fields to start with is: *Project*, *Original Nature*, and *Anatomy*.
    2 | Save this record and set it as your ditto record by going to *Edit > Ditto > Use Current Record for Ditto*. Make sure that *Update on Save* is not checked (as shown in the image to the right); if it is, the last record you save will always be the record that is being ditto-ed.
+   
+<img src="{{ site.baseurl }}/assets/images/cataloging_ditto.png" alt="" width="300"/>{: .align-center}
+
    3 | Finish entering this catalogue record and save.
    4 | When you begin the next record, as per usual, **fill out *Locality* and *Lot Count* and save before dittoing** and information onto this new record. (If you do not, EMu may glitch and carry the wrong fields forward.)
    5 | You can now select *Edit > Ditto > Current Tab*. This will automatically fill in the fields you entered values in your ditto record. Work tab-by-tab to ensure all information carried forward is correct.
