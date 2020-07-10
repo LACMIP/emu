@@ -2,7 +2,7 @@
 title: Cataloging
 navcat: Workflows
 tags: cataloging
-last_modified_at: 2020-07-09
+last_modified_at: 2020-07-10
 ---
 
 Cataloging (a.k.a. databasing) is a critical step in digitization, and the creation of accurate digital catalog records facilitates collection management and access to specimen data for research. Over the past two decades, LACMIP has used several different databases to enter and manage specimen catalog records, most recently Microsoft Access and currently Axiell EMu. Cataloging in EMu offers several key benefits over Access, including more consistent and efficient data entry.
@@ -118,30 +118,37 @@ That's it! Save the catalogue record, **make sure you remembered to record the l
 
 ## Editing a catalogue record
 
-{% include figure image_path="/assets/images/cataloging_edits.jpg" alt="image of old specimen labels" caption="Example of LACMIP specimen labels from c. 2002-2013. Lots with labels that look like this have already been cataloged." %}
+{% include figure image_path="/assets/images/cataloging_edits.jpg" alt="image of old specimen labels" caption="Example of LACMIP specimen labels from c. 2002-2013. Lots with labels that look like this have already been cataloged, but may need to have some information, like *Lot Count*, on their existing catalog records updated." %}
 
-The most common reason that catalogue records need to be edited is to update the lot count and/or identification of a specimen that was cataloged circa 2002-2013. These specimens are frequently interspersed with previously uncataloged specimens in a single tray. Some boxes contain multiple ID tags, i.e. for some specimens you may be editing multiple catalogue records. If you need to edit catalog records, retain these labels; they must stay with the specimens, even after editing.
+The most common reason that catalogue records need to be edited is to **update the lot count and/or identification** of a specimen that was cataloged circa 2002-2013. These specimens are frequently interspersed with previously uncataloged specimens in a single tray. Some boxes contain multiple ID tags, i.e. for some specimens you may be editing multiple catalogue records. If you need to edit catalog records, retain these labels; they must stay with the specimens, even after editing.
 
 *Step* | *Edit*
    --- | ---
    1 | In order to edit a catalogue record you first need to find it. Search for the catalogue number (e.g. "26376") in the *Cat. No.* field of the EMu [Catalogue module]({{ site.baseurl }}/documentation/catalogue/) in [search mode]({{ site.baseurl }}/documentation/modes/).
    2 | View the record in edit mode and systematically check that the information on the new ID tag is accurate in EMu.
    3 | Where it is not correct (e.g. if the *Lot Count* in EMu is "6" but on the new ID tag it is "3") update this information in EMu.
-   **4** | You will **always** need to add an identification to the EMu catalogue record based on the ID tag *New ID*, *ID By*, and *Date* fields. You will **almost always** also need to update *Disposition* to "in collection."
+   4 | You will **always** need to add an identification to the EMu catalogue record based on the ID tag *New ID*, *ID By*, and *Date* fields. You will **almost always** also need to update *Disposition* to "in collection."
 
 # Tips
 
-## Ditto-ing values
-
 EMu can facilitate very efficient cataloging if you take a few minutes to set up your workflow. Default values and ditto-ing are two tools to help you do just that, and are explained further down in this section.
 
+## Ditto-ing values
+
 Using EMu's [ditto](http://help.emu.axiell.com/latest/en/Topics/Common/The%20Ditto%20utility.htm?Highlight=ditto) function can help you quickly copy over information from one catalog record to the next. For example...
-- You have a tray of EPICC specimen lots to catalog and all belong to the same locality. Ditto the *Invert. Paleo.* tab.
-- You have five specimen lots identified as "Turritella encina" by the same person on the same date. Ditto the *Identifications (1)* tab.
-- You need to record associated specimen information for 10 specimen lots that are all associated with each other. Ditto the *Lot Remarks* field.
+- You have a tray of specimen lots to catalog and all belong to the same locality. Ditto the *Invert. Paleo.* tab.
+- You have five specimen lots wtih the same identification, all identified by the same person on the same date. Ditto the *Identifications (1)* tab.
 
 <img src="{{ site.baseurl }}/assets/images/cataloging_ditto.png" alt="" width="300"/>{: .align-right}
-To use the ditto function, create a new catalogue record and fill out the fields you want to ditto. A good selection of fields to start with is: *Locality*, *Lot Count*, *Project*, *Original Nature*, *Anatomy*, *Identified By*, and *Date Identified*. **Save this record and set it as your ditto record by going to *Edit > Ditto > Use Current Record for Ditto*.** Make sure that *Update on Save* is not checked (as shown in the image to the right); if it is, the last record you save will always be the record that is being ditto-ed. Finish entering this catalogue record and then when you move to the next ID tag, create a new catalogue record and begin by going to *Edit > Ditto > All Fields*. This will automatically fill in the fields you entered values in your ditto record.
+To use the ditto function:
+
+*Step* | *Action*
+   --- | ---
+   1 | Create a new catalogue record and fill out the fields you want to ditto. A good selection of fields to start with is: *Project*, *Original Nature*, and *Anatomy*.
+   2 | Save this record and set it as your ditto record by going to *Edit > Ditto > Use Current Record for Ditto*. Make sure that *Update on Save* is not checked (as shown in the image to the right); if it is, the last record you save will always be the record that is being ditto-ed.
+   3 | Finish entering this catalogue record and save.
+   4 | When you begin the next record, as per usual, **fill out *Locality* and *Lot Count* and save before dittoing** and information onto this new record. (If you do not, EMu may glitch and carry the wrong fields forward.)
+   5 | You can now select *Edit > Ditto > Current Tab*. This will automatically fill in the fields you entered values in your ditto record. Work tab-by-tab to ensure all information carried forward is correct.
 
 The keyboard shortcut for *Edit > Ditto > All Fields* is *Shift + F9*, or *Shift + Fn + F9*. Using this key command will save you a significant amount of time.
 {: .notice--warning}
