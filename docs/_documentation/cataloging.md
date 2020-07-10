@@ -41,7 +41,7 @@ Less commonly, if the specimen was previously cataloged and the existing record 
 If you are new to taxonomy and binomial nomenclature, please watch the following video and review [this article](https://www.digitalatlasofancientlife.org/learn/systematics/taxonomy/) to familiarize yourself with these concepts before proceeding.
 {% include video id="12XO8vYqBsA" provider="youtube" %}
 
-## Other rules
+## Reminders
 Here are a few more important things to keep in mind:
 - Work with one specimen lot (box) at a time, and do not move specimens or labels between boxes.
 - Do not reorganize the boxes within their trays during cataloging.
