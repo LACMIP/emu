@@ -33,9 +33,9 @@ Above **New ID**, blank space is provided to accomodate **Original Nature** (the
 
 ## To catalog or edit?
 
-There are two possible cataloging scenarios, and looking at the ID tag will tell you which. If the specimen needs a catalog number, only a locality number will be present (e.g., "LACMIP 2533."); the lot number will be blank. In this case, proceed with ["creating a new catalog record"]({{ site.baseurl }}/documentation/cataloging/#creating-a-new-catalog-record).
+There are two possible cataloging scenarios, and looking at the ID tag will tell you which. If the specimen needs a catalog number, only a locality number will be present (e.g., "LACMIP 2533."); the lot number will be blank. In this case, proceed with ["creating a new catalog record"]({{ site.baseurl }}/documentation/cataloging/#creating-a-new-catalogue-record).
 
-Less commonly, if the specimen was previously cataloged and the existing record needs updating, the ID tag will already include both a locality and lot number (e.g. "LACMIP 2533.1"). If this is the case, you will follow the instructions for ["Editing a Catalogue Record"]({{ site.baseurl }}/documentation/cataloging/#editing-a-catalogue-record). Consult the Collections Manager the first time you think you've encountered this scenario. 
+Less commonly, if the specimen was previously cataloged and the existing record needs updating, the ID tag will already include both a locality and lot number (e.g. "LACMIP 2533.1"). If this is the case, you will follow the instructions for ["editing a catalogue record"]({{ site.baseurl }}/documentation/cataloging/#editing-a-catalogue-record). Consult the Collections Manager the first time you think you've encountered this scenario. 
 
 ## Taxonomy 101
 If you are new to taxonomy and binomial nomenclature, please watch the following video and review [this article](https://www.digitalatlasofancientlife.org/learn/systematics/taxonomy/) to familiarize yourself with these concepts before proceeding.
