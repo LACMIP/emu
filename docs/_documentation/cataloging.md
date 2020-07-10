@@ -61,7 +61,7 @@ Begin by creating a new catalogue record (*File > New Record*) and following the
 
 **On the *Invert. Paleo.* tab...**
 
-{% include figure image_path="/assets/images/cataloging_example1_2020.jpg" alt="image of example catalogue record with ID tag" caption="**Figure illustrating how the paper ID tag corresponds to various fields in on the *Invert. Paleo.* tab of the Catalogue module.** Before cataloging for the first time, right-click the image above to enlarge it in a separate tab or window." %}
+{% include figure image_path="/assets/images/cataloging_example1_2020.jpg" alt="image of example catalogue record with ID tag" caption="**Figure illustrating how the paper ID tag corresponds to various fields in on the *Invert. Paleo.* tab of the Catalogue module.** Right-click the image above to enlarge it in a separate tab or window." %}
 
  *Step* | *On the Invert. Paleo. tab...*
    --- | ---
@@ -71,8 +71,6 @@ Begin by creating a new catalogue record (*File > New Record*) and following the
 **Immediately notify an IP staff member if EMu does _not_ generate a lot number, or if you believe it was generated incorrectly**. Lot numbers should always increase sequentially.
 {: .notice--warning}
 
- *Step* | *On the Invert. Paleo. tab...*
-    --- | ---
    3 | Enter the *Count* from the paper ID tag into the EMu *Lot Count* field. (The record will not save if you leave this field blank.)
    4 | Check that the EMu *Disp.* (disposition) is "in collection."
    5 | Enter any information next to *Alt #* on the ID tag into the *Inst. Code* and *Inst. Number* fields in EMu.
@@ -80,8 +78,6 @@ Begin by creating a new catalogue record (*File > New Record*) and following the
    
 {% include figure image_path="/assets/images/cataloging_txtag.png" alt="image of example TX tag" caption="All specimens destined for the taxonomic collection should be accompanied by a blue TX tag. Add the lot numbers to these tags when you catalog them." %}
 
- *Step* | *On the Invert. Paleo. tab...*
-    --- | ---
    7 | *Project* depends on the specimens you are cataloging, e.g. "WIS". This value may be pre-printed on the ID tag.
    8 | For *Original Nature*, select "body fossil" unless something else is stated on the ID tag.
    9 | For *Anatomy*, select "shell(s)" unless something else is stated on the ID tag.
@@ -90,13 +86,14 @@ Begin by creating a new catalogue record (*File > New Record*) and following the
 
 **On the *Identifications (1)* tab...**
 
-{% include figure image_path="/assets/images/cataloging_example2_2020.jpg" alt="image of example catalogue record with ID tag" caption="**Figure illustrating how to enter *New ID* and *Old name* data into on the *Identifications (1)* tab of the Catalogue module.** Right-click the image above to enlarge it in a separate tab or window.." %}
+{% include figure image_path="/assets/images/cataloging_example2_2020.jpg" alt="image of example catalogue record with ID tag" caption="**Figure illustrating how to enter *New ID* and *Old name* data into on the *Identifications (1)* tab of the Catalogue module.** Right-click the image above to enlarge it in a separate tab or window." %}
 
  *Step* | *On the Identifications (1) tab...*
    --- | ---
    10 | Begin with the *New ID*. Type the name into the *Taxon* field in EMu, e.g. "turritella encina", and press tab. If _only one_ name in the database exists with this exact genus and species combination, the corresponding taxonomy record will automatically be attached after you press tab. If _multiple_ names in the database include this combination (e.g. "turritalla chicoensis"), all possible options in the Taxonomy module will appear, presenting you with all possible choices. The first time this happens, or whenever you are unsure of which name to choose, consult the Collections Manager.
    
 If the name written on the tag ends in "**sp.**", you are entering a **genus** (e.g. "Turritella sp."). In this case, only type in the genus name followed by the word "genus", "e.g. turritella genus". (EMu will not understand "Turritella sp.").
+{: .notice--warning}
 
 If the name written on the tag ends in "**indet.**", you are entering a name that ranks above genus, such as **family** or **order**. Family names typically end in "idae", e.g. "Turritellidae" and "Ostreidae". (EMu will not understand "Turritellidae indet.")
 {: .notice--warning}
