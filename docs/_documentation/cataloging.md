@@ -190,11 +190,13 @@ For more on this topic, see Axiell's documentation for [setting defaults in EMu]
 The effective use of key commands will make cataloging both easier and faster. See Axiell's [Keyboard Shortcuts & Quick Reference Guide](http://help.emu.axiell.com/latest/en/Resources/Downloads/Quick%20Reference%20Guide/EMu_QuickRef_Guide_IE_20170629.pdf) in addition to the quick tips below. Keep in mind that not all key commands work on a Mac and/or via the VPN remote access.
 
 Must-have key commands for cataloging include:
-- **Move to another tab** using *Ctrl + Shift + [the leading letter of the tab label]*, e.g. *Ctrl + Shift + i* in the Catalogue module will take you to the *Identification (1)* tab.
-- **Fill in a tab using ditto** with *Shift + Ctrl + F9*, or *Shift + Ctrl + Fn + F9* on a Mac
-- **Fill in all tabs using ditto** with *Shift + F9*, or *Shift + Fn + F9* on a Mac (use judiciously)
-- **Save** with *Ctrl + s*.
-- Create a **new record** with *Crtl + n*.
+*Action* | *Key Command*
+   --- | ---
+   **Move to another tab** | use *Ctrl + Shift + [the leading letter of the tab label]*, e.g. *Ctrl + Shift + i* in the Catalogue module will take you to the *Identification (1)* tab
+   **Ditto current tab** | *Shift + Ctrl + F9*, or *Shift + Ctrl + Fn + F9* (on a Mac)
+   **Ditto all tabs** | *Shift + F9*, or *Shift + Fn + F9* on a Mac (use judiciously)
+   **Save** | *Ctrl + s*
+   Create **new record** | *Crtl + n*
 
 ## Flagging records to print
 
