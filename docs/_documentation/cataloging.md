@@ -114,11 +114,11 @@ Every specimen ID tag will have a *New ID* to be entered into the database; only
 **If you cannot read the handwriting on the ID tag**, or **no name is returned when you hit tab**, ask for assistance. **If no one is immediately available to help:** 1) if you are trying to enter a *New ID* into EMu, leave the *Taxon* field blank and enter "TAXONOMY NOT FOUND" followed by the *New ID* in EMu's *Comments* field (e.g. "TAXONOMY NOT FOUND Bittscala sp."; 2) if you are trying to enter an *Old name*, type "Old name" in the *Taxon* field and transcribe whatever is written on the ID tag for *Old name* in EMu's *Comments* field (e.g. "Pecten sp.").
 {: .notice--warning}
 
-### ***Relationships tab...**
+### **Relationships tab...**
 
-If a box contains more than one ID tag, it's probably because there are specimens that are physically stuck together but represent different taxa (e.g., when a bivalve and gastropod are preserved on the same rock, or when a trace fossil is found on a body fossil). While each ID tag means these lots must be cataloged separately, they must also be associated using the [Relationships tab](https://lacmip.github.io/emu/documentation/catalogue/#relationships-tab) in the Catalogue module.
+If a box contains more than one ID tag, it's probably because there are specimens that are physically stuck together but represent different taxa (e.g., when a bivalve and gastropod are preserved on the same rock, or when a trace fossil is found on a body fossil). While each lot must be cataloged separately, they must also be associated using the [*Relationships* tab](https://lacmip.github.io/emu/documentation/catalogue/#relationships-tab) in the Catalogue module.
 
-There are multiple ways to accomplish this task, but here is one workflow to start with:
+There are multiple ways to accomplish this task, but here is one possible workflow:
 
  *Step* | *To associate Catalogue records...*
    --- | ---
@@ -129,10 +129,13 @@ There are multiple ways to accomplish this task, but here is one workflow to sta
    5 | **Circular relationships should be avoided.** Therefore, delete the row in the _Related Records_ table that references the specimen record you are actively working on (right-click on the row and select "Delete").
    6 | Save these changes and :repeat:repeat steps 3-5:repeat: for all other specimen records that need to be associated.
    
-This general workflow is demonstrated in this video:
+This same workflow is also demonstrated in this video:
 {% include video id="417827299" provider="vimeo" %}
 
 That's it! Save the catalogue record, **make sure you remembered to record the lot number on the paper ID tag**, and move on to the next specimen.
+
+It's a good idea to periodically [check your work]({{ site.baseurl }}/documentation/cataloging/#check-your-work) during cataloging.
+{: .notice--warning}
 
 ## Editing a catalogue record
 
@@ -224,3 +227,19 @@ Any time you create or edit a catalogue record, it also needs to be printed and 
 1. View your search results as a [list]({{ site.baseurl }}/documentation/modes/) in order to visually scan through and confirm that these records look like what you did today. **This is the perfect time to check your work!** Do this by changing the view to _View > List Settings > Choose List_ and select the "QC- Catalogue" option. Sort your records by *Inserted Date-Time* and scan through your entries to check them.
 1. Add the search results to a [group]({{ site.baseurl }}/documentation/groups/) by navigating to *Tools > Group > All Records in Results...* and creating a new group called "PRINT - [your name] - [date]" or, if you see the option to, adding your records to an existing group called "PRINT - [your name]."
 1. If you created a new group, you'll nee to share this group with whomever will be printing labels. Add access to the group by adding "swiedrick" (or whoever will be printing your labels) on the Security tab of the group's properties.
+
+## Check your work
+
+An easy way to quality control work during cataloging is to view your new records in list view. To check your work:
+
+{% include figure image_path="/assets/images/cataloging_listview.jpg" alt="image of list view in the Catalogue module" caption="View your records using a customized list view to scan for missing data and other errors." %}
+
+*Step* | *To check your work...*
+   --- | ---
+   1 | Recall the Catalogue module's search form and navigate to the *Admin* tab.
+   2 | Search for your name and the current date in *Inserted By* and *Insertion Date*.
+   3 | Navigate to *View* > *List Settings* > *Choose List*.
+   4 | Select the "QC - Catalogue" list view > *OK*
+   5 | Sort your records by the order in which they were created: *Tools* > *Sort Results...* > *Inserted Date-Time* > *OK*
+   5 | Maximize the size of the window. Scroll through your records, visually scanning for gaps or incorrect information, including non-sequential lot numbers.
+ 
