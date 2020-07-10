@@ -127,7 +127,7 @@ There are multiple ways to accomplish this task, but here is one possible workfl
    3 | In the original instance of the Catalogue module, open one of the specimen records and navigate to the *Relationships* tab.
    4 | Select all records to be associated in the second instance of the Catalogue module. Drag them into the *Related Records* table in the original instance of the Catalogue module. If you are trying to associate more than three records, enlarge the active window so more row are visible in the _Related Records_ table.
    5 | **Circular relationships should be avoided.** Therefore, delete the row in the _Related Records_ table that references the specimen record you are actively working on (right-click on the row and select "Delete").
-   6 | Save these changes and :repeat:repeat steps 3-5:repeat: for all other specimen records that need to be associated.
+   6 | Save these changes and repeat steps 3-5 for all other specimen records that need to be associated.
    
 This same workflow is also demonstrated in this video:
 {% include video id="417827299" provider="vimeo" %}
