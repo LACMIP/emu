@@ -134,7 +134,7 @@ This same workflow is also demonstrated in this video:
 
 That's it! Save the catalogue record, **make sure you remembered to record the lot number on the paper ID tag**, and move on to the next specimen.
 
-It's a good idea to periodically [check your work]({{ site.baseurl }}/documentation/cataloging/#check-your-work) during cataloging.
+It's a good idea to periodically [check your work]({{ site.baseurl }}/documentation/cataloging/#check-your-work) after creating a series of new records.
 {: .notice--warning}
 
 ## Editing a catalogue record
@@ -230,16 +230,15 @@ Any time you create or edit a catalogue record, it also needs to be printed and 
 
 ## Check your work
 
-An easy way to quality control work during cataloging is to view your new records in list view. To check your work:
+An easy way to check your work during cataloging is to view your new records in list view. To do so:
 
-{% include figure image_path="/assets/images/cataloging_listview.jpg" alt="image of list view in the Catalogue module" caption="View your records using a customized list view to scan for missing data and other errors." %}
+{% include figure image_path="/assets/images/cataloging_listview.jpg" alt="image of list view in the Catalogue module" caption="View your records using a customized list to scan for missing data and other errors. Right-click the image above to enlarge it in a separate tab or window." %}
 
 *Step* | *To check your work...*
    --- | ---
    1 | Recall the Catalogue module's search form and navigate to the *Admin* tab.
    2 | Search for your name and the current date in *Inserted By* and *Insertion Date*.
-   3 | Navigate to *View* > *List Settings* > *Choose List*.
-   4 | Select the "QC - Catalogue" list view > *OK*
-   5 | Sort your records by the order in which they were created: *Tools* > *Sort Results...* > *Inserted Date-Time* > *OK*
+   3 | Navigate to *View* > *List Settings* > *Choose List* > Select "QC - Catalogue" > *OK*
+   4 | Sort your records by the order in which they were created: *Tools* > *Sort Results...* > *Inserted Date-Time* > *OK*
    5 | Maximize the size of the window. Scroll through your records, visually scanning for gaps or incorrect information, including non-sequential lot numbers.
  
