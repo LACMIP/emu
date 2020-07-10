@@ -179,7 +179,7 @@ Setting your own defaults is more complicated than using the ditto tool, but it 
    3 | Navigate to *Edit > Default Values > Set As Defaults...*.
    4 | Enter a short descriptive name for your new default in the top field, e.g. "EPICC Base Defaults" You can ignore the two boxes (*Fields* and *Defaults*) and click *OK* to save.
 
-Now when you create a new record, EMu will autofill the fields you just set as defaults. EMu will also remember your defaults whenever you log back in, so it may be a good idea to **switch back to the base defaults at the end of your cataloging session** to avoid accidentally carrying over data from your last cataloging session. To do so, navigate to *Edit > Default Values > Change...* and select "Base Defaults." Never select "No Defaults."
+Now when you create a new record, EMu will autofill the fields you just set as defaults. EMu will also remember your defaults whenever you log back in, so it may be a good idea to **switch back to the base defaults at the end of your cataloging session** to avoid accidentally carrying over data from your last cataloging session. To do so, navigate to *Edit > Default Values > Change...* and select "Base Defaults." **Never select "No Defaults".**
 
 <img src="{{ site.baseurl }}/assets/images/cataloging_defaults.png" alt="" width="600"/>{: .align-center}
 
@@ -190,6 +190,7 @@ For more on this topic, see Axiell's documentation for [setting defaults in EMu]
 The effective use of key commands will make cataloging both easier and faster. See Axiell's [Keyboard Shortcuts & Quick Reference Guide](http://help.emu.axiell.com/latest/en/Resources/Downloads/Quick%20Reference%20Guide/EMu_QuickRef_Guide_IE_20170629.pdf) in addition to the quick tips below. Keep in mind that not all key commands work on a Mac and/or via the VPN remote access.
 
 Must-have key commands for cataloging include:
+
 *Action* | *Key Command*
    --- | ---
    **Move to another tab** | use *Ctrl + Shift + [the leading letter of the tab label]*, e.g. *Ctrl + Shift + i* in the Catalogue module will take you to the *Identification (1)* tab
