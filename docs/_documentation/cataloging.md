@@ -61,12 +61,12 @@ Begin by creating a new catalogue record (*File > New Record*) and following the
 
 **On the *Invert. Paleo.* tab...**
 
-{% include figure image_path="/assets/images/cataloging_example1_2020.jpg" alt="image of example catalogue record with ID tag" caption="**Figure illustrating how the paper ID tag corresponds to various fields in on the *Invert. Paleo.* tab of the Catalogue module.** Right-click the image above to enlarge it in a separate tab or window." %}
+{% include figure image_path="/assets/images/cataloging_example1_2020.jpg" alt="image of example catalogue record with ID tag" caption="**Figure illustrating how the paper ID tag corresponds to various fields on the *Invert. Paleo.* tab of the Catalogue module.** Right-click the image above to enlarge it in a separate tab or window." %}
 
  *Step* | *On the Invert. Paleo. tab...*
    --- | ---
    1 | Type the LACMIP locality number into the *Locality* field in EMu. You only need to enter the numerals and immediately hit "tab". Pause before moving on; EMu will attach the corresponding [site record]({{ site.baseurl }}/documentation/sites/). Check that the information in this field looks correct, e.g. if you are cataloging material from the Chico Formation and the site record data says "Ladd Formation", that would suggest you mis-typed the locality number.
-   2 | Write the auto-generated lot number on the paper ID tag. EMu will populate this in the *Lot No.* field.
+   2 | **Write the auto-generated lot number in the *Lot No.* field on the paper ID tag.**
    
 **Immediately notify an IP staff member if EMu does _not_ generate a lot number, or if you believe it was generated incorrectly**. Lot numbers should always increase sequentially.
 {: .notice--warning}
@@ -86,7 +86,7 @@ Begin by creating a new catalogue record (*File > New Record*) and following the
 
 **On the *Identifications (1)* tab...**
 
-{% include figure image_path="/assets/images/cataloging_example2_2020.jpg" alt="image of example catalogue record with ID tag" caption="**Figure illustrating how to enter *New ID* and *Old name* data into on the *Identifications (1)* tab of the Catalogue module.** Right-click the image above to enlarge it in a separate tab or window." %}
+{% include figure image_path="/assets/images/cataloging_example2_2020.jpg" alt="image of example catalogue record with ID tag" caption="**Figure illustrating how to enter *New ID* and *Old name* data on the *Identifications (1)* tab of the Catalogue module.** Right-click the image above to enlarge it in a separate tab or window." %}
 
  *Step* | *On the Identifications (1) tab...*
    --- | ---
