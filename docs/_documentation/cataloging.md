@@ -58,7 +58,7 @@ Creating a new catalogue record is the most common kind of cataloging you will d
 
 Begin by creating a new catalogue record (*File > New Record*) and following the step-by-step instructions below. Please note that these are general instructions and you should **always feel free to ask questions** when you are unsure! Also, remember that the documentation for the [Catalogue module]({{ site.baseurl }}/documentation/catalogue/) provides more detailed information about specific fields and possible values that you should also review.
 
-#### ***Invert. Paleo.* tab...**
+### ***Invert. Paleo.* tab...**
 
 {% include figure image_path="/assets/images/cataloging_example1_2020.jpg" alt="image of example catalogue record with ID tag" caption="**Figure illustrating how the paper ID tag corresponds to various fields on the *Invert. Paleo.* tab of the Catalogue module.** Right-click the image above to enlarge it in a separate tab or window." %}
 
@@ -81,7 +81,7 @@ Begin by creating a new catalogue record (*File > New Record*) and following the
    8 | For *Original Nature*, select "body fossil" unless something else is stated on the ID tag.
    9 | For *Anatomy*, select "shell(s)" unless something else is stated on the ID tag.
 
-#### ***Identifications (1)* tab...**
+### ***Identifications (1)* tab...**
 
 {% include figure image_path="/assets/images/cataloging_example2_2020.jpg" alt="image of example catalogue record with ID tag" caption="**Figure illustrating how to enter *New ID* and *Old name* data on the *Identifications (1)* tab of the Catalogue module.** Right-click the image above to enlarge it in a separate tab or window." %}
 
