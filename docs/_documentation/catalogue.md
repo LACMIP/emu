@@ -167,7 +167,7 @@ Currently Accepted
 
 {% include figure image_path="/assets/images/catalogue_relationships.png" alt="screenshot of the relationships tab in the catalogue module" caption="Screenshot of the *Relationships* tab of the Catalogue module." %}
 
-This tab allows you to associate catalog records, for example, when a bivalve and gastropod are preserved on the same rock and cataloged separately. The workflow used to do this can be found [here]({{ site.baseurl }}/documentation/relationships/).
+This tab allows you to associate catalog records, for example, when a bivalve and gastropod are preserved on the same rock and cataloged separately. The workflow used to do this can be found [here]({{ site.baseurl }}/documentation/cataloging/#relationships-tab).
 
 Associating records using the *Relationships* tab is especially important for specimens filed in LACMIP's taxonomic collection; if this information is not recorded, these specimens may be nearly impossible to relocate.
 
