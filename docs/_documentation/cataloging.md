@@ -171,13 +171,17 @@ Identification (1) | *Currently Accepted* | "Yes"
 Security | *Publish on Internet* | checked ("yes")
 
 Setting your own defaults is more complicated than using the ditto tool, but it can be helpful for circumstances where you are always entering the same information, e.g. if you are always cataloging EPICC specimens you could set a default *Project* value of "EPICC." To set your own defaults:
-1. Select the *New Record* icon or go to *File > New Record* (you won't actually be creating a new record).
-1. Enter the information you want to include by default.
-1. Navigate to *Edit > Default Values > Set As Defaults...*.
-1. Enter a short descriptive name for your new default in the top field, e.g. "EPICC Base Defaults" You can ignore the two boxes (*Fields* and *Defaults*) and click *OK* to save.
-Now when you create a new record EMu will autofill the fields you just set as defaults. EMu will also remember your defaults whenever you log back in, so it may be a good idea to switch back to the base defaults at the end of your cataloging session to avoid accidentally carrying over data from your last cataloging session. To do so, navigate to *Edit > Default Values > Change...* and select "Base Defaults." Never select "No Defaults."
 
-<img src="{{ site.baseurl }}/assets/images/cataloging_defaults.png" alt="" width="500"/>{: .align-center}
+*Step* | *To set your own defaults...*
+   --- | ---
+   1 | Select the *New Record* icon or go to *File > New Record* (you won't actually be creating a new record).
+   2 | Enter the information you want to include by default.
+   3 | Navigate to *Edit > Default Values > Set As Defaults...*.
+   4 | Enter a short descriptive name for your new default in the top field, e.g. "EPICC Base Defaults" You can ignore the two boxes (*Fields* and *Defaults*) and click *OK* to save.
+
+Now when you create a new record, EMu will autofill the fields you just set as defaults. EMu will also remember your defaults whenever you log back in, so it may be a good idea to **switch back to the base defaults at the end of your cataloging session** to avoid accidentally carrying over data from your last cataloging session. To do so, navigate to *Edit > Default Values > Change...* and select "Base Defaults." Never select "No Defaults."
+
+<img src="{{ site.baseurl }}/assets/images/cataloging_defaults.png" alt="" width="600"/>{: .align-center}
 
 For more on this topic, see Axiell's documentation for [setting defaults in EMu](http://help.emu.axiell.com/v5.1/en/Topics/Common/How%20to%20make%20use%20of%20default%20values.htm).
 
@@ -188,7 +192,7 @@ The effective use of key commands will make cataloging both easier and faster. S
 Must-have key commands for cataloging include:
 - **Move to another tab** using *Ctrl + Shift + [the leading letter of the tab label]*, e.g. *Ctrl + Shift + i* in the Catalogue module will take you to the *Identification (1)* tab.
 - **Fill in a tab using ditto** with *Shift + Ctrl + F9*, or *Shift + Ctrl + Fn + F9* on a Mac
-- **Fill in all tabs using ditto** with *Shift + F9*, or *Shift + Fn + F9* on a Mac
+- **Fill in all tabs using ditto** with *Shift + F9*, or *Shift + Fn + F9* on a Mac (use judiciously)
 - **Save** with *Ctrl + s*.
 - Create a **new record** with *Crtl + n*.
 
