@@ -11,7 +11,7 @@ Cataloging (a.k.a. databasing) is a critical step in digitization, and the creat
 
 If you are new to LACMIP's cataloging workflow, review this section before creating new catalog records, as well as the comprehensive documentation for the [Catalogue module]({{ site.baseurl }}/documentation/catalogue/).
 
-## Anatomy of an ID tag
+## ID tag Anatomy
 
 {% include figure image_path="/assets/images/cataloging_idtag2020.jpg" alt="image of ID tag" caption="Figure showing a blank specimen identification tag. Each highlighted area corresponds to a step or field in the cataloging workflow, explained in more depth below." %}
 
@@ -31,7 +31,7 @@ Cataloging begins with identification tags. As IP staff sort through the collect
    
 Above **New ID**, blank space is provided to accomodate **Original Nature** (the fossil's mode of preservation or preparation) and **Anatomy** (anatomical elements). This space is only used when the values for these categories deviate from their default values, "body fossil" and "shell(s)". Likewise, **additional comments** about the taxonomic identification may be written on the back of the specimen tag, to be transcribed into _Comments_ for the **New ID**.
 
-## Two possibilities: to catalog or edit?
+## Two possibilities: Catalog or Edit?
 
 There are two possible cataloging scenarios, and looking at the ID tag will tell you which. If the specimen needs a catalog number, only a locality number will be present (e.g., "LACMIP 2533."); the lot number will be blank. In this case, proceed with creating a new catalog record, as outlined immediately below. 
 
@@ -40,6 +40,8 @@ Less commonly, if the specimen was previously cataloged and the existing record 
 ## Taxonomy 101
 If you are new to taxonomy and binomial nomenclature, please watch the following video and review [this article](https://www.digitalatlasofancientlife.org/learn/systematics/taxonomy/) to familiarize yourself with these concepts before proceeding.
 {% include video id="12XO8vYqBsA" provider="youtube" %}
+
+
 
 # Cataloging
 
