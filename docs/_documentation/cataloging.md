@@ -9,12 +9,9 @@ Cataloging (a.k.a. databasing) is a critical step in digitization, and the creat
 
 # Introduction
 
-If you are new to LACMIP's cataloging workflow, review this section before beginning to create new catalog records.
+If you are new to LACMIP's cataloging workflow, review this section before creating new catalog records, as well as the comprehensive documentation for the [Catalogue module]({{ site.baseurl }}/documentation/catalogue/).
 
-## Introduction to the Catalogue module
-If you are new to EMu, please review documentation for the [Catalogue module]({{ site.baseurl }}/documentation/catalogue/) before proceeding.
-
-## Understanding the ID tag
+## Anatomy of an ID tag
 
 {% include figure image_path="/assets/images/cataloging_idtag2020.jpg" alt="image of ID tag" caption="Figure showing a blank specimen identification tag. Each highlighted area corresponds to a step or field in the cataloging workflow, explained in more depth below." %}
 
@@ -40,9 +37,9 @@ There are two possible cataloging scenarios, and looking at the ID tag will tell
 
 Less commonly, if the specimen was previously cataloged and the existing record needs updating, the catalog number will already be filled out with both a locality and lot number (e.g. "LACMIP 2533.1"). Consult the Collections Manager the first time you think you've encountered this scenario. If this is the case, you will follow the instructions for ["Editing a Catalogue Record"]({{ site.baseurl }}/documentation/cataloging/#editing-a-catalogue-record). 
 
-## Understanding taxonomy
+## Taxonomy 101
 If you are new to taxonomy and binomial nomenclature, please watch the following video and review [this article](https://www.digitalatlasofancientlife.org/learn/systematics/taxonomy/) to familiarize yourself with these concepts before proceeding.
-{% include video id="409784937" provider="youtube" %}
+{% include video id="12XO8vYqBsA" provider="youtube" %}
 
 # Cataloging
 
@@ -59,6 +56,7 @@ EMu can facilitate very efficient cataloging if you take a few minutes to set up
 ### Entering the ID tag data
 
 Begin by creating a new catalogue record (*File > New Record*) and following the step-by-step instructions below. Please note that these are general instructions and you should **always feel free to ask questions** when you are unsure! Also, remember that the documentation for the [Catalogue module]({{ site.baseurl }}/documentation/catalogue/) provides more detailed information about specific fields and possible values that you should also review.
+
 
 **On the *Invert. Paleo.* tab...**
 
@@ -87,6 +85,7 @@ Begin by creating a new catalogue record (*File > New Record*) and following the
    8 | For *Original Nature*, select "body fossil" unless something else is stated on the ID tag.
    9 | For *Anatomy*, select "shell(s)" unless something else is stated on the ID tag.
    
+
 
 **On the *Identifications (1)* tab...**
 
