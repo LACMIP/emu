@@ -62,7 +62,7 @@ Begin by creating a new catalogue record (*File > New Record*) and following the
 
 **On the *Invert. Paleo.* tab...**
 
-{% include figure image_path="/assets/images/cataloging_example1_2020.jpg" alt="image of example catalogue record with ID tag" caption="Figure mapping fields from the paper ID tag to their EMu counterparts on the *Invert. Paleo.* tab of the Catalogue module. **Before cataloging for the first time, right-click the image above to enlarge it in a separate tab or window.** An IP staff member can also print it out for you." %}
+{% include figure image_path="/assets/images/cataloging_example1_2020.jpg" alt="image of example catalogue record with ID tag" caption="**Figure illustrating how the paper ID tag corresponds to various fields in on the *Invert. Paleo.* tab of the Catalogue module.** Before cataloging for the first time, right-click the image above to enlarge it in a separate tab or window." %}
 
  *Step* | *On the Invert. Paleo. tab...*
    --- | ---
@@ -91,7 +91,7 @@ Begin by creating a new catalogue record (*File > New Record*) and following the
 
 **On the *Identifications (1)* tab...**
 
-{% include figure image_path="/assets/images/cataloging_example2_2020.jpg" alt="image of example catalogue record with ID tag" caption="Figure mapping fields from the paper ID tag to their EMu counterparts on the *Identifications (1)* tab of the Catalogue module. **Before cataloging for the first time, right-click the image above to enlarge it in a separate tab or window.** An IP staff member can also print it out for you." %}
+{% include figure image_path="/assets/images/cataloging_example2_2020.jpg" alt="image of example catalogue record with ID tag" caption="**Figure illustrating how to enter *New ID* and *Old name* data into on the *Identifications (1)* tab of the Catalogue module.** Right-click the image above to enlarge it in a separate tab or window.." %}
 
  *Step* | *On the Identifications (1) tab...*
    --- | ---
@@ -116,7 +116,7 @@ Every specimen ID tag will have a *New ID* to be entered into the database; only
    18 | If a date is provided for the *Old ID by*, enter thsi into *Date Identified* in EMu.
    19 | Select "No" for both *Filed As* and *Currently Accepted*.
 
-{% include figure image_path="/assets/images/cataloging_taxonomynotfound_2020.jpg" alt="image of Identifications tab" caption="Example of how to proceed if you come across a taxonomic name on an ID tag that you **cannot find in EMu**. Right-click the image above to enlarge it in a separate tab or window." %}
+{% include figure image_path="/assets/images/cataloging_taxonomynotfound_2020.jpg" alt="image of Identifications tab" caption="**Example of how to proceed if you come across an identification on an ID tag that you cannot find in EMu**. Right-click the image above to enlarge it in a separate tab or window." %}
 
 **If you cannot read the handwriting on the ID tag**, or **no name is returned when you hit tab**, ask for assistance. If no one is immediately available to help: 1) if you are trying to enter a *New ID* into EMu, leave the *Taxon* field blank and enter "TAXONOMY NOT FOUND" followed by the *New ID* in EMu's *Comments* field (e.g. "TAXONOMY NOT FOUND Bittscala sp."; 2) if you are trying to enter an *Old name*, type "Old name" in the *Taxon* field and transcribe whatever is written on the ID tag for *Old name* in EMu's *Comments* field (e.g. "Placenticeras pacificum").
 {: .notice--warning}
