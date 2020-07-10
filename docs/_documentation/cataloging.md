@@ -122,7 +122,12 @@ That's it! Save the catalogue record, **make sure you remembered to record the l
 
 The most common reason that catalogue records need to be edited is to update the lot count and/or identification of a specimen that was cataloged circa 2002-2013. These specimens are frequently interspersed with previously uncataloged specimens in a single tray. Some boxes contain multiple ID tags, i.e. for some specimens you may be editing multiple catalogue records. If you need to edit catalog records, retain these labels; they must stay with the specimens, even after editing.
 
-In order to edit a catalogue record you first need to find it. Search for the catalogue number (e.g. "26376") in the *Cat. No.* field of the EMu [Catalogue module]({{ site.baseurl }}/documentation/catalogue/) in [search mode]({{ site.baseurl }}/documentation/modes/). View the record in edit mode and systematically check that the information on the new ID tag is accurate in EMu. Where it is not (e.g. if the *Lot Count* in EMu is "6" but on the new ID tag it is "3") update this information in EMu. You will **always** need to add an identification to the EMu catalogue record based on the ID tag *New ID*, *ID By*, and *Date* fields. You will **almost always** also need to update *Disposition* to "in collection."
+*Step* | *Edit*
+   --- | ---
+   1 | In order to edit a catalogue record you first need to find it. Search for the catalogue number (e.g. "26376") in the *Cat. No.* field of the EMu [Catalogue module]({{ site.baseurl }}/documentation/catalogue/) in [search mode]({{ site.baseurl }}/documentation/modes/).
+   2 | View the record in edit mode and systematically check that the information on the new ID tag is accurate in EMu.
+   3 | Where it is not correct (e.g. if the *Lot Count* in EMu is "6" but on the new ID tag it is "3") update this information in EMu.
+   **4** | You will **always** need to add an identification to the EMu catalogue record based on the ID tag *New ID*, *ID By*, and *Date* fields. You will **almost always** also need to update *Disposition* to "in collection."
 
 # Tips
 
