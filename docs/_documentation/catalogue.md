@@ -2,7 +2,7 @@
 title: Catalogue
 navcat: Modules
 tags: cataloging quick-start
-last_modified_at: 2020-02-07
+last_modified_at: 2020-07-14
 ---
 The Catalogue module is the primary place for information about each specimen lot, and a node linking together data from many of the other modules. Please see [Axiell's documentation](http://help.emu.axiell.com/latest/en/Topics/EMu/Catalogue%20module.htm) for generic information about this module. Continue reading here to understand how LACMIP uses the fields available in the Catalogue module.
 
@@ -80,7 +80,7 @@ Collection
     
 
 Project
-: A controlled vocabulary to group catalogue records by project. This is useful for tracking project headway, but not every specimen will need a value in this field. You can add values to this controlled vocabulary via the [Lookup Lists module]({{ site.baseurl }}/documentation/lookuplist/). Current vocabulary includes:
+: A controlled vocabulary to group catalogue records by project. You can add values to this controlled vocabulary via the [Lookup Lists module]({{ site.baseurl }}/documentation/lookuplist/). Current vocabulary includes:
     - "EPICC" for Eastern Pacific Invertebrate Communities of the Cenozoic (TCN grant, 2015-2020)
     - "CSC" for Cretaceous Seas of California (CSBR grant, 2016-2019)
     - "Paleozoic" for ongoing (unfunded) digitization (2016-present)
@@ -91,7 +91,11 @@ Lot Remarks
 : **#1 Rule for *Lot Remarks*: Avoid entering data into this field unless you are 100% certain the information is new AND cannot be recorded anywhere else in EMu.** In other words, this field provides space for recording data or comments for which an appropriate field does not yet exist. To facilitate future migration of data in *Lot Remarks* to more appropriate fields that do not yet exist, information added to this field should should be entered exactly as shown below (order matters, as well as capitalization and punctuation/separators). Please consult the Collections Manager if you are unsure whether you have information that should be added to *Lot Remarks*.
     - LIFESTAGE should be recorded verbatim.
     - SEX should be recorded verbatim, but do not abbreviate, e.g. "female" (not "f").
-    - VERBATIM REMARKS ON SPM refers to any data written on the specimen or its label that should be recorded, but does not fit in any other field. Note that comments relating to the identification of a specimen do not go in *Lot Remarks*, but in the appropriate *Comments* field on the *Identification (1)* tab.
+    - VERBATIM REMARKS ON SPM refers to any data written on the specimen or its label that should be recorded, but does not fit in any other field.
+
+Examples of things **not** to record in *Lot Remarks*: 1) Comments relating to the identification of a specimen; these go in the appropriate *Comments* field on the *Identification (1)* tab; 2) Information regarding the collecting event (collector name(s), date, etc.) should be recorded in the Sites module.
+{: .notice--warning}
+    
 {% include figure image_path="/assets/images/catalogue_lotremarks.png" alt="screenshot of the *Lot Remarks* field in the catalogue module" caption="Screenshot of the *Lot Remarks* field in the Catalogue module." %}
     
 IP Publications
@@ -100,7 +104,7 @@ IP Publications
     - *Fig*: Enter the plate and figure number(s) separated by a colon. For example: "pl. 1: fig. 1-3". If a specimen is figured on multiple plates, separate these entries with a semicolon. For example, "pl. 1: fig. 1-5; pl. 4: fig. 3b, 3c". If the figure is unnumbered, enter "fig. unnumbered". If the specimen is unfigured, enter "unfigured".
     - *Type*: Indicate what kind of type the specimen is according to the publication. For specimens cited in theses, dissertations, and historic manuscripts, enter "Unpublished".
 
-{% include figure image_path="/assets/images/catalogue_IPpublications.png" alt="screenshot of the IP Publications field in the catalogue module" caption="Publications that reference LACMIP specimens by catalog or type number must be chronologically documented in the *IP Publications* table." %}
+{% include figure image_path="/assets/images/catalogue_IPpublications.png" alt="screenshot of the IP Publications field in the catalogue module" caption="Publications that reference LACMIP specimens by catalog or type number must be chronologically documented in the *IP Publications* table, starting with the original publication in Row 1. If needed, click and drag to reorganize the rows in the table." %}
 
 Original Nature
 : A controlled vocabulary recording the kind of fossil present. It is possible to record more than one value (one per row) per catalog record, e.g. if you have a specimen lot that includes the body fossil as well as a cast or latex peel associated with it. Vocabulary includes:
