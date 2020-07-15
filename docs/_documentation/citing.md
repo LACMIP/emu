@@ -2,7 +2,7 @@
 title: Citing Collections Data
 navcat: Workflows
 tags:
-last_modified_at: 2020-06-09
+last_modified_at: 2020-07-15
 ---
 
 **Proper citation of museum collections is critical to sustaining these resources and the reproducibility of your research.** If you intend to include LACMIP specimens or localities in publication, please follow the guidelines below. Likewise, in exchange for the use of LACMIP collections data in your research, we request that any resulting publications be shared with LACMIP staff.
@@ -72,4 +72,6 @@ Example: Hendy A, Walker L, Mertz W (2020). LACM Invertebrate Paleontology. Vers
 
 {% include figure image_path="/assets/images/citing_GBIF.png" alt="image of LACMIP's occurrence dataset on GBIF.org" caption="Cite LACMIP's GBIF dataset if you have used our digitized collections in your research." %}
 
-{% include figure image_path="/assets/images/citing_datadownload.png" alt="image of a custom data download on GBIF.org" caption="Contact the collections manager if you would like assistance creating a customized data download with a citable DOI, as in this [example](https://doi.org/10.15468/dl.ykhkrs)." %}
+Additionally, or alternatively, a customized and citable data download may be generated to reference digitized LACMIP specimens in publications. Contact the collections manager if you would like assistance with creating one.
+
+{% include figure image_path="/assets/images/citing_datadownload.png" alt="image of a custom data download on GBIF.org" caption="[Example](https://doi.org/10.15468/dl.ykhkrs) of a customized data download with a citable DOI." %}
