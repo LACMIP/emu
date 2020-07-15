@@ -152,7 +152,7 @@ Date Identified
 : Date on which the identification was made. This can be as granular as a day (e.g. "3/20/2018") or as coarse as a year (e.g. "2018"). For historic identifications (i.e., pre-2015), you may leave this field blank if no identification date has been clearly indicated on the specimen label.
 
 Comments
-: Any comments relating to the specimen lot's identification. Enter "Taxonomy verified." or "Taxonomy updated." in this field if you are simply updating the specimen's currently accepted name, but not physically/critically evaluating the specimen's true taxonomic identity. To be clear:
+: Any comments relating to the specimen lot's identification. Enter "Taxonomy verified." or "Taxonomy updated." in this field if you are simply updating the specimen's currently accepted name, but not physically/critically evaluating the specimen's true taxonomic identity. Comments that begin with these exact phrases will be published online. To be clear:
     - "Taxonomy updated." refers to new identifications that alter existing taxonomy, e.g. when a species is moved to a new genus, but the specimen was not physically examined by the identifier(s).
     - "Taxonomy verified." refers to repeat identifications that verify existing/historic identifications in the database, e.g. no taxonomic change is made to indicate the existing identification remains valid.
     
