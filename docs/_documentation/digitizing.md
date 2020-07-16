@@ -13,7 +13,7 @@ Digitization typically occures drawer-by-drawer. All activities are tracked usin
 
 # Pre-digitization
 
-Pre-digization steps are completed by LACMIP staff. 
+Pre-digitization is completed by LACMIP staff. 
 
  *Step* | *Pre-digitization task...*
    --- | ---
