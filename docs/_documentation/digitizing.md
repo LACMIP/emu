@@ -17,10 +17,7 @@ Pre-digization steps are completed by LACMIP staff.
 
  *Step* | *Pre-digitization task...*
    --- | ---
-   
-<img src="{{ site.baseurl }}/assets/images/digitizing_worksheetexample2.png" alt="" width="300"/>{: .align-center}
-   
-   1 | **Select specimens.** Using the stratigraphic collections inventory, select a tray from the collection to be digitized and **immediately** begin a [new digitization worksheet](https://github.com/LACMIP/emu/blob/master/docs/assets/images/digitizing_digitzationworksheet2020.pdf). Every tray to be digitized will receive a worksheet immediately upon removal from the collection, which must remain with the tray until the digitization process is complete.
+   1 | <img src="{{ site.baseurl }}/assets/images/digitizing_worksheetexample2.png" alt="" width="300"/>{: .align-center} **Select specimens.** Using the stratigraphic collections inventory, select a tray from the collection to be digitized and **immediately** begin a [new digitization worksheet](https://github.com/LACMIP/emu/blob/master/docs/assets/images/digitizing_digitzationworksheet2020.pdf). Every tray to be digitized will receive a worksheet immediately upon removal from the collection, which must remain with the tray until the digitization process is complete.
    2 | **Verify localities.** Before identifying and rehousing any specimens, check that all associated locality information in EMu is complete and accurate. This will ensure labels will be complete upon printing.
    3| **IP Locality Cards report.** Once vetted, run the “IP Locality Cards” report in EMu’s Sites module for all localities in the tray. Print the card(s) on archival paper, plasticize and seal them, and then neatly tuck the card(s) under the specimen boxes in the tray.
    
