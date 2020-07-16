@@ -28,7 +28,7 @@ Pre-digitization is completed by LACMIP staff.
 - Take care to record old (“alt”) catalog numbers from UCLA, CIT, etc. (Ask if you’re unsure whether a number is an old catalog or locality number.)
 - _Assume you will not be available if the cataloger has questions._ Therefore, clearly indicate what fields additional information should be entered into, e.g. ID Comments, if extensive remarks are made on the back of an ID tag.
 - If the specimen’s _Original Nature_ is not “body fossil” and/or the _Anatomy_ is not “shell(s)”, write this information in the space above “New ID”.
-<img src="{{ site.baseurl }}/assets/images/digitizing_txtags.jpg" alt="" width="400"/>{: .align-center}
+<img src="{{ site.baseurl }}/assets/images/digitizing_txtags.jpg" alt="" width="500"/>{: .align-center}
 - In addition to ID tags, blue “TX” tags should also be completed for all lots destined for the taxonomic collection. Further, if associated lots are to be sent to the taxonomic collection in the same box (e.g., a bivalve with an associated boring), include both catalog numbers on the tag.
 
 
