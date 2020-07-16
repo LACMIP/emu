@@ -15,9 +15,9 @@ Digitization typically occures drawer-by-drawer. All activities are tracked usin
 
 Pre-digization steps are completed by LACMIP staff. 
 
-## 1. Select specimens.
-
-Using the stratigraphic collections inventory, select a tray to be digitized and immediately begin a [(new digitization worksheet)](https://github.com/LACMIP/emu/blob/master/docs/assets/images/digitizing_digitzationworksheet2020.pdf).
+ *Step* | *Pre-digitization task...*
+   --- | ---
+   Select specimens. | Using the stratigraphic collections inventory, select a tray from the collection to be digitized and **immediately** begin a [(new digitization worksheet)](https://github.com/LACMIP/emu/blob/master/docs/assets/images/digitizing_digitzationworksheet2020.pdf). Every tray to be digitized will receive a worksheet immediately upon removal from the collection; it must remain with the tray until the digitization process is complete.
 
 <img src="{{ site.baseurl }}/assets/images/digitization_worksheetexample1.png" alt="The digitization worksheet **must** remain with the tray until it is returned to the collection." width="300"/>{: .align-center}
 
