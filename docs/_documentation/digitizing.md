@@ -2,14 +2,30 @@
 title: Digitizing
 navcat: Workflows
 tags: cataloging, georeferencing
-last_modified_at: 2019-03-07
+last_modified_at: 2020-07-15
 ---
 
 Multiple grants from the National Science Foundation support [current digitization initiatives at LACMIP](https://research.nhm.org/ip/projects/). Digitization is a broad term and includes the variety of workflows outlined here. For a more thorough overview of digitization workflows, see [Nelson *et al.* 2012](https://doi.org/10.3897/zookeys.209.3135).
 
+Digitization typically occures drawer-by-drawer. All activities are tracked using our digitization worksheets [(template v. 2020)](https://github.com/LACMIP/emu/blob/master/docs/assets/images/digitizing_digitzationworksheet2020.pdf).
+
+<img src="{{ site.baseurl }}/assets/images/digitization_worksheetexample1.png" alt="Sample digitization worksheet." width="300"/>{: .align-center}
+
+# Pre-digitization
+
+Pre-digization steps are completed by LACMIP staff. 
+
+## 1. Select specimens.
+
+Using the stratigraphic collections inventory, select a tray to be digitized and immediately begin a [(new digitization worksheet)](https://github.com/LACMIP/emu/blob/master/docs/assets/images/digitizing_digitzationworksheet2020.pdf).
+
+<img src="{{ site.baseurl }}/assets/images/digitization_worksheetexample1.png" alt="The digitization worksheet **must** remain with the tray until it is returned to the collection." width="300"/>{: .align-center}
+
+# Digitization & Curation
+
 ## Physical curation
 
-Physical curation is an important component of the overall digitization process, not only because it increases digitization efficiency but also because it provides the opportunity to improve things such as taxonomic identifications, physical storage conditions, etc.
+Physical curation is an important component of the overall digitization process, not only because it increases digitization efficiency, but also because it provides the opportunity to improve things such as taxonomic identifications, physical storage conditions, etc.
 
 ### Identification and rehousing
 
@@ -83,3 +99,11 @@ See separate documentation for [georeferencing]({{ site.baseurl }}/documentation
 ## Imaging
 
 Specimen image capture and processing are essential components of digitization. Current documentation for imaging fossil insects can be accessed [here]({{ site.baseurl }}/docs/assets/images/LACMIP_Compression_Fossil_Imaging_Protocol.pdf).
+
+# Post-digitization
+
+## Labeling
+
+## Numbering
+
+## Relocating
