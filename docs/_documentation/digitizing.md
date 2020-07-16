@@ -16,9 +16,9 @@ Pre-digitization is completed by LACMIP staff.
    1 | <img src="{{ site.baseurl }}/assets/images/digitizing_worksheetexample2.png" alt="" width="500"/>{: .align-center} **Select specimens.** Using the stratigraphic collections inventory, select a tray from the collection to be digitized and **immediately** begin a [new digitization worksheet](https://github.com/LACMIP/emu/blob/master/docs/assets/images/digitizing_digitzationworksheet2020.pdf). Every tray to be digitized will receive a worksheet upon removal from the collection; these workheets must remain with the tray until the digitization process is complete.
    2 | **Verify localities.** Before identifying and rehousing any specimens, check that all associated locality information in EMu is complete and accurate. This will ensure labels will be complete upon printing.
    3| <img src="{{ site.baseurl }}/assets/images/digitizing_localitycard.png" alt="" width="500"/>{: .align-center} **IP Locality Cards report.** Once vetted, run the “IP Locality Cards” report in EMu’s Sites module for all localities in the tray. Print the card(s) on archival paper, plasticize and seal them, and then neatly tuck the card(s) under the specimen boxes in the tray.
-   4 | **Identify & rehouse specimens.** Sort and identify specimens. Identifications should be made using the most current taxonomic dictionary available for that fauna. Refer to the "Guidelines for specimen identification" below.
+   4 | **Identify & rehouse specimens.** Sort and identify specimens. Identifications should be made using the most current taxonomic dictionary available for that fauna. Refer to the [identification guidelines](https://lacmip.github.io/emu/documentation/digitizing/#identification-guidelines) below.
    
-## Guidelines for specimen identification
+## Identification guidelines
 <img src="{{ site.baseurl }}/assets/images/digitizing_idtagexample.jpg" alt="" width="600"/>{: .align-center}
 - Every distinct taxon that can be identified will receive its own specimen [ID tag](https://lacmip.github.io/emu/documentation/cataloging/#id-tag-anatomy). For older (non-Plio-Pleistocene) collections, specimens are commonly lithified together, meaning multiple tags may be necessary per box. Stack the tags in the order that you would like the specimens cataloged (i.e., first tag on top will be cataloged first).
 - Take care to record old (“alt”) catalog numbers from UCLA, CIT, etc. (Ask if you’re unsure whether a number is an old catalog or locality number.)
@@ -27,6 +27,7 @@ Pre-digitization is completed by LACMIP staff.
 <img src="{{ site.baseurl }}/assets/images/digitizing_txtags.jpg" alt="" width="500"/>{: .align-center}
 - In addition to ID tags, blue “TX” tags should also be completed for all lots destined for the taxonomic collection. Further, if associated lots are to be sent to the taxonomic collection in the same box (e.g., a bivalve with an associated boring), include both catalog numbers on the tag.
 
+## Rehousing guidelines
 
 
 
