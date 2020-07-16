@@ -9,7 +9,7 @@ Multiple grants from the National Science Foundation support [current digitizati
 
 Digitization typically occures drawer-by-drawer. All activities are tracked using our digitization worksheets [(template v. 2020)](https://github.com/LACMIP/emu/blob/master/docs/assets/images/digitizing_digitzationworksheet2020.pdf).
 
-<img src="{{ site.baseurl }}/assets/images/digitization_worksheetexample1.png" alt="Sample digitization worksheet." width="300"/>{: .align-center}
+<img src="{{ site.baseurl }}/assets/images/digitizing_worksheetexample1.png" alt="Sample digitization worksheet." width="300"/>{: .align-center}
 
 # Pre-digitization
 
@@ -19,7 +19,7 @@ Pre-digization steps are completed by LACMIP staff.
    --- | ---
    Select specimens. | Using the stratigraphic collections inventory, select a tray from the collection to be digitized and **immediately** begin a [(new digitization worksheet)](https://github.com/LACMIP/emu/blob/master/docs/assets/images/digitizing_digitzationworksheet2020.pdf). Every tray to be digitized will receive a worksheet immediately upon removal from the collection; it must remain with the tray until the digitization process is complete.
 
-<img src="{{ site.baseurl }}/assets/images/digitization_worksheetexample1.png" alt="The digitization worksheet **must** remain with the tray until it is returned to the collection." width="300"/>{: .align-center}
+<img src="{{ site.baseurl }}/assets/images/digitizing_worksheetexample2.png" alt="The digitization worksheet **must** remain with the tray until it is returned to the collection." width="300"/>{: .align-center}
 
 # Digitization & Curation
 
