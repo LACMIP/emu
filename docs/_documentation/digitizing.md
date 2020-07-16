@@ -5,11 +5,7 @@ tags: cataloging, georeferencing
 last_modified_at: 2020-07-15
 ---
 
-Multiple grants from the National Science Foundation support [current digitization initiatives at LACMIP](https://research.nhm.org/ip/projects/). Digitization is a broad term and includes the variety of workflows outlined here. For a more thorough overview of digitization workflows, see [Nelson *et al.* 2012](https://doi.org/10.3897/zookeys.209.3135).
-
-Digitization typically occures drawer-by-drawer. All activities are tracked using our digitization worksheets [(template v. 2020)](https://github.com/LACMIP/emu/blob/master/docs/assets/images/digitizing_digitzationworksheet2020.pdf).
-
-<img src="{{ site.baseurl }}/assets/images/digitizing_worksheetexample1.png" alt="Sample digitization worksheet." width="300"/>{: .align-center}
+Multiple grants from the National Science Foundation support current digitization initiatives at LACMIP. "Digitization" itself is a broad term and includes the variety of workflows outlined here. For a more thorough review of digitization workflows, see [Nelson *et al.* 2012](https://doi.org/10.3897/zookeys.209.3135).
 
 # Pre-digitization
 
@@ -26,7 +22,7 @@ Pre-digitization is completed by LACMIP staff.
 <img src="{{ site.baseurl }}/assets/images/digitizing_idtagexample.jpg" alt="" width="600"/>{: .align-center}
 - Every distinct taxon that can be identified will receive its own specimen [ID tag](https://lacmip.github.io/emu/documentation/cataloging/#id-tag-anatomy). For older (non-Plio-Pleistocene) collections, specimens are commonly lithified together, meaning multiple tags may be necessary per box. Stack the tags in the order that you would like the specimens cataloged (i.e., first tag on top will be cataloged first).
 - Take care to record old (“alt”) catalog numbers from UCLA, CIT, etc. (Ask if you’re unsure whether a number is an old catalog or locality number.)
-- _Assume you will not be available if the cataloger has questions._ Therefore, clearly indicate what fields additional information should be entered into, e.g. ID Comments, if extensive remarks are made on the back of an ID tag.
+- _Assume you will not be available if the cataloger has questions._ Therefore, clearly indicate what fields additional information should be entered into, e.g. *ID Comments*, if extensive remarks are made on the back of an ID tag.
 - If the specimen’s _Original Nature_ is not “body fossil” and/or the _Anatomy_ is not “shell(s)”, write this information in the space above “New ID”.
 <img src="{{ site.baseurl }}/assets/images/digitizing_txtags.jpg" alt="" width="500"/>{: .align-center}
 - In addition to ID tags, blue “TX” tags should also be completed for all lots destined for the taxonomic collection. Further, if associated lots are to be sent to the taxonomic collection in the same box (e.g., a bivalve with an associated boring), include both catalog numbers on the tag.
