@@ -17,11 +17,18 @@ Pre-digization steps are completed by LACMIP staff.
 
  *Step* | *Pre-digitization task...*
    --- | ---
-   1 | <img src="{{ site.baseurl }}/assets/images/digitizing_worksheetexample2.png" alt="" width="500"/>{: .align-center} **Select specimens.** Using the stratigraphic collections inventory, select a tray from the collection to be digitized and **immediately** begin a [new digitization worksheet](https://github.com/LACMIP/emu/blob/master/docs/assets/images/digitizing_digitzationworksheet2020.pdf). Every tray to be digitized will receive a worksheet immediately upon removal from the collection, which must remain with the tray until the digitization process is complete.
+   1 | <img src="{{ site.baseurl }}/assets/images/digitizing_worksheetexample2.png" alt="" width="500"/>{: .align-center} **Select specimens.** Using the stratigraphic collections inventory, select a tray from the collection to be digitized and **immediately** begin a [new digitization worksheet](https://github.com/LACMIP/emu/blob/master/docs/assets/images/digitizing_digitzationworksheet2020.pdf). Every tray to be digitized will receive a worksheet upon removal from the collection, which must remain with the tray until the digitization process is complete.
    2 | **Verify localities.** Before identifying and rehousing any specimens, check that all associated locality information in EMu is complete and accurate. This will ensure labels will be complete upon printing.
-   3| **IP Locality Cards report.** Once vetted, run the “IP Locality Cards” report in EMu’s Sites module for all localities in the tray. Print the card(s) on archival paper, plasticize and seal them, and then neatly tuck the card(s) under the specimen boxes in the tray.
+   3| <img src="{{ site.baseurl }}/assets/images/digitizing_locality card.png" alt="" width="500"/>{: .align-center} **IP Locality Cards report.** Once vetted, run the “IP Locality Cards” report in EMu’s Sites module for all localities in the tray. Print the card(s) on archival paper, plasticize and seal them, and then neatly tuck the card(s) under the specimen boxes in the tray.
+   4 | **Identify & rehouse specimens.**
    
-<img src="{{ site.baseurl }}/assets/images/digitizing_locality card.png" alt="" width="300"/>{: .align-center}
+### Guidelines for specimen identification
+- Every distinct taxon that can be identified will receive its own specimen ID tag. For older (non-Plio-Pleistocene) collections, specimens are commonly lithified together, meaning multiple tags may be necessary per box. Stack the tags in the order that you would like the specimens cataloged (i.e., first tag on top will be cataloged first).
+- Take care to record old (“alt”) catalog numbers from UCLA, CIT, etc. (Ask Lindsay if you’re unsure whether a number is an old catalog or locality number.)
+- _Assume you will not be available if the cataloger has questions._ Therefore, clearly indicate what fields additional information should be entered into, e.g. ID Comments, if extensive remarks are made on the back of an ID tag.
+- If the specimen’s _Original Nature_ is not “body fossil” and/or the Anatomy is not “shell(s)”, write this information in the space above “New ID”.
+<img src="{{ site.baseurl }}/assets/images/digitizing_idtagexample.png" alt="" width="500"/>{: .align-center}
+
 
 
 
