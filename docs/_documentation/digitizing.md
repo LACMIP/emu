@@ -32,14 +32,13 @@ Pre-digitization is completed by LACMIP staff.
 - Rehouse all lots destined for the ST collection in short-sided boxes. Occasionally, exceptions are made for large lots that might easily spill/jump in short-sided boxes.
 - Rehouse all lots destined for the TX collection in tall-sided boxes.
 - Avoid needlessly splitting lots to keep specimens from expanding into neighboring trays (and especially drawers) when possible. 
-{% include figure image_path="/assets/images/digitizing_rehousing.jpg" alt="Example of how to rehouse specimen lots in a tray." caption="When rehousing is complete, your tray should look something like this." %}
 
 When all specimen sorting, identification, and rehousing is complete, arrange all boxes in this order:
 - **Primarily by locality.** Do not intermix lots from different localities within the tray.
 - **Secondarily by taxon.** Beginning with lots containing bivalves, arrange the boxes from left to right (and back to front) in this order: _Bivalvia > Gastropoda > Other Mollusca > Other taxa & trace fossils_
 - If a box contains multiple lots (e.g., a bivalve and gastropod), arrange the box according to whichever specimen you deem to be most significant.
 - Taxa from the same family should be placed together, e.g. keep all Veneridae lots from the same locality together.
-- All TX lots should be placed together; this helps ensure that lots are correctly entered as “ST” or “TX” during cataloging, as does the blue “TX” tag in these boxes.
+- **All TX lots should be placed together**; this helps ensure that lots are correctly entered as “ST” or “TX” during cataloging, as does the blue “TX” tag in these boxes.
 - Lastly, if you decide some specimens should not be cataloged, they should remain separated by locality, but condensed, if possible. Place these boxes at the far right of the tray. For these lots, add an ID tag with the locality number followed by an “X” (e.g. “LACMIP 12345.X”) and write “do not catalog” in the space for New Name.
 {% include figure image_path="/assets/images/digitizing_trayarrangement.jpg" alt="Example of how to arrange a specimen lots in a tray." caption="Once you finish identifying the specimens in a tray, arrange the boxes by locality and taxon." %}
 
@@ -129,3 +128,5 @@ Specimen image capture and processing are essential components of digitization. 
 ## Numbering
 
 ## Relocating
+
+{% include figure image_path="/assets/images/digitizing_rehousing.jpg" alt="Example of how to rehouse specimen lots in a tray." caption="When digitization is complete, your tray should look something like this." %}
