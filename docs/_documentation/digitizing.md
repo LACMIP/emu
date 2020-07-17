@@ -18,15 +18,6 @@ Pre-digitization is completed by LACMIP staff.
    3| <img src="{{ site.baseurl }}/assets/images/digitizing_localitycard.png" alt="" width="500"/>{: .align-center} **IP Locality Cards report.** Once vetted, run the “IP Locality Cards” report in EMu’s Sites module for all localities in the tray. Print the card(s) on archival paper, plasticize and seal them, and then neatly tuck the card(s) under the specimen boxes in the tray.
    4 | **Sort, identify, and rehouse specimens.** Identifications should be made using the most current taxonomic dictionary available for that fauna. Refer to the [identification](https://lacmip.github.io/emu/documentation/digitizing/#identification-guidelines) and [rehousing](https://lacmip.github.io/emu/documentation/digitizing/#rehousing-guidelines) guidelines below.
    
-   5 |  <img src="{{ site.baseurl }}/assets/images/digitizing_trayarrangement.jpg" alt="" width="600"/>{: .align-center} When all specimen sorting, identification, and rehousing is complete, arrange all boxes in this order:
-- **Primarily by locality.** Do not intermix lots from different localities within the tray.
-- **Secondarily by taxon.** Beginning with lots containing bivalves, arrange the boxes from left to right (and back to front) in this order: _Bivalvia > Gastropoda > Other Mollusca > Other taxa & trace fossils_
-- If a box contains multiple lots (e.g., a bivalve and gastropod), arrange the box according to whichever specimen you deem to be most significant.
-- Taxa from the same family should be placed together, e.g. keep all Veneridae lots from the same locality together.
-- All TX lots should be placed together; this helps ensure that lots are correctly entered as “ST” or “TX” during cataloging, as does the blue “TX” tag in these boxes.
-- Lastly, if you decide some specimens should not be cataloged, they should remain separated by locality, but condensed, if possible. Place these boxes at the far right of the tray. For these lots, add an ID tag with the locality number followed by an “X” (e.g. “LACMIP 12345.X”) and write “do not catalog” in the space for New Name.
-
-   
 ## Identification guidelines
 
 <img src="{{ site.baseurl }}/assets/images/digitizing_idtagexample.jpg" alt="" width="600"/>{: .align-center}
@@ -38,13 +29,19 @@ Pre-digitization is completed by LACMIP staff.
 - In addition to ID tags, [blue “TX” tags](https://github.com/LACMIP/emu/blob/master/docs/assets/images/digitizing_txtagstemplate.pdf) should also be completed for all lots destined for the taxonomic collection. Further, if associated lots are to be sent to the taxonomic collection in the same box (e.g., a bivalve with an associated boring), include both catalog numbers on the tag.
 
 ## Rehousing guidelines
-<img src="{{ site.baseurl }}/assets/images/digitizing_rehousing.jpg" alt="" width="600"/>{: .align-center}
 - Rehouse all lots destined for the ST collection in short-sided boxes. Occasionally, exceptions are made for large lots that might easily spill/jump in short-sided boxes.
 - Rehouse all lots destined for the TX collection in tall-sided boxes.
 - Avoid needlessly splitting lots to keep specimens from expanding into neighboring trays (and especially drawers) when possible. 
+{% include figure image_path="/assets/images/digitizing_rehousing.jpg" alt="Example of how to rehouse specimen lots in a tray." caption="When rehousing is complete, your tray should look something like this." %}
 
-
-
+When all specimen sorting, identification, and rehousing is complete, arrange all boxes in this order:
+- **Primarily by locality.** Do not intermix lots from different localities within the tray.
+- **Secondarily by taxon.** Beginning with lots containing bivalves, arrange the boxes from left to right (and back to front) in this order: _Bivalvia > Gastropoda > Other Mollusca > Other taxa & trace fossils_
+- If a box contains multiple lots (e.g., a bivalve and gastropod), arrange the box according to whichever specimen you deem to be most significant.
+- Taxa from the same family should be placed together, e.g. keep all Veneridae lots from the same locality together.
+- All TX lots should be placed together; this helps ensure that lots are correctly entered as “ST” or “TX” during cataloging, as does the blue “TX” tag in these boxes.
+- Lastly, if you decide some specimens should not be cataloged, they should remain separated by locality, but condensed, if possible. Place these boxes at the far right of the tray. For these lots, add an ID tag with the locality number followed by an “X” (e.g. “LACMIP 12345.X”) and write “do not catalog” in the space for New Name.
+{% include figure image_path="/assets/images/digitizing_trayarrangement.jpg" alt="Example of how to arrange a specimen lots in a tray." caption="Once you finish identifying the specimens in a tray, arrange the boxes by locality and taxon." %}
 
 # Digitization & Curation
 
