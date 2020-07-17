@@ -38,7 +38,7 @@ When all specimen sorting, identification, and rehousing is complete, arrange al
 - **Secondarily by taxon.** Beginning with lots containing bivalves, arrange the boxes from left to right (and back to front) in this order: _Bivalvia > Gastropoda > Other Mollusca > Other taxa & trace fossils_
 - If a box contains multiple lots (e.g., a bivalve and gastropod), arrange the box according to whichever specimen you deem to be most significant.
 - Taxa from the same family should be placed together, e.g. keep all Veneridae lots from the same locality together.
-- **All TX lots should be placed together**; this helps ensure that lots are correctly entered as “ST” or “TX” during cataloging, as does the blue “TX” tag in these boxes.
+- **All TX lots should be placed together**; this helps ensure that lots are correctly entered as “ST” or “TX” during cataloging, as do the blue TX tags in these boxes.
 - Lastly, if you decide some specimens should not be cataloged, they should remain separated by locality, but condensed, if possible. Place these boxes at the far right of the tray. For these lots, add an ID tag with the locality number followed by an “X” (e.g. “LACMIP 12345.X”) and write “do not catalog” in the space for New Name.
 {% include figure image_path="/assets/images/digitizing_trayarrangement.jpg" alt="Example of how to arrange a specimen lots in a tray." caption="Once you finish identifying the specimens in a tray, arrange the boxes by locality and taxon." %}
 
