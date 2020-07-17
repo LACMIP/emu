@@ -9,6 +9,8 @@ Multiple grants from the National Science Foundation support current digitizatio
 
 # Pre-digitization
 
+## Pre-digitization workflow
+
 Pre-digitization is completed by LACMIP staff. 
 
  *Step* | *Pre-digitization task...*
