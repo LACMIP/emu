@@ -17,9 +17,10 @@ Pre-digitization is completed by LACMIP staff.
    2 | **Verify localities.** Before identifying and rehousing any specimens, check that all associated locality information in EMu is complete and accurate. This will ensure labels will be complete upon printing.
    3| <img src="{{ site.baseurl }}/assets/images/digitizing_localitycard.png" alt="" width="500"/>{: .align-center} **IP Locality Cards report.** Once vetted, run the “IP Locality Cards” report in EMu’s Sites module for all localities in the tray. Print the card(s) on archival paper, plasticize and seal them, and then neatly tuck the card(s) under the specimen boxes in the tray.
    4 | **Sort, identify, and rehouse specimens.** Identifications should be made using the most current taxonomic dictionary available for that fauna. Refer to the [identification](https://lacmip.github.io/emu/documentation/digitizing/#identification-guidelines) and [rehousing](https://lacmip.github.io/emu/documentation/digitizing/#rehousing-guidelines) guidelines below.
+   
    5 | <img src="{{ site.baseurl }}/assets/images/digitizing_trayarrangement.jpg" alt="" width="600"/>{: .align-center} When all specimen sorting, identification, and rehousing is complete, arrange all boxes in this order:
-   - Primarily by locality: Do not intermix lots from different localities within the tray.
-   - Secondarily by taxon: Beginning with lots containing bivalves, arrange the boxes from left to right (and back to front) in this order: Bivalvia > Gastropoda > Other Mollusca > Other taxa & trace fossils
+   - **Primarily by locality.** Do not intermix lots from different localities within the tray.
+   - **Secondarily by taxon.** Beginning with lots containing bivalves, arrange the boxes from left to right (and back to front) in this order: _Bivalvia > Gastropoda > Other Mollusca > Other taxa & trace fossils_
    - If a box contains multiple lots (e.g., a bivalve and gastropod), arrange the box according to whichever specimen you deem to be most significant.
    - Taxa from the same family should be placed together, e.g. keep all Veneridae lots from the same locality together.
    - All TX lots should be placed together; this helps ensure that lots are correctly entered as “ST” or “TX” during cataloging, as does the blue “TX” tag in these boxes.
