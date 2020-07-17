@@ -29,8 +29,8 @@ Pre-digitization is completed by LACMIP staff.
 - In addition to ID tags, [blue “TX” tags](https://github.com/LACMIP/emu/blob/master/docs/assets/images/digitizing_txtagstemplate.pdf) should also be completed for all lots destined for the taxonomic collection. Further, if associated lots are to be sent to the taxonomic collection in the same box (e.g., a bivalve with an associated boring), include both catalog numbers on the tag.
 
 ## Rehousing guidelines
-- Rehouse all lots destined for the ST collection in short-sided boxes. Occasionally, exceptions are made for large lots that might easily spill/jump in short-sided boxes.
-- Rehouse all lots destined for the TX collection in tall-sided boxes.
+- Rehouse all lots destined for the **ST** collection in **short-sided boxes**. Occasionally, exceptions are made for large lots that might easily spill/jump in short-sided boxes.
+- Rehouse all lots destined for the **TX** collection in **tall-sided boxes**.
 - Avoid needlessly splitting lots to keep specimens from expanding into neighboring trays (and especially drawers) when possible. 
 
 When all specimen sorting, identification, and rehousing is complete, arrange all boxes in this order:
