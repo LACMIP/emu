@@ -50,7 +50,7 @@ Here are a few more important things to keep in mind:
 
 # Cataloging
 
-Before you begin cataloging, add you name and date to the _Count/Catalog_ field on the tray's digitization worksheet:
+Before you begin cataloging, add your name and the date to the _Count+Catalog_ field on the tray's digitization worksheet:
 <img src="{{ site.baseurl }}/assets/images/cataloging_digitizationworksheet.png" alt="" width="500"/>{: .align-center}
 
 ## Creating a new catalogue record
