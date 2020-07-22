@@ -26,7 +26,7 @@ Pre-digitization is completed by LACMIP staff.
 <img src="{{ site.baseurl }}/assets/images/digitizing_idtagexample.jpg" alt="" width="600"/>{: .align-center}
 - Every distinct taxon that can be identified will receive its own specimen [ID tag](https://lacmip.github.io/emu/documentation/cataloging/#id-tag-anatomy). For older (non-Plio-Pleistocene) collections, specimens are commonly lithified together, meaning multiple tags may be necessary per box. Stack the tags in the order that you would like the specimens cataloged (i.e., first tag on top will be cataloged first).
 - Take care to record old (“alt”) catalog numbers from UCLA, CIT, etc. (Ask if you’re unsure whether a number is an old catalog or locality number.)
-<img src="{{ site.baseurl }}/assets/images/catalogue_alternativenumbersexample.jpg" alt="" width="400"/>{: .align-center}
+<img src="{{ site.baseurl }}/assets/images/catalogue_alternativenumbersexample.jpg" alt="" width="600"/>{: .align-center}
 - _Assume you will not be available if the cataloger has questions._ Therefore, clearly indicate what fields additional information should be entered into, e.g. *ID Comments*, if extensive remarks are made on the back of an ID tag.
 - If the specimen’s _Original Nature_ is not “body fossil” and/or the _Anatomy_ is not “shell(s)”, write this information in the space above “New ID”.
 <img src="{{ site.baseurl }}/assets/images/digitizing_flexspace.png" alt="" width="500"/>{: .align-center}
@@ -64,21 +64,20 @@ Leave the digitization worksheet in the tray when you return it to the collectio
 
 There are three major components of the LACMIP digitization workflow: cataloging, georeferencing, and imaging. Most of these activities are completed by volunteers or interns.
 
-Before you begin counting specimens or cataloging, add your name and the date to the _Count+Catalog_ field on the tray's digitization worksheet:
-<img src="{{ site.baseurl }}/assets/images/cataloging_digitizationworksheet.png" alt="" width="500"/>{: .align-center}
-
 ## Cataloging
+
+Before you begin cataloging, add your name and the date to the _Count+Catalog_ field on the tray's digitization worksheet:
+<img src="{{ site.baseurl }}/assets/images/cataloging_digitizationworksheet.png" alt="" width="500"/>{: .align-center}
 
 See separate documentation for the complete [cataloging workflow]({{ site.baseurl }}/documentation/cataloging/).
 
 ### Counting
 
-Before cataloging, check that *Count* is filled out on all ID tags. If it's blank, you'll need to complete this information before or during cataloging.
+Check that *Count* is filled out on all ID tags. If it's blank, you'll need to complete this information before or during cataloging.
 <img src="{{ site.baseurl }}/assets/images/digitizing_lotcount.jpg" alt="" width="400"/>{: .align-center}
 A few tips for counting...
-- Every separate and distinct piece of material counts as one specimen. For example, one rock, even if it has multiple shells stuck to it, is one specimen.
+- Every separate and distinct piece of material counts as one specimen. For example, the _Lot Count_ for the sample below is "1", even though it has multiple shells stuck to it.
 <img src="{{ site.baseurl }}/assets/images/digitizing_countingexample.png" alt="" width="500"/>{: .align-center}
-<center>*Count* = "1", even for this slab with numerous fossils lithified together</center>
 - Very small and incomplete fragments should not be counted. Ask if you are unsure when a fragment is too small to count.
 - Unsorted fossils and unsorted sediment always has a count of one.
 - If a bivalve is articulated (i.e. the valves are attached to each other), both valves are counted as individual specimens **unless** the bivalve is an internal mold (i.e. the impression of a fossil with no shell left). This is not common in the older parts of the collection.
@@ -97,31 +96,32 @@ Specimen image capture and processing are essential components of digitization. 
 Physical curation is an important component of the overall digitization process, not only because it increases digitization efficiency, but also because it provides the opportunity to improve things such as taxonomic identifications, physical storage conditions, etc.
 
 ## Painting
-
-<img src="{{ site.baseurl }}/assets/images/digitization_stripechecker.jpg" alt="" width="300"/>{: .align-center}
-
-Vials, plastic boxes, and loose specimens need to be painted and numbered (see below) in case they ever get separated from their printed catalog labels. Paint supplies live in a kit in the front work area containing paint cups, brushes, stripe checkers, and razor blades. A few tips for painting...
-- Painting should be completed before cataloging to allow time for drying, preferably overnight.
-- All **vials** should be painted with a stripe that extends ~0.25" from the bottom of each vial and is 1/8" wide. The "stripe checker" tool, as seen in the image here, can help guide you when you are new to this step.
-- Stand vials on their lids (upside-down) to dry.
-- All **plastic boxes** should be painted with a stripe that extends ~0.25" from the lower left corner of each box and is 1/8" wide. The "stripe checker" tool, as seen in the image here, can help guide you when you are new to this step.
-- **Loose specimens** may or may not need to be painted. Check with LACMIP staff before painting loose specimens, as the placement of the paint stripe is important.
+Most LACMIP specimens already have locality numbers glued or painted on them. For this reason, the need for painting is limited. This step is mostly completed by IP staff following cataloging. A few tips for painting...
+- All **vials** should be painted with a stripe extending ~3/4" from the bottom and is ~1/8" wide. The "stripe checker" tool, as seen in the image here, can help guide you when you are new to this step.
+<img src="{{ site.baseurl }}/assets/images/digitization_stripechecker.jpg" alt="" width="400"/>{: .align-center}
+- If a specimen has **multiple ID tags** (indicating multiple lots), you will need to **paint multiple stripes** to provide space for each catalog number on vials and plastic boxes. Typically one stripe per catalog number is fine, but if you have a specimen with an excessive amount of lots, please ask LACMIP staff for advice. Additional stripes are always painted below one another on vials.
+- **Do not paint loose specimens**. LACMIP staff will determine whether this is necessary.
 - Steady each specimen or vial against the table to help paint smooth, clean stripes.
-- If a specimen has multiple ID tags (indicating multiple lots), you will need to **paint additional stripes to provide space for each catalog number**. Typically one stripe per catalog number is fine, but if you have a specimen with an excessive amount of lots, please ask LACMIP staff for advice. Additional stripes are always painted below one another on vials.
-- Never let paint dry on brushes! Keep a water cup and paper towel handy for quick cleaning, and as soon as you have completely finished painting, wash your brush in the sink thoroughly and rinse out your water cup.
+- Stand vials on their lids (upside-down) to dry.
+- Paint should left to dry for 24 hours prior to numbering.
+
+Do not let paint dry to your brush! This will ruin it. Keep a water cup and paper towel handy for quick cleaning. As soon as you have finished painting or need to take a break, wash your brush thoroughly. 
+{: .notice--warning}
 
 ## Numbering
 
-Vials, plastic boxes, and loose specimens need to be numbered after being painted, in case they ever get separated from their printed catalog labels. The #1 rule of numbering specimens is that **neatness counts**! Use either a 01 or 005 black Pigma Micron pen to number. Letters and numbers should be written according to the example here (e.g. do not cross 7’s, etc.):
+About 24 hours after painting, vials can be numbered. The **#1 rule** of numbering specimens is that **neatness counts**! Use either a 01 or 005 black Pigma Micron pen to number.
 
-{% include figure image_path="/assets/images/digitization_numbering.png" alt="example of how to write LACMIP catalog numbers" caption="" %}
-
-If a lot has more than one lot number, both numbers need to be written. Ideally the specimen has enough space to use multiple paint stripes: one for each complete catalog number. If there is not enough space you may need to write out the locality number only once and separate the lot numbers with a comma. This typically happens when you are numbering directly onto a loose specimen; if this is the case, ask LACMIP staff for advice.
+{% include figure image_path="/assets/images/digitization_numbering.png" alt="" caption="Letters and numbers should be written according to this example. Do not cross '7' or enclose the number '4'" %}
 
 A few tips for numbering...
-- Press lightly and use short pen strokes, as though you are painting the number on.
-- Steady the specimen or vial against the table with one hand while numbering.
-- Avoid touching the ink before it’s dried, unless you make a mistake, in which case you can try to immediately rub off the number and start over.
+- Press lightly and use short pen strokes, somewhat as though you are "painting" the letters and numbers on.
+- Steady the vial against a hard surface.
+- Avoid touching the ink before it’s dried.
+- If a lot has more than one catalog number, both need to be written on the vial. 
+
+Wait at least 24 hours after painting to number vials; using Micron pens on semi-dry paint will ruin them.
+{: .notice--warning}
 
 ## Labels
 
