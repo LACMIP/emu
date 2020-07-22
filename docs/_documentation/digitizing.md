@@ -19,6 +19,7 @@ Pre-digitization is completed by LACMIP staff.
    2 | **Verify localities.** Before identifying and rehousing any specimens, check that all associated locality information in EMu is complete and accurate. The fields that will most likely require attention are the _Geographic Details_ and _Collectors_. Filling out these fields will ensure labels will be complete upon printing. Refer to the instructions on [entering new geographic data](https://lacmip.github.io/emu/documentation/sites/#entering-new-geographic-data) and the [IP Locality (1) tab](https://lacmip.github.io/emu/documentation/sites/#ip-locality-1-tab) if _City/Town_ or _Nearest Place_ are blank. If the _Collectors_ _Names_ or _Start Date/End Date_ fields are blank, look for this information on the [Notes tab](https://lacmip.github.io/emu/documentation/sites/#notes-tab) in the Sites module, as well as on old locality cards in the tray. Fill in this information using the “Firstinitial Lastname” format. If the collector is truly unknown, fill in this field with “unknown” in EMu. Collecting dates may be left blank if they are unknown.
    3| <img src="{{ site.baseurl }}/assets/images/digitizing_localitycard.png" alt="" width="500"/>{: .align-center} **Generate new IP Locality Cards.** Once vetted, run the “IP Locality Cards” report in EMu’s Sites module for all localities in the tray. Print the card(s) on archival paper, plasticize and seal them, and then neatly tuck the card(s) under the specimen boxes in the tray.
    4 | **Sort, identify, and rehouse specimens.** Identifications should be made using the most current taxonomic dictionary available for that fauna. Refer to the [identification](https://lacmip.github.io/emu/documentation/digitizing/#identification-guidelines) and [rehousing](https://lacmip.github.io/emu/documentation/digitizing/#rehousing-guidelines) guidelines below.
+   5 | **Return uncataloged tray to the collection.** Follow [these instructions](https://lacmip.github.io/emu/documentation/digitizing/#returning-uncataloged-trays).
    
 ## Identification guidelines
 
@@ -33,7 +34,7 @@ Pre-digitization is completed by LACMIP staff.
 <img src="{{ site.baseurl }}/assets/images/digitizing_txtags.png" alt="" width="500"/>{: .align-center}
 
 ## Rehousing guidelines
-- Rehouse all lots destined for the **ST** collection in **short-sided boxes**. Occasionally, exceptions are made for large lots that might easily spill/jump in short-sided boxes.
+- Rehouse all lots destined for the **ST** collection in **short-sided boxes**. Occasionally, exceptions are made for large lots that might easily spill out of short-sided boxes.
 - Rehouse all lots destined for the **TX** collection in **tall-sided boxes**.
 - Avoid needlessly splitting lots to keep specimens from expanding into neighboring trays (and _especially_ drawers) when possible. Consider designating a few additional specimens as "TX" if that will ultimately mitigate tray overflow into another drawer.
 
@@ -45,6 +46,9 @@ When all specimen sorting, identification, and rehousing is complete, arrange al
 - Taxa from the same family should be placed together, e.g. keep all Veneridae lots from the same locality together.
 - **All TX lots should be placed together**; this helps ensure that these lots will be correctly entered as “ST” or “TX” during cataloging, as do the blue TX tags.
 - Lastly, if you decide some specimens should not be cataloged, they should remain separated by locality, but condensed, if possible. Place these boxes at the far right of the tray. For these lots, add an ID tag with the locality number followed by an “X” (e.g. “LACMIP 12345.X”) and write “do not catalog” in the space for New Name.
+
+## Returning uncataloged trays
+After all specimen lots in a tray have been sorted, identified, and rehoused, they must be returned to the collection until someone is available to catalog them.
 
 # Digitization & Curation
 
