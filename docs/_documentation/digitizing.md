@@ -62,12 +62,15 @@ Leave the digitization worksheet in the tray when you return it to the collectio
 
 # Digitization
 
+After all pre-digitization steps are complete, specimen counting and digital cataloging (aka databasing) are typically the next steps, to be completed by volunteers or interns.
+
 ## Counting
 
-After all pre-digitization steps are complete, digital cataloging (aka databasing) is typically the next step in the digitization workflow. Cataloging is usually completed by volunteers or interns. Before cataloging, check that the "Lot Count" field is filled out on all ID tags. If not, you will need to do this before or during cataloging.
+Check that "Lot Count" is filled out on all ID tags. If it's blank, you'll need to complete this information before or during cataloging.
 <img src="{{ site.baseurl }}/assets/images/digitizing_lotcount.jpg" alt="" width="400"/>{: .align-center}
 A few tips for counting...
 - Every separate and distinct piece of material counts as one specimen. For example, one rock, even if it has multiple shells stuck to it, is one specimen.
+<img src="{{ site.baseurl }}/assets/images/digitizing_countingexample.png" alt="" width="500"/>{: .align-center}
 - Very small and incomplete fragments should not be counted. Ask if you are unsure when a fragment is too small to count.
 - Unsorted fossils and unsorted sediment always has a count of one.
 - If a bivalve is articulated (i.e. the valves are attached to each other), both valves are counted as individual specimens **unless** the bivalve is an internal mold (i.e. the impression of a fossil with no shell left). This is not common in the older parts of the collection.
@@ -79,11 +82,19 @@ After all pre-digitization steps are complete, digital cataloging (aka databasin
 
 Refer to separate documentation for the complete [cataloging workflow]({{ site.baseurl }}/documentation/cataloging/).
 
-## Post-digitization curation
+## Georeferencing
+
+See separate documentation for [georeferencing]({{ site.baseurl }}/documentation/georeferencing/).
+
+## Imaging
+
+Specimen image capture and processing are essential components of digitization. Current documentation for imaging fossil insects can be accessed [here]({{ site.baseurl }}/docs/assets/images/LACMIP_Compression_Fossil_Imaging_Protocol.pdf).
+
+# Post-digitization curation
 
 Physical curation is an important component of the overall digitization process, not only because it increases digitization efficiency, but also because it provides the opportunity to improve things such as taxonomic identifications, physical storage conditions, etc.
 
-### Painting
+## Painting
 
 <img src="{{ site.baseurl }}/assets/images/digitization_stripechecker.jpg" alt="" width="300"/>{: .align-right}
 
@@ -97,7 +108,7 @@ Vials, plastic boxes, and loose specimens need to be painted and numbered (see b
 - If a specimen has multiple ID tags (indicating multiple lots), you will need to **paint additional stripes to provide space for each catalog number**. Typically one stripe per catalog number is fine, but if you have a specimen with an excessive amount of lots, please ask LACMIP staff for advice. Additional stripes are always painted below one another on vials.
 - Never let paint dry on brushes! Keep a water cup and paper towel handy for quick cleaning, and as soon as you have completely finished painting, wash your brush in the sink thoroughly and rinse out your water cup.
 
-### Numbering
+## Numbering
 
 Vials, plastic boxes, and loose specimens need to be numbered after being painted, in case they ever get separated from their printed catalog labels. The #1 rule of numbering specimens is that **neatness counts**! Use either a 01 or 005 black Pigma Micron pen to number. Letters and numbers should be written according to the example here (e.g. do not cross 7’s, etc.):
 
@@ -110,7 +121,7 @@ A few tips for numbering...
 - Steady the specimen or vial against the table with one hand while numbering.
 - Avoid touching the ink before it’s dried, unless you make a mistake, in which case you can try to immediately rub off the number and start over.
 
-### Labels
+## Labels
 
 <img src="{{ site.baseurl }}/assets/images/digitization_labels.jpg" alt="" width="300"/>{: .align-right}
 
@@ -126,20 +137,6 @@ Once specimens have been cataloged, new labels are printed and must be cut/place
     - In the case of TX specimens, whenever possible place all relevant tags and labels inside the vial with the specimens. Only do this if you can do so without damaging the specimens or paper.
     - Older labels should not be removed from their boxes. This includes the handwritten labels, as well as labels on printer paper (c. 2004-2013) and new ID tags.
     - Watch for labels with missing/incorrect information as they will need reprinting! It is especially important to spot check the lot count and taxonomic identification between the handwritten ID tag and the printed label.
-
-## Georeferencing
-
-See separate documentation for [georeferencing]({{ site.baseurl }}/documentation/georeferencing/).
-
-## Imaging
-
-Specimen image capture and processing are essential components of digitization. Current documentation for imaging fossil insects can be accessed [here]({{ site.baseurl }}/docs/assets/images/LACMIP_Compression_Fossil_Imaging_Protocol.pdf).
-
-# Post-digitization
-
-## Labeling
-
-## Numbering
 
 ## Relocating
 
