@@ -50,6 +50,9 @@ Here are a few more important things to keep in mind:
 
 # Cataloging
 
+Before you begin cataloging, add you name and date to the _Count/Catalog_ field on the tray's digitization worksheet:
+<img src="{{ site.baseurl }}/assets/images/cataloging_digitizationworksheet.png" alt="" width="500"/>{: .align-right}
+
 ## Creating a new catalogue record
 
 Creating a new catalogue record is the most common kind of cataloging you will do when working with the LACMIP collection, which is enormous and will take many years of concerted effort to completely catalog.
