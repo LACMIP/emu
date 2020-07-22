@@ -36,6 +36,7 @@ Pre-digitization is completed by LACMIP staff.
 ## Rehousing guidelines
 - Rehouse all lots destined for the **ST** collection in **short-sided boxes**. Occasionally, exceptions are made for large lots that might easily spill out of short-sided boxes.
 - Rehouse all lots destined for the **TX** collection in **tall-sided boxes**.
+- Smaller specimens and lots that comfortably fit in vials should be rehoused as such.
 - Avoid needlessly splitting lots to keep specimens from expanding into neighboring trays (and _especially_ drawers) when possible. Consider designating a few additional specimens as "TX" if that will ultimately mitigate tray overflow into another drawer.
 
 When all specimen sorting, identification, and rehousing is complete, arrange all boxes in this order:
@@ -59,28 +60,28 @@ After all specimen lots in a tray have been sorted, identified, and rehoused, th
 Leave the digitization worksheet in the tray when you return it to the collection.
 {: .notice--warning}
 
-# Digitization & Curation
+# Digitization
 
-## Physical curation
+## Counting
+
+After all pre-digitization steps are complete, digital cataloging (aka databasing) is typically the next step in the digitization workflow. Cataloging is usually completed by volunteers or interns. Before cataloging, check that the "Lot Count" field is filled out on all ID tags. If not, you will need to do this before or during cataloging.
+<img src="{{ site.baseurl }}/assets/images/digitizing_lotcount.jpg" alt="" width="400"/>{: .align-center}
+A few tips for counting...
+- Every separate and distinct piece of material counts as one specimen. For example, one rock, even if it has multiple shells stuck to it, is one specimen.
+- Very small and incomplete fragments should not be counted. Ask if you are unsure when a fragment is too small to count.
+- Unsorted fossils and unsorted sediment always has a count of one.
+- If a bivalve is articulated (i.e. the valves are attached to each other), both valves are counted as individual specimens **unless** the bivalve is an internal mold (i.e. the impression of a fossil with no shell left). This is not common in the older parts of the collection.
+- The easiest method for counting large lots is to group specimens in piles of 10 and then tally the piles.
+
+## Cataloging
+
+After all pre-digitization steps are complete, digital cataloging (aka databasing) is typically the next step in the digitization workflow. Cataloging is usually completed by volunteers or interns.
+
+Refer to separate documentation for the complete [cataloging workflow]({{ site.baseurl }}/documentation/cataloging/).
+
+## Post-digitization curation
 
 Physical curation is an important component of the overall digitization process, not only because it increases digitization efficiency, but also because it provides the opportunity to improve things such as taxonomic identifications, physical storage conditions, etc.
-
-### Identification and rehousing
-
-In most cases, specimens need to be rehoused into new boxes and vials prior to cataloging because the old housing tends to be non-standard sizes and/or non-archival. In addition, large lots may need to be split up into smaller lots or sorted by specimen size in order to be effectively rehoused. It is essential that any information about each lot (locality, taxonomy, etc.) is carried over into the new housing.
-
-Specimens also frequently need to be identified or re-identified at this stage. Identification and rehousing are typically done by LACMIP staff, although students and volunteers may be asked to assist on occasion.
-
-### Counting
-
-<img src="{{ site.baseurl }}/assets/images/digitization_tagcount.png" alt="" width="300"/>{: .align-right}
-
-All specimens need to be accurately counted prior to being assigned a catalog number. The count is recorded on the corresponding field of the ID tag, as shown in the image to the right. A few tips for counting...
-- Every separate and distinct piece of material counts as one specimen. For example, one rock, even if it has multiple shells stuck to it, is one specimen.
-- Very small and incomplete fragments, however, should not be counted. Ask if you are unsure when a fragment is too small to count.
-- Unsorted fossils and unsorted sediment always has a count of one.
-- If a bivalve is articulated (i.e. the valves are attached to each other), both valves are counted as individual specimens **unless** the bivalve is an internal mold (i.e. a fossil with no shell left just a single rock in the shape of the shell). Articulated bivalves are not common in the older parts of the collection.
-- The easiest method for counting large lots is to group specimens in piles of 10 and then tally the piles.
 
 ### Painting
 
@@ -125,10 +126,6 @@ Once specimens have been cataloged, new labels are printed and must be cut/place
     - In the case of TX specimens, whenever possible place all relevant tags and labels inside the vial with the specimens. Only do this if you can do so without damaging the specimens or paper.
     - Older labels should not be removed from their boxes. This includes the handwritten labels, as well as labels on printer paper (c. 2004-2013) and new ID tags.
     - Watch for labels with missing/incorrect information as they will need reprinting! It is especially important to spot check the lot count and taxonomic identification between the handwritten ID tag and the printed label.
-
-## Cataloging
-
-See separate documentation for [cataloging]({{ site.baseurl }}/documentation/cataloging/).
 
 ## Georeferencing
 
