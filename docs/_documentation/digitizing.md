@@ -62,33 +62,35 @@ Leave the digitization worksheet in the tray when you return it to the collectio
 
 # Digitization
 
-After all pre-digitization steps are complete, specimen counting and digital cataloging (aka databasing) are typically the next steps, to be completed by volunteers or interns.
+There are three major components of the LACMIP digitization workflow: cataloging, georeferencing, and imaging. Most of these activities are completed by volunteers or interns.
 
-## Counting
+Before you begin counting specimens or cataloging, add your name and the date to the _Count+Catalog_ field on the tray's digitization worksheet:
+<img src="{{ site.baseurl }}/assets/images/cataloging_digitizationworksheet.png" alt="" width="500"/>{: .align-center}
 
-Check that "Lot Count" is filled out on all ID tags. If it's blank, you'll need to complete this information before or during cataloging.
+## Cataloging
+
+See separate documentation for the complete [cataloging workflow]({{ site.baseurl }}/documentation/cataloging/).
+
+### Counting
+
+Before cataloging, check that *Count* is filled out on all ID tags. If it's blank, you'll need to complete this information before or during cataloging.
 <img src="{{ site.baseurl }}/assets/images/digitizing_lotcount.jpg" alt="" width="400"/>{: .align-center}
 A few tips for counting...
 - Every separate and distinct piece of material counts as one specimen. For example, one rock, even if it has multiple shells stuck to it, is one specimen.
 <img src="{{ site.baseurl }}/assets/images/digitizing_countingexample.png" alt="" width="500"/>{: .align-center}
+<center>*Count* = "1", even for this slab with numerous fossils lithified together</center>
 - Very small and incomplete fragments should not be counted. Ask if you are unsure when a fragment is too small to count.
 - Unsorted fossils and unsorted sediment always has a count of one.
 - If a bivalve is articulated (i.e. the valves are attached to each other), both valves are counted as individual specimens **unless** the bivalve is an internal mold (i.e. the impression of a fossil with no shell left). This is not common in the older parts of the collection.
 - The easiest method for counting large lots is to group specimens in piles of 10 and then tally the piles.
 
-## Cataloging
-
-After all pre-digitization steps are complete, digital cataloging (aka databasing) is typically the next step in the digitization workflow. Cataloging is usually completed by volunteers or interns.
-
-Refer to separate documentation for the complete [cataloging workflow]({{ site.baseurl }}/documentation/cataloging/).
-
 ## Georeferencing
 
-See separate documentation for [georeferencing]({{ site.baseurl }}/documentation/georeferencing/).
+See separate documentation for [georeferencing]({{ site.baseurl }}/documentation/georeferencing/). Georeferencing can occur at any point in the digitization workflow, but preferably before labels are printed.
 
 ## Imaging
 
-Specimen image capture and processing are essential components of digitization. Current documentation for imaging fossil insects can be accessed [here]({{ site.baseurl }}/docs/assets/images/LACMIP_Compression_Fossil_Imaging_Protocol.pdf).
+Specimen image capture and processing are essential components of digitization. Complete documentation for this step is forthcoming. The current protocol for imaging insect compression fossils can be accessed [here](https://github.com/LACMIP/emu/blob/master/docs/assets/images/LACMIP_Compression_Fossil_Imaging_Protocol.pdf).
 
 # Post-digitization curation
 
@@ -96,7 +98,7 @@ Physical curation is an important component of the overall digitization process,
 
 ## Painting
 
-<img src="{{ site.baseurl }}/assets/images/digitization_stripechecker.jpg" alt="" width="300"/>{: .align-right}
+<img src="{{ site.baseurl }}/assets/images/digitization_stripechecker.jpg" alt="" width="300"/>{: .align-center}
 
 Vials, plastic boxes, and loose specimens need to be painted and numbered (see below) in case they ever get separated from their printed catalog labels. Paint supplies live in a kit in the front work area containing paint cups, brushes, stripe checkers, and razor blades. A few tips for painting...
 - Painting should be completed before cataloging to allow time for drying, preferably overnight.
