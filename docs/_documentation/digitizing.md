@@ -49,12 +49,12 @@ When all specimen sorting, identification, and rehousing is complete, arrange al
 
 ## Returning uncataloged trays
 After all specimen lots in a tray have been sorted, identified, and rehoused, they must be returned to the collection until someone is available to catalog them.
-- In EMu’s Locations module, search: _Level 3_ = cabinet # & _ Level 4_ = drawer #
+- In EMu’s Locations module, search: _Level 3_ = cabinet # & _Level 4_ = drawer #
+<img src="{{ site.baseurl }}/assets/images/digitizing_relocating1.png" alt="" width="700"/>{: .align-center}
 - Open the record for the drawer and navigate to the Notes tab.
 - Begin (or continue) a list of trays in the drawer that are ready for cataloging in this format: “YYYY MM DD - YourName”
 - If you identified multiple trays from the same drawer on the same day, add a letter to the date on the worksheet and in EMu.
-<img src="{{ site.baseurl }}/assets/images/digitizing_relocating1.png" alt="" width="500"/>{: .align-center}
-<img src="{{ site.baseurl }}/assets/images/digitizing_relocating2.png" alt="" width="500"/>{: .align-center}
+<img src="{{ site.baseurl }}/assets/images/digitizing_relocating2.png" alt="" width="700"/>{: .align-center}
 
 Leave the digitization worksheet in the tray when you return it to the collection.
 {: .notice--warning}
