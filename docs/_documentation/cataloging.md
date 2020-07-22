@@ -73,7 +73,7 @@ Begin by creating a new catalogue record (*File > New Record*) and following the
 **Immediately notify an IP staff member if EMu does _not_ generate a lot number, or if you believe it was generated incorrectly**. Lot numbers should always increase sequentially.
 {: .notice--warning}
 
-   3 | Enter the *Count* from the paper ID tag into the EMu *Lot Count* field. (The record will not save if you leave this field blank.)
+   3 | Enter the *Count* from the paper ID tag into the EMu *Lot Count* field. If *Count* is blank, follow [these instructions](https://lacmip.github.io/emu/documentation/digitizing/#counting) to fill it out. The record will not save if you leave this field blank.
    4 | Check that the *Disposition* in EMu is "in collection".
    5 | Enter any information next to *Alt #* on the ID tag into the *Inst. Code* and *Inst. Number* fields in EMu.
    6 | Check that the *Collection* field matches what's on paper ID tag. The default value is "ST", so you only need to change it if "TX" is circled. TX (taxonomic) specimens should also have a blue "Moved to Taxonomic Coll." tag in addition to the standard white ID tag. Add lot numbers to these tags as are you are cataloging.
