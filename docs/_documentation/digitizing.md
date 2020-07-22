@@ -56,6 +56,9 @@ After all specimen lots in a tray have been sorted, identified, and rehoused, th
 <img src="{{ site.baseurl }}/assets/images/digitizing_relocating1.png" alt="" width="500"/>{: .align-center}
 <img src="{{ site.baseurl }}/assets/images/digitizing_relocating2.png" alt="" width="500"/>{: .align-center}
 
+Leave the digitization worksheet in the tray when you return it to the collection.
+{: .notice--warning}
+
 # Digitization & Curation
 
 ## Physical curation
