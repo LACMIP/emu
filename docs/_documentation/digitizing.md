@@ -126,7 +126,7 @@ A few tips for numbering...
 - Steady the vial against a hard surface.
 - Avoid touching the ink before it’s dried. (Complete drying takes several hours.)
 - If a specimen lot has more than one catalog number, both need to be written on the vial.
-- #1 Rule: **Neatness counts!**
+- **Neatness counts!**
 
 **Writing on semi-dry paint will ruin Micron pens**; please wait at least 24 hours after painting to number vials.
 {: .notice--warning}
@@ -135,7 +135,7 @@ A few tips for numbering...
 
 Once specimens have been cataloged, LACMIP staff will print and place specimen labels in their respective trays. These will need to be cut and placed in their respective boxes before the specimen tray can return to its permanent storage location.
 
-**LACMIP staff:** _Before printing labels_, recall all specimen records for the tray in EMu to check for missing data and/or incorrectly entered specimen identifications. Use the digitization worksheet to search by *Inserted By* and *Date Inserted*.
+**LACMIP staff:** _Before printing labels_, recall all specimen records for the tray in EMu to check for missing data and/or incorrectly entered specimen identifications. Use the digitization worksheet to search by *Inserted By* and *Date Inserted*. _Immediately after printing labels_, search for all ST lots in the tray and batch assign their location in EMu according to the digitization worksheet. This searching may be facilitated by using the barcode scanner.
 {: .notice--warning}
 
 *Step* | *Labeling task...*
@@ -147,7 +147,7 @@ Once specimens have been cataloged, LACMIP staff will print and place specimen l
    
 **Labeling guidelines**
 - Left-justify labels in boxes.
-- When present, older labels should go under the new label.
+- When present, older labels should go under or behind the new label.
 - Some boxes will require multiple new labels (i.e., one per cataloged lot). In this case, the label for the lowest lot number should be the furthest left-justified and on top of the others, which should be arranged numerically and visible, as in this example:
 <img src="{{ site.baseurl }}/assets/images/digitization_labels.jpg" alt="" width="400"/>{: .align-center}
 - Watch for labels with missing/incorrect information - they will need reprinting! Spot check the lot count and taxonomic identification between the handwritten ID tag and the printed label as you work.
@@ -158,11 +158,15 @@ Never remove older labels from their boxes. This includes the original ID tags, 
 # Quality Control
 
 Quality control (QC) checks are completed at the end of the digitization workflow. LACMIP staff are responsible for these activities, including:
-- **Check that the boxes were not reorganized during cataloging or curation.** If they were, fix them now.
-- **Removing paper ID tags.** At this time, carefully check that the new printed labels were placed correctly, and that this information matches what was recorded on the ID tags. Replace any printed labels with errors on them. (The archival ID Comment tags can remain in the boxes.)
-- **Integrate TX lots into the taxonomic collection.** Remove the blue TX tags from these boxes and consolidate them, to be left in the tray destined for the stratigraphic collection.
-- **Assign a location to the tray in EMu.**
 
-**The finished product should look something like this:**
+*Step* | *QC task...*
+   --- | ---
+   1 | **Check the arrangement of the boxes.** If they were reorganized during cataloging or curation, or need some final straightening up, fix them now.
+   2 | **Remove the paper ID tags.** Check that the new labels were placed correctly, and that this information matches what was recorded on the ID tags. Replace any printed labels that have errors. (The archival ID Comment tags should remain in the boxes.)
+   3 | **Integrate TX lots into the taxonomic collection.** Remove the blue TX tags from these boxes and consolidate them, to be left in the tray destined for the stratigraphic collection.
+   4 | **Double-check the location assignment.** In EMu, search for all ST catalog records associated with the tray. Batch assign them to the location recorded on the digitization worksheet. Likewise, assign all TX catalog records to the taxonomic collection.
+   5 | **Return the tray to the collection.** Place the completed digitization worksheet in the worksheet inbox located in the Cretaceous Corner.
 
-{% include figure image_path="/assets/images/digitizing_rehousing.jpg" alt="Example of how to rehouse specimen lots in a tray." caption="Example tray that has been completely digitized and rehoused." %}
+<center>The finished product should look something like this:</center>
+
+{% include figure image_path="/assets/images/digitizing_rehousing.jpg" alt="Example of how to rehouse specimen lots in a tray." caption="" %}
