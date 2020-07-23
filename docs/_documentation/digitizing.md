@@ -135,10 +135,10 @@ A few tips for numbering...
 
 Once specimens have been cataloged, LACMIP staff will print and place specimen labels in their respective trays. These will need to be cut and placed in their respective boxes before the specimen tray can return to its permanent storage location.
 
-**LACMIP staff:** _Before printing labels_, recall all specimen records for the tray in EMu to check for missing data and/or incorrectly entered specimen identifications. Use the digitization worksheet to search by *Inserted By* and *Date Inserted*.
+**LACMIP staff:** _Before printing labels_, recall all catalog records in the tray to check for missing data and incorrectly databased identifications. Use the digitization worksheet to search by *Inserted By* and *Date Inserted*.
 {: .notice--warning}
 
-**LACMIP staff:** _Immediately after printing labels_, search for all ST lots in the tray and batch assign their location in EMu according to the digitization worksheet. This searching may be facilitated by using the barcode scanner.
+**LACMIP staff:** _Immediately after printing labels_, [specimen locations should be assigned in EMu](https://lacmip.github.io/emu/documentation/digitizing/#locate-specimens).
 {: .notice--warning}
 
 *Step* | *Labeling task...*
