@@ -171,6 +171,6 @@ Quality control (QC) checks are completed at the end of the digitization workflo
    4 | **Double-check the location assignments.** Make any refinements, if needed.
    5 | **Return the tray to the collection.** Place the completed digitization worksheet in the worksheet inbox located in the Cretaceous Corner.
 
-<center>:rainbow::sparkles: **The finished product should look something like this:** :sparkles::unicorn:</center>
+<center>:rainbow::sparkles:The finished product should look something like this::sparkles::unicorn:</center>
 
 {% include figure image_path="/assets/images/digitizing_rehousing.jpg" alt="Example of how to rehouse specimen lots in a tray." caption="" %}
