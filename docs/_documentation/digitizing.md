@@ -97,7 +97,7 @@ Specimen image capture and processing are essential components of digitization. 
 Post-digitization curation and quality control (QC) are important components of the overall digitization process. LACMIP staff direct volunteer and intern participation in curation, whereas only LACMIP staff are responsible for QC.
 
 If you participate in any post-digitization activities for a given tray, please add your name and date to the appropriate columns on the digitization worksheet:
-<img src="{{ site.baseurl }}/assets/images/cataloging_digitizationworksheet2.png" alt="" width="500"/>{: .align-center}
+<img src="{{ site.baseurl }}/assets/images/cataloging_postdigitizationworksheet.png" alt="" width="500"/>{: .align-center}
 
 ## Painting
 Most LACMIP specimens already have locality numbers glued or painted on them. For this reason, the need for painting is limited, and this step is mostly completed by LACMIP staff. 
@@ -105,7 +105,7 @@ A few tips for painting...
 - **All vials should be painted with a stripe** extending ~3/4" from the bottom and is ~1/8" wide. The "stripe checker" tool, as seen in the image here, can help guide you when you are new to this process.
 <img src="{{ site.baseurl }}/assets/images/digitization_stripechecker.jpg" alt="" width="400"/>{: .align-center}
 - If a specimen has **multiple ID tags** (indicating multiple lots), you will need to **paint multiple stripes** to provide space for each catalog number. Additional stripes are always painted below one another in a row on vials.
-- **Do not paint loose specimens**. LACMIP staff will indicate if this is necessary.
+- **Do not paint loose specimens** unless directed to do so by LACMIP staff.
 - Steady the vial against a hard surface.
 - Stand vials on their lids (upside-down) to dry.
 - Paint should left to dry overnight before numbering.
@@ -134,22 +134,24 @@ A few tips for numbering...
 
 Once specimens have been cataloged, LACMIP staff will print and place specimen labels in their respective trays. These will need to be cut and placed in their respective boxes before the specimen tray can return to its permanent storage location.
 
-*Step* | *Labelling task...*
+*Step* | *Labeling task...*
    --- | ---
-   1 | **Cut the labels.** Use the paper cutter to cut labels as neatly as possible, leaving a thin border around the black outline. The LED light strip can be very useful in guiding this activity. Only cut **one sheet** of labels at a time.
+   1 | **Cut the labels.** Use the paper cutter to cut labels as neatly as possible, leaving a thin border around the black outline. The LED light strip can be very useful in guiding this activity. **Only cut one sheet of labels at a time.**
    2 | **Sort the labels.** Arrange them in piles by locality, then sort each pile consecutively by lot number.
    3 | **Fold the labels.** Neatly fold each label on the dotted line. Keep them in locality-lot order.
    4 | **Place the labels.** Locate the box each label belongs in and place them according to the guidelines below.
    
-<img src="{{ site.baseurl }}/assets/images/digitization_labels.jpg" alt="" width="500"/>{: .align-center}
-   
 **Labeling guidelines**
-- Some boxes will require multiple labels (one per cataloged lot). In this case, display them in numerical order, with the lowest lot number on top.
-- Left-justify labels in boxes, with additional labels visible to the right when they are present.
+- Left-justify labels in boxes.
+- When present, older labels should go under the new label.
+- Some boxes will require multiple new labels (i.e., one per cataloged lot). In this case, the label for the lowest lot number should be the furthest left-justified and on top of the others, which should be arranged numerically and visible, as in this example:
+<img src="{{ site.baseurl }}/assets/images/digitization_labels.jpg" alt="" width="400"/>{: .align-center}
 - Watch for labels with missing/incorrect information - they will need reprinting! Spot check the lot count and taxonomic identification between the handwritten ID tag and the printed label as you work.
     
 Never remove older labels from any boxes. This includes the original ID tags, as well as any labels dated c. 2004-2013 that are printed on white paper.
 {: .notice--warning}
+
+## Quality Control
 
 ## Relocating
 
