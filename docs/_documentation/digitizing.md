@@ -172,6 +172,7 @@ Quality control (QC) checks are completed at the end of the digitization workflo
    2 | **Remove the paper ID tags.** Check that 1) the new labels were placed correctly, that this information matches what was recorded on the ID tags; 2) replace any printed labels that have errors; 3) for boxes with multiple lots, make sure these specimens are properly associated on the [Relationships tab]({{ site.baseurl }}documentation/cataloging/#relationships-tab). Note that the archival ID Comment tags should remain in their boxes.
    3 | **Integrate TX lots into the taxonomic collection.** Remove the blue TX tags from these boxes and consolidate them; place them in the tray destined for the stratigraphic collection.
    4 | **Double-check the location assignments.** Make any refinements, if needed.
+   5 | **Is the tray metal or wooden?** If it's wooden, switch it out for a metal tray.
    5 | **Return the tray to the collection.** Place the completed digitization worksheet in the worksheet inbox located in the Cretaceous Corner.
 
 <center>:rainbow::sparkles:The finished product should look something like this::sparkles::unicorn:</center>
