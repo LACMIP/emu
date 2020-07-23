@@ -9,7 +9,7 @@ Multiple grants from the National Science Foundation support current digitizatio
 
 # Pre-digitization
 
-## Pre-digitization workflow
+## Workflow overview
 
 Pre-digitization is completed by LACMIP staff. 
 
@@ -94,46 +94,46 @@ Specimen image capture and processing are essential components of digitization. 
 
 # Post-digitization
 
-Post-digitization curation and quality control (QC) are important components of the overall digitization process. LACMIP staff direct volunteer and intern participation in curation, whereas LACMIP staff are responsible for QC.
+Post-digitization curation and quality control (QC) are important components of the overall digitization process. LACMIP staff direct volunteer and intern participation in curation, whereas only LACMIP staff are responsible for QC.
 
 If you participate in any post-digitization activities for a given tray, please add your name and date to the appropriate columns on the digitization worksheet:
-<img src="{{ site.baseurl }}/assets/images/cataloging_digitizationworksheet.png" alt="" width="500"/>{: .align-center}
+<img src="{{ site.baseurl }}/assets/images/cataloging_digitizationworksheet2.png" alt="" width="500"/>{: .align-center}
 
 ## Painting
-Most LACMIP specimens already have locality numbers glued or painted on them. For this reason, the need for painting is limited, and this step is mostly completed by LACMIP staff. A few tips for painting...
-- **All vials should be painted with a stripe** extending ~3/4" from the bottom and is ~1/8" wide. The "stripe checker" tool, as seen in the image here, can help guide you when you are new to this step.
+Most LACMIP specimens already have locality numbers glued or painted on them. For this reason, the need for painting is limited, and this step is mostly completed by LACMIP staff. 
+A few tips for painting...
+- **All vials should be painted with a stripe** extending ~3/4" from the bottom and is ~1/8" wide. The "stripe checker" tool, as seen in the image here, can help guide you when you are new to this process.
 <img src="{{ site.baseurl }}/assets/images/digitization_stripechecker.jpg" alt="" width="400"/>{: .align-center}
 - If a specimen has **multiple ID tags** (indicating multiple lots), you will need to **paint multiple stripes** to provide space for each catalog number. Additional stripes are always painted below one another in a row on vials.
-- **Do not paint loose specimens**. LACMIP staff will determine whether this is necessary.
-- Steady each specimen or vial against the table to help paint smooth, clean stripes.
+- **Do not paint loose specimens**. LACMIP staff will indicate if this is necessary.
+- Steady the vial against a hard surface.
 - Stand vials on their lids (upside-down) to dry.
-- Paint should left to dry for 24 hours prior to numbering.
+- Paint should left to dry overnight before numbering.
 
 **Do not let paint dry to your brush! This will ruin it.** Keep a water cup and paper towel handy for quick cleaning. As soon as you have finished painting or need a break, wash your brush thoroughly. 
 {: .notice--warning}
 
 ## Numbering
 
-About 24 hours after painting, vials can be numbered. The **#1 rule** of numbering specimens is that **neatness counts**! Use either a 01 or 005 black Pigma Micron pen to number.
+Vials can be numbered one day after painting.
 
 {% include figure image_path="/assets/images/digitization_numbering.png" alt="" caption="Letters and numbers should be written according to this example." %}
 
 A few tips for numbering...
-- Press lightly and use short pen strokes, somewhat as though you are "painting" the letters and numbers on.
+- Use either a 01 or 005 black Pigma Micron pen to number.
+- Press lightly and use short pen strokes, as though you are "painting" the letters and numbers on.
 - Steady the vial against a hard surface.
-- Avoid touching the ink before it’s dried.
-- If a lot has more than one catalog number, both need to be written on the vial. 
+- Avoid touching the ink before it’s dried. (Complete drying takes several hours.)
+- If a specimen lot has more than one catalog number, both need to be written on the vial.
+- #1 Rule: **Neatness counts!**
 
 **Writing on semi-dry paint will ruin Micron pens**; please wait at least 24 hours after painting to number vials.
 {: .notice--warning}
 
 ## Labels
 
-<img src="{{ site.baseurl }}/assets/images/digitization_labels.jpg" alt="" width="300"/>{: .align-right}
-
 Once specimens have been cataloged, LACMIP staff will print and place specimen labels in their respective trays. These will need to be cut and placed in their respective boxes before the specimen tray can return to its permanent storage location.
 
-The image to the right depicts an example of a newly-labeled specimen. Labeling involves the following steps...
 *Step* | *Labelling task...*
    --- | ---
    1 | **Cut the labels.** Use the paper cutter to cut labels as neatly as possible, leaving a thin border around the black outline. The LED light strip can be very useful in guiding this activity. Only cut **one sheet** of labels at a time.
@@ -141,7 +141,9 @@ The image to the right depicts an example of a newly-labeled specimen. Labeling 
    3 | **Fold the labels.** Neatly fold each label on the dotted line. Keep them in locality-lot order.
    4 | **Place the labels.** Locate the box each label belongs in and place them according to the guidelines below.
    
-### Labeling guidelines
+<img src="{{ site.baseurl }}/assets/images/digitization_labels.jpg" alt="" width="500"/>{: .align-center}
+   
+**Labeling guidelines**
 - Some boxes will require multiple labels (one per cataloged lot). In this case, display them in numerical order, with the lowest lot number on top.
 - Left-justify labels in boxes, with additional labels visible to the right when they are present.
 - Watch for labels with missing/incorrect information - they will need reprinting! Spot check the lot count and taxonomic identification between the handwritten ID tag and the printed label as you work.
