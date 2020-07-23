@@ -98,7 +98,7 @@ Specimen image capture and processing are essential components of digitization. 
 Post-digitization curation steps important components of the overall digitization process. LACMIP staff, volunteers, and interns all participate in various parts of this workflow.
 
 If you participate in any post-digitization activities for a given tray, please add your name and date to the appropriate columns on the digitization worksheet:
-<img src="{{ site.baseurl }}/assets/images/cataloging_postdigitizationworksheet.png" alt="" width="500"/>{: .align-center}
+<img src="{{ site.baseurl }}/assets/images/digitizing_postdigitizationworksheet.png" alt="" width="500"/>{: .align-center}
 
 ## Painting
 Most LACMIP specimens already have locality numbers glued or painted on them. For this reason, the need for painting is limited, and this step is mostly completed by LACMIP staff. 
@@ -155,6 +155,10 @@ Once specimens have been cataloged, LACMIP staff will print and place specimen l
 Never remove older labels from their boxes. This includes the original ID tags, as well as any labels dated c. 2004-2013 that are printed on white paper.
 {: .notice--warning}
 
+# Locate specimens
+
+In EMu, search for all ST catalog records associated with the tray. Batch assign them to the location recorded on the digitization worksheet. Likewise, assign all TX catalog records to the taxonomic collection.
+
 # Quality Control
 
 Quality control (QC) checks are completed at the end of the digitization workflow. LACMIP staff are responsible for these activities, including:
@@ -162,9 +166,9 @@ Quality control (QC) checks are completed at the end of the digitization workflo
 *Step* | *QC task...*
    --- | ---
    1 | **Check the arrangement of the boxes.** If they were reorganized during cataloging or curation, or need some final straightening up, fix them now.
-   2 | **Remove the paper ID tags.** Check that the new labels were placed correctly, and that this information matches what was recorded on the ID tags. Replace any printed labels that have errors. (The archival ID Comment tags should remain in the boxes.)
+   2 | **Remove the paper ID tags.** Check that 1) the new labels were placed correctly, that this information matches what was recorded on the ID tags; 2) replace any printed labels that have errors; 3) for boxes with multiple lots, make sure these specimens are properly associated on the [Relationships tab]({{ site.baseurl }}documentation/cataloging/#relationships-tab). Note that the archival ID Comment tags should remain in their boxes.
    3 | **Integrate TX lots into the taxonomic collection.** Remove the blue TX tags from these boxes and consolidate them, to be left in the tray destined for the stratigraphic collection.
-   4 | **Double-check the location assignment.** In EMu, search for all ST catalog records associated with the tray. Batch assign them to the location recorded on the digitization worksheet. Likewise, assign all TX catalog records to the taxonomic collection.
+   4 | **Double-check the location assignment.** Make any refinements, if needed.
    5 | **Return the tray to the collection.** Place the completed digitization worksheet in the worksheet inbox located in the Cretaceous Corner.
 
 <center>The finished product should look something like this:</center>
