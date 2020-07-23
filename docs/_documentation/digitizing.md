@@ -159,7 +159,7 @@ Never remove older labels from their boxes. This includes the original ID tags, 
 
 In EMu, search for all ST catalog records associated with the tray. Batch assign them to the location recorded on the digitization worksheet. Likewise, assign all TX catalog records to the taxonomic collection.
 
-# Quality Control
+# Quality control
 
 Quality control (QC) checks are completed at the end of the digitization workflow. LACMIP staff are responsible for these activities.
 
