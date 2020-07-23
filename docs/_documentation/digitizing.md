@@ -31,6 +31,7 @@ Pre-digitization is completed by LACMIP staff.
 - If the specimen’s _Original Nature_ is not “body fossil” and/or the _Anatomy_ is not “shell(s)”, write this information in the space above “New ID”.
 <img src="{{ site.baseurl }}/assets/images/digitizing_flexspace.png" alt="" width="500"/>{: .align-center}
 - In addition to ID tags, [blue “TX” tags](https://github.com/LACMIP/emu/blob/master/docs/assets/images/digitizing_txtagstemplate.pdf) should also be completed for all lots destined for the taxonomic collection. Further, if associated lots are to be sent to the taxonomic collection in the same box (e.g., a bivalve with an associated boring), include both catalog numbers on the tag.
+- If a specimen is separated from a larger lot for cataloging in the TX collection, the original/historic labels should reminain with the original ST lot.
 <img src="{{ site.baseurl }}/assets/images/digitizing_txtags.png" alt="" width="500"/>{: .align-center}
 
 ## Rehousing guidelines
@@ -91,28 +92,31 @@ See separate documentation for [georeferencing]({{ site.baseurl }}/documentation
 
 Specimen image capture and processing are essential components of digitization. Complete documentation for this step is forthcoming. The current protocol for imaging insect compression fossils can be accessed [here](https://github.com/LACMIP/emu/blob/master/docs/assets/images/LACMIP_Compression_Fossil_Imaging_Protocol.pdf).
 
-# Post-digitization curation
+# Post-digitization
 
-Physical curation is an important component of the overall digitization process, not only because it increases digitization efficiency, but also because it provides the opportunity to improve things such as taxonomic identifications, physical storage conditions, etc.
+Post-digitization curation and quality control (QC) are important components of the overall digitization process. LACMIP staff direct volunteer and intern participation in curation, whereas LACMIP staff are responsible for QC.
+
+If you participate in any post-digitization activities for a given tray, please add your name and date to the appropriate columns on the digitization worksheet:
+<img src="{{ site.baseurl }}/assets/images/cataloging_digitizationworksheet.png" alt="" width="500"/>{: .align-center}
 
 ## Painting
-Most LACMIP specimens already have locality numbers glued or painted on them. For this reason, the need for painting is limited. This step is mostly completed by IP staff following cataloging. A few tips for painting...
-- All **vials** should be painted with a stripe extending ~3/4" from the bottom and is ~1/8" wide. The "stripe checker" tool, as seen in the image here, can help guide you when you are new to this step.
+Most LACMIP specimens already have locality numbers glued or painted on them. For this reason, the need for painting is limited, and this step is mostly completed by LACMIP staff. A few tips for painting...
+- **All vials should be painted with a stripe** extending ~3/4" from the bottom and is ~1/8" wide. The "stripe checker" tool, as seen in the image here, can help guide you when you are new to this step.
 <img src="{{ site.baseurl }}/assets/images/digitization_stripechecker.jpg" alt="" width="400"/>{: .align-center}
-- If a specimen has **multiple ID tags** (indicating multiple lots), you will need to **paint multiple stripes** to provide space for each catalog number on vials and plastic boxes. Typically one stripe per catalog number is fine, but if you have a specimen with an excessive amount of lots, please ask LACMIP staff for advice. Additional stripes are always painted below one another on vials.
+- If a specimen has **multiple ID tags** (indicating multiple lots), you will need to **paint multiple stripes** to provide space for each catalog number. Additional stripes are always painted below one another in a row on vials.
 - **Do not paint loose specimens**. LACMIP staff will determine whether this is necessary.
 - Steady each specimen or vial against the table to help paint smooth, clean stripes.
 - Stand vials on their lids (upside-down) to dry.
 - Paint should left to dry for 24 hours prior to numbering.
 
-Do not let paint dry to your brush! This will ruin it. Keep a water cup and paper towel handy for quick cleaning. As soon as you have finished painting or need to take a break, wash your brush thoroughly. 
+**Do not let paint dry to your brush! This will ruin it.** Keep a water cup and paper towel handy for quick cleaning. As soon as you have finished painting or need a break, wash your brush thoroughly. 
 {: .notice--warning}
 
 ## Numbering
 
 About 24 hours after painting, vials can be numbered. The **#1 rule** of numbering specimens is that **neatness counts**! Use either a 01 or 005 black Pigma Micron pen to number.
 
-{% include figure image_path="/assets/images/digitization_numbering.png" alt="" caption="Letters and numbers should be written according to this example. Do not cross '7' or enclose the number '4'" %}
+{% include figure image_path="/assets/images/digitization_numbering.png" alt="" caption="Letters and numbers should be written according to this example." %}
 
 A few tips for numbering...
 - Press lightly and use short pen strokes, somewhat as though you are "painting" the letters and numbers on.
@@ -120,25 +124,30 @@ A few tips for numbering...
 - Avoid touching the ink before it’s dried.
 - If a lot has more than one catalog number, both need to be written on the vial. 
 
-Wait at least 24 hours after painting to number vials; using Micron pens on semi-dry paint will ruin them.
+**Writing on semi-dry paint will ruin Micron pens**; please wait at least 24 hours after painting to number vials.
 {: .notice--warning}
 
 ## Labels
 
 <img src="{{ site.baseurl }}/assets/images/digitization_labels.jpg" alt="" width="300"/>{: .align-right}
 
-Once specimens have been cataloged, new labels are printed and must be cut/placed before the specimen tray can return to its permanent storage location. The image to the right depicts an example of a newly-labeled specimen. Labeling involves the following steps...
-1. Use the paper cutter to cut labels neatly, leaving a thin border around the black outline. **Never cut more than once sheet of labels at a time**.
-1. Separate ST/TX labels and arrange each pile in numerical order by locality number.
-1. Find the tray of specimens to which the labels belong. Match each label to its specimen, then either neatly fold on the dotted line and place the label inside the specimen box (for lots housed loose or in small vials) **or** neatly cut on the dotted line and place the label inside the specimen vial (for EPICC lots housed in medium and large vials). Note that...
-    - non-EPICC lots may not need to have their label cut and placed inside the vial; please check with LACMIP staff
-    - Some boxes will require multiple labels (one per lot).
-    - Left-justify labels, with additional labels visible to the right when they are present.
-    - When placing the label inside a vial, always remove specimens first, and orient the ST/TX box on the label at the bottom of the vial (away from the cap).
-    - Never force specimens back into a vial. They need to have some breathing space. If you are struggling to get all of the specimens back into the vial after putting the label in, ask for help.
-    - In the case of TX specimens, whenever possible place all relevant tags and labels inside the vial with the specimens. Only do this if you can do so without damaging the specimens or paper.
-    - Older labels should not be removed from their boxes. This includes the handwritten labels, as well as labels on printer paper (c. 2004-2013) and new ID tags.
-    - Watch for labels with missing/incorrect information as they will need reprinting! It is especially important to spot check the lot count and taxonomic identification between the handwritten ID tag and the printed label.
+Once specimens have been cataloged, LACMIP staff will print and place specimen labels in their respective trays. These will need to be cut and placed in their respective boxes before the specimen tray can return to its permanent storage location.
+
+The image to the right depicts an example of a newly-labeled specimen. Labeling involves the following steps...
+*Step* | *Labelling task...*
+   --- | ---
+   1 | **Cut the labels.** Use the paper cutter to cut labels as neatly as possible, leaving a thin border around the black outline. The LED light strip can be very useful in guiding this activity. Only cut **one sheet** of labels at a time.
+   2 | **Sort the labels.** Arrange them in piles by locality, then sort each pile consecutively by lot number.
+   3 | **Fold the labels.** Neatly fold each label on the dotted line. Keep them in locality-lot order.
+   4 | **Place the labels.** Locate the box each label belongs in and place them according to the guidelines below.
+   
+### Labeling guidelines
+- Some boxes will require multiple labels (one per cataloged lot). In this case, display them in numerical order, with the lowest lot number on top.
+- Left-justify labels in boxes, with additional labels visible to the right when they are present.
+- Watch for labels with missing/incorrect information - they will need reprinting! Spot check the lot count and taxonomic identification between the handwritten ID tag and the printed label as you work.
+    
+Never remove older labels from any boxes. This includes the original ID tags, as well as any labels dated c. 2004-2013 that are printed on white paper.
+{: .notice--warning}
 
 ## Relocating
 
