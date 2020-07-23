@@ -161,16 +161,16 @@ In EMu, search for all ST catalog records associated with the tray. Batch assign
 
 # Quality Control
 
-Quality control (QC) checks are completed at the end of the digitization workflow. LACMIP staff are responsible for these activities, including:
+Quality control (QC) checks are completed at the end of the digitization workflow. LACMIP staff are responsible for these activities.
 
 *Step* | *QC task...*
    --- | ---
    1 | **Check the arrangement of the boxes.** If they were reorganized during cataloging or curation, or need some final straightening up, fix them now.
    2 | **Remove the paper ID tags.** Check that 1) the new labels were placed correctly, that this information matches what was recorded on the ID tags; 2) replace any printed labels that have errors; 3) for boxes with multiple lots, make sure these specimens are properly associated on the [Relationships tab]({{ site.baseurl }}documentation/cataloging/#relationships-tab). Note that the archival ID Comment tags should remain in their boxes.
-   3 | **Integrate TX lots into the taxonomic collection.** Remove the blue TX tags from these boxes and consolidate them, to be left in the tray destined for the stratigraphic collection.
-   4 | **Double-check the location assignment.** Make any refinements, if needed.
+   3 | **Integrate TX lots into the taxonomic collection.** Remove the blue TX tags from these boxes and consolidate them; place them in the tray destined for the stratigraphic collection.
+   4 | **Double-check the location assignments.** Make any refinements, if needed.
    5 | **Return the tray to the collection.** Place the completed digitization worksheet in the worksheet inbox located in the Cretaceous Corner.
 
-<center>The finished product should look something like this:</center>
+<center>:rainbow::sparkles: **The finished product should look something like this:** :sparkles::unicorn:</center>
 
 {% include figure image_path="/assets/images/digitizing_rehousing.jpg" alt="Example of how to rehouse specimen lots in a tray." caption="" %}
