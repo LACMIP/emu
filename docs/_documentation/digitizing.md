@@ -2,7 +2,7 @@
 title: Digitizing
 navcat: Workflows
 tags: cataloging, georeferencing
-last_modified_at: 2020-07-15
+last_modified_at: 2020-07-22
 ---
 
 Multiple grants from the National Science Foundation support current digitization initiatives at LACMIP. "Digitization" itself is a broad term and includes the variety of workflows outlined here. For a more thorough review of digitization workflows, see [Nelson *et al.* 2012](https://doi.org/10.3897/zookeys.209.3135).
@@ -76,6 +76,7 @@ See separate documentation for the complete [cataloging workflow]({{ site.baseur
 
 Check that *Count* is filled out on all ID tags. If it's blank, you'll need to complete this information before or during cataloging.
 <img src="{{ site.baseurl }}/assets/images/digitizing_lotcount.jpg" alt="" width="400"/>{: .align-center}
+
 A few tips for counting...
 - Every separate and distinct piece of material counts as one specimen. For example, the _Lot Count_ for the sample below is "1", even though it has multiple shells stuck to it.
 <img src="{{ site.baseurl }}/assets/images/digitizing_countingexample.png" alt="" width="500"/>{: .align-center}
@@ -94,7 +95,7 @@ Specimen image capture and processing are essential components of digitization. 
 
 # Post-digitization
 
-Post-digitization curation and quality control (QC) are important components of the overall digitization process. LACMIP staff direct volunteer and intern participation in curation, whereas only LACMIP staff are responsible for QC.
+Post-digitization curation steps important components of the overall digitization process. LACMIP staff, volunteers, and interns all participate in various parts of this workflow.
 
 If you participate in any post-digitization activities for a given tray, please add your name and date to the appropriate columns on the digitization worksheet:
 <img src="{{ site.baseurl }}/assets/images/cataloging_postdigitizationworksheet.png" alt="" width="500"/>{: .align-center}
@@ -134,12 +135,15 @@ A few tips for numbering...
 
 Once specimens have been cataloged, LACMIP staff will print and place specimen labels in their respective trays. These will need to be cut and placed in their respective boxes before the specimen tray can return to its permanent storage location.
 
+**LACMIP staff:** _Before printing labels_, recall all specimen records for the tray in EMu to check for missing data and/or incorrectly entered specimen identifications. Use the digitization worksheet to search by *Inserted By* and *Date Inserted*.
+{: .notice--warning}
+
 *Step* | *Labeling task...*
    --- | ---
-   1 | **Cut the labels.** Use the paper cutter to cut labels as neatly as possible, leaving a thin border around the black outline. The LED light strip can be very useful in guiding this activity. **Only cut one sheet of labels at a time.**
-   2 | **Sort the labels.** Arrange them in piles by locality, then sort each pile consecutively by lot number.
-   3 | **Fold the labels.** Neatly fold each label on the dotted line. Keep them in locality-lot order.
-   4 | **Place the labels.** Locate the box each label belongs in and place them according to the guidelines below.
+   1 | **Cut.** Use the paper cutter to cut labels as neatly as possible, leaving a thin border around the black outline. The LED light strip can be very useful in guiding this activity. **Only cut one sheet of labels at a time.**
+   2 | **Sort.** Arrange them in piles by locality, then sort each pile consecutively by lot number.
+   3 | **Fold.** Neatly fold each label on the dotted line. Keep them in locality-lot order.
+   4 | **Place.** Locate the box each label belongs in and place them according to the guidelines below.
    
 **Labeling guidelines**
 - Left-justify labels in boxes.
@@ -148,11 +152,17 @@ Once specimens have been cataloged, LACMIP staff will print and place specimen l
 <img src="{{ site.baseurl }}/assets/images/digitization_labels.jpg" alt="" width="400"/>{: .align-center}
 - Watch for labels with missing/incorrect information - they will need reprinting! Spot check the lot count and taxonomic identification between the handwritten ID tag and the printed label as you work.
     
-Never remove older labels from any boxes. This includes the original ID tags, as well as any labels dated c. 2004-2013 that are printed on white paper.
+Never remove older labels from their boxes. This includes the original ID tags, as well as any labels dated c. 2004-2013 that are printed on white paper.
 {: .notice--warning}
 
-## Quality Control
+# Quality Control
 
-## Relocating
+Quality control (QC) checks are completed at the end of the digitization workflow. LACMIP staff are responsible for these activities, including:
+- **Check that the boxes were not reorganized during cataloging or curation.** If they were, fix them now.
+- **Removing paper ID tags.** At this time, carefully check that the new printed labels were placed correctly, and that this information matches what was recorded on the ID tags. Replace any printed labels with errors on them. (The archival ID Comment tags can remain in the boxes.)
+- **Integrate TX lots into the taxonomic collection.** Remove the blue TX tags from these boxes and consolidate them, to be left in the tray destined for the stratigraphic collection.
+- **Assign a location to the tray in EMu.**
 
-{% include figure image_path="/assets/images/digitizing_rehousing.jpg" alt="Example of how to rehouse specimen lots in a tray." caption="When digitization is complete, your tray should look something like this." %}
+**The finished product should look something like this:**
+
+{% include figure image_path="/assets/images/digitizing_rehousing.jpg" alt="Example of how to rehouse specimen lots in a tray." caption="Example tray that has been completely digitized and rehoused." %}
