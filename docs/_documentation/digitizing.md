@@ -1,8 +1,8 @@
 ---
 title: Digitizing
 navcat: Workflows
-tags: quick-start, cataloging, georeferencing
-last_modified_at: 2020-07-22
+tags: cataloging, georeferencing, quick-start
+last_modified_at: 2020-07-25
 ---
 
 Multiple grants from the National Science Foundation support current digitization initiatives at LACMIP. "Digitization" itself is a broad term and includes the variety of workflows outlined here. For a more thorough review of digitization workflows, see [Nelson *et al.* 2012](https://doi.org/10.3897/zookeys.209.3135).
@@ -15,7 +15,7 @@ Pre-digitization is completed by LACMIP staff.
 
  *Step* | *Pre-digitization task...*
    --- | ---
-   1 | <img src="{{ site.baseurl }}/assets/images/digitizing_worksheetexample2.png" alt="" width="500"/>{: .align-center} **Select specimens.** Using the stratigraphic collections inventory, select a tray from the collection to be digitized and immediately begin a [new digitization worksheet](https://github.com/LACMIP/emu/blob/master/docs/assets/images/digitizing_digitzationworksheet2020.pdf). Every tray to be digitized will receive a worksheet upon removal from the collection; these workheets must remain with the tray until the digitization process is complete.
+   1 | <img src="{{ site.baseurl }}/assets/images/digitizing_worksheetexample2.png" alt="" width="500"/>{: .align-center} **Select specimens.** Using the stratigraphic collections inventory, select a tray from the collection to be digitized and immediately begin a [new digitization worksheet](https://github.com/LACMIP/emu/blob/master/docs/assets/images/digitizing_digitzationworksheet2020.pdf). The *Tray ID* is your name and a consecutive number unique to you and the project. the *Loc's* refer to localities represented in the tray. Every tray to be digitized will receive a worksheet immediately upon removal from the collection; **these workheets must remain with the tray until the digitization process is complete.**
    2 | **Verify localities.** Before identifying and rehousing any specimens, check that all associated locality information in EMu is complete and accurate. The fields that will most likely require attention are the _Geographic Details_ and _Collectors_. Filling out these fields will ensure labels will be complete upon printing. Refer to the instructions on [entering new geographic data](https://lacmip.github.io/emu/documentation/sites/#entering-new-geographic-data) and the [IP Locality (1) tab](https://lacmip.github.io/emu/documentation/sites/#ip-locality-1-tab) if _City/Town_ or _Nearest Place_ are blank. If the _Collectors_ _Names_ or _Start Date/End Date_ fields are blank, look for this information on the [Notes tab](https://lacmip.github.io/emu/documentation/sites/#notes-tab) in the Sites module, as well as on old locality cards in the tray. Fill in this information using the “Firstinitial Lastname” format. If the collector is truly unknown, fill in this field with “unknown” in EMu. Collecting dates may be left blank if they are unknown.
    3| <img src="{{ site.baseurl }}/assets/images/digitizing_localitycard.png" alt="" width="500"/>{: .align-center} **Generate new IP Locality Cards.** Once vetted, run the “IP Locality Cards” report in EMu’s Sites module for all localities in the tray. Print the card(s) on archival paper, plasticize and seal them, and then neatly tuck the card(s) under the specimen boxes in the tray.
    4 | **Sort, identify, and rehouse specimens.** Identifications should be made using the most current taxonomic dictionary available for that fauna. Refer to the [identification](https://lacmip.github.io/emu/documentation/digitizing/#identification-guidelines) and [rehousing](https://lacmip.github.io/emu/documentation/digitizing/#rehousing-guidelines) guidelines below.
@@ -54,8 +54,7 @@ After all specimen lots in a tray have been sorted, identified, and rehoused, th
 - In EMu’s Locations module, search: _Level 3_ = cabinet # & _Level 4_ = drawer #
 <img src="{{ site.baseurl }}/assets/images/digitizing_relocating1.png" alt="" width="700"/>{: .align-center}
 - Open the record for the drawer and navigate to the Notes tab.
-- Begin (or continue) a list of trays in the drawer that are ready for cataloging in this format: “YYYY MM DD - YourName”
-- If you identified multiple trays from the same drawer on the same day, add a letter to the date on the worksheet and in EMu.
+- Begin (or continue) a list of trays in the drawer that are ready for cataloging in this format: “Tray ID - Localities”, e.g. "SW1 - 10331, 22470".
 <img src="{{ site.baseurl }}/assets/images/digitizing_relocating2.png" alt="" width="700"/>{: .align-center}
 
 Leave the digitization worksheet in the tray when you return it to the collection.
