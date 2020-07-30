@@ -22,7 +22,7 @@ The following wildcards are useful to know when searching EMu. Remember to use t
 - `\*` means any character, e.g. `appl\*` will find "apple," "apply," "application," etc.
 - `\*` placed alone means anything, a.k.a. not an empty field
 - `\?` means substitute one character, e.g `appl\?` Will find "apple" and "apply"
-- `\^` placed at beginning means “starts with”, e.g. `\^card` will find "Card Game", but not "Yellow Card."
+- `\^` placed at beginning means “starts with”, e.g. `\^card\*` will find "Card Game", but not "Yellow Card."
 - `\$` placed at end means “ends with”, e.g. `card\$` will find "Yellow Card,"" but not "Card Game."
 - `\!\*` means not anything, a.k.a. an empty field
 
