@@ -2,7 +2,7 @@
 title: Projects
 navcat: Modules
 tags: quick-start
-last_modified_at: 2020-07-27
+last_modified_at: 2020-08-04
 ---
 The Projects module is used to track and report statistics for collections-related research and outreach requests. Only users in the Invertebrate Paleontology permission group can add/enter data in this module.
 
