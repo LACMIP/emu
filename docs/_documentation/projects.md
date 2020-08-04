@@ -61,7 +61,7 @@ Intended Audience
 {% include figure image_path="/assets/images/projects_dates.png" alt="screenshot of the Dates tab in the Projects module" caption="Screenshot of the *Dates* tab in the Projects module." %}
 
 Commencement Date
-: Select the day that the event occurred or the request was fulfilled.
+: Select the day that the collections/research-related request was initiated or the outreach event occurred.
 
 
 ## Objects tab
