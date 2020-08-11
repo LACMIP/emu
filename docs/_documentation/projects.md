@@ -85,8 +85,8 @@ To fill out the _Project Statistics_ table, it is **highly recommended** that on
 
 Type of Statistic table
 : A table to document basic statistics regarding the event or request. Please take care to complete this information consistently with other records of the same project sub-type. 
-    - DURATION (hrs): Enter, to the nearest hour, the amount of time spent fullfilling this request/event in _Value_.
-    - ATTENDANCE: For outreach events, enter the number of attendees in _Value_. In _Comments_, enter names of the primarily individuals involved, e.g. "Kevin Kelley, Patrick Hsieh, SCPS members" or "Nicole Roberts, BIO125 students". Likewise, for research and collections-related requests that can be attributed to a specific individual or group of individuals, enter the number of individuals (e.g. researchers) in _Value_ and their names in _Comments_.
+    - DURATION (hrs): For outreach events, enter, to the nearest hour, the amount of time spent fullfilling this request/event in _Value_.
+    - ATTENDANCE: For outreach events, enter the number of attendees in _Value_. In _Comments_, enter names of the primarily individuals involved, e.g. "Kevin Kelley, Patrick Hsieh, SCPS members" or "Nicole Roberts, BIO125 students". For research requests, only enter the names of the individual(s) who made the request in _Comments_.
     - REVENUE ($): If an event or request results in revenue for the department, add this number in the _Value_ column with a _Comment_ indicating where the funds were distributed.
     - FACILITIES: If a visit results in use of specific equipment or facilties, list this in _Comments_.
     - AFFILIATION: Enter the affiliation for whomever made the research or outreach request, including internal affiliations, e.g. "NHMLA (Creative Services)", in _Comments_.
