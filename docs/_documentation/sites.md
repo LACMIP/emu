@@ -2,7 +2,7 @@
 title: Sites
 navcat: Modules
 tags: georeferencing quick-start
-last_modified_at: 2020-06-26
+last_modified_at: 2020-08-18
 ---
 The Sites module is our primary resource for information about specimen collecting localities. Please see [Axiell's documentation](http://help.emu.axiell.com/latest/en/Topics/EMu/Sites%20module.htm) for generic information about this module. The equivalent [Darwin Core terms](https://dwc.tdwg.org/terms/) are provided where applicable. Continue reading to understand how LACMIP uses the fields available in the Sites module.
 
@@ -57,7 +57,7 @@ Alternate Loc ID
 
 Collectors
 : = [dwc:recordedBy](https://dwc.tdwg.org/terms/#dwc:recordedBy) & [dwc:eventDate](https://dwc.tdwg.org/terms/#dwc:eventDate)
-: Each LACMIP locality should represent a unique collecting event in time and space. *Names* in this field are formatted as First initial Lastname (for example: A. Hendy, L. Walker). If the collector is unknown, please enter "unknown" in this field. Each locality should also correspond to a specific date; as such, the *Start Date* and *End Date* should be the same, and can be as specific as a day (e.g. 07/18/1946 - 07/18/1946) or as vague as a year (e.g. 1946-1946). Leave this field blank if you do not know when the collecting event took place. *Verbatim* is occasionally used to record collectors names in full as originally recorded, as well as the verbatim original representation of the date and time of the collecting event, e.g. "fall 1940" or "17-IV-1985"; this field is not published.
+: Each LACMIP locality should represent a unique collecting event in time and space. *Names* in this field are formatted as First initial Lastname (for example: A. Hendy, L. Walker). If the collector is unknown, please enter "unknown" in this field. Each locality should also correspond to a specific date; as such, the *Start Date* and *End Date* should be the same, and can be as specific as a day (e.g. 07/18/1946 - 07/18/1946) or as vague as a year (e.g. 1946-1946). Leave this field blank if you do not know when the collecting event took place. *Verbatim* is occasionally used to record collectors names in full as originally recorded, as well as the verbatim original representation of the date and time of the collecting event, e.g. "COLLECTOR: Alexander Stoyanow; DATE: Summer 53" or "DATE: 17-IV-1985"; the contents of this field are not published online.
 
 Geographic Citation
 : Attach a [bibliography record]({{ site.baseurl }}/documentation/bibliography/) to the site. Maps are included in the LACMIP EMu bibliography, and also commonly referenced in verbatim localities. If you are attaching a map, **make sure to select the correct year**, e.g. "United States Geologic Survey; 1952; Calabasas" vs. "United States Geologic Survey; 1974; Calabasas." You may need to create a new bibliography record if the map you need to attach does not exist. Publications and/or reports are other common geographic citations.
