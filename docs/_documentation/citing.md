@@ -44,7 +44,7 @@ If a specimen has a type number, it must be referenced in-text with the catalog 
 
 A large number of LACMIP's type specimens were published in the NHMLA's _Contributions in Science_ series (1957-2017), which is now available from the [Biodiversity Heritage Library](https://www.biodiversitylibrary.org/bibliography/122696#/summary).
 
-{% include figure image_path="/assets/images/citing_example.png" alt="example of LACMIP type specimens figured in publication" caption="Large portions of the LACMIP collections once belonged to local universities. As such, they were originally cited using different institutional numbers. These numbers now have equivalent LACMIP catalog and type numbers. As one example, [LACMIP 10079.7](https://www.gbif.org/occurrence/2012641180) is illustrated in pink above." %}
+{% include figure image_path="/assets/images/citing_example.png" alt="example of LACMIP type specimens figured in publication" caption="Large portions of the LACMIP collections once belonged to local universities. As such, they were originally cited using different institutional numbers. These numbers now have equivalent LACMIP catalog and type numbers. As one example, [LACMIP 10079.7](https://www.gbif.org/occurrence/2012641180) is illustrated in pink above. (Enlarge image by opening in a new tab or window.)" %}
 
 **For specimens that have been digitized**, catalog numbers and type numbers can be found by querying the LACMIP datasets on GBIF and iDigBio, which currently include fossil insects and Cretaceous marine invertebrates from California. This information is contained in the _dwc:catalogueNumber_ and _dwc:otherCatalogueNumbers_ fields on occurrence records and in data downloads.
 - [LACMIP's GBIF dataset](https://doi.org/10.15468/6nxzen)
@@ -67,7 +67,7 @@ If you need new locality numbers, download and complete the [LACMIP Locality Req
 # Citing digitized collections
 **Digitization requires significant resources that can only be sustained with evidence of use through proper attribution.** If your research has benefitted from LACMIP's digitized collections data in any way, please include the suggested citation for [our GBIF dataset](https://doi.org/10.15468/6nxzen) in your reference list.
 
-Example: Hendy A, Walker L, Mertz W (2020). LACM Invertebrate Paleontology. Version 1.7. Natural History Museum of Los Angeles County. Occurrence dataset [https://doi.org/10.15468/6nxzen](https://doi.org/10.15468/6nxzen) accessed via GBIF.org on 2020-05-19.
+Example: Hendy A, Walker L, Mertz W (2020). LACM Invertebrate Paleontology. Version 1.8. Natural History Museum of Los Angeles County. Occurrence dataset [https://doi.org/10.15468/6nxzen](https://doi.org/10.15468/6nxzen) accessed via GBIF.org on 2020-07-21.
 {: .notice--warning}
 
 {% include figure image_path="/assets/images/citing_GBIF.png" alt="image of LACMIP's occurrence dataset on GBIF.org" caption="Cite LACMIP's GBIF dataset if you have used our digitized collections in your research." %}
