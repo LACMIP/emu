@@ -44,7 +44,7 @@ If a specimen has a type number, it must be referenced in-text with the catalog 
 
 A large number of LACMIP's type specimens were published in the NHMLA's _Contributions in Science_ series (1957-2017), which is now available from the [Biodiversity Heritage Library](https://www.biodiversitylibrary.org/bibliography/122696#/summary).
 
-{% include figure image_path="/assets/images/citing_example.png" alt="example of LACMIP type specimens figured in publication" caption="Large portions of the LACMIP collections once belonged to UCLA and CIT. As such, they were originally cited using different institutional numbers. These numbers now have equivalent LACMIP catalog and type numbers. As one example, [LACMIP 10079.7](https://www.gbif.org/occurrence/2012641180) is illustrated in pink above." %}
+{% include figure image_path="/assets/images/citing_example.png" alt="example of LACMIP type specimens figured in publication" caption="Large portions of the LACMIP collections once belonged to local universities. As such, they were originally cited using different institutional numbers. These numbers now have equivalent LACMIP catalog and type numbers. As one example, [LACMIP 10079.7](https://www.gbif.org/occurrence/2012641180) is illustrated in pink above." %}
 
 **For specimens that have been digitized**, catalog numbers and type numbers can be found by querying the LACMIP datasets on GBIF and iDigBio, which currently include fossil insects and Cretaceous marine invertebrates from California. This information is contained in the _dwc:catalogueNumber_ and _dwc:otherCatalogueNumbers_ fields on occurrence records and in data downloads.
 - [LACMIP's GBIF dataset](https://doi.org/10.15468/6nxzen)
