@@ -114,7 +114,7 @@ Every specimen ID tag will have a *New ID* to be entered into the database; only
 
 {% include figure image_path="/assets/images/cataloging_taxonomynotfound_2020.jpg" alt="image of Identifications tab" caption="**Example of how to proceed if you come across an identification on an ID tag that you cannot find in EMu**. Right-click the image above to enlarge it in a separate tab or window." %}
 
-**If you cannot read the handwriting on the ID tag**, or **no name is returned when you hit tab**, ask for assistance. **If no one is immediately available to help:** 1) if you are trying to enter a *New ID* into EMu, leave the *Taxon* field blank and enter "TAXONOMY NOT FOUND" followed by the *New ID* in EMu's *Comments* field (e.g. "TAXONOMY NOT FOUND Bittscala sp."; 2) if you are trying to enter an *Old name*, type "Old name" in the *Taxon* field and transcribe whatever is written on the ID tag for *Old name* in EMu's *Comments* field (e.g. "Pecten sp.").
+**If you cannot read the handwriting on the ID tag**, or **no name is returned when you hit tab**, ask for assistance. **If no one is immediately available to help:** 1) if you are trying to enter a *New ID* into EMu, leave the *Taxon* field blank and enter "TAXONOMY NOT FOUND" followed by the *New ID* in EMu's *Comments* field (e.g. "TAXONOMY NOT FOUND Bittscala sp."; 2) if you are trying to enter an *Old name*, type "Old name" in the *Taxon* field and transcribe whatever is written on the ID tag for *Old name* in EMu's *Comments* field (e.g. "Pecten sp."). **IP staff can generate lists of acceptable names to for cataloging (vs. old names) if you are having trouble deciphering handwriting!**
 {: .notice--warning}
 
 ### **Relationships tab...**
