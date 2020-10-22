@@ -2,7 +2,7 @@
 title: Catalogue
 navcat: Modules
 tags: cataloging quick-start
-last_modified_at: 2020-07-14
+last_modified_at: 2020-10-22
 ---
 The Catalogue module is the primary place for information about each specimen lot, and a node linking together data from many of the other modules. Please see [Axiell's documentation](http://help.emu.axiell.com/latest/en/Topics/EMu/Catalogue%20module.htm) for generic information about this module. Continue reading here to understand how LACMIP uses the fields available in the Catalogue module.
 
@@ -36,7 +36,10 @@ P/CP
 : Part/Counterpart. Checking this box indicates that the specimen lot contains two or more pieces that fit together to represent a single animal. This is typically reserved for complete part-counterpart pairs of compression fossils and concretions.
 
 Accn. Lot
-: Attach an accession record here. Most LACMIP specimens do not have accession information digitally available yet. Please contact the Museum registrar if you need to attach accession information that has not already been digitized. LACMIP staff do not have permission to add/modify records in the [Accession Lots module]({{ site.baseurl }}/documentation/accessions/).
+: Attach an accession record here. These numbers can be found on the corresponding Sites record, and then copy-pasted into this field, or by searching *Accesion Lot Number* in the Accession Lots module. Because most LACMIP specimens do not have accession information digitally available yet, this field may be blank (see *Accn. No.*). Please contact the Museum registrar if you need to attach accession information that has not already been digitized. LACMIP staff do not have permission to add/modify records in the [Accession Lots module]({{ site.baseurl }}/documentation/accessions/).
+
+Accn. No.
+: Text field for retaining registrar numbers that are not yet entered into the Accession Lots module, and therefore cannot be attached to *Accn. Lot.*
 
 LACMIP Type No.
 : Specimens in the type collection have a type number; record this information here. LACMIP type numbers are labelled on specimens in bright red, yellow, or blue paint. If you are unsure whether a number is a type number, consult the Collections Manager.
@@ -44,9 +47,6 @@ LACMIP Type No.
 
 Field No.
 : A number assigned to a specimen lot **at the time of collection**, typically by the collector. This is not common in the majority of the LACMIP collections (fossil insects being an exception).
-
-Accn. No.
-: Do not use this field.
 
 Inst. Code & Inst. Number
 : Paired values of specimen numbers assigned **during curation** by another institution or the collector. For example, many UCLA specimens have old catalog numbers pasted onto them (white paper rectangles), such as "UCLA 4539". In this case, enter this number into EMu as *Inst. Code* = "UCLA" and *Inst. Number* = "4539." For specimen numbers assigned by the collector, such as "McK 227" assigned by W. D. Pierce, *Inst. Code* = "collector number" and *Inst. Number* = "PIERCE McK 227". Take care **not** to record **locality** numbers from other institutions in this field (record them in *Alternate Loc ID* in the [Sites module]({{ site.baseurl }}/documentation/sites/)).
