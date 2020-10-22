@@ -217,6 +217,15 @@ The *Notes* tab is a holding area for information about the verbatim collector n
 
 The *Multimedia* tab displays any multimedia records that are attached to this site record, usually **maps with localities marked on them by hand** or **scanned copies of correspondence related to the collecting locality**. These are invaluable resources for georeferencing and otherwise understanding where the site actually is.
 
+## Station Data tab
+
+{% include figure image_path="/assets/images/sites_stationdata.png" alt="sites module in EMu" caption="Screenshot of the *Station Data* tab of the Sites module." %}
+
+The *Station Data* tab is where accession and other registrar-related numbers are being temporarily stored until a dedicated field is created elsewhere. **Do not modify any other information on this tab unless you are adding a number to the *Accn. No.* field.
+
+Accn. No.
+: Every locality associated with accessioned specimens in the collection should have a number in *Accn. No.*. This number effectively links the location, and therefore its associated specimens, to documentation regarding the museum's legal possession of the specimens. Therefore, when specimens are catalogued, this number should also be entered into *Accn. No.* and, ideally, *Accn. Lot* on the *Invert. Paleo.* tab in the Catalogue module.
+
 ## Attachments
 
 <img src="{{ site.baseurl }}/assets/images/sites_attachments.png" alt="viewing attached records" width="400"/>{: .align-right}
