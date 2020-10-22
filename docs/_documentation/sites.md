@@ -224,7 +224,7 @@ The *Multimedia* tab displays any multimedia records that are attached to this s
 The *Station Data* tab is where accession and other registrar-related numbers are being temporarily stored until a dedicated field is created elsewhere. **Do not add or modify any information on this tab except adding numbers to the *Accn. No.***
 
 Accn. No.
-: Every locality associated with accessioned specimens in the collection should have a number in *Accn. No.*, e.g. "L.2586.68-1" or "A.6440.58-5" (in this case, donor #6440 + 58-5, the 5th accession from 1958). This number effectively links the location, and therefore its associated specimens, to documentation regarding the museum's legal possession of the specimens. Therefore, when specimens are catalogued, this number should also be entered into *Accn. No.* and, ideally, *Accn. Lot* on the *Invert. Paleo.* tab in the Catalogue module.
+: Every locality associated with accessioned specimens in the collection should have a number in *Accn. No.*, e.g. "L.2586.68-1" or "A.6440.58-5" (whereby "6440" = donor # and "58-5" = the 5th accession from 1958). This number effectively links the location, and therefore its associated specimens, to documentation regarding the museum's legal possession of the specimens. Therefore, when specimens are catalogued, this number should also be entered into *Accn. No.* and, ideally, *Accn. Lot* on the *Invert. Paleo.* tab in the Catalogue module.
 
 ## Attachments
 
