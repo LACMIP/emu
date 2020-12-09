@@ -68,5 +68,3 @@ Example: Hendy A, Walker L, Mertz W (2020). LACM Invertebrate Paleontology. Vers
 Additionally, or alternatively, a customized and citable data download may be generated to reference digitized LACMIP specimens in publications. Contact the collections manager if you would like assistance with creating one.
 
 {% include figure image_path="/assets/images/citing_datadownload.png" alt="image of a custom data download on GBIF.org" caption="[Example](https://doi.org/10.15468/dl.ykhkrs) of a customized data download with a citable DOI." %}
-
-**Collections maintenance and improvement requires significant resources that can only be sustained with evidence of use through proper attribution. Thank you for citing the LACMIP collections in your research!** :star2: :star2: :star2: 
