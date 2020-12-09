@@ -2,7 +2,7 @@
 title: Citations
 navcat: Workflows
 tags:
-last_modified_at: 2020-07-15
+last_modified_at: 2020-12-09
 ---
 
 **Proper citation of museum collections is critical to sustaining these resources and the reproducibility of your research.** If you intend to include LACMIP specimens or localities in publication, please follow the guidelines below. Likewise, in exchange for the use of LACMIP collections data in your research, we request that any resulting publications be shared with LACMIP staff.
@@ -27,20 +27,20 @@ If citing both the catalog and type numbers in-text becomes overly cumbersome, t
    {: .notice--warning}
 
 ## Where can I find these numbers?
-**All LACMIP specimens receive catalog numbers during digitization.** Each catalog number includes a locality number _and_ lot number (i.e., LACMIP loc#.lot#), and each lot may contain one or more individual specimens. If you intend to figure/illustrate a specimen from a lot with multiple individuals, it is LACMIP's preference that a new catalog number be generated for each individual specimen.
+All LACMIP specimens receive catalog numbers during digitization. Each catalog number includes a locality number _and_ lot number (i.e., LACMIP loc#.lot#), and each lot may contain one or more individual specimens. If you intend to figure/illustrate a specimen from a lot with multiple individuals, it is LACMIP's preference that a new catalog number be generated for each individual specimen.
 
-**Specimens that receive type numbers include:**
+**Specimens that may receive new type numbers include:**
 - holotypes, syntypes, paratypes, lectotypes, neotypes, allotypes
 
 **Specimens that do not receive type numbers include:**
 - figured and unfigured hypotypes, mentioned/referred specimens
 
-However, if a specimen has a preexisting type number (even hypotypes), it must be referenced in-text with the catalog number.
+However, if a specimen has a preexisting type number (even hypotypes), it must be referenced in-text alongside the catalog number.
 
 ## Brief history
-Comprehensive inventories of the LACMIP type collection were first published in [Wilson and Bing (1970)](https://www.biodiversitylibrary.org/page/52108822) and [Sphon (1973)](https://www.biodiversitylibrary.org/page/52110575). Supplements to these catalogs, including specimens transfered from UCLA, were later published by [Wilson (1986)](http://www.worldcat.org/oclc/21194970), [Saul, 1991](http://www.worldcat.org/oclc/1086135842), and [Saul (1993)](http://www.worldcat.org/oclc/28818677). Subsequently, catalog numbers were assigned to all specimens (including types), which now serve as the primary identifiers for LACMIP's specimen records.
+Comprehensive inventories of the LACMIP type collection were first published by [Wilson and Bing (1970)](https://www.biodiversitylibrary.org/page/52108823) and [Sphon (1973)](https://www.biodiversitylibrary.org/page/52110575). Supplements to these catalogs, including specimens transfered to LACMIP from UCLA, were later published by [Wilson (1986)](http://www.worldcat.org/oclc/21194970), [Saul (1991)](http://www.worldcat.org/oclc/1086135842), and [Saul (1993)](http://www.worldcat.org/oclc/28818677). Subsequently, catalog numbers were assigned to all specimen lots, which now serve as the primary identifiers for LACMIP's specimen records.
 
-**For specimens that have been digitized since 2015**, catalog and type numbers can be found by querying the LACMIP datasets on GBIF and iDigBio, which currently include records for Cretaceous through Cenozoic marine invertebrates from California, as well as all fossil insects from the Statz, Pierce, and Rancho La Brea insect type collections. These datasets will be maintained and added to into the foreseeable future:
+**For specimens that have been digitized since 2015**, catalog and type numbers can be found by querying the LACMIP datasets on GBIF and iDigBio, which currently include records for Cretaceous through Cenozoic marine invertebrates from California, as well as all insects from the Statz, Pierce, and Rancho La Brea insect type collections. These datasets will be maintained and expanded into the foreseeable future:
 - [LACMIP's GBIF dataset](https://doi.org/10.15468/6nxzen)
 - [LACMIP's iDigBio recordset](https://www.idigbio.org/portal/recordsets/5082e6c8-8f5b-4bf6-a930-e3e6de7bf6fb)
 
@@ -48,19 +48,19 @@ See below to learn [how to cite digitized collections](https://lacmip.github.io/
 
 **For specimens that are not yet digitized**, new catalog and or type numbers may need to be created. Please contact the collections manager to verify whether this is necessary.
 
-{% include figure image_path="/assets/images/citing_catalognumber.png" alt="screenshot of a catalog number on GBIF" caption="Screenshot illustrating where to locate catalog numbers on GBIF occurrence records." %}
+{% include figure image_path="/assets/images/citing_catalognumber.png" alt="screenshot of a catalog number on GBIF" caption="Screenshot illustrating where to locate catalog numbers on GBIF occurrence records, e.g. [LACMIP 10088.8](https://www.gbif.org/occurrence/2012637492). Existing type numbers will be listed under _Other catalogue numbers_, e.g. [LACMIP 10079.7](https://www.gbif.org/occurrence/2012641180)." %}
 
-{% include figure image_path="/assets/images/citing_example.png" alt="example of LACMIP type specimens figured in publication" caption="Large portions of the LACMIP collections once belonged to local universities. As such, they were originally cited using different institutional numbers. These numbers now have equivalent LACMIP catalog and type numbers. As one example, [LACMIP 10079.7](https://www.gbif.org/occurrence/2012641180) is illustrated in pink above. (Enlarge image by opening in a new tab or window.)" %}  
+{% include figure image_path="/assets/images/citing_example.png" alt="example of LACMIP type specimens figured in publication" caption="Large portions of the LACMIP collections once belonged to local universities. As such, they were originally cited using different institutional numbers. These numbers now have equivalent LACMIP catalog and type numbers. Two examples, [LACMIP 10079.7](https://www.gbif.org/occurrence/2012641180) and [LACMIP 10100.11](https://www.gbif.org/occurrence/2012653749) from [Popenoe (1983)](https://decapoda.nhm.org/pdfs/33492/33492-001.pdf), are illustrated above. (Enlarge image by opening in a new tab or window.)" %}  
 
 # Citing LACMIP localities
-LACMIP localities should be cited in text as "**LACMIP locality #**" or "**LACMIP loc. #**". This format eliminates potential ambiguity between LACMIP locality and type numbers.
+LACMIP localities should be cited in text as "**LACMIP locality #**" or "**LACMIP loc. #**". This format eliminates potential confusion between LACMIP locality and type numbers.
 
 Example: "**LACMIP loc. 2533**" or "**LACMIP locality 2533**".
 {: .notice--warning}
 
-If you would like to request new LACMIP locality numbers, download and complete the [LACMIP Locality Request Form](https://docs.google.com/spreadsheets/d/1v1xc2jFS-fva_YW_9lPM89yGpv7XCacIA1H0SAAgA8w/edit?usp=sharing) and submit it to the collections manager with any relevant documentation. _As per museum policy, be prepared to show evidence of permission to collect at localities on private and public land._ (Open [form](https://docs.google.com/spreadsheets/d/1v1xc2jFS-fva_YW_9lPM89yGpv7XCacIA1H0SAAgA8w/edit?usp=sharing) > _File_ > _Download_). Keep in mind that each LACMIP locality is intended to represent a unique sampling event at the finest geographic and stratigraphic resolution possible; for example, if a field party collects from the same bed over two days, two or more locality numbers may apply.
+If you would like to request new LACMIP locality numbers, download and complete the [LACMIP Locality Request Form](https://docs.google.com/spreadsheets/d/1v1xc2jFS-fva_YW_9lPM89yGpv7XCacIA1H0SAAgA8w/edit?usp=sharing) and submit it to the collections manager, along with any relevant documentation, including collecting permits. (Open [form](https://docs.google.com/spreadsheets/d/1v1xc2jFS-fva_YW_9lPM89yGpv7XCacIA1H0SAAgA8w/edit?usp=sharing) > _File_ > _Download_). Keep in mind that each LACMIP locality is intended to represent a unique sampling event at the finest geographic and stratigraphic resolution possible; for example, if a field party collects from the same bed over two days, two or more locality numbers may apply.
 
-# Citing our digital collections datasets
+# Citing the LACMP collections as an entity
 **Digitization requires significant resources that can only be sustained with evidence of use through proper attribution.** If your research has benefitted from LACMIP's collections data in any way, please include the suggested citation for [our GBIF dataset](https://doi.org/10.15468/6nxzen) in your reference list.
 
 Example: Hendy A, Walker L, Mertz W (2020). LACM Invertebrate Paleontology. Version 1.8. Natural History Museum of Los Angeles County. Occurrence dataset [https://doi.org/10.15468/6nxzen](https://doi.org/10.15468/6nxzen) accessed via GBIF.org on 2020-07-21.
