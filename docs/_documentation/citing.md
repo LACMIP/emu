@@ -44,13 +44,11 @@ Comprehensive inventories of the LACMIP type collection were first published by 
 - [LACMIP's GBIF dataset](https://doi.org/10.15468/6nxzen)
 - [LACMIP's iDigBio recordset](https://www.idigbio.org/portal/recordsets/5082e6c8-8f5b-4bf6-a930-e3e6de7bf6fb)
 
-See below to learn [how to cite digitized collections](https://lacmip.github.io/emu/documentation/citing/#citing-digitized-collections).
-
 **For specimens that are not yet digitized**, new catalog and or type numbers may need to be created. Please contact the collections manager to verify whether this is necessary.
 
 {% include figure image_path="/assets/images/citing_catalognumber.png" alt="screenshot of a catalog number on GBIF" caption="Screenshot illustrating where to locate catalog numbers on GBIF occurrence records, e.g. [LACMIP 10088.8](https://www.gbif.org/occurrence/2012637492). Existing type numbers will be listed under _Other catalogue numbers_, e.g. [LACMIP 10079.7](https://www.gbif.org/occurrence/2012641180)." %}
 
-{% include figure image_path="/assets/images/citing_example.png" alt="example of LACMIP type specimens figured in publication" caption="Large portions of the LACMIP collections once belonged to local universities. As such, they were originally cited using different institutional numbers. These numbers now have equivalent LACMIP catalog and type numbers. Two examples, [LACMIP 10079.7](https://www.gbif.org/occurrence/2012641180) and [LACMIP 10100.11](https://www.gbif.org/occurrence/2012653749) from [Popenoe (1983)](https://decapoda.nhm.org/pdfs/33492/33492-001.pdf), are illustrated above. (Enlarge image by opening in a new tab or window.)" %}  
+{% include figure image_path="/assets/images/citing_example.png" alt="example of LACMIP type specimens figured in publication" caption="Large portions of the LACMIP collections once belonged to local universities. As such, they were originally cited using different institutional numbers. These numbers now have equivalent LACMIP catalog and type numbers. Two examples, [LACMIP 10079.7](https://www.gbif.org/occurrence/2012641180) and [LACMIP 10100.11](https://www.gbif.org/occurrence/2012653749), are illustrated in pink and blue. (Enlarge image by opening in a new tab or window.)" %}  
 
 # Citing LACMIP localities
 LACMIP localities should be cited in text as "**LACMIP locality #**" or "**LACMIP loc. #**". This format eliminates potential confusion between LACMIP locality and type numbers.
@@ -60,7 +58,7 @@ Example: "**LACMIP loc. 2533**" or "**LACMIP locality 2533**".
 
 If you would like to request new LACMIP locality numbers, download and complete the [LACMIP Locality Request Form](https://docs.google.com/spreadsheets/d/1v1xc2jFS-fva_YW_9lPM89yGpv7XCacIA1H0SAAgA8w/edit?usp=sharing) and submit it to the collections manager, along with any relevant documentation, including collecting permits. (Open [form](https://docs.google.com/spreadsheets/d/1v1xc2jFS-fva_YW_9lPM89yGpv7XCacIA1H0SAAgA8w/edit?usp=sharing) > _File_ > _Download_). Keep in mind that each LACMIP locality is intended to represent a unique sampling event at the finest geographic and stratigraphic resolution possible; for example, if a field party collects from the same bed over two days, two or more locality numbers may apply.
 
-# Citing the LACMP collections as an entity
+# Citing LACMIP collections as an entity
 **Digitization requires significant resources that can only be sustained with evidence of use through proper attribution.** If your research has benefitted from LACMIP's collections data in any way, please include the suggested citation for [our GBIF dataset](https://doi.org/10.15468/6nxzen) in your reference list.
 
 Example: Hendy A, Walker L, Mertz W (2020). LACM Invertebrate Paleontology. Version 1.8. Natural History Museum of Los Angeles County. Occurrence dataset [https://doi.org/10.15468/6nxzen](https://doi.org/10.15468/6nxzen) accessed via GBIF.org on 2020-07-21.
