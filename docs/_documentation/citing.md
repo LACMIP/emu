@@ -17,7 +17,7 @@ Example: "**LACMIP 2533.234, LACMIP Type 3364**"
 {: .notice--warning}
 
 ## What if I have numerous specimens to cite?
-If citing both the catalog and type numbers in-text becomes overly cumbersome, the catalog number takes precedent in-text. **_However_**, both numbers should still be included elsewhere in the publication. We suggest doing so in either list or table format.
+If citing both the catalog and type numbers in-text becomes overly cumbersome, the catalog number takes precedent in-text. However, both numbers should still be included elsewhere in the publication. We suggest doing so in either list or table format.
 
 *Catalog No.* | *Type No.*
    --- | ---
