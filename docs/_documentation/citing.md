@@ -2,7 +2,7 @@
 title: Citations
 navcat: Workflows
 tags:
-last_modified_at: 2020-12-09
+last_modified_at: 2020-12-10
 ---
 
 **Proper citation of museum collections is critical to sustaining these resources and the reproducibility of your research.** If you intend to include LACMIP specimens or localities in publication, please follow the guidelines below. Likewise, in exchange for the use of LACMIP collections data in your research, we request that any resulting publications be shared with LACMIP staff.
@@ -26,7 +26,7 @@ If citing both the catalog and type numbers in-text becomes overly cumbersome, t
    LACMIP 2533.236 | LACMIP Type 3366
    {: .notice--warning}
 
-## Where can I find these numbers?
+## Catalog vs. Type Numbers
 All LACMIP specimens receive catalog numbers during digitization. Each catalog number includes a locality number _and_ lot number (i.e., LACMIP loc#.lot#), and each lot may contain one or more individual specimens. If you intend to figure/illustrate a specimen from a lot with multiple individuals, it is LACMIP's preference that a new catalog number be generated for each individual specimen.
 
 **Specimens that may receive new type numbers include:**
