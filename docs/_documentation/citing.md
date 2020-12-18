@@ -57,7 +57,7 @@ Example: "**LACMIP loc. 2533**" or "**LACMIP locality 2533**".
 
 If you would like to request new LACMIP locality numbers, download and complete the [LACMIP Locality Request Form](https://docs.google.com/spreadsheets/d/1v1xc2jFS-fva_YW_9lPM89yGpv7XCacIA1H0SAAgA8w/edit?usp=sharing) and submit it to the collections manager, along with any relevant documentation, including collecting permits. (Open [form](https://docs.google.com/spreadsheets/d/1v1xc2jFS-fva_YW_9lPM89yGpv7XCacIA1H0SAAgA8w/edit?usp=sharing) > _File_ > _Download_). Keep in mind that each LACMIP locality is intended to represent a unique sampling event at the finest geographic and stratigraphic resolution possible; for example, if a field party collects from the same bed over two days, two or more locality numbers may apply.
 
-# Citing LACMIP's collections as an entity
+# Citing the collections as an entity
 The LACMIP collections can also be cited as a whole by including the suggested citation for [our GBIF dataset](https://doi.org/10.15468/6nxzen) in your reference list. Please do so if your research has benefitted from our collections in any way:
 
 Example: Hendy A, Walker L, Mertz W (2020). LACM Invertebrate Paleontology. Version 1.8. Natural History Museum of Los Angeles County. Occurrence dataset [https://doi.org/10.15468/6nxzen](https://doi.org/10.15468/6nxzen) accessed via GBIF.org on 2020-07-21.
