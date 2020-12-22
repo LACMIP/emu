@@ -2,7 +2,7 @@
 title: Sites
 navcat: Modules
 tags: georeferencing quick-start
-last_modified_at: 2020-08-18
+last_modified_at: 2020-12-22
 ---
 The Sites module is our primary resource for information about specimen collecting localities. Please see [Axiell's documentation](http://help.emu.axiell.com/latest/en/Topics/EMu/Sites%20module.htm) for generic information about this module. The equivalent [Darwin Core terms](https://dwc.tdwg.org/terms/) are provided where applicable. Continue reading to understand how LACMIP uses the fields available in the Sites module.
 
@@ -47,7 +47,7 @@ City/Town
 
 NearestPlace
 : = [dwc:locality](https://dwc.tdwg.org/terms/#dwc:locality)
-: Land features or sub-administrative units, e.g. a peak or a neighborhood. This field is equivalent to "feature" and is printed out on labels. Units should always be **organized from larger to smaller**, e.g. "Santa Cruz Island, Potato Harbor" and "Calico Mountains, Mule Canyon". When *NearestPlace* includes a **street address** or intersection the city should be included, e.g. "Los Angeles, Bagley Ave & Adams St," even if the city is also included in the *City/Town* field. **Islands** should always be included in *NearestPlace*. Other conventions include **abbreviating road features** (e.g. "St," "US Hwy 101," "CA Hwy 33"), **adding "area"** to denote a locality is within the USGS quad map of the same name (e.g. "Ono area"), and using the value **"unknown locality"** when the verbatim description is too vague to determine an actual feature from.
+: Land features or sub-administrative units, e.g. a peak or a neighborhood. This field is equivalent to "feature" and is printed out on labels. Units should always be **organized from larger to smaller**, e.g. "Santa Cruz Island, Potato Harbor" and "Calico Mountains, Mule Canyon". When *NearestPlace* includes a **street address** or intersection the city should be included, e.g. "Los Angeles, Bagley Ave & Adams St," even if the city is also included in the *City/Town* field. **Islands** should always be included in *NearestPlace*. Other conventions include **abbreviating road features** (e.g. "St," "US Hwy 101," "CA Hwy 33") and including **"area"** to denote a locality is within the USGS quad map of the same name (e.g. "Ono area"). If the verbatim locality description is too vague to determine *City/Town* and *NearestPlace*, use the value **"unknown locality"** for *NearestPlace*.
 
 Alternate Loc ID
 : = [dwc:locationRemarks](https://dwc.tdwg.org/terms/#dwc:locationRemarks) with the prefix, "Alternate Location ID", e.g., "Alternate Location ID: field number SS-19a-52"
