@@ -46,6 +46,7 @@ Here are a few more important things to keep in mind:
 - Work with one specimen lot (box) at a time, and do not move specimens or labels between boxes.
 - Do not reorganize the boxes within their trays during cataloging.
 - Some boxes contain multiple ID tags; catalog them in order, starting with the ID tag on top.
+- Look out for [old catalog numbers](https://lacmip.github.io/emu/assets/images/catalogue_alternativenumbersexample.jpg) that may not be on the ID tag.
 - If you're not sure about something, please ask questions!
 
 # Cataloging
