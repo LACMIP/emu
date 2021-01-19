@@ -17,8 +17,8 @@ New users to the Projects module should view previously created records to revie
 
 Sub-Type
 : A controlled vocabulary to note what type of request or event is being recorded. Values include:
- *Category* | *Project Sub-Type* | *For documenting...*
-   --- | --- | ---
+ *Sub-Type* | *For documenting...*
+   --- | ---
    Catalog Number | requests to mint new catalog or type numbers
    Destructive Analysis | requests requring destructive analysis and any results, including multimedia (overrides "loan")
    Exhibit | specimen use in temporary and long-term exhibitions
@@ -34,6 +34,7 @@ Sub-Type
    Research Visit | in-person research visits to the collections at Carson and NHM
    Tour (Carson) | tours of collections facility in Carson
    Tour (NHM) | tours of IP Type Room at NHM
+   Other | unusual collections-based requests and events
    
    
 Description
