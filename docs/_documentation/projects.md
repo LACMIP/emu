@@ -17,21 +17,25 @@ New users to the Projects module should view previously created records to revie
 
 Sub-Type
 : A controlled vocabulary to note what type of request or event is being recorded. Values include:
-    - "Exhibit"
-    - "Field Trip"
-    - "Museum Event"
-    - "Presentation"
-    - "Public Inquiry"
-    - "Request (New Accession)"
-    - "Request (Catalog Numbers)"
-    - "Request (Images)"
-    - "Request (Loans)"
-    - "Request (Locality Numbers)"
-    - "Research Visit"
-    - "Tour (Carson)"
-    - "Tour (NHM)"
-    - "Other"
-    
+ *Category* | *Project Sub-Type* | *For documenting...*
+   --- | --- | ---
+   Catalog Number | requests to mint new catalog or type numbers
+   Destructive Analysis | requests requring destructive analysis and any results, including multimedia (overrides "loan")
+   Exhibit | specimen use in temporary and long-term exhibitions
+   Field Trip | field outing conducted for research or outreach
+   Images | requests for LACMIP staff to capture specimen imagery
+   Loans | external and internal loan requests, excluding exhibits
+   Locality Numbers | inquiries related to a specific locality/set of localities, as well as the creation of new localities
+   Museum Event | offical museum-organized outreach events, e.g. Dino Fest or Scavenger Safari
+   New Accession | accession-related activities (overrides "Catalog Number", "Locality Numbers")
+   Presentation | invited external presentations
+   Public Inquiry | responses to external inquiries that are educational in nature, e.g. interview with K-12 student for their project
+   Record Search | requests for occurrence data and anscillary information, e.g. inventory, taphonomic, or faunal surveys
+   Research Visit | in-person research visits to the collections at Carson and NHM
+   Tour (Carson) | tours of collections facility in Carson
+   Tour (NHM) | tours of IP Type Room at NHM
+   
+   
 Description
 : Begin by describing the event or request using an action, e.g. "Sent surface scans of 15 ammonoids to..." Descriptions should be brief and mention any relevant taxa, geologic context, or collections involved in or affected by the request/event, e.g., "...the Stoyanow Collection". When _Sub-Type_="Request (Locality Numbers)", include LACMIP **locality numbers** in this field.
 
