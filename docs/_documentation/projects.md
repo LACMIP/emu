@@ -92,7 +92,7 @@ Objects Associated With Project nested table
 
 {% include figure image_path="/assets/images/projects_statistics.png" alt="screenshot of the Statistics tab in the Projects module" caption="Screenshot of the *Statistics* tab in the Projects module." %}
 
-**Highly Recommended:** The easiest way to complete the _Project Statistics_ table is to [**ditto**](http://help.emu.axiell.com/latest/en/Topics/Common/The%20Ditto%20utility.htm?Highlight=ditto) this information from an existing record of the **same Sub-Type**!
+**Highly Recommended:** The easiest way to complete the _Project Statistics_ table is to [**ditto**](http://help.emu.axiell.com/latest/en/Topics/Common/The%20Ditto%20utility.htm?Highlight=ditto) information from an existing record of the **same Sub-Type**!
 {: .notice--warning}
 
 Project Statistics table
