@@ -17,6 +17,7 @@ New users to the Projects module should view previously created records to revie
 
 Sub-Type
 : A controlled vocabulary to note what type of request or event is being recorded. Values include:
+
  *Sub-Type* | *For documenting...*
    --- | ---
    Catalog Number | requests to mint new catalog or type numbers
