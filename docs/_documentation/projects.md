@@ -39,7 +39,7 @@ Sub-Type
    
    
 Description
-: Begin by describing the event or request using an action, e.g. "Sent surface scans of 15 ammonoids to..." Descriptions should be brief and mention any relevant taxa, geologic context, or collections involved in or affected by the request/event, e.g., "...the Stoyanow Collection".
+: Describe the event or request, e.g. "Sent surface scans of 15 ammonoids to..." Descriptions should be brief and mention any relevant taxa, geologic context, or collections involved in or affected by the request/event, e.g., "...the Stoyanow Collection". Include offical event or exhibit titles when applicable.
 
 Requests fulfilled for mitigation firms should begin with "MITIGATION:"
 {: .notice--warning}
