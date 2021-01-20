@@ -8,7 +8,7 @@ The Projects module is used to track and report statistics for collections-relat
 
 New users to the Projects module should view previously created records to review examples. Do this by recalling all records of the most relevant project [_Sub-Type_](https://lacmip.github.io/emu/documentation/projects/#project-1-tab) on the search form and viewing the results using the "IP Requests" list view (_View > List Settings > Choose List >_ "IP Requests").
 
-{% include figure image_path="/assets/images/projects_search.png" alt="Search results in the Projects module." caption="Before creating new records, search for existing records in of the same _Sub-Type_ in the Projects module." %}
+{% include figure image_path="/assets/images/projects_search.png" alt="Search results in the Projects module." caption="Before creating new records, search for existing records in of the same _Sub-Type_ in the Projects module. Right-click to enlarge this image by opening it in a new tab or window." %}
 
 
 ## Project 1 tab
