@@ -2,7 +2,7 @@
 title: Projects
 navcat: Modules
 tags: quick-start
-last_modified_at: 2020-08-04
+last_modified_at: 2021-01-19
 ---
 The Projects module is used to track and report statistics for collections-related research and outreach requests. Only users in the Invertebrate Paleontology permission group can add/enter data in this module.
 
@@ -38,7 +38,7 @@ Sub-Type
    
    
 Description
-: Begin by describing the event or request using an action, e.g. "Sent surface scans of 15 ammonoids to..." Descriptions should be brief and mention any relevant taxa, geologic context, or collections involved in or affected by the request/event, e.g., "...the Stoyanow Collection". When _Sub-Type_="Request (Locality Numbers)", include LACMIP **locality numbers** in this field.
+: Begin by describing the event or request using an action, e.g. "Sent surface scans of 15 ammonoids to..." Descriptions should be brief and mention any relevant taxa, geologic context, or collections involved in or affected by the request/event, e.g., "...the Stoyanow Collection". Requests fulfilled for mitigation firms should begin with "MITIGATION:".
 
 
 ## Project 2 tab
@@ -68,15 +68,18 @@ Intended Audience
 Commencement Date
 : Select the day that the collections/research-related request was initiated or the outreach event occurred.
 
+Notification Date (=End Date)
+: Do not use this field, except when specifying the end dates for exhibits, loans, and field trips.
+
 
 ## Objects tab
 
 {% include figure image_path="/assets/images/projects_objects.png" alt="screenshot of the Objects tab in the Projects module" caption="Screenshot of the *Objects* tab in the Projects module." %}
 
 Objects Associated With Project nested table
-: Any cataloged specimen lots associated with the event or request should be attached to this table. Do so by opening the Catalogue module from within the _Object_ field and searching. Sort your results by catalog number. Select all resulting records in the Catalogue module and drag them into the _Objects Associated With Project_ table. **Note:** After the Projects record is saved, it will be visible on the object's [Project tab](https://lacmip.github.io/emu/documentation/catalogue/#project-tab) in the Catalogue module.
+: Any cataloged specimen lots associated with the event or request should be attached to this table. Do so by opening the Catalogue module from within the _Object_ field and searching. Sort your results by catalog number. Select all resulting records in the Catalogue module and drag them into the _Objects Associated With Project_ table. **Note:** After the Projects record is saved, it will be visible on the corresponding [Project tab](https://lacmip.github.io/emu/documentation/catalogue/#project-tab) on the Catalogue records.
 
-**Only attach objects** to records in the Projects module for specimens **that you, researchers, or visitors came in direct contact with** to fullfill a request.
+**Only attach Catalogue records** for specimens **that were physically handled** to fullfill requests.
 {: .notice--warning}
 
 {% include figure image_path="/assets/images/projects_objects_drag.png" alt="screenshot of the Objects tab in the Projects module" caption="Screenshot of the *Objects* tab in the Projects module." %}
@@ -85,19 +88,22 @@ Objects Associated With Project nested table
 
 {% include figure image_path="/assets/images/projects_statistics.png" alt="screenshot of the Statistics tab in the Projects module" caption="Screenshot of the *Statistics* tab in the Projects module." %}
 
-To fill out the _Project Statistics_ table, it is **highly recommended** that one [**dittos**](http://help.emu.axiell.com/latest/en/Topics/Common/The%20Ditto%20utility.htm?Highlight=ditto) this information from an existing record of the **same Sub-Type**, e.g. "Tour (Carson)", to ensure consistent data entry.
+**Highly Recommended:** The easiest way to complete the _Project Statistics_ table is to [**ditto**](http://help.emu.axiell.com/latest/en/Topics/Common/The%20Ditto%20utility.htm?Highlight=ditto) this information from an existing record of the **same Sub-Type** to ensure consistent data entry!
 {: .notice--warning}
 
 Type of Statistic table
-: A table to document basic statistics regarding the event or request. Please take care to complete this information consistently with other records of the same project sub-type. 
-    - DURATION (hrs): For outreach events, enter, to the nearest hour, the amount of time spent fullfilling this request/event in _Value_.
+: A table to document basic statistics regarding an outreach event or research request. Not every type of statistic is required for every Projects record. _Please take care to complete this information consistently with other records of the same project sub-type._ 
     - ATTENDANCE: For outreach events, enter the number of attendees in _Value_. In _Comments_, enter names of the primarily individuals involved, e.g. "Kevin Kelley, Patrick Hsieh, SCPS members" or "Nicole Roberts, BIO125 students". For research requests, only enter the names of the individual(s) who made the request in _Comments_.
-    - REVENUE ($): If an event or request results in revenue for the department, add this number in the _Value_ column with a _Comment_ indicating where the funds were distributed.
+    - AFFILIATION: For all events and requests, record the affiliation of whomever made the request in the _Comments_ field, e.g. "USGS, NHMLA (Malacology)".
+    - CONTACT: For loans, record contact information in the _Comments_ field.
+    - DURATION (hrs): For outreach events, enter, to the nearest hour, the amount of time spent fullfilling this request/event in _Value_.
     - FACILITIES: If a visit results in use of specific equipment or facilties, list this in _Comments_.
-    - AFFILIATION: Enter the affiliation for whomever made the research or outreach request, including internal affiliations, e.g. "NHMLA (Creative Services)", in _Comments_.
+    - LOCALITIES: Record locality numbers created for field trips, new accessions, and other specific requests to mint new locality numbers, or locality numbers used for specific record searches.
+    - REGISTRAR: Record any relevant registrar numbers here, including accession ("A.#", "F.A.#", etc.) and loan numbers ("L.#").
+    - REVENUE ($): If an event or request results in revenue for the department, add the amount in the _Value_ column with a _Comment_ indicating where the account to which the funds were allocated.
 
 ## Multimedia tab
 
 {% include figure image_path="/assets/images/projects_multimedia.png" alt="screenshot of the Multimedia tab in the Projects module" caption="Screenshot of the *Multimedia* tab in the Projects module." %}
 
-Attach any media created for this request to the Multimedia tab.
+Attach relevant multimedia to the Multimedia tab, e.g. results of destructive analyses, license agreements, internal movement reciepts, etc. If many files need to be attached, compress them into a ZIP file prior to importing into EMu. Uncompressed versions of the files should also be archived in Extensis Portfolio. When desirable, specimen images should be attached to the appropriate Catalogue records instead of the Projects record.
