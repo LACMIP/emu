@@ -95,10 +95,10 @@ Objects Associated With Project nested table
 **Highly Recommended:** The easiest way to complete the _Project Statistics_ table is to [**ditto**](http://help.emu.axiell.com/latest/en/Topics/Common/The%20Ditto%20utility.htm?Highlight=ditto) this information from an existing record of the **same Sub-Type**!
 {: .notice--warning}
 
-Type of Statistic table
+Project Statistics table
 : A table to document basic statistics regarding an outreach event or research request. Not every type of statistic is required for every Projects record. _Please take care to complete this information consistently with other records of the same project sub-type._ 
 
- *Statistic* | *How to record...*
+ *Type of Statistic* | *How to record...*
    --- | ---
    ATTENDANCE | For all events and requests, enter the number of event attendees or the number of researchers who made the request in _Value_. In _Comments_, enter names of the primary contacts involved, e.g. "Nicole Roberts, BIO125 students" or "Lindsey Groves, Dan Muhs".
    AFFILIATION | For all events and requests, record the affiliation of whomever made the request in the _Comments_ field, e.g. "USGS, NHMLA (Malacology)".
