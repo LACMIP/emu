@@ -21,25 +21,28 @@ Sub-Type
  *Sub-Type* | *For documenting...*
    --- | ---
    Catalog Number | requests to mint new catalog or type numbers
-   Destructive Analysis | requests requring destructive analysis and any results, including multimedia (overrides "loan")
+   Destructive Analysis | requests requring destructive analysis and resulting data (overrides "Loan")
    Exhibit | specimen use in temporary and long-term exhibitions
-   Field Trip | field outing conducted for research or outreach
-   Images | requests for LACMIP staff to capture specimen imagery
+   Field Trip | field outing conducted for research or outreach (overrides "New Accession")
+   Images | requests for specimen imagery
    Loans | external and internal loan requests, excluding exhibits
    Locality Numbers | inquiries related to a specific locality/set of localities, as well as the creation of new localities
    Museum Event | offical museum-organized outreach events, e.g. Dino Fest or Scavenger Safari
    New Accession | accession-related activities (overrides "Catalog Number", "Locality Numbers")
    Presentation | invited external presentations
-   Public Inquiry | responses to external inquiries that are educational in nature, e.g. interview with K-12 student for their project
+   Public Inquiry | responses to external inquiries that are educational in nature, e.g. interview with K-12 student
    Record Search | requests for occurrence data and anscillary information, e.g. inventory, taphonomic, or faunal surveys
-   Research Visit | in-person research visits to the collections at Carson and NHM
+   Research Visit | in-person research visits to the collections
    Tour (Carson) | tours of collections facility in Carson
    Tour (NHM) | tours of IP Type Room at NHM
    Other | unusual collections-based requests and events
    
    
 Description
-: Begin by describing the event or request using an action, e.g. "Sent surface scans of 15 ammonoids to..." Descriptions should be brief and mention any relevant taxa, geologic context, or collections involved in or affected by the request/event, e.g., "...the Stoyanow Collection". Requests fulfilled for mitigation firms should begin with "MITIGATION:".
+: Begin by describing the event or request using an action, e.g. "Sent surface scans of 15 ammonoids to..." Descriptions should be brief and mention any relevant taxa, geologic context, or collections involved in or affected by the request/event, e.g., "...the Stoyanow Collection".
+
+Requests fulfilled for mitigation firms should begin with "MITIGATION:"
+{: .notice--warning}
 
 
 ## Project 2 tab
@@ -94,14 +97,17 @@ Objects Associated With Project nested table
 
 Type of Statistic table
 : A table to document basic statistics regarding an outreach event or research request. Not every type of statistic is required for every Projects record. _Please take care to complete this information consistently with other records of the same project sub-type._ 
-    - ATTENDANCE: For outreach events, enter the number of attendees in _Value_. In _Comments_, enter names of the primarily individuals involved, e.g. "Kevin Kelley, Patrick Hsieh, SCPS members" or "Nicole Roberts, BIO125 students". For research requests, only enter the names of the individual(s) who made the request in _Comments_.
-    - AFFILIATION: For all events and requests, record the affiliation of whomever made the request in the _Comments_ field, e.g. "USGS, NHMLA (Malacology)".
-    - CONTACT: For loans, record contact information in the _Comments_ field.
-    - DURATION (hrs): For outreach events, enter, to the nearest hour, the amount of time spent fullfilling this request/event in _Value_.
-    - FACILITIES: If a visit results in use of specific equipment or facilties, list this in _Comments_.
-    - LOCALITIES: Record locality numbers created for field trips, new accessions, and other specific requests to mint new locality numbers, or locality numbers used for specific record searches.
-    - REGISTRAR: Record any relevant registrar numbers here, including accession ("A.#", "F.A.#", etc.) and loan numbers ("L.#").
-    - REVENUE ($): If an event or request results in revenue for the department, add the amount in the _Value_ column with a _Comment_ indicating where the account to which the funds were allocated.
+
+ *Statistic* | *How to record...*
+   --- | ---
+   ATTENDANCE | For all events and requests, Enter the number of event attendees, or the number of researchers who made the request, in _Value_. In _Comments_, enter names of the primary contacts involved, e.g. "Nicole Roberts, BIO125 students" or "Lindsey Groves, Dan Muhs".
+   AFFILIATION | For all events and requests, record the affiliation of whomever made the request in the _Comments_ field, e.g. "USGS, NHMLA (Malacology)".
+   CONTACT | For loans and destructive analyses, record important contact information in the _Comments_ field.
+   DURATION (hrs) | For outreach events, enter, to the nearest hour, the amount of time spent fullfilling this request/event in _Value_.
+   FACILITIES | If a visit results in use of specific equipment or facilties, list this in _Comments_.
+   LOCALITIES | Record new locality numbers created for field trips, other new accessions, and other specific requests to mint new locality numbers, or when specific locality numbers used as record search parameters.
+   REGISTRAR | Record any relevant registrar numbers here, including accession and transaction numbers.
+   REVENUE ($) | If an event or request generates revenue, add the amount in the _Value_.
 
 ## Multimedia tab
 
