@@ -2,7 +2,7 @@
 title: Projects
 navcat: Modules
 tags: quick-start
-last_modified_at: 2021-01-19
+last_modified_at: 2021-01-21
 ---
 The Projects module is used to track and report statistics for collections-related research and outreach requests. Only users in the Invertebrate Paleontology permission group can add/enter data in this module.
 
@@ -39,10 +39,7 @@ Sub-Type
    
    
 Description
-: Describe the event or request, e.g. "Sent surface scans of 15 ammonoids to..." Descriptions should be brief and mention any relevant taxa, geologic context, or collections involved in or affected by the request/event, e.g., "...the Stoyanow Collection". Include offical event or exhibit titles when applicable.
-
-Requests fulfilled for mitigation firms should begin with "MITIGATION:"
-{: .notice--warning}
+: Describe the event or request, e.g. "Sent surface scans of 15 ammonoids to..." Descriptions should be brief and mention any relevant taxa, geologic context, or collections involved in or affected by the request/event, e.g., "...the Stoyanow Collection". Include offical event or exhibit titles when applicable. Requests fulfilled for mitigation firms should begin with "MITIGATION:".
 
 
 ## Project 2 tab
@@ -92,7 +89,7 @@ Objects Associated With Project nested table
 
 {% include figure image_path="/assets/images/projects_statistics.png" alt="screenshot of the Statistics tab in the Projects module" caption="Screenshot of the *Statistics* tab in the Projects module." %}
 
-**Highly Recommended:** The easiest way to complete the _Project Statistics_ table is to [**ditto**](http://help.emu.axiell.com/latest/en/Topics/Common/The%20Ditto%20utility.htm?Highlight=ditto) information from an existing record of the **same Sub-Type**!
+**Highly Recommended:** The easiest way to complete the _Project Statistics_ table is to [**ditto**](http://help.emu.axiell.com/latest/en/Topics/Common/The%20Ditto%20utility.htm?Highlight=ditto) information from an existing record of the **same Sub-Type**.
 {: .notice--warning}
 
 Project Statistics table
@@ -100,12 +97,13 @@ Project Statistics table
 
  *Type of Statistic* | *How to record...*
    --- | ---
-   ATTENDANCE | For all events and requests, enter the number of event attendees or the number of researchers who made the request in _Value_. In _Comments_, enter names of the primary contacts involved, e.g. "Nicole Roberts, BIO125 students" or "Lindsey Groves, Dan Muhs".
+   ATTENDANCE | For all events and requests, enter the number of event attendees or the number of individuals who made the request in _Value_. In _Comments_, enter names of the primary contacts involved, e.g. "Nicole Roberts, BIO125 students" or "Lindsey Groves, Dan Muhs".
    AFFILIATION | For all events and requests, record the affiliation of whomever made the request in the _Comments_ field, e.g. "USGS, NHMLA (Malacology)".
    CONTACT | For loans and destructive analyses, record important contact information in the _Comments_ field.
    DURATION (hrs) | For outreach events, enter, to the nearest hour, the amount of time spent fullfilling this request/event in _Value_.
    FACILITIES | If a visit results in use of specific equipment or facilties, list this in _Comments_.
    LOCALITIES | Record new locality numbers created for field trips, other new accessions, and other specific requests to mint new locality numbers, or when specific locality numbers used as record search parameters. Then, record the total number of localities in _Value_.
+   RECORDS | For record search requests, record the number of records retrieved (these could be locality or catalog records) in _Value_ and a very brief description of what the records were in _Comments_.
    REGISTRAR | Record any relevant registrar numbers here, including accession and transaction numbers.
 
 ## Multimedia tab
