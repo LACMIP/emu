@@ -35,7 +35,6 @@ Sub-Type
    Research Visit | in-person research visits to the collections
    Tour (Carson) | tours of collections facility in Carson
    Tour (NHM) | tours of IP Type Room at NHM
-   Other | unusual collections-based requests and events
    
    
 Description
