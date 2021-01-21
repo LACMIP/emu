@@ -107,7 +107,6 @@ Project Statistics table
    FACILITIES | If a visit results in use of specific equipment or facilties, list this in _Comments_.
    LOCALITIES | Record new locality numbers created for field trips, other new accessions, and other specific requests to mint new locality numbers, or when specific locality numbers used as record search parameters. Then, record the total number of localities in _Value_.
    REGISTRAR | Record any relevant registrar numbers here, including accession and transaction numbers.
-   REVENUE ($) | If an event or request generates revenue, record the amount in the _Value_.
 
 ## Multimedia tab
 
