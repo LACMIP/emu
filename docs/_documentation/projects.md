@@ -68,8 +68,8 @@ Intended Audience
 Commencement Date
 : Select the day that the collections/research-related request was initiated or the outreach event occurred.
 
-Notification Date (=End Date)
-: Do not use this field, except when specifying the end dates for exhibits, loans, and field trips.
+Notification Date
+: Do not use this field.
 
 
 ## Objects tab
