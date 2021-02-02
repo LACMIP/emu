@@ -16,16 +16,6 @@ Type and figured specimens should be referenced in-text using the **catalog numb
 Example: "**LACMIP 2533.234, LACMIP Type 3364**"
 {: .notice--warning}
 
-## What if I have numerous specimens to cite?
-If citing both the catalog and type numbers in-text becomes overly cumbersome, the catalog number takes precedent in-text. However, both numbers should still be included elsewhere in the publication. We suggest doing so in either list or table format.
-
-*Catalog No.* | *Type No.*
-   --- | ---
-   LACMIP 2533.234 | LACMIP Type 3364
-   LACMIP 2533.235 | LACMIP Type 3365
-   LACMIP 2533.236 | LACMIP Type 3366
-   {: .notice--warning}
-
 ## Catalog vs. Type Numbers
 All LACMIP specimens receive catalog numbers during digitization. Each catalog number includes a locality number _and_ lot number (i.e., LACMIP loc#.lot#), and each lot may contain one or more individual specimens. If you intend to figure/illustrate a specimen from a lot with multiple individuals, it is LACMIP's preference that a new catalog number be generated for each individual specimen.
 
@@ -35,19 +25,31 @@ All LACMIP specimens receive catalog numbers during digitization. Each catalog n
 **Specimens that do not receive type numbers include:**
 - figured and unfigured hypotypes, mentioned/referred specimens
 
-However, if a specimen has a preexisting type number (even hypotypes), it must be referenced in-text alongside the catalog number.
-
-Comprehensive inventories of the LACMIP type collection were first published by [Wilson and Bing (1970)](https://www.biodiversitylibrary.org/page/52108823) and [Sphon (1973)](https://www.biodiversitylibrary.org/page/52110575). Supplements to these catalogs, including specimens transferred to LACMIP from UCLA, were later published by [Wilson (1986)](http://www.worldcat.org/oclc/21194970), [Saul (1991)](http://www.worldcat.org/oclc/1086135842), and [Saul (1993)](http://www.worldcat.org/oclc/28818677). Subsequently, catalog numbers were assigned to all specimen lots, which now serve as the primary identifiers for LACMIP's specimen records.
+However, if a specimen has a _preexisting_ type number (even hypotypes), it must be referenced in-text alongside the catalog number.
 
 **For specimens that have been digitized since 2015**, catalog and type numbers can be found by querying the LACMIP datasets on GBIF and iDigBio, which currently include records for Cretaceous through Cenozoic marine invertebrates from California, as well as all insects from the Statz, Pierce, and Rancho La Brea insect type collections. These datasets will be maintained and expanded upon into the foreseeable future:
 - [LACMIP's GBIF dataset](https://doi.org/10.15468/6nxzen)
 - [LACMIP's iDigBio recordset](https://www.idigbio.org/portal/recordsets/5082e6c8-8f5b-4bf6-a930-e3e6de7bf6fb)
 
-**For specimens that are not yet digitized**, new catalog and or type numbers may need to be created. Please contact the collections manager to verify whether this is necessary.
+**For specimens that are not yet digitized and online**, new catalog and or type numbers may need to be created. Please contact the collections manager to verify whether this is necessary.
 
 {% include figure image_path="/assets/images/citing_catalognumber.png" alt="screenshot of a catalog number on GBIF" caption="Screenshot illustrating where to locate catalog numbers on GBIF occurrence records, e.g. [LACMIP 10088.8](https://www.gbif.org/occurrence/2012637492). Existing type numbers will be listed under _Other catalogue numbers_, e.g. [LACMIP 10079.7](https://www.gbif.org/occurrence/2012641180)." %}
 
-{% include figure image_path="/assets/images/citing_example.png" alt="example of LACMIP type specimens figured in publication" caption="Large portions of the LACMIP collections once belonged to local universities. As such, they were originally cited using different institutional numbers. These numbers now have equivalent LACMIP catalog and type numbers. Two examples, [LACMIP 10079.7](https://www.gbif.org/occurrence/2012641180) and [LACMIP 10100.11](https://www.gbif.org/occurrence/2012653749), are illustrated in pink and blue. (Enlarge image by opening in a new tab or window.)" %}  
+{% include figure image_path="/assets/images/citing_example.png" alt="example of LACMIP type specimens figured in publication" caption="Large portions of the LACMIP collections once belonged to local universities. As such, they were originally cited using different institutional numbers. These numbers now have equivalent LACMIP catalog and type numbers. Two examples, [LACMIP 10079.7](https://www.gbif.org/occurrence/2012641180) and [LACMIP 10100.11](https://www.gbif.org/occurrence/2012653749), are illustrated in pink and blue. (Enlarge image by opening in a new tab or window.)" %} 
+
+## What if I have numerous specimens to cite?
+If citing both the catalog and type numbers in-text becomes overly cumbersome, the catalog number takes precedent in-text. However, both numbers should still be included elsewhere in the publication. We suggest doing so in either list or table format.
+
+*Catalog No.* | *Type No.*
+   --- | ---
+   LACMIP 2533.234 | LACMIP Type 3364
+   LACMIP 2533.235 | LACMIP Type 3365
+   LACMIP 2533.236 | LACMIP Type 3366
+   {: .notice--warning}
+   
+## Brief history of our specimen numbers
+
+Comprehensive inventories of the LACMIP type collection were first published by [Wilson and Bing (1970)](https://www.biodiversitylibrary.org/page/52108823) and [Sphon (1973)](https://www.biodiversitylibrary.org/page/52110575). Supplements to these catalogs, including specimens transferred to LACMIP from UCLA, were later published by [Wilson (1986)](http://www.worldcat.org/oclc/21194970), [Saul (1991)](http://www.worldcat.org/oclc/1086135842), and [Saul (1993)](http://www.worldcat.org/oclc/28818677). Subsequently, catalog numbers were assigned to all specimen lots, which now serve as the primary identifiers for LACMIP's specimens.
 
 # Citing LACMIP localities
 LACMIP localities should be cited in text as "**LACMIP locality #**" or "**LACMIP loc. #**". This format eliminates potential confusion between LACMIP locality and type numbers.
