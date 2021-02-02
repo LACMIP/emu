@@ -2,12 +2,10 @@
 title: Citations
 navcat: Workflows
 tags:
-last_modified_at: 2020-12-10
+last_modified_at: 2021-02-02
 ---
 
-**Proper citation of museum collections is critical to sustaining these resources and the reproducibility of your research.** If you intend to include LACMIP specimens or localities in publication, please follow the guidelines below. Likewise, in exchange for the use of LACMIP collections data in your research, we request that any resulting publications be shared with LACMIP staff.
-
-Questions and related inquiries should be directed to the collections manager: [lwalker@nhm.org](lwalker@nhm.org).
+**Proper citation of museum collections is critical to sustaining these resources and the reproducibility of your research.** If you intend to include LACMIP specimens or localities in a forthcoming work, please follow the guidelines below. In exchange for the use of LACMIP collections data in your research, we request that any resulting publications be shared with LACMIP staff.
 
 # Citing LACMIP specimens
 ## How to cite?
@@ -25,9 +23,9 @@ All LACMIP specimens receive catalog numbers during digitization. Each catalog n
 **Specimens that do not receive type numbers include:**
 - figured and unfigured hypotypes, mentioned/referred specimens
 
-However, if a specimen has a _preexisting_ type number (even hypotypes), it must be referenced in-text alongside the catalog number.
+If a specimen has a _preexisting_ type number (even hypotypes), it must be referenced in-text alongside the catalog number.
 
-**For specimens that have been digitized since 2015**, catalog and type numbers can be found by querying the LACMIP datasets on GBIF and iDigBio, which currently include records for Cretaceous through Cenozoic marine invertebrates from California, as well as all insects from the Statz, Pierce, and Rancho La Brea insect type collections. These datasets will be maintained and expanded upon into the foreseeable future:
+**For specimens that have been digitized since 2015**, catalog and type numbers can be found by querying the LACMIP datasets on GBIF and iDigBio, which currently include records for Cretaceous through Cenozoic marine invertebrates from California, as well as all insects from the Statz, Pierce, and Rancho La Brea insect type collections. These datasets will be maintained and expanded upon in the future:
 - [LACMIP's GBIF dataset](https://doi.org/10.15468/6nxzen)
 - [LACMIP's iDigBio recordset](https://www.idigbio.org/portal/recordsets/5082e6c8-8f5b-4bf6-a930-e3e6de7bf6fb)
 
@@ -47,7 +45,7 @@ If citing both the catalog and type numbers in-text becomes overly cumbersome, t
    
 ## Brief history of these numbers
 
-Comprehensive inventories of the LACMIP type collection were first published by [Wilson and Bing (1970)](https://www.biodiversitylibrary.org/page/52108823) and [Sphon (1973)](https://www.biodiversitylibrary.org/page/52110575). Supplements to these catalogs, including specimens transferred to LACMIP from UCLA, were later published by [Wilson (1986)](http://www.worldcat.org/oclc/21194970), [Saul (1991)](http://www.worldcat.org/oclc/1086135842), and [Saul (1993)](http://www.worldcat.org/oclc/28818677). Subsequently, catalog numbers were assigned to all specimen lots, which now serve as the primary identifiers for LACMIP's specimens. **Now that LACMIP's collections are becoming available online, citing the catalog number is necessary to enable full digital connectivity between these specimens and the published literature.**
+Comprehensive inventories of the LACMIP type collection were first published by [Wilson and Bing (1970)](https://www.biodiversitylibrary.org/page/52108823) and [Sphon (1973)](https://www.biodiversitylibrary.org/page/52110575). Supplements to these catalogs, including specimens transferred to LACMIP from UCLA, were later published by [Wilson (1986)](http://www.worldcat.org/oclc/21194970), [Saul (1991)](http://www.worldcat.org/oclc/1086135842), and [Saul (1993)](http://www.worldcat.org/oclc/28818677). In subsequent decades, catalog numbers were assigned to all specimen lots, which now serve as the primary identifiers for LACMIP specimens. **Now that LACMIP's collections are becoming available online, citing the catalog number is necessary to enable full digital connectivity between these specimens and the published literature.**
 
 {% include figure image_path="/assets/images/citing_example.png" alt="example of LACMIP type specimens figured in publication" caption="Large portions of the LACMIP collections once belonged to local universities. As such, they were originally cited using different institutional numbers. These numbers now have equivalent LACMIP catalog and type numbers. Two examples, [LACMIP 10079.7](https://www.gbif.org/occurrence/2012641180) and [LACMIP 10100.11](https://www.gbif.org/occurrence/2012653749), are illustrated in pink and blue. (Enlarge image by opening in a new tab or window.)" %} 
 
@@ -70,3 +68,6 @@ Example: Hendy A, Walker L, Mertz W (2020). LACM Invertebrate Paleontology. Vers
 Additionally, or alternatively, a customized and citable data download may be generated to reference digitized LACMIP specimens in publications. Contact the collections manager if you would like assistance with creating one.
 
 {% include figure image_path="/assets/images/citing_datadownload.png" alt="image of a custom data download on GBIF.org" caption="[Example](https://doi.org/10.15468/dl.ykhkrs) of a customized data download with a citable DOI." %}
+
+# Contact
+Please direct questions and related inquiries to the collections manager, Lindsay Walker [lwalker@nhm.org](lwalker@nhm.org).
