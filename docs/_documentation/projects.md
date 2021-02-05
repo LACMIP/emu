@@ -23,13 +23,13 @@ Sub-Type
    Catalog Number | requests to mint new catalog or type numbers
    Destructive Analysis | requests requring destructive analysis and resulting data (overrides "Loan")
    Exhibit | specimen use in temporary and long-term exhibitions
+   External Presentation | invited external presentations, panels, discussions, etc.
    Field Trip | field outing conducted for research or outreach (overrides "New Accession")
    Images | requests for specimen imagery
    Loans | external and internal loan requests, excluding exhibits
    Locality Numbers | inquiries related to a specific locality/set of localities, as well as the creation of new localities
    Museum Event | offical museum-organized outreach events, e.g. Dino Fest or Scavenger Safari
    New Accession | accession-related activities (overrides "Catalog Number", "Locality Numbers")
-   Presentation | invited external presentations
    Public Inquiry | responses to external inquiries that are educational in nature, e.g. interview with K-12 student
    Record Search | requests for occurrence data and anscillary information, e.g. inventory, taphonomic, or faunal surveys
    Research Visit | in-person research visits to the collections
