@@ -28,7 +28,7 @@ Sub-Type
    Images | requests for specimen imagery
    Loans | external and internal loan requests, excluding exhibits
    Locality Numbers | inquiries related to a specific locality/set of localities, as well as the creation of new localities
-   Museum Event | offical museum-organized outreach events, e.g. Dino Fest or Scavenger Safari
+   Museum Event | museum-organized outreach events, e.g. Dino Fest, Scavenger Safari
    New Accession | accession-related activities (overrides "Catalog Number", "Locality Numbers")
    Public Inquiry | responses to external inquiries that are educational in nature, e.g. interview with K-12 student
    Record Search | requests for occurrence data and anscillary information, e.g. inventory, taphonomic, or faunal surveys
