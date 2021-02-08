@@ -98,7 +98,7 @@ Project Statistics table
    --- | ---
    ATTENDANCE | For all events and requests, enter the number of event attendees or the number of individuals who made the request in _Value_. In _Comments_, enter names of the primary contacts involved, e.g. "Nicole Roberts, BIO125 students" or "Lindsey Groves, Dan Muhs".
    AFFILIATION | For all events and requests, record the affiliation of whomever made the request in the _Comments_ field, e.g. "USGS, NHMLA (Malacology)".
-   CONTACT | For loans, destructive analyses, and image requests, record important contact information in the _Comments_ field.
+   CONTACT | For loans, destructive analyses, and image requests, record the email(s) of whomever made the request in the _Comments_ field.
    DURATION (hrs) | For outreach events, enter, to the nearest hour, the amount of time spent fullfilling this request/event in _Value_.
    FACILITIES | If a visit results in use of specific equipment or facilties, list this in _Comments_.
    LOCALITIES | Record new locality numbers created for field trips, other new accessions, and other specific requests to mint new locality numbers, or when specific locality numbers used as record search parameters. Then, record the total number of localities in _Value_.
