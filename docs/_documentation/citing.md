@@ -22,13 +22,13 @@ Example: "**LACMIP 42800.22**"
 ## Catalog vs. Type Numbers
 All LACMIP specimens receive catalog numbers during digitization. Each catalog number includes a locality number _and_ lot number (i.e., LACMIP loc#.lot#), and each lot may contain one or more individual specimens. If you intend to figure/illustrate a specimen from a lot with multiple individuals, it is LACMIP's preference that a new catalog number be generated for each individual specimen.
 
-**Specimens that may receive new type numbers include:**
+**Specimens that may also receive new type numbers include:**
 - holotypes, syntypes, paratypes, lectotypes, neotypes, allotypes
 
 **Specimens that do not receive type numbers include:**
 - figured and unfigured hypotypes, mentioned/referred specimens
 
-If a specimen has a _preexisting_ type number (even hypotypes), it must be referenced in-text alongside the catalog number.
+If a specimen has a _preexisting_ type number (even hypotypes), it must be referenced in-text alongside the catalog number. Please contact the collections manager if you are unsure what to do.
 
 **For specimens that have been digitized since 2015**, catalog and type numbers can be found by querying the LACMIP datasets on GBIF and iDigBio, which currently include records for Cretaceous through Cenozoic marine invertebrates from California, as well as all insects from the Statz, Pierce, and Rancho La Brea insect type collections. These datasets will be maintained and expanded upon in the future:
 - [LACMIP's GBIF dataset](https://doi.org/10.15468/6nxzen)
