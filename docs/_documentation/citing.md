@@ -9,7 +9,7 @@ last_modified_at: 2021-02-02
 
 # Citing LACMIP specimens
 ## How to cite?
-Type and figured specimens should be referenced in-text using the **catalog number** and the **type number**.
+Type specimens should be referenced in-text using the **catalog number** and the **type number**.
 
 Example: "**LACMIP 2533.234, LACMIP Type 3364**"
 {: .notice--warning}
