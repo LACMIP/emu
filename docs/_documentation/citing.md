@@ -14,7 +14,7 @@ Type specimens should be referenced in-text using the **catalog number** and the
 Example: "**LACMIP 2533.234, LACMIP Type 3364**"
 {: .notice--warning}
 
-Specimens that are not name-bearing types (figured/unfigured/mentioned/referenced specimens) only require citation of the **catalog number**.
+Specimens that are not name-bearing types only require citation of the **catalog number**. This includes new figured and unfigured hypotypes, "mentioned" and "referenced" specimens.
 
 Example: "**LACMIP 42800.22**"
 {: .notice--warning}
