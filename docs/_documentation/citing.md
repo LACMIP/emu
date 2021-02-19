@@ -14,6 +14,11 @@ Type specimens should be referenced in-text using the **catalog number** and the
 Example: "**LACMIP 2533.234, LACMIP Type 3364**"
 {: .notice--warning}
 
+Specimens that are not name-bearing types (figured/unfigured/mentioned/referenced specimens) only require citation of the **catalog number**.
+
+Example: "**LACMIP 42800.22**"
+{: .notice--warning}
+
 ## Catalog vs. Type Numbers
 All LACMIP specimens receive catalog numbers during digitization. Each catalog number includes a locality number _and_ lot number (i.e., LACMIP loc#.lot#), and each lot may contain one or more individual specimens. If you intend to figure/illustrate a specimen from a lot with multiple individuals, it is LACMIP's preference that a new catalog number be generated for each individual specimen.
 
