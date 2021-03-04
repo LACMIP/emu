@@ -70,7 +70,7 @@ Example: Hendy A, Walker L, Mertz W (2020). LACM Invertebrate Paleontology. Vers
 
 {% include figure image_path="/assets/images/citing_GBIF.png" alt="image of LACMIP's occurrence dataset on GBIF.org" caption="Cite LACMIP's GBIF dataset if you have used our digitized collections in your research." %}
 
-Additionally, or alternatively, a customized and citable data download may be generated to reference digitized LACMIP specimens in publications. Contact the collections manager if you would like assistance with creating one.
+A customized and citable data download may be generated to reference digitized LACMIP specimens in publications. Contact the collections manager if you would like assistance creating one.
 
 {% include figure image_path="/assets/images/citing_datadownload.png" alt="image of a custom data download on GBIF.org" caption="[Example](https://doi.org/10.15468/dl.ykhkrs) of a customized data download with a citable DOI." %}
 
