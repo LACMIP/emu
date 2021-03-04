@@ -6,7 +6,7 @@ last_modified_at: 2020-10-22
 ---
 The Catalogue module is the primary place for information about each specimen lot, and a node linking together data from many of the other modules. Please see [Axiell's documentation](http://help.emu.axiell.com/latest/en/Topics/EMu/Catalogue%20module.htm) for generic information about this module. Continue reading here to understand how LACMIP uses the fields available in the Catalogue module.
 
-For detailed instructions on entering new records in this module, please [Cataloging Specimens]({{ site.baseurl }}/documentation/cataloging/) in addition to this page.
+For detailed instructions on entering new records in this module, please review [Cataloging Specimens]({{ site.baseurl }}/documentation/cataloging/) in addition to this page.
 
 ## Invert. Paleo. tab
 
