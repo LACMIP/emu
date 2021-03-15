@@ -11,7 +11,7 @@ The following documentation was created for the LACMIP Type Collection Renovatio
 
 ## What is a "type"?
 
-Type specimens, or "types", are the physical, name-bearing vouchers for new species, genera, etc. They are therefore retained in a specially designated "type collection" so researchers can reexamine them to assess their taxonomic validity. Therefore, types are some museum's most intellectually valuable specimens and must be handled with extreme care. 
+Type specimens, or "types", are the physical, name-bearing vouchers for new species, genera, etc. They are therefore retained in a specially designated "type collection" so researchers can reexamine them to assess their taxonomic validity. Therefore, types are some museum's most intellectually valuable specimens and must be handled with extreme care.
 
 Before accessing any specimens in the type collection, please review the following rules:
 - **Always ask for help when moving specimen trays**. They may be much heavier than they appear. 
@@ -77,36 +77,30 @@ For each type specimen, assess the information on its catalog record according t
    *Locality* & *Cat. No.* | Verify that the LACMIP locality and catalog numbers listed on the catalog record matche the locality number painted on the specimen in white paint, as well as what's on the specimen's old label(s) in its box. You may need to open the corresponding Sites record (use the blue arrow) for comparison. While mismatches are uncommon, immediately alert the Collections Manager if you find one.
    *Lot Count* | Refers to the number of individual specimens with the same type number. In the type collection, this value is typically "1". However, occasionally there will be more than one fossil with the same type number in a lot. In that case, update the lot count to reflect the true number of specimens. Refer to the (guidelines for counting)({{ site.baseurl }}/documentation/digitizing/#counting) and ask for help if you're still unsure. Do not count synthetic objects (like rubber peels) that may be left in the box.
    *Disposition* | <img src="{{ site.baseurl }}/assets/images/catalogue_lotremarks_loan.png" alt="" width="500"/>{: .align-center} A dropdown menu with options to note the physical state of a specimen lot. For the vast majority of specimens, you will verify that they are in the collection by choosing "in collection". If you encounter an empty box, a specimen may be missing or on loan, and the disposition should be changed to indicate this. If the specimen is missing, transcribe any relevant notes in the box into *Lot Remarks* (for example, "MISSING 02/17/70 ECW). Likewise, if a specimen is on loan, transcribe any relevant infomration at your disposal into the *Lot Remarks* in this format: "On loan to [name], [affiliation] (YYYY-MM-DD) (email). Verify with the Collections Manager if the correct disposition is not readily apparent.
-      *P/CP* | Refers to "part" and counterpart" and is typically used for compression fossils and concretions. If both parts are presents, check this box and make sure the *Lot Count* is also updated accordingly.
+   *P/CP* | Refers to "part" and counterpart" and is typically used for compression fossils and concretions. If both parts are presents, check this box and make sure the *Lot Count* is also updated accordingly.
    *Alternative Numbers* | <img src="{{ site.baseurl }}/assets/images/catalogue_alternativenumbers.png" alt="" width="500"/>{: .align-center} Used to record legacy catalog numbers assigned by another institution or the collector. *Inst. Code* typically refers to an institution, like "UCLA", "CIT", or "CSUN". Use the lookup list button when entering an *Inst Code* to validate your entry. If you are trying to add a new institution code, please ask for assistance. Occasionally, the number might be a collector number. In that case, enter "collector number" in this field. *Inst. Number* can either refer to a number assigned by an institution (such as UCLA) or a collector (such as Pierce). In the case of a collector, the number should be formatted as capitalized name and number (e.g. 'PIERCE 32a'). Do not record old locality numbers (typically on circular stickers) in this field. Additional explanation of *Alternative Numbers* is provided [here]({{ site.baseurl }}/documentation/catalogue/#invert-paleo-tab)
 
-{% include figure image_path="/assets/images/catalogue_alternativenumbers.png" alt="screenshot of the *Alternative Numbers* field in the catalogue module" caption="Screenshot of the *Alternative Numbers* field in the Catalogue module." %}
 {% include figure image_path="/assets/images/catalogue_alternativenumbersexample.jpg" alt="Example of an old catalog number to be entered in *Alternative Numbers*" caption="Example of an old catalog number to be entered in *Alternative Numbers*. In general, UCLA catalog numbers will look very similar to the one illustrated above (i.e. handwritten on a white rectangular label and adhered to the specimen)." %}
 
-If you are unsure if or how to record a potential alternative number, take a quick photo of the specimen (with the number visible), as well as any relevant specimen labels, and send these to the collections staf in the Google chat.
+If you are unsure how to record a potential alternative number, take a quick photo of the specimen (with the number visible), as well as any relevant specimen labels, and send them to the IP collections staff in Google chat.
 {: .notice--warning}
 
  *Field* | *On the Invert. Paleo. tab...*
    --- | ---
-   
-5. `Type Status` : dropdown of kinds of type specimens.
-   
-    - *Figured* is synonymous with *hypotype*. Always choose hypotype.
-  
-6. `Collection` : should always be 'TYPE'.
-7. `Project` : should always be 'IMLS'.
-8. `Original Nature` : dropdown of kind of fossil present. Most will be 'body fossil'. 
-   - This is highly dependent on which higher taxanomy is being catalogued. 
-   - Multiple values are possible per record (e.g. if a lot includes both a body fossil as well as the cast associated with it.)
-   - Refer to the 'Original Nature' section of the [Catalogue](https://lacmip.github.io/emu/documentation/catalogue/) page of the EMu Handbook for a full list of options. 
-9. `Anatomy` : lookup lists with options for what part of the animal was fossilized.  
-   
-   - Do not use body fossil as shown in the example above. 
-   - Most mollusks will be just 'shell(s)'.
-10. `IP Publications` :  table to attach bibliography records that correspond to a citation. 
-    - It is extremely important that we have accurate cirtations for type specimens. 
-    - If a new bibliography needs to be attached, follow the [Bibliography](#bibliography) workflow. 
-11. `Pages, Fig. & Type` : data about where a specimen waas described in the cited paper. 
+    *Type Status* | Refers to the most important status conferred upon a given type specimen. (See "[What kinds of types are there?](https://www.iczn.org/outreach/faqs/#faq-4)" according to the ICZN.)  Historically, hypotypes/figured specimens (=blue type numbers) were also included in the LAMCIP type collection. For these specimens, always choose "hypotype".
+    *Collection* | Value should always be "TYPE".
+    *Project* | If blank, choose "IMLS".
+    *Original Nature* | Ignore this field. The default value is "body fossil". This information will be updated at a later time.
+    *Anatomy* | Ignore this field. The default value is "shell(s)". This information will be updated in bulk.
+    
+## IP Publications
+
+    
+    *IP Publications* | <img src="{{ site.baseurl }}/assets/images/catalogue_IPpublications.png" alt="" width="500"/>{: .align-center} Refer to the explanation for [IP Publications]({{ site.baseurl }}/documentation/catalogue/#invert-paleo-tab) for the most updated, authoritative information on how to complete this table. If a new Bibliography record needs to be attached or created, consult the [Bibliography](#bibliography) workflow. 
+
+
+
+`Pages, Fig. & Type` : data about where a specimen waas described in the cited paper. 
     - `Pages` : format with only the page number. Do not enter `p.`, `pg.`, ect. 
     - `Fig` : Enter the plate and/or figure number(s) seperated by a colon. See following examples: 
       + Specimen not figured: `unfigured`
@@ -120,6 +114,8 @@ If you are unsure if or how to record a potential alternative number, take a qui
       + Multiple plates: `pl. 3: fig. 7, 12, 24; pl.4: fig.8`
     - `Type`: open text field for kind of type 
       + Capitalize first letter
+
+
 ### Identification (1) tab
 Below is an example of when the taxon of a specimen in known and needs to be entered. This only needs to be done if the genus nad species listed on a type specimen's record is not already entered in the `Identification List` nested table. 
 
@@ -168,7 +164,7 @@ Using the Bibliography module is typically only required when a catalogue record
 
 This IMLS bibliography workflow was adapted from the [Bibliography](https://lacmip.github.io/emu/documentation/bibliography/) page of the LACMIP EMu Handbook. Please consult this reference for an expanded explanation of the module. 
 
-### Creating a bibliography record
+### Creating Bibliography records
 
 This tab is where the bulk of the bibliographic information will need to be recorded. Please refer to the [Bibliography](https://lacmip.github.io/emu/documentation/bibliography/) page of the LACMIP EMu Handbook for a detailed list of fields and their definitions. 
 
