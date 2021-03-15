@@ -83,6 +83,7 @@ A few tips for counting...
 - Unsorted fossils and unsorted sediment always has a count of one.
 - If a bivalve is articulated (i.e. the valves are attached to each other), both valves are counted as individual specimens **unless** the bivalve is an internal mold (i.e. the impression of a fossil with no shell left). This is not common in the older parts of the collection.
 - The easiest method for counting large lots is to group specimens in piles of 10 and then tally the piles.
+- Do not include synthetic objects, like rubber peels, in the count.
 
 ## Georeferencing
 
