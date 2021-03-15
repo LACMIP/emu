@@ -2,7 +2,7 @@
 title: Cataloging
 navcat: Workflows
 tags: cataloging
-last_modified_at: 2020-07-10
+last_modified_at: 2021-03-15
 ---
 
 Cataloging (a.k.a. databasing) is a critical step in digitization, and the creation of accurate digital catalog records facilitates collection management and access to specimen data for research. Over the past two decades, LACMIP has used several different databases to enter and manage specimen catalog records, most recently Microsoft Access and currently Axiell EMu. Cataloging in EMu offers several key benefits over Access, including more consistent and efficient data entry.
