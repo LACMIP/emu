@@ -11,88 +11,88 @@ This documentation was created for the LACMIP Type Collection Renovation & Digit
 
 ## What is a "type"?
 
-Type specimens, or "types", are the physical, name-bearing vouchers for new species, genera, etc. They are therefore retained in a specially designated "type collection" so researchers can reexamine them from time to time to assess their taxonomic validity. Therefore, types are some museum's most intellectually valuable specimens and must be handled with extreme care. 
+Type specimens, or "types", are the physical, name-bearing vouchers for new species, genera, etc. They are therefore retained in a specially designated "type collection" so researchers can reexamine them to assess their taxonomic validity. Therefore, types are some museum's most intellectually valuable specimens and must be handled with extreme care. 
 
-Before accessing any specimens in the type collection, please review the following:
+Before accessing any specimens in the type collection, please review the following rules:
 - **Always ask for help when moving specimen trays**. They may be much heavier than they appear. 
 - **Open drawers slowly and cautiously.** Be aware that these cabinets _do not_ have drawer stoppers. In other words, if you pull to hard, the drawer may fall out. As a precaution, always pull out the drawer immediately below the one you wish to access about halfway; it will act as an emergency "stopper" should you pull out the upper tray too far.
 - **Immediately alert the Collections Manager if specimens are damaged or disassociated from their labels.**
 - Work with one specimen lot (box) at a time.
-- Never move specimens or labels between boxes, or reorganize the boxes within their drawers unless directed to do so.
+- Never move specimens or labels between boxes.
+- Do not reorganize the boxes within their drawers unless directed to do so.
 - All type specimens must be returned to their appropriate drawer(s)/cabinet(s) at the end of your shift.
 - No food or drink (except water) is allowed in the type room, and please keep water away from specimens and equipment at all times.
-- Please do not invite visitors into the type collections without consent from the Collections Manager or Curator.
-- Always ask questions whenever you are unsure what to do!
+- Please do not invite visitors into the type collection without consent from the Collections Manager or Curator.
+- The type room is shared between Invertebrate Paleontology and Malacology. This is a communal workspace that should be kept tidy at all times.
+- Always ask questions when you are unsure what to do!
 
 ## What is "taxonomy"?
 
-In the biological sense, taxonomy refers to the classification of organisms. While you will not be entering or editing specimen identifications or taxonomy, taxonomic classificiation forms the foundation upon which the type collection was built and is organized. Please familiarize yourself with the basic concepts of taxonomy and binomial nomenclature by reviewing [this article] and the following video.
+In the biological sense, taxonomy refers to the classification of organisms. While you will not be entering or editing specimen identifications or taxonomy, taxonomic classificiation forms the foundation upon which the type collection was created and organized. Please familiarize yourself with the basic concepts of taxonomy and binomial nomenclature by reviewing [this article](https://www.digitalatlasofancientlife.org/learn/systematics/taxonomy/) and/or the following video.
 {% include video id="12XO8vYqBsA" provider="youtube" %}
 
-## "QC" vs. Cataloging
+## QC/Editing vs. Cataloging
 
-Most of the specimens in the type collection are cataloged, meaning they already have a catalog number (or *Cat. No.*). The catalog number is a unique, human-readable identifier for a specimen lot that can be cited when the specimen is referenced in published research. 
+Most of the specimens in the type collection are cataloged, meaning they already have a catalog number. The catalog number is a unique, human-readable identifier for a specimen lot that can be cited when the specimen is referenced in published research. 
 
-Instead of cataloging, you will be updating--or "QC'ing" (quality controlling)--existing catalog records with missing information.
+Instead of cataloging, you will be editing and updating--or "QC'ing" (quality controlling)--existing catalog records with missing information.
 
-Before QC'ing any catalog records for specimens in type collection, please review our comprehensive documentation for the [Catalogue module]({{ site.baseurl }}/documentation/catalogue/), as well as all steps below outlined below.
+Before editing any catalog records for type specimens, please thoroughly review our comprehensive documentation for the [Catalogue module]({{ site.baseurl }}/documentation/catalogue/), as well as all steps below outlined below.
 
-As a point of diambiguation, true "cataloging" refers to the creation of _new_ catalog records and is only needed when new type specimens are received from researchers. Interns and volunteers will rarely catalog specimens in the type collection, and this should only be accomplished with guidance from the Collections Manager. LACMIP maintains a separate workflow for [cataloging](({{ site.baseurl }}/documentation/cataloging/).
+As a point of diambiguation, true "cataloging" refers to the creation of _new_ catalog records and is only needed when new type specimens are received from researchers. **Interns and volunteers will rarely catalog specimens in the type collection**, and this should only be accomplished with guidance from the Collections Manager. LACMIP maintains a separate workflow for [cataloging]({{ site.baseurl }}/documentation/cataloging/).
 
 # Type Collection QC Workflow
 
--> How does one go about selecting a specimen lot to QC?
--> How to log in to EMu
+- ? How does one go about selecting a specimen lot to QC?
+- ? How to log in to EMu
 
-## Search for the specimen
+The workflow used to quality control and edit type specimen records is outlined below. To enlarge screenshots, right click and open them in a new tab or window.
+
+## Search for a type specimen
+
+You will search for type specimens by their LACMIP type number. These numbers are always labelled on specimens in bright red, yellow, or blue paint (not white paint or stickers). If you are unsure whether a number is a type number, consult the Collections Manager.
+
+{% include figure image_path="/assets/images/catalogue_LACMIPtypeno.png" alt="example LACMIP Type No." caption="LACMIP type numbers are indicated by bright red, yellow, or blue paint. Red = holotypes, syntypes, lectotypes; Yellow = paratypes, paralectotypes; Blue = hypotypes (figured or unfigured specimens)." %}
 
 {% include figure image_path="/assets/images/catalogue_typesearch.png" alt="screenshot of the Invert. Paleo. tab's search form in the Catalogue module" caption="Screenshot of the *Invert. Paleo.* tab's search form in the Catalogue module." %}
-
-You will search for specimens by their LACMIP type number. These numbers are always labelled on specimens in bright red, yellow, and blue paint (not white paint and not stickers). If you are unsure whether a number is a type number, consult the Collections Manager.
-{% include figure image_path="/assets/images/catalogue_LACMIPtypeno.png" alt="example LACMIP Type No." caption="LACMIP type numbers are indicated by bright red, yellow, or blue paint. Red = holotypes, syntypes, lectotypes; Yellow = paratypes, paralectotypes; Blue = hypotypes (figured or unfigured specimens)." %}
 
  *Step* | *On the search form...*
    --- | ---
    1 | In *LACMIP Type No.*, enter the type number 
    2 | Select the binoculars icon to execute the query.
    
-## Assess the catalog record
-
-Below is the first window encountered when loading EMu's Catalogue module, where the majority of EMu work will be done. The `Search` window can be used to query our database for specific type specimens. 
-
-![img](https://lh4.googleusercontent.com/nnflmKe-uRHZwvXgwHMEhzC7PzI9QuRVRY56pZqIC-TXa1SBc8ktAOntqjJ7hEtsLowrEK7PmYkBGM5e68MriuEdGB2XprlwIKtK6aLRNYi_7H4ZtNAar4_PkMtX3JGschzUJMXJ)
-
-1. `LACMIP Type No.` : enter the **type number** (not locality number!) for type specimens. 
-2. `Search button` : click this button to execute the query. 
-
 If no records are returned or if the returned records do not match the type number and/or locality number on the type specimen or included labels, contact Daniel for guidance. 
 
-### Invert Paleo tab
-
-The `Invert Paleo` tab (displayed at the bottom of the application window) is where the majority of information regarding the type specimen will need to be entered. 
-
-A complete overview of the fields in the Invert Paleo tab exists on the LACMIP EMu Handbook under the [Catalogue](https://lacmip.github.io/emu/documentation/catalogue/) page. Below are the fields that will be primairly used for cataloging type records. 
-
-![img](https://lh3.googleusercontent.com/LQm0HIFdBc9yLsEKgP2f7N9UaPoYJ-q5BKHOFDec4wJz5Pn0svO_U9Tiy8mJaDBsH1EhzUZgYfSTYh2xPOPMxuwZMxlMA6QtWevQnfjgwSsGkzfCzpDgj8FXG_Nyyftny3HJk-KS)
-
-1. `Locality` : locality numbers are the first part of LACMIP's catalogue numbers (see here for a more detailed explanation of LACMIP's specimen IDs) and refer to the specific collection event and location (locality) where specimens were collected. While these numbers are almost always correct on any given type number, it is best to **always** double check. 
-   - Make sure to verify that locality numbners are correct on **both** the EMu catalogue record and the type specimen.
-   - Ensure that the location associated with the locality record matches any references to collection locations on labels associated with a type specimen.
+TIP: More detailed information on searching in EMu can be found under [Modes of Operation]({{ site.baseurl }}/documentation/modes/#search-mode).
+{: .notice--warning}
    
-2. `Lot count` : refers to the number of actual objects or individual specimens with the same type number. This will often be immediately apparent (one clam fossil will equate to  *Lot Count: 1*) but in cases when it is not (such as a chunk or colonial fossil fragments), please ask for guidance. 
+## Assess the catalog record
 
-3. `Disposition` : a dropdown menu with options to note the physical state of a specimen lot. For the vast majority of specimens where you have the actual specimen in front of you, you will choose "in collection". Options include: 
+{% include figure image_path="/assets/images/catalogue_invertpaleo_typeunedited.png" alt="screenshot of the Invert. Paleo. tab's search form in the Catalogue module" caption="Screenshot of the *Invert. Paleo.* tab's search form in the Catalogue module." %}
 
-   - `being processed` : for specimens being incorporated into the collection (e.g. a new donation)
-   - `discarded` : for specimens permanently removed from the collection
-   - `in collection` : for specimens phusically locatable
-   - `missing` : for specimens whose wherabouts are unknown
-   - `on loan` : for specimens out on loan (refer to [transactions page](https://lacmip.github.io/emu/documentation/transactions/))
-   - `unknown` : for specimens that haven't been physically located, but are known to exist.
+For each type specimen, assess the information on its catalog record according to the steps outlined below. You will only be concerned with information on the Invert. Paleo. tab and, in the uncommon event that several specimens are stuck together, the Relationships tab.  The fields that require your attention are highlighted in yellow.
 
-4. `Alternative numbers` : the "legacy" numbers assigned by another institution or collector. 
-   - 4a.  `Inst. Code` : code given to legacy institution. (See here to know how to choose the proper institution code). **Always click the lookup list button** when entering an Inst Code to validate your entry. If you are trying to add a new institution code, please ask for assistance. 
-   - 4b.  `Inst. Number` : this number can either refer to a number assigned by an institution (such as UCLA) or a collector (such as Pierce). In the case of a collector, the number should be formatted as capitalized name and number (e.g. 'PIERCE 32a'). 
+ *Field* | *On the Invert. Paleo. tab...*
+   --- | ---
+   *Locality* & *Cat. No.* | Verify that the LACMIP locality number and catalog number listed on the record matches the locality number painted on the specimen in white paint, as well as what's on the specimen's old label(s) in its box. While mismatches are uncommon, immediately alert the Collections Manager if you find one.
+   *Lot Count* | Refers to the number of individual specimens with the same type number. In the type collection, this value is typically "1". However, occasionally there will be more than one fossil with the same type number in a lot. In that case, update the lot count to reflect the true number of specimens. Refer to the (guidelines for counting)({{ site.baseurl }}/documentation/digitizing/#counting) and ask for help if you're still unsure. Do not count synthetic objects (like rubber peels) that may be left in the box.
+   *P/CP* | Refers to "part" and counterpart" and is typically used for compression fossils and concretions. If both parts are presents, check this box and make sure the *Lot Count* is also updated accordingly.
+   *Disposition* | A dropdown menu with options to note the physical state of a specimen lot. For the vast majority of specimens, you will verify that they are in the collection by choosing "in collection". If you encounter an empty box, a specimen may be missing or on loan, and the disposition should be changed to indicate this. If the specimen is missing, transcribe any relevant notes in the box into *Lot Remarks* (for example, "MISSING 02/17/70 ECW). Likewise, if a specimen is on loan, transcribe any relevant infomration at your disposal into the *Lot Remarks* in this format: "On loan to [name], [affiliation] (YYYY-MM-DD) (email). Verify with the Collections Manager if the correct disposition is not readily apparent.
+   
+{% include figure image_path="/assets/images/catalogue_lotremarks_loan.png" alt="screenshot of the Invert. Paleo. tab's Lot Remarks field in the Catalogue module" caption="If a specimen is on loan, update its disposition and annotate details of the loan in *Lot Remarks.*" %}
+
+ *Field* | *On the Invert. Paleo. tab...*
+   --- | ---
+   *Alternative Numbers* | Used to record legacy catalog numbers assigned by another institution or the collector. *Inst. Code* typically refers to an institution, like "UCLA", "CIT", or "CSUN". Use the lookup list button when entering an *Inst Code* to validate your entry. If you are trying to add a new institution code, please ask for assistance. Occasionally, the number might be a collector number. In that case, enter "collector number" in this field. *Inst. Number* can either refer to a number assigned by an institution (such as UCLA) or a collector (such as Pierce). In the case of a collector, the number should be formatted as capitalized name and number (e.g. 'PIERCE 32a'). Do not record old locality numbers (typically on circular stickers) in this field. Additional explanation of *Alternative Numbers* is provided [here]({{ site.baseurl }}/documentation/catalogue/#invert-paleo-tab)
+
+{% include figure image_path="/assets/images/catalogue_alternativenumbers.png" alt="screenshot of the *Alternative Numbers* field in the catalogue module" caption="Screenshot of the *Alternative Numbers* field in the Catalogue module." %}
+{% include figure image_path="/assets/images/catalogue_alternativenumbersexample.jpg" alt="Example of an old catalog number to be entered in *Alternative Numbers*" caption="Example of an old catalog number to be entered in *Alternative Numbers*. In general, UCLA catalog numbers will look very similar to the one illustrated above (i.e. handwritten on a white rectangular label and adhered to the specimen)." %}
+
+If you are unsure if or how to record a potential alternative number, take a quick photo of the specimen (with the number visible), as well as any relevant specimen labels, and send these to the collections staf in the Google chat.
+{: .notice--warning}
+
+ *Field* | *On the Invert. Paleo. tab...*
+   --- | ---
    
 5. `Type Status` : dropdown of kinds of type specimens.
    
