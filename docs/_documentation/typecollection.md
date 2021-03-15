@@ -1,23 +1,64 @@
 ---
-title: IMLS 2021
+title: Type Collection
 navcat: Workflows
 tags: cataloging
 last_modified_at: 2021-03-15
 ---
 
-# IMLS Workflow
+This documentation was created for the LACMIP Type Collection Renovation & Digitization project funded by the Institute of Museum & Library Services [(IMLS Award # MA-10-19-0223-19)](https://www.imls.gov/grants/awarded/ma-10-19-0223-19-0).
 
-## Cataloging
+# Introduction
 
-Cataloging for the IMLS grant project primairly involved the updating of preexisting type records. In the unusual event that a record for a type specimen did not exist, a new record was created with guidance. 
+## What is a "type"?
 
-The IMLS cataloging workflow is adapted from the [editing a catalogue record](https://lacmip.github.io/emu/documentation/cataloging/#editing-a-catalogue-record)  workflow in the `Cataloging` page on the LACMIP EMu Handbook. Please consult this reference for an expanded explanation of the module. 
+Type specimens, or "types", are the physical, name-bearing vouchers for new species, genera, etc. They are therefore retained in a specially designated "type collection" so researchers can reexamine them from time to time to assess their taxonomic validity. Therefore, types are some museum's most intellectually valuable specimens and must be handled with extreme care. 
 
-This section will outline the direction given tp the IMLS interns and volunteers for updating type catalogue records. 
+Before accessing any specimens in the type collection, please review the following:
+- **Always ask for help when moving specimen trays**. They may be much heavier than they appear. 
+- **Open drawers slowly and cautiously.** Be aware that these cabinets _do not_ have drawer stoppers. In other words, if you pull to hard, the drawer may fall out. As a precaution, always pull out the drawer immediately below the one you wish to access about halfway; it will act as an emergency "stopper" should you pull out the upper tray too far.
+- **Immediately alert the Collections Manager if specimens are damaged or disassociated from their labels.**
+- Work with one specimen lot (box) at a time.
+- Never move specimens or labels between boxes, or reorganize the boxes within their drawers unless directed to do so.
+- All type specimens must be returned to their appropriate drawer(s)/cabinet(s) at the end of your shift.
+- No food or drink (except water) is allowed in the type room, and please keep water away from specimens and equipment at all times.
+- Please do not invite visitors into the type collections without consent from the Collections Manager or Curator.
+- Always ask questions whenever you are unsure what to do!
 
-### Search
+## What is "taxonomy"?
 
-Below is the first window encountered when loading EMu's `Catalogue` module, where the majority of EMu work will be done. The `Search` window can be used to query our database for specific type specimens. 
+In the biological sense, taxonomy refers to the classification of organisms. While you will not be entering or editing specimen identifications or taxonomy, taxonomic classificiation forms the foundation upon which the type collection was built and is organized. Please familiarize yourself with the basic concepts of taxonomy and binomial nomenclature by reviewing [this article] and the following video.
+{% include video id="12XO8vYqBsA" provider="youtube" %}
+
+## "QC" vs. Cataloging
+
+Most of the specimens in the type collection are cataloged, meaning they already have a catalog number (or *Cat. No.*). The catalog number is a unique, human-readable identifier for a specimen lot that can be cited when the specimen is referenced in published research. 
+
+Instead of cataloging, you will be updating--or "QC'ing" (quality controlling)--existing catalog records with missing information.
+
+Before QC'ing any catalog records for specimens in type collection, please review our comprehensive documentation for the [Catalogue module]({{ site.baseurl }}/documentation/catalogue/), as well as all steps below outlined below.
+
+As a point of diambiguation, true "cataloging" refers to the creation of _new_ catalog records and is only needed when new type specimens are received from researchers. Interns and volunteers will rarely catalog specimens in the type collection, and this should only be accomplished with guidance from the Collections Manager. LACMIP maintains a separate workflow for [cataloging](({{ site.baseurl }}/documentation/cataloging/).
+
+# Type Collection QC Workflow
+
+-> How does one go about selecting a specimen lot to QC?
+-> How to log in to EMu
+
+## Search for the specimen
+
+{% include figure image_path="/assets/images/catalogue_typesearch.png" alt="screenshot of the Invert. Paleo. tab's search form in the Catalogue module" caption="Screenshot of the *Invert. Paleo.* tab's search form in the Catalogue module." %}
+
+You will search for specimens by their LACMIP type number. These numbers are always labelled on specimens in bright red, yellow, and blue paint (not white paint and not stickers). If you are unsure whether a number is a type number, consult the Collections Manager.
+{% include figure image_path="/assets/images/catalogue_LACMIPtypeno.png" alt="example LACMIP Type No." caption="LACMIP type numbers are indicated by bright red, yellow, or blue paint. Red = holotypes, syntypes, lectotypes; Yellow = paratypes, paralectotypes; Blue = hypotypes (figured or unfigured specimens)." %}
+
+ *Step* | *On the search form...*
+   --- | ---
+   1 | In *LACMIP Type No.*, enter the type number 
+   2 | Select the binoculars icon to execute the query.
+   
+## Assess the catalog record
+
+Below is the first window encountered when loading EMu's Catalogue module, where the majority of EMu work will be done. The `Search` window can be used to query our database for specific type specimens. 
 
 ![img](https://lh4.googleusercontent.com/nnflmKe-uRHZwvXgwHMEhzC7PzI9QuRVRY56pZqIC-TXa1SBc8ktAOntqjJ7hEtsLowrEK7PmYkBGM5e68MriuEdGB2XprlwIKtK6aLRNYi_7H4ZtNAar4_PkMtX3JGschzUJMXJ)
 
