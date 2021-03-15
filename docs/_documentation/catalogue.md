@@ -17,20 +17,11 @@ This tab, along with *Identifications (1)*, is where the bulk of our specimen da
 Locality
 : Attach a [site]({{ site.baseurl }}/documentation/sites/) record to the catalogue record here. You can either type in the LACMIP locality number, e.g. "500000," or click the green plus sign to find a locality via the Sites module search.
 
-Lot Count
-: The number of individuals within this cataloged lot. Typically, this is the number of physical pieces, e.g. on a single chunk of Cretaceous material there may be thousands of individual fossilized animals but *Lot Count* would be "1." For more recent material, *Lot Count* may actually be the number of individual animals. It is important to ask for clarification on what this number means if you are unfamiliar with LACMIP norms.
-
-Disp.
-: A controlled vocabulary to note the physical state of a specimen lot. Vocabulary includes:
-    - "being processed" for specimens actively being incorporated into the collection, e.g. a new donation
-    - "discarded" for specimens permanently removed from the collection
-    - "in collection" for specimens physically locatable
-    - "missing" for specimens whose whereabouts are unknown
-    - "on loan" for specimens out on loan (refer to [transactions]({{ site.baseurl }}/documentation/transactions/) for more on loans)
-    - "unknown" for specimens that haven't been physically located, but are also not definitely missing; typically this term is assigned to legacy specimen data records where we have not attempted to locate the physical specimen yet
-
 Lot No.
 : Combined with the locality number, this turns into *Cat. No.*, a unique, human-readable identifier for a specimen lot. EMu will auto-generate the next available lot number for you. If EMu does *not* automatically generate the *Lot No.*, do not proceed with cataloging and immediately alert the collections staff!
+
+Cat. No.
+: The catalog number is a unique, human-readable identifier for a specimen lot that combines *Locality* and *Lot. No.*. EMu will auto-generate the *Cat. No.* when the *Lot No.* field is populated. If EMu does *not* automatically generate the Cat No. with *Lot No.* do not proceed with cataloging and immediately alert the collections staff!
 
 P/CP
 : Part/Counterpart. Checking this box indicates that the specimen lot contains two or more pieces that fit together to represent a single animal. This is typically reserved for complete part-counterpart pairs of compression fossils and concretions.
@@ -47,6 +38,18 @@ LACMIP Type No.
 
 Field No.
 : A number assigned to a specimen lot **at the time of collection**, typically by the collector. This is not common in the majority of the LACMIP collections (fossil insects being an exception).
+
+Lot Count
+: The number of individuals within this cataloged lot. Typically, this is the number of physical pieces, e.g. on a single chunk of Cretaceous material there may be thousands of individual fossilized animals but *Lot Count* would be "1." For more recent material, *Lot Count* may actually be the number of individual animals. It is important to ask for clarification on what this number means if you are unfamiliar with LACMIP norms.
+
+Disp.
+: A controlled vocabulary to note the physical state of a specimen lot. Vocabulary includes:
+    - "being processed" for specimens actively being incorporated into the collection, e.g. a new donation
+    - "discarded" for specimens permanently removed from the collection
+    - "in collection" for specimens physically locatable
+    - "missing" for specimens whose whereabouts are unknown
+    - "on loan" for specimens out on loan (refer to [transactions]({{ site.baseurl }}/documentation/transactions/) for more on loans)
+    - "unknown" for specimens that haven't been physically located, but are also not definitely missing; typically this term is assigned to legacy specimen data records where we have not attempted to locate the physical specimen yet
 
 Inst. Code & Inst. Number
 : Paired values of specimen numbers assigned **during curation** by another institution or the collector. For example, many UCLA specimens have old catalog numbers pasted onto them (white paper rectangles), such as "UCLA 4539". In this case, enter this number into EMu as *Inst. Code* = "UCLA" and *Inst. Number* = "4539." For specimen numbers assigned by the collector, such as "McK 227" assigned by W. D. Pierce, *Inst. Code* = "collector number" and *Inst. Number* = "PIERCE McK 227". Take care **not** to record **locality** numbers from other institutions in this field (record them in *Alternate Loc ID* in the [Sites module]({{ site.baseurl }}/documentation/sites/)).
