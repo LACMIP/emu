@@ -5,7 +5,7 @@ tags: cataloging
 last_modified_at: 2021-03-15
 ---
 
-This documentation was created for the LACMIP Type Collection Renovation & Digitization project funded by the Institute of Museum & Library Services [(IMLS Award # MA-10-19-0223-19)](https://www.imls.gov/grants/awarded/ma-10-19-0223-19-0).
+The following documentation was created for the LACMIP Type Collection Renovation & Digitization project funded by the Institute of Museum & Library Services [(IMLS Award # MA-10-19-0223-19)](https://www.imls.gov/grants/awarded/ma-10-19-0223-19-0).
 
 # Introduction
 
@@ -50,7 +50,7 @@ The workflow used to quality control and edit type specimen records is outlined 
 
 ## Search for a type specimen
 
-You will search for type specimens by their LACMIP type number. These numbers are always labelled on specimens in bright red, yellow, or blue paint (not white paint or stickers). If you are unsure whether a number is a type number, consult the Collections Manager.
+Search for type specimens using their LACMIP type numbers. These numbers are always labelled on specimens in bright red, yellow, or blue paint (not white paint or stickers). If you are unsure whether a number is a type number, consult the Collections Manager.
 
 {% include figure image_path="/assets/images/catalogue_LACMIPtypeno.png" alt="example LACMIP Type No." caption="LACMIP type numbers are indicated by bright red, yellow, or blue paint. Red = holotypes, syntypes, lectotypes; Yellow = paratypes, paralectotypes; Blue = hypotypes (figured or unfigured specimens)." %}
 
@@ -58,7 +58,7 @@ You will search for type specimens by their LACMIP type number. These numbers ar
 
  *Step* | *On the search form...*
    --- | ---
-   1 | In *LACMIP Type No.*, enter the type number 
+   1 | In *LACMIP Type No.*, enter the type number. 
    2 | Select the binoculars icon to execute the query.
    
 If no records are returned or if the returned records do not match the type number and/or locality number on the type specimen or included labels, contact Daniel for guidance. 
@@ -68,22 +68,17 @@ TIP: More detailed information on searching in EMu can be found under [Modes of 
    
 ## Assess the catalog record
 
-{% include figure image_path="/assets/images/catalogue_invertpaleo_typeunedited.png" alt="screenshot of the Invert. Paleo. tab's search form in the Catalogue module" caption="Screenshot of the *Invert. Paleo.* tab's search form in the Catalogue module." %}
+{% include figure image_path="/assets/images/catalogue_invertpaleo_typeunedited.png" alt="screenshot of the Invert. Paleo. tab's search form in the Catalogue module" caption="Screenshot of what a typical, unedited catalog record for a type specimen looks like." %}
 
-For each type specimen, assess the information on its catalog record according to the steps outlined below. You will only be concerned with information on the Invert. Paleo. tab and, in the uncommon event that several specimens are stuck together, the Relationships tab.  The fields that require your attention are highlighted in yellow.
+For each type specimen, assess the information on its catalog record according to guidance outlined below. You should only be concerned with information on the Invert. Paleo. tab and, in the uncommon event that several specimens are stuck together, the Relationships tab. 
 
  *Field* | *On the Invert. Paleo. tab...*
    --- | ---
-   *Locality* & *Cat. No.* | Verify that the LACMIP locality number and catalog number listed on the record matches the locality number painted on the specimen in white paint, as well as what's on the specimen's old label(s) in its box. While mismatches are uncommon, immediately alert the Collections Manager if you find one.
+   *Locality* & *Cat. No.* | Verify that the LACMIP locality and catalog numbers listed on the catalog record matche the locality number painted on the specimen in white paint, as well as what's on the specimen's old label(s) in its box. You may need to open the corresponding Sites record (use the blue arrow) for comparison. While mismatches are uncommon, immediately alert the Collections Manager if you find one.
    *Lot Count* | Refers to the number of individual specimens with the same type number. In the type collection, this value is typically "1". However, occasionally there will be more than one fossil with the same type number in a lot. In that case, update the lot count to reflect the true number of specimens. Refer to the (guidelines for counting)({{ site.baseurl }}/documentation/digitizing/#counting) and ask for help if you're still unsure. Do not count synthetic objects (like rubber peels) that may be left in the box.
-   *P/CP* | Refers to "part" and counterpart" and is typically used for compression fossils and concretions. If both parts are presents, check this box and make sure the *Lot Count* is also updated accordingly.
-   *Disposition* | A dropdown menu with options to note the physical state of a specimen lot. For the vast majority of specimens, you will verify that they are in the collection by choosing "in collection". If you encounter an empty box, a specimen may be missing or on loan, and the disposition should be changed to indicate this. If the specimen is missing, transcribe any relevant notes in the box into *Lot Remarks* (for example, "MISSING 02/17/70 ECW). Likewise, if a specimen is on loan, transcribe any relevant infomration at your disposal into the *Lot Remarks* in this format: "On loan to [name], [affiliation] (YYYY-MM-DD) (email). Verify with the Collections Manager if the correct disposition is not readily apparent.
-   
-{% include figure image_path="/assets/images/catalogue_lotremarks_loan.png" alt="screenshot of the Invert. Paleo. tab's Lot Remarks field in the Catalogue module" caption="If a specimen is on loan, update its disposition and annotate details of the loan in *Lot Remarks.*" %}
-
- *Field* | *On the Invert. Paleo. tab...*
-   --- | ---
-   *Alternative Numbers* | Used to record legacy catalog numbers assigned by another institution or the collector. *Inst. Code* typically refers to an institution, like "UCLA", "CIT", or "CSUN". Use the lookup list button when entering an *Inst Code* to validate your entry. If you are trying to add a new institution code, please ask for assistance. Occasionally, the number might be a collector number. In that case, enter "collector number" in this field. *Inst. Number* can either refer to a number assigned by an institution (such as UCLA) or a collector (such as Pierce). In the case of a collector, the number should be formatted as capitalized name and number (e.g. 'PIERCE 32a'). Do not record old locality numbers (typically on circular stickers) in this field. Additional explanation of *Alternative Numbers* is provided [here]({{ site.baseurl }}/documentation/catalogue/#invert-paleo-tab)
+   *Disposition* | <img src="{{ site.baseurl }}/assets/images/catalogue_lotremarks_loan.png" alt="" width="500"/>{: .align-center} A dropdown menu with options to note the physical state of a specimen lot. For the vast majority of specimens, you will verify that they are in the collection by choosing "in collection". If you encounter an empty box, a specimen may be missing or on loan, and the disposition should be changed to indicate this. If the specimen is missing, transcribe any relevant notes in the box into *Lot Remarks* (for example, "MISSING 02/17/70 ECW). Likewise, if a specimen is on loan, transcribe any relevant infomration at your disposal into the *Lot Remarks* in this format: "On loan to [name], [affiliation] (YYYY-MM-DD) (email). Verify with the Collections Manager if the correct disposition is not readily apparent.
+      *P/CP* | Refers to "part" and counterpart" and is typically used for compression fossils and concretions. If both parts are presents, check this box and make sure the *Lot Count* is also updated accordingly.
+   *Alternative Numbers* | <img src="{{ site.baseurl }}/assets/images/catalogue_alternativenumbers.png" alt="" width="500"/>{: .align-center} Used to record legacy catalog numbers assigned by another institution or the collector. *Inst. Code* typically refers to an institution, like "UCLA", "CIT", or "CSUN". Use the lookup list button when entering an *Inst Code* to validate your entry. If you are trying to add a new institution code, please ask for assistance. Occasionally, the number might be a collector number. In that case, enter "collector number" in this field. *Inst. Number* can either refer to a number assigned by an institution (such as UCLA) or a collector (such as Pierce). In the case of a collector, the number should be formatted as capitalized name and number (e.g. 'PIERCE 32a'). Do not record old locality numbers (typically on circular stickers) in this field. Additional explanation of *Alternative Numbers* is provided [here]({{ site.baseurl }}/documentation/catalogue/#invert-paleo-tab)
 
 {% include figure image_path="/assets/images/catalogue_alternativenumbers.png" alt="screenshot of the *Alternative Numbers* field in the catalogue module" caption="Screenshot of the *Alternative Numbers* field in the Catalogue module." %}
 {% include figure image_path="/assets/images/catalogue_alternativenumbersexample.jpg" alt="Example of an old catalog number to be entered in *Alternative Numbers*" caption="Example of an old catalog number to be entered in *Alternative Numbers*. In general, UCLA catalog numbers will look very similar to the one illustrated above (i.e. handwritten on a white rectangular label and adhered to the specimen)." %}
