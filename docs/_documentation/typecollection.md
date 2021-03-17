@@ -5,23 +5,23 @@ tags: cataloging
 last_modified_at: 2021-03-15
 ---
 
-The following documentation was created for the LACMIP Type Collection Renovation & Digitization project funded by [IMLS Award # MA-10-19-0223-19](https://www.imls.gov/grants/awarded/ma-10-19-0223-19-0), 2019-2021.
+The following documentation was created for the Invertebrate Paleontology & Malacology Type Collection Renovation & Digitization project supported by [IMLS Log # MA-30-18-0335-18](https://www.imls.gov/grants/awarded/ma-30-18-0335-18-0), 2019-2021.
 
 # Introduction
 
 ## What is a "type"?
 
-Type specimens, or "types", are the physical, name-bearing vouchers for new taxa. They are therefore retained in a specially designated "type collection" so researchers can reexamine them. Types are some museum's most intellectually valuable specimens and must be handled with extreme care.
+Type specimens, or "types", are the physical, name-bearing vouchers for new taxa. They are retained in a specially designated "type collection" so researchers can reexamine them. Rules regarding types and their classification are maintained by the [ICZN](https://www.iczn.org/outreach/faqs/). Because types often represent new species, they include some of the museum's most intellectually valuable specimens and must be handled with extreme care.
 
- Important! | *Before accessing specimens in the type collection, review the following:*
+ ~ | *Before accessing specimens in the type collection, review the following:*
    --- | ---
-   ⚠️ | **Open drawers slowly and cautiously.** Be aware that these cabinets do not have drawer stoppers. In other words, if you pull to hard, the drawer may fall out. As a precaution, always pull out the drawer immediately below the one you wish to access about halfway.
+   ⚠️ | **Open drawers slowly and cautiously.** Be aware that these cabinets do not have drawer stoppers. In other words, if you pull too far, the drawer may fall out. As a precaution, always pull out the drawer immediately below the one you wish to access about halfway.
    ⚠️ | **Always ask for help when moving drawers around.** They may be much heavier than they appear. 
    ⚠️ | **If type specimens are damaged or disassociated from their labels, alert the collections staff immediately.** Never move specimens or labels between boxes, or reorganize the boxes within their drawers unless directed to do so.
    🔑 | All type specimens must be returned to their appropriate drawers and cabinets at the end of your shift. Similarly, the type room is a communal workspace (shared with Malacology) and should be kept tidy.
    🔑 | Please do not invite visitors into the type collection without permission from the Collections Manager or Curator.
    🚫 | Water is allowed in the type room, but should be kept away from specimens and equiment at all times. Please store/consume food and other beverages elsewhere.
-   ❓ | Always ask questions when you're unsure what to do!
+   ❓ | Always ask questions when you're not sure what to do!
 
 ## What is "taxonomy"?
 
@@ -41,9 +41,9 @@ Before editing any catalog records for type specimens, please *thoroughly* revie
 
 # Type Collection QC Workflow
 
-The workflow below is used to edit and quality control (QC) type specimen records is outlined below. To enlarge screenshots, right click and open them in a new tab or window.
+The workflow used to edit and quality control (QC) type specimen records is outlined below. To enlarge screenshots, right click and open them in a new tab or window.
 
-## Search for a type specimen
+## I. Search for a specimen
 
 Search for type specimens using their LACMIP type numbers. These numbers are always labelled on specimens in bright red, yellow, or blue paint (_never_ white paint or stickers). If you are unsure whether a number represents a type number, consult the collections staff.
 
@@ -61,7 +61,7 @@ Search for type specimens using their LACMIP type numbers. These numbers are alw
 Once you get comfortable with EMu, tips on searching for records can be found [here]({{ site.baseurl }}/documentation/modes/#search-mode).
 {: .notice--warning}
    
-## Assess the catalog record
+## II. Assess the catalog record
 
 {% include figure image_path="/assets/images/catalogue_invertpaleo_typeunedited.png" alt="screenshot of the Invert. Paleo. tab's search form in the Catalogue module" caption="Screenshot of what a typical, unedited catalog record for a type specimen looks like." %}
 
@@ -69,11 +69,11 @@ For each type specimen, assess the information on its catalog record according t
 
  *Field* | *On the Invert. Paleo. tab...*
    --- | ---
-   *Locality* & *Cat. No.* | Verify that the LACMIP locality and catalog numbers listed on the catalog record match the locality number painted on the specimen in white paint, as well as what's on the specimen's old label(s) in its box. (Reminder: This is what a [locality number](https://lacmip.github.io/emu/assets/images/catalogue_localitynumbers.jpg) looks like and this is what a [catalog number](https://lacmip.github.io/emu/assets/images/cataloging_edits.jpg) looks like.) You may need to open the corresponding Sites record to compare (use the blue arrow to open it). While mismatches are uncommon, immediately alert the collections staff if you find one.
+   *Locality* & *Cat. No.* | Verify that the LACMIP locality and catalog numbers listed on the catalog record match the locality number painted on the specimen in white paint, as well as what's on the specimen's old label(s) in its box. (Reminder: This is what a [locality number]({{ site.baseurl }}/assets/images/catalogue_localitynumbers.jpg) looks like and this is what a [catalog number]{{ site.baseurl }}/assets/images/cataloging_edits.jpg) looks like.) You may need to open the corresponding Sites record to compare (use the blue arrow to open it). While mismatches are uncommon, immediately alert the collections staff if you find one.
    *Lot Count* | Verify the number of specimens in the lot that have the same type number. In the type collection, this value is **typically "1"**, but occasionally there will be more than one fossil (or piece of fossil) with the same type number; in either case, update the lot count to reflect the true number of specimens. Refer to the [guidelines for counting]({{ site.baseurl }}/documentation/digitizing/#counting) and ask for help if you're still unsure. Do not count synthetic objects, like rubber peels, that may also be in the box.
-   *Disposition* | Verify the physical state of the specimen lot. For the vast majority of lots, you will verify that they are in the collection by choosing **"in collection"**. However, if you encounter an empty box, a specimen may be "missing" or "on loan", and *Disposition* should be updated accordingly. **If the specimen is missing**, transcribe any relevant notes you find in the box into *Lot Remarks*, [for example](({{ site.baseurl }}/assets/images/catalogue_missing.png), "G.S., 9/1971, Missing". Likewise, **if the specimen is on loan**, transcribe any relevant information at your disposal into *Lot Remarks* in [this format]({{ site.baseurl }}/assets/images/catalogue_loan.png): "On loan to [name], [affiliation] (YYYY-MM-DD) (email)". Ask the collections staff if the correct disposition is not readily apparent.
+   *Disposition* | Verify the physical state of the specimen lot. For the vast majority of lots, you will verify that they are in the collection by choosing **"in collection"**. However, if you encounter an empty box, a specimen may be "missing" or "on loan", and *Disposition* should be updated accordingly. **If the specimen is missing**, transcribe any relevant notes you find in the box into *Lot Remarks*, [for example]({{ site.baseurl }}/assets/images/catalogue_missing.png), "G.S., 9/1971, Missing". Likewise, **if the specimen is on loan**, transcribe any relevant information at your disposal into *Lot Remarks* in [this format]({{ site.baseurl }}/assets/images/catalogue_loan.png): "On loan to [name], [affiliation] (YYYY-MM-DD) (email)". Ask the collections staff if the correct disposition is not readily apparent.
    *P/CP* | Refers to "part" (P) and counterpart" (CP) and is typically used for compression fossils and concretions. If both parts (halves) are present, check this box and make sure *Lot Count* is updated accordingly.
-   *Alternative Numbers* | <img src="{{ site.baseurl }}/assets/images/catalogue_alternativenumbers.png" alt="" width="500"/>{: .align-center} Record [legacy catalog numbers](https://lacmip.github.io/emu/assets/images/catalogue_alternativenumbersexample.jpg) assigned by another institution or the collector in this table. ***Inst. Code*** typically refers to an institution, like "UCLA", "CIT", or "CSUN". Use the lookup list button when entering an *Inst Code* to validate your entry. If you are trying to add a new institution code, please ask for assistance. Occasionally, the number might be a collector number. In that case, enter "collector number" in this field. ***Inst. Number*** can either refer to a number assigned by an institution (such as UCLA) or a collector (such as W. D. Pierce). In the case of a collector, the number should be formatted as capitalized name and number (e.g. "PIERCE 32a"). *Do not record old locality numbers in this table*, which are typically found on circular stickers in the type collection.
+   *Alternative Numbers* | <img src="{{ site.baseurl }}/assets/images/catalogue_alternativenumbers.png" alt="" width="500"/>{: .align-center} Record [legacy catalog numbers]({{ site.baseurl }}/assets/images/catalogue_alternativenumbersexample.jpg) assigned by another institution or the collector in this table. ***Inst. Code*** typically refers to an institution, like "UCLA", "CIT", or "CSUN". Use the lookup list button when entering an *Inst Code* to validate your entry. If you are trying to add a new institution code, please ask for assistance. Occasionally, the number might be a collector number. In that case, enter "collector number" in this field. ***Inst. Number*** can either refer to a number assigned by an institution (such as UCLA) or a collector (such as W. D. Pierce). In the case of a collector, the number should be formatted as capitalized name and number (e.g. "PIERCE 32a"). *Do not record old locality numbers in this table*, which are typically found on circular stickers in the type collection.
 
 {% include figure image_path="/assets/images/catalogue_alternativenumbersexample.jpg" alt="Example of an old catalog number to be entered in *Alternative Numbers*" caption="Example of an old catalog number to be entered in *Alternative Numbers*. In general, UCLA catalog numbers will look very similar to the one illustrated above (i.e. handwritten on a white rectangular label and adhered to the specimen)." %}
 
@@ -82,15 +82,29 @@ If you are unsure how to record a number, take a quick photo of the specimen (wi
 
  *Field* | *On the Invert. Paleo. tab...*
    --- | ---
-    *Type Status* | Refers to the most important status conferred upon a type specimen. (See "[What kinds of types are there?](https://www.iczn.org/outreach/faqs/#faq-4)" according to the ICZN.) In the LACMIP type collection, type status priorty ranks as follows: **1, most important:** holotypes, syntypes, lectotypes, neotypes; **2:** paratypes, paralectotypes, allotypes; and **3, least important:** hypotypes, figured and unfigured. It in the unlikely event that this value is incorrect, use the dropdown and select the most important kind of type listed the *IP Pubications* table.
+    *Type Status* | Refers to the most important status conferred upon a type specimen. In the unlikely event that this value is incorrect, use the dropdown and select the most important kind of type listed the *IP Pubications* table: **1, most important:** holotypes, syntypes, lectotypes, neotypes; **2:** paratypes, paralectotypes, allotypes; and **3, least important:** hypotypes, figured and unfigured.
     *Collection* | Value should always be "TYPE".
     *Project* | If blank, choose "IMLS".
-    *Original Nature* | *Ignore this field.* The default value is "body fossil". This information will be updated at a later time.
-    *Anatomy* | *Ignore this field.* The default value is "shell(s)". This information will be updated at a later time.
+    *Original Nature* | ***Ignore this field.*** The default value is "body fossil". This information will be updated at a later time.
+    *Anatomy* | ***Ignore this field.*** The default value is "shell(s)". This information will be updated at a later time.
     *Lot Remarks* | You will only enter information into this field if you find a lot with a [missing]({{ site.baseurl }}/assets/images/catalogue_missing.png) specimen or a specimen [on loan]({{ site.baseurl }}/assets/images/catalogue_loan.png). See *Disposition* for more information on missing and loaned lots.
     
-## Complete publication history
+## III. Verify publication history
 
+{% include figure image_path="/assets/images/catalogue_ippublications.png" alt="screenshot of the Invert. Paleo. tab's search form in the Catalogue module" caption="Screenshot highlighting the *IP Publications* table on the Invert. Paleo. tab." %}
+
+Specimens from the LACMIP collections are designated as types when they are cited in publications, and we track this information in the *IP Publications* table. Comprehensive documentation for adding and editing information in this table is available under the explanation for the [Invert. Paleo. tab]({{ site.baseurl }}/documentation/catalogue/#invert-paleo-tab) (follow the link and scroll down to *IP Publications*).
+
+If a publication is not listed in the *IP Publications* table, it will need to be attached from the Bibliography module. To do so, search for the publication by typing in a few key words from the title and one or last names from the author list and press tab.
+
+If the publication is not found, search the [Bibliography module]({{ site.baseurl }}/documentation/bibliography/) to be sure it does not exist. The search form in the Bibliography module functions the same way as the search form in the Catalogue module.  
+
+TIP: If you need to create a new Bibliography record, search for an existing one from the same journal and use it as a template for the new record using ditto.
+{: .notice--warning}
+
+
+More on how LACMIP types are cited, and the history of our specimen numbers, can be found [here]({{ site.baseurl }}/documentation/citing/).
+{: .notice--warning}
     
     *IP Publications* | <img src="{{ site.baseurl }}/assets/images/catalogue_IPpublications.png" alt="" width="500"/>{: .align-center} Refer to the explanation for [IP Publications]({{ site.baseurl }}/documentation/catalogue/#invert-paleo-tab) for the most updated, authoritative information on how to complete this table. If a new Bibliography record needs to be attached or created, consult the [Bibliography](#bibliography) workflow. 
 
