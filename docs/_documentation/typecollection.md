@@ -15,13 +15,13 @@ Type specimens, or "types", are the physical, name-bearing vouchers for new spec
 
  *!* | *Before accessing specimens in the type collection, review the following:*
    --- | ---
-   ⚠️ | **Always ask for help when moving specimen trays**. They may be much heavier than they appear. 
    ⚠️ | **Open drawers slowly and cautiously.** Be aware that these cabinets _do not_ have drawer stoppers. In other words, if you pull to hard, the drawer may fall out. As a precaution, always pull out the drawer immediately below the one you wish to access about halfway; it will act as an emergency "stopper" should you pull out the upper tray too far.
-   ⚠️ | **If specimens are damaged or disassociated from their labels, immediately alert the collections staff.** Never move specimens or labels between boxes, or reorganize the boxes within their drawers unless directed to do so.
-   🔑 | All type specimens must be returned to their appropriate drawer(s)/cabinet(s) at the end of your shift. Similarly, the type room is a communal workspace with Malacology and should be kept tidy.
-   🔑 | Please do not invite visitors into the type collection without consent from the Collections Manager or Curator.
-   🍱 | No food or drink (except water) is allowed in the type room, and please keep water away from specimens and equipment.
-   😕❓ | Always ask questions when you are unsure what to do!
+   ⚠️ | **Always ask for help when moving drawers around.** They may be much heavier than they appear. 
+   ⚠️ | **If type specimens are damaged or disassociated from their labels, alert the collections staff immediately.** Never move specimens or labels between boxes, or reorganize the boxes within their drawers unless directed to do so.
+   🔑 | All type specimens must be returned to their appropriate drawer(s)/cabinet(s) at the end of your shift. Similarly, the type room is a communal workspace (shared with Malacology) and should be kept tidy.
+   🔑 | Please do not invite visitors into the type collection without permission from the Collections Manager or Curator.
+   🚫 | Water is allowed in the type room, but should be kept away from specimens and equiment at all times. Please store/consume food and other beverages elsewhere.
+   ❓ | Always ask questions when you're unsure what to do!
 
 ## What is "taxonomy"?
 
@@ -34,20 +34,18 @@ Most of the specimens in the type collection are cataloged, i.e. they already ha
 
 Instead of cataloging, you will be editing and updating--or "QC'ing" (quality controlling)--existing catalog records with missing information.
 
-Before editing any catalog records for type specimens, please thoroughly review our comprehensive documentation for the [Catalogue module]({{ site.baseurl }}/documentation/catalogue/), as well as all steps below outlined below.
+Before editing any catalog records for type specimens, please *thoroughly* review our comprehensive documentation for the [Catalogue module]({{ site.baseurl }}/documentation/catalogue/), as well as all steps below outlined below.
 
-As a point of diambiguation, true "cataloging" refers to the creation of _new_ catalog records and is only needed when new type specimens are received from researchers. **Interns and volunteers will rarely catalog specimens in the type collection**, and this should only be accomplished with guidance from the Collections Manager. LACMIP maintains a separate workflow for [cataloging]({{ site.baseurl }}/documentation/cataloging/).
+As a point of diambiguation, true "cataloging" refers to the creation of _new_ catalog records and is only needed when new types are received from researchers. **Interns and volunteers will rarely catalog specimens in the type collection**, which should only be done with guidance from the Collections Manager. LACMIP maintains a separate workflow for [cataloging]({{ site.baseurl }}/documentation/cataloging/).
+{: .notice--warning}
 
 # Type Collection QC Workflow
 
-- ? How does one go about selecting a specimen lot to QC?
-- ? How to log in to EMu
-
-The workflow used to quality control and edit type specimen records is outlined below. To enlarge screenshots, right click and open them in a new tab or window.
+The workflow below is used to edit and quality control (QC) type specimen records is outlined below. To enlarge screenshots, right click and open them in a new tab or window.
 
 ## Search for a type specimen
 
-Search for type specimens using their LACMIP type numbers. These numbers are always labelled on specimens in bright red, yellow, or blue paint (not white paint or stickers). If you are unsure whether a number is a type number, consult the Collections Manager.
+Search for type specimens using their LACMIP type numbers. These numbers are always labelled on specimens in bright red, yellow, or blue paint (_never_ white paint or stickers). If you are unsure whether a number represents a type number, consult the collections staff.
 
 {% include figure image_path="/assets/images/catalogue_LACMIPtypeno.png" alt="example LACMIP Type No." caption="LACMIP type numbers are indicated by bright red, yellow, or blue paint. Red = holotypes, syntypes, lectotypes; Yellow = paratypes, paralectotypes; Blue = hypotypes (figured or unfigured specimens)." %}
 
@@ -57,10 +55,10 @@ Search for type specimens using their LACMIP type numbers. These numbers are alw
    --- | ---
    1 | In *LACMIP Type No.*, enter the type number. 
    2 | Select the binoculars icon to execute the query.
-   
-If no records are returned or if the returned records do not match the type number and/or locality number on the type specimen or included labels, contact Daniel for guidance. 
+   3 | <img src="{{ site.baseurl }}/assets/images/catalogue_edits2.png" alt="" width="500"/>{: .align-center} If no records are returned and an old 2000s-style specimen label is present in the box, search for the specimen using the catalog number in *Cat. No.*. In this example, you would search for "31458.1".
+   4 | If no records are returned and you are certain there were no typos in your searches, ask the collections staff for help.
 
-TIP: More detailed information on searching in EMu can be found under [Modes of Operation]({{ site.baseurl }}/documentation/modes/#search-mode).
+Once you get comfortable with EMu, tips on searching for records can be found [here]({{ site.baseurl }}/documentation/modes/#search-mode).
 {: .notice--warning}
    
 ## Assess the catalog record
@@ -71,7 +69,7 @@ For each type specimen, assess the information on its catalog record according t
 
  *Field* | *On the Invert. Paleo. tab...*
    --- | ---
-   *Locality* & *Cat. No.* | Verify that the LACMIP locality and catalog numbers listed on the catalog record matche the locality number painted on the specimen in white paint, as well as what's on the specimen's old label(s) in its box. You may need to open the corresponding Sites record (use the blue arrow) for comparison. While mismatches are uncommon, immediately alert the Collections Manager if you find one.
+   *Locality* & *Cat. No.* | Verify that the LACMIP locality and catalog numbers listed on the catalog record match the locality number painted on the specimen in white paint, as well as what's on the specimen's old label(s) in its box. (Reminder: This is what a [locality number]({{ site.baseurl }}/documentation/assets/images/catalogue_localitynumbers.jpg) looks like and this is what a [catalog number]({{ site.baseurl }}/documentation/assets/images/cataloging_edits2.jpg) looks like.) You may need to open the corresponding Sites record (use the blue arrow to open it) to compare. While mismatches are uncommon, immediately alert the collections staff if you find one.
    *Lot Count* | Refers to the number of individual specimens with the same type number. In the type collection, this value is typically "1". However, occasionally there will be more than one fossil with the same type number in a lot. In that case, update the lot count to reflect the true number of specimens. Refer to the (guidelines for counting)({{ site.baseurl }}/documentation/digitizing/#counting) and ask for help if you're still unsure. Do not count synthetic objects (like rubber peels) that may be left in the box.
    *Disposition* | <img src="{{ site.baseurl }}/assets/images/catalogue_lotremarks_loan.png" alt="" width="500"/>{: .align-center} A dropdown menu with options to note the physical state of a specimen lot. For the vast majority of specimens, you will verify that they are in the collection by choosing "in collection". If you encounter an empty box, a specimen may be missing or on loan, and the disposition should be changed to indicate this. If the specimen is missing, transcribe any relevant notes in the box into *Lot Remarks* (for example, "MISSING 02/17/70 ECW). Likewise, if a specimen is on loan, transcribe any relevant infomration at your disposal into the *Lot Remarks* in this format: "On loan to [name], [affiliation] (YYYY-MM-DD) (email). Verify with the Collections Manager if the correct disposition is not readily apparent.
    *P/CP* | Refers to "part" and counterpart" and is typically used for compression fossils and concretions. If both parts are presents, check this box and make sure the *Lot Count* is also updated accordingly.
