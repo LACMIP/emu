@@ -2,7 +2,7 @@
 title: Accessing EMu
 navcat: Basics
 tags: cataloging georeferencing quick-start taxonomy
-last_modified_at: 2019-06-18
+last_modified_at: 2021-03-17
 ---
 
 EMu is software that is hosted on an internal server and runs on your desktop. The Museum's database manager (Bill Mertz) is responsible for maintaining this system and for providing access.
@@ -20,7 +20,7 @@ For visiting researchers or other users who need read-only access to LACMIP data
 
 ## Logging in & out
 
-To log in to EMu, open the program and enter your username and password. You will also need to enter data for the host (“kemu”) and service (“emulacm”). It is very important that when you are done using EMu you shut down the program. The Museum pays for a certain number of licenses, which means that only an amount of users equal to the number of licenses can have EMu open at any given time.
+To log in to EMu, open the program and enter your username and password. You will also need to enter data for the host (“emu”) and service (“emulacm”). It is very important that when you are done using EMu you shut down the program. The Museum pays for a certain number of licenses, which means that only an amount of users equal to the number of licenses can have EMu open at any given time.
 
 If you would like to change your password, open any module in EMu and go to *Tools > Change Password...*
 
@@ -46,15 +46,21 @@ Members of the Invertebrate Paleontology permission group also have the ability 
 
 ### IP Cataloging
 
-LACMIP part-time staff, students, and volunteers who participate in cataloging will log in under this permission group. Modules and tabs that are extraneous to cataloging are hidden for this group in order to streamline the user interface.
+LACMIP part-time staff and volunteers who participate in cataloging will log in under this permission group. Modules and tabs that are extraneous to cataloging are hidden for this group in order to streamline the user interface.
 
 IP Cataloging users are restricted from editing anything in the [Taxonomy]({{ site.baseurl }}/documentation/taxonomy/) or [Sites]({{ site.baseurl }}/documentation/sites/) modules and from using the [Global Replace]({{ site.baseurl }}/documentation/modes/) tool. In order to control data quality, these users are also required to select a value from an existing lookup list for many fields, e.g. *Institution Code*.
 
 ### IP Georeferencing
 
-LACMIP part-time staff, students, and volunteers who participate in georeferencing will log in under this permission group. Modules and tabs that are extraneous to cataloging are hidden for this group in order to streamline the user interface.
+LACMIP part-time staff and volunteers who participate in georeferencing will log in under this permission group. Modules and tabs that are extraneous to cataloging are hidden for this group in order to streamline the user interface.
 
 IP Georeferencing users are restricted from editing anything in the [Taxonomy]({{ site.baseurl }}/documentation/taxonomy/) or [Catalogue]({{ site.baseurl }}/documentation/catalogue/) modules and from using the [Global Replace]({{ site.baseurl }}/documentation/modes/) tool. In order to control data quality, these users are also required to select a value from an existing lookup list for many fields, e.g. *Start Age*.
+
+### IP IMLS
+
+LACMIP part-time staff and volunteers working to edit specimen records in the type collection will log in under this permission group. Modules and tabs that are extraneous to cataloging are hidden for this group in order to streamline the user interface.
+
+IP Cataloging users are restricted from editing anything in the [Taxonomy]({{ site.baseurl }}/documentation/taxonomy/) or [Sites]({{ site.baseurl }}/documentation/sites/) modules and from using the [Global Replace]({{ site.baseurl }}/documentation/modes/) tool. In order to control data quality, these users are also required to select a value from an existing lookup list for many fields, e.g. *Institution Code*.
 
 ### IP Importer
 
