@@ -14,21 +14,23 @@ The following documentation was created for the LACMIP Type Collection Renovatio
 Type specimens, or "types", are the physical, name-bearing vouchers for new species, genera, etc. They are therefore retained in a specially designated "type collection" so researchers can reexamine them to assess their taxonomic validity. Therefore, types are some museum's most intellectually valuable specimens and must be handled with extreme care.
 
 Before accessing any specimens in the type collection, please review the following rules:
-- **Always ask for help when moving specimen trays**. They may be much heavier than they appear. 
-- **Open drawers slowly and cautiously.** Be aware that these cabinets _do not_ have drawer stoppers. In other words, if you pull to hard, the drawer may fall out. As a precaution, always pull out the drawer immediately below the one you wish to access about halfway; it will act as an emergency "stopper" should you pull out the upper tray too far.
-- **Immediately alert the Collections Manager if specimens are damaged or disassociated from their labels.**
-- Work with one specimen lot (box) at a time.
-- Never move specimens or labels between boxes.
-- Do not reorganize the boxes within their drawers unless directed to do so.
-- All type specimens must be returned to their appropriate drawer(s)/cabinet(s) at the end of your shift.
-- No food or drink (except water) is allowed in the type room, and please keep water away from specimens and equipment at all times.
-- Please do not invite visitors into the type collection without consent from the Collections Manager or Curator.
-- The type room is shared between Invertebrate Paleontology and Malacology. This is a communal workspace that should be kept tidy at all times.
-- Always ask questions when you are unsure what to do!
+ *!* | *Before accessing specimens in the type collection, review the following:*
+   --- | ---
+   1 | **Always ask for help when moving specimen trays**. They may be much heavier than they appear. 
+   2 | **Open drawers slowly and cautiously.** Be aware that these cabinets _do not_ have drawer stoppers. In other words, if you pull to hard, the drawer may fall out. As a precaution, always pull out the drawer immediately below the one you wish to access about halfway; it will act as an emergency "stopper" should you pull out the upper tray too far.
+   3 | **Immediately alert the Collections Manager if specimens are damaged or disassociated from their labels.**
+   4 | Work with one specimen lot (box) at a time.
+   5 | Never move specimens or labels between boxes.
+   6 | Do not reorganize the boxes within their drawers unless directed to do so.
+   7 | All type specimens must be returned to their appropriate drawer(s)/cabinet(s) at the end of your shift.
+   8 | No food or drink (except water) is allowed in the type room, and please keep water away from specimens and equipment at all times.
+   9 | Please do not invite visitors into the type collection without consent from the Collections Manager or Curator.
+   10 | The type room is shared between Invertebrate Paleontology and Malacology. This is a communal workspace that should be kept tidy at all times.
+   11 | Always ask questions when you are unsure what to do!
 
 ## What is "taxonomy"?
 
-In the biological sense, taxonomy refers to the classification of organisms. While you will not be entering or editing specimen identifications or taxonomy, taxonomic classificiation forms the foundation upon which the type collection was created and organized. Please familiarize yourself with the basic concepts of taxonomy and binomial nomenclature by reviewing [this article](https://www.digitalatlasofancientlife.org/learn/systematics/taxonomy/) and/or the following video.
+In the biological sense, taxonomy refers to the identification and interpretation of organisms within natural groups. While you will not be entering or editing specimen identifications or taxonomy in EMu, taxonomy forms the foundation upon which the type collection is organized, and it is therefore important that you familiarize yourself with the basic concepts of taxonomy and binomial nomenclature by reviewing [this article](https://www.digitalatlasofancientlife.org/learn/systematics/taxonomy/) and/or the following video. The ICNZ also provides helpful [definitions](https://www.iczn.org/outreach/faqs/#faq-1).
 {% include video id="12XO8vYqBsA" provider="youtube" %}
 
 ## QC/Editing vs. Cataloging
