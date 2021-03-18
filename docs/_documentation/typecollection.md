@@ -233,8 +233,8 @@ There are both institutional locality and catalogue numbers. **Only catalogue nu
 | CIT              | On label in box               | verify with staff |   
 | CSUN             | Red dot                       | ⛔locality | [example]({{ site.baseurl }}/assets/images/imls_numbers_csunlocality.jpg) |
 | USGS             | On label in box               | verify with staff |
-| SDSU             | Red (painted)                 | ⛔locality, may look similar to type # | [example]({{ site.baseurl }}/assets/images/imls_numbers_sdsulocality.tif) |
-| LACMIP           | White paint, black ink        | ⛔ likely locality | [example]({{ site.baseurl }}/assets/images/imls_numbers_lacmiplocality.tif) |
+| SDSU             | Red (painted)                 | ⛔locality, may look similar to type # | [example]({{ site.baseurl }}/assets/images/imls_numbers_sdsulocality.jpg) |
+| LACMIP           | White paint, black ink        | ⛔ likely locality | [example]({{ site.baseurl }}/assets/images/imls_numbers_lacmiplocality.jpg) |
 | Collector Number | Unique                        | verify with staff | [example]({{ site.baseurl }}/assets/images/imls_numbers_collectornumber.jpg) | 
 
 If you are unsure what a number represents, take a photo of it and send it to collections staff in the Google Chat or via email.
