@@ -73,7 +73,7 @@ For each type specimen, assess the information on its catalog record according t
    *Lot Count* | Verify the number of specimens in the lot that have the same type number. In the type collection, this value is **typically "1"**, but occasionally there will be more than one fossil (or piece of fossil) with the same type number; in either case, update the lot count to reflect the true number of specimens. Refer to the [guidelines for counting]({{ site.baseurl }}/documentation/digitizing/#counting) and ask for help if you're still unsure. Do not count synthetic objects, like rubber peels, that may also be in the box.
    *Disposition* | Verify the physical state of the specimen lot. For the vast majority of lots, you will verify that they are in the collection by choosing **"in collection"**. However, if you encounter an empty box, a specimen may be "missing" or "on loan", and *Disposition* should be updated accordingly. **If the specimen is missing**, transcribe any relevant notes you find in the box into *Lot Remarks*, [for example]({{ site.baseurl }}/assets/images/catalogue_missing.png), "G.S., 9/1971, Missing". Likewise, **if the specimen is on loan**, transcribe any relevant information at your disposal into *Lot Remarks* in [this format]({{ site.baseurl }}/assets/images/catalogue_loan.png): "On loan to [name], [affiliation] (YYYY-MM-DD) (email)". Ask the collections staff if the correct disposition is not readily apparent.
    *P/CP* | Refers to "part" (P) and counterpart" (CP) and is typically used for compression fossils and concretions. If both parts (halves) are present, check this box and make sure *Lot Count* is updated accordingly.
-   *Alternative Numbers* | <img src="{{ site.baseurl }}/assets/images/catalogue_alternativenumbers.png" alt="" width="500"/>{: .align-center} Record [legacy catalog numbers]({{ site.baseurl }}/assets/images/catalogue_alternativenumbersexample.jpg) assigned by another institution or the collector in this table. ***Inst. Code*** typically refers to an institution, like "UCLA", "CIT", or "CSUN". Use the lookup list button when entering an *Inst Code* to validate your entry. If you are trying to add a new institution code, please ask for assistance. Occasionally, the number might be a collector number. In that case, enter "collector number" in this field. ***Inst. Number*** can either refer to a number assigned by an institution (such as UCLA) or a collector (such as W. D. Pierce). In the case of a collector, the number should be formatted as capitalized name and number (e.g. "PIERCE 32a"). *Do not record old locality numbers in this table*, which are typically found on circular stickers in the type collection.
+   *Alternative Numbers* | <img src="{{ site.baseurl }}/assets/images/catalogue_alternativenumbers.png" alt="" width="500"/>{: .align-center} Record [legacy catalog numbers]({{ site.baseurl }}/assets/images/catalogue_alternativenumbersexample.jpg) assigned by another institution or the collector in this table. ***Inst. Code*** typically refers to an institution, like "UCLA", "CIT", or "CSUN". Use the lookup list button when entering an *Inst Code* to validate your entry. If you are trying to add a new institution code, please ask for assistance. Occasionally, the number might be a collector number. In that case, enter "collector number" in this field. ***Inst. Number*** can either refer to a number assigned by an institution (such as UCLA) or a collector (such as W. D. Pierce). In the case of a collector, the number should be formatted as capitalized name and number (e.g. "PIERCE 32a"). *Do not record old locality numbers in this table*, which are typically found on circular stickers in the type collection. Use the [number keys appendix]({{ site.baseurl }}/documentation/modes/#numbers-keys) to guide you.
 
 {% include figure image_path="/assets/images/catalogue_alternativenumbersexample.jpg" alt="Example of an old catalog number to be entered in *Alternative Numbers*" caption="Example of an old catalog number to be entered in *Alternative Numbers*. In general, UCLA catalog numbers will look very similar to the one illustrated above (i.e. handwritten on a white rectangular label and adhered to the specimen)." %}
 
@@ -163,7 +163,7 @@ To update locations for multiple records at once:
 Location history cannot be deleted. It is therefore very important that you take care when selecting records to be batch relocated.
 {: .notice--warning}
 
-# Appendix
+# Appendices
 
 ## Gathering literature
 
@@ -215,16 +215,24 @@ New files added to the *Type Publications* folder should be formatted as follows
 > Valentich-Scott, P., Powell, C., L., Lorenson, T. D. & Edwards, B. E. (2014) A new genus and species of Thyasiridae (Mollusca, Bivalvia) from deep-water, Beaufort Sea, northern Alaska.pdf
 
 
-## Catalog v. Locality numbers
+## Number keys
+
+### Type numbers
+
+Colorized numbers typically represent LACMIP Type Numbers:
+
+| *Type* | Color | 
+| ---------------- | ------ |
+| Holotype/Syntype | Red    | [example]({{ site.baseurl }}/assets/images/imls_numbers_typered.jpg) | 
+| Paratype         | Yellow | [example]({{ site.baseurl }}/assets/images/imls_numbers_typeyellow.jpg) |
+| Hypotype/Figured | Blue   | [example]({{ site.baseurl }}/assets/images/imls_numbers_typeblue.jpg) |
+
+
+### Alternative numbers
 
 {% include figure image_path="/assets/images/catalogue_alternativenumbers.png" alt="screenshot of the Alternative Numbers table in the Catalogue module" caption="Screenshot of the Alternative Numbers table in the Catalogue module." %}
 
 Identifiers used by institutions/collections that previously owned specimens in the LACMIP collections are recorded in the *Alternative Numbers* table. Only specimen numbers, **not locality numbers**, should be added to this table. (Old locality numbers are recorded elsewhere.) Use this guide to help you determine if a number should be added to this table.
-
-There are both institutional locality and catalogue numbers. **Only catalogue numbers are added to the Indentification tab**. To verify that you have the correct number is by opening the locality record attached to the catalog record (clicking the blue button next to the `Locality` field). If you see your number under the `Institution Number` nested table, you have a locality number. 
-
-
-### Frequently encountered numbers
 
 | *Inst. Code* | Label Type | Record in *Inst. Number*? |
 | - | - | - |
@@ -238,16 +246,7 @@ There are both institutional locality and catalogue numbers. **Only catalogue nu
 | LACMIP           | white paint                   | ⛔ likely locality | [example]({{ site.baseurl }}/assets/images/imls_numbers_lacmiplocality.jpg) |
 | **Collector Number** | **various/unique**        | ✔️sample | [example]({{ site.baseurl }}/assets/images/imls_numbers_collectornumber.jpg) | 
 
+One way to check whether a number is an old locality number is by clicking the blue button next to the *Locality*. If your number appears in the *Institution Number* table, you have a locality number. In that case, do not record it in *Alternative Numbers*.
+
 If you are unsure what a number represents, take a photo of it and send it to collections staff in the Google Chat or via email.
 {: .notice--warning}
-
-### Type numbers
-
-Type specimens in the collection will either have painted numbers or typed labels with font colors correspondig to the kind of type specimen it is. Below is reference to the three colors of type numbers in the collection.
-
-| *Type* | Color | 
-| ---------------- | ------ |
-| Holotype/Syntype | Red    | [example]({{ site.baseurl }}/assets/images/imls_numbers_typered.jpg) | 
-| Paratype         | Yellow | [example]({{ site.baseurl }}/assets/images/imls_numbers_typeyellow.jpg) |
-| Hypotype/Figured | Blue   | [example]({{ site.baseurl }}/assets/images/imls_numbers_typeblue.jpg) |
-
