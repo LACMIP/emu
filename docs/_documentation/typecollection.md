@@ -45,7 +45,7 @@ The workflow used to edit and quality control (QC) type specimen records is outl
 
 ## I. Search for a specimen
 
-Search for type specimens using their LACMIP type numbers. These numbers are always labelled on specimens in bright red, yellow, or blue paint (_never_ white paint or stickers). If you are unsure whether a number represents a type number, consult the collections staff.
+Search for type specimens using their LACMIP type numbers. These numbers are always labelled on specimens in bright red, yellow, or blue paint (_never_ white paint or stickers). If you are unsure whether a number represents a type number, consult [these keys]({{ site.baseurl }}/documentation/typecollection/#number-keys).
 
 {% include figure image_path="/assets/images/catalogue_LACMIPtypeno.png" alt="example LACMIP Type No." caption="LACMIP type numbers are indicated by bright red, yellow, or blue paint. Red = holotypes, syntypes, lectotypes; Yellow = paratypes, paralectotypes; Blue = hypotypes (figured or unfigured specimens)." %}
 
@@ -55,7 +55,7 @@ Search for type specimens using their LACMIP type numbers. These numbers are alw
    --- | ---
    1 | In *LACMIP Type No.*, enter the type number. 
    2 | Select the binoculars icon to execute the query.
-   3 | If no records are returned using *LACMIP Type No.*, but the catalog number is indicated on an old specimen label in the box, use it to search for the specimen in *Cat. No.*. In [this example](https://lacmip.github.io/emu/assets/images/cataloging_edits.jpg), you would search for "23225.291" or "31458.1".
+   3 | If no records are returned using *LACMIP Type No.*, but the catalog number is indicated on an old specimen label in the box, use it to search for the specimen in *Cat. No.* In [this example](https://lacmip.github.io/emu/assets/images/cataloging_edits.jpg), you would search for "23225.291" or "31458.1".
    4 | If no records are returned and you are certain there were no typos in your searches, ask the collections staff for help.
 
 Once you get comfortable with EMu, tips on searching for records can be found [here]({{ site.baseurl }}/documentation/modes/#search-mode).
@@ -234,7 +234,7 @@ Colorized numbers typically represent LACMIP Type Numbers:
 
 Identifiers used by institutions/collections that previously owned specimens in the LACMIP collections are recorded in the *Alternative Numbers* table. Only specimen numbers, **not locality numbers**, should be added to this table. (Old locality numbers are recorded elsewhere.) Use this guide to help you determine if a number should be added to this table.
 
-| *Inst. Code* | Label Type | Record in *Inst. Number*? |
+| Institution | Label Style | Record in *Alternative Numbers* table? |
 | - | - | - |
 | **UCLA**         | **white rectangle**           | ✔️**catalog** | [example]({{ site.baseurl }}/assets/images/imls_numbers_uclacatalog.jpg) |
 | **CIT**          | **check label in box**        | ✔️**catalog** |   
@@ -242,7 +242,7 @@ Identifiers used by institutions/collections that previously owned specimens in 
 | CIT              | gold dot                      | ⛔locality | [example]({{ site.baseurl }}/assets/images/imls_numbers_citlocality.jpg) |
 | CSUN             | red dot                       | ⛔locality | [example]({{ site.baseurl }}/assets/images/imls_numbers_csunlocality.jpg) |
 | LACMIP           | white paint                   | ⛔locality | [example]({{ site.baseurl }}/assets/images/imls_numbers_lacmiplocality.jpg) |
-| SDSU             | red paint                     | ⛔locality but looks like type # | [example]({{ site.baseurl }}/assets/images/imls_numbers_sdsulocality.jpg) |
+| SDSU             | red paint                     | ⛔locality, looks like type# | [example]({{ site.baseurl }}/assets/images/imls_numbers_sdsulocality.jpg) |
 | UCLA             | green dot                     | ⛔locality | [example]({{ site.baseurl }}/assets/images/imls_numbers_uclalocality.jpg) |
 | USGS             | check label in box            | ❓uncommon, verify with staff |
 
