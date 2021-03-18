@@ -215,7 +215,7 @@ New files added to the *Type Publications* folder should be formatted as follows
 > Valentich-Scott, P., Powell, C., L., Lorenson, T. D. & Edwards, B. E. (2014) A new genus and species of Thyasiridae (Mollusca, Bivalvia) from deep-water, Beaufort Sea, northern Alaska.pdf
 
 
-## Disambiguating Alternative Numbers
+## Catalog v. Locality numbers
 
 {% include figure image_path="/assets/images/catalogue_alternativenumbers.png" alt="screenshot of the Alternative Numbers table in the Catalogue module" caption="Screenshot of the Alternative Numbers table in the Catalogue module." %}
 
@@ -223,54 +223,31 @@ Identifiers used by institutions/collections that previously owned specimens in 
 
 There are both institutional locality and catalogue numbers. **Only catalogue numbers are added to the Indentification tab**. To verify that you have the correct number is by opening the locality record attached to the catalog record (clicking the blue button next to the `Locality` field). If you see your number under the `Institution Number` nested table, you have a locality number. 
 
-#### Frequently encountered numbers
+
+### Frequently encountered numbers
 
 | *Inst. Code* | Label Type | Record in *Inst. Number*? |
 | - | - | - |
-| UCLA             | Green dot                     | ⛔locality | [example]({{ site.baseurl }}/assets/images/imls_numbers_uclalocality.jpg) |
-| UCLA             | White rectangle + handwritten | ✔️ catalog | [example]({{ site.baseurl }}/assets/images/imls_numbers_uclacatalog.jpg) |
-| CIT              | Gold dot                      | ⛔locality | [example]({{ site.baseurl }}/assets/images/imls_numbers_citlocality.jpg) |
-| CIT              | On label in box               | verify with staff |   
-| CSUN             | Red dot                       | ⛔locality | [example]({{ site.baseurl }}/assets/images/imls_numbers_csunlocality.jpg) |
-| USGS             | On label in box               | verify with staff |
-| SDSU             | Red (painted)                 | ⛔locality, may look similar to type # | [example]({{ site.baseurl }}/assets/images/imls_numbers_sdsulocality.jpg) |
-| LACMIP           | White paint, black ink        | ⛔ likely locality | [example]({{ site.baseurl }}/assets/images/imls_numbers_lacmiplocality.jpg) |
-| Collector Number | Unique                        | verify with staff | [example]({{ site.baseurl }}/assets/images/imls_numbers_collectornumber.jpg) | 
+| UCLA             | green dot                     | ⛔locality | [example]({{ site.baseurl }}/assets/images/imls_numbers_uclalocality.jpg) |
+| **UCLA**         | **White rectangle**           | ✔️catalog | [example]({{ site.baseurl }}/assets/images/imls_numbers_uclacatalog.jpg) |
+| CIT              | gold dot                      | ⛔locality | [example]({{ site.baseurl }}/assets/images/imls_numbers_citlocality.jpg) |
+| **CIT**          | **read label in box**         | ✔️catalog |   
+| CSUN             | red dot                       | ⛔locality | [example]({{ site.baseurl }}/assets/images/imls_numbers_csunlocality.jpg) |
+| USGS             | read label in box             | ❓verify with staff |
+| SDSU             | red paint                     | ⛔locality, looks like type # | [example]({{ site.baseurl }}/assets/images/imls_numbers_sdsulocality.jpg) |
+| LACMIP           | white paint                   | ⛔ likely locality | [example]({{ site.baseurl }}/assets/images/imls_numbers_lacmiplocality.jpg) |
+| **Collector Number** | **various/unique**        | ✔️sample | [example]({{ site.baseurl }}/assets/images/imls_numbers_collectornumber.jpg) | 
 
 If you are unsure what a number represents, take a photo of it and send it to collections staff in the Google Chat or via email.
 {: .notice--warning}
 
-##### UCLA
-
-<ins>Institution catalogue number</ins>: The institution catalogue number will be written on a **white rectangular** label glued onto the specimen. 
-
-<ins>Institution locality number</ins>: found on a circular **green** sticker on specimen. 
-
-<img src="https://lh6.googleusercontent.com/-5BBn2wceTEZzl_aDvQa2pmIL6Ak27rn41O2ZNIoYJMrlbx5PQ1R7FjQEGzgH8qM9TWkCicd9p3BuwoNqpORuB8q7IWpnejfHdgSnfcenVtpKr_2AOwYdmzdJq7qBdruqdawK5xK" width="400"/> <img src="https://lh6.googleusercontent.com/3OBzjamYzWe22sbhoSnQuEgI8vPXsoYusZIvIyV1B69YC6XJKF_AOMDwFTRiVgyk3Bo9xPT29fAOC-kQKG6IMkETYf7r2aGSXGDFJvIFkgfoN7UVdwTbJSGPXa1FGGnQo4cyOaLQ" alt="photo of specimen label with UCLA locality number" width="200"/>
-
-
-
-##### CIT
-
-<ins>Institution catalogue number</ins>: typically CIT specimens do not have an associated CIT catalogue number. 
-
-<ins>Institution locality number</ins>: found on a circular **gold** sticker on specimen. 
-
-<img src="https://lh4.googleusercontent.com/e1-bZp2MdcMll3pBBELgRSyfRMc-r8amGX3AXZ0IH3fyIgFz1abz0AAgnXmJKDtWZJj3CSH5sclnZmXL4xxsvrAowKKEBl1T-LltMpvXenCheW2kTu62ck3xiGhKIYWvln-k_k9P" width="300"/>
-
-##### CSUN
-
-<ins>Institution catalogue number</ins>: typically CSUN specimens do not have an associated CSUN catalogue number. 
-
-<ins>Institution locality number</ins>: found on a circular **gold** sticker on specimen. 
-
-### Type color codes
+### Type numbers
 
 Type specimens in the collection will either have painted numbers or typed labels with font colors correspondig to the kind of type specimen it is. Below is reference to the three colors of type numbers in the collection.
 
-| Type             | Color  |
+| *Type* | Color | 
 | ---------------- | ------ |
-| Holotype/Syntype | Red    |
-| Paratype         | Yellow |
-| Hypotype/Figured | Blue   |
+| Holotype/Syntype | Red    | [example]({{ site.baseurl }}/assets/images/imls_numbers_typered.jpg) | 
+| Paratype         | Yellow | [example]({{ site.baseurl }}/assets/images/imls_numbers_typeyellow.jpg) |
+| Hypotype/Figured | Blue   | [example]({{ site.baseurl }}/assets/images/imls_numbers_typeblue.jpg) |
 
