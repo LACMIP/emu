@@ -2,7 +2,7 @@
 title: Type Collection
 navcat: Workflows
 tags: cataloging
-last_modified_at: 2021-03-16
+last_modified_at: 2021-03-18
 ---
 
 This documentation was created for the IP & Malacology Type Collection Renovation & Digitization project supported by [IMLS # MA-30-18-0335-18](https://www.imls.gov/grants/awarded/ma-30-18-0335-18-0), 2019-2021.
@@ -149,16 +149,19 @@ To update locations for multiple records at once:
     2 | On the search form, navigate to the Admin tab.
     3 | Enter your name in *Modified By* and the date in *Modification Date*. Execute the search.
     4 | Review the results in List view.
-    5 | Hold shift to select all records from the same drawer. ⚠️ **Critical:** Make sure you're *only* selecting lot that came from the *same drawer*.
+    5 | Hold shift to select all records from the same drawer. ⚠️**Critical: Make sure you're only selecting lots that came from the same drawer.**
     6 | Navigate: *Tools > Relocate > Selected Records*
     7 | In the Location Update window, click on the green ➕ to open the Locations module.
     8 | In the Locations module, enter "Type Room" in *Level 3*.
-    9 | In the Locations module, use the lookup list buttons for *Level 4* and *Level 5* to enter the cabinet and drawer. [(Example.)](({{ site.baseurl }}/assets/images/catalogue_locationupdate_example1.png)
-    10 | Execute the search and open the returned record to verify the correct one was retrieved.
-    11 | Attach the Locations record to the Location Update window by selecting the green ➕.
-    12 | In the Location Update window, attach your Parties record to *Requested By*, *Released By*, and *Accepted By*. If it's not already selected, enter the date in *Date Moved*. [(Example.)](({{ site.baseurl }}/assets/images/catalogue_locationupdate_example2.png)
+    9 | In the Locations module, use the lookup list buttons for *Level 4* and *Level 5* to enter the cabinet and drawer. [(Example.)]({{ site.baseurl }}/assets/images/catalogue_locationupdate_example1.png)
+    10 | Execute the search and open the record to verify the correct one was returned.
+    11 | Attach this record to the Location Update window by selecting the green ➕.
+    12 | In the Location Update window, attach your Parties record to *Requested By*, *Released By*, and *Accepted By* and enter the date in *Date Moved*. [(Example.)]({{ site.baseurl }}/assets/images/catalogue_locationupdate_example2.png)
     13 | Select update.
     14 | Review the updated records to check for errors.
+    
+Location history cannot be deleted. It is therefore very important that you relocate specimens to their correct physical locations.
+{: .notice--warning}
 
 # Appendix
 
