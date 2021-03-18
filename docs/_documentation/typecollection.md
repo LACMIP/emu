@@ -77,7 +77,7 @@ For each type specimen, assess the information on its catalog record according t
 
 {% include figure image_path="/assets/images/catalogue_alternativenumbersexample.jpg" alt="Example of an old catalog number to be entered in *Alternative Numbers*" caption="Example of an old catalog number to be entered in *Alternative Numbers*. In general, UCLA catalog numbers will look very similar to the one illustrated above (i.e. handwritten on a white rectangular label and adhered to the specimen)." %}
 
-If you are unsure how to record a number, take a quick photo of the specimen (with the number visible), as well as any relevant specimen labels, and send them to the IP collections staff in Google chat.
+If you are unsure how to record a number, take a quick photo of the specimen (with the number visible), as well as any relevant specimen labels, and send them to the IP collections staff in Google Chat.
 {: .notice--warning}
 
  *Field* | *On the Invert. Paleo. tab...*
@@ -97,7 +97,7 @@ Specimens are designated as types if they are cited in publications, and this in
 
  *Field* | *In the IP Publications table...*
    --- | ---
-    *Publication* | **If a publication is already listed in the table**, verify the information in the *Pages*, *Fig.*, and *Type* fields using a copy of the book or paper. LACMIP maintains a collection of reprints for this purpose. **If a publication is missing from the *IP Publications* table**, it needs to be attached using the Bibliography module. To do so, search for the publication by typing in a few key words from its title or one or a few lastnames from the author list and press tab or select the green ➕ button. If an entry for this publication already exists in the Bibliography module, it may automatically attach itself to the row. Verify that the correct record was retrieved. It is also possible that you will be presented with several options. In this case, [locate the correct record]({{ site.baseurl }}/assets/images/bibliography_ippublications.png) and attach it to *Publications* using the green ➕ button. If you are certain the correct Bibliography record does not exists yet, you will need to create a new one. **To create a new Bibliography record,** consult the documentation for the [Bibliography module]({{ site.baseurl }}/documentation/bibliography/).
+    *Publication* | **If a publication is already listed in the table**, verify the information in the *Pages*, *Fig.*, and *Type* fields using a copy of the book or paper. LACMIP maintains a collection of reprints for this purpose. If you need to search for a digital copy, please [consult the appendix]({{ site.baseurl }}/documentation/typecollection/#gathering-literature) **If a publication is missing from the *IP Publications* table**, it needs to be attached using the Bibliography module. To do so, search for the publication by typing in a few key words from its title or one or a few lastnames from the author list and press tab or select the green ➕ button. If an entry for this publication already exists in the Bibliography module, it may automatically attach itself to the row. Verify that the correct record was retrieved. It is also possible that you will be presented with several options. In this case, [locate the correct record]({{ site.baseurl }}/assets/images/bibliography_ippublications.png) and attach it to *Publications* using the green ➕ button. If you are certain the correct Bibliography record does not exists yet, you will need to create a new one. **To create a new Bibliography record,** consult the documentation for the [Bibliography module]({{ site.baseurl }}/documentation/bibliography/).
 
 If you need to create a new Bibliography record, search for an existing one from the same journal and use it as a template for the new record using ditto. The [gathering literature]({{ site.baseurl }}/documentation/bibliography/#gathering-literature) section of the appendix outlines where and how to add digital literature to the LACMIP reprint library. 
 {: .notice--warning}
@@ -153,21 +153,21 @@ To update locations for multiple records at once:
     6 | Navigate: *Tools > Relocate > Selected Records*
     7 | In the Location Update window, click on the green ➕ to open the Locations module.
     8 | In the Locations module, enter "Type Room" in *Level 3*.
-    9 | In the Locations module, use the lookup list buttons for *Level 4* and *Level 5* to enter the cabinet and drawer. [(Example.)]({{ site.baseurl }}/assets/images/catalogue_locationupdate_example1.png)
+    9 | In the Locations module, use the lookup list buttons for *Level 4* and *Level 5* to enter the cabinet and drawer. [(Example.)]({{ site.baseurl }}/assets/images/catalogue_locationupdate_typeexample1.png)
     10 | Execute the search and open the record to verify the correct one was returned.
     11 | Attach this record to the Location Update window by selecting the green ➕.
-    12 | In the Location Update window, attach your Parties record to *Requested By*, *Released By*, and *Accepted By* and enter the date in *Date Moved*. [(Example.)]({{ site.baseurl }}/assets/images/catalogue_locationupdate_example2.png)
-    13 | Select update.
+    12 | In the Location Update window, attach your Parties record to *Requested By*, *Released By*, and *Accepted By* and enter the date in *Date Moved*. [(Example.)]({{ site.baseurl }}/assets/images/catalogue_locationupdate_typeexample2.png)
+    13 | Select *Update*.
     14 | Review the updated records to check for errors.
     
-Location history cannot be deleted. It is therefore very important that you relocate specimens to their correct physical locations.
+Location history cannot be deleted. It is therefore very important that you take care when selecting records to be batch relocated.
 {: .notice--warning}
 
 # Appendix
 
 ## Gathering literature
 
-### Finding publications
+### Find the publication
 
 When searching for digital publications it can be useful to check the resources listed below. They are listed from more general purpose to more specific:
 
@@ -179,12 +179,14 @@ When searching for digital publications it can be useful to check the resources 
 
 4. [PBDB](https://paleobiodb.org/#/)
 
+If you cannot readily find the publication you're looking for, send the collections staff a request via Google Chat.
+
 ### Add PDFs to Google Drive
 
 If you download a type publication, please add it to the LACMIP digital reprint library:
- - *Google Drive > LACMIP Shared Drive > IMLS > [Type Publications](https://drive.google.com/drive/folders/1Ej6RF7llwTXr4qvrzZv9XuWY222T1Ahy?usp=sharing) 
+ - *Google Drive > LACMIP Shared Drive > IMLS > [Type Publications](https://drive.google.com/drive/folders/1Ej6RF7llwTXr4qvrzZv9XuWY222T1Ahy?usp=sharing)* 
 
-If you do not have access to the linked Google Drive directory, please request it.
+If you don't have access to the linked Google Drive directory, please request it.
 {: .notice--warning}
 
 ### Format PDF filenames
