@@ -234,7 +234,7 @@ Identifiers used by institutions/collections that previously owned specimens in 
 | *Inst. Code.* | Marker Style | Record in *Alt. Numbers*? |
 | - | - | - |
 | **UCLA**         | **white rectangle**           | ✔️**YES** | [example]({{ site.baseurl }}/assets/images/imls_numbers_uclacatalog.jpg) |
-| **CIT**          | **check label/box**           | ✔️**YES** |   
+| **CIT**          | **check label/box**           | ✔️**YES** | [example]({{ site.baseurl }}/assets/images/imls_numbers_citcatalog.jpg) |   
 | **collector number** | **various/unique**        | ✔️**YES** | [example]({{ site.baseurl }}/assets/images/imls_numbers_collectornumber.jpg) |
 | CIT              | gold dot                      | ⛔locality | [example]({{ site.baseurl }}/assets/images/imls_numbers_citlocality.jpg) |
 | CSUN             | red dot                       | ⛔locality | [example]({{ site.baseurl }}/assets/images/imls_numbers_csunlocality.jpg) |
