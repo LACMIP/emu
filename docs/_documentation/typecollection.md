@@ -91,11 +91,13 @@ If you are unsure how to record a number, take a quick photo of the specimen (wi
     
 ## III. Verify publication history
 
-{% include figure image_path="/assets/images/catalogue_ippublications.png" alt="screenshot of the Invert. Paleo. tab's search form in the Catalogue module" caption="Screenshot highlighting the *IP Publications* table on the Invert. Paleo. tab." %}
+{% include figure image_path="/assets/images/catalogue_ippublications.png" alt="screenshot of the Invert. Paleo. tab's search form in the Catalogue module" caption="Screenshot highlighting the *IP Publications* table on the Invert. Paleo. tab. More rows in this table will become visible if you stretch the window, as in the image above." %}
 
-Specimens from the LACMIP collections are designated as types when they are cited in publications, and we track this information in the *IP Publications* table. Comprehensive documentation for adding and editing information in this table is available under the explanation for the [Invert. Paleo. tab]({{ site.baseurl }}/documentation/catalogue/#invert-paleo-tab) (follow the link and scroll down to *IP Publications*).
+Specimens from the LACMIP collections are designated as types when they are cited in publications, and we track this information in the *IP Publications* table. Comprehensive documentation for adding and editing information to the fields (columns) in this table is available under the explanation for the [Invert. Paleo. tab]({{ site.baseurl }}/documentation/catalogue/#invert-paleo-tab) (follow the link and scroll down to *IP Publications*).
 
-If a publication is not listed in the *IP Publications* table, it will need to be attached from the Bibliography module. To do so, search for the publication by typing in a few key words from the title and one or last names from the author list and press tab.
+ *Field* | *On the Invert. Paleo. tab's IP Publications table...*
+   --- | ---
+    *Publication* | **If a publication is already listed in the table**, verify the information in the *Pages*, *Fig.*, and *Type* fields using digital or physical copy of the literature. LACMIP maintains a collection of reprints for this purpose, which can be accessed from Austin's office. **If a publication is not listed in the *IP Publications* table**, it will need to be attached using the Bibliography module. To do so, search for the publication by typing in a few key words from its title and/or one or a few last names from the author list and press tab or select the green ➕ button. If an entry for this publication already exists in the Bibliography module, it may automatically attach itself to the row. Verify that the correct record was retrieved. It is also possible that you will be presented with several options. [Locate the correct record]({{ site.baseurl }}/assets/images/bibliography_ippublications.png) and attach it to *Publications* using the green ➕ button.
 
 If the publication is not found, search the [Bibliography module]({{ site.baseurl }}/documentation/bibliography/) to be sure it does not exist. The search form in the Bibliography module functions the same way as the search form in the Catalogue module.  
 
