@@ -148,40 +148,47 @@ To update locations for multiple records at once:
     1 | Navigate to the search form (*File > New Search*). 
     2 | On the search form, navigate to the Admin tab.
     3 | Enter your name in *Modified By* and the date in *Modification Date*. Execute the search.
-    4 | Review the recalled records and **make sure the correct ones were returned**!
-    5 | In List view, hold shift and select all records from the same drawer.
+    4 | Review the results in List view.
+    5 | Hold shift to select all records from the same drawer. ⚠️ **Critical:** Make sure you're *only* selecting lot that came from the *same drawer*.
     6 | Navigate: *Tools > Relocate > Selected Records*
     7 | In the Location Update window, click on the green ➕ to open the Locations module.
     8 | In the Locations module, enter "Type Room" in *Level 3*.
-    9 | In the Locations module, use the lookup list buttons for *Level 4* and *Level 5* to enter the cabinet and drawer.
+    9 | In the Locations module, use the lookup list buttons for *Level 4* and *Level 5* to enter the cabinet and drawer. [(Example.)](({{ site.baseurl }}/assets/images/catalogue_locationupdate_example1.png)
     10 | Execute the search and open the returned record to verify the correct one was retrieved.
     11 | Attach the Locations record to the Location Update window by selecting the green ➕.
-    12 | In the Location Update window, attach your Parties record to *Requested By*, *Released By*, and *Accepted By*. If it's not already selected, enter the date in *Date Moved*.
+    12 | In the Location Update window, attach your Parties record to *Requested By*, *Released By*, and *Accepted By*. If it's not already selected, enter the date in *Date Moved*. [(Example.)](({{ site.baseurl }}/assets/images/catalogue_locationupdate_example2.png)
     13 | Select update.
-    
-To update locations for one record at a time (if needed):
-
-Locations for each specimen are recorded in EMu based on which cabinet and drawer they reside in.
-
-![screenshot of the location tab in the catalogue module](https://lacmip.github.io/emu/assets/images/catalogue_location.png)
-
-1. `Current`  : type in `Cabinet [#] Drawer [#]` of the cabinet, drawer pair and press 'Tab' or the blue arrow to populate the field. 
-   - If nothing populated, ask Daniel for help.
-2. `Authorized By:` : type in `Daniel Markbreiter` and the blue arrow/tab.
-3. `Moved By` : enter your full name and the blue arrow/tab.
-4. `Inventoried  : enter your full name and the blue arrow/tab.
+    14 | Review the updated records to check for errors.
 
 # Appendix
 
 ## Gathering literature
 
-### Adding PDFs to Google Drive
+### Finding publications
 
-If a PDF of the publication is available for download, please include it in the [Type Publications](https://drive.google.com/drive/folders/1Ej6RF7llwTXr4qvrzZv9XuWY222T1Ahy?usp=sharing) directory of the `IMLS` Google Drive. If you do not have access to the linked Google Drive directory, please request access. 
+When searching for digital publications it can be useful to check the resources listed below. They are listed from more general purpose to more specific:
 
-### Formatting PDF filenames
+1. [Google Scholar](https://scholar.google.com/)
 
-It is imperative that PDF filenames conform to the convention applied to the other PDF files in the `Type Publications` directory. These PDFs will eventually be uploaded as multimedia attachments to their associated EMu record in the Bibliography module. Incorrect formatting can cause errors when they are uploaded. 
+2. [IMLS Type Publications folder](https://drive.google.com/drive/folders/1Ej6RF7llwTXr4qvrzZv9XuWY222T1Ahy?usp=sharing)
+
+3. [Biodiversity Heritage Library](https://www.biodiversitylibrary.org/)
+
+4. [PBDB](https://paleobiodb.org/#/)
+
+### Add PDFs to Google Drive
+
+If you download a type publication, please add it to the LACMIP digital reprint library:
+ - *Google Drive > LACMIP Shared Drive > IMLS > [Type Publications](https://drive.google.com/drive/folders/1Ej6RF7llwTXr4qvrzZv9XuWY222T1Ahy?usp=sharing) 
+
+If you do not have access to the linked Google Drive directory, please request it.
+{: .notice--warning}
+
+### Format PDF filenames
+
+It is imperative that PDF filenames conform to the convention applied to the other PDF files in the *Type Publications* directory. These PDFs will eventually be uploaded as multimedia attachments to their associated EMu record in the Bibliography module. Incorrect formatting can cause errors when they are uploaded.
+
+New files added to the *Type Publications* folder should be formatted as follows:
 
 **Single author**
 ```
@@ -201,18 +208,6 @@ It is imperative that PDF filenames conform to the convention applied to the oth
 ```
 **Example**:
 > Valentich-Scott, P., Powell, C., L., Lorenson, T. D. & Edwards, B. E. (2014) A new genus and species of Thyasiridae (Mollusca, Bivalvia) from deep-water, Beaufort Sea, northern Alaska.pdf
-
-### Finding publications
-
-Addind publications to a type catalogue record is the most critical part of cataloging for the IMLS project. When searching or publications it can be useful to check the resources listed below. They are listed from more general purpose to more specific:
-
-1. [Google Scholar](https://scholar.google.com/)
-
-2. [IMLS Type Publications folder](https://drive.google.com/drive/folders/1Ej6RF7llwTXr4qvrzZv9XuWY222T1Ahy?usp=sharing)
-
-3. [Biodiversity Heritage Library](https://www.biodiversitylibrary.org/)
-
-4. [PBDB](https://paleobiodb.org/#/)
 
 
 ## Institutional Numbers
