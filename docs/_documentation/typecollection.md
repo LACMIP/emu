@@ -93,13 +93,13 @@ If you are unsure how to record a number, take a quick photo of the specimen (wi
 
 {% include figure image_path="/assets/images/catalogue_ippublications.png" alt="screenshot of the Invert. Paleo. tab's search form in the Catalogue module" caption="Screenshot highlighting the *IP Publications* table on the Invert. Paleo. tab. More rows in this table will become visible if you stretch the window, as in the image above." %}
 
-Specimens from the LACMIP collections are designated as types when they are cited in publications, and we track this information in the *IP Publications* table. Comprehensive documentation for editing information to the fields (columns) in this table is available under the explanation for the [Invert. Paleo. tab]({{ site.baseurl }}/documentation/catalogue/#invert-paleo-tab) (follow the link and scroll down to *IP Publications*).
+Specimens are designated as types if they are cited in publications, and this information is tracked in the *IP Publications* table.
 
  *Field* | *In the IP Publications table...*
    --- | ---
     *Publication* | **If a publication is already listed in the table**, verify the information in the *Pages*, *Fig.*, and *Type* fields using a copy of the book or paper. LACMIP maintains a collection of reprints for this purpose. **If a publication is missing from the *IP Publications* table**, it needs to be attached using the Bibliography module. To do so, search for the publication by typing in a few key words from its title or one or a few lastnames from the author list and press tab or select the green ➕ button. If an entry for this publication already exists in the Bibliography module, it may automatically attach itself to the row. Verify that the correct record was retrieved. It is also possible that you will be presented with several options. In this case, [locate the correct record]({{ site.baseurl }}/assets/images/bibliography_ippublications.png) and attach it to *Publications* using the green ➕ button. If you are certain the correct Bibliography record does not exists yet, you will need to create a new one. **To create a new Bibliography record,** consult the documentation for the [Bibliography module]({{ site.baseurl }}/documentation/bibliography/).
 
-TIP: If you need to create a new Bibliography record, search for an existing one from the same journal and use it as a template for the new record using ditto.
+If you need to create a new Bibliography record, search for an existing one from the same journal and use it as a template for the new record using ditto. The [gathering literature]({{ site.baseurl }}/documentation/bibliography/#gathering-literature) section of the appendix outlines where and how to add digital literature to the LACMIP reprint library. 
 {: .notice--warning}
 
  *Field* | *In the IP Publications table...*
@@ -118,7 +118,7 @@ More on how LACMIP types are cited, and the history of our specimen numbers, can
 
 {% include figure image_path="/assets/images/catalogue_relationships.png" alt="screenshot of the Relationships tab in the Catalogue module" caption="Screenshot of the Relationships tab in the Catalogue module. Records for specimens that are physically stuck together, but are cataloged separately, need to be associated using this tab." %}
 
-Occasionally, you will encounter specimens that are physically stuck together but cataloged separately (they should also have different type numbers) . In this case, their respective catalog records need to be associated using the Relationships tab. The general workflow for using the Relationships tab can be found [here]({{ site.baseurl }}/documentation/cataloging/#relationships-tab)
+Occasionally, you will encounter specimens that are physically stuck together but cataloged separately (they should also have different type numbers). In this case, their respective catalog records need to be associated using the Relationships tab. The general workflow for using the Relationships tab can be found [here]({{ site.baseurl }}/documentation/cataloging/#relationships-tab)
 
 This same workflow is also demonstrated in this video:
 {% include video id="417827299" provider="vimeo" %}
@@ -143,57 +143,17 @@ This tab is intended for specimens that will require special attention by the vo
 
 1. `Condition Status` : choose 'The object is fragile and requires treatment' if specimen is oversized and will require a special mount.
 
-## Bibliography
+# Appendix
 
-Using the Bibliography module is typically only required when a catalogue record needs an additional entry to the `Publication` nested table. The easiest way to enter the Bibliography module to accomplish this is by clicking the plus sign button to the very right of the table. 
-
-This IMLS bibliography workflow was adapted from the [Bibliography](https://lacmip.github.io/emu/documentation/bibliography/) page of the LACMIP EMu Handbook. Please consult this reference for an expanded explanation of the module. 
-
-### Creating Bibliography records
-
-This tab is where the bulk of the bibliographic information will need to be recorded. Please refer to the [Bibliography](https://lacmip.github.io/emu/documentation/bibliography/) page of the LACMIP EMu Handbook for a detailed list of fields and their definitions. 
-
-**Below is list of required fields:**
-
-If journal article: 
-
-- `Title`
-- `Journal`
-
-If book: 
-
-- `Book Title`
-
-For all publication types: 
-
-- `Author`
-- `Pages` 
-- `Year`
-
-**Below is a list of required fields, if information is available**:
-
-- `Year Letter`
-- `Volume`
-- `Publ. No.`
-- `Series`
-- `Editor`
-- `DOI`
-
-### Attaching a bibliography record
-
-After a record is completed, click the `Attach to record` button (see below) in the top right of the application window in the tool bar. 
-
-![image-20210314132842902](/Users/macbook/Library/Application Support/typora-user-images/image-20210314132842902.png)
-
-Once attached, the bibliography record should show as an entry in the `Publication` table. 
+## Gathering literature
 
 ### Adding PDFs to Google Drive
 
-If a PDF of the publication is available for download, please include it in the [Type Publications](https://drive.google.com/drive/folders/1Ej6RF7llwTXr4qvrzZv9XuWY222T1Ahy?usp=sharing) directory of the `IMLS` Google Drive. If you do not have access to the linked Google Drive directory, please ask for access. 
+If a PDF of the publication is available for download, please include it in the [Type Publications](https://drive.google.com/drive/folders/1Ej6RF7llwTXr4qvrzZv9XuWY222T1Ahy?usp=sharing) directory of the `IMLS` Google Drive. If you do not have access to the linked Google Drive directory, please request access. 
 
-#### Formatting PDF filenames
+### Formatting PDF filenames
 
-It is imperative that PDF filenames conform to the convention applied to the other PDF files in the `Type Publications` directory. These PDFs will eventually be uploaded as multimedia attachments to their associated EMu record. Incorrect formatting can cause errors when they are uploaded. 
+It is imperative that PDF filenames conform to the convention applied to the other PDF files in the `Type Publications` directory. These PDFs will eventually be uploaded as multimedia attachments to their associated EMu record in the Bibliography module. Incorrect formatting can cause errors when they are uploaded. 
 
 **Single author**
 ```
@@ -214,9 +174,20 @@ It is imperative that PDF filenames conform to the convention applied to the oth
 **Example**:
 > Valentich-Scott, P., Powell, C., L., Lorenson, T. D. & Edwards, B. E. (2014) A new genus and species of Thyasiridae (Mollusca, Bivalvia) from deep-water, Beaufort Sea, northern Alaska.pdf
 
-## Appendix
+### Finding publications
 
-### Institutional Numbers
+Addind publications to a type catalogue record is the most critical part of cataloging for the IMLS project. When searching or publications it can be useful to check the resources listed below. They are listed from more general purpose to more specific:
+
+1. [Google Scholar](https://scholar.google.com/)
+
+2. [IMLS Type Publications folder](https://drive.google.com/drive/folders/1Ej6RF7llwTXr4qvrzZv9XuWY222T1Ahy?usp=sharing)
+
+3. [Biodiversity Heritage Library](https://www.biodiversitylibrary.org/)
+
+4. [PBDB](https://paleobiodb.org/#/)
+
+
+## Institutional Numbers
 
 Institutional numbers are the old identifiers used by previous institutions/collections. They are added in the `Identification` tab in the `Invert Paleo` tab. 
 
@@ -267,14 +238,3 @@ Type specimens in the collection will either have painted numbers or typed label
 | Paratype         | Yellow |
 | Hypotype/Figured | Blue   |
 
-### Finding publications
-
-Addind publications to a type catalogue record is the most critical part of cataloging for the IMLS project. When searching or publications it can be useful to check the resources listed below. They are listed in the order of general purpose to more specific. 
-
-1. [Google Scholar](https://scholar.google.com/)
-
-2. [IMLS Type Publications folder](https://drive.google.com/drive/folders/1Ej6RF7llwTXr4qvrzZv9XuWY222T1Ahy?usp=sharing)
-
-3. [Biodiversity Heritage Library](https://www.biodiversitylibrary.org/)
-
-4. [PBDB](https://paleobiodb.org/#/)
