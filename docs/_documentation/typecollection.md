@@ -2,10 +2,10 @@
 title: Type Collection
 navcat: Workflows
 tags: cataloging
-last_modified_at: 2021-03-15
+last_modified_at: 2021-03-16
 ---
 
-The following documentation was created for the Invertebrate Paleontology & Malacology Type Collection Renovation & Digitization project supported by [IMLS Log # MA-30-18-0335-18](https://www.imls.gov/grants/awarded/ma-30-18-0335-18-0), 2019-2021.
+This documentation was created for the Invertebrate Paleontology & Malacology Type Collection Renovation & Digitization project supported by [IMLS # MA-30-18-0335-18](https://www.imls.gov/grants/awarded/ma-30-18-0335-18-0), 2019-2021.
 
 # Introduction
 
@@ -93,64 +93,37 @@ If you are unsure how to record a number, take a quick photo of the specimen (wi
 
 {% include figure image_path="/assets/images/catalogue_ippublications.png" alt="screenshot of the Invert. Paleo. tab's search form in the Catalogue module" caption="Screenshot highlighting the *IP Publications* table on the Invert. Paleo. tab. More rows in this table will become visible if you stretch the window, as in the image above." %}
 
-Specimens from the LACMIP collections are designated as types when they are cited in publications, and we track this information in the *IP Publications* table. Comprehensive documentation for adding and editing information to the fields (columns) in this table is available under the explanation for the [Invert. Paleo. tab]({{ site.baseurl }}/documentation/catalogue/#invert-paleo-tab) (follow the link and scroll down to *IP Publications*).
+Specimens from the LACMIP collections are designated as types when they are cited in publications, and we track this information in the *IP Publications* table. Comprehensive documentation for editing information to the fields (columns) in this table is available under the explanation for the [Invert. Paleo. tab]({{ site.baseurl }}/documentation/catalogue/#invert-paleo-tab) (follow the link and scroll down to *IP Publications*).
 
- *Field* | *On the Invert. Paleo. tab's IP Publications table...*
+ *Field* | *In the IP Publications table...*
    --- | ---
-    *Publication* | **If a publication is already listed in the table**, verify the information in the *Pages*, *Fig.*, and *Type* fields using digital or physical copy of the literature. LACMIP maintains a collection of reprints for this purpose, which can be accessed from Austin's office. **If a publication is not listed in the *IP Publications* table**, it will need to be attached using the Bibliography module. To do so, search for the publication by typing in a few key words from its title and/or one or a few last names from the author list and press tab or select the green ➕ button. If an entry for this publication already exists in the Bibliography module, it may automatically attach itself to the row. Verify that the correct record was retrieved. It is also possible that you will be presented with several options. [Locate the correct record]({{ site.baseurl }}/assets/images/bibliography_ippublications.png) and attach it to *Publications* using the green ➕ button.
-
-If the publication is not found, search the [Bibliography module]({{ site.baseurl }}/documentation/bibliography/) to be sure it does not exist. The search form in the Bibliography module functions the same way as the search form in the Catalogue module.  
+    *Publication* | **If a publication is already listed in the table**, verify the information in the *Pages*, *Fig.*, and *Type* fields using a copy of the book or paper. LACMIP maintains a collection of reprints for this purpose. **If a publication is missing from the *IP Publications* table**, it needs to be attached using the Bibliography module. To do so, search for the publication by typing in a few key words from its title or one or a few lastnames from the author list and press tab or select the green ➕ button. If an entry for this publication already exists in the Bibliography module, it may automatically attach itself to the row. Verify that the correct record was retrieved. It is also possible that you will be presented with several options. In this case, [locate the correct record]({{ site.baseurl }}/assets/images/bibliography_ippublications.png) and attach it to *Publications* using the green ➕ button. If you are certain the correct Bibliography record does not exists yet, you will need to create a new one. **To create a new Bibliography record,** consult the documentation for the [Bibliography module]({{ site.baseurl }}/documentation/bibliography/).
 
 TIP: If you need to create a new Bibliography record, search for an existing one from the same journal and use it as a template for the new record using ditto.
 {: .notice--warning}
 
+ *Field* | *In the IP Publications table...*
+   --- | ---
+    *Pages* | Enter the page number(s) where the specimen is described. Do not enter "p.", "pg.", etc. before the number(s).
+    *Fig* | Enter the plate and figure number(s) separated by a colon. For example: "pl. 1: fig. 1-3". If a specimen is figured on multiple plates, separate these entries with a semicolon. For example, "pl. 1: fig. 1-5; pl. 4: fig. 3b, 3c". If the figure is unnumbered, enter "fig. unnumbered". If the specimen is unfigured, enter "unfigured".
+    *Type* | Indicate what kind of type the specimen is according to the publication. For specimens cited in theses, dissertations, and historic manuscripts, enter "Unpublished". The first letter should be uppercase, e.g. "Holotype".
 
-More on how LACMIP types are cited, and the history of our specimen numbers, can be found [here]({{ site.baseurl }}/documentation/citing/).
+Publications in this table should be listed chronologically with the **oldest (first) publication** appearing **in the top row**. If needed, click and drag to reorder these entries. You may wish to print this [formatting cheatsheet]({{ site.baseurl }}/assets/images/catalogue_ippublicationsformatting.png) for values in *Page* and *Fig*.
 {: .notice--warning}
-    
-    *IP Publications* | <img src="{{ site.baseurl }}/assets/images/catalogue_IPpublications.png" alt="" width="500"/>{: .align-center} Refer to the explanation for [IP Publications]({{ site.baseurl }}/documentation/catalogue/#invert-paleo-tab) for the most updated, authoritative information on how to complete this table. If a new Bibliography record needs to be attached or created, consult the [Bibliography](#bibliography) workflow. 
 
+More on how LACMIP types are cited, and the history of our specimen numbers, can be found [here]({{ site.baseurl }}/documentation/citing/). The workflow used to do this can be found here.
+{: .notice--warning}
 
+## IV. Relate associated specimens
 
-`Pages, Fig. & Type` : data about where a specimen waas described in the cited paper. 
-    - `Pages` : format with only the page number. Do not enter `p.`, `pg.`, ect. 
-    - `Fig` : Enter the plate and/or figure number(s) seperated by a colon. See following examples: 
-      + Specimen not figured: `unfigured`
-      + Only plate: `pl. 3`
-      + Only figure: `fig. 1`
-      + Figure with range: `fig. 1A-B`
-      + Multiple figures: `fig. 1, 3, 5-7`
-      + Plate and only one figure: `pl. 3: fig. 15`
-      + Plate and range of figures: `pl. 3: fig 9-15`
-      + Plate and sequence of figures listed: `pl. 3: fig. 7, 12, 24`
-      + Multiple plates: `pl. 3: fig. 7, 12, 24; pl.4: fig.8`
-    - `Type`: open text field for kind of type 
-      + Capitalize first letter
+{% include figure image_path="/assets/images/catalogue_relationships.png" alt="screenshot of the Relationships tab in the Catalogue module" caption="Screenshot of the Relationships tab in the Catalogue module. Records for specimens that are physically stuck together, but are cataloged separately, need to be associated using this tab." %}
 
+Occasionally, you will encounter specimens that are physically stuck together but cataloged separately (they should also have different type numbers) . In this case, their respective catalog records need to be associated using the Relationships tab. The general workflow for using the Relationships tab can be found [here]({{ site.baseurl }}/documentation/cataloging/#relationships-tab)
 
-### Identification (1) tab
-Below is an example of when the taxon of a specimen in known and needs to be entered. This only needs to be done if the genus nad species listed on a type specimen's record is not already entered in the `Identification List` nested table. 
+This same workflow is also demonstrated in this video:
+{% include video id="417827299" provider="vimeo" %}
 
-If attempting to add a taxon to a catalog record, please ask for guidance.
-
-A complete overview of the fields in the [Identification (1) tab](https://lacmip.github.io/emu/documentation/catalogue/#identification-1-tab) exists on the LACMIP EMu Handbook under the Catalogue page. Below are the fields that will be primairly used for cataloging type records. 
-
-![img](https://lh6.googleusercontent.com/Zj6wDB0ph_2twEn60XdpzgmXW9Cura8lZfiNF_qElfNGgeisZIwrM1zcEzebOrewdLHg7xcmOunvI3SKP4CMde0Oi5S7wL-rjr3l4wtTacL3aEfVS7vawcGHLQS5rbFdYGBulYhi)
-
-1. `Taxon` : attached record from the Taxonomy module that is currently selected from `Identification List`. 
-    - If known, type the genus and species into and box and search for the taxon by clicking the blue button.
-    - If the correct taxon is not available add the following text to the `Comments` open text box:
-    > originally identified as [taxon]; taxonomy for this name does not exist in EMu (yet)
-    >
-2. `Identified By` : lookup list of full name(s) of person(s) who made this identification. 
-    - Should only be filled out if label or publication explicitly states who identified (not collected) specimen. 
-    - Generally formatted as `[first initial]. [surname]` though occasionally as `[first name] [surname]`. 
-    - `Date Identified` : should only be filled out if date for identification is provided. Can be as granular as a day or a year. 
-    - `Identification List` : tabel displaying the different taxa associated with a specimen
-      + `Filed As` and `Currently Accepted` are radio buttons that take special meaning for type records. If attaching a new taxonomy, please consult collection manager for guidance. 
-      + `*` : Clicking this button will add a new row in the nested table so more taxon records can be added. 
-
-### Location tab
+## V. (Re)Locate specimens
 
 Locations for each specimen are recorded in EMu based on which cabinet and drawer they reside in. 
 
