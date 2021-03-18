@@ -69,7 +69,7 @@ For each type specimen, assess the information on its catalog record according t
 
  *Field* | *On the Invert. Paleo. tab...*
    --- | ---
-   *Locality* & *Cat. No.* | Verify that the LACMIP locality and catalog numbers listed on the catalog record match the locality number painted on the specimen in white paint, as well as what's on the specimen's old label(s) in its box. (Reminder: This is what a [locality number]({{ site.baseurl }}/assets/images/catalogue_localitynumbers.jpg) looks like and this is what a [catalog number]{{ site.baseurl }}/assets/images/cataloging_edits.jpg) looks like.) You may need to open the corresponding Sites record to compare (use the blue arrow to open it). While mismatches are uncommon, immediately alert the collections staff if you find one.
+   *Locality* & *Cat. No.* | Verify that the LACMIP locality and catalog numbers listed on the catalog record match the locality number painted on the specimen in white paint, as well as what's on the specimen's old label(s) in its box. (Reminder: This is what a [locality number]({{ site.baseurl }}/assets/images/catalogue_localitynumbers.jpg) looks like and this is what a [catalog number]({{ site.baseurl }}/assets/images/cataloging_edits.jpg) looks like.) You may need to open the corresponding Sites record to compare (use the blue arrow to open it). While mismatches are uncommon, immediately alert the collections staff if you find one.
    *Lot Count* | Verify the number of specimens in the lot that have the same type number. In the type collection, this value is **typically "1"**, but occasionally there will be more than one fossil (or piece of fossil) with the same type number; in either case, update the lot count to reflect the true number of specimens. Refer to the [guidelines for counting]({{ site.baseurl }}/documentation/digitizing/#counting) and ask for help if you're still unsure. Do not count synthetic objects, like rubber peels, that may also be in the box.
    *Disposition* | Verify the physical state of the specimen lot. For the vast majority of lots, you will verify that they are in the collection by choosing **"in collection"**. However, if you encounter an empty box, a specimen may be "missing" or "on loan", and *Disposition* should be updated accordingly. **If the specimen is missing**, transcribe any relevant notes you find in the box into *Lot Remarks*, [for example]({{ site.baseurl }}/assets/images/catalogue_missing.png), "G.S., 9/1971, Missing". Likewise, **if the specimen is on loan**, transcribe any relevant information at your disposal into *Lot Remarks* in [this format]({{ site.baseurl }}/assets/images/catalogue_loan.png): "On loan to [name], [affiliation] (YYYY-MM-DD) (email)". Ask the collections staff if the correct disposition is not readily apparent.
    *P/CP* | Refers to "part" (P) and counterpart" (CP) and is typically used for compression fossils and concretions. If both parts (halves) are present, check this box and make sure *Lot Count* is updated accordingly.
@@ -215,22 +215,30 @@ New files added to the *Type Publications* folder should be formatted as follows
 > Valentich-Scott, P., Powell, C., L., Lorenson, T. D. & Edwards, B. E. (2014) A new genus and species of Thyasiridae (Mollusca, Bivalvia) from deep-water, Beaufort Sea, northern Alaska.pdf
 
 
-## Institutional Numbers
+## Disambiguating Alternative Numbers
 
-Institutional numbers are the old identifiers used by previous institutions/collections. They are added in the `Identification` tab in the `Invert Paleo` tab. 
+{% include figure image_path="/assets/images/catalogue_alternativenumbers.png" alt="screenshot of the Alternative Numbers table in the Catalogue module" caption="Screenshot of the Alternative Numbers table in the Catalogue module." %}
+
+Identifiers used by institutions/collections that previously owned specimens in the LACMIP collections are recorded in the *Alternative Numbers* table. Only specimen numbers, **not locality numbers**, should be added to this table. (Old locality numbers are recorded elsewhere.) Use this guide to help you determine if a number should be added to this table.
 
 There are both institutional locality and catalogue numbers. **Only catalogue numbers are added to the Indentification tab**. To verify that you have the correct number is by opening the locality record attached to the catalog record (clicking the blue button next to the `Locality` field). If you see your number under the `Institution Number` nested table, you have a locality number. 
 
-#### Frequently encountered institution numbers
+#### Frequently encountered numbers
 
-| Institution Code | Locality sticker color | Catalogue sticker               |
-| ---------------- | ---------------------- | ------------------------------- |
-| UCLA             | Green                  | White rectangular handwritten sticker |
-| CIT              | Gold                   | -                               |
-| CSUN             | Red                    | -                               |
-| USGS             | -                      | On label                        |
-| SDSU             | Red (painted)          | -                             |
-| Collector Number | Unique | Unique |
+| *Inst. Code* | Label Type | Record in *Inst. Number*? |
+| - | - | - |
+| UCLA             | Green dot                     | ⛔locality | [example]({{ site.baseurl }}/assets/images/imls_numbers_uclalocality.jpg) |
+| UCLA             | White rectangle + handwritten | ✔️ catalog | [example]({{ site.baseurl }}/assets/images/imls_numbers_uclacatalog.jpg) |
+| CIT              | Gold dot                      | ⛔locality | [example]({{ site.baseurl }}/assets/images/imls_numbers_citlocality.jpg) |
+| CIT              | On label in box               | verify with staff |   
+| CSUN             | Red dot                       | ⛔locality | [example]({{ site.baseurl }}/assets/images/imls_numbers_csunlocality.jpg) |
+| USGS             | On label in box               | verify with staff |
+| SDSU             | Red (painted)                 | ⛔locality, may look similar to type # | [example]({{ site.baseurl }}/assets/images/imls_numbers_sdsulocality.tif) |
+| LACMIP           | White paint, black ink        | ⛔ likely locality | [example]({{ site.baseurl }}/assets/images/imls_numbers_lacmiplocality.tif) |
+| Collector Number | Unique                        | verify with staff | [example]({{ site.baseurl }}/assets/images/imls_numbers_collectornumber.jpg) | 
+
+If you are unsure what a number represents, take a photo of it and send it to collections staff in the Google Chat or via email.
+{: .notice--warning}
 
 ##### UCLA
 
