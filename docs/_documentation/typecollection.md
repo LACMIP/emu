@@ -39,7 +39,7 @@ Before editing any catalog records for type specimens, please *thoroughly* revie
 **Interns and volunteers will rarely catalog specimens in the type collection**. As a point of diambiguation, true "cataloging" refers to the creation of _new_ catalog records and is only needed when new types are received from researchers. This should only be done with guidance from the Collections Manager. LACMIP maintains a separate workflow for [cataloging]({{ site.baseurl }}/documentation/cataloging/).
 {: .notice--warning}
 
-# Type Collection Workflow
+# Type Collection QC Workflow
 
 The workflow used to edit and quality control (QC) type specimen records is outlined below. To enlarge screenshots, right click and open them in a new tab or window.
 
