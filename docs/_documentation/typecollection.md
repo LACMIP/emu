@@ -111,23 +111,21 @@ If you need to create a new Bibliography record, search for an existing one from
 Publications in this table should be listed chronologically with the **oldest (first) publication** appearing **in the top row**. If needed, click and drag to reorder these entries. You may wish to print this [formatting cheatsheet]({{ site.baseurl }}/assets/images/catalogue_ippublicationsformatting.png) for values in *Page* and *Fig*.
 {: .notice--warning}
 
-More on how LACMIP types are cited, and the history of our specimen numbers, can be found [here]({{ site.baseurl }}/documentation/citing/). The workflow used to do this can be found here.
+More on how LACMIP types are cited and the history of these numbers can be found [here]({{ site.baseurl }}/documentation/citing/).
 {: .notice--warning}
 
 ## IV. Relate associated specimens
 
 {% include figure image_path="/assets/images/catalogue_relationships.png" alt="screenshot of the Relationships tab in the Catalogue module" caption="Screenshot of the Relationships tab in the Catalogue module. Records for specimens that are physically stuck together, but are cataloged separately, need to be associated using this tab." %}
 
-Occasionally, you will encounter specimens that are physically stuck together but cataloged separately (they should also have different type numbers). In this case, their respective catalog records need to be associated using the Relationships tab. The general workflow for using the Relationships tab can be found [here]({{ site.baseurl }}/documentation/cataloging/#relationships-tab)
-
-This same workflow is also demonstrated in this video:
+Occasionally, you will encounter specimens that are physically stuck together but cataloged separately (they should also have different type numbers). In this case, their respective catalog records need to be associated using the Relationships tab. The general workflow for using the Relationships tab can be found [here]({{ site.baseurl }}/documentation/cataloging/#relationships-tab). This workflow is also demonstrated in this video:
 {% include video id="417827299" provider="vimeo" %}
 
 ## V. Note oversized specimens 
 
 {% include figure image_path="/assets/images/catalogue_condition.png" alt="screenshot of the Condition tab in the Catalogue module" caption="Screenshot of the Condition tab in the Catalogue module." %}
 
-If a specimen is oversized (i.e. does not fit in one of our standard box sizes) and will require a special mount for rehousing, complete the following fields on the Condition tab:
+Some specimens do not fit in one of our standard box sizes, so it's considered "oversized". In this situation, a special mount/box will need to be created for it at a later time. Please indicate this information by completing the following fields on the Condition tab:
 
 *Field* | *On the Condition tab...*
    --- | ---
@@ -229,10 +227,9 @@ Colorized numbers typically represent LACMIP Type Numbers:
 
 
 ### Alternative numbers
+Identifiers used by institutions/collections that previously owned specimens in the LACMIP collections are recorded in the *Alternative Numbers* table. Only specimen numbers, **not locality numbers**, should be added to this table. (Old locality numbers are recorded elsewhere.) Use this guide to help you determine if a number should be added to this table.
 
 {% include figure image_path="/assets/images/catalogue_alternativenumbers.png" alt="screenshot of the Alternative Numbers table in the Catalogue module" caption="Screenshot of the Alternative Numbers table in the Catalogue module." %}
-
-Identifiers used by institutions/collections that previously owned specimens in the LACMIP collections are recorded in the *Alternative Numbers* table. Only specimen numbers, **not locality numbers**, should be added to this table. (Old locality numbers are recorded elsewhere.) Use this guide to help you determine if a number should be added to this table.
 
 | *Inst. Code.* | Marker Style | Record in *Alternative Numbers* table? |
 | - | - | - |
@@ -248,5 +245,5 @@ Identifiers used by institutions/collections that previously owned specimens in 
 
 One way to check whether a number is an old locality number is by clicking the blue arrow button next to the *Locality*. If your number appears in the *Institution Number* table, you have a locality number. In that case, do not record it in *Alternative Numbers*.
 
-If you are unsure what a number represents, take a photo of it and send it to collections staff in the Google Chat or via email.
+If you're not sure what a number represents, take a photo of it and send it to collections staff in the Google Chat or via email.
 {: .notice--warning}
