@@ -234,19 +234,19 @@ Colorized numbers typically represent LACMIP Type Numbers:
 
 Identifiers used by institutions/collections that previously owned specimens in the LACMIP collections are recorded in the *Alternative Numbers* table. Only specimen numbers, **not locality numbers**, should be added to this table. (Old locality numbers are recorded elsewhere.) Use this guide to help you determine if a number should be added to this table.
 
-| Institution | Label Style | Record in *Alternative Numbers* table? |
+| *Inst. Code.* | Marker Style | Record in *Alternative Numbers* table? |
 | - | - | - |
-| **UCLA**         | **white rectangle**           | ✔️**catalog** | [example]({{ site.baseurl }}/assets/images/imls_numbers_uclacatalog.jpg) |
-| **CIT**          | **check label in box**        | ✔️**catalog** |   
-| **Collector Number** | **various/unique**        | ✔️**sample** | [example]({{ site.baseurl }}/assets/images/imls_numbers_collectornumber.jpg) |
+| **UCLA**         | **white rectangle**           | ✔️**YES** | [example]({{ site.baseurl }}/assets/images/imls_numbers_uclacatalog.jpg) |
+| **CIT**          | **check label/box**           | ✔️**YES** |   
+| **collector number** | **various/unique**        | ✔️**YES** | [example]({{ site.baseurl }}/assets/images/imls_numbers_collectornumber.jpg) |
 | CIT              | gold dot                      | ⛔locality | [example]({{ site.baseurl }}/assets/images/imls_numbers_citlocality.jpg) |
 | CSUN             | red dot                       | ⛔locality | [example]({{ site.baseurl }}/assets/images/imls_numbers_csunlocality.jpg) |
 | LACMIP           | white paint                   | ⛔locality | [example]({{ site.baseurl }}/assets/images/imls_numbers_lacmiplocality.jpg) |
-| SDSU             | red paint                     | ⛔locality, looks like type# | [example]({{ site.baseurl }}/assets/images/imls_numbers_sdsulocality.jpg) |
+| SDSU             | red paint                     | ⛔locality, looks like type # | [example]({{ site.baseurl }}/assets/images/imls_numbers_sdsulocality.jpg) |
 | UCLA             | green dot                     | ⛔locality | [example]({{ site.baseurl }}/assets/images/imls_numbers_uclalocality.jpg) |
-| USGS             | check label in box            | ❓uncommon, verify with staff |
+| USGS             | check label/box               | ❓maybe, verify with staff |
 
-One way to check whether a number is an old locality number is by clicking the blue button next to the *Locality*. If your number appears in the *Institution Number* table, you have a locality number. In that case, do not record it in *Alternative Numbers*.
+One way to check whether a number is an old locality number is by clicking the blue arrow button next to the *Locality*. If your number appears in the *Institution Number* table, you have a locality number. In that case, do not record it in *Alternative Numbers*.
 
 If you are unsure what a number represents, take a photo of it and send it to collections staff in the Google Chat or via email.
 {: .notice--warning}
