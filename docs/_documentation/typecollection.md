@@ -231,7 +231,7 @@ Identifiers used by institutions/collections that previously owned specimens in 
 
 {% include figure image_path="/assets/images/catalogue_alternativenumbers.png" alt="screenshot of the Alternative Numbers table in the Catalogue module" caption="Screenshot of the Alternative Numbers table in the Catalogue module." %}
 
-| *Inst. Code.* | Marker Style | Record in *Alternative Numbers* table? |
+| *Inst. Code.* | Marker Style | Record in *Alt. Numbers* table? |
 | - | - | - |
 | **UCLA**         | **white rectangle**           | ✔️**YES** | [example]({{ site.baseurl }}/assets/images/imls_numbers_uclacatalog.jpg) |
 | **CIT**          | **check label/box**           | ✔️**YES** |   
