@@ -123,11 +123,11 @@ Occasionally, you will encounter specimens that are physically stuck together bu
 This same workflow is also demonstrated in this video:
 {% include video id="417827299" provider="vimeo" %}
 
-## V. Annoate conservation issues
+## V. Note oversized specimens 
 
 {% include figure image_path="/assets/images/catalogue_condition.png" alt="screenshot of the Condition tab in the Catalogue module" caption="Screenshot of the Condition tab in the Catalogue module." %}
 
-If a specimen is oversized and will require a special mount for rehousing, complete the following fields on the Condition tab:
+If a specimen is oversized (i.e. does not fit in one of our standard box sizes) and will require a special mount for rehousing, complete the following fields on the Condition tab:
 
 *Field* | *On the Condition tab...*
    --- | ---
@@ -135,9 +135,32 @@ If a specimen is oversized and will require a special mount for rehousing, compl
     *Date Checked* | Select today's date.
     *Checked By* | Attach your Parties record. 
 
-## VI. (Re)Locate specimens
+## VI. Locate specimens
 
-Locations for each specimen are recorded in EMu based on which cabinet and drawer they reside in. 
+The final step is to assign (or reassign) the physical location data to specimen lots.
+
+On any given day, you'll likely be working in specimens in only one or two drawers. At the end of your shift (or if you finish working in a drawer mid-shift), you'll need to update the physical location data for all the lots you worked on.
+
+To update locations for multiple records at once:
+*Step* | *In the Catalogue module...*
+   --- | ---
+    1 | Navigate to the search form (*File > New Search*). 
+    2 | On the search form, navigate to the Admin tab.
+    3 | Enter your name in *Modified By* and the date in *Modification Date*. Execute the search.
+    4 | Review the recalled records and **make sure the correct ones were returned**!
+    5 | In List view, hold shift and select all records from the same drawer.
+    6 | Navigate: *Tools > Relocate > Selected Records*
+    7 | In the Location Update window, click on the green ➕ to open the Locations module.
+    8 | In the Locations module, enter "Type Room" in *Level 3*.
+    9 | In the Locations module, use the lookup list buttons for *Level 4* and *Level 5* to enter the cabinet and drawer.
+    10 | Execute the search and open the returned record to verify the correct one was retrieved.
+    11 | Attach the Locations record to the Location Update window by selecting the green ➕.
+    12 | In the Location Update window, attach your Parties record to *Requested By*, *Released By*, and *Accepted By*. If it's not already selected, enter the date in *Date Moved*.
+    13 | Select update.
+    
+To update locations for one record at a time (if needed):
+
+Locations for each specimen are recorded in EMu based on which cabinet and drawer they reside in.
 
 ![screenshot of the location tab in the catalogue module](https://lacmip.github.io/emu/assets/images/catalogue_location.png)
 
