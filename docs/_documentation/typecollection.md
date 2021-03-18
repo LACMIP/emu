@@ -123,7 +123,19 @@ Occasionally, you will encounter specimens that are physically stuck together bu
 This same workflow is also demonstrated in this video:
 {% include video id="417827299" provider="vimeo" %}
 
-## V. (Re)Locate specimens
+## V. Annoate conservation issues
+
+{% include figure image_path="/assets/images/catalogue_conservation.png" alt="screenshot of the Conservation tab in the Catalogue module" caption="Screenshot of the Conservation tab in the Catalogue module." %}
+
+If a specimen is oversized and will require a special mount for rehousing, complete the following fields on the Condition tab:
+
+*Field* | *On the Conservation tab...*
+   --- | ---
+    *Condition Status* | Select "The object is fragile and requires treatment."
+    *Date Checked* | Select today's date.
+    *Checked By* | Attach your Parties record. 
+
+## VI. (Re)Locate specimens
 
 Locations for each specimen are recorded in EMu based on which cabinet and drawer they reside in. 
 
@@ -134,14 +146,6 @@ Locations for each specimen are recorded in EMu based on which cabinet and drawe
 2. `Authorized By:` : type in `Daniel Markbreiter` and the blue arrow/tab.
 3. `Moved By` : enter your full name and the blue arrow/tab.
 4. `Inventoried  : enter your full name and the blue arrow/tab.
-
-### Condition tab
-
-![img](https://lh6.googleusercontent.com/9X6hV6Bu6yNbNpZbhlw3UIqKtoMqmTv7_7ldYMCIMctmYVf8HDAWDf9BSiOMD5xv2Q_1d7lBQDYPluJF_KbcljgANzJ98n-7gtW9qH_PpW6pUpnLqQTutWKAkWQS6hyn1O8xb5kP)
-
-This tab is intended for specimens that will require special attention by the volunteers who rehouse the type specimens. 
-
-1. `Condition Status` : choose 'The object is fragile and requires treatment' if specimen is oversized and will require a special mount.
 
 # Appendix
 
