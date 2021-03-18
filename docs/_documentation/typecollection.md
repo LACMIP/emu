@@ -5,7 +5,7 @@ tags: cataloging
 last_modified_at: 2021-03-16
 ---
 
-This documentation was created for the Invertebrate Paleontology & Malacology Type Collection Renovation & Digitization project supported by [IMLS # MA-30-18-0335-18](https://www.imls.gov/grants/awarded/ma-30-18-0335-18-0), 2019-2021.
+This documentation was created for the IP & Malacology Type Collection Renovation & Digitization project supported by [IMLS # MA-30-18-0335-18](https://www.imls.gov/grants/awarded/ma-30-18-0335-18-0), 2019-2021.
 
 # Introduction
 
