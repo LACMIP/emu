@@ -236,15 +236,15 @@ Identifiers used by institutions/collections that previously owned specimens in 
 
 | *Inst. Code* | Label Type | Record in *Inst. Number*? |
 | - | - | - |
-| UCLA             | green dot                     | ⛔locality | [example]({{ site.baseurl }}/assets/images/imls_numbers_uclalocality.jpg) |
-| **UCLA**         | **White rectangle**           | ✔️catalog | [example]({{ site.baseurl }}/assets/images/imls_numbers_uclacatalog.jpg) |
+| **UCLA**         | **white rectangle**           | ✔️**catalog** | [example]({{ site.baseurl }}/assets/images/imls_numbers_uclacatalog.jpg) |
+| **CIT**          | **check label in box**        | ✔️**catalog** |   
+| **Collector Number** | **various/unique**        | ✔️**sample** | [example]({{ site.baseurl }}/assets/images/imls_numbers_collectornumber.jpg) |
 | CIT              | gold dot                      | ⛔locality | [example]({{ site.baseurl }}/assets/images/imls_numbers_citlocality.jpg) |
-| **CIT**          | **read label in box**         | ✔️catalog |   
 | CSUN             | red dot                       | ⛔locality | [example]({{ site.baseurl }}/assets/images/imls_numbers_csunlocality.jpg) |
-| USGS             | read label in box             | ❓verify with staff |
-| SDSU             | red paint                     | ⛔locality, looks like type # | [example]({{ site.baseurl }}/assets/images/imls_numbers_sdsulocality.jpg) |
-| LACMIP           | white paint                   | ⛔ likely locality | [example]({{ site.baseurl }}/assets/images/imls_numbers_lacmiplocality.jpg) |
-| **Collector Number** | **various/unique**        | ✔️sample | [example]({{ site.baseurl }}/assets/images/imls_numbers_collectornumber.jpg) | 
+| LACMIP           | white paint                   | ⛔locality | [example]({{ site.baseurl }}/assets/images/imls_numbers_lacmiplocality.jpg) |
+| SDSU             | red paint                     | ⛔locality but looks like type # | [example]({{ site.baseurl }}/assets/images/imls_numbers_sdsulocality.jpg) |
+| UCLA             | green dot                     | ⛔locality | [example]({{ site.baseurl }}/assets/images/imls_numbers_uclalocality.jpg) |
+| USGS             | check label in box            | ❓uncommon, verify with staff |
 
 One way to check whether a number is an old locality number is by clicking the blue button next to the *Locality*. If your number appears in the *Institution Number* table, you have a locality number. In that case, do not record it in *Alternative Numbers*.
 
