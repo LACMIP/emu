@@ -145,7 +145,7 @@ To update locations for multiple records at once:
    --- | ---
     1 | Navigate to the search form (*File > New Search*). 
     2 | On the search form, navigate to the Admin tab.
-    3 | Enter your name in *Modified By* and the date in *Modification Date*. Execute the search.
+    3 | Enter your name in *Modified By*, the date in *Modification Date*, and execute the search.
     4 | Review the results in List view.
     5 | Hold shift to select all records from the same drawer. ⚠️**Critical: Make sure you're only selecting lots that came from the same drawer.**
     6 | Navigate: *Tools > Relocate > Selected Records*
@@ -153,7 +153,7 @@ To update locations for multiple records at once:
     8 | In the Locations module, enter "Type Room" in *Level 3*.
     9 | In the Locations module, use the lookup list buttons for *Level 4* and *Level 5* to enter the cabinet and drawer. [(Example.)]({{ site.baseurl }}/assets/images/catalogue_locationupdate_typeexample1.png)
     10 | Execute the search and open the record to verify the correct one was returned.
-    11 | Attach this record to the Location Update window by selecting the green ➕.
+    11 | Attach this record to the Location Update window with the green ➕.
     12 | In the Location Update window, attach your Parties record to *Requested By*, *Released By*, and *Accepted By* and enter the date in *Date Moved*. [(Example.)]({{ site.baseurl }}/assets/images/catalogue_locationupdate_typeexample2.png)
     13 | Select *Update*.
     14 | Review the updated records to check for errors.
