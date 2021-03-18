@@ -87,7 +87,7 @@ If you are unsure how to record a number, take a quick photo of the specimen (wi
     *Project* | If blank, choose "IMLS".
     *Original Nature* | ***Ignore this field.*** The default value is "body fossil". This information will be updated at a later time.
     *Anatomy* | ***Ignore this field.*** The default value is "shell(s)". This information will be updated at a later time.
-    *Lot Remarks* | You will only enter information into this field if you find a lot with a [missing]({{ site.baseurl }}/assets/images/catalogue_missing.png) specimen or a specimen [on loan]({{ site.baseurl }}/assets/images/catalogue_loan.png). See *Disposition* for more information on missing and loaned lots.
+    *Lot Remarks* | Only enter information in this field if you find a lot with a [missing]({{ site.baseurl }}/assets/images/catalogue_missing.png) specimen or a specimen [on loan]({{ site.baseurl }}/assets/images/catalogue_loan.png). See *Disposition* for more information on missing and loaned lots.
     
 ## III. Verify publication history
 
@@ -139,10 +139,11 @@ If a specimen is oversized (i.e. does not fit in one of our standard box sizes) 
 
 The final step is to assign (or reassign) the physical location data to specimen lots.
 
-On any given day, you'll likely be working in specimens in only one or two drawers. At the end of your shift (or if you finish working in a drawer mid-shift), you'll need to update the physical location data for all the lots you worked on.
+On any given day, you'll likely be working with specimens in only one or two drawers. At the end of your shift, or if you finish working on a drawer mid-shift--whichever comes first--you'll need to update the physical location data for all the lots you worked on.
 
 To update locations for multiple records at once:
-*Step* | *In the Catalogue module...*
+
+ *Step* | *In the Catalogue module...*
    --- | ---
     1 | Navigate to the search form (*File > New Search*). 
     2 | On the search form, navigate to the Admin tab.
