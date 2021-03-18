@@ -125,11 +125,11 @@ This same workflow is also demonstrated in this video:
 
 ## V. Annoate conservation issues
 
-{% include figure image_path="/assets/images/catalogue_conservation.png" alt="screenshot of the Conservatoin tab in the Catalogue module" caption="Screenshot of the Conservation tab in the Catalogue module." %}
+{% include figure image_path="/assets/images/catalogue_condition.png" alt="screenshot of the Condition tab in the Catalogue module" caption="Screenshot of the Condition tab in the Catalogue module." %}
 
 If a specimen is oversized and will require a special mount for rehousing, complete the following fields on the Condition tab:
 
-*Field* | *On the Conservation tab...*
+*Field* | *On the Condition tab...*
    --- | ---
     *Condition Status* | Select "The object is fragile and requires treatment."
     *Date Checked* | Select today's date.
