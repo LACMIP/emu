@@ -42,13 +42,13 @@ Field No.
 Lot Count
 : The number of individuals within this cataloged lot. Typically, this is the number of physical pieces, e.g. on a single chunk of Cretaceous material there may be thousands of individual fossilized animals but *Lot Count* would be "1." For more recent material, *Lot Count* may actually be the number of individual animals. It is important to ask for clarification on what this number means if you are unfamiliar with LACMIP norms.
 
-Disp.
+Disposition
 : A controlled vocabulary to note the physical state of a specimen lot. Vocabulary includes:
     - "being processed" for specimens actively being incorporated into the collection, e.g. a new donation
     - "discarded" for specimens permanently removed from the collection
     - "in collection" for specimens physically locatable
-    - "missing" for specimens whose whereabouts are unknown
-    - "on loan" for specimens out on loan (refer to [transactions]({{ site.baseurl }}/documentation/transactions/) for more on loans)
+    - "[missing]({{ site.baseurl }}/assets/images/catalogue_missing.png)" for specimens whose whereabouts are unknown
+    - "[on loan]({{ site.baseurl }}/assets/images/catalogue_loan.png)" for specimens out on loan (refer to [transactions]({{ site.baseurl }}/documentation/transactions/) for more on loans)
     - "unknown" for specimens that haven't been physically located, but are also not definitely missing; typically this term is assigned to legacy specimen data records where we have not attempted to locate the physical specimen yet
 
 Inst. Code & Inst. Number
