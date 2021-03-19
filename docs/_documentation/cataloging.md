@@ -2,6 +2,7 @@
 title: Cataloging
 navcat: Workflows
 tags: cataloging
+toc_sticky: true
 last_modified_at: 2021-03-15
 ---
 
