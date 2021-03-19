@@ -2,6 +2,7 @@
 title: Type Collection
 navcat: Workflows
 tags: cataloging
+toc_sticky: false
 last_modified_at: 2021-03-18
 ---
 
