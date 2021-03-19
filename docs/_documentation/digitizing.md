@@ -2,6 +2,7 @@
 title: Digitizing
 navcat: Workflows
 tags: cataloging, georeferencing, quick-start
+toc_sticky: true
 last_modified_at: 2020-07-25
 ---
 
