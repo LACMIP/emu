@@ -2,6 +2,7 @@
 title: Catalogue
 navcat: Modules
 tags: cataloging quick-start
+toc_sticky: true
 last_modified_at: 2021-03-16
 ---
 The Catalogue module is the primary place for information about each specimen lot, and a node linking together data from many of the other modules. Please see [Axiell's documentation](http://help.emu.axiell.com/latest/en/Topics/EMu/Catalogue%20module.htm) for generic information about this module. Continue reading here to understand how LACMIP uses the fields available in the Catalogue module.
