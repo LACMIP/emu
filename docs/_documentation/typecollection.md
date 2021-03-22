@@ -122,20 +122,21 @@ More on how LACMIP types are cited and the history of these numbers can be found
 Occasionally, you will encounter specimens that are physically stuck together but cataloged separately (they should also have different type numbers). In this case, their respective catalog records need to be associated using the Relationships tab. The general workflow for using the Relationships tab can be found [here]({{ site.baseurl }}/documentation/cataloging/#relationships-tab). This workflow is also demonstrated in this video:
 {% include video id="417827299" provider="vimeo" %}
 
-## V. Note conservation needs 
+## V. Note special conditions 
 
 {% include figure image_path="/assets/images/catalogue_condition_oversize.png" alt="screenshot of the Condition tab in the Catalogue module" caption="Screenshot of the Condition tab in the Catalogue module." %}
 
-Specimens that do not fit in one of our standard box sizes are considered "oversized". In this situation, a special mount/box will need to be created for it at a later time. Please indicate this information by completing the following fields on the Condition tab:
+### Oversized Lots
+Specimens that do not fit in one of our standard box sizes are considered oversized. In this situation, a special mount/box will need to be created for it at a later time. Please indicate this information by completing the following fields on the Condition tab:
 
 *Field* | *On the Condition tab...*
    --- | ---
     *Condition Status* | Select "**Unstable; may require special mount.**"
     *Date Checked* | Select today's date.
     *Checked By* | Attach your Parties record. 
-    *Condition Details* | Oversized lot.
+    *Condition Details* | "**Oversized lot.**"
     
-    
+### Damaged Lots    
 Specimens that are clearly damaged or deteriortating should be noted. Please indicate this information by completing the following fields on the Condition tab:
     
  *Field* | *On the Condition tab...*
