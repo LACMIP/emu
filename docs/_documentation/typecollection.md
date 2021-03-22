@@ -130,16 +130,15 @@ Specimens that do not fit in one of our standard box sizes are considered "overs
 
 *Field* | *On the Condition tab...*
    --- | ---
-    *Condition Status* | Select "Unstable; may require special mount."
+    *Condition Status* | Select "**Unstable; may require special mount.**"
     *Date Checked* | Select today's date.
     *Checked By* | Attach your Parties record. 
-    
     
 Specimens that are clearly damaged or deteriortating should be noted. Please indicate this information by completing the following fields on the Condition tab:
     
  *Field* | *On the Condition tab...*
    --- | ---
-    *Condition Status* | Select "May require treatment."
+    *Condition Status* | Select "**May require treatment.**"
     *Date Checked* | Select today's date.
     *Checked By* | Attach your Parties record. 
     *Condition Details* | Briefly describe the problem.
