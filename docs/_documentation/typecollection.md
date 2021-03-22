@@ -180,40 +180,6 @@ When searching for digital publications it can be useful to check the resources 
 
 If you cannot readily find the publication you're looking for, send the collections staff a request via Google Chat.
 
-### Add PDFs to Google Drive
-
-If you download a type publication, please add it to the LACMIP digital reprint library:
- - *Google Drive > LACMIP Shared Drive > IMLS > [Type Publications](https://drive.google.com/drive/folders/1Ej6RF7llwTXr4qvrzZv9XuWY222T1Ahy?usp=sharing)* 
-
-If you don't have access to the linked Google Drive directory, please request it.
-{: .notice--warning}
-
-### Format PDF filenames
-
-It is imperative that PDF filenames conform to the convention applied to the other PDF files in the *Type Publications* directory. These PDFs will eventually be uploaded as multimedia attachments to their associated EMu record in the Bibliography module. Incorrect formatting can cause errors when they are uploaded.
-
-New files added to the *Type Publications* folder should be formatted as follows:
-
-**Single author**
-```
-[Surname], [First initial]. [Middle initial]. ([Year]) [Title]
-```
-**Two authors**
-```
-[Surname], [First initial]. [Middle initial]. & [Surname], [First initial]. [Middle initial]. ([Year]) [Title]
-```
-**Three to four authors**
-```
-[Last name], [First initial]. [Middle initial]., [Last name], [First initial]. [Middle initial] and [Last name], [First initial]. [Middle initial]. ([Year]) [Title]
-```
-**Five or more authors**
-```
-[Last name], [First initial]. [Middle initial]., et al ([Year]) [Title]
-```
-**Example**:
-> Valentich-Scott, P., Powell, C., L., Lorenson, T. D. & Edwards, B. E. (2014) A new genus and species of Thyasiridae (Mollusca, Bivalvia) from deep-water, Beaufort Sea, northern Alaska.pdf
-
-
 ## Number keys
 
 ### Type numbers
