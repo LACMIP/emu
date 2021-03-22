@@ -57,6 +57,10 @@ Inst. Code & Inst. Number
 {% include figure image_path="/assets/images/catalogue_alternativenumbers.png" alt="screenshot of the *Alternative Numbers* field in the catalogue module" caption="Screenshot of the *Alternative Numbers* field in the Catalogue module." %}
 {% include figure image_path="/assets/images/catalogue_alternativenumbersexample.jpg" alt="Example of an old catalog number to be entered in *Alternative Numbers*" caption="Example of an old catalog number to be entered in *Alternative Numbers*" %}
 
+A visual [key to type and alternative numbers]({{ site.baseurl }}/documentation/type-collection/#number-keys) has been developed for the IMLS type collection workflow.
+{: .notice--warning}
+
+
 Identification
 : Displays *Modified Taxon*, *Identified By*, and *ID Date* from the *Identification (1)* tab (see below for details).
 
