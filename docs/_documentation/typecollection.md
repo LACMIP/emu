@@ -124,7 +124,7 @@ Occasionally, you will encounter specimens that are physically stuck together bu
 
 ## V. Note conservation needs 
 
-{% include figure image_path="/assets/images/catalogue_condition_rehousing.png" alt="screenshot of the Condition tab in the Catalogue module" caption="Screenshot of the Condition tab in the Catalogue module." %}
+{% include figure image_path="/assets/images/catalogue_condition_oversize.png" alt="screenshot of the Condition tab in the Catalogue module" caption="Screenshot of the Condition tab in the Catalogue module." %}
 
 Specimens that do not fit in one of our standard box sizes are considered "oversized". In this situation, a special mount/box will need to be created for it at a later time. Please indicate this information by completing the following fields on the Condition tab:
 
@@ -133,6 +133,8 @@ Specimens that do not fit in one of our standard box sizes are considered "overs
     *Condition Status* | Select "**Unstable; may require special mount.**"
     *Date Checked* | Select today's date.
     *Checked By* | Attach your Parties record. 
+    *Condition Details* | Oversized lot.
+    
     
 Specimens that are clearly damaged or deteriortating should be noted. Please indicate this information by completing the following fields on the Condition tab:
     
