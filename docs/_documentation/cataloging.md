@@ -137,6 +137,8 @@ There are multiple ways to accomplish this task, but here is one possible workfl
 This same workflow is also demonstrated in this video:
 {% include video id="417827299" provider="vimeo" %}
 
+{% include video id="dD-adtbjzCI" provider="youtube" %}
+
 That's it! Save the catalogue record, **make sure you remembered to record the lot number on the paper ID tag**, and move on to the next specimen.
 
 It's a good idea to periodically [check your work]({{ site.baseurl }}/documentation/cataloging/#check-your-work) after creating a series of new records.
