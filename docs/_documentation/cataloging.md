@@ -119,6 +119,10 @@ Every specimen ID tag will have a *New ID* to be entered into the database; only
 **If you cannot read the handwriting on the ID tag**, or **no name is returned when you hit tab**, ask for assistance. **If no one is immediately available to help:** 1) if you are trying to enter a *New ID* into EMu, leave the *Taxon* field blank and enter "TAXONOMY NOT FOUND" followed by the *New ID* in EMu's *Comments* field (e.g. "TAXONOMY NOT FOUND Bittscala sp."; 2) if you are trying to enter an *Old name*, type "Old name" in the *Taxon* field and transcribe whatever is written on the ID tag for *Old name* in EMu's *Comments* field (e.g. "Pecten sp."). **IP staff can generate lists of acceptable names to for cataloging (vs. old names) if you are having trouble deciphering handwriting!**
 {: .notice--warning}
 
+Examples of how to data into the Identifications tab can be found in these videos:
+{% include video id="cp1kjA8klHY" provider="youtube" %}
+{% include video id="NLvv3cFRHIQ" provider="youtube" %}
+
 ### **Relationships tab...**
 
 If a box contains more than one ID tag, it's probably because there are specimens that are physically stuck together but represent different taxa (e.g., when a bivalve and gastropod are preserved on the same rock, or when a trace fossil is found on a body fossil). While each lot must be cataloged separately, they must also be associated using the [*Relationships* tab](https://lacmip.github.io/emu/documentation/catalogue/#relationships-tab) in the Catalogue module.
@@ -135,8 +139,6 @@ There are multiple ways to accomplish this task, but here is one possible workfl
    6 | Save these changes and repeat steps 3-5 for all other specimen records that need to be associated.
    
 This same workflow is also demonstrated in this video:
-{% include video id="417827299" provider="vimeo" %}
-
 {% include video id="dD-adtbjzCI" provider="youtube" %}
 
 That's it! Save the catalogue record, **make sure you remembered to record the lot number on the paper ID tag**, and move on to the next specimen.
