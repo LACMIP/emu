@@ -2,6 +2,7 @@
 title: Citations
 navcat: Workflows
 tags:
+toc_sticky: true
 last_modified_at: 2021-02-19
 ---
 
