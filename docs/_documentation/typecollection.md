@@ -222,7 +222,7 @@ Identifiers used by institutions/collections that previously owned specimens in 
 | LACMIP           | white paint                   | ⛔locality | [example]({{ site.baseurl }}/assets/images/imls_numbers_lacmiplocality.jpg) |
 | SDSU             | red paint                     | ⛔locality, looks like type # | [example]({{ site.baseurl }}/assets/images/imls_numbers_sdsulocality.jpg) |
 | UCLA             | green dot                     | ⛔locality | [example]({{ site.baseurl }}/assets/images/imls_numbers_uclalocality.jpg) |
-| USGS             | check label/box               | ❓maybe, verify with staff |
+| USGS             | various                       | ⛔locality | [example]({{ site.baseurl }}/assets/images/imls_numbers_usgslocality.jpg) |
 
 One way to check whether a number is an old locality number is by clicking the blue arrow button next to the *Locality*. If your number appears in the *Institution Number* table, you have a locality number. In that case, do not record it in *Alternative Numbers*.
 
