@@ -42,11 +42,11 @@ If a specimen has a _preexisting_ type number (even hypotypes), it must be refer
 ## What if I have numerous specimens to cite?
 If citing both the catalog and type numbers in-text becomes overly cumbersome, the catalog number takes precedent in-text. However, both numbers should still be included elsewhere in the publication. We suggest doing so in either list or table format.
 
-*Catalog No.* | *Type No.*
-   --- | ---
-   LACMIP 2533.234 | LACMIP Type 3364
-   LACMIP 2533.235 | LACMIP Type 3365
-   LACMIP 2533.236 | LACMIP Type 3366
+*Catalog No.* | *Type No.* | *Taxon* |
+   --- | --- | ---
+   LACMIP 2533.234 | LACMIP Type 3364 | _Bibio comosella_ Statz, 1943 |
+   LACMIP 2533.235 | LACMIP Type 3365 | _Bibio comosella_ Statz, 1943 |
+   LACMIP 2533.236 | LACMIP Type 3366 | _Bibio compta_ Statz, 1943 |
    {: .notice--warning}
    
 ## Brief history of these numbers
