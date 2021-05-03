@@ -144,7 +144,7 @@ Specimens that are clearly damaged or deteriortating should be noted. Please ind
     *Condition Status* | Select "**May require treatment.**"
     *Date Checked* | Select today's date.
     *Checked By* | Attach your Parties record. 
-    *Condition Details* | Briefly describe the problem.
+    *Condition Details* | Briefly describe the problem, e.g. "Specimen is deteriorating. Consolidation required."
     
     
 
