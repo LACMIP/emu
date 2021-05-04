@@ -2,7 +2,7 @@
 title: Projects
 navcat: Modules
 tags: quick-start
-last_modified_at: 2021-01-21
+last_modified_at: 2021-05-04
 ---
 The Projects module is used to track and report statistics for collections-related research and outreach requests. Only users in the Invertebrate Paleontology permission group can add/enter data in this module.
 
@@ -26,6 +26,7 @@ Sub-Type
    External Presentation | invited external presentations, panels, discussions, etc.
    Field Trip | field outing conducted for research or outreach (overrides "New Accession")
    Images | requests for specimen imagery
+   Letter of Support | requests for letters in support of grants and field work
    Loans | external and internal loan requests, excluding exhibits
    Locality Numbers | inquiries related to a specific locality/set of localities, as well as the creation of new localities
    Museum Event | museum-organized outreach events, e.g. Dino Fest, Scavenger Safari
@@ -98,7 +99,7 @@ Project Statistics table
    --- | ---
    ATTENDANCE | For all events and requests, enter the number of event attendees or the number of individuals who made the request in _Value_. In _Comments_, enter names of the primary contacts involved, e.g. "Nicole Roberts, BIO125 students" or "Lindsey Groves, Dan Muhs".
    AFFILIATION | For all events and requests, record the affiliation of whomever made the request in the _Comments_ field, e.g. "USGS, NHMLA (Malacology)".
-   CONTACT | For loans, destructive analyses, and image requests, record the email(s) of whomever made the request in the _Comments_ field.
+   CONTACT | For loans, destructive analyses, image requests, and letters of support, record the email(s) of whomever made the request in the _Comments_ field.
    DURATION (hrs) | For outreach events, enter, to the nearest hour, the amount of time spent fullfilling this request/event in _Value_.
    FACILITIES | If a visit results in use of specific equipment or facilties, list this in _Comments_.
    LOCALITIES | Record new locality numbers created for field trips, other new accessions, and other specific requests to mint new locality numbers, or when specific locality numbers used as record search parameters. Then, record the total number of localities in _Value_.
