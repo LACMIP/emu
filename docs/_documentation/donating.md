@@ -33,7 +33,7 @@ The first step in the donation process is to [send]({{ site.baseurl }}/documenta
 ## 2. Transportation
 Once the museum decides that it can most likely accomodate donation, the fossils must be transported to the collection. There are two options:
 - Personal delivery ("hand carry") is preferred as this method minimizes the risk of damage or loss of the specimens during transit.
-- If hand carry is not an option, shipping may be acceptable in some cases. _Shipping is undertaken at the owner's risk_, and for this reason, the use of couriers (FedEx, UPS, DHL), insurance, and tracking numbers is highly encouraged.
+- If hand carry is not an option, shipping may be acceptable in some cases. _Shipping is typically at the owner's risk_, and for this reason, the use of couriers (FedEx, UPS, DHL), insurance, and tracking numbers is highly encouraged.
 
 Do not ship fossils via the postal service! Risk of damage and/or loss is high.
 {: .notice--warning}
