@@ -13,15 +13,15 @@ Are you planning to donate fossils to the LACMIP collections? This page outlines
 
 # Donation Workflow
 ## 1. Pre-Donation
-The first step in the donation process is to [email]({{ site.baseurl }}/documentation/donating/#contact-information) the Collections Manager a clear description of what you'd like to donate:
+The first step in the donation process is to [send]({{ site.baseurl }}/documentation/donating/#contact-information) the Collections Manager a clear description of what you'd like to donate:
 
- *Information Needed* | *Example*
+ *Information Needed* | *Example (Please be specific when possible!)*
    --- | ---
-   How many fossils? | "3 fossils", "about 100 lots", "2 buckets of matrix", etc.
-   What taxa/species are included? | "ammonites", "_Pachydiscus_ sp." "assorted marine invertebrates, mostly crinoids", etc.
-   What state are the fossils in? | "unprepared", "prepared but not identified", "fully sorted and identified", etc.
-   Where did the fossils originate? | "personally collected on BLM public land", "private quarry", "purchased from fossil dealer", etc.
-   Who owns the fossils? | The "owner" is whomever has legal authority to donate the fossils. |
+   **How many fossils?** | "3 fossils", "about 100 lots", "2 buckets of matrix", etc.
+   **What taxa/species are included?** | "ammonites", "_Pachydiscus_ sp." "assorted marine invertebrates, mostly crinoids", etc.
+   **What state are the fossils in?** | "unprepared", "prepared but not identified", "fully sorted and identified", etc.
+   **Where did the fossils originate?** | "personally collected on BLM public land", "collected in a private quarry", "purchased from a dealer", etc.
+   **Who owns the fossils?** | The "owner" is whomever has legal authority to donate the fossils to the museum. |
 
 - The information above can also be submitted by completing our [Pre-donation Form](https://forms.gle/DgJF5DUaooFsdyof6).
 - **If you are donating a large collection**, be aware that a more comprehensive inventory may be requested _prior_ to the collection arriving at the museum, the purpose of which is to ensure LACMIP is the most appropriate repository for your fossils.
