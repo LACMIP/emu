@@ -158,7 +158,8 @@ The most common reason that catalogue records need to be edited is to **update t
    2 | View the record in edit mode and systematically check that the information on the new ID tag is accurate in EMu.
    3 | *Lot Count*: Check that the count is correct and update it if it's wrong.
    4 | *Amount & Disposition*: If "unknown", change to "in collection" as the lot's whereabouts are now known.
-   5 | Identification (1) tab: Add the new identification information to the record according to the ID tag.
+   5 | *Project*: Update the value to reflect the project you're currently working on.
+   6 | Identification (1) tab: Add the new identification information to the record according to the ID tag.
 
 # Tips
 
