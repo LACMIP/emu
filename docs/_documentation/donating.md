@@ -8,12 +8,12 @@ last_modified_at: 2021-05-05
 
 Are you planning to donate fossils to the LACMIP collections? This page outlines what steps you can expect in this process.
 
-:hourglass_flowing_sand: **If your donation is time sensitive**, please keep in mind that this process involves staff from multiple departments and takes time to be completed properly. We will do our best to accomodate your request, but for this reason donation requests should be made with as much advance notice as possible. Your patience and cooperation are greatly appreciated!
+:hourglass_flowing_sand: **If your donation is time sensitive**, please keep in mind that this process involves staff from multiple departments and takes time to be completed properly. We will do our best to accomodate your request, but for this reason, donation requests should be made with as much advance notice as possible. Your patience and cooperation are greatly appreciated!
 {: .notice--warning}
 
 # Donation Workflow
 ## 1. Pre-Donation
-The first step in the donation process is to send the [Collections Manager]({{ site.baseurl }}/documentation/donating/#contact-information) a clear description of what you'd like to donate:
+The first step in the donation process is to [submit]({{ site.baseurl }}/documentation/donating/#contact-information) a clear description of what you'd like to donate:
 | Information Needed | Example |
 | - | - |
 | How many fossils? | "3 fossils", "about 100 lots", "2 buckets of matrix", etc.|
@@ -30,27 +30,27 @@ The first step in the donation process is to send the [Collections Manager]({{ s
 {: .notice--warning}
 
 ## 2. Transportation
-Once the museum decides that it can most likely accomodate donation, the fossil(s) must be transported to the museum. There are two options:
+Once the museum decides that it can most likely accomodate donation, the fossil(s) must be transported to the collection. There are two options:
 - Personal delivery ("hand carry") is preferred as this method minimizes the risk of damage or loss of the specimens during transit.
 - If hand carry is not an option, shipping may be acceptable in some cases. _Shipping is undertaken at the owner's risk_, and for this reason, the use of couriers (FedEx, UPS, DHL), insurance, and tracking numbers is highly encouraged.
 
-:no_entry_sign: Please do not ship fossils via the postal service! Risk of damage and/or loss is high.
+Please do not ship fossils via the postal service! Risk of damage and/or loss is high.
 {: .notice--warning}
 
 ## 3. Receipt
-Once the specimens are acquired by the museum, a receipt will be issued to you indicating the fossils were received. The document will be emailed to you by our registrar to be electronically DocuSigned.
+Once the specimens are acquired by the museum, a receipt will be issued to you indicating the fossils were received. This document may be signed at the time of drop-off at the musuem, or may be emailed to you by our registrar to be electronically signed.
 
 ## 4. Accession
-The museum will review the material received in detail. More information may be requested at this time, such as collecting permits and locality information, if it has not already been provided. If it is determined that the donation 1) aligns with our mission, 2) is appropriately documented, and 3) can be satisfactorily cared for in perpetuity, the accession--the act of legally accepting the objects into our permanent collection--will be initiated. Once approved, paperwork will be electronically issued to the owner to electronically DocuSign.
+The museum will thoroughly review the material received and its accompanying documentation. If necessary, more information may be requested at this time. **If it is determined that the donation 1) aligns with our mission, 2) is appropriately documented, and 3) can be satisfactorily cared for in perpetuity, a new accession**--the act of legally accepting the objects into our permanent collection--**will be initiated**. Paperwork will be electronically issued to the owner to electronically sign.
 
 ## 5. Deed of Gift
-Once the donation is fully approved and accessioned, a Deed of Gift will be issued to the donor. **If you are a researcher in need of numbers for publication**, specimen numbers will be issued once the donation is fully approved and the deed has been generated. 
+Once the donation is fully approved and accessioned, a Deed of Gift will be issued to the donor. **If you are a researcher in need of numbers for publication**, specimen numbers can only be issued once the specimens are accessioned.
 
 # Why are these steps important?
-The [American Alliance of Museums](https://www.aam-us.org) puts it best:
+The American Alliance of Museums puts it best:
 > "Accessioning is the formal act of legally accepting an object or objects ... that a museum holds in the public trust, or in other words those in the museum’s permanent collection. Because it commits staff time, space and other resources to the proper care of this material, it is important that acquiring material for the collections be done in a thoughtful, inclusive way that reflects the best interests of the museum and its audiences, and can be sustained by the available resources."
-> 
-For these reasons, while the NHMLA tries to accomodate donations whenever possible, the museum reserves the right to decline donations that may not align with our mission, or that may be exceptionally difficult for us to properly care for in perpetuity.
+
+For these reasons, while the NHMLA aims to accomodate donations whenever possible, the museum reserves the right to decline donations that may not align with our mission, or that may be exceptionally difficult for us to properly care for in perpetuity.
 
 # Contact information
-Please direct questions and related inquiries to the collections manager: [lwalker@nhm.org](lwalker@nhm.org).
+Please direct questions and related inquiries to the Collections Manager: [lwalker@nhm.org](lwalker@nhm.org).
