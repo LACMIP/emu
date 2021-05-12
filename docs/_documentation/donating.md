@@ -27,7 +27,7 @@ Once the museum decides that it can most likely accomodate donation, the specime
 - If hand carry is not an option, shipping may be acceptable in some cases. Shipping is undertaken at the owner's risk and the use of couriers (FedEx, UPS, DHL) and tracking numbers is highly encouraged. _Please do not ship any specimens via the postal service._
 
 ## Receipt
-Once the specimens are acquired by the museum, an Incoming Receipt will be issued to you indicating the fossils were received by the museum. Please sign, date, and return this form to the Collections Manager.
+Once the specimens are acquired by the museum, a receipt will be issued to you indicating the fossils were received. The document will be emailed to you by our registrar to be electronically DocuSigned.
 
 ## Accession
 "Accessioning" refers to the process by which a specimen becomes the legal property of the museum.
