@@ -156,8 +156,9 @@ The most common reason that catalogue records need to be edited is to **update t
    --- | ---
    1 | In order to edit a catalogue record you first need to find it. Search for the catalogue number (e.g. "26376") in the *Cat. No.* field of the EMu [Catalogue module]({{ site.baseurl }}/documentation/catalogue/) in [search mode]({{ site.baseurl }}/documentation/modes/).
    2 | View the record in edit mode and systematically check that the information on the new ID tag is accurate in EMu.
-   3 | Where it is not correct (e.g. if the *Lot Count* in EMu is "6" but on the new ID tag it is "3") update this information in EMu.
-   4 | You will **always** need to add an identification to the EMu catalogue record based on the ID tag *New ID*, *ID By*, and *Date* fields. You will **almost always** also need to update *Disposition* to "in collection."
+   3 | *Lot Count*: Check that the count is correct and update it if it's wrong.
+   4 | *Amount & Disposition*: If "unknown", change to "in collection" as the lot's whereabouts are now known.
+   5 | Identification (1) tab: Add the new identification information to the record according to the ID tag.
 
 # Tips
 
