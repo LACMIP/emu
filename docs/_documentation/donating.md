@@ -1,5 +1,5 @@
 ---
-title: New Acquisitions
+title: Donations
 navcat: Workflows
 tags:
 toc_sticky: true
