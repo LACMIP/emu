@@ -3,12 +3,12 @@ title: Donations
 navcat: Workflows
 tags:
 toc_sticky: true
-last_modified_at: 2021-05-05
+last_modified_at: 2021-05-12
 ---
 
 Are you planning to donate fossils to the LACMIP collections? This page outlines what steps you can expect in this process.
 
-:hourglass_flowing_sand: **If your donation is time sensitive**, please keep in mind that this process involves staff from multiple departments and takes time to be completed properly. We will do our best to accomodate your request, but for this reason, donation requests should be made with as much advance notice as possible. Your patience and cooperation are greatly appreciated!
+:hourglass_flowing_sand: **If your donation is time sensitive**, please keep in mind that this process involves staff from multiple departments and takes time to be completed properly. We will do our best to accomodate your request, but for this reason, donations should be initiated with as much advance notice as possible. Your patience and cooperation are greatly appreciated!
 {: .notice--warning}
 
 # Donation Workflow
@@ -26,11 +26,11 @@ The first step in the donation process is to [submit]({{ site.baseurl }}/documen
 - **If you are donating a large collection**, be aware that a more comprehensive inventory may be requested _prior_ to the collection arriving at the museum, the purpose of which is to ensure LACMIP is the most appropriate repository for your fossils.
 - **Detailed locality information is highly preferred**, and may be provided by downloading and completing a copy of our [Locality Request Form](https://docs.google.com/spreadsheets/d/1v1xc2jFS-fva_YW_9lPM89yGpv7XCacIA1H0SAAgA8w/edit?usp=sharing).
 
-:warning: **Be prepared to provide evidence that all fossils to be donated were legally acquired, be this via personal collection, purchases, or otherwise. In the case of fossils from international localities, import/export documentation from the country/ies of origin may be requested**. Documentation may include, but is not limited to, copies of collecting permits, letters of permission to collect, and/or import/export documentation. While we aim to accomodate new collections whenever possible the museum reserves the right to refuse collections that are not well documented.
+:warning: **Be prepared to provide evidence that all fossils to be donated were legally acquired, be this via personal collection, purchases, or otherwise. In the case of fossils from international localities, import/export documentation from the country/ies of origin may be requested**. Documentation may include, but is not limited to, copies of collecting permits, letters of permission to collect, and/or import/export documentation. While we aim to accomodate donations whenever possible, the museum reserves the right to decline fossils and other materials that are not well documented.
 {: .notice--warning}
 
 ## 2. Transportation
-Once the museum decides that it can most likely accomodate donation, the fossil(s) must be transported to the collection. There are two options:
+Once the museum decides that it can most likely accomodate donation, the fossils must be transported to the collection. There are two options:
 - Personal delivery ("hand carry") is preferred as this method minimizes the risk of damage or loss of the specimens during transit.
 - If hand carry is not an option, shipping may be acceptable in some cases. _Shipping is undertaken at the owner's risk_, and for this reason, the use of couriers (FedEx, UPS, DHL), insurance, and tracking numbers is highly encouraged.
 
