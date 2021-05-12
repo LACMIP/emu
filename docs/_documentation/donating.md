@@ -13,7 +13,8 @@ Are you planning to donate fossils to the LACMIP collections? This page outlines
 
 # Donation Workflow
 ## 1. Pre-Donation
-The first step in the donation process is to [submit]({{ site.baseurl }}/documentation/donating/#contact-information) a clear description of what you'd like to donate:
+The first step in the donation process is to [email]({{ site.baseurl }}/documentation/donating/#contact-information) the Collections Manager a clear description of what you'd like to donate:
+
  *Information Needed* | *Example*
    --- | ---
    How many fossils? | "3 fossils", "about 100 lots", "2 buckets of matrix", etc.
