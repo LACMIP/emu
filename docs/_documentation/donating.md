@@ -14,13 +14,13 @@ Are you planning to donate fossils to the LACMIP collections? This page outlines
 # Donation Workflow
 ## 1. Pre-Donation
 The first step in the donation process is to [submit]({{ site.baseurl }}/documentation/donating/#contact-information) a clear description of what you'd like to donate:
-| Information Needed | Example |
-| - | - |
-| How many fossils? | "3 fossils", "about 100 lots", "2 buckets of matrix", etc.|
-| What taxa/species are included? | "ammonites", "_Pachydiscus_ sp." "assorted marine invertebrates, mostly crinoids", etc.|
-| What state are the fossils in? | "unprepared", "prepared but not identified", "fully sorted and identified", etc. |
-| Where did the fossils originate? | "personally collected on BLM public land", "private quarry", "purchased from fossil dealer", etc.|
-| Who owns the fossils? | The "owner" is whomever has legal authority to donate the fossils. |
+ *Information Needed* | *Example*
+   --- | ---
+   How many fossils? | "3 fossils", "about 100 lots", "2 buckets of matrix", etc.
+   What taxa/species are included? | "ammonites", "_Pachydiscus_ sp." "assorted marine invertebrates, mostly crinoids", etc.
+   What state are the fossils in? | "unprepared", "prepared but not identified", "fully sorted and identified", etc.
+   Where did the fossils originate? | "personally collected on BLM public land", "private quarry", "purchased from fossil dealer", etc.
+   Who owns the fossils? | The "owner" is whomever has legal authority to donate the fossils. |
 
 - The information above can also be submitted by completing our [Pre-donation Form](https://forms.gle/DgJF5DUaooFsdyof6).
 - **If you are donating a large collection**, be aware that a more comprehensive inventory may be requested _prior_ to the collection arriving at the museum, the purpose of which is to ensure LACMIP is the most appropriate repository for your fossils.
@@ -34,11 +34,11 @@ Once the museum decides that it can most likely accomodate donation, the fossil(
 - Personal delivery ("hand carry") is preferred as this method minimizes the risk of damage or loss of the specimens during transit.
 - If hand carry is not an option, shipping may be acceptable in some cases. _Shipping is undertaken at the owner's risk_, and for this reason, the use of couriers (FedEx, UPS, DHL), insurance, and tracking numbers is highly encouraged.
 
-Please do not ship fossils via the postal service! Risk of damage and/or loss is high.
+Do not ship fossils via the postal service! Risk of damage and/or loss is high.
 {: .notice--warning}
 
 ## 3. Receipt
-Once the specimens are acquired by the museum, a receipt will be issued to you indicating the fossils were received. This document may be signed at the time of drop-off at the musuem, or may be emailed to you by our registrar to be electronically signed.
+Once the specimens are acquired by the museum, a receipt will be issued to you indicating the fossils were received. This document may be signed at the time of drop-off, or may be emailed to you by our registrar to be electronically signed.
 
 ## 4. Accession
 The museum will thoroughly review the material received and its accompanying documentation. If necessary, more information may be requested at this time. **If it is determined that the donation 1) aligns with our mission, 2) is appropriately documented, and 3) can be satisfactorily cared for in perpetuity, a new accession**--the act of legally accepting the objects into our permanent collection--**will be initiated**. Paperwork will be electronically issued to the owner to electronically sign.
