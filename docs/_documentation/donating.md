@@ -48,7 +48,7 @@ The museum will thoroughly review the material received and its accompanying doc
 Once the donation is fully approved and accessioned, a Deed of Gift will be issued to the donor. **If you are a researcher in need of numbers for publication**, specimen numbers can only be issued once the specimens are accessioned.
 
 # Why are these steps important?
-The American Alliance of Museums puts it best:
+The American Alliance of Museums explains this well:
 > "Accessioning is the formal act of legally accepting an object or objects ... that a museum holds in the public trust, or in other words those in the museum’s permanent collection. Because it commits staff time, space and other resources to the proper care of this material, it is important that acquiring material for the collections be done in a thoughtful, inclusive way that reflects the best interests of the museum and its audiences, and can be sustained by the available resources."
 
 For these reasons, while the NHMLA aims to accomodate donations whenever possible, the museum reserves the right to decline donations that may not align with our mission, or that may be exceptionally difficult for us to properly care for in perpetuity.
