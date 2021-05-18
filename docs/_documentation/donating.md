@@ -38,6 +38,9 @@ Once the museum decides that it can most likely accomodate donation, the fossils
 Do not ship fossils via the postal service! Risk of damage and/or loss is high.
 {: .notice--warning}
 
+**All fossils to be donated should be clearly labeled and organized before arriving at the museum.** Please include labels for each fossil indicating any important collecting information, including field numbers, as well as any LACMIP locality numbers that may have been issued to you.
+{: .notice--warning}
+
 ## 3. Receipt
 Once the specimens are acquired by the museum, a receipt will be issued to you indicating the fossils were received. This document may be signed at the time of drop-off, or may be emailed to you by our registrar to be electronically signed.
 
