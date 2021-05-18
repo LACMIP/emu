@@ -38,20 +38,20 @@ Once the museum decides that it can most likely accomodate donation, the fossils
 Do not ship fossils via the postal service! Risk of damage and/or loss is high.
 {: .notice--warning}
 
-**All fossils to be donated should be clearly labeled and organized before arriving at the museum.** Please include labels for each fossil indicating any important collecting information, including field numbers, as well as any LACMIP locality numbers that may have been issued to you.
+**All fossils to be donated should be clearly labeled and organized before arriving at the museum.** Please include labels for each fossil indicating any important collecting information, including field numbers, as well as any LACMIP locality numbers that may have been issued to you. A printable label template can be downloaded from [here](https://drive.google.com/file/d/1jBC9Er-NTGhnBzyXkwJsKIGFDKwtlw71/view?usp=sharing) if needed.
 {: .notice--warning}
 
 ## 3. Receipt
-Once the specimens are acquired by the museum, a receipt]({{ site.baseurl }}/assets/images/donations_samplereceipt.pdf) will be issued to you indicating the fossils were received. This document may be signed at the time of drop-off, or may be emailed to you by our registrar to be electronically signed.
+Once the specimens are acquired by the museum, a [receipt]({{ site.baseurl }}/assets/images/donations_samplereceipt.pdf) will be issued to you indicating the fossils were received. This document may be signed at the time of drop-off, or may be emailed to you by our registrar to be electronically signed.
 
 ## 4. Accession
 The museum will thoroughly review the material received and its accompanying documentation. If necessary, more information may be requested at this time. **If it is determined that the donation 1) aligns with our mission, 2) is appropriately documented, and 3) can be satisfactorily cared for in perpetuity, a new accession**--the act of legally accepting the objects into our permanent collection--**will be initiated**. Paperwork will be electronically issued to the owner to electronically sign.
 
 ## 5. Deed of Gift
-Once the donation is fully approved and accessioned, a [Deed of Gift](({{ site.baseurl }}/assets/images/donations_sampledeed.pdf) will be issued to the donor. **If you are a researcher in need of numbers for publication**, specimen numbers can only be issued once the specimens are accessioned.
+Once the donation is fully approved and accessioned, a [Deed of Gift]({{ site.baseurl }}/assets/images/donations_sampledeed.pdf) will be issued to the donor. **If you are a researcher in need of numbers for publication**, specimen numbers can only be issued once the specimens are accessioned.
 
 # Why are these steps important?
-The American Alliance of Museums explains this well:
+The American Alliance of Museums explains it well:
 > "Accessioning is the formal act of legally accepting an object or objects ... that a museum holds in the public trust, or in other words those in the museum’s permanent collection. Because it commits staff time, space and other resources to the proper care of this material, it is important that acquiring material for the collections be done in a thoughtful, inclusive way that reflects the best interests of the museum and its audiences, and can be sustained by the available resources."
 
 For these reasons, while the NHMLA aims to accomodate donations whenever possible, the museum reserves the right to decline donations that may not align with our mission, or that may be exceptionally difficult for us to properly care for in perpetuity.
