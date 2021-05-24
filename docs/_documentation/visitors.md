@@ -1,5 +1,5 @@
 ---
-title: Visitors
+title: For Visitors
 navcat: Workflows
 tags:
 toc_sticky: true
@@ -35,7 +35,6 @@ All other LACMIP collections are located in a dedicated facility approximately 1
 - Several work stations in the office area and collections range
 - Large reprint library
 
-gallery:
   - url: /assets/images/visiting_collections.jpg
     image_path: /assets/images/visiting_collections.jpg
     alt: "Stratigraphic Collections"
