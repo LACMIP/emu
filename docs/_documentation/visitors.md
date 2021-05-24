@@ -35,36 +35,19 @@ All other LACMIP collections are located in a dedicated facility approximately 1
 - Several work stations in the office area and collections range
 - Large reprint library
 
-  - url: /assets/images/visiting_collections.jpg
-    image_path: /assets/images/visiting_collections.jpg
+gallery:
+  - url: https://lacmip.github.io/emu/assets/images/visiting_collections.jpg
+    image_path: https://lacmip.github.io/emu/assets/images/visiting_collections.jpg
     alt: "Stratigraphic Collections"
-    title: "Image 1 title caption"
-  - url: /assets/images/visiting_library.jpg
-    image_path: /assets/images/visiting_library.jpg
+    title: "Stratigraphic Collections"
+  - url: https://lacmip.github.io/emu/assets/images/visiting_library.jpg
+    image_path: https://lacmip.github.io/emu/assets/images/visiting_library.jpg
     alt: "Reprint Library"
     title: "Reprint Library"
-  - url: /assets/images/visiting_preplab.jpg
-    image_path: /assets/images/visiting_preplab.jpg
+  - url: https://lacmip.github.io/emu/assets/images/visiting_preplab.jpg
+    image_path: https://lacmip.github.io/emu/assets/images/visiting_preplab.jpg
     alt: "Prep Lab"
     title: "Prep Lab"
-
-  * ![Collections](https://lacmip.github.io/emu/assets/images/visiting_collections.jpg)
-  * [![Library](https://lacmip.github.io/emu/assets/images/visiting_library.jpg)
-  * ![Prep Lab](https://lacmip.github.io/emu/assets/images/visiting_preplab.jpg)
-
-<article class="Gallery">
-    <figure>
-        <img src="https://lacmip.github.io/emu/assets/images/visiting_collections.jpg" alt="Stratigraphic Collections">
-        <figcaption>Image 1</figcaption>
-    </figure>
-    <figure>
-        <a href="https://lacmip.github.io/emu/assets/images/visiting_library.jpg" alt="Reprint Library">
-        <figcaption>Image 2</figcaption></a>
-    </figure>
-    <figure>
-        <img src="https://lacmip.github.io/emu/assets/images/visiting_preplab.jpg" alt="Prep Lab">
-    </figure>
-</article>
 
 # Accessing the collections
 Please keep in mind as you navigate our collections:
