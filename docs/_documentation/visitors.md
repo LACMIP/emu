@@ -20,7 +20,7 @@ Prior to visiting, you may wish to browse our online resources:
 Please contact the collections manager for additional resources that may be helpful to review prior to your visit.
 
 # During your visit
-## Main Musuem
+## Main Museum
 The LACMIP type collection is located at the main museum. Facilities available to researchers at this location include:
 - Renovated workspace (shared with Malacology)
 - Depending on availability, use of microscopy and imaging equipment managed by other departments may be arranged by appointment
