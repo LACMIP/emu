@@ -70,7 +70,7 @@ Commencement Date
 : Select the day that the collections/research-related request was initiated or the outreach event occurred.
 
 Notification Date
-: Do not use this field.
+: This field is only used to indicate the date when specimens from a closed loan were returned to the collection.
 
 
 ## Objects tab
