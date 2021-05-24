@@ -35,6 +35,20 @@ All other LACMIP collections are located in a dedicated facility approximately 1
 - Several work stations in the office area and collections range
 - Large reprint library
 
+gallery:
+  - url: /assets/images/visiting_collections.jpg
+    image_path: /assets/images/visiting_collections.jpg
+    alt: "Stratigraphic Collections"
+    title: "Image 1 title caption"
+  - url: /assets/images/visiting_library.jpg
+    image_path: /assets/images/visiting_library.jpg
+    alt: "Reprint Library"
+    title: "Reprint Library"
+  - url: /assets/images/visiting_preplab.jpg
+    image_path: /assets/images/visiting_preplab.jpg
+    alt: "Prep Lab"
+    title: "Prep Lab"
+
   * ![Collections](https://lacmip.github.io/emu/assets/images/visiting_collections.jpg)
   * [![Library](https://lacmip.github.io/emu/assets/images/visiting_library.jpg)
   * ![Prep Lab](https://lacmip.github.io/emu/assets/images/visiting_preplab.jpg)
