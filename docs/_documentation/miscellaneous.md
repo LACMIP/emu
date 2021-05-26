@@ -9,17 +9,17 @@ last_modified_at: 2021-05-25
 This page is for EMu documentation the does not yet have a home!
 
 # Catalogue module
-## How to "delete" at catalog record & dealing with double cataloged lots
-Deleting catalog records should be avoided, especially if that record has already made its way to one of LACMIP's published online datasets. If you find a specimen lot that should be "deleted" (or, more accurately, disregarded) and the accidentaly catalog number should not be recycled, on the "bad" record, make the following changes:
+## How to "delete" a catalog record & deal with double cataloged lots
+Deleting catalog records should be avoided, and especially when a record has already made its way into one of LACMIP's online datasets. However, this occasionally happens, and if you find a lot that falls in this category (i.e. when the accidental catalog number should not be recycled), the "bad" catalog record should be "discarded" in EMu. To do so, made the following changes to the offending catalog record:
 
-| Tab | Field | Change |
+| Tab | Field | Change... |
 |---|---|---|
-| Invert. Paleo. | _Disposition_ | "discarded" |
-| Invert. Paleo. | _Lot Remarks_ | Begin the lot remarks with, "Disregard this catalog record." You can add more detail, if needed, including the correct catalog number after this statement. |
-| Relationships | _Related Records_ | detach any attached records |
-| Security | _Publish on Internet_ | "no" |
+| Invert. Paleo. | Disposition | "discarded" |
+| Invert. Paleo. | Lot Remarks | Begin your remarks with, "Disregard this catalog record." If needed, add more detail, including the correct catalog number, after this statement. |
+| Relationships | Related Records | detach any attached records |
+| Security | Publish on Internet | "no" |
 
-Clear out any values in the following fields on the Invert. Paleo. tab: _LACMIP Type No._, _Field No._, _Alternative Numbers_ table, _Collection_, _Project_, _Original Nature_, _Anatomy_, _IP Publications_ table
+Additionally, clear out any values in the following fields on the Invert. Paleo. tab: _LACMIP Type No._, _Field No._, _Alternative Numbers_ table, _Collection_, _Project_, _Original Nature_, _Anatomy_, _IP Publications_ table
 
-🛑 **Only staff** should delete or annotate catalog records to be discarded!
+🛑 Volunteers, interns, and part-time stuff should not delete or annotate catalog records to be discarded without assistance.
 {: .notice--warning}
