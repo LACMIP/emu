@@ -106,7 +106,7 @@ If you need to create a new Bibliography record, search for an existing one from
  *Field* | *In the IP Publications table...*
    --- | ---
     *Pages* | Enter the page number(s) where the specimen is described. Do not enter "p.", "pg.", etc. before the number(s).
-    *Fig* | Enter the plate and figure number(s) separated by a colon. For example: "pl. 1: fig. 1-3". If a specimen is figured on multiple plates, separate these entries with a semicolon. For example, "pl. 1: fig. 1-5; pl. 4: fig. 3b, 3c". If the figure is unnumbered, enter "fig. unnumbered". If the specimen is unfigured, enter "unfigured". This field can be stretched horizontally if needed.
+    *Fig* | Enter the plate and figure number(s) separated by a colon. For example: "pl. 1: fig. 1-3". If a specimen is figured on multiple plates, separate these entries with a semicolon. For example, "pl. 1: fig. 1-5; pl. 4: fig. 3b-c". If the figure is unnumbered, enter "fig. unnumbered". If the specimen is unfigured, enter "unfigured". This field can be stretched horizontally if needed.
     *Type* | Indicate what kind of type the specimen is according to the publication. For specimens cited in theses, dissertations, and historic manuscripts, enter "Unpublished". The first letter should be uppercase, e.g. "Holotype".
 
 Publications in this table should be listed chronologically with the **oldest (first) publication** appearing **in the top row**. If needed, click and drag to reorder these entries. You may wish to print this [formatting cheatsheet]({{ site.baseurl }}/assets/images/catalogue_ippublicationsformatting.png) for values in *Page* and *Fig*.
