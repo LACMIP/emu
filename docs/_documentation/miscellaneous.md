@@ -28,6 +28,14 @@ Additionally, clear out any values in the following fields on the Invert. Paleo.
 🛑 Volunteers and interns do not have permission to delete catalog records, or "discard" them, as outlined above.
 {: .notice--warning}
 
+## How to document _new_ unfigured "hypotypes"
+- _Type Status_= "blank"
+- _Fig_= "unfigured"
+- _Type_= "Examined"
+
+{% include figure image_path="/assets/images/imls_examinedspm.png" alt="" caption="" %}
+
+
 # Taxonomy module
 ## How to create new taxonomy records for the IMLS Project (2019-2021)
 {% include figure image_path="/assets/images/imls_newtaxonomy1.png" alt="" caption="" %}
