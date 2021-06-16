@@ -3,10 +3,13 @@ title: Citations
 navcat: Workflows
 tags:
 toc_sticky: true
-last_modified_at: 2021-02-19
+last_modified_at: 2021-06-16
 ---
 
 **Proper citation of museum collections is critical to sustaining these resources and the reproducibility of your research.** If you intend to include LACMIP specimens or localities in a forthcoming work, please follow the guidelines below. In exchange for the use of LACMIP collections data in your research, we request that any resulting publications be shared with LACMIP staff.
+
+Are you looking to donate specimens in need LACMIP numbers for publication? The steps for doing so are outlined [here](https://lacmip.github.io/emu/documentation/donating/).
+{: .notice--warning}
 
 # Citing LACMIP specimens
 ## How to cite?
