@@ -3,7 +3,7 @@ title: Catalogue
 navcat: Modules
 tags: cataloging quick-start
 toc_sticky: true
-last_modified_at: 2021-03-16
+last_modified_at: 2021-06-21
 ---
 The Catalogue module is the primary place for information about each specimen lot, and a node linking together data from many of the other modules. Please see [Axiell's documentation](http://help.emu.axiell.com/latest/en/Topics/EMu/Catalogue%20module.htm) for generic information about this module. Continue reading here to understand how LACMIP uses the fields available in the Catalogue module.
 
@@ -65,10 +65,11 @@ Identification
 : Displays *Modified Taxon*, *Identified By*, and *ID Date* from the *Identification (1)* tab (see below for details).
 
 Type Status
-: A controlled vocabulary to classify the kind of type specimen. Please enter the type status of highest priority that applies to the specimen. (For example, choose "holotype" or "syntype" over "hypotype"). The controlled vocabulary includes:
+: A controlled vocabulary to classify the kind of type specimen. Please enter the type status of highest priority that applies to the specimen. (For example, choose "holotype" over "hypotype" or "figured"). In addition to online data publishing, the information in this field is used to updating our insurance valuations. The controlled vocabulary includes:
     - "allotype"
+    - "figured"
     - "holotype"
-    - "hypotype" (to replace "figured")
+    - "hypotype"
     - "lectotype"
     - "neotype"
     - "paratype
@@ -76,6 +77,7 @@ Type Status
     - "paraleptotype"
     - "paratype"
     - "syntype"
+    - "unfigured"
 
 Collection
 : A controlled vocabulary to indicate which physical part of the collection this specimen lot should be housed in. Vocabulary includes:
