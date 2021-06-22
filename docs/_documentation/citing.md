@@ -8,10 +8,9 @@ last_modified_at: 2021-06-16
 
 **Proper citation of museum collections is critical to sustaining these resources and the reproducibility of your research.** If you intend to include LACMIP specimens or localities in a forthcoming work, please follow the guidelines below. In exchange for the use of LACMIP collections data in your research, we request that any resulting publications be shared with LACMIP staff.
 
-:pencil: Our printable checklist for authors is available [here](https://docs.google.com/document/d/1rf62uKHe507JtbpTd25oPfuk5JD7mwlmF0IcQH2jm5Y/edit?usp=sharing).
+:arrow_forward: Our printable checklist for authors is available [here](https://docs.google.com/document/d/1rf62uKHe507JtbpTd25oPfuk5JD7mwlmF0IcQH2jm5Y/edit?usp=sharing).
 
-Are you looking to donate specimens in need LACMIP numbers for publication? The steps for doing so are outlined [here](https://lacmip.github.io/emu/documentation/donating/).
-{: .notice--warning}
+:arrow_forward: Are donating specimens in need LACMIP numbers for publication? This process id outlined [here](https://lacmip.github.io/emu/documentation/donating/).
 
 # Citing LACMIP specimens
 ## How to cite?
