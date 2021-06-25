@@ -162,7 +162,7 @@ To update locations for multiple records at once:
     1 | Navigate to the search form (*File > New Search*). 
     2 | On the search form, navigate to the Admin tab.
     3 | Enter your name in *Modified By*, the date in *Modification Date*, and execute the search.
-    4 | Review the results in List view.
+    4 | Review the results using the List view "IP Locations" (_View > List Settings > Choose List_) and sort them by "Modification Date-Time" (_Tools > Sort Results_).
     5 | Hold shift to select all records from the same drawer. ⚠️**Critical: Make sure you're only selecting lots that came from the same drawer.**
     6 | Navigate: *Tools > Relocate > Selected Records*
     7 | In the Location Update window, click on the green ➕ to open the Locations module.
