@@ -3,7 +3,7 @@ title: Type Collection
 navcat: Workflows
 tags: cataloging
 toc_sticky: true
-last_modified_at: 2021-03-22
+last_modified_at: 2021-06-24
 ---
 
 This documentation was created for the IP & Malacology Type Collection Renovation & Digitization project supported by [IMLS # MA-30-18-0335-18](https://www.imls.gov/grants/awarded/ma-30-18-0335-18-0), 2019-2021.
@@ -26,7 +26,7 @@ Type specimens, or "types", are the physical, name-bearing vouchers for new taxa
 
 ## What is "taxonomy"?
 
-In the biological sense, taxonomy refers to the identification and interpretation of organisms within natural groups. While you will not be entering or editing specimen identifications or taxonomy in EMu, taxonomy forms the foundation upon which the type collection is organized, and it is therefore important that you familiarize yourself with the basic concepts of taxonomy and binomial nomenclature by reviewing [this article](https://www.digitalatlasofancientlife.org/learn/systematics/taxonomy/) and/or the following video. The ICNZ also provides helpful [definitions](https://www.iczn.org/outreach/faqs/#faq-1).
+In the biological sense, taxonomy refers to the identification and interpretation of organisms within natural groups. While you will not be entering or editing specimen identifications or taxonomy in EMu, taxonomy forms the foundation upon which the type collection is organized, and it is therefore important that you familiarize yourself with the basic concepts of taxonomy and binomial nomenclature by reviewing [this article](https://www.digitalatlasofancientlife.org/learn/systematics/taxonomy/) and/or the following video. The ICZN also provides helpful [definitions](https://www.iczn.org/outreach/faqs/#faq-1).
 {% include video id="12XO8vYqBsA" provider="youtube" %}
 
 ## QC/Editing vs. Cataloging
@@ -98,9 +98,10 @@ Specimens are designated as types if they are cited in publications, and this in
 
  *Field* | *In the IP Publications table...*
    --- | ---
-    *Publication* | **If a publication is already listed in the table**, verify the information in the *Pages*, *Fig.*, and *Type* fields using a copy of the book or paper. LACMIP maintains a collection of reprints for this purpose. If you need to search for a digital copy, please [consult the appendix]({{ site.baseurl }}/documentation/typecollection/#gathering-literature) **If a publication is missing from the *IP Publications* table**, it needs to be attached using the Bibliography module. To do so, search for the publication by typing in a few key words from its title or one or a few lastnames from the author list and press tab or select the green ➕ button. If an entry for this publication already exists in the Bibliography module, it may automatically attach itself to the row. Verify that the correct record was retrieved. It is also possible that you will be presented with several options. In this case, [locate the correct record]({{ site.baseurl }}/assets/images/bibliography_ippublications.png) and attach it to *Publications* using the green ➕ button. If you are certain the correct Bibliography record does not exists yet, you will need to create a new one. **To create a new Bibliography record,** consult the documentation for the [Bibliography module]({{ site.baseurl }}/documentation/bibliography/).
+    *Publication* (Scenario 1) | **If a publication is already listed in the table**, verify the information in the *Pages*, *Fig.*, and *Type* fields using a copy of the book or paper. LACMIP maintains a collection of reprints for this purpose. If you need to search for a digital copy, please [consult the appendix]({{ site.baseurl }}/documentation/typecollection/#gathering-literature). 
+    *Publication* (Scenario 2) | **If a publication is missing from the *IP Publications* table**, it needs to be attached using the Bibliography module. To do so, in a blank row the *Publication* field of the table, search for the publication by typing in a few words from the title or a few last names from the author list, then press 'tab' or select the green ➕ button. _If an entry for this publication already exists in the Bibliography module_, it may automatically attach itself to the row. Verify that the correct record was retrieved by opening it with the blue :arrow_right: button. _If you are presented with several options_, [locate the correct Bibliography record]({{ site.baseurl }}/assets/images/bibliography_ippublications.png) and attach it to *Publications* using the green ➕ button. If you are certain the correct Bibliography record does not exist, you will need to create a new one. Please ask for help the first time this happens.
 
-If you need to create a new Bibliography record, search for an existing one from the same journal and use it as a template for the new record using ditto. The [gathering literature]({{ site.baseurl }}/documentation/bibliography/#gathering-literature) section of the appendix outlines where and how to add digital literature to the LACMIP reprint library. 
+If you need to create a new Bibliography record, search for an existing one from the same journal and use it as a template for the new record using ditto. The [gathering literature]({{ site.baseurl }}/documentation/bibliography/#gathering-literature) section of the appendix outlines where and how to add digital literature to the LACMIP reprint library.
 {: .notice--warning}
 
  *Field* | *In the IP Publications table...*
