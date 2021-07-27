@@ -54,7 +54,7 @@ Once the donation is fully approved and accessioned, a [Deed of Gift]({{ site.ba
 In the words of the American Alliance of Museums:
 > "Accessioning is the formal act of legally accepting an object or objects ... that a museum holds in the public trust, or in other words those in the museum’s permanent collection. Because it commits staff time, space and other resources to the proper care of this material, it is important that acquiring material for the collections be done in a thoughtful, inclusive way that reflects the best interests of the museum and its audiences, and can be sustained by the available resources."
 
-For these reasons, while the NHMLA aims to accommodate donations whenever possible, the museum reserves the right to decline donations that may not align with our mission, or that may be exceptionally difficult for us to properly care for in perpetuity.
+For these reasons, while the NHMLA aims to accommodate donations whenever possible, the museum reserves the right to decline donations that are not well documented, do not align with our mission, and/or may be exceptionally difficult for us to properly care for in perpetuity.
 
 # Contact information
 Please direct questions and related inquiries to the Collections Manager: [lwalker@nhm.org](lwalker@nhm.org).
