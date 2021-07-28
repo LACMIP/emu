@@ -3,7 +3,7 @@ title: Donations
 navcat: Workflows
 tags:
 toc_sticky: true
-last_modified_at: 2021-05-12
+last_modified_at: 2021-07-28
 ---
 
 Are you planning to donate fossils to the LACMIP collections? This page outlines what steps you can expect in this process.
@@ -27,7 +27,7 @@ The first step in the donation process is to [send]({{ site.baseurl }}/documenta
 - **If you are donating a large collection**, be aware that a more comprehensive inventory may be requested _prior_ to the collection arriving at the museum, the purpose of which is to ensure LACMIP is the most appropriate repository for your fossils.
 - **Detailed locality information is highly preferred**, and may be provided by downloading and completing a copy of our [Locality Request Form](https://docs.google.com/spreadsheets/d/1v1xc2jFS-fva_YW_9lPM89yGpv7XCacIA1H0SAAgA8w/edit?usp=sharing).
 
-:warning: **Be prepared to provide evidence that all fossils to be donated were legally acquired, be this via personal collection, purchases, or otherwise. In the case of fossils from international localities, import/export documentation from the country/ies of origin may be requested**. Documentation may include, but is not limited to, copies of collecting permits, letters of permission to collect, and/or import/export documentation. While we aim to accommodate donations whenever possible, the museum reserves the right to decline fossils and other materials that are not well documented.
+:warning: **Be prepared to provide evidence that all fossils to be donated were legally acquired, be this via personal collection, purchases, or otherwise. In the case of fossils from international localities, import/export documentation from the country/ies of origin may be requested**. Documentation may include, but is not limited to, copies of collecting permits, letters of permission to collect, and/or import/export documentation. While we aim to accommodate donations whenever possible, the museum reserves the right to decline fossils and other materials that are not well documented. Refer to our guide on ["Collecting Permission & Permitting for Fossil Invertebrates"](https://drive.google.com/file/d/17WgKYogDTRmVWNiIU4qxP4gImo3oiwiF/view?usp=sharing) for more information.
 {: .notice--warning}
 
 ## 2. Transportation
