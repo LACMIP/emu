@@ -3,7 +3,7 @@ title: Type Collection
 navcat: Workflows
 tags: cataloging
 toc_sticky: true
-last_modified_at: 2021-06-24
+last_modified_at: 2021-08-02
 ---
 
 This documentation was created for the IP & Malacology Type Collection Renovation & Digitization project supported by [IMLS # MA-30-18-0335-18](https://www.imls.gov/grants/awarded/ma-30-18-0335-18-0), 2019-2021.
@@ -229,3 +229,22 @@ One way to check whether a number is an old locality number is by clicking the b
 
 If you're not sure what a number represents, take a photo of it and send it to collections staff in the Google Chat or via email.
 {: .notice--warning}
+
+## Numbering new types
+Type numbers are created by painting white, 20lb archival quality paper with acrylic paint (primary red, yellow, and blue) and allowing it to dry at least 24 hours. Once completely dry, the painted paper is then cut into 1cm strips with the paper cutter and is ready for adhesion to specimens. Ideally, specimens to be numbered will already have a new printed label accompanying them.
+
+{% include figure image_path="/assets/images/imls_labels.jpg" alt="new type specimen label" caption="New type specimens should receive new labels before numbers are applied to the specimens." %}
+
+If you're asked to apply numbers to new type specimens, please consult the following workflow:
+- 
+*Step* | *Type Numbering Workflow*
+   --- | ---
+    1. Organize | All new type specimens to be numbered should be organized by ascending type number in their tray. 
+    2. Labels | Look at the newly printed specimen labels. The colors (red, yellow, or blue) correspond to each specimen's highest conferred [type status]({{ site.baseurl }}/documentation/typecollection/#type-numbers). 
+    3. Write #s | {% include figure image_path="/assets/images/imls_numbering1.jpg" alt="new type specimen numbers" caption="" %} If it hasn't been done for you, begin writing the type specimen numbers on the strips of colored paper. **The color of the number should match the color on the printed specimen label.** Use a 01 black Pigma Micron pen. The goal is to make your numbers as small and condensed, but clearly legible, as possible. Consult the [numbering stype guide]({{ site.baseurl }}/documentation/digitizing/#numbering) for examples. The goal is to obscure as little of the specimen as possible.
+    4. Drying | Set aside the numbers so the ink can dry, and avoid touching the freshly numbered paper strips to prevent ink smudges. Ideally, the numbers will be left to dry overnight.
+    5. QC | Select the first specimen in the tray to be numbered (this should be the specimen with the lowest type number). Compare the information on the newly printed specimen label to its publication. Pay special attention to **specimen numbers**, **figure numbers**, and **_type status_** on the specimen label. If there are errors, they will need to be corrected and the label must be reprinted. If the _type status_ is incorrect, the specimen number may additionally need to be rewritten on the more appropriately colored paper strip. Ask for help the first time you encounter an error.
+    6. Trim | {% include figure image_path="/assets/images/imls_numbering2.jpg" alt="new type specimen numbers" caption="" %}
+    If the information is correct, trim the type number from the strip, carefully removing off excess edges. Continue to avoid touching the ink with your hands and use forceps to pick them up. 
+    7. Adhere | Using the thicker B72 available, swipe a coat of consolidant over the unpainted side of the number.
+    8. Position | {% include figure image_path="/assets/images/imls_numbering3.jpg" alt="new type specimen numbers" caption="" %} Carefully place the number on the specimen. Placement should be generally inconspicuous: on bivalves, avoid covering any internal muscle scars or hinge morphology; on gastropods, avoid the apertural view; place the number on adjacent rock matrix, rather than the specimen itself, when possible. As for assistance if your unsure, such as when multiple new type specimens are stuck together.
