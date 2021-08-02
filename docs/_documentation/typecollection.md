@@ -231,7 +231,7 @@ If you're not sure what a number represents, take a photo of it and send it to c
 {: .notice--warning}
 
 ## Numbering new types
-Type numbers are created by painting white, 20lb archival quality paper with acrylic paint (primary red, yellow, and blue) and allowing it to dry at least 24 hours. Once completely dry, the painted paper is then cut into 1 cm strips in preparation for adhesion to specimens. New type specimens to be numbered should be accompanied by a newly printed specimen label for simultaneous quality control.
+Type numbers are created by painting white, 20lb archival quality paper with acrylic paint (primary red, yellow, or blue) and allowing it to dry at least 24 hours. Once completely dry, the painted paper is then cut into 1 cm strips in preparation for adhesion to specimens. New type specimens to be numbered should be accompanied by a newly printed specimen label for simultaneous quality control.
 
 {% include figure image_path="/assets/images/imls_labels.jpg" alt="new type specimen label" caption="New type specimens should receive new labels before numbers are applied to the specimens." %}
 
@@ -252,3 +252,5 @@ To avoid mixing up specimens and labels, only work with one specimen lot at a ti
 | Position | <img src="{{ site.baseurl }}/assets/images/imls_numbering3.jpg" alt="" width="500"/>{: .align-center} Carefully place the number on the specimen. **Placement should be generally inconspicuous**: on bivalves, avoid covering any internal muscle scars or hinge morphology; on gastropods, avoid the apertural view. When possible, place the number on adjacent rock matrix, rather than the specimen itself. Ask for assistance if you're unsure, such as when multiple type specimens are stuck together. |
 | Press | After you have finished the tray, or are done for the day (whichever comes first), revisit the freshly adhered numbers. Gently press on them to ensure tight contact with the specimen. Use good judgement and do not press so hard that you might damage the fossil. |
 | Topcoat | Using the thinner B72, swipe a top coat of consolidant over the number. When you place the specimen back in its box, do not let the wet B72 come in contact with the specimen labels or box while drying. |
+
+If a specimen is incorrectly numbered, the painted paper label can be removed. To remove an incorrect number: 1) Soak a Q-tip in acetone and gently roll it over the number label, giving the acetone time to penetrate the unpainted paper from below. 2) Gently peel back the top, painted portion of the label with forceps, taking care not to scratch the specimen. Reapply acetone as needed until the paper label is completely removed.
