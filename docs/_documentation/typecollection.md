@@ -236,7 +236,7 @@ Type numbers are created by painting white, 20lb archival quality paper with acr
 {% include figure image_path="/assets/images/imls_labels.jpg" alt="new type specimen label" caption="New type specimens should receive new labels before numbers are applied to the specimens." %}
 
 If you're asked to apply numbers to new type specimens, please consult the following workflow:
-- 
+
 *Step* | *Type Numbering Workflow*
    --- | ---
     1. Organize | All new type specimens to be numbered should be organized by ascending type number in their tray. 
