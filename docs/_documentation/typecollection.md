@@ -231,7 +231,7 @@ If you're not sure what a number represents, take a photo of it and send it to c
 {: .notice--warning}
 
 ## Numbering new types
-Type numbers are created by painting white, 20lb archival quality paper with acrylic paint (primary red, yellow, or blue) and allowing it to dry at least 24 hours. Once completely dry, the painted paper is then cut into 1 cm strips in preparation for adhesion to specimens. New type specimens to be numbered should be accompanied by a newly printed specimen label for simultaneous quality control.
+Type numbers are created by painting white, 20lb archival quality paper with acrylic paint (primary red, yellow, or blue) and allowing it to dry at least 24 hours. Once completely dry, the painted paper is then cut into 1 cm strips in preparation for adhesion to specimens. New type specimens to be numbered should be accompanied by their newly printed specimen label for simultaneous quality control.
 
 {% include figure image_path="/assets/images/imls_labels.jpg" alt="new type specimen label" caption="New type specimens should receive new labels before numbers are applied to the specimens." %}
 
