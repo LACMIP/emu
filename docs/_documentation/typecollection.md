@@ -237,7 +237,7 @@ Type numbers are created by painting white, 20lb archival quality paper with acr
 
 If you're asked to apply numbers to new type specimens, please consult the following workflow.
 
-:one: To avoid mixing up specimens and labels, work with only one specimen lot at a time.
+To avoid mixing up specimens and labels, work with only one specimen lot at a time.
 {: .notice--warning}
 
 | *Step* | *Type Numbering Workflow* |
@@ -250,7 +250,7 @@ If you're asked to apply numbers to new type specimens, please consult the follo
 | Trim | <img src="{{ site.baseurl }}/assets/images/imls_numbering2.jpg" alt="" width="500"/>{: .align-center} If the information is correct, trim the type number from the strip, carefully removing excess edges. Continue to avoid touching the ink with your hands and use forceps to pick up the number labels. |
 | B72 Undercoat | Using the thicker B72 available, swipe a coat of consolidant over the unpainted side of the number. |
 | Position Number | <img src="{{ site.baseurl }}/assets/images/imls_numbering3.jpg" alt="" width="500"/>{: .align-center} Carefully place the number on the specimen. **Placement should be generally inconspicuous**: on [bivalves](https://www.digitalatlasofancientlife.org/wp-content/uploads/2020/09/Bivalve-InternalMorphology-2000px.jpg), avoid covering any internal muscle scars or hinge morphology; on [gastropods](https://www.digitalatlasofancientlife.org/wp-content/uploads/2016/12/Gastropoda-ShellMorphology-1000px-square.png), avoid the apertural view. When possible, place the number on adjacent rock matrix, rather than the specimen itself. Ask for assistance if you're unsure, such as when multiple type specimens are stuck together. |
-| Press | After you have finished the tray, or are done for the day (whichever comes first), revisit the freshly adhered numbers. Gently press on them to ensure tight contact with the specimen. Use good judgement and do not press so hard that you might damage the fossil. |
-| B72 Topcoat | After you finish the tray, or are done for the day (whichever comes first), using the thinner B72, swipe a top coat of consolidant over the number. When you place the specimen back in its box, do not let the wet B72 come in contact with the specimen labels or box while drying. |
+| Press | After you have finished the tray, or are done for the day (whichever comes first), revisit the freshly adhered numbers. Gently press on them to ensure tight contact with the specimen. Use good judgement and don't press so hard that you might damage the fossil. |
+| B72 Topcoat | After you finish the tray, or are done for the day (whichever comes first), using the thinner B72, swipe a top coat of consolidant over the number. When you place the specimen back in its box, don't let the wet B72 come in contact with the specimen labels or box. |
 
 :speak_no_evil: If a specimen is incorrectly numbered, the painted paper label can be removed. To remove an incorrect number: 1) Soak a Q-tip in acetone and gently roll it over the number label. Give the acetone a minute to penetrate the paper. 2) Gently peel back the top painted portion of the label with forceps, taking care not to scratch the specimen. Reapply acetone as needed and continue peeling up reminants of the paper label until is completely removed.
