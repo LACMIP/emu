@@ -237,7 +237,7 @@ Type numbers are created by painting white, 20lb archival quality paper with acr
 
 If you're asked to apply numbers to new type specimens, please consult the following workflow.
 
-To avoid mixing up specimens and labels, work with only one specimen lot at a time.
+Work with only one specimen lot at a time to avoid mixing up specimens and labels.
 {: .notice--warning}
 
 | *Step* | *Type Numbering Workflow* |
