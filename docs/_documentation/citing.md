@@ -3,7 +3,7 @@ title: Citations
 navcat: Workflows
 tags:
 toc_sticky: true
-last_modified_at: 2021-06-16
+last_modified_at: 2021-08-04
 ---
 
 **Proper citation of museum collections is critical to sustaining these resources and the reproducibility of your research.** If you intend to include LACMIP specimens or localities in a forthcoming work, please follow the guidelines below. In exchange for the use of LACMIP collections data in your research, we request that any resulting publications be shared with LACMIP staff.
@@ -31,7 +31,7 @@ All LACMIP specimens receive catalog numbers during digitization. Each catalog n
 - holotypes, syntypes, paratypes, lectotypes, neotypes, allotypes
 
 **Specimens that do not receive type numbers include:**
-- figured and unfigured hypotypes, mentioned/referred specimens
+- unfigured specimens/hypotypes, mentioned/referred specimens
 
 If a specimen has a _preexisting_ type number (even hypotypes), it must be referenced in-text alongside the catalog number. Please contact the collections manager if you are unsure what to do.
 
