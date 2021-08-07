@@ -147,7 +147,7 @@ Specimens that are clearly damaged or deteriortating should be noted. Please ind
     *Checked By* | Attach your Parties record. 
     *Condition Details* | Briefly describe the problem, e.g. "Specimen is deteriorating. Consolidation required." or "Number painted on specimen should be removed and corrected. It should be 12760."
     
-    
+If a specimen is deteriorating such that pieces are starting to break off, contain the pieces in a vial or small box, and nest this container next to the specimen they came from. Put a label in the vial or box indicating which specimen they belong to. 
 
 ## VI. Locate specimens
 
@@ -253,4 +253,11 @@ Work with only one specimen lot at a time to avoid mixing up specimens and label
 | Press | After you have finished the tray, or are done for the day (whichever comes first), revisit the freshly adhered numbers. Gently press on them to ensure tight contact with the specimen. Use good judgement and don't press so hard that you might damage the fossil. |
 | B72 Topcoat | After you finish the tray, or are done for the day (whichever comes first), using the thinner B72, swipe a top coat of consolidant over the number. When you place the specimen back in its box, don't let the wet B72 come in contact with the specimen labels or box. |
 
+Other considerations:
+- Try to finish a tray completely before you leave. If your shift ends in the middle of a tray, clearly note where you left off in the tray.
+- If a lot contains multiple specimens (or pieces of the same specimen) that were legitimately published under the same type number, each piece should be numbered.
+
 If a specimen is incorrectly numbered, the painted paper label can be removed. To remove an incorrect number: 1) Soak a Q-tip in acetone and gently roll it over the number label. Give the acetone a minute to penetrate the paper. 2) Gently peel back the top painted portion of the label with forceps, taking care not to scratch the specimen. 3) Reapply acetone as needed and continue peeling up reminants of the paper label until is completely removed.
+
+## Rehousing types
+- Specimens should comfortably lie flat in boxes. The fit should not be tight.
