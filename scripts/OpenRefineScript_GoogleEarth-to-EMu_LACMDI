@@ -1,0 +1,414 @@
+[
+  {
+    "op": "core/column-reorder",
+    "description": "Reorder columns",
+    "columnNames": [
+      "Placemark - Point - coordinates",
+      "Placemark - description",
+      "Placemark - name"
+    ]
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Placemark - Point - coordinates",
+          "expression": "isBlank(value).toString()",
+          "columnName": "Placemark - Point - coordinates",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "true",
+                "l": "true"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Placemark - description",
+          "expression": "isBlank(value).toString()",
+          "columnName": "Placemark - description",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "true",
+                "l": "true"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Placemark - name to VPLDILocNo",
+    "oldColumnName": "Placemark - name",
+    "newColumnName": "VPLDILocNo"
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column Placemark - description by separator",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Placemark - description",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "; ",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Placemark - description 4 using expression grel:value.replace(\"georef by: \",\"\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Placemark - description 4",
+    "expression": "grel:value.replace(\"georef by: \",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Placemark - description 4 using expression grel:value.replace(\";\",\"\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Placemark - description 4",
+    "expression": "grel:value.replace(\";\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Placemark - description 3 using expression grel:value.replace(\"georef date (yyyy-mm-dd): \",\"\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Placemark - description 3",
+    "expression": "grel:value.replace(\"georef date (yyyy-mm-dd): \",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Placemark - description 2 using expression grel:value.replace(\"notes: XXX\",\"\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Placemark - description 2",
+    "expression": "grel:value.replace(\"notes: XXX\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Placemark - description 2 using expression grel:value.replace(\"notes: \",\"\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Placemark - description 2",
+    "expression": "grel:value.replace(\"notes: \",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Placemark - description 1 using expression grel:value.replace(\"radius (m): \",\"\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Placemark - description 1",
+    "expression": "grel:value.replace(\"radius (m): \",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column Placemark - Point - coordinates by separator",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Placemark - Point - coordinates",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": ",",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Placemark - Point - coordinates 3",
+    "columnName": "Placemark - Point - coordinates 3"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Placemark - Point - coordinates 1 using expression value.toString()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Placemark - Point - coordinates 1",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Placemark - Point - coordinates 2 using expression value.toString()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Placemark - Point - coordinates 2",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-move",
+    "description": "Move column VPLDILocNo to position 0",
+    "columnName": "VPLDILocNo",
+    "index": 0
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Placemark - Point - coordinates 2 to LatLatitudeDecimal_nesttab(-:1)",
+    "oldColumnName": "Placemark - Point - coordinates 2",
+    "newColumnName": "LatLatitudeDecimal_nesttab(-:1)"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Placemark - Point - coordinates 1 to LatLongitudeDecimal_nesttab(-:1)",
+    "oldColumnName": "Placemark - Point - coordinates 1",
+    "newColumnName": "LatLongitudeDecimal_nesttab(-:1)"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Placemark - description 1 to LatRadiusNumeric_tab(-)",
+    "oldColumnName": "Placemark - description 1",
+    "newColumnName": "LatRadiusNumeric_tab(-)"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column LatRadiusUnit_tab(-) at index 4 based on column LatRadiusNumeric_tab(-) using expression grel:\"meters\"",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "LatRadiusUnit_tab(-)",
+    "columnInsertIndex": 4,
+    "baseColumnName": "LatRadiusNumeric_tab(-)",
+    "expression": "grel:\"meters\"",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Placemark - description 3 to LatDetDate0(-)",
+    "oldColumnName": "Placemark - description 3",
+    "newColumnName": "LatDetDate0(-)"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Placemark - description 4 to LatDeterminedByRef_tab(-).irn",
+    "oldColumnName": "Placemark - description 4",
+    "newColumnName": "LatDeterminedByRef_tab(-).irn"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column LatDeterminedByRef_tab(-).irn using expression grel:value.replace(\"Dalton, T.\",\"34483\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "LatDeterminedByRef_tab(-).irn",
+    "expression": "grel:value.replace(\"Dalton, T.\",\"34483\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Placemark - description 2 to LatGeoreferencingNotes0(-)",
+    "oldColumnName": "Placemark - description 2",
+    "newColumnName": "LatGeoreferencingNotes0(-)"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column LatDatum_tab(-) at index 8 based on column LatDeterminedByRef_tab(-).irn using expression grel:\"WGS84\"",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "LatDatum_tab(-)",
+    "columnInsertIndex": 8,
+    "baseColumnName": "LatDeterminedByRef_tab(-).irn",
+    "expression": "grel:\"WGS84\"",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column LatPreferred_tab(-) at index 9 based on column LatDatum_tab(-) using expression grel:\"Yes\"",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "LatPreferred_tab(-)",
+    "columnInsertIndex": 9,
+    "baseColumnName": "LatDatum_tab(-)",
+    "expression": "grel:\"Yes\"",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column LatLatLongDetermination_tab(-) at index 10 based on column LatPreferred_tab(-) using expression grel:\"LACMIP georeferencing 2021\"",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "LatLatLongDetermination_tab(-)",
+    "columnInsertIndex": 10,
+    "baseColumnName": "LatPreferred_tab(-)",
+    "expression": "grel:\"LACMIP georeferencing 2021\"",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column LatDetSource_tab(-) at index 11 based on column LatLatLongDetermination_tab(-) using expression grel:\"Google Earth\"",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "LatDetSource_tab(-)",
+    "columnInsertIndex": 11,
+    "baseColumnName": "LatLatLongDetermination_tab(-)",
+    "expression": "grel:\"Google Earth\"",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column LatComment_nesttab(-:1) at index 12 based on column LatDetSource_tab(-) using expression grel:\"requires verification\"",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "LatComment_nesttab(-:1)",
+    "columnInsertIndex": 12,
+    "baseColumnName": "LatDetSource_tab(-)",
+    "expression": "grel:\"requires verification\"",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column LatComment_nesttab(-:1)",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "LatDeterminedByRef_tab(-).irn",
+          "expression": "value",
+          "columnName": "LatDeterminedByRef_tab(-).irn",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Maureen Walsh",
+                "l": "Maureen Walsh"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "LatComment_nesttab(-:1)",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "requires verification"
+        ],
+        "to": "verified by collections manager"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column LatDeterminedByRef_tab(-).irn",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "LatDeterminedByRef_tab(-).irn",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Maureen Walsh"
+        ],
+        "to": "6323"
+      }
+    ]
+  }
+]
