@@ -350,12 +350,12 @@
   },
   {
     "op": "core/column-addition",
-    "description": "Create column LatComment_nesttab(-:1) at index 12 based on column LatDetSource_tab(-) using expression grel:\"requires verification\"",
+    "description": "Create column LatVerificationStatus_tab(-:1) at index 12 based on column LatDetSource_tab(-) using expression grel:\"requires verification\"",
     "engineConfig": {
       "facets": [],
       "mode": "row-based"
     },
-    "newColumnName": "LatComment_nesttab(-:1)",
+    "newColumnName": "LatVerificationStatus_tab(-:1)",
     "columnInsertIndex": 12,
     "baseColumnName": "LatDetSource_tab(-)",
     "expression": "grel:\"requires verification\"",
@@ -363,7 +363,7 @@
   },
   {
     "op": "core/mass-edit",
-    "description": "Mass edit cells in column LatComment_nesttab(-:1)",
+    "description": "Mass edit cells in column LatVerificationStatus_tab(-:1)",
     "engineConfig": {
       "facets": [
         {
@@ -391,7 +391,7 @@
       ],
       "mode": "record-based"
     },
-    "columnName": "LatComment_nesttab(-:1)",
+    "columnName": "LatVerificationStatus_tab(-:1)",
     "expression": "value",
     "edits": [
       {
