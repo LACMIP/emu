@@ -10,7 +10,7 @@ last_modified_at: 2021-08-04
 
 :page_facing_up: Our printable checklist for authors is available [here](https://docs.google.com/document/d/1rf62uKHe507JtbpTd25oPfuk5JD7mwlmF0IcQH2jm5Y/edit?usp=sharing).
 
-:page_facing_up: Are you donating specimens in need of LACMIP numbers for publication? This process is outlined [here](https://lacmip.github.io/emu/documentation/donating/).
+:page_facing_up: Are you donating specimens in need of LACMIP numbers for publication? This process is outlined [here]({{ site.baseurl }}/documentation/donating/#1-pre-donation).
 
 # Citing LACMIP specimens
 ## How to cite?
