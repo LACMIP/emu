@@ -65,7 +65,7 @@ LACMIP localities should be cited in text as "**LACMIP locality #**" or "**LACMI
 Example: "**LACMIP loc. 2533**" or "**LACMIP locality 2533**".
 {: .notice--warning}
 
-**Each LACMIP locality is intended to represent a unique collecting/sampling event at the finest geographic and stratigraphic resolution possible.** Consequently, if a field party collects fossils from the same location over two days, two locality numbers will apply, even if the collecting events share the same coordinates.
+**Each LACMIP locality number is intended to represent a unique collecting/sampling event at the finest geographic and stratigraphic resolution possible.** Consequently, if a field party collects fossils from the same location over two days, two locality numbers will apply, even if the collecting events share the same coordinates.
 
 If you would like to request new LACMIP locality numbers, download and complete the [LACMIP Locality Request Form](https://docs.google.com/spreadsheets/d/1v1xc2jFS-fva_YW_9lPM89yGpv7XCacIA1H0SAAgA8w/edit?usp=sharing) and submit it to the collections manager, along with any relevant documentation, including collecting permits. (Open [form](https://docs.google.com/spreadsheets/d/1v1xc2jFS-fva_YW_9lPM89yGpv7XCacIA1H0SAAgA8w/edit?usp=sharing) > _File_ > _Download_).
 
