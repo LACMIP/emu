@@ -3,7 +3,7 @@ title: Citations
 navcat: Workflows
 tags:
 toc_sticky: true
-last_modified_at: 2021-08-04
+last_modified_at: 2021-08-20
 ---
 
 **Proper citation of museum collections is critical to sustaining these resources and the reproducibility of your research.** If you intend to include LACMIP specimens or localities in a forthcoming work, please follow the guidelines below. In exchange for the use of LACMIP collections data in your research, we request that any resulting publications be shared with LACMIP staff.
