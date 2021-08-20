@@ -29,9 +29,11 @@ All LACMIP specimens receive catalog numbers during digitization. Each catalog n
 
 **Specimens that may also receive new type numbers include:**
 - holotypes, syntypes, paratypes, lectotypes, neotypes, allotypes
+- figured specimens that are used in a formal taxonomic treatment
 
 **Specimens that do not receive type numbers include:**
 - unfigured specimens/hypotypes, mentioned/referred specimens
+- figured specimens _not_ used in a formal taxonomic treatment
 
 If a specimen has a _preexisting_ type number (even hypotypes), it must be referenced in-text alongside the catalog number. Please contact the collections manager if you are unsure what to do.
 
