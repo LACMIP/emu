@@ -11,13 +11,10 @@ last_modified_at: 2021-08-23
 
 # Terms & Conditions
 
-Please review our institutional loan conditions carefully prior to making your request: 
-{% include figure image_path="/assets/images/loans_sampleterms.pdf" alt="sample loan terms and conditions" caption="Terms and conditions of loans of material from the NHMLA collections." %}
+Please review our institutional [loan terms & conditions]({{ site.baseurl }}/assets/images/loans_sampleterms.pdf) carefully prior to making your request. For ease of reference, these same terms are outlined below:
 
-For ease of reference, these terms are also outlined below:
-
-## Care, Maintenance, Storage, & Security
-Unless other arrangements have been agreed to in writing between NHMLAC and Borrower, Borrower will be responsible for the care, maintenance, security, and condition of the loan material throughout the period of the loan. **No dissection, destructive analysis, molecular or isotopic sampling, alteration, restoration, conservation treatment, stabilization, cleaning, making of casts or molds or refurbishment of loan material may be undertaken without specific advance written approval of NHMLAC.** Any labels associated with NHMLAC specimens, materials or artifacts may not be removed or altered by the Borrower without specific advance written approval of NHMLAC.
+## Care & Security
+Unless other arrangements have been agreed to in writing between NHMLAC and Borrower, Borrower will be responsible for the care, maintenance, security, and condition of the loan material throughout the period of the loan. No dissection, destructive analysis, molecular or isotopic sampling, alteration, restoration, conservation treatment, stabilization, cleaning, making of casts or molds or refurbishment of loan material may be undertaken without specific advance written approval of NHMLAC. Any labels associated with NHMLAC specimens, materials or artifacts may not be removed or altered by the Borrower without specific advance written approval of NHMLAC.
 
 Borrower must be able to locate NHMLAC’s material and allow NHMLAC’s inspection upon request, either by a museum representative or by providing a current photograph and condition documentation. Failure to do so could result in immediate termination and return of the loan, demand for restitution, and/or denial of future loan requests at the discretion of NHMLAC. NHMLAC must be notified of any change in location and storage of all materials on loan to Borrower. Any off-premises storage must first be approved by NHMLAC in writing.
 
