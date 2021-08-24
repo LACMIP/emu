@@ -6,12 +6,12 @@ toc_sticky: true
 last_modified_at: 2021-08-23
 ---
 
-:hourglass_flowing_sand: **If your loan is time sensitive**, please keep in mind that this process involves staff from multiple departments and takes time to be completed properly. We will do our best to accommodate your request, but for this reason, donations should be initiated with as much advance notice as possible. Your patience and cooperation are greatly appreciated!
+:hourglass_flowing_sand: Loan requests require processing time and authorization from staff across multiple departments. For these reasons, loans should be initiated with as much advance notice as possible.
 {: .notice--warning}
 
 # Terms & Conditions
 
-Please review our institutional [loan terms & conditions]({{ site.baseurl }}/assets/images/loans_sampleterms.pdf) carefully prior to making your request. For ease of reference, these same terms are outlined below:
+Please review our institutional [loan terms & conditions]({{ site.baseurl }}/assets/images/loans_sampleterms.pdf) carefully prior to making your request. For ease of reference, these same terms are outlined below.
 
 ## Care & Security
 Unless other arrangements have been agreed to in writing between NHMLAC and Borrower, Borrower will be responsible for the care, maintenance, security, and condition of the loan material throughout the period of the loan. No dissection, destructive analysis, molecular or isotopic sampling, alteration, restoration, conservation treatment, stabilization, cleaning, making of casts or molds or refurbishment of loan material may be undertaken without specific advance written approval of NHMLAC. Any labels associated with NHMLAC specimens, materials or artifacts may not be removed or altered by the Borrower without specific advance written approval of NHMLAC.
@@ -33,7 +33,7 @@ All loan material must be packed in a manner comparable to that in which it was 
 ## Type Specimens
 Loans of all holotypes are limited to only one (1) year. Any other type material may be renewed at the end of the loan period, at the discretion of the lending collections department. All other loans are limited to a maximum of 10 years, to be renewed annually.
 
-This rule applies to all name-bearing type specimens borrowed from the LACMIP collections.
+This condition applies to all name-bearing type specimens borrowed from the LACMIP collections.
 {: .notice--warning}
 
 ## Identifications
