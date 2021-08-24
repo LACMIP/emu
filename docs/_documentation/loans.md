@@ -30,7 +30,7 @@ NHMLAC will lend material only to other institutions and organizations, not to i
 ## Packing & Transportation
 All loan material must be packed in a manner comparable to that in which it was received, and shipped in the manner specified by NHMLAC. If loan material is to be sent via U.S. Postal Service, it must be posted First Class Registered Mail. Borrower will pay all return packing and shipping costs. Return arrangements will be coordinated with NHMLAC lending department’s Collections Manager and loan material will be returned by the agreed upon arrangements or instructions.
 
-As of 2020, the NHMLA strongly prefers that all loans are either hand carried or shipped & tracked via courier (FedEx, UPS, DHL). Tracking numbers should be provided to the collections staff. Shipping via USPS is currently discouraged.
+:package: The NHMLA strongly prefers that all loans are either hand-carried or shipped & tracked via courier (FedEx, UPS, DHL), and shipping via USPS is discouraged. All tracking numbers should be provided to the collections staff. LACMIP additionally prefers that types and especially fragile specimens are hand carried whenever possible.
 {: .notice--warning}
 
 ## Type Specimens
