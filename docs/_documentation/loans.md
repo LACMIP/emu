@@ -6,31 +6,46 @@ toc_sticky: true
 last_modified_at: 2021-08-23
 ---
 
- :construction_worker: This page is under construction! Check back later...
-
-Are you planning to request a loan from the LACMIP collections? This page outlines what steps you can expect in this process.
-
 :hourglass_flowing_sand: **If your loan is time sensitive**, please keep in mind that this process involves staff from multiple departments and takes time to be completed properly. We will do our best to accommodate your request, but for this reason, donations should be initiated with as much advance notice as possible. Your patience and cooperation are greatly appreciated!
 {: .notice--warning}
 
-## Affiliation
-The museum does not loan to individuals. Are you an employee at the insittuion? If no, the loan will need to be made out to a secondary sponsor (for example, the collections manager or your postdoctoral supervisor) with you as the researcher.
-- Name(s)
-- Physical address(s)
-- Email(s)
+# Terms & Conditions
 
-## Transportation
-Preferred shipping methods include hand carry and courier (FedEx, UPS, DHL) with a tracking number. 
+Please review our institutional loan conditions carefully prior to making your request: 
+{% include figure image_path="/assets/images/loans_sampleterms.pdf" alt="sample loan terms and conditions" caption="Terms and conditions of loans of material from the NHMLA collections." %}
 
-## Destructive Analyses
-- Requests for destructive analyses...
+For ease of reference, these terms are also outlined below:
 
-## Conditions
-- The specimens must be stored securely in laboratory and/or collections space at all times. Specimens may not be stored on personal property (homes).
-- Type specimens may only be loaned for 1 year. We are very reluctant to loan type specimens to minimize risk of damage and loss to most scientifically valuable specimens. Whenever possible, we prefer that requests regarding types are fullfilled using digital imagery and in-person visits to the collection. On the rare occasion that a type specimen loan is granted, we the specimens must be hand carried to & from the collection by the lender. Type specimens can only be loaned for a maximum of one year.
-- Maximum loan term is 10 years.
-- Loans may not be transferred. However, the orioginal loan may be closed and a new loan can be opened under the name and address of the new institution with the NHMLA's approval.
+## Care, Maintenance, Storage, & Security
+Unless other arrangements have been agreed to in writing between NHMLAC and Borrower, Borrower will be responsible for the care, maintenance, security, and condition of the loan material throughout the period of the loan. **No dissection, destructive analysis, molecular or isotopic sampling, alteration, restoration, conservation treatment, stabilization, cleaning, making of casts or molds or refurbishment of loan material may be undertaken without specific advance written approval of NHMLAC.** Any labels associated with NHMLAC specimens, materials or artifacts may not be removed or altered by the Borrower without specific advance written approval of NHMLAC.
 
-# FAQ
-## Do you loan type specimens?
-We are very reluctant to loan type specimens to minimize risk of damage and loss to most scientifically valuable specimens. Whenever possible, we prefer that requests regarding types are fullfilled using digital imagery and in-person visits to the collection. On the rare occasion that a type specimen loan is granted, we the specimens must be hand carried to & from the collection by the lender. Type specimens can only be loaned for a maximum of one year.
+Borrower must be able to locate NHMLAC’s material and allow NHMLAC’s inspection upon request, either by a museum representative or by providing a current photograph and condition documentation. Failure to do so could result in immediate termination and return of the loan, demand for restitution, and/or denial of future loan requests at the discretion of NHMLAC. NHMLAC must be notified of any change in location and storage of all materials on loan to Borrower. Any off-premises storage must first be approved by NHMLAC in writing.
+
+## Condition & Damage
+In the event that the loan’s condition changes in any manner - including if the loan is damaged, lost, or stolen - Borrower must immediately notify NHMLAC’s Collections Manager, Curator, or Registrar by telephone or email within 48 hours of the incident or its discovery. Unless it is necessary to move the loan material to protect it from further damage, the Borrower will wait for NHMLAC's instructions.
+
+## Insurance
+Unless other arrangements have been agreed to in writing, Borrower will be required to provide “all-risk”, wall-to-wall insurance coverage with no non-standard exclusions for loans from NHMLAC. In the absence of insurance coverage Borrower will assume total liability for the loan. Any claim filed for loss or damage under Borrower’s insurance will not be subject to a deductible. The insurance/replacement value for the loan will be determined by the lending collections department and will be listed on the Specimen Invoice and Receipt that accompanies all loans. NHMLAC reserves the right to increase the insurance/replacement value during the loan period, in which case NHMLAC will notify Borrower in writing.
+
+## Affiliation & Eligibility
+NHMLAC will lend material only to other institutions and organizations, not to individuals (unless written justification is submitted to and approved in advance by NHMLAC’s Senior Vice President, Research & Collections or a designated representative). Materials requested by students or associates will require faculty or institutional endorsement, and will be considered the direct responsibility of that institution and/or its representative for the duration of the loan. Any inquiries about the return of the loan will be made to the faculty member or institutional representative. NHMLAC must be notified if/when Borrower’s original institutional contact changes.
+
+## Packing & Transportation
+All loan material must be packed in a manner comparable to that in which it was received, and shipped in the manner specified by NHMLAC. If loan material is to be sent via U.S. Postal Service, it must be posted First Class Registered Mail. Borrower will pay all return packing and shipping costs. Return arrangements will be coordinated with NHMLAC lending department’s Collections Manager and loan material will be returned by the agreed upon arrangements or instructions.
+
+## Type Specimens
+Loans of all holotypes are limited to only one (1) year. Any other type material may be renewed at the end of the loan period, at the discretion of the lending collections department. All other loans are limited to a maximum of 10 years, to be renewed annually.
+
+This rule applies to all name-bearing type specimens borrowed from the LACMIP collections.
+{: .notice--warning}
+
+## Identifications
+All taxonomic changes, including designation of types, must be reported to the appropriate collections department or NHMLAC Curator.
+
+## Duration
+Any specimen/object that has been on loan for more than 10 years is subject to be recalled and must be returned to NHMLAC’s lending collections department within a reasonable amount of time upon receipt of recall notification. Time allowed for the return of recalled loan material will be at the discretion of the lending department’s Collections Manager. If the loan cannot be found at the time of its recall, Borrower will assume full liability for the loss with restitution to be made to the lending collections department and future loan requests may be denied.
+
+Annual renewal notifications will be sent to Borrower by NHMLAC’s Registrar’s Office. If Borrower fails to renew any loan after 5 or more years have passed, the loan will be recalled and must be returned to the lending collections department within a reasonable amount of time upon receipt of recall notification, determined by the lending department’s Collections Manager.
+
+## Transfers
+If Borrower wishes to transfer NHMLAC’s loan to another institution or organization, the original loan must first be closed and a new loan will be opened under the responsibility of the new institution or organization, upon NHMLAC’s approval. When a loan is transferred, the balance of time the material has already been out on loan carries over to the new borrowing institution/organization, so that the maximum loan term of 10 years (stipulated above) is not exceeded.
