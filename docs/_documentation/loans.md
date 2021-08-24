@@ -6,7 +6,7 @@ toc_sticky: true
 last_modified_at: 2021-08-23
 ---
 
-:hourglass_flowing_sand: Loan requests require processing time and authorization from staff across multiple departments. For these reasons, loans should be initiated with as much advance notice as possible.
+:hourglass_flowing_sand: Loan requests require processing time and authorization from staff across multiple departments. For these reasons, loans should be initiated with as much advance notice as possible. Your patience is appreciated.
 {: .notice--warning}
 
 # Terms & Conditions
