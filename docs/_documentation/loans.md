@@ -24,7 +24,7 @@ In the event that the loan’s condition changes in any manner - including if th
 ## Insurance
 Unless other arrangements have been agreed to in writing, Borrower will be required to provide “all-risk”, wall-to-wall insurance coverage with no non-standard exclusions for loans from NHMLAC. In the absence of insurance coverage Borrower will assume total liability for the loan. Any claim filed for loss or damage under Borrower’s insurance will not be subject to a deductible. The insurance/replacement value for the loan will be determined by the lending collections department and will be listed on the Specimen Invoice and Receipt that accompanies all loans. NHMLAC reserves the right to increase the insurance/replacement value during the loan period, in which case NHMLAC will notify Borrower in writing.
 
-## Affiliation & Eligibility
+## Responsible Parties
 NHMLAC will lend material only to other institutions and organizations, not to individuals (unless written justification is submitted to and approved in advance by NHMLAC’s Senior Vice President, Research & Collections or a designated representative). Materials requested by students or associates will require faculty or institutional endorsement, and will be considered the direct responsibility of that institution and/or its representative for the duration of the loan. Any inquiries about the return of the loan will be made to the faculty member or institutional representative. NHMLAC must be notified if/when Borrower’s original institutional contact changes.
 
 ## Packing & Transportation
