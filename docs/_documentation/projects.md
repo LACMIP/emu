@@ -2,7 +2,7 @@
 title: Projects
 navcat: Modules
 tags: quick-start
-last_modified_at: 2021-05-04
+last_modified_at: 2021-08-25
 ---
 The Projects module is used to track and report statistics for collections-related research and outreach requests. Only users in the Invertebrate Paleontology permission group can add/enter data in this module.
 
@@ -39,7 +39,7 @@ Sub-Type
    
    
 Description
-: Describe the event or request, e.g. "Sent surface scans of 15 ammonoids to..." Descriptions should be brief and mention any relevant taxa, geologic context, or collections involved in or affected by the request/event, e.g., "...the Stoyanow Collection". Include offical event or exhibit titles when applicable. Requests fulfilled for mitigation firms should begin with "MITIGATION:".
+: Describe the event or request, e.g. "Sent surface scans of 15 ammonoids to..." Descriptions should be brief and mention any relevant taxa, geologic context, or collections involved in or affected by the request/event, e.g., "...the Stoyanow Collection". Include offical event or exhibit titles when applicable.
 
 
 ## Project 2 tab
@@ -53,13 +53,14 @@ Funding Associations
 : Attach the appropriate Parties records for any funding sources related to the request or event whenever applicable. **Tip:** If you enter "Cretaceous" in this field and hit tab, the record for the "Connecting the Cretaceous Seas" PEN will appear. That said, always open the full Parties record to check that the correct funding source was attached. New [Parties]({{ site.baseurl }}/documentation/parties/) records can only be added by the database administrator.
 
 Intended Audience
-: For outreach-related requests and events, select the appropriate value from the controlled vocabulary:
+: Select the appropriate value from the controlled vocabulary:
     - "Advancement/Donors"
     - "Educators"
     - "General public"
+    - "Mitigation"
+    - "Research" (for non-student research requests)
     - "Students"
     - "Other" (e.g., use for internal NHMLA tours)
-    - "N/A" (use for research-related requests and staff-only field trips)
     
 
 ## Dates tab
