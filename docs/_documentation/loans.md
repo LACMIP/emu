@@ -11,7 +11,7 @@ last_modified_at: 2021-08-23
 
 # Terms & Conditions
 
-Please review our institutional [loan terms & conditions]({{ site.baseurl }}/assets/images/loans_sampleterms.pdf) carefully prior to making your request. For ease of reference, these same terms are outlined below.
+Please review our institutional [loan terms & conditions]({{ site.baseurl }}/assets/images/loans_sampleterms.pdf) carefully. For ease of reference, these same terms are outlined below.
 
 ## Care & Security
 Unless other arrangements have been agreed to in writing between NHMLAC and Borrower, Borrower will be responsible for the care, maintenance, security, and condition of the loan material throughout the period of the loan. No dissection, destructive analysis, molecular or isotopic sampling, alteration, restoration, conservation treatment, stabilization, cleaning, making of casts or molds or refurbishment of loan material may be undertaken without specific advance written approval of NHMLAC. Any labels associated with NHMLAC specimens, materials or artifacts may not be removed or altered by the Borrower without specific advance written approval of NHMLAC.
