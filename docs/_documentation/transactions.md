@@ -19,6 +19,7 @@ However, **loans should still be tracked by LACMIP in the Catalogue Module** by 
 
 ## Closing loans
 When a loan of LACMIP specimens are received from a borrower, the loan must be closed with the Registrar's office. 
+
 1) Check that all specimens have, in fact, returned.
 2) On the specimen invoice, under _Date of Return_, check _Complete_ and add the date. Sign your name next to _Confirmed By_.
 3) The invoice with your original signature indicating the loan has been closed must be returned to the Registrar's office. Scan and save a digital copy, as well as print a copy on archival paper, for filing in LACMIP's records.
