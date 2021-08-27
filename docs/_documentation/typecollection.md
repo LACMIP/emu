@@ -256,8 +256,10 @@ Work with only one specimen lot at a time to avoid mixing up specimens and label
 Other considerations:
 - Try to finish a tray completely before you leave. If your shift ends in the middle of a tray, clearly note where you left off in the tray.
 - If a lot contains multiple specimens (or pieces of the same specimen) that were legitimately published under the same type number, each piece should be numbered.
+- If a specimen is too small to number, it must be placed in a vial. If it also fits in a gel capsule, it should be put in a gel cap and the catalog number should be written on the exterior of the gel cap. Place the loose type number in the gel cap with the specimen.
 
 If a specimen is incorrectly numbered, the painted paper label can be removed. To remove an incorrect number: 1) Soak a Q-tip in acetone and gently roll it over the number label. Give the acetone a minute to penetrate the paper. 2) Gently peel back the top painted portion of the label with forceps, taking care not to scratch the specimen. 3) Reapply acetone as needed and continue peeling up reminants of the paper label until is completely removed.
 
 ## Rehousing types
 - Specimens should comfortably lie flat in boxes. The fit should not be tight.
+- Small specimens that are placed in vials should be accompanied by small stickers and small labels.
