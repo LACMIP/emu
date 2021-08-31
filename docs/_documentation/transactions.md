@@ -17,6 +17,8 @@ However, **loans should still be tracked by LACMIP in the Catalogue Module** by 
 {% include figure image_path="/assets/images/catalogue_loans.png" alt="screenshot of the Catalogue module in EMu" caption="" %}
 {% include figure image_path="/assets/images/catalogue_loans2.png" alt="screenshot of the Catalogue module in EMu" caption="How to track specimens on loan in the Catalogue Module." %}
 
+To view Transactions attachments in the Catalogue module: _View > Attachments > Options_ and check both "Show Search Tabs" and "Show Tabs".
+
 ## Closing loans
 When a loan of LACMIP specimens are received from a borrower, the loan must be closed with the Registrar's office. 
 
