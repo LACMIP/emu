@@ -263,3 +263,4 @@ If a specimen is incorrectly numbered, the painted paper label can be removed. T
 ## Rehousing types
 - Specimens should comfortably lie flat in boxes. The fit should not be tight.
 - Small specimens that are placed in vials should be accompanied by small stickers and small labels.
+- Specimens placed in vials should also be immobilized with tissue paper. However, do not tightly pack the vial with so much tissue paper that it could crush the specimen, or make it difficult to find or retrieve in the future.
