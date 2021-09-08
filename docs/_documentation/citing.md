@@ -1,6 +1,6 @@
 ---
 title: Citations
-navcat: Workflows
+navcat: Other
 tags:
 toc_sticky: true
 last_modified_at: 2021-08-20
