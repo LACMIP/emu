@@ -263,10 +263,18 @@ If a specimen is incorrectly numbered, the painted paper label can be removed. T
 
 ### Numbering vials
 - TBD!
+- If a vial contains a specimen in a gel cap, the gel capsule should be neatly labelled with the catalog numbe using an 01 Pigma Micron pen.
 
 ## Rehousing types
+### Boxes
 - Specimens should comfortably lie flat in boxes. The fit should not be tight.
 - All original labels must be retained and placed below the newest printed label. Especially fragile labels can be secured in archival plastic sleeves.
+
+### Vials
 - Specimens placed in vials should also be immobilized with tissue paper, especially if the specimens are very delicate or could be damaged by rolling in the vial. to do so: 1) Pack archival tissue paper into the end of the vial; 2) place the specimen in the vial; 3) insert a larger plug of tissue paper into the vial to hold the specimen in place [(example)]({{ site.baseurl }}/assets/images/imls_rehousingvial1.jpg). Do not pack the vial so tightly with tissue paper that it could crush the fossil, and, ideally, the fossil should be at least partially visible from the exterior of the vial. **The goal is to completely and gently immobilize the specimen such that can be easily retrieved with minimal risk in the future.**
 - Specimens placed in vials should be accompanied by small stickers and small labels. If tissue paper is needed, these stickers and labels can be placed at the end of the vial for ease of viewing and to prevent loss [(example)]({{ site.baseurl }}/assets/images/imls_rehousingvial2.jpg).
+- Do not cut or place larger labels in vials.
 - Replace plastic vials with new glass vials & old cotton batting with archival tissue paper.
+
+### Gel capsules
+- Never remove specimens from gel capsules unless directed to do so.
