@@ -262,6 +262,6 @@ If a specimen is incorrectly numbered, the painted paper label can be removed. T
 
 ## Rehousing types
 - Specimens should comfortably lie flat in boxes. The fit should not be tight.
-- Small specimens that are placed in vials should be accompanied by small stickers and small labels.
-- Specimens placed in vials should also be immobilized with tissue paper, especially if the specimens are have are very delicate or could be damaged by rolling in the vial. Tissue paper should be tightly packed into the end of the vial, then a larger (unpacked) plug of tissue paper should be used to hold the specimen in place. Do not pack the vial so tightly with tissue paper that it could crush the specimen or make it difficult to find/retrieve in the future.
+- Specimens placed in vials should also be immobilized with tissue paper, especially if the specimens are have are very delicate or could be damaged by rolling in the vial. Tissue paper should be tightly packed into the end of the vial, then a larger (unpacked) plug of tissue paper should be used to hold the specimen in place [example]({{ site.baseurl }}/assets/images/imls_rehousingvial1.jpg). Do not pack the vial so tightly with tissue paper that it could crush the specimen or make it difficult to find/retrieve in the future.
+- Specimens placed in vials should be accompanied by small stickers and small labels. If tissue paper is needed, these stickers and labels can be placed at the end of the vial for ease of viewing and to prevent loss [example]({{ site.baseurl }}/assets/images/imls_rehousingvial2.jpg).
 - Replace plastic vials with new glass vials & old cotton batting with archival tissue paper.
