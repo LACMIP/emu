@@ -231,6 +231,7 @@ If you're not sure what a number represents, take a photo of it and send it to c
 {: .notice--warning}
 
 ## Numbering new types
+### Numbering specimens
 Type numbers are created by painting white, 20lb archival quality paper with acrylic paint (primary red, yellow, or blue) and allowing it to dry at least 24 hours. Once completely dry, the painted paper is then cut into 1 cm strips in preparation for adhesion to specimens. New type specimens to be numbered should be accompanied by their newly printed specimen label for simultaneous quality control.
 
 {% include figure image_path="/assets/images/imls_labels.jpg" alt="new type specimen label" caption="New type specimens should receive new labels before numbers are applied to the specimens." %}
@@ -259,6 +260,9 @@ Other considerations:
 - If a specimen is too small to number, it must be placed in a vial. If it also fits in a gel capsule, it should be put in a gel cap and the catalog number should be written on the exterior of the gel cap. Place the loose type number in the gel cap with the specimen.
 
 If a specimen is incorrectly numbered, the painted paper label can be removed. To remove an incorrect number: 1) Soak a Q-tip in acetone and gently roll it over the number label. Give the acetone a minute to penetrate the paper. 2) Gently peel back the top painted portion of the label with forceps, taking care not to scratch the specimen. 3) Reapply acetone as needed and continue peeling up reminants of the paper label until is completely removed.
+
+### Numbering vials
+- TBD!
 
 ## Rehousing types
 - Specimens should comfortably lie flat in boxes. The fit should not be tight.
