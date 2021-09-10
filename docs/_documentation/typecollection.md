@@ -177,6 +177,57 @@ To update locations for multiple records at once:
 Location history cannot be deleted. It is therefore very important that you take care when selecting records to be batch relocated.
 {: .notice--warning}
 
+# Assimilating New Types
+
+## Numbering
+### Specimens
+Type numbers are created by painting white, 20lb archival quality paper with acrylic paint (primary red, yellow, or blue) and allowing it to dry at least 24 hours. Once completely dry, the painted paper is then cut into 1 cm strips in preparation for adhesion to specimens. New type specimens to be numbered should be accompanied by their newly printed specimen label for simultaneous quality control.
+
+{% include figure image_path="/assets/images/imls_labels.jpg" alt="new type specimen label" caption="New type specimens should receive new labels before numbers are applied to the specimens." %}
+
+If you're asked to apply numbers to new type specimens, please consult the following workflow.
+
+Work with only one specimen lot at a time to avoid mixing up specimens and labels.
+{: .notice--warning}
+
+| *Step* | *Type Numbering Workflow* |
+| - | - |
+| Organize | All new type specimens to be numbered should be organized by ascending type number in their tray. |
+| Labels | All lots should be accompanied by a newly printed specimen label. The colors (red, yellow, or blue) correspond to each specimen's highest conferred [type status]({{ site.baseurl }}/documentation/typecollection/#type-numbers). |
+| Lettering | <img src="{{ site.baseurl }}/assets/images/imls_numbering1.jpg" alt="" width="500"/>{: .align-center} If it hasn't been done for you, begin writing the type specimen numbers on the strips of colored paper using a black 01 Pigma Micron pen. **The color of the number should match the color on the printed specimen label.** The goal is to make your numbers as small, condensed, and neat as possible. Consult the [lettering style guide]({{ site.baseurl }}/documentation/digitizing/#numbering) for examples. **The goal is to create legible numbers that minimally obstruct specimen morphology.** |
+| Drying | Set aside the numbers so the ink can dry, and avoid touching the freshly numbered paper strips to prevent smudges. Ideally, the numbers should be left to dry overnight. |
+| QC | Select the first specimen in the tray to be numbered (i.e., the specimen with the lowest type number). Compare the information on the newly printed specimen label to its publication. When making this comparison, pay close attention to the **specimen numbers**, **figure numbers**, and **type status** on the specimen label vs. the paper. If there are mismatches, they will need to be corrected in EMu and the label must be reprinted. If the type status is incorrect, the type number may need to be rewritten on a different color. Discard or cross out incorrect number labels so they are not inadvertently used. Ask for help when you encounter new errors/mismatches. |
+| Trim | <img src="{{ site.baseurl }}/assets/images/imls_numbering2.jpg" alt="" width="500"/>{: .align-center} If the information is correct, trim the type number from the strip, carefully removing excess edges. Continue to avoid touching the ink with your hands and use forceps to pick up the number labels. |
+| B72 Undercoat | Using the thicker B72 available, swipe a coat of consolidant over the unpainted side of the number. |
+| Position Number | <img src="{{ site.baseurl }}/assets/images/imls_numbering3.jpg" alt="" width="500"/>{: .align-center} Carefully place the number on the specimen. **Placement should be generally inconspicuous**: on [bivalves](https://www.digitalatlasofancientlife.org/wp-content/uploads/2020/09/Bivalve-InternalMorphology-2000px.jpg), avoid covering any internal muscle scars or hinge morphology; on [gastropods](https://www.digitalatlasofancientlife.org/wp-content/uploads/2016/12/Gastropoda-ShellMorphology-1000px-square.png), avoid the apertural view. When possible, place the number on adjacent rock matrix, rather than the specimen itself. Ask for assistance if you're unsure, such as when multiple type specimens are stuck together. |
+| Press | After you have finished the tray, or are done for the day (whichever comes first), revisit the freshly adhered numbers. Gently press on them to ensure tight contact with the specimen. Use good judgement and don't press so hard that you might damage the fossil. |
+| B72 Topcoat | After you finish the tray, or are done for the day (whichever comes first), using the thinner B72, swipe a top coat of consolidant over the number. When you place the specimen back in its box, don't let the wet B72 come in contact with the specimen labels or box. |
+
+Other considerations:
+- Try to finish a tray completely before you leave. If your shift ends in the middle of a tray, clearly note where you left off in the tray.
+- If a lot contains multiple specimens (or pieces of the same specimen) that were legitimately published under the same type number, each piece should be numbered.
+- If a specimen is too small to number, it must be placed in a vial. If it also fits in a gel capsule, it should be put in a gel cap and the catalog number should be written on the exterior of the gel cap. Place the loose type number in the gel cap with the specimen.
+
+If a specimen is incorrectly numbered, the painted paper label can be removed. To remove an incorrect number: 1) Soak a Q-tip in acetone and gently roll it over the number label. Give the acetone a minute to penetrate the paper. 2) Gently peel back the top painted portion of the label with forceps, taking care not to scratch the specimen. 3) Reapply acetone as needed and continue peeling up reminants of the paper label until is completely removed.
+
+### Vials
+- TBD!
+- If a vial contains a specimen in a gel cap, the gel capsule should be neatly labelled with the catalog numbe using an 01 Pigma Micron pen.
+
+## Rehousing
+### Boxes
+- Specimens should comfortably lie flat in boxes. The fit should not be tight.
+- All original labels must be retained and placed below the newest printed label. Especially fragile labels can be secured in archival plastic sleeves.
+
+### Vials
+- Specimens placed in vials should also be immobilized with tissue paper, especially if the specimens are very delicate or could be damaged by rolling in the vial. to do so: 1) Pack archival tissue paper into the end of the vial; 2) place the specimen in the vial; 3) insert a larger plug of tissue paper into the vial to hold the specimen in place [(example)]({{ site.baseurl }}/assets/images/imls_rehousingvial1.jpg). Do not pack the vial so tightly with tissue paper that it could crush the fossil, and, ideally, the fossil should be at least partially visible from the exterior of the vial. **The goal is to completely and gently immobilize the specimen such that can be easily retrieved with minimal risk in the future.**
+- Specimens placed in vials should be accompanied by small stickers and small labels. If tissue paper is needed, these stickers and labels can be placed at the end of the vial for ease of viewing and to prevent loss [(example)]({{ site.baseurl }}/assets/images/imls_rehousingvial2.jpg).
+- Do not cut or place larger labels in vials.
+- Replace plastic vials with new glass vials & old cotton batting with archival tissue paper.
+
+### Gel capsules
+- Never remove specimens from gel capsules unless directed to do so.
+
 # Appendices
 
 ## Gathering literature
@@ -229,52 +280,3 @@ One way to check whether a number is an old locality number is by clicking the b
 
 If you're not sure what a number represents, take a photo of it and send it to collections staff in the Google Chat or via email.
 {: .notice--warning}
-
-## Numbering new types
-### Numbering specimens
-Type numbers are created by painting white, 20lb archival quality paper with acrylic paint (primary red, yellow, or blue) and allowing it to dry at least 24 hours. Once completely dry, the painted paper is then cut into 1 cm strips in preparation for adhesion to specimens. New type specimens to be numbered should be accompanied by their newly printed specimen label for simultaneous quality control.
-
-{% include figure image_path="/assets/images/imls_labels.jpg" alt="new type specimen label" caption="New type specimens should receive new labels before numbers are applied to the specimens." %}
-
-If you're asked to apply numbers to new type specimens, please consult the following workflow.
-
-Work with only one specimen lot at a time to avoid mixing up specimens and labels.
-{: .notice--warning}
-
-| *Step* | *Type Numbering Workflow* |
-| - | - |
-| Organize | All new type specimens to be numbered should be organized by ascending type number in their tray. |
-| Labels | All lots should be accompanied by a newly printed specimen label. The colors (red, yellow, or blue) correspond to each specimen's highest conferred [type status]({{ site.baseurl }}/documentation/typecollection/#type-numbers). |
-| Lettering | <img src="{{ site.baseurl }}/assets/images/imls_numbering1.jpg" alt="" width="500"/>{: .align-center} If it hasn't been done for you, begin writing the type specimen numbers on the strips of colored paper using a black 01 Pigma Micron pen. **The color of the number should match the color on the printed specimen label.** The goal is to make your numbers as small, condensed, and neat as possible. Consult the [lettering style guide]({{ site.baseurl }}/documentation/digitizing/#numbering) for examples. **The goal is to create legible numbers that minimally obstruct specimen morphology.** |
-| Drying | Set aside the numbers so the ink can dry, and avoid touching the freshly numbered paper strips to prevent smudges. Ideally, the numbers should be left to dry overnight. |
-| QC | Select the first specimen in the tray to be numbered (i.e., the specimen with the lowest type number). Compare the information on the newly printed specimen label to its publication. When making this comparison, pay close attention to the **specimen numbers**, **figure numbers**, and **type status** on the specimen label vs. the paper. If there are mismatches, they will need to be corrected in EMu and the label must be reprinted. If the type status is incorrect, the type number may need to be rewritten on a different color. Discard or cross out incorrect number labels so they are not inadvertently used. Ask for help when you encounter new errors/mismatches. |
-| Trim | <img src="{{ site.baseurl }}/assets/images/imls_numbering2.jpg" alt="" width="500"/>{: .align-center} If the information is correct, trim the type number from the strip, carefully removing excess edges. Continue to avoid touching the ink with your hands and use forceps to pick up the number labels. |
-| B72 Undercoat | Using the thicker B72 available, swipe a coat of consolidant over the unpainted side of the number. |
-| Position Number | <img src="{{ site.baseurl }}/assets/images/imls_numbering3.jpg" alt="" width="500"/>{: .align-center} Carefully place the number on the specimen. **Placement should be generally inconspicuous**: on [bivalves](https://www.digitalatlasofancientlife.org/wp-content/uploads/2020/09/Bivalve-InternalMorphology-2000px.jpg), avoid covering any internal muscle scars or hinge morphology; on [gastropods](https://www.digitalatlasofancientlife.org/wp-content/uploads/2016/12/Gastropoda-ShellMorphology-1000px-square.png), avoid the apertural view. When possible, place the number on adjacent rock matrix, rather than the specimen itself. Ask for assistance if you're unsure, such as when multiple type specimens are stuck together. |
-| Press | After you have finished the tray, or are done for the day (whichever comes first), revisit the freshly adhered numbers. Gently press on them to ensure tight contact with the specimen. Use good judgement and don't press so hard that you might damage the fossil. |
-| B72 Topcoat | After you finish the tray, or are done for the day (whichever comes first), using the thinner B72, swipe a top coat of consolidant over the number. When you place the specimen back in its box, don't let the wet B72 come in contact with the specimen labels or box. |
-
-Other considerations:
-- Try to finish a tray completely before you leave. If your shift ends in the middle of a tray, clearly note where you left off in the tray.
-- If a lot contains multiple specimens (or pieces of the same specimen) that were legitimately published under the same type number, each piece should be numbered.
-- If a specimen is too small to number, it must be placed in a vial. If it also fits in a gel capsule, it should be put in a gel cap and the catalog number should be written on the exterior of the gel cap. Place the loose type number in the gel cap with the specimen.
-
-If a specimen is incorrectly numbered, the painted paper label can be removed. To remove an incorrect number: 1) Soak a Q-tip in acetone and gently roll it over the number label. Give the acetone a minute to penetrate the paper. 2) Gently peel back the top painted portion of the label with forceps, taking care not to scratch the specimen. 3) Reapply acetone as needed and continue peeling up reminants of the paper label until is completely removed.
-
-### Numbering vials
-- TBD!
-- If a vial contains a specimen in a gel cap, the gel capsule should be neatly labelled with the catalog numbe using an 01 Pigma Micron pen.
-
-## Rehousing types
-### Boxes
-- Specimens should comfortably lie flat in boxes. The fit should not be tight.
-- All original labels must be retained and placed below the newest printed label. Especially fragile labels can be secured in archival plastic sleeves.
-
-### Vials
-- Specimens placed in vials should also be immobilized with tissue paper, especially if the specimens are very delicate or could be damaged by rolling in the vial. to do so: 1) Pack archival tissue paper into the end of the vial; 2) place the specimen in the vial; 3) insert a larger plug of tissue paper into the vial to hold the specimen in place [(example)]({{ site.baseurl }}/assets/images/imls_rehousingvial1.jpg). Do not pack the vial so tightly with tissue paper that it could crush the fossil, and, ideally, the fossil should be at least partially visible from the exterior of the vial. **The goal is to completely and gently immobilize the specimen such that can be easily retrieved with minimal risk in the future.**
-- Specimens placed in vials should be accompanied by small stickers and small labels. If tissue paper is needed, these stickers and labels can be placed at the end of the vial for ease of viewing and to prevent loss [(example)]({{ site.baseurl }}/assets/images/imls_rehousingvial2.jpg).
-- Do not cut or place larger labels in vials.
-- Replace plastic vials with new glass vials & old cotton batting with archival tissue paper.
-
-### Gel capsules
-- Never remove specimens from gel capsules unless directed to do so.
