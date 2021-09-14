@@ -6,7 +6,7 @@ toc_sticky: true
 last_modified_at: 2020-07-25
 ---
 
-Multiple grants from the National Science Foundation support current digitization initiatives at LACMIP. "Digitization" itself is a broad term and includes the variety of workflows outlined here. For a more thorough review of digitization workflows, see [Nelson *et al.* 2012](https://doi.org/10.3897/zookeys.209.3135).
+Digitization initiatives at LACMIP are primarily supported by the National Science Foundatoin. "Digitization" itself is a broad term and includes the variety of workflows outlined here. For a more thorough review of digitization workflows, see [Nelson *et al.* 2012](https://doi.org/10.3897/zookeys.209.3135).
 
 # Pre-digitization
 
