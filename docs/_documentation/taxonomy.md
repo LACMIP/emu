@@ -186,8 +186,11 @@ Date commented
 All LACMIP users have more limited permissions in the Taxonomy module than in other modules. You cannot, for example, use the Global Replace tool. Please contact the Museum's database manager for assistance doing tasks you don't have permission for, or to discuss giving you additional permissions.
 
 ## Documenting new species occurrences
-One way to document noteworthy species occurrences is to add your observation to the Citations tab. First, create a "personal observation" record for yourself if one does not already exist in the Bibliography module. The, on the Citations tab, create a new row in the _Citations_ table and attach this record to _Cited In_. Proceed to complete the occurence information as shown below.
+One way to document noteworthy occurrences is to add your observation to the Citations tab.
 
-{% include figure image_path="/assets/images/taxonomy_bibliographypersonalobservation.png" alt="Publications(2) tab of the Bibliography module" caption="Screenshot of the *Descriptions* tab of the Taxonomy module." %}
-{% include figure image_path="/assets/images/taxonomy_citationspersonalobservation.png" alt="Citations tab of the Taxonomy module" caption="Screenshot of the *Descriptions* tab of the Taxonomy module." %}
+1) First, create a "personal observation" record for yourself if one does not already exist in the Bibliography module. 
+2) On the Citations tab, create a new row in the _Citations_ table and attach this record to _Cited In_. Proceed to complete the occurence information as shown below.
+
+{% include figure image_path="/assets/images/taxonomy_bibliographypersonalobservation.png" alt="Publications(2) tab of the Bibliography module" caption="Screenshot of the *Publications* tab of the Bibliography module." %}
+{% include figure image_path="/assets/images/taxonomy_citationspersonalobservation.png" alt="Citations tab of the Taxonomy module" caption="Screenshot of the *Citations* tab of the Taxonomy module." %}
 
