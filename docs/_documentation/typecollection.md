@@ -12,7 +12,7 @@ This documentation was created for the IP & Malacology Type Collection Renovatio
 
 ## What is a "type"?
 
-Type specimens, or "types", are the physical, name-bearing vouchers for new taxa. They are retained in a specially designated "type collection" so researchers can reexamine them. Rules regarding types and their classification are maintained by the [ICZN](https://www.iczn.org/outreach/faqs/). Because types often represent new species, they include some of the museum's most intellectually valuable specimens and must be handled with extreme care.
+Type specimens, or "types", are the physical, name-bearing vouchers for new species. They are retained in a specially designated "type collection" so researchers can re-examine them. Rules regarding types and their classification are maintained by the [ICZN](https://www.iczn.org/outreach/faqs/). Because type specimens are among the museum's most intellectually significant specimens, they must be handled with extreme care.
 
  ~ | *Before accessing the type collection, review the following:*
    --- | ---
