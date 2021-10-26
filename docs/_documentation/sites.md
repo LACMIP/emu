@@ -127,7 +127,7 @@ BioStrat Zone
 : Used to record biostratigraphic zone data, e.g. "Domengine."
 
 Strat. Details
-: Any extra information you have concerning the stratigraphy of the site, such as "2 meters east of LACMIP 42821". Stratigraphic units ranking lower than member (beds) are also captured in this field, e.g. "BED = Espinal Grit".
+: Any extra information you have concerning the stratigraphy of the site, such as "2 meters east of LACMIP 42821". Stratigraphic units ranking lower than member (beds) are also captured in this field, e.g. "BED: Espinal Grit".
 
 TRS
 : This nested table includes fields for legacy township and range data.
