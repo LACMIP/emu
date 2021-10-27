@@ -49,6 +49,9 @@ NearestPlace
 : = [dwc:locality](https://dwc.tdwg.org/terms/#dwc:locality)
 : Land features or sub-administrative units, e.g. a peak or a neighborhood. This field is equivalent to "feature" and is printed out on labels. Units should always be **organized from larger to smaller**, e.g. "Santa Cruz Island, Potato Harbor" and "Calico Mountains, Mule Canyon". When *NearestPlace* includes a **street address** or intersection, the neighborhood should be included, e.g. "San Pedro, 3rd St & Mesa St," even if the city is also included in *City/Town*. **Islands** and other **uncorporated inhabited named places** (e.g., hamlets and villages) can be included in *NearestPlace*. Other conventions include **abbreviating road features** (e.g. "St," "US Hwy 101," "CA Hwy 33") and including **"area"** to denote a locality is within the USGS quad map of the same name (e.g. "Ono area"). Do not abbreviate "Mt." for "Mount". If the verbatim locality description is too vague to determine *City/Town* and *NearestPlace*, use the value **"unknown locality"** for *NearestPlace*.
 
+Values used for _NearestPlace_ should refer to features that are generally considered permanent place names. For example, avoid using quarry names, as these are often ephemeral.
+{: .notice--warning}
+
 Alternate Loc ID
 : = [dwc:locationRemarks](https://dwc.tdwg.org/terms/#dwc:locationRemarks) with the prefix, "Alternate Location ID", e.g., "Alternate Location ID: field number SS-19a-52"
 : A table of paired values: *Institution Code* and *Institution Number*. This is common for specimens transferred to LACMIP from other institutions, and is also where you can find field numbers assigned by collectors. Ex: *Institution Code* = "CIT" and *Institution Number* = "1400", or *Institution Code* = "field number" and *Institution Number* = "AH180817".
