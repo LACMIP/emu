@@ -2,7 +2,7 @@
 title: Sites
 navcat: Modules
 tags: georeferencing quick-start
-last_modified_at: 2020-12-22
+last_modified_at: 2021-10-26
 ---
 The Sites module is our primary resource for information about specimen collecting localities. Please see [Axiell's documentation](http://help.emu.axiell.com/latest/en/Topics/EMu/Sites%20module.htm) for generic information about this module. The equivalent [Darwin Core terms](https://dwc.tdwg.org/terms/) are provided where applicable. Continue reading to understand how LACMIP uses the fields available in the Sites module.
 
@@ -47,7 +47,7 @@ City/Town
 
 NearestPlace
 : = [dwc:locality](https://dwc.tdwg.org/terms/#dwc:locality)
-: Land features or sub-administrative units, e.g. a peak or a neighborhood. This field is equivalent to "feature" and is printed out on labels. Units should always be **organized from larger to smaller**, e.g. "Santa Cruz Island, Potato Harbor" and "Calico Mountains, Mule Canyon". When *NearestPlace* includes a **street address** or intersection the city should be included, e.g. "Los Angeles, Bagley Ave & Adams St," even if the city is also included in the *City/Town* field. **Islands** should always be included in *NearestPlace*. Other conventions include **abbreviating road features** (e.g. "St," "US Hwy 101," "CA Hwy 33") and including **"area"** to denote a locality is within the USGS quad map of the same name (e.g. "Ono area"). If the verbatim locality description is too vague to determine *City/Town* and *NearestPlace*, use the value **"unknown locality"** for *NearestPlace*.
+: Land features or sub-administrative units, e.g. a peak or a neighborhood. This field is equivalent to "feature" and is printed out on labels. Units should always be **organized from larger to smaller**, e.g. "Santa Cruz Island, Potato Harbor" and "Calico Mountains, Mule Canyon". When *NearestPlace* includes a **street address** or intersection the city should be included, e.g. "Los Angeles, Bagley Ave & Adams St," even if the city is also included in the *City/Town* field. **Islands** should always be included in *NearestPlace*. Other conventions include **abbreviating road features** (e.g. "St," "US Hwy 101," "CA Hwy 33") and including **"area"** to denote a locality is within the USGS quad map of the same name (e.g. "Ono area"). Do not abbreviate "Mt." for "Mount". If the verbatim locality description is too vague to determine *City/Town* and *NearestPlace*, use the value **"unknown locality"** for *NearestPlace*.
 
 Alternate Loc ID
 : = [dwc:locationRemarks](https://dwc.tdwg.org/terms/#dwc:locationRemarks) with the prefix, "Alternate Location ID", e.g., "Alternate Location ID: field number SS-19a-52"
@@ -69,9 +69,11 @@ Verbatim Locality
 : = [dwc:verbatimLocality](https://dwc.tdwg.org/terms/#dwc:verbatimLocality); however, LACMIP does not publish this information online. Instead, [dwc:informationWithheld](https://dwc.tdwg.org/terms/#dwc:informationWithheld) is included and autofilled with "verbatim locality description and coordinates withheld but available to researchers upon request".
 
 
-: The locality description as originally recorded by the collector. Most of the LACMIP site records have been through multiple iterations of digital life, and this data is not truly verbatim anymore, but ideally it includes exactly what the collector recorded, as well as any notes made later by other people (and clearly indicated as such by enclosing the comment in brackets).
+: The locality description as originally recorded by the collector. Most LACMIP Site records have been through multiple iterations of digital life, and this data is not truly verbatim anymore, but ideally it includes exactly what the collector recorded, as well as any notes made later by other people.
 
-{% include figure image_path="/assets/images/sites_verbatim_attachment.png" alt="How to enter new geographic data into *Verbatim Locality*" caption="Enclose new, after-the-fact information in *Verbatim Locality* with square brackets, with the name of whomever made the comment and the date (YYYY-MM-DD) separated by semicolons; e.g. [Presumed to be Waldron, Indiana; A. Hendy; 2017-11-08]" %}
+If assumptions are made regarding a locality's geographic or geologic context, these assumptions should be annotated in the _Notes_ field during georeferencing in order to attribute these changes to a particular individual, and the appropriate box (e.g. _Uncertain Locality_) should be checked.
+{: .notice--warning}
+
 
 ### Entering new geographic data
 
@@ -83,6 +85,9 @@ The geography fields (*Continent*, *County*, *State/Province*, *County/District*
 1. Check to see if there is a *City/Town* associated with your site in the lookup. Keep in mind that *City/Town* isn't part of the geography lookup list because the information in this field frequently does not fit nicely with a hierarchy, e.g. *Nearest Place* may be a canyon and *City/Town* may be a state park that contains part but not all of the canyon.
 
 FYI when used in *Nearest Place*, "area" generally denotes that the locality is within the USGS quad map of the same name, e.g. "Sunland area".
+{: .notice--warning}
+
+If you're unsure of what higher geography to use, search for it using the [geographic name tools](https://tdwg.github.io/esp/georeferencing/geospatial-resources.html) recommended for use by paleontology collections.
 {: .notice--warning}
 
 ## IP Locality (2) tab
