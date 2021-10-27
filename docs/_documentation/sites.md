@@ -71,7 +71,7 @@ Verbatim Locality
 
 : The locality description as originally recorded by the collector. Most LACMIP Site records have been through multiple iterations of digital life, and this data is not truly verbatim anymore, but ideally it includes exactly what the collector recorded, as well as any notes made later by other people.
 
-If assumptions are made regarding a locality's geographic or geologic context, these assumptions should be annotated in the _Notes_ field during georeferencing in order to attribute these changes to a particular individual, and the appropriate box (e.g. _Uncertain Locality_) should be checked.
+If assumptions are made regarding a locality's geographic or geologic context, the appropriate uncertainty box (e.g. _Uncertain Locality_) should be checked, and when applicable, these assumptions should be described in the _Notes_ field during georeferencing.
 {: .notice--warning}
 
 
