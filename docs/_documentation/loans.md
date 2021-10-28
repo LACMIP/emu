@@ -16,7 +16,7 @@ Please review our institutional [loan terms & conditions]({{ site.baseurl }}/ass
 ## Care & Security
 Unless other arrangements have been agreed to in writing between NHMLAC and Borrower, Borrower will be responsible for the care, maintenance, security, and condition of the loan material throughout the period of the loan. No dissection, destructive analysis, molecular or isotopic sampling, alteration, restoration, conservation treatment, stabilization, cleaning, making of casts or molds or refurbishment of loan material may be undertaken without specific advance written approval of NHMLAC. Any labels associated with NHMLAC specimens, materials or artifacts may not be removed or altered by the Borrower without specific advance written approval of NHMLAC.
 
-Destructive analysis requests are asssessed on a case-by-base basis. In your request, please provide a clear description of the type of analysis to be performed, why it is necessary, and in what ways it will alter the requested specimen(s). Analyses that completely destroy specimens will require the specimens to be deaccessioned, which may increase loan processsing time. Results of destructive analyses should be shared with LACMIP staff so this use history can be documented and archived.
+**Note:** Please request approval for **destructive analyses** in writing, providing a clear description of **1)** each analysis to be performed, **2)** why they are necessary for your research, and **3)** in what ways they can or will alter the requested specimen(s). Analyses that completely destroy specimens will require the specimens to be deaccessioned, which may increase loan processsing time. Results of destructive analyses should be shared with LACMIP staff so this use history can be documented and archived.
 {: .notice--warning}
 
 Borrower must be able to locate NHMLAC’s material and allow NHMLAC’s inspection upon request, either by a museum representative or by providing a current photograph and condition documentation. Failure to do so could result in immediate termination and return of the loan, demand for restitution, and/or denial of future loan requests at the discretion of NHMLAC. NHMLAC must be notified of any change in location and storage of all materials on loan to Borrower. Any off-premises storage must first be approved by NHMLAC in writing.
@@ -33,13 +33,13 @@ NHMLAC will lend material only to other institutions and organizations, not to i
 ## Packing & Transportation
 All loan material must be packed in a manner comparable to that in which it was received, and shipped in the manner specified by NHMLAC. If loan material is to be sent via U.S. Postal Service, it must be posted First Class Registered Mail. Borrower will pay all return packing and shipping costs. Return arrangements will be coordinated with NHMLAC lending department’s Collections Manager and loan material will be returned by the agreed upon arrangements or instructions.
 
-:package: The NHMLA prefers that all loans are either hand-carried or shipped & tracked via courier (FedEx, UPS, DHL); shipping via USPS is generally discouraged. All tracking numbers should be provided to the collections staff. LACMIP additionally prefers that types and especially fragile specimens are hand carried whenever possible.
+**Note:** The NHMLA prefers that all loans are either hand-carried or shipped & tracked via courier (FedEx, UPS, DHL); shipping via USPS is generally discouraged. All tracking numbers should be provided to the collections staff. LACMIP additionally prefers that types and especially fragile specimens are hand carried whenever possible.
 {: .notice--warning}
 
 ## Type Specimens
 Loans of all holotypes are limited to only one (1) year. Any other type material may be renewed at the end of the loan period, at the discretion of the lending collections department. All other loans are limited to a maximum of 10 years, to be renewed annually.
 
-This condition applies to all name-bearing type specimens borrowed from the LACMIP collections.
+**Note:** This condition applies to all name-bearing type specimens borrowed from the LACMIP collections.
 {: .notice--warning}
 
 ## Identifications
