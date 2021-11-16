@@ -12,22 +12,21 @@ This documentation explains how to catalog specimens that have very little to no
 
 Before cataloging any specimens into the ED collection, verify with the curator or collections manager that this is an appropriate step to take. Specimens with research potential should not be cataloged into the ED collection.
 
-Some specimens
-
 ## 1. Load defaults
 Begin by creating a new record and loading prepopulated default values. In the new record, navigate to: _Edit > Default Values > Change_ and select "IP ED Collection". Doing so will pre-populate the record so that several critical values are automatically filled out. These values include:
 
   Tab | _Field_ | Value
   --- | --- | ---
-   Invert. Paleo. | _Locality_ | LACMIP 500000
+   Invert. Paleo. | _Locality_ | LACMIP 500,000
    Invert. Paleo. | _Disposition_ | in collection
    Invert. Paleo. | _Collection_ | ED
    Invert. Paleo. | _Project_ | Outreach
    Invert. Paleo. | _Lot Remarks_ | ED LOC:
    Security | _Publish on Internet_ | No
-  
 
-{% include figure image_path="/assets/images/edcollection_defaults1.png" alt="screenshot of the invert paleo tab in the catalogue module" caption="Default values for specimens with no data to be cataloged into the ED collection." %}
+{% include figure image_path="/assets/images/edcollection_defaults1.png" alt="Default values for the LACMIP ED collection" caption="Default Invert. Paleo. tab values for LACMIP specimens to be cataloged into the ED collection and attached to LACMIP loc. 500,000." %}
+
+{% include figure image_path="/assets/images/edcollection_defaults2.png" alt="Default values for the LACMIP ED collection" caption="Default Security tab values for LACMIP specimens to be cataloged into the ED collection and attached to LACMIP loc. 500,000." %}
 
 ## 2. Catalog specimen
 
@@ -35,22 +34,24 @@ In addition to the default values outlined above, complete the following:
 
 Tab | _Field_ | Explanation
   --- | --- | ---
+   Invert. Paleo. | _Locality_ | Upon creating a new record with the "IP ED Collection" defaults applied, immediately place the cursor into _Locality_ and hit "tab" to generate a new lot number in _Lot No._.
+   Invert. Paleo. | _Lot Count_ | Enter the lot count based on our standard [counting criteria](({{ site.baseurl }}/documentation/digitizing/#counting)).
+   Invert. Paleo. | _Accn. Lot_ & _Accn. No._ | If the accession number is known _and_ a record for it exists in the [Accession Lots module](({{ site.baseurl }}/documentation/accessions/)), the accession record should be attached to this field and the number number transcribed into _Accn. No._. If no attachment is available in the Accession Lots module, at minimum, transcribe the accession number into _Accn. No._.
    Invert. Paleo. | _Accn. Lot_ | If the accession number is known, it should be attached to this field. If no attachment is available, at minimum, transcribe the number into _Accn. No._
+   Invert. Paleo. | _Lot Remarks_ | If any locality information (even very basic information) is known, replace the "unknown" values with whatever is written on the specimen label(s). If you're able to fill out more than one of the "unknown" fields, the specimen may not be an appropriate candidate for cataloging under LACMIP loc. 500,000 in the ED collection. Consult the curator or collections manager.
+   Invert. Paleo. | _Original Nature_ | Complete this field based on our standard [procedure](({{ site.baseurl }}/documentation/catalogue/#invert-paleo-tab)).
+   Invert. Paleo. | _Anatomy_ | Complete this field based on our standard [procedure](({{ site.baseurl }}/documentation/catalogue/#invert-paleo-tab)).
+   Identification (1) | various | Complete this tab based on our standard [procedure](({{ site.baseurl }}/documentation/catalogue/#identification-1-tab)).
    
-Accesssion data must be filled out for catalog records attached to LACMIP loc. 500,000 whenever this information is known. A quick reference for commonly used accession numbers for the ED collection is available below.
+Accesssion data must be filled out for catalog records attached to LACMIP loc. 500,000 whenever this information is known. A quick reference for commonly used accession numbers for the ED collection is available below. Please ask the collections manager for assistance with verifying accession data before making any assumptions about a specimen's provenance.
 {: .notice--warning}
 
-Collection | Accession No.
+Collection | _Accn. Lot_ value
   --- | ---
-   Albi Coll. | 
-   
+  Albi | F.A.3978.2005-3
+  Maxwell | F.A.3360.2003-2
+  Meals | F.A.3817.2001-1
 
- *Step* | *To catalog an ED Coll specimen...*
-   --- | ---
-   1 | Begin by creating a new record. Navigate to: _Edit > Default Values > Change_ and select "IP ED Collection". Doing so will pre-populate the record so you can begin cataloging.
-   2 | If any locality information is known
+## Decomissioning records
+If, after a specimen is cataloged into the ED collection _and_ attached to LACMIP loc. 500,000, it can be associated with a more appropriate Sites record, the specimen should be completely recataloged using standard cataloging [procedure](({{ site.baseurl }}/documentation/cataloging)). To decommission the old record attached to LACMIP loc. 500,000:
 
-## Invert. Paleo. t
-
-## Decomissioning ED specimens
-If the ap
