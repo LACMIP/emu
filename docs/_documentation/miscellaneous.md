@@ -6,7 +6,7 @@ toc_sticky: true
 last_modified_at: 2021-05-25
 ---
 
-This page is for EMu documentation the does not yet have a home!
+This page is for EMu documentation that does not yet have a home!
 
 🚧 The documentation on this page is under construction.
 {: .notice--warning}
