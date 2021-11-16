@@ -17,7 +17,7 @@ Begin by creating a new record and loading prepopulated default values. In the n
    Invert. Paleo. | _Disposition_ | in collection
    Invert. Paleo. | _Collection_ | ED
    Invert. Paleo. | _Project_ | Outreach
-   Invert. Paleo. | _Lot Remarks_ | ED GEOGRAPHY: unknown | ED UNIT: unknown formation | ED COLLECTOR: unknown | ED DATE: unknown | ED OTHER REMARKS: none |
+   Invert. Paleo. | _Lot Remarks_ | ED GEOGRAPHY: unknown; ED UNIT: unknown formation; ED COLLECTOR: unknown; ED DATE: unknown; ED OTHER REMARKS: none;
    Security | _Publish on Internet_ | No
 
 {% include figure image_path="/assets/images/edcollection_defaults1.png" alt="Default values for the LACMIP ED collection" caption="Default Invert. Paleo. tab values for LACMIP specimens to be cataloged into the ED collection and attached to LACMIP loc. 500,000." %}
