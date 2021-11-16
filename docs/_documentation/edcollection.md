@@ -51,7 +51,7 @@ Collection | _Accn. Lot_ value
 Specimens cataloged using this workflow should be accompanied by labels generated using the "IP Labels Regular - ED Coll (Loc 500,000)" report.
 
 # Decomissioning records
-If, after a specimen is cataloged into the ED collection _and_ attached to LACMIP loc. 500,000, it can be associated with a more appropriate Sites record, the specimen should be completely recataloged using standard cataloging [procedure](({{ site.baseurl }}/documentation/cataloging)). To decommission the old record attached to LACMIP loc. 500,000:
+If a specimen is cataloged into the ED collection _and_ attached to LACMIP loc. 500,000, is later found to be associated with a more appropriate Sites record, the specimen should be completely recataloged using standard cataloging [procedure](({{ site.baseurl }}/documentation/cataloging)). To decommission the old record attached to LACMIP loc. 500,000:
 
   Step | Explanation
   --- | ---
