@@ -55,9 +55,11 @@ If a specimen is cataloged into the ED collection _and_ attached to LACMIP loc. 
 
   Step | Explanation
   --- | ---
-  1 | Clear all information from the Invert. Paleo. and Identification (1) tab.
-  2 | Change _Disposition_ to "discarded".
+  1 | Change _Disposition_ to "discarded".
+  2 | Clear _Lot Remarks_ and replace with "Disregard this catalog record. This specimen has been recataloged. Refer to alternative numbers." 
   3 | In the _Alternative Numbers_ table, record the new LACMIP catalog number, a la _Inst. Code._ = "LACMIP" and _Inst. Number_ = "#.#".
   4 | Save.
 
+Do not delete the old 500,000 catalog record as it may be associated with loans or other module attachments, which record important use history details.
+{: .notice--warning}
 
