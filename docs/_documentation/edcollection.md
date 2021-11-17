@@ -8,7 +8,7 @@ last_modified_at: 2021-11-16
 
 This documentation explains how to catalog specimens that have very little to no provenance data that are destined for use in LACMIP's education and outreach "ED" collections. Before cataloging any specimens according to this workflow, verify with the curator or collections manager that this is an appropriate step to take. Specimens with research potential should not be cataloged into the ED collection or attached to LACMIP loc. 500,000.
 
-# 1. Load defaults
+# 1. Default values
 Begin by creating a new record and loading default values. In the new record, navigate to: _Edit > Default Values > Change_ and select "IP ED Collection". Doing so will pre-populate the record so that several critical values are automatically filled out. These values include:
 
   Tab | Field | Default Value
