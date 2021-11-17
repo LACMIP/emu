@@ -3,7 +3,7 @@ title: ED Collection
 navcat: Workflows
 tags: cataloging
 toc_sticky: true
-last_modified_at: 2021-11-16
+last_modified_at: 2021-11-17
 ---
 
 This documentation explains how to catalog specimens that have very little to no provenance data that are destined for use in LACMIP's education and outreach "ED" collections. Before cataloging any specimens according to this workflow, verify with the curator or collections manager that this is an appropriate step to take. Specimens with research potential should not be cataloged into the ED collection or attached to LACMIP loc. 500,000.
@@ -62,4 +62,5 @@ If a specimen is cataloged into the ED collection _and_ attached to LACMIP loc. 
 
 Do not delete the old 500,000 catalog record as it may be associated with loans or other module attachments, which record important use history details.
 {: .notice--warning}
+
 
