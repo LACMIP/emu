@@ -1,0 +1,585 @@
+[
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column catalogNumber using expression grel:\"CATALOG #: \"+cells[\"catalogNumber\"].value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "catalogNumber",
+    "expression": "grel:\"CATALOG #: \"+cells[\"catalogNumber\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column otherCatalogNumbers",
+    "columnName": "otherCatalogNumbers"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column scientificName using expression grel:\"SCIENTIFIC NAME: \"+cells[\"scientificName\"].value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "scientificName",
+    "expression": "grel:\"SCIENTIFIC NAME: \"+cells[\"scientificName\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column identifiedBy",
+    "columnName": "identifiedBy"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column dateIdentified",
+    "columnName": "dateIdentified"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column identificationRemarks",
+    "columnName": "identificationRemarks"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column identificationReferences",
+    "columnName": "identificationReferences"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column typeStatus using expression grel:\"TYPE STATUS: \"+cells[\"typeStatus\"].value",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "typeStatus",
+          "expression": "isBlank(value).toString()",
+          "columnName": "typeStatus",
+          "invert": false,
+          "selection": [
+            {
+              "v": {
+                "v": "false",
+                "l": "false"
+              }
+            }
+          ],
+          "selectNumber": false,
+          "selectDateTime": false,
+          "selectBoolean": false,
+          "omitBlank": false,
+          "selectBlank": false,
+          "omitError": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "typeStatus",
+    "expression": "grel:\"TYPE STATUS: \"+cells[\"typeStatus\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column infraspecificEpithet",
+    "columnName": "infraspecificEpithet"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column scientificNameAuthorship",
+    "columnName": "scientificNameAuthorship"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column taxonRank",
+    "columnName": "taxonRank"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column locationRemarks",
+    "columnName": "locationRemarks"
+  },
+  {
+    "op": "core/column-reorder",
+    "description": "Reorder columns",
+    "columnNames": [
+      "﻿occurrenceID",
+      "catalogNumber",
+      "scientificName",
+      "typeStatus",
+      "kingdom",
+      "phylum",
+      "class",
+      "order",
+      "family",
+      "genus",
+      "subgenus",
+      "specificEpithet",
+      "locationID",
+      "higherGeography",
+      "locality",
+      "earliestPeriodOrLowestSystem",
+      "earliestEpochOrLowestSeries",
+      "earliestAgeOrLowestStage",
+      "latestPeriodOrHighestSystem",
+      "latestEpochOrHighestSeries",
+      "latestAgeOrHighestStage",
+      "group",
+      "formation",
+      "member",
+      "dynamicProperties",
+      "associatedReferences",
+      "type",
+      "institutionCode",
+      "institutionID",
+      "collectionCode",
+      "collectionID",
+      "ownerInstitutionCode",
+      "bibliographicCitation",
+      "datasetName",
+      "higherClassification"
+    ]
+  },
+  {
+    "op": "core/column-reorder",
+    "description": "Reorder columns",
+    "columnNames": [
+      "﻿occurrenceID",
+      "catalogNumber",
+      "scientificName",
+      "typeStatus",
+      "higherClassification",
+      "locationID",
+      "higherGeography",
+      "locality",
+      "earliestPeriodOrLowestSystem",
+      "earliestEpochOrLowestSeries",
+      "earliestAgeOrLowestStage",
+      "latestPeriodOrHighestSystem",
+      "latestEpochOrHighestSeries",
+      "latestAgeOrHighestStage",
+      "group",
+      "formation",
+      "member",
+      "dynamicProperties",
+      "associatedReferences",
+      "type",
+      "institutionCode",
+      "institutionID",
+      "collectionCode",
+      "collectionID",
+      "ownerInstitutionCode",
+      "bibliographicCitation",
+      "datasetName"
+    ]
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column higherClassification using expression grel:\"HIGHER CLASSIFICATION: \"+cells[\"higherClassification\"].value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "higherClassification",
+    "expression": "grel:\"HIGHER CLASSIFICATION: \"+cells[\"higherClassification\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column locationID",
+    "columnName": "locationID"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column higherGeography using expression grel:\"HIGHER GEOGRAPHY: \"+cells[\"higherGeography\"].value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "higherGeography",
+    "expression": "grel:\"HIGHER GEOGRAPHY: \"+cells[\"higherGeography\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column earliestPeriodOrLowestSystem",
+    "columnName": "earliestPeriodOrLowestSystem"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column earliestEpochOrLowestSeries using expression grel:\"AGE: \"+cells[\"earliestEpochOrLowestSeries\"].value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "earliestEpochOrLowestSeries",
+    "expression": "grel:\"AGE: \"+cells[\"earliestEpochOrLowestSeries\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column earliestEpochOrLowestSeries using expression grel:value+\": \"+cells[\"earliestAgeOrLowestStage\"].value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "earliestEpochOrLowestSeries",
+    "expression": "grel:value+\": \"+cells[\"earliestAgeOrLowestStage\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column earliestAgeOrLowestStage",
+    "columnName": "earliestAgeOrLowestStage"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column latestPeriodOrHighestSystem",
+    "columnName": "latestPeriodOrHighestSystem"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column latestEpochOrHighestSeries using expression grel:value+\": \"+cells[\"latestAgeOrHighestStage\"].value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "latestEpochOrHighestSeries",
+    "expression": "grel:value+\": \"+cells[\"latestAgeOrHighestStage\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column latestAgeOrHighestStage",
+    "columnName": "latestAgeOrHighestStage"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column earliestEpochOrLowestSeries using expression grel:value+\" - \"+cells[\"latestEpochOrHighestSeries\"].value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "earliestEpochOrLowestSeries",
+    "expression": "grel:value+\" - \"+cells[\"latestEpochOrHighestSeries\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column latestEpochOrHighestSeries",
+    "columnName": "latestEpochOrHighestSeries"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column member",
+    "columnName": "member"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column group",
+    "columnName": "group"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column formation using expression grel:\"FORMATION: \"+cells[\"formation\"].value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "formation",
+    "expression": "grel:\"FORMATION: \"+cells[\"formation\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column associatedReferences",
+    "columnName": "associatedReferences"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column dynamicProperties",
+    "columnName": "dynamicProperties"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column type",
+    "columnName": "type"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column institutionCode",
+    "columnName": "institutionCode"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column institutionID using expression grel:\"institutionID: \"+cells[\"institutionID\"].value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "institutionID",
+    "expression": "grel:\"institutionID: \"+cells[\"institutionID\"].value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column collectionCode",
+    "columnName": "collectionCode"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column collectionID using expression grel:\"collectionID: \"+value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "collectionID",
+    "expression": "grel:\"collectionID: \"+value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column ownerInstitutionCode",
+    "columnName": "ownerInstitutionCode"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column bibliographicCitation using expression grel:\"CITATION: \"+value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "bibliographicCitation",
+    "expression": "grel:\"CITATION: \"+value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column datasetName",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "datasetName",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Cretaceous Seas of California (NSF 1561429)"
+        ],
+        "to": "Cretaceous World TCN (NSF 1902262), Cretaceous Seas of California (NSF 1561429)"
+      }
+    ]
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column datasetName using expression grel:\"DATASET NAME: \"+value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "datasetName",
+    "expression": "grel:\"DATASET NAME: \"+value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column ﻿occurrenceID using expression grel:\"occurrenceID: \"+value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "﻿occurrenceID",
+    "expression": "grel:\"occurrenceID: \"+value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-reorder",
+    "description": "Reorder columns",
+    "columnNames": [
+      "catalogNumber",
+      "typeStatus",
+      "scientificName",
+      "higherClassification",
+      "higherGeography",
+      "locality",
+      "earliestEpochOrLowestSeries",
+      "formation",
+      "bibliographicCitation",
+      "datasetName",
+      "﻿occurrenceID",
+      "collectionID",
+      "institutionID"
+    ]
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column typeStatus",
+    "columnName": "typeStatus"
+  },
+  {
+    "op": "core/column-reorder",
+    "description": "Reorder columns",
+    "columnNames": [
+      "catalogNumber",
+      "scientificName",
+      "higherClassification",
+      "higherGeography",
+      "earliestEpochOrLowestSeries",
+      "formation",
+      "datasetName",
+      "bibliographicCitation",
+      "﻿occurrenceID",
+      "collectionID",
+      "institutionID",
+      "locality"
+    ]
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column creator at index 11 based on column institutionID using expression grel:\"CREATOR: Model produced by Jonathan Marcot, 2021 (UCLA, Ecology & Evolutionary Biology).\"",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "creator",
+    "columnInsertIndex": 11,
+    "baseColumnName": "institutionID",
+    "expression": "grel:\"CREATOR: Model produced by Jonathan Marcot, 2021 (UCLA, Ecology & Evolutionary Biology).\"",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column modality at index 12 based on column creator using expression grel:\"MODALITY: photogrammetry\"",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "modality",
+    "columnInsertIndex": 12,
+    "baseColumnName": "creator",
+    "expression": "grel:\"MODALITY: photogrammetry\"",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column deviceFacility at index 13 based on column modality using expression grel:\"DEVICE FACILITY: Natural History Museum of Los Angeles County\"",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "deviceFacility",
+    "columnInsertIndex": 13,
+    "baseColumnName": "modality",
+    "expression": "grel:\"DEVICE FACILITY: Natural History Museum of Los Angeles County\"",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column creator",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "creator",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CREATOR: Model produced by Jonathan Marcot, 2021 (UCLA, Ecology & Evolutionary Biology)."
+        ],
+        "to": "CREATOR: Jonathan Marcot, 2021 (UCLA, Ecology & Evolutionary Biology)."
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column creator",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "creator",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "CREATOR: Jonathan Marcot, 2021 (UCLA, Ecology & Evolutionary Biology)."
+        ],
+        "to": "CREATOR: Jonathan Marcot (UCLA, Ecology & Evolutionary Biology)"
+      }
+    ]
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column date at index 12 based on column creator using expression grel:\"DATE: 2021\"",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "date",
+    "columnInsertIndex": 12,
+    "baseColumnName": "creator",
+    "expression": "grel:\"DATE: 2021\"",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-reorder",
+    "description": "Reorder columns",
+    "columnNames": [
+      "catalogNumber",
+      "scientificName",
+      "higherClassification",
+      "higherGeography",
+      "earliestEpochOrLowestSeries",
+      "formation",
+      "creator",
+      "date",
+      "modality",
+      "deviceFacility",
+      "bibliographicCitation",
+      "datasetName",
+      "﻿occurrenceID",
+      "collectionID",
+      "institutionID",
+      "locality"
+    ]
+  }
+]
