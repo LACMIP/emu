@@ -20,7 +20,7 @@ Please contact the department for additional resources that may be helpful to re
 Students are encouraged to apply for a [student collections study award](https://nhm.org/student-collections-study-award) to assist with travel costs.
 
 # During your visit
-## Main museum
+## Main Museum
 {% include figure image_path="/assets/images/visiting_nhm.jpg" alt="South entrance of the NHMLA" caption="The LACMIP type collections are located in Exposition Park." %}
 The LACMIP type collections are located at the main museum. Resources available to researchers at this location include:
 - Renovated workspace (shared with [Malacology](https://nhm.org/research-collections/departments-and-programs/malacology))
@@ -29,7 +29,7 @@ The LACMIP type collections are located at the main museum. Resources available 
 
 The museum's website has information about [parking and directions](https://nhm.org/plan-your-visit/visitor-information). If you chose to drive, collections staff will coordinate parking reservations once the date of your visit is finalized.
 
-## Collections facility
+## Collections Facility
 {% include figure image_path="/assets/images/visiting_offsite.jpg" alt="LACIMP collections" caption="The LACMIP stratigraphic & taxonomic collections are located offsite." %}
 All other LACMIP collections are located in a dedicated facility approximately 10 miles from the main museum. For security purposes, the address is not shared here. Resources available to researchers at this location include:
 - [Stratigraphically arranged collections](https://lacmip.github.io/emu/assets/images/visiting_collections.jpg) with greatest strengths in the Cenozoic, Cretaceous, and Cambrian of California
