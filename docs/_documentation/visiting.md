@@ -16,6 +16,8 @@ Prior to visiting, you may wish to browse our online resources:
 
 Please contact the department for additional resources that may be helpful to review prior to your visit. 
 
+Student researchers are encouraged to apply for a [student collections study award](https://nhm.org/student-collections-study-award) to assist with travel costs.
+
 # During your visit
 ## Main Museum
 {% include figure image_path="/assets/images/visiting_nhm.jpg" alt="South entrance of the NHMLA" caption="The LACMIP type collections are located in Exposition Park." %}
