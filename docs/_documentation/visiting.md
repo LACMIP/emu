@@ -1,5 +1,5 @@
 ---
-title: For Visitors
+title: Visitors
 navcat: Other
 tags:
 toc_sticky: true
@@ -44,6 +44,11 @@ Please keep in mind as you navigate our collections:
 ⚠️ **Our cabinets do not have drawer stoppers!** Please open all drawers slowly and cautiously.
 
 ⚠️ **Please remove specimens from drawers judiciously, and use the specimen removal tags when you do.** Placeholder tags should be set in boxes every time a specimen is removed from its drawer.
+
+The following guides are available to assist with collections navigation and numbers:
+- How to [select specimens from the collection](https://lacmip.github.io/emu/assets/images/visiting_collectionsnavigation.jpg)
+- Key to [collections numbers](https://lacmip.github.io/emu/assets/images/visiting_collectionsnumbers.jpg)
+- Key to [type numbers]({{ site.baseurl }}/documentation/typecollection/#type-numbers/)
 
 # Loans & Photography
 Please review our institutional loan [terms and conditions]({{ site.baseurl }}/documentation/loans/) before making your request.
