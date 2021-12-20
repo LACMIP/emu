@@ -48,13 +48,11 @@ The following guides are available to assist with collections navigation and num
 - Key to [type numbers]({{ site.baseurl }}/documentation/typecollection/#type-numbers/)
 
 # Loans & Photography
-Please review our institutional [loan terms and conditions]({{ site.baseurl }}/documentation/loans/) before making your request.
+Please review our institutional [loan terms and conditions]({{ site.baseurl }}/documentation/loans/) before making your request. Please note that same-day loans are typically not feasible, and that we do not loan type specimens.
 
-If images are captured as part of your visit, please consider sharing them with collections staff, especially if you have retained our locality or catalog numbers with the imagery. A key to numbers commonly found in the LACMIP collections can be found [here]({{ site.baseurl }}/documentation/typecollection/#number-keys).
-
-Our preferred convention for naming specimen imagery is as follows:
+If you capture specimen images during your visit, please consider sharing them with collections staff, especially if you have retained our locality or catalog numbers with the files. Our preferred convention for naming specimen-related multimedia is as follows:
 - `LACMIP_cat#_etc`
-- Ex: `LACMIP_10711-2_Metaplacenticeras_sp_1a.jpg` for [LACMIP 10711.2](http://digitalgallery.nhm.org:8085/invertpaleo_nhm/#/asset/646178)
+- Ex: `LACMIP_10711-2_Metaplacenticeras_sp_1a.jpg` = [LACMIP 10711.2](http://digitalgallery.nhm.org:8085/invertpaleo_nhm/#/asset/646178)
 
 # Citations
 If your work results in the use of LACMIP specimens in a publication, thesis, or dissertation, please consult our [citation guidelines]({{ site.baseurl }}/documentation/citing) while your manuscript is in preparation.
