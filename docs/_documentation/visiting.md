@@ -54,7 +54,7 @@ If images are captured as part of your visit, please consider sharing them with 
 
 Our preferred convention for naming specimen imagery is as follows:
 - `LACMIP_cat#_etc`
-- Example: `LACMIP_10711-2_Metaplacenticeras_sp_1a.jpg` for [LACMIP 10711.2](http://digitalgallery.nhm.org:8085/invertpaleo_nhm/#/asset/646178)
+- Ex: `LACMIP_10711-2_Metaplacenticeras_sp_1a.jpg` for [LACMIP 10711.2](http://digitalgallery.nhm.org:8085/invertpaleo_nhm/#/asset/646178)
 
 # Citations
 If your work results in the use of LACMIP specimens in a publication, thesis, or dissertation, please consult our [citation guidelines]({{ site.baseurl }}/documentation/citing) while your manuscript is in preparation.
