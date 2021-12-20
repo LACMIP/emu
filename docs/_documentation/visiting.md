@@ -32,7 +32,7 @@ The museum's website has information about [parking and directions](https://nhm.
 ## Collections Facility
 {% include figure image_path="/assets/images/visiting_offsite.jpg" alt="LACIMP collections" caption="The LACMIP stratigraphic & taxonomic collections are located offsite." %}
 All other LACMIP collections are located in a dedicated facility approximately 10 miles from the main museum. For security purposes, the address is not shared here. Resources available to researchers at this location include:
-- [Stratigraphically arranged collections](https://lacmip.github.io/emu/assets/images/visiting_collections.jpg) with greatest strengths in the Cenozoic, Cretaceous, and Cambrian of California
+- Stratigraphically arranged collections with greatest strengths in the Cenozoic, Cretaceous, and Cambrian of California
 - Systematically arranged collections with emphasis on the Cenozoic and Cretaceous of California, as well as trilobites
 - [Prep lab](https://lacmip.github.io/emu/assets/images/visiting_preplab.jpg) equipped with a screenwashing station, rock saw, grinding table, microscope, and [two copy stands](https://lacmip.github.io/emu/assets/images/visiting_copystand.jpg) for photography
 - Several workstations in an enclosed office area and collections range
