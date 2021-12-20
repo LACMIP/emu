@@ -45,7 +45,7 @@ The following guides are available to assist with collections navigation and num
 - Key to [type numbers]({{ site.baseurl }}/documentation/typecollection/#type-numbers/)
 
 # Loans & Photography
-Please review our institutional loan [terms and conditions]({{ site.baseurl }}/documentation/loans/) before making your request.
+Please review our institutional [loan terms and conditions]({{ site.baseurl }}/documentation/loans/) before making your request.
 
 If images are captured as part of your visit, please consider sharing them with collections staff, especially if you have retained our locality or catalog numbers with the imagery. A key to numbers commonly found in the LACMIP collections can be found [here]({{ site.baseurl }}/documentation/typecollection/#number-keys).
 
