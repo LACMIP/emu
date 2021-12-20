@@ -18,7 +18,7 @@ Please contact the collections manager for additional resources that may be help
 
 # During your visit
 ## Main Museum
-{% include figure image_path="/assets/images/visitors_nhm.jpg" alt="South entrance of the NHMLA" caption="900 Exposition Blvd., Los Angeles, CA" %}
+{% include figure image_path="/assets/images/visiting_nhm.jpg" alt="South entrance of the NHMLA" caption="900 Exposition Blvd., Los Angeles, CA" %}
 The LACMIP type collection is located at the main museum. This collections  Facilities available to researchers at this location include:
 - Renovated workspace (shared with Malacology)
 - Depending on availability, use of microscopy and imaging equipment managed by other departments may be arranged by appointment. A list of resources available at the museum can be found [here](https://nhm.org/research-collections/tools-and-services).
@@ -27,13 +27,14 @@ The LACMIP type collection is located at the main museum. This collections  Faci
 The museum's website has more information about [parking and directions](https://nhm.org/plan-your-visit/visitor-information). If you chose to drive, collections staff will coordinate parking reservations once the date of your visit is finalized.
 
 ## Collections Facility
-{% include figure image_path="/assets/images/visitors_nhm.jpg" alt="LACIMP collections" caption="LACMIP offsite collections" %}
-All other LACMIP collections are located in a dedicated facility approximately 10 miles from the main museum. It is not easily accessible via public transit from most areas on Los Angeles. For security purposes, the precise address is not shared here. Facilities available to researchers at this location include:
+{% include figure image_path="/assets/images/visiting_offsite.jpg" alt="LACIMP collections" caption="LACMIP offsite collections" %}
+All other LACMIP collections are located in a dedicated facility approximately 10 miles from the main museum. This location is not as easily accessible via public transit as the main museum. For security purposes, the precise address is not shared here. Resources available to researchers at this location include:
 - [Stratigraphically arranged collections](https://lacmip.github.io/emu/assets/images/visiting_collections.jpg) with greatest strengths in the Cenozoic, Cretaceous, and Cambrian of California
 - Systematically arranged reference collections with greatest strengths in the Cenozoic and Cretaceous of California, and Trilobites of the US
-- [Prep lab](https://lacmip.github.io/emu/assets/images/visiting_preplab.jpg) with screenwashing station, rock saw, grinding table, microscope, two copy stands for photography
+- [Prep lab](https://lacmip.github.io/emu/assets/images/visiting_preplab.jpg) equipped with a screenwashing station, rock saw, grinding table, microscope, and two copy stands for photography
 - Several workstations in an enclosed office area and collections range
 - Large [reprint library](https://lacmip.github.io/emu/assets/images/visiting_library.jpg)
+- When coming to this location, visitors should pack a lunch or plan to purchase lunch at nearby restaurants (~5 min drive)
 
 ## Accessing the collections
 Please keep in mind as you navigate our collections:
