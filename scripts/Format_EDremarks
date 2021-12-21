@@ -1,0 +1,185 @@
+[
+  {
+    "op": "core/column-removal",
+    "description": "Remove column LACMIP Type No.: (Specimen Numbers)",
+    "columnName": "LACMIP Type No.: (Specimen Numbers)"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Type Status: (Identification)",
+    "columnName": "Type Status: (Identification)"
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column Lot Remarks: (Remarks) by separator",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Lot Remarks: (Remarks)",
+    "guessCellType": false,
+    "removeOriginalColumn": false,
+    "mode": "separator",
+    "separator": " | ",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Lot Remarks: (Remarks) 1 to edGeography",
+    "oldColumnName": "Lot Remarks: (Remarks) 1",
+    "newColumnName": "edGeography"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Lot Remarks: (Remarks) 2 to edAge",
+    "oldColumnName": "Lot Remarks: (Remarks) 2",
+    "newColumnName": "edAge"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Lot Remarks: (Remarks) 3 to edUnit",
+    "oldColumnName": "Lot Remarks: (Remarks) 3",
+    "newColumnName": "edUnit"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Lot Remarks: (Remarks) 4 to edCollector",
+    "oldColumnName": "Lot Remarks: (Remarks) 4",
+    "newColumnName": "edCollector"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Lot Remarks: (Remarks) 5 to edCollDate",
+    "oldColumnName": "Lot Remarks: (Remarks) 5",
+    "newColumnName": "edCollDate"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Lot Remarks: (Remarks) 6 to edRemarks",
+    "oldColumnName": "Lot Remarks: (Remarks) 6",
+    "newColumnName": "edRemarks"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Taxon: (Identification Details) IP to Taxon",
+    "oldColumnName": "Taxon: (Identification Details) IP",
+    "newColumnName": "Taxon"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column edGeography using expression value.replace(\"ED GEOGRAPHY: \",\"\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "edGeography",
+    "expression": "value.replace(\"ED GEOGRAPHY: \",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column edAge using expression value.replace(\"ED AGE: \",\"\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "edAge",
+    "expression": "value.replace(\"ED AGE: \",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column edUnit using expression value.replace(\"ED UNIT: \",\"\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "edUnit",
+    "expression": "value.replace(\"ED UNIT: \",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column edCollector using expression value.replace(\"ED COLLECTOR: \",\"\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "edCollector",
+    "expression": "value.replace(\"ED COLLECTOR: \",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column edCollDate using expression value.replace(\"ED DATE: \",\"\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "edCollDate",
+    "expression": "value.replace(\"ED DATE: \",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column edRemarks using expression value.replace(\"ED OTHER REMARKS: \",\"\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "edRemarks",
+    "expression": "value.replace(\"ED OTHER REMARKS: \",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column edRemarks using expression value.replace(\" |\",\"\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "edRemarks",
+    "expression": "value.replace(\" |\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column edRemarks",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "edRemarks",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "none"
+        ],
+        "to": ""
+      }
+    ]
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Lot Remarks: (Remarks)",
+    "columnName": "Lot Remarks: (Remarks)"
+  }
+]
