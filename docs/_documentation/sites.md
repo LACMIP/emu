@@ -159,7 +159,7 @@ Radius (Numeric)
  *Value* | *Explanation*
    --- | ---
    5 | Typically applies to localities with GPS-derived coordinates.
-   50 | Applies to localities georeferenced with great certainity, but without precise coordinates available.
+   50 | Applies to localities georeferenced with great certainty, but without precise coordinates available.
    2500 | Applies to localities of greatest uncertainty, short of the locality description being inadequate for georeferencing.
    other | Other values (up to 2500 m) may be determined at the discretion of the georeferencer.
 
