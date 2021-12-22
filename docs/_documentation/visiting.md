@@ -46,7 +46,7 @@ The following guides are available to assist with collections navigation and num
 - How to [select specimens from the collection](https://lacmip.github.io/emu/assets/images/visiting_collectionsnavigation.jpg)
 - Key to [collections numbers](https://lacmip.github.io/emu/assets/images/visiting_collectionsnumbers.jpg)
 - Key to [type numbers]({{ site.baseurl }}/documentation/typecollection/#type-numbers/)
-- Blank [ID tag template](https://lacmip.github.io/emu/assets/images/visiting_BlankIDTags.pdf) & [explanation]({{ site.baseurl }}/documentation/cataloging/#id-tag-anatomy/)
+- Blank [ID tag template](https://lacmip.github.io/emu/assets/images/visiting_blanktags.png) & [explanation]({{ site.baseurl }}/documentation/cataloging/#id-tag-anatomy/)
 
 # Loans & Photography
 Please review our institutional [loan terms and conditions]({{ site.baseurl }}/documentation/loans/) before making your request. Please note that same-day loans are typically not feasible, and that we do not loan type specimens.
