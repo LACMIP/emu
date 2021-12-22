@@ -27,14 +27,14 @@ This workflow will introduce you to the basic steps required to image fossils us
    Delete | Once your files have successfully copied to Google Drive (save the last 10 mins of your shift for this task), delete the originals from the _Pictures_ folder before leaving. **Do not delete them until every file has been uploaded.**
    Shut Down | When your imaging shift is complete, replace the lens cap and dust cover on the camera and turn off the lights. Because this is a shared workstation, please keep it tidy!
 
-::warning:: Please handle all imaging equipement wtih care. It can be difficult to clean and very costly to replace. In particular, do not touch the glass on the camera lens.
+:warning: Handle all imaging equipment with care. The cameras and lenses are difficult to clean and costly to replace. Never remove the lenses from the cameras or touch the glass on either lens.
 {: .notice--warning}
 
 # Macrophotography
 
-Close-up ("macro" photography of small specimens (fossils that are <1" at their greatest dimension), as well as more detailed images of larger specimens, can be captured using the Canon EOS 5D Mark III DSLR camera paired with a Canon MP-E 65mm f/2.8 1-5x macro lens and a Cognysis StackShot macro rail.
+Photographing small specimens and taking detailed images of larger specimens requires a more involved and time-consuming workflow. These images are acquired using a Canon EOS 5D Mark III DSLR camera paired with a Canon MP-E 65mm f/2.8 1-5x macro lens and a Cognysis StackShot macro rail. A [guide to macrophotography](https://drive.google.com/file/d/1VsrV8OBMxUAjes_QLagHZisrnTrAbwyv/view?usp=sharing) was developed for LACMIP's Fossil Insect PEN (2017-2020).
 
-The [guide to macrophotography](https://drive.google.com/file/d/1VsrV8OBMxUAjes_QLagHZisrnTrAbwyv/view?usp=sharing) developed for LACMIP's Fossil Insect PEN (2017-2020) outlines how to photograph our smallest specimens.
+Addiontally, the museum's Keyence microscope can be accesssed by appointment if very high-quality imagery is needed to fulfill research requests. Access to this equipment is controlled by the [Entomology](https://nhm.org/research-collections/departments/entomology) division.
    
 # Saving
 ## File Names
