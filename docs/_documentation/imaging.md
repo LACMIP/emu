@@ -27,7 +27,7 @@ This overview will help you get started with imaging specimens using our Nikon D
    Delete | Once your files have successfully copied to Google Drive (save the last 10 mins of your shift for this task), delete the originals from the _Pictures_ folder before leaving. **Do not delete them until every file has been uploaded.**
    Shut Down | When your imaging shift is complete, replace the lens cap and dust cover on the camera and turn off the lights. Because this is a shared workstation, please keep it tidy!
 
-# Advanced macrophotography
+# Macrophotography
 
 Close-up ("macro" photography of small specimens (fossils that are <1" at their greatest dimension), as well as more detailed images of larger specimens, can be captured using the Canon EOS 5D Mark III DSLR camera paired with a Canon MP-E 65mm f/2.8 1-5x macro lens and a Cognysis StackShot macro rail.
 
