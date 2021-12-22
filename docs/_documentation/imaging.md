@@ -36,23 +36,6 @@ Photographing small specimens and taking detailed images of larger specimens req
 
 Additionally, the museum's Keyence microscope can be accesssed by appointment when very high quality imagery is needed to fulfill research requests. Access to this equipment is controlled by the [Entomology](https://nhm.org/research-collections/departments/entomology) division.
    
-# Saving
-## File Names
-### Script
-
-### Keystroking
-Avoid manually renaming files whenever possible. However, sometimes file names must be hand keystroked. File names should conform to this format:
--`LACMIP_cat#_Genus_species_etc`
-
-Images containing barcodes can be renamed using the barcode scanner, which acts like a keyboard. Scan the barcode in the image to insert the catalog number into the file name. However, the file name should still be manually altered to conform to the preferred format.
-
-## Metadata
-Images destined for EMu and the web should have metadata applied to them in Adobe Bridge. To do so, open Adobe Bridge and navigate to the folder containing the images you'd like to append metadata to. Select all images in the folder, then choose _Tools > Append Metadata_, and select the desired template. (Do not choose _Replace Metadata_.) The first time you do this, you may need to load your desired metadata template into Bridge: _LACMIP Imaging > Imaging Templates_.
-
-If you are applying metadata to images _after_ they have been uploaded to Google Drive, this step will be most easily accomplished using Finder and the desktop version of Google Drive for Mac.
-
-{% include figure image_path="/assets/images/imaging_metadata.png" alt="How to apply metadata to images in Bridge" caption="**Figure illustrating how to apply metadata to images in Adobe Bridge.** Right-click the image above to enlarge it in a separate tab or window." %}
-
 # Storage
 ## Google Drive
 All *specimen* images should be saved to an appropriate subfolder _Google Drive > Shared Drives > LACMIP Imaging_. **The purpose of this shared drive is to store original, unaltered specimen images**. These files should be periodically shared with the Database Manager for ingestion into EMu. Any images that are intended for the web will also need to be saved to Extensis Portfolio.
@@ -64,7 +47,23 @@ All *specimen* images should be saved to an appropriate subfolder _Google Drive 
 
 You can [acccess Extensis](https://digitalgallery.nhm.org:9443/#/) using your NHMLA login and password. Not all images in Extensis are publicly visible; **only files save to the catalog "Inverpaleo published assets" will become available online**, whereas files saved to "Invertpaleo archived assets" will remain private. Files added to the latter catalog can be viewed and downloaded from [here](http://digitalgallery.nhm.org:8085/invertpaleo_nhm/#/), and can be pushed to aggregators.
 
-The first time you access Extensis, contact [IT](itsupport@nhm.org] to determine the best contact for direct assistance with the DAMS. This individual can provide advice on the latest recommendations for ingesting large batches of images into Extensis, and should be able to adjust any permissions you need enabled within the DAMS.
+The first time you access Extensis, contact [IT](itsupport@nhm.org) to determine the best contact for direct assistance with the DAMS. This individual can provide advice on the latest recommendations for ingesting large batches of images into Extensis, and should be able to adjust any permissions you need enabled within the DAMS.
 
 ## Other copies
 Prior to the NHMLA's adoption of Google Drive in 2019, images for the EPICC (2015-2020), CSC (2017-2019), and FIC (2017-2020) projects were saved to two external hard drives. These files have since been backed up on the DAMS and in Google Drive. LACMIP will _not_ be using external hard drives for long-term image storage moving forward.
+
+# File Names
+## Script
+
+## Keystroking
+Avoid manually renaming files whenever possible. However, sometimes file names must be hand keystroked. File names should conform to this format:
+-`LACMIP_cat#_Genus_species_etc`
+
+Images containing barcodes can be renamed using the barcode scanner, which acts like a keyboard. Scan the barcode in the image to insert the catalog number into the file name. However, the file name should still be manually altered to conform to the preferred format.
+
+## Metadata
+Images destined for EMu and the web should have metadata applied to them in Adobe Bridge. To do so, open Adobe Bridge and navigate to the folder containing the images you'd like to append metadata to. Select all images in the folder, then choose _Tools > Append Metadata_, and select the desired template. (Do not choose _Replace Metadata_.) The first time you do this, you may need to load your desired metadata template into Bridge: _LACMIP Imaging > Imaging Templates_.
+
+If you are applying metadata to images _after_ they have been uploaded to Google Drive, this step will be most easily accomplished using Finder and the desktop version of Google Drive for Mac.
+
+{% include figure image_path="/assets/images/imaging_metadata.png" alt="How to apply metadata to images in Bridge" caption="**Figure illustrating how to apply metadata to images in Adobe Bridge.** Right-click the image above to enlarge it in a separate tab or window." %}
