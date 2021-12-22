@@ -50,7 +50,7 @@ The first time you access Extensis, ask IT (itsupport@nhm.org) for the best cont
 ## Other copies
 Prior to the NHMLA's adoption of Google Drive in 2019, images for the EPICC (2015-2020), CSC (2017-2019), and FIC (2017-2020) projects were saved to two external hard drives. These files have since been backed up on the DAMS and in Google Drive. LACMIP will _not_ be using external hard drives for long-term image storage moving forward.
 
-# File Names
+# File names
 ## Script
 
 ## Keystroking
