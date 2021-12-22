@@ -37,14 +37,23 @@ The [guide to macrophotography](https://drive.google.com/file/d/1VsrV8OBMxUAjes_
 ## File Names
 ### Script
 
-### Manual
+### Keystroking
 Avoid manually renaming files whenever possible. However, sometimes file names must be hand keystroked. File names should conform to this format:
 -`LACMIP_cat#_Genus_species_etc`
 
 Images containing barcodes can be renamed using the barcode scanner, which acts like a keyboard. Scan the barcode in the image to insert the catalog number into the file name. However, the file name should still be manually altered to conform to the preferred format.
 
+## Metadata
+Images destined for EMu and the web should have metadata applied to them in Adobe Bridge. To do so, open Adobe Bridge and navigate to the folder containin the images you'd like to add metadata to. Select all images in the folder, then choose _Tools > Append Metadata_, and select the desired template. The first time you do this, load your desired template into Bridge from _LACMIP Imaging > Imagin Templates_.
+
+If you are applying metadata to images _after_ they have been uploaded to Google Drive, this step will be most easily accomplished using the desktop version of Google Drive.
+
+{% include figure image_path="/assets/images/imaging_metadata.jpg" alt="Example of how to apply metadata to images." caption="" %}
+
+# Storage
+
 ## Google Drive
-All images are currently saved to Google Drive: _Shared Drives > LACMIP Imaging_ in one of the following [folders]{{ site.baseurl }}/assets/images/imaging_sharing.png):
+All specimen images are currently saved to Google Drive: _Shared Drives > LACMIP Imaging_ in one of the following [folders]{{ site.baseurl }}/assets/images/imaging_sharing.png):
 - IMLS Type Specimens
 - Post-EPICC Originals
 - WIS Originals
