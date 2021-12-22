@@ -3,12 +3,10 @@ title: Imaging
 navcat: Workflows
 tags: imaging
 toc_sticky: true
-last_modified_at: 2021-12-21
+last_modified_at: 2021-12-22
 ---
 
 This page will help get you started with specimen photography.
-
-::construction:: **THIS PAGE IS UNDER CONSTRUCTION!**
 
 # Basic photography
 This workflow will introduce you to the basic steps required to image fossils using our Nikon D610 DSLR camera combined with the Nikkor AF Micro-Nikkor 60mm f/2.8D lens.
@@ -43,11 +41,11 @@ All specimen images should be saved to an appropriate subfolder in _Google Drive
 {% include figure image_path="assets/images/imaging_sharing.png" alt="Save images to the shared Google Drive, _LACMIP Imaging_" caption="**Figure illustrating where to save specimen images in Google Drive.** Right-click the image above to enlarge it in a separate tab or window." %}
 
 ## Extensis Portfolio
-[Extensis Portfolio](https://www.extensis.com/portfolio) is the NHMLA's institutional DAMS. All images to be shared with online aggregators must have [metadata]({{ site.baseurl }}/documentation/imaging/metadata/) applied before ingestion into Extensis.
+[Extensis Portfolio](https://www.extensis.com/portfolio) is the NHMLA's institutional DAMS. All images to be shared with online aggregators must have [metadata](https://lacmip.github.io/emu/documentation/imaging/#metadata) applied before ingestion into Extensis.
 
 You can [acccess Extensis](https://digitalgallery.nhm.org:9443/#/) using your NHMLA login and password. Not all images in Extensis are publicly visible; **only files save to the catalog "Inverpaleo published assets" will become available online**, whereas files saved to "Invertpaleo archived assets" will remain private. Files added to the former catalog can be viewed and downloaded from [here](http://digitalgallery.nhm.org:8085/invertpaleo_nhm/#/), and can be pushed to aggregators.
 
-The first time you access Extensis, [ask IT](itsupport@nhm.org) for the best contact for direct assistance with the DAMS. This individual can provide advice on the latest recommendations for ingesting large batches of images into Extensis, and should be able to adjust any permissions you need enabled within the DAMS.
+The first time you access Extensis, ask IT (itsupport@nhm.org) for the best contact for direct assistance with the DAMS. This individual can provide advice on the latest recommendations for ingesting large batches of images into Extensis, and should be able to adjust any permissions you need enabled within the DAMS.
 
 ## Other copies
 Prior to the NHMLA's adoption of Google Drive in 2019, images for the EPICC (2015-2020), CSC (2017-2019), and FIC (2017-2020) projects were saved to two external hard drives. These files have since been backed up on the DAMS and in Google Drive. LACMIP will _not_ be using external hard drives for long-term image storage moving forward.
