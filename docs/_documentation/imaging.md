@@ -62,7 +62,7 @@ Images containing barcodes can be renamed using the barcode scanner, which acts 
 **Take care when naming images. If a catalog number is mistyped into a file name, the image will become disassociated from the correct specimen record.** Once the image is ingested into EMu, the DAMS, and picked up by aggregators, such errors can become very time-consuming to correct.
 {: .notice--warning}
 
-## Metadata
+# Metadata
 Images destined for EMu and the web should have metadata applied to them in Adobe Bridge. To do so, open Adobe Bridge and navigate to the folder containing the images you'd like to append metadata to. Select all images in the folder, then choose _Tools > Append Metadata_, and select the desired template. (Do not choose _Replace Metadata_.) The first time you do this, you may need to load your desired metadata template into Bridge: _LACMIP Imaging > Imaging Templates_.
 
 If you are applying metadata to images _after_ they have been uploaded to Google Drive, this step will be most easily accomplished using Finder and the desktop version of Google Drive for Mac.
