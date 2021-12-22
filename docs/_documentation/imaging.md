@@ -51,7 +51,9 @@ Images destined for EMu and the web should have metadata applied to them in Adob
 
 If you are applying metadata to images _after_ they have been uploaded to Google Drive, this step will be most easily accomplished using Finder and the desktop version of Google Drive for Mac.
 
-<img src="{{ site.baseurl }}/assets/images/imaging_metadata.jpg" alt="" width="500"/>{: .align-center}
+<img src="{{ site.baseurl }}/assets/images/imaging_metadata.png" alt="" width="500"/>{: .align-center}
+
+{% include figure image_path="/assets/images/imaging_metadata.png" alt="How to apply metadata to images in Bridge" caption="**Figure illustrating how to apply metadata to images in Adobe Bridge.** Right-click the image above to enlarge it in a separate tab or window." %}
 
 # Storage
 ## Google Drive
