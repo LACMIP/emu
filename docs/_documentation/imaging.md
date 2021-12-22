@@ -51,18 +51,20 @@ If you are applying metadata to images _after_ they have been uploaded to Google
 {% include figure image_path="/assets/images/imaging_metadata.jpg" alt="Example of how to apply metadata to images." caption="" %}
 
 # Storage
-
 ## Google Drive
-All specimen images are currently saved to Google Drive: _Shared Drives > LACMIP Imaging_ in one of the following [folders]{{ site.baseurl }}/assets/images/imaging_sharing.png):
+All *specimen* images should be saved to: _Google Drive > Shared Drives > LACMIP Imaging_ in one of the following [folders]{{ site.baseurl }}/assets/images/imaging_sharing.png). This shared drive is a place to store original, unaltered images that should be periodically shared with Bill Mertz for ingestion into EMu. Images that are intended for the web will also need to be saved to Extensis Portfolio.
 - IMLS Type Specimens
 - Post-EPICC Originals
 - WIS Originals
 - Registrar Images
 
- - Researchers with whom you share the folders should be added as "Contributors" (Add and edit permission, but not permission to delete or move files). 
-
-Share these with Bill Mertz for ingestion into EMu.
 ## Extensis Portfolio
+[Extensis Portfolio](https://www.extensis.com/portfolio) is the NHMLA's institutional DAMS. All images to be shared with online aggregators must have [metadata]({{ site.baseurl }}/documentation/imaging/#metadata/) applied before ingestion into Extensis.
+
+You can [acccess Extensis](https://digitalgallery.nhm.org:9443/#/) using your NHMLA login and password. Not all images in Extensis are publicly visible; however those that are pushed to aggregators can be viewed and downloaded from [here](http://digitalgallery.nhm.org:8085/invertpaleo_nhm/#/).
+
+The first time you need to access Extensis, contact [IT](itsupport@nhm.org] to determine the best contact to assist you. The DAMS Manager can provide advice on the latest best practices recommended for ingesting large batches of images into Extensis (must be done onsite) a h 
+
 ## Other archived images
 - SNAIL HD
 - Fossil Insect HD
