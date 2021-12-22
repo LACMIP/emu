@@ -63,13 +63,12 @@ All *specimen* images should be saved to: _Google Drive > Shared Drives > LACMIP
 
 You can [acccess Extensis](https://digitalgallery.nhm.org:9443/#/) using your NHMLA login and password. Not all images in Extensis are publicly visible; however those that are pushed to aggregators can be viewed and downloaded from [here](http://digitalgallery.nhm.org:8085/invertpaleo_nhm/#/).
 
-The first time you need to access Extensis, contact [IT](itsupport@nhm.org] to determine the best contact to assist you. The DAMS Manager can provide advice on the latest best practices recommended for ingesting large batches of images into Extensis (must be done onsite) a h 
+The first time you access Extensis, contact [IT](itsupport@nhm.org] to determine the best contact for direct assistance. This individual can provide advice on the latest recommendations for ingesting large batches of images into Extensis, and should be able to adjust any permissions you need enabled within the DAMS.
 
-## Other archived images
-- SNAIL HD
-- Fossil Insect HD
+## Other copies
+Prior to the NHMLA's adoption of Google Drive in 2019, images for the EPICC (2015-2020), CSC (2017-2019), and FIC (2017-2020) projects were saved to two external hard drives. These files have since been backed up on the DAMS and in Google Drive. LACMIP will _not_ be using external hard drives for long-term image storage moving forward.
 
-# General tips
+# Other tips
 - If the box contains a pink camera tag, remove it after imaging.
 - Typically 1-2 views are captured for bivalves (interior and exterior) & 2-3 views for gastropods (=apertural and abapterural, (plus umbilical views for Trochoidea & Patellogastropoda). Refer to the LACMIP [image gallery](https://www.gbif.org/occurrence/gallery?dataset_key=f0a7ca6e-8da6-4629-97bd-0368705a4d6b) on GBIF for examples. The [Digital Atlas of Ancient Life](https://www.digitalatlasofancientlife.org/learn/mollusca/) also has good examples, as well as good introductory anatomical explanations.
 - In a given tray, image specimens of similar sizes in sequence. This will cut down on the time needed to adjust the camera height on the copy stand, depending on you workflow.
