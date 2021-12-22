@@ -36,7 +36,7 @@ Additionally, the museum's Keyence microscope can be accesssed by appointment wh
    
 # Storage
 ## Google Drive
-All specimen images should be saved to an appropriate subfolder in _Google Drive > Shared Drives > LACMIP Imaging_. **The purpose of this shared drive is to store original, unaltered specimen images**. These files should be periodically shared with the Database Manager for ingestion into EMu. Any images that are intended for the web will also need to be saved to Extensis Portfolio.
+All specimen images should be saved to an appropriate subfolder in _Google Drive > Shared Drives > LACMIP Imaging_. **The purpose of this shared drive is to store original, unaltered specimen images**. These files should be periodically shared with the Database Manager for ingestion into EMu's [Multimedia module]({{ site.baseurl }}/documetation/multimedia). Images that are intended for the web will also need to be uploaded to Extensis Portfolio.
 
 {% include figure image_path="assets/images/imaging_sharing.png" alt="Save images to the shared Google Drive, _LACMIP Imaging_" caption="**Figure illustrating where to save specimen images in Google Drive.** Right-click the image above to enlarge it in a separate tab or window." %}
 
@@ -55,7 +55,7 @@ Prior to the NHMLA's adoption of Google Drive in 2019, images for the EPICC (201
 
 ## Keystroking
 Avoid manually renaming files whenever possible. However, sometimes file names must be hand keystroked. File names should conform to this format:
--`LACMIP_cat#_Genus_species_etc`
+   `LACMIP_cat#_Genus_species_etc`
 
 Images containing barcodes can be renamed using the barcode scanner, which acts like a keyboard. Scan the barcode in the image to insert the catalog number into the file name. However, the file name should still be manually altered to conform to the preferred format.
 
