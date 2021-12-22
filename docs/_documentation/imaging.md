@@ -44,11 +44,11 @@ Avoid manually renaming files whenever possible. However, sometimes file names m
 Images containing barcodes can be renamed using the barcode scanner, which acts like a keyboard. Scan the barcode in the image to insert the catalog number into the file name. However, the file name should still be manually altered to conform to the preferred format.
 
 ## Metadata
-Images destined for EMu and the web should have metadata applied to them in Adobe Bridge. To do so, open Adobe Bridge and navigate to the folder containin the images you'd like to add metadata to. Select all images in the folder, then choose _Tools > Append Metadata_, and select the desired template. The first time you do this, load your desired template into Bridge from _LACMIP Imaging > Imagin Templates_.
+Images destined for EMu and the web should have metadata applied to them in Adobe Bridge. To do so, open Adobe Bridge and navigate to the folder containing the images you'd like to add metadata to. Select all images in the folder, then choose _Tools > Append Metadata_, and select the desired template. The first time you do this, load your desired template into Bridge from _LACMIP Imaging > Imagin Templates_.
 
-If you are applying metadata to images _after_ they have been uploaded to Google Drive, this step will be most easily accomplished using the desktop version of Google Drive.
+If you are applying metadata to images _after_ they have been uploaded to Google Drive, this step will be most easily accomplished using Finder and the desktop version of Google Drive for Mac.
 
-{% include figure image_path="/assets/images/imaging_metadata.jpg" alt="Example of how to apply metadata to images." caption="" %}
+<img src="{{ site.baseurl }}/assets/images/imaging_metadata.jpg" alt="" width="500"/>{: .align-center}
 
 # Storage
 ## Google Drive
