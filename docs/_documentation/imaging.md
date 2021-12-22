@@ -14,20 +14,15 @@ This overview will help you get started with imaging specimens using our Nikon D
 *Step* | *Workflow task...*
    --- | ---
    Initiate | Uncover camera station, turn on camera, uncap lens. **Never touch the glass on the lens.** Turn on the lights attached to the copy stand.
-   Software | On Mac desktop, initiate: 1) the software *Camera Control Pro 2* with LiveView ("LV") enabled and the "My Pictures alias" (links to Macintosh HD > Users > lacmipvolunteers > Pictures). Your desktop should look something like [THIS].
-   <img src="{{ site.baseurl }}/assets/images/imaging_desktop.png" alt="" width="500"/>{: .align-center}
+   Software | On Mac desktop, initiate: 1) the software *Camera Control Pro 2* with LiveView ("LV") enabled and the "My Pictures alias" (links to Macintosh HD > Users > lacmipvolunteers > Pictures). Your desktop should look something like [this]({{ site.baseurl }}/assets/images/imaging_desktop.png).
    Position | Orient the specimen using live view (LV) mode).
    Barcode | Place the specimen label in the field of view such that the barcode is completely visible in the corner of the image. The barcode must not be visually obscured in any way.
    Capture | Using the mouse, click on the specimen (a box will appear over the fossil) and select "AF and Shoot". 
    QC| The new image will appear in the _Pictures_ folder. Quickly q
    Repeat | Repeat the steps above until [all necessary views](({{ site.baseurl }}/documentation/imaging/#general-tips/) are captured for the specimen (typically 1-2 for bivalves & 2-3 for gastropods).
    Labels | Optional: If labels require imaging, include the "labels" barcode on the image template. 
-   
-   
-   
-   
-   - Delete our of My Pictures when you're done
-   - Researchers with whom you share the folders should be added as "Contributors" (Add and edit permission, but not permission to delete or move files). 
+   Save | At the end of your imaging session, all files need to be saved to _Google Drive > LACMIP Imaging_ in the appropriate folder directory. They will be automatically renamed and moved overnight. 
+   Delete | Once your files have copied over (save the last 10 mins of your shift for this task), delete the files from the _Pictures_ folder (saved to the Mac HD) before you leave. **Do not delete them until all files are uploaded.**
 
 # Advanced macrophotography
 
@@ -45,6 +40,8 @@ Review the [guide to macrophotography](https://drive.google.com/file/d/1VsrV8OBM
 > Registrar Images
 
  <img src="{{ site.baseurl }}/assets/images/imaging_sharing.png" alt="" width="500"/>{: .align-center}
+ 
+    - Researchers with whom you share the folders should be added as "Contributors" (Add and edit permission, but not permission to delete or move files). 
 
 Share these with Bill Mertz for ingestion into EMu.
 ## Extensis Portfolio
