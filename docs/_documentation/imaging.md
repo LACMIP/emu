@@ -21,10 +21,10 @@ This workflow will introduce you to the basic steps required to image fossils us
    Barcode | Place the specimen label in the field of view such that the barcode is completely visible in the corner of the image. The barcode must not be visually obscured in any way. At this point, your desktop should look something like [this]({{ site.baseurl }}/assets/images/imaging_desktop.png).
    Capture | In the LiveView window, click on the barcode. A box will appear over it. Select "AF and Shoot". 
    QC| The new image will appear in the _Pictures_ folder. Quickly quality control (QC) the image to ensure both the barcode and specimen are in focus. (If they are not, click on another focal point in the Camera Control Pro window and capture another photo until everything is in focus.) Please immediately delete images that are not in focus.
-   Repeat | Repeat the steps above until all necessary views are captured for the specimen. Typically 1-2 views are captured for bivalves (interior & exterior) & 2-3 views for gastropods (apertural & abapterural, plus an umbilical view for Trochoidea & Patellogastropoda). If a lot contains multiple specimens, and overall ("habitus") image showing all specimens may be required.
+   Repeat | Repeat the steps above until all necessary views are captured for the specimen. Typically 1-2 views are captured for bivalves (interior & exterior) & 2-3 views for gastropods (apertural & abapterural, plus an umbilical view for Trochoidea & Patellogastropoda). If a lot contains multiple specimens, and overall ("habitus") image showing all specimens may be required. If there is a pink tag in the box, remove it before movin onto the next specimen lot.
    Labels | Optional: If labels require a separate image, include the "labels" barcode on the image template. 
-   Save | At the end of your imaging session, all files need to be saved to _Google Drive > LACMIP Imaging_ in the appropriate folder directory. They will be automatically renamed and moved overnight. 
-   Delete | Once your files have successfully copied to Google Drive (save the last 10 mins of your shift for this task), delete the originals from the _Pictures_ folder before leaving. **Do not delete them until every file has been uploaded.**
+   Save | At the end of your imaging session, all files need to be saved to _Google Drive > LACMIP Imaging_ in the appropriate folder directory. Select all new images in _Pictures_ and drag them into the appropriate "To Process" folder in _LACMIP Imaging_. The files will be automatically renamed and moved overnight. 
+   Delete | Once your files have successfully copied to Google Drive (save the last 10 mins of your shift for this task), delete your originals from the _Pictures_ folder before leaving. **Do not delete them until every file has been uploaded.**
    Shut Down | When your imaging shift is complete, replace the lens cap and dust cover on the camera and turn off the lights. Because this is a shared workstation, please keep it tidy!
 
 :warning: Handle all imaging equipment with care. The cameras and lenses are difficult to clean and costly to replace. Never remove the lenses from the cameras or touch the glass on either lens.
@@ -50,8 +50,6 @@ Images containing barcodes can be renamed using the barcode scanner, which acts 
 Images destined for EMu and the web should have metadata applied to them in Adobe Bridge. To do so, open Adobe Bridge and navigate to the folder containing the images you'd like to add metadata to. Select all images in the folder, then choose _Tools > Append Metadata_, and select the desired template. The first time you do this, load your desired template into Bridge from _LACMIP Imaging > Imaging Templates_.
 
 If you are applying metadata to images _after_ they have been uploaded to Google Drive, this step will be most easily accomplished using Finder and the desktop version of Google Drive for Mac.
-
-<img src="{{ site.baseurl }}/assets/images/imaging_metadata.png" alt="" width="500"/>{: .align-center}
 
 {% include figure image_path="/assets/images/imaging_metadata.png" alt="How to apply metadata to images in Bridge" caption="**Figure illustrating how to apply metadata to images in Adobe Bridge.** Right-click the image above to enlarge it in a separate tab or window." %}
 
