@@ -3,7 +3,7 @@ title: Imaging
 navcat: Workflows
 tags: imaging
 toc_sticky: true
-last_modified_at: 2021-12-22
+last_modified_at: 2021-12-23
 ---
 
 This page will help get you started with specimen photography.
@@ -31,7 +31,6 @@ This workflow will introduce you to the basic steps required to image fossils us
 
 Other tips
 - If you need to print new scale bars, label barcodes, etc., or refresh the background template because it's worn, these items are saved in _Google Drive > LACMIP Imaging_.
-- 
 
 # Macrophotography
 
@@ -57,6 +56,8 @@ Prior to the NHMLA's adoption of Google Drive in 2019, images for the EPICC (201
 
 # File names
 ## Script
+
+- Crystal Report: `IP Basic Taxonomy Output for Imaging` saved to _LACMIP Imaging > Imaging Templates_ : `Imaging-FileName-Taxonomy.csv` Do not move this file; the script using this CSV to insert taxonomy into file names over night. However, it can be refreshed by re-running the report in EMu and overwriting the older file in the same location.
 
 ## Keystroking
 Avoid manually renaming files whenever possible. However, sometimes file names must be hand keystroked. File names should conform to this format:
