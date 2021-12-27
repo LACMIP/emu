@@ -1,0 +1,515 @@
+# Concatenate new verbatim
+
+[
+  {
+    "op": "core/column-removal",
+    "columnName": "TO CONCATENATE",
+    "description": "Remove column TO CONCATENATE"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Continent",
+    "expression": "grel:\"CONTINENT: \"+value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Continent using expression grel:\"CONTINENT: \"+value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Country",
+    "expression": "grel:\"COUNTRY: \"+value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Country using expression grel:\"COUNTRY: \"+value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "State/Province",
+    "expression": "grel:\"STATE/PROVINCE: \"+value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column State/Province using expression grel:\"STATE/PROVINCE: \"+value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "County",
+    "expression": "grel:\"COUNTY: \"+value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column County using expression grel:\"COUNTY: \"+value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Public Land Agency or Ownership",
+    "expression": "grel:\"LAND OWNERSHIP: \"+value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Public Land Agency or Ownership using expression grel:\"LAND OWNERSHIP: \"+value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Public Land Unit",
+    "expression": "grel:\"PUBLIC LAND UNIT: \"+value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Public Land Unit using expression grel:\"PUBLIC LAND UNIT: \"+value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "City/Town",
+    "expression": "grel:\"CITY/TOWN: \"+value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column City/Town using expression grel:\"CITY/TOWN: \"+value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Nearest Named Geographic Feature",
+    "expression": "grel:\"NEAREST FEATURE: \"+value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Nearest Named Geographic Feature using expression grel:\"NEAREST FEATURE: \"+value"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "baseColumnName": "Internal Use",
+    "expression": "join ([cells['Internal Use'].value,cells['Permit #'].value],'; ')",
+    "onError": "keep-original",
+    "newColumnName": "Permit",
+    "columnInsertIndex": 9,
+    "description": "Create column Permit at index 9 based on column Internal Use using expression join ([cells['Internal Use'].value,cells['Permit #'].value],'; ')"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Internal Use",
+    "description": "Remove column Internal Use"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Permit #",
+    "description": "Remove column Permit #"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Permit",
+    "expression": "grel:\"PERMIT: \"+value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Permit using expression grel:\"PERMIT: \"+value"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Internal Use 2",
+    "description": "Remove column Internal Use 2"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Maps used",
+    "expression": "grel:\"MAP: \"+value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Maps used using expression grel:\"MAP: \"+value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Collector(s)",
+    "expression": "grel:\"COLLECTORS: \"+value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Collector(s) using expression grel:\"COLLECTORS: \"+value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Collecting Date (start)",
+    "expression": "grel:\"COLLECTING DATE: \"+value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Collecting Date (start) using expression grel:\"COLLECTING DATE: \"+value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Formation",
+    "expression": "grel:\"FORMATION: \"+value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Formation using expression grel:\"FORMATION: \"+value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Member",
+    "expression": "grel:\"MEMBER: \"+value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Member using expression grel:\"MEMBER: \"+value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Start Age (finest resolution known)",
+    "expression": "grel:\"AGE: \"+value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Start Age (finest resolution known) using expression grel:\"AGE: \"+value"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "baseColumnName": "Start Age (finest resolution known)",
+    "expression": "join ([cells['Start Age (finest resolution known)'].value,cells['End Age (finest resolution known)'].value],' to ')",
+    "onError": "keep-original",
+    "newColumnName": "AGE",
+    "columnInsertIndex": 21,
+    "description": "Create column AGE at index 21 based on column Start Age (finest resolution known) using expression join ([cells['Start Age (finest resolution known)'].value,cells['End Age (finest resolution known)'].value],' to ')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Stratigraphic Details",
+          "columnName": "Stratigraphic Details",
+          "query": "STRAT",
+          "mode": "text",
+          "caseSensitive": true,
+          "invert": true
+        },
+        {
+          "type": "text",
+          "name": "Stratigraphic Details",
+          "columnName": "Stratigraphic Details",
+          "query": "ELEV",
+          "mode": "text",
+          "caseSensitive": true,
+          "invert": true
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "Stratigraphic Details",
+    "expression": "grel:\"STRAT DETAILS: \"+value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Stratigraphic Details using expression grel:\"STRAT DETAILS: \"+value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Latitude",
+    "expression": "grel:\"COORDINATES: \"+value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Latitude using expression grel:\"COORDINATES: \"+value"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "baseColumnName": "Latitude",
+    "expression": "join ([cells['Latitude'].value,cells['Longitude'].value],', ')",
+    "onError": "keep-original",
+    "newColumnName": "LATLONG",
+    "columnInsertIndex": 35,
+    "description": "Create column LATLONG at index 35 based on column Latitude using expression join ([cells['Latitude'].value,cells['Longitude'].value],', ')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Datum",
+    "expression": "grel:\"DATUM: \"+value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Datum using expression grel:\"DATUM: \"+value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Source of Coordinates",
+    "expression": "grel:\"SOURCE OF COORDINATES: \"+value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Source of Coordinates using expression grel:\"SOURCE OF COORDINATES: \"+value"
+  },
+  {
+    "op": "core/column-reorder",
+    "columnNames": [
+      "Continent",
+      "Country",
+      "State/Province",
+      "County",
+      "Public Land Agency or Ownership",
+      "Public Land Unit",
+      "City/Town",
+      "Nearest Named Geographic Feature",
+      "Permit",
+      "Field Number",
+      "Internal Use 3",
+      "Maps used",
+      "Internal Use (Optional)",
+      "Collector(s)",
+      "Collecting Date (start)",
+      "Collecting Date (end)",
+      "Group",
+      "Formation",
+      "Member",
+      "Lithostrat Uncertainity",
+      "Start Age (finest resolution known)",
+      "AGE",
+      "Internal Use 4",
+      "Internal Use 5",
+      "Internal Use 6",
+      "Internal Use 7",
+      "End Age (finest resolution known)",
+      "Internal Use 8",
+      "Internal Use 9",
+      "Internal Use 10",
+      "Internal Use 11",
+      "Stratigraphic Details",
+      "Internal Use 12",
+      "Internal Use 13",
+      "Latitude",
+      "LATLONG",
+      "Longitude",
+      "Estimated Error",
+      "Error Units",
+      "Datum",
+      "Internal Use 14",
+      "Internal Use 15",
+      "Source of Coordinates",
+      "Internal Use 16",
+      "Internal Use 17",
+      "Internal Use 18",
+      "Internal Use 19",
+      "Describe any additional details or context here."
+    ],
+    "description": "Reorder columns"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Field Number",
+    "expression": "grel:\"FIELD #: \"+value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Field Number using expression grel:\"FIELD #: \"+value"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "baseColumnName": "Field Number",
+    "expression": "join ([cells['Field Number'].value,cells['Internal Use 3'].value],'; ')",
+    "onError": "keep-original",
+    "newColumnName": "FIELD NO",
+    "columnInsertIndex": 10,
+    "description": "Create column FIELD NO at index 10 based on column Field Number using expression join ([cells['Field Number'].value,cells['Internal Use 3'].value],'; ')"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Permit",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "PERMIT: "
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": ""
+      }
+    ],
+    "description": "Mass edit cells in column Permit"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Internal Use 3",
+    "description": "Remove column Internal Use 3"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Describe any additional details or context here.",
+    "expression": "grel:\"ADDITIONAL CONTEXT: \"+value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Describe any additional details or context here. using expression grel:\"ADDITIONAL CONTEXT: \"+value"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "baseColumnName": "Continent",
+    "expression": "join ([cells['Continent'].value,cells['Country'].value,cells['State/Province'].value,cells['County'].value,cells['Public Land Agency or Ownership'].value,cells['Public Land Unit'].value,cells['City/Town'].value,cells['Nearest Named Geographic Feature'].value,cells['Permit'].value,cells['FIELD NO'].value,cells['Maps used'].value,cells['Collector(s)'].value,cells['Collecting Date (start)'].value,cells['Formation'].value,cells['Member'].value,cells['AGE'].value,cells['Stratigraphic Details'].value,cells['LATLONG'].value,cells['Datum'].value,cells['Source of Coordinates'].value,cells['Describe any additional details or context here.'].value],' | ')",
+    "onError": "keep-original",
+    "newColumnName": "Concatenated Verbatim",
+    "columnInsertIndex": 1,
+    "description": "Create column Concatenated Verbatim at index 1 based on column Continent using expression join ([cells['Continent'].value,cells['Country'].value,cells['State/Province'].value,cells['County'].value,cells['Public Land Agency or Ownership'].value,cells['Public Land Unit'].value,cells['City/Town'].value,cells['Nearest Named Geographic Feature'].value,cells['Permit'].value,cells['FIELD NO'].value,cells['Maps used'].value,cells['Collector(s)'].value,cells['Collecting Date (start)'].value,cells['Formation'].value,cells['Member'].value,cells['AGE'].value,cells['Stratigraphic Details'].value,cells['LATLONG'].value,cells['Datum'].value,cells['Source of Coordinates'].value,cells['Describe any additional details or context here.'].value],' | ')"
+  },
+  {
+    "op": "core/column-reorder",
+    "columnNames": [
+      "Continent",
+      "Country",
+      "State/Province",
+      "County",
+      "Public Land Agency or Ownership",
+      "Public Land Unit",
+      "City/Town",
+      "Nearest Named Geographic Feature",
+      "Permit",
+      "Field Number",
+      "FIELD NO",
+      "Maps used",
+      "Internal Use (Optional)",
+      "Collector(s)",
+      "Collecting Date (start)",
+      "Collecting Date (end)",
+      "Group",
+      "Formation",
+      "Member",
+      "Lithostrat Uncertainity",
+      "Start Age (finest resolution known)",
+      "AGE",
+      "Internal Use 4",
+      "Internal Use 5",
+      "Internal Use 6",
+      "Internal Use 7",
+      "End Age (finest resolution known)",
+      "Internal Use 8",
+      "Internal Use 9",
+      "Internal Use 10",
+      "Internal Use 11",
+      "Stratigraphic Details",
+      "Internal Use 12",
+      "Internal Use 13",
+      "Latitude",
+      "LATLONG",
+      "Longitude",
+      "Estimated Error",
+      "Error Units",
+      "Datum",
+      "Internal Use 14",
+      "Internal Use 15",
+      "Source of Coordinates",
+      "Internal Use 16",
+      "Internal Use 17",
+      "Internal Use 18",
+      "Internal Use 19",
+      "Describe any additional details or context here.",
+      "Concatenated Verbatim"
+    ],
+    "description": "Reorder columns"
+  }
+]
