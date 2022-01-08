@@ -324,7 +324,7 @@
   },
   {
     "op": "core/column-addition",
-    "description": "Create column LatLatLongDetermination_tab(-) at index 10 based on column LatPreferred_tab(-) using expression grel:\"LACMIP georeferencing 2021\"",
+    "description": "Create column LatLatLongDetermination_tab(-) at index 10 based on column LatPreferred_tab(-) using expression grel:\"LACMIP georeferencing 2022\"",
     "engineConfig": {
       "facets": [],
       "mode": "row-based"
@@ -332,7 +332,7 @@
     "newColumnName": "LatLatLongDetermination_tab(-)",
     "columnInsertIndex": 10,
     "baseColumnName": "LatPreferred_tab(-)",
-    "expression": "grel:\"LACMIP georeferencing 2021\"",
+    "expression": "grel:\"LACMIP georeferencing 2022\"",
     "onError": "set-to-blank"
   },
   {
