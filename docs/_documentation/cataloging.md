@@ -230,15 +230,7 @@ Must-have key commands for cataloging include:
    **Ditto all tabs** | *Shift + F9*, or *Shift + Fn + F9* on a Mac (use judiciously)
    **Save** | *Ctrl + s*
    Create **new record** | *Crtl + n*
-
-## Flagging records to print
-
-Any time you create or edit a catalogue record, it also needs to be printed and physically placed with the specimen. [Printing labels]({{ site.baseurl }}/documentation/labels/) is usually done by LACMIP staff on a regular basis, but you will need to mark what records require printing. The best way to do this is to finish your cataloging session and then:
-1. Do a new search to find all records where *Inserted By* is you and *Insertion Date* is today (find these fields on the *Admin* tab).
-1. View your search results as a [list]({{ site.baseurl }}/documentation/modes/) in order to visually scan through and confirm that these records look like what you did today. **This is the perfect time to check your work!** Do this by changing the view to _View > List Settings > Choose List_ and select the "QC- Catalogue" option. Sort your records by *Inserted Date-Time* and scan through your entries to check them.
-1. Add the search results to a [group]({{ site.baseurl }}/documentation/groups/) by navigating to *Tools > Group > All Records in Results...* and creating a new group called "PRINT - [your name] - [trayID]" or, if you see the option to, adding your records to an existing group called "PRINT - [your name]."
-1. If you created a new group, you'll need to share this group with whomever will be printing labels. Add access to the group by adding "swiedrick" (or whoever will be printing your labels) on the Security tab of the group's properties.
-
+   
 ## Check your work
 
 An easy way to check your work during cataloging is to view your new records in list view. To do so:
@@ -252,4 +244,11 @@ An easy way to check your work during cataloging is to view your new records in 
    3 | Navigate to *View* > *List Settings* > *Choose List* > Select "QC - Catalogue" > *OK*
    4 | Sort your records by the order in which they were created: *Tools* > *Sort Results...* > *Inserted Date-Time* > *OK*
    5 | Maximize the size of the window. Scroll through your records, visually scanning for gaps or incorrect information, including non-sequential lot numbers.
- 
+
+## Flagging records to print
+
+Any time you create or edit a catalogue record, it also needs to be printed and physically placed with the specimen. [Printing labels]({{ site.baseurl }}/documentation/labels/) is usually done by LACMIP staff on a regular basis, but you will need to mark what records require printing. The best way to do this is to finish your cataloging session and then:
+1. Do a new search to find all records where *Inserted By* is you and *Insertion Date* is today (find these fields on the *Admin* tab).
+1. View your search results as a [list]({{ site.baseurl }}/documentation/modes/) in order to visually scan through and confirm that these records look like what you did today. **This is the perfect time to check your work!** Do this by changing the view to _View > List Settings > Choose List_ and select the "QC- Catalogue" option. Sort your records by *Inserted Date-Time* and scan through your entries to check them.
+1. Add the search results to a [group]({{ site.baseurl }}/documentation/groups/) by navigating to *Tools > Group > All Records in Results...* and creating a new group called "PRINT - [your name] - [trayID]" or, if you see the option to, adding your records to an existing group called "PRINT - [your name]."
+1. If you created a new group, you'll need to share this group with whomever will be printing labels. Add access to the group by adding "swiedrick" (or whoever will be printing your labels) on the Security tab of the group's properties.
