@@ -3,7 +3,7 @@ title: Printing Labels
 navcat: Workflows
 tags: cataloging
 toc: false
-last_modified_at: 2019-06-25
+last_modified_at: 2022-01-20
 ---
 To print labels from EMu you will first need to do a [search]({{ site.baseurl }}/documentation/search/) or retrieve a [group]({{ site.baseurl }}/documentation/groups/) to bring up the catalogue records that you want to print labels for.
 
@@ -20,10 +20,18 @@ If you are working via the VPN, you will need to download the XPS file onto your
 
 ## Label report templates
 
+### Catalogue module
+
 LACMIP currently has two different label templates. These have been created by the Museum's database manager in Crystal Reports; please contact him if you need modifications to either the layout of or the data being pulled into these reports.
 
 **IP Labels Regular** is for the majority of the specimen labels you will print. You should make sure that the specimens in your search results belong to either the "ED", "ST", or "TX" collection when using this label report.
 
-**IP Labels TYPE** is for printing type specimen labels, which have a significantly different layout than regular specimen labels. You should make sure that you only have specimens that belong to the "TYPE" collection in your search results when you are using this label report.
+**IP Labels Type** is for printing type specimen labels, which have a significantly different layout than regular specimen labels. You should make sure that you only have specimens that belong to the "TYPE" collection in your search results when you are using this label report.
 
 {% include figure image_path="/assets/images/labels_designs2022.jpg" alt="image of two different specimen label templates" caption="Regular LACMIP specimen label (top row) versus LACMIP type specimen label (bottom row). LACMIP labels have gone through several design iterations and previously looked like [this](https://lacmip.github.io/emu/assets/images/labels_designs.jpg)." %}
+
+### Sites module
+
+**IP Locality Cards** are for printing and storage with specimens in the stratigraphic collections.
+
+{% include figure image_path="/assets/images/labels_localitycard.png" alt="image of sample locality card" caption="Sample locality card." %}
