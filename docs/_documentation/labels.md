@@ -26,4 +26,4 @@ LACMIP currently has two different label templates. These have been created by t
 
 **IP Labels TYPE** is for printing type specimen labels, which have a significantly different layout than regular specimen labels. You should make sure that you only have specimens that belong to the "TYPE" collection in your search results when you are using this label report.
 
-{% include figure image_path="/assets/images/labels_designs.jpg" alt="image of two different specimen label templates" caption="Regular LACMIP specimen label (left) versus LACMIP type specimen label (left)" %}
+{% include figure image_path="/assets/images/labels_designs2022.jpg" alt="image of two different specimen label templates" caption="Regular LACMIP specimen label (top row) versus LACMIP type specimen label (bottom row). LACMIP labels have gone through several design iterations and previously looked like [this](https://lacmip.github.io/emu/assets/images/labels_designs.jpg)." %}
