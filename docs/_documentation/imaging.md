@@ -59,6 +59,9 @@ Prior to the NHMLA's adoption of Google Drive in 2019, images for the EPICC (201
 
 When images containing images of barcoded specimen labels are saved to one of the `TO_PROCESS` folders in [Google Drive]({{ site.baseurl }}/documetation/imaging/#google-drive), they will be renamed and reorganized overnight. Please thoroughly review the documentation on the barcode reading [script](https://github.com/LACMIP/imaging) for more information on how to implement this step of the imaging workflow.
 
+:repeat: The file `Imaging-FileName-Taxonomy.csv` should be periodically refreshed by re-running the "IP Basic Taxonomy Output for Imaging" report on all existing Catalogue records and overwriting the older CSV file in _LACMIP Imaging > Imaging Templates_. This CSV couples with the python script to insert currently accepted taxonomy into image file names.
+{: .notice--warning}
+
 ## Keystroking
 Avoid manually renaming files whenever possible. However, sometimes file names must be hand keystroked. File names should conform to this format:
    `LACMIP_cat#_Genus_species_etc`
