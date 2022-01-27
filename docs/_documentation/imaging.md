@@ -42,10 +42,10 @@ Additionally, the museum's Keyence microscope can be accessed by appointment whe
 ## Google Drive
 All specimen images should be saved to an appropriate subfolder in _Google Drive > Shared Drives > LACMIP Imaging_. **The purpose of this shared drive is to store original, unaltered specimen images**. These files should be periodically shared with the Database Manager for ingestion into EMu's [Multimedia module]({{ site.baseurl }}/documetation/multimedia). Images that are intended for the web will also need to be uploaded to Extensis Portfolio.
 
-{% include figure image_path="assets/images/imaging_sharing.png" alt="Save images to the shared Google Drive, _LACMIP Imaging_" caption="**Figure illustrating where to save specimen images in Google Drive.** Right-click the image above to enlarge it in a separate tab or window." %}
+{% include figure image_path="assets/images/imaging_sharing.png" alt="screenshot showing where to save images" caption="**Save images to the appropriate folder in the shared Google Drive, _LACMIP Imaging_** Right-click the image above to enlarge it in a separate tab or window." %}
 
 ## Extensis Portfolio
-[Extensis Portfolio](https://www.extensis.com/portfolio) is the NHMLA's institutional DAMS. All images to be shared with online aggregators must have [metadata](https://lacmip.github.io/emu/documentation/imaging/#metadata) applied before ingestion into Extensis.
+[Extensis Portfolio](https://www.extensis.com/portfolio) is the NHMLA's institutional DAMS. All images to be shared with online aggregators must have [metadata]({{ site.baseurl }}/documetation/imaging/#metadata) applied before ingestion into Extensis.
 
 You can [acccess Extensis](https://digitalgallery.nhm.org:9443/#/) using your NHMLA login and password. Not all images in Extensis are publicly visible; **only files save to the catalog "Inverpaleo published assets" will become available online**, whereas files saved to "Invertpaleo archived assets" will remain private. Files added to the former catalog can be viewed and downloaded from [here](http://digitalgallery.nhm.org:8085/invertpaleo_nhm/#/), and can be pushed to aggregators.
 
@@ -57,7 +57,7 @@ Prior to the NHMLA's adoption of Google Drive in 2019, images for the EPICC (201
 # File names
 ## Script
 
-- Crystal Report: `IP Basic Taxonomy Output for Imaging` saved to _LACMIP Imaging > Imaging Templates_ : `Imaging-FileName-Taxonomy.csv` Do not move this file; the script using this CSV to insert taxonomy into file names over night. However, it can be refreshed by re-running the report in EMu and overwriting the older file in the same location.
+When images containing images of barcoded specimen labels are saved to one of the `TO_PROCESS` folders in [Google Drive]({{ site.baseurl }}/documetation/imaging/#google-drive), they will be renamed and reorganized overnight. Please thoroughly review the documentation on the barcode reading [script](https://github.com/LACMIP/imaging) for more information on how to implement this step of the imaging workflow.
 
 ## Keystroking
 Avoid manually renaming files whenever possible. However, sometimes file names must be hand keystroked. File names should conform to this format:
