@@ -47,9 +47,9 @@ All specimen images should be saved to an appropriate subfolder in _Google Drive
 ## Extensis Portfolio
 [Extensis Portfolio](https://www.extensis.com/portfolio) is the NHMLA's institutional DAMS. All images to be shared with online aggregators must have [metadata]({{ site.baseurl }}/documetation/imaging/#metadata) applied before ingestion into Extensis.
 
-You can [acccess Extensis](https://digitalgallery.nhm.org:9443/#/) using your NHMLA login and password. Not all images in Extensis are publicly visible; **only files save to the catalog "Inverpaleo published assets" will become available online**, whereas files saved to "Invertpaleo archived assets" will remain private. Files added to the former catalog can be viewed and downloaded from [here](http://digitalgallery.nhm.org:8085/invertpaleo_nhm/#/), and can be pushed to aggregators.
+You can [acccess Extensis](https://digitalgallery.nhm.org:9443/#/) using your NHMLA login and password. Not all images in Extensis are publicly visible; **only files save to the catalog "Invertpaleo published assets" will become available online**, whereas files saved to "Invertpaleo archived assets" will remain private. Files added to the former catalog can be viewed and downloaded from [here](http://digitalgallery.nhm.org:8085/invertpaleo_nhm/#/), and can be pushed to aggregators.
 
-The first time you access Extensis, ask IT (itsupport@nhm.org) for the best contact for direct assistance with the DAMS. This individual can provide advice on the latest recommendations for ingesting large batches of images into Extensis, and should be able to adjust any permissions you need enabled within the DAMS.
+The first time you access Extensis, ask IT (itsupport@nhm.org) for the best contact for direct assistance. This individual can provide advice on the latest recommendations for ingesting large batches of images into the DAMS, and should be able to adjust any account permissions you need enabled. Likewise, the Database Manager can facilitate ingestion of images into EMu and their online publication to data aggregators. Importantly, files intended for online publication must be saved in _Extensis Portfolio > Invertpaleo published assets_ _and_ attached to their respective records EMu, _and_ their file names must match in both storage locations (however, their file extensions may differ).
 
 ## Other copies
 Prior to the NHMLA's adoption of Google Drive in 2019, images for the EPICC (2015-2020), CSC (2017-2019), and FIC (2017-2020) projects were saved to two external hard drives. These files have since been backed up on the DAMS and in Google Drive. LACMIP will _not_ be using external hard drives for long-term image storage moving forward.
@@ -57,7 +57,7 @@ Prior to the NHMLA's adoption of Google Drive in 2019, images for the EPICC (201
 # File names
 ## Script
 
-When images containing images of barcoded specimen labels are saved to one of the `TO_PROCESS` folders in [Google Drive]({{ site.baseurl }}/documetation/imaging/#google-drive), they will be renamed and reorganized overnight. Please thoroughly review the documentation on the barcode reading [script](https://github.com/LACMIP/imaging) for more information on how to implement this step of the imaging workflow.
+When images containing images of barcoded specimen labels are saved to one of the "TO_PROCESS" folders in [Google Drive]({{ site.baseurl }}/documetation/imaging/#google-drive), they will be renamed and reorganized overnight. Please thoroughly review the documentation on the barcode reading [script](https://github.com/LACMIP/imaging) for more information on how to implement this step of the imaging workflow.
 
 :repeat: The file `Imaging-FileName-Taxonomy.csv` should be periodically refreshed by re-running the "IP Basic Taxonomy Output for Imaging" report on all existing Catalogue records and overwriting the older CSV file in _LACMIP Imaging > Imaging Templates_. This CSV couples with the python script to insert currently accepted taxonomy into image file names.
 {: .notice--warning}
