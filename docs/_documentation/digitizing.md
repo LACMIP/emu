@@ -3,7 +3,7 @@ title: Digitizing
 navcat: Workflows
 tags: cataloging, georeferencing, quick-start
 toc_sticky: true
-last_modified_at: 2020-07-25
+last_modified_at: 2022-01-31
 ---
 
 Digitization initiatives at LACMIP are primarily supported by the National Science Foundatoin. "Digitization" itself is a broad term and includes the variety of workflows outlined here. For a more thorough review of digitization workflows, see [Nelson *et al.* 2012](https://doi.org/10.3897/zookeys.209.3135).
@@ -161,7 +161,9 @@ Never remove older labels from their boxes. This includes the original ID tags, 
 
 # Locate specimens
 
-In EMu, search for all ST catalog records associated with the tray. Batch assign them to the location recorded on the digitization worksheet. Likewise, assign all TX catalog records to the taxonomic collection. This can be accomplished using the barcode scanner and/or by selecting records at the time of printing and using the [Relocate tool](https://lacmip.github.io/emu/documentation/locations/#update-storage-locations).
+In EMu, search for all ST catalog records associated with the tray. Batch assign them to the location recorded on the digitization worksheet. Likewise, assign all TX catalog records to the taxonomic collection. This can be accomplished using the barcode scanner and/or by selecting records at the time of printing and using the [Relocate tool](https://lacmip.github.io/emu/documentation/locations/#update-storage-locations). Check and date the corresponding box on the digitization worksheet.
+
+<img src="{{ site.baseurl }}/assets/images/cataloging_worksheetrelocate.png" alt="" width="500"/>{: .align-center}
 
 # Quality control
 
