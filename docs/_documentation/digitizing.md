@@ -139,7 +139,7 @@ Once specimens have been cataloged, LACMIP staff will print and place specimen l
 **LACMIP staff:** _Before printing labels_, recall all catalog records in the tray to check for missing data and incorrectly databased identifications. Use the digitization worksheet to search by *Inserted By* and *Date Inserted*.
 {: .notice--warning}
 
-**LACMIP staff:** _Immediately after printing labels_, [specimen locations should be assigned in EMu](https://lacmip.github.io/emu/documentation/digitizing/#locate-specimens).
+**LACMIP staff:** You may wish to update [specimen locations in EMu](https://lacmip.github.io/emu/documentation/digitizing/#locate-specimens) at the time of label printing. This step can also be accomplished after printing using the barcode scanner.
 {: .notice--warning}
 
 *Step* | *Labeling task...*
@@ -161,7 +161,7 @@ Never remove older labels from their boxes. This includes the original ID tags, 
 
 # Locate specimens
 
-In EMu, search for all ST catalog records associated with the tray. Batch assign them to the location recorded on the digitization worksheet. Likewise, assign all TX catalog records to the taxonomic collection.
+In EMu, search for all ST catalog records associated with the tray. Batch assign them to the location recorded on the digitization worksheet. Likewise, assign all TX catalog records to the taxonomic collection. This can be accomplished using the barcode scanner and/or by selecting records at the time of printing and using the [Relocate tool](https://lacmip.github.io/emu/documentation/locations/#update-storage-locations).
 
 # Quality control
 
