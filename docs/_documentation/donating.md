@@ -57,4 +57,4 @@ In the words of the American Alliance of Museums:
 For these reasons, while the NHMLA aims to accommodate donations whenever possible, the museum reserves the right to decline donations that are not well documented, do not align with our mission, and/or may be exceptionally difficult for us to properly care for in perpetuity.
 
 # Contact information
-Please direct questions and related inquiries to the Collections Manager: [lwalker@nhm.org](lwalker@nhm.org).
+Please direct questions and related inquiries to the [collections manager](https://nhm.org/research-collections/departments/invertebrate-paleontology).
