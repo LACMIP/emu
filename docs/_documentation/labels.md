@@ -21,7 +21,7 @@ The Crystal report window that EMu has opened only gives you a preview of the fi
    1 | To print from your local machine, save the XPS file to your VPN desktop. **Note: The VPN desktop is not meant for long term storage of files. IT will routinely delete extra material off the VPN. Delete your file from the Desktop after printing has been completed.**
    2 | Next, drag and drop the file into the *Downloads* folder which is nested under G on Guacamole RDP under *This PC*.
    3| A pop-up on the bottom right hand corner of the VPN titled *File Transfers* will display a clickable link of your downloaded XPS file. Open the downloaded file. **Note: The formatting in this download becomes visually distorted and will not represent the true formatting of the XPS file.**
-   4 | Right-click the opened document, click *Print*, choose the Brother HL-L8260CDW series printer, click Preferences: Under 2 sided/Booklet choose "None" from the dropdown menu and under Media Type choose "Thick paper" from the dropdown menu. Click *OK* then *Print*.
+   4 | Right-click the opened document, click *Print*, choose the "Brother HL-L8260CDW series" printer, click *Preferences*: Under 2 sided/Booklet choose "None" from the dropdown menu and under Media Type choose "Thick paper" from the dropdown menu. Click *OK* then *Print*.
   
 Please note that you **cannot print this type of file from a Mac computer**. LACMIP labels are set up to use the XPS format versus something more portable, e.g. PDF, because of restrictions with the remote desktop version of Adobe Acrobat.
 
