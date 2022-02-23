@@ -3,7 +3,7 @@ title: Digitizing
 navcat: Workflows
 tags: cataloging, georeferencing, quick-start
 toc_sticky: true
-last_modified_at: 2022-01-31
+last_modified_at: 2022-02-22
 ---
 
 Digitization initiatives at LACMIP are primarily supported by the National Science Foundatoin. "Digitization" itself is a broad term and includes the variety of workflows outlined here. For a more thorough review of digitization workflows, see [Nelson *et al.* 2012](https://doi.org/10.3897/zookeys.209.3135).
@@ -101,7 +101,10 @@ Post-digitization curation steps important components of the overall digitizatio
 If you participate in any post-digitization activities for a given tray, please add your name and date to the appropriate columns on the digitization worksheet:
 <img src="{{ site.baseurl }}/assets/images/digitizing_postdigitizationworksheet.png" alt="" width="500"/>{: .align-center}
 
-## Painting
+## Painting -ARCHIVED from Digitization PEN: Collaborative Research: The Cretaceous World: Connecting the Cretaceous Seas of North America
+As of ** 2022** LACMIP will no longer paint their specimens. Instead, LACMIP staff will only label taxonomic specimens. Please follow the updated workflow on specimen labeling. Transcribe the catalog number on an archival sheet of paper using a Micron pigma pen and use Paraloid B-72 20% to affix the tag to the specimen. Paint a thin layer of Paraloid B-72 10% over the affixed specimen tag. 
+{: .notice--warning}
+
 Most LACMIP specimens already have locality numbers glued or painted on them. For this reason, the need for painting is limited, and this step is mostly completed by LACMIP staff. 
 A few tips for painting...
 - **All vials should be painted with a stripe** extending ~3/4" from the bottom and is ~1/8" wide. The "stripe checker" tool, as seen in the image here, can help guide you when you are new to this process.
