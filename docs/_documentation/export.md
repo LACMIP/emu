@@ -2,7 +2,7 @@
 title: Exporting Data
 navcat: Basics
 tags: taxonomy
-last_modified_at: 2020-05-28
+last_modified_at: 2022-04-25
 ---
 There are several primary ways to get data out of EMu: copy-paste, user-created reports, and complex reports using [Crystal Reports](https://www.crystalreports.com/).
 
@@ -59,6 +59,7 @@ The following shared reports are available in the [Sites module](({{ site.baseur
 - **Earth Map IP**: (kml) opens selected LACMIP localities in Google Earth, if they are georeferenced
 - **IP Loc ID Gaps**: (PDF) lists any gaps in the LACMIP locality number sequence; there should never be any, which this report can confirm
 - **IP Locality Report**: (spreadsheet) export of what traditionally would be included in a locality registry
+- **IP Locality Report Litho**: (spreadsheet) ^ standard locality report plus the lithostratigraphic details 
 - **IP Locality Cards**: (PDF) creates printable locality cards to be stored with new field collections
 
 The following shared reports are available in the [Taxonomy module](({{ site.baseurl }}/documentation/taxonomy/))...
