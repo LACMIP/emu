@@ -3,7 +3,7 @@ title: Catalogue
 navcat: Modules
 tags: cataloging quick-start
 toc_sticky: true
-last_modified_at: 2021-06-21
+last_modified_at: 2022-04-25
 ---
 The Catalogue module is the primary place for information about each specimen lot, and a node linking together data from many of the other modules. Please see [Axiell's documentation](http://help.emu.axiell.com/latest/en/Topics/EMu/Catalogue%20module.htm) for generic information about this module. Continue reading here to understand how LACMIP uses the fields available in the Catalogue module.
 
@@ -96,6 +96,7 @@ Project
     - "Paleozoic" for ongoing (unfunded) digitization (2016-present)
     - "FIC" for Fossil Insect Collaborative (PEN grant, 2017-2020)
     - "WIS" for Cretaceous Western Interior & Pacific Northwest (PEN grant, 2019-2021)
+    - "CNP" for Cretaceous North Pacific (NSF REPS - WIS supplement, 2022)
 
 Lot Remarks
 : **#1 Rule for *Lot Remarks*: Avoid entering data into this field unless you are 100% certain the information is new AND cannot be recorded anywhere else in EMu.** In other words, this field provides space for recording data or comments for which an appropriate field does not yet exist. To facilitate future migration of data in *Lot Remarks* to more appropriate fields that do not yet exist, information added to this field should should be entered exactly as shown below (order matters, as well as capitalization and punctuation/separators). Please consult the Collections Manager if you are unsure whether you have information that should be added to *Lot Remarks*.
