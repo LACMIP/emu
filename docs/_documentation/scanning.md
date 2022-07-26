@@ -1,9 +1,10 @@
 ---
-title:Using the Epson Scanner to digitize 
-navcat:Workflows
-tags:scan
+title: Using the Epson Scanner to digitize 
+navcat: Workflows
+tags: scan
+toc_sticky: true
 ---
-last_modified_at: 2022-07-25
+last_modified_at: 2022-07-226
 ---
 
 Scanning documentation using the Epson Smart Scanner provides a means to digitizate important and fragile handwritten/type written collections records with optical character recognition. The IP department has used this workflow to digitize taxa cards and historic UCLA catalog record books. 
