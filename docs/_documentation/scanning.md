@@ -18,7 +18,7 @@ The UCLA Catalog books are located in the metal cabinet to the right of the west
 
 
  *Step* | *Scanning task...*
-   --- | ---
+    --- | ---
    **Select** |  Carefully remove the UCLA Catalog book you plan on scanning and take it to the workstation with the Mac desktop. There is a rod in the top of the book's spine which latches the metal bindings together. Place the book on the desk, open the front cover of the book, and pull the key gently upwards to release the metal binding of the book. Remove the front cover and set aside. 
    **Set up** |  Insert the Epson ScanSmart USB into the USB port in the Mac desktop (located behind the screen in the bottom right hand corner). Unplug the apple charging cord if there are no ports available. 
    Turn on the scanner by holding the power button down for 3 seconds. A notification will pop-up on the Mac desktop stating that the scanner is connected to the computer. Click the button with the white slated arrow on the Epson machine and a corresponding light will turn blue. This will slow the scanning speed so that the pages do not get caught in the machine and rip. 
