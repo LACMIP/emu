@@ -13,7 +13,7 @@ These catalog records contain the specimen and locality documentation for the UC
 
 The UCLA Catalog books are located in the metal cabinet to the right of the western entrance, behind the reprint library. The catalogs are arranged in ascending numerical order. Please keep the books in that order and complete the workflow in that order as it is necessary for the file naming convention to remain accurate.
 
-:warning: **There should be no food, drinks or chemicals around these historic documents. These are the only copies we maintain.**
+:warning: **There should be no food, drinks or chemicals around these historic documents.**
 {: .notice--warning}
 
 *Step* | *To scan...*
