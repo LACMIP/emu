@@ -3,7 +3,7 @@ title: Type Collection
 navcat: Workflows
 tags: cataloging
 toc_sticky: true
-last_modified_at: 2021-08-02
+last_modified_at: 2022-01-06
 ---
 
 This documentation was created for the IP & Malacology Type Collection Renovation & Digitization project supported by [IMLS # MA-30-18-0335-18](https://www.imls.gov/grants/awarded/ma-30-18-0335-18-0), 2019-2021.
@@ -26,7 +26,7 @@ Type specimens, or "types", are the physical, name-bearing vouchers for new spec
 
 ## What is "taxonomy"?
 
-In the biological sense, taxonomy refers to the identification and interpretation of organisms within natural groups. While you will not be entering or editing specimen identifications or taxonomy in EMu, taxonomy forms the foundation upon which the type collection is organized, and it is therefore important that you familiarize yourself with the basic concepts of taxonomy and binomial nomenclature by reviewing [this article](https://www.digitalatlasofancientlife.org/learn/systematics/taxonomy/) and/or the following video. The ICZN also provides helpful [definitions](https://www.iczn.org/outreach/faqs/#faq-1).
+In the biological sense, taxonomy refers to the identification and interpretation of organisms within natural groups. While you may not be entering or editing specimen identifications or taxonomy in EMu, taxonomy forms the foundation upon which the type collection is organized, and it is therefore important that you familiarize yourself with the basic concepts of taxonomy and binomial nomenclature by reviewing [this article](https://www.digitalatlasofancientlife.org/learn/systematics/taxonomy/) and/or the following video. The ICZN also provides helpful [definitions](https://www.iczn.org/outreach/faqs/#faq-1).
 {% include video id="12XO8vYqBsA" provider="youtube" %}
 
 ## QC/Editing vs. Cataloging
@@ -177,6 +177,17 @@ To update locations for multiple records at once:
 Location history cannot be deleted. It is therefore very important that you take care when selecting records to be batch relocated.
 {: .notice--warning}
 
+# Updating type taxonomy
+The following steps will be followed to update the Taxonomy Module using the taxonomic names written on historic labels. These names originated from the initial publication which can be found in the gray archival folder in the Type Room labeled "LACMIP Type Reprints" and/or under the IMLS folder in the LACMIP Shared Folder in the Google Drive. Our curator is in charge of updating the taxonomy with currently accepted names. This workflow ONLY applies to the Type Collection (TYPE) and should not be followed for the Stratigraphic (ST),Taxonomic (TX), or Education (ED) collections.
+
+⚠️**Critical: Make sure that you are not adding the taxonomic string for a specimen that is awaiting publication. We do not want to share taxonomic identifications with database aggregators for new types without approval from the researcher. **
+
+To add the historic taxonomic names for the Type Collection:
+*Step* | 
+   --- | ---
+    1 | Start by querying EMu for all specimens that fall under the Kingdom - Unknown within the Type Collection. 
+    2 | Sort the specimens by 
+    
 # Assimilating New Types
 
 ## Numbering
