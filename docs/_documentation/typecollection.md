@@ -3,7 +3,7 @@ title: Type Collection
 navcat: Workflows
 tags: cataloging
 toc_sticky: true
-last_modified_at: 2022-01-06
+last_modified_at: 2022-01-12
 ---
 
 This documentation was created for the IP & Malacology Type Collection Renovation & Digitization project supported by [IMLS # MA-30-18-0335-18](https://www.imls.gov/grants/awarded/ma-30-18-0335-18-0), 2019-2021.
@@ -19,7 +19,7 @@ Type specimens, or "types", are the physical, name-bearing vouchers for new spec
    ⚠️ | **Open drawers slowly and cautiously.** Be aware that these cabinets do not have drawer stoppers. In other words, if you pull too far, the drawer may fall out. As a precaution, always pull out the drawer immediately below the one you wish to access about halfway.
    ⚠️ | **Always ask for help when moving drawers around.** They may be much heavier than they appear. 
    ⚠️ | **If type specimens are damaged or disassociated from their labels, alert the collections staff immediately.** Never move specimens or labels between boxes, or reorganize the boxes within their drawers unless directed to do so.
-   🔑 | All type specimens must be returned to their appropriate drawers and cabinets at the end of your shift. Similarly, the type room is a communal workspace (shared with Malacology) and should be kept tidy.
+   🔑 | All type specimens must be returned to their appropriate drawers and cabinets at the end of your shift. Similarly, the type room is a communal workspace (shared with Malacology) and should be kept tidy. Make sure to log out from the main computer at the end of your shifts. 
    🔑 | Please do not invite visitors into the type collection without permission from the Collections Manager or Curator.
    🚫 | Water is allowed in the type room, but should be kept away from specimens and equiment at all times. Please store/consume food and other beverages elsewhere.
    ❓ | Always ask questions when you're not sure what to do!
@@ -178,15 +178,20 @@ Location history cannot be deleted. It is therefore very important that you take
 {: .notice--warning}
 
 # Updating type taxonomy
-The following steps will be followed to update the Taxonomy Module using the taxonomic names written on historic labels. These names originated from the initial publication which can be found in the gray archival folder in the Type Room labeled "LACMIP Type Reprints" and/or under the IMLS folder in the LACMIP Shared Folder in the Google Drive. Our curator is in charge of updating the taxonomy with currently accepted names. This workflow ONLY applies to the Type Collection (TYPE) and should not be followed for the Stratigraphic (ST),Taxonomic (TX), or Education (ED) collections.
+The following steps will be followed to update the Taxonomy Module using the taxonomic names written on historic labels. These names originated from the initial publication which can be found in the gray archival folder in the Type Room labeled "LACMIP Type Reprints" and/or under the IMLS folder in the LACMIP Shared Folder in the Google Drive. Our curator is in charge of updating the taxonomy with currently accepted names. This workflow ONLY applies to the Type Collection (TYPE) and should not be followed for the Stratigraphic (ST),Taxonomic (TX), or Education (ED) collections. 
 
-⚠️**Critical: Make sure that you are not adding the taxonomic string for a specimen that is awaiting publication. We do not want to share taxonomic identifications with database aggregators for new types without approval from the researcher. **
+⚠️**Critical: Make sure that you are not adding the taxonomic string for a specimen that is awaiting publication. We do not want to share taxonomic identifications with database aggregators for new types without approval from the researcher.
 
-To add the historic taxonomic names for the Type Collection:
-*Step* | 
+To add the type taxonomic names in the Type Collection:
+
+*Step* | *In the Catalogue and Taxonomy Module...*
    --- | ---
-    1 | Start by querying EMu for all specimens that fall under the Kingdom - Unknown within the Type Collection. 
-    2 | Sort the specimens by 
+    1  | Start by querying EMu for all specimens in the Type Collection. 
+    2  | Sort the specimens by "Current Location". Start with Cabinet 1 and work in ascending cabinet order.
+    3  | Open Cabinet 1, Drawer 1. Pull out specimens moving Left to Back and place them in a wooden tray which can be found besides the cabinet containing the specimen boxes. Make sure to keep the specimens in the same arrangement as you found them. 
+    4  | The specimen names to transcribe will be found on the historic specimen labels that have "Los Angeles County Museum of Natural History" as the header. The original name can also be found in the type publication.
+    5  | Check that the name in the original publication is input in the Taxonomy module as "Filed as: Yes"
+   
     
 # Assimilating New Types
 
