@@ -180,17 +180,17 @@ Location history cannot be deleted. It is therefore very important that you take
 # Updating type taxonomy
 The following steps will be followed to update the Taxonomy Module using the taxonomic names written on historic labels. These names originated from the initial publication which can be found in the gray archival folder in the Type Room labeled "LACMIP Type Reprints" and/or under the IMLS folder in the LACMIP Shared Folder in the Google Drive. Our curator is in charge of updating the taxonomy with currently accepted names. This workflow ONLY applies to the Type Collection (TYPE) and should not be followed for the Stratigraphic (ST),Taxonomic (TX), or Education (ED) collections. 
 
-⚠️**Critical: Make sure that you are not adding the taxonomic string for a specimen that is awaiting publication. We do not want to share taxonomic identifications with database aggregators for new types without approval from the researcher.
+⚠️ **Critical: Make sure that you are not adding the taxonomic string for a specimen that is awaiting publication. We do not want to share taxonomic identifications with database aggregators for new types without approval from the researcher.**
 
 To add the type taxonomic names in the Type Collection:
 
 *Step* | *In the Catalogue and Taxonomy Module...*
    --- | ---
-    1  | Start by querying EMu for all specimens in the Type Collection. 
-    2  | Sort the specimens by "Current Location". Start with Cabinet 1 and work in ascending cabinet order.
-    3  | Open Cabinet 1, Drawer 1. Pull out specimens moving Left to Back and place them in a wooden tray which can be found besides the cabinet containing the specimen boxes. Make sure to keep the specimens in the same arrangement as you found them. 
-    4  | The specimen names to transcribe will be found on the historic specimen labels that have "Los Angeles County Museum of Natural History" as the header. The original name can also be found in the type publication.
-    5  | Check that the name in the original publication is input in the Taxonomy module as "Filed as: Yes"
+    1  | Start by querying the Catalogue Module for all specimens in the Type Collection. 
+    2  | Sort the specimens by "Current Location". Start with Drawer 1,Cabinet 1 and work in ascending cabinet order.
+    3  | Open Cabinet 1, Drawer 1. Pull out specimens starting Left to Back and place them in a wooden tray. Make sure to keep the specimens in the same arrangement as they were ordered in the drawer. 
+    4  | The original name can also be found in the type publication. If the original name is not found in the 
+    5  | Check that the name in the original publication is listed under the Identification tab. If the identification is Kingdom - Unknown, then you will need to open the Taxonomy module to add the name. Follow the instructions listed here *add link* under "Creating a new Taxonomy Record" to input a new species name. If the genus does not exist in EMu yet, then post the genus in the IMLS google space to confirm whether it is appropriate to add. Mark the new entry as Unknown under Currently Accepted.
    
     
 # Assimilating New Types
