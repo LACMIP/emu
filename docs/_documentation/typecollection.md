@@ -182,7 +182,7 @@ The following steps will be followed to update the Taxonomy Module using the tax
 
 ⚠️ **Critical: Make sure that you are not adding the taxonomic string for a specimen that is awaiting publication. We do not want to share taxonomic identifications with database aggregators for new types without approval from the researcher**
 
-To add the type taxonomic names in the Type Collection:
+To add taxonomic names in the Type Collection:
 
 *Step* | *In the Catalogue and Taxonomy Module...*
    --- | ---
@@ -193,9 +193,9 @@ To add the type taxonomic names in the Type Collection:
     5  | Follow the instructions listed here *add link* under "Creating a new Taxonomy Record" to input a new species name. If the genus does not exist in EMu yet, then post the genus in the IMLS google space to confirm whether it is appropriate to add. 
     6  | Mark the new taxonomy entry as "Unknown" under Currently Accepted.
     7  | After adding the species name, replace this identification with the prior "Unknown" identification.
-    8  | In the comments on the Identification tab, add this phrase "Filed under originally published name." If it is the only identification, check mark "Yes" under Currently Accepted: and check mark "Yes" under Filed as: .
-    
-    {% include figure image_path="/assets/images/Catalogue_Type Room Taxonomy.png" alt="screenshot of the  Identification tab with added taxonomy in the Catalogue module" caption="Screenshot of the *Identification* tab after adding the original name from the publication." %}
+    8  | In the comments on the Identification tab, add this phrase "Filed under originally published name." If it is the only identification, check mark "Yes" under Currently Accepted: and check mark "Yes" under Filed as: 
+{% include figure image_path="/assets/images/Catalogue_Type Room Taxonomy.png" alt="screenshot of the Identification tab with added taxonomy in the Catalogue module" caption="Identification* tab after adding the original name from the publication." %}    
+
    
     
 # Assimilating New Types
