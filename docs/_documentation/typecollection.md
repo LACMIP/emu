@@ -3,7 +3,7 @@ title: Type Collection
 navcat: Workflows
 tags: cataloging
 toc_sticky: true
-last_modified_at: 2022-01-12
+last_modified_at: 2022-01-19
 ---
 
 This documentation was created for the IP & Malacology Type Collection Renovation & Digitization project supported by [IMLS # MA-30-18-0335-18](https://www.imls.gov/grants/awarded/ma-30-18-0335-18-0), 2019-2021.
