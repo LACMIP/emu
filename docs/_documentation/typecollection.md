@@ -195,8 +195,6 @@ To add taxonomic names in the Type Collection:
     7  | After adding the species name, replace this identification with the prior "Unknown" identification.
     8  | In the comments on the Identification tab, add this phrase "Filed under originally published name." If it is the only identification, check mark "Yes" under "Currently Accepted" and check mark "Yes" under "Filed as" [(Example.)]({{ site.baseurl }}/assets/images/Catalogue_Type Room Taxonomy.png)
 
-
-   
     
 # Assimilating New Types
 
