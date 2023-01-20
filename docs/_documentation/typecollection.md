@@ -188,13 +188,15 @@ To add taxonomic names in the Type Collection:
    --- | ---
     1  | Start by querying the Catalogue Module for all specimens in the Type Collection. 
     2  | Sort the specimens by "Current Location". Start with Drawer 1,Cabinet 1 and work in ascending cabinet order.
-    3  | Open Cabinet 1, Drawer 1. Pull out specimens starting in the Left most corner and working from Front to Back. Place specimens in a wooden tray as the white metal drawer of the cabinet is heavy. Make sure to keep the specimens in the same arrangement as they were ordered in the drawer. 
-    4  | Check that the name in the original publication, in its original form, is listed under the Identifications tab. If the identification is Kingdom - Unknown, then you will need to open the Taxonomy module to add the name. 
+    3  | Open Cabinet 1, Drawer 1. Pull out specimens starting in the left most corner and work from front to back. Place specimens in a wooden tray as the white metal drawer of the cabinet is heavy. Make sure to keep the specimens in the same arrangement as they were ordered in the drawer. 
+    4  | Check that the name in the original publication, in its original form, is listed under the Identifications tab. If the identification is Kingdom - Unknown, then you will need to open the Taxonomy module to add the name. If you cannot find the publication in the google drive under LACMIP Shared FOlder > IMLS > Type Publications OR in the Reprint Library in the Type Room, add the publication, author, and catalog number details to the google sheet "Type Publications needed/missing".
     5  | Follow the instructions listed here under [Creating a new Taxonomy Record]({{ site.baseurl }}/documentation/taxonomy/##creating a new taxonomy record) to input a new genus or species name. If the genus does not exist in EMu yet, then add it to the google sheet "Type taxonomic names to review - Type Collection" to confirm whether it is appropriate to add. 
     6  | Mark the new taxonomic entry as "Unknown" under "Currently Accepted" and leave the "Currently Accepted Name" field blank [(Example.)]({{ site.baseurl }}/assets/images/type collection_taxonomy_currently accepted name.png)
     7  | After adding the species name, replace this identification with the prior "Unknown" identification.
-    8  | In the comments on the Identification tab, add this phrase "Filed under originally published name." If it is the only identification, check mark "Yes" under "Currently Accepted" and check mark "Yes" under "Filed as" [(Example.)]({{ site.baseurl }}/assets/images/Catalogue_Type Room Taxonomy.png)
-
+    8  | In the comments on the Identification tab, add this phrase "Filed under originally published name." If it is the only identification, check mark "Yes" under "Currently Accepted" and check mark "Yes" under "Filed as". However, if there are multiple identifications follow this [(Example.)]({{ site.baseurl }}/assets/images/Catalogue_Type Room Taxonomy.png)
+    
+Do not delete previous identifications. There might be some specimens with the complete wrong identification attached. Inform collections staff of this occurrence.
+{: .notice--warning}
     
 # Assimilating New Types
 
