@@ -8,15 +8,16 @@ last_modified_at: 2023-08-01
 
 # Pyrite Decay Mitigation
 
-## Inventorying
-- Begin looking through whichever area of the collections you are planning on pulling pyritized specimens from. We pulled all of the pyritized specimens from the Jurassic. Examine each specimen in the cabinet for signs of pyrite decay.
-- **A few tips for identifying pyrite decay:** 
+## A few tips for identifying pyrite decay:** 
     - Signs of decay include efflorescent powder, expansion cracks, and acid burns on either the label or the tray that the specimen is housed in.
     - Efflorescence can be many different colors. Most of the efflorescence we saw in the Jurassic specimens was either gray or yellow.
     - Some material will only display one of the signs and the effects may only be visible on a small section of the specimen.
     - Be sure to look at both sides of each fossil to ensure that you do not miss any.
+
+## Inventorying
+- Begin looking through whichever area of the collections you are planning on pulling pyritized specimens from. We pulled all of the pyritized specimens from the Jurassic. Examine each specimen in the cabinet for signs of pyrite decay.
 - Pull any pyritized material and complete "Specimen Removed" tags for each one.
-- Each fossil should also be added to a specialized Pyrite Decay inventory spreadsheet. The spreadsheet should have columns in which you should record each of the following. 
+- Each fossil should also be added to a specialized Pyrite Decay inventory spreadsheet. The spreadsheet should have columns in which you should record each of the following:
 
    *Column* | *Information*
    --- | ---
@@ -34,6 +35,7 @@ last_modified_at: 2023-08-01
   **Notes** | Use this cell to record any other comments on the specimen if necessary. For example, record if there are no labels or locality information associated with the specimen or if the specimen is so severely damaged that it is impossible to obtain any of the other information.
 
 ## Digitizing the Specimens 
+
   - **Catalog** the specimens in EMu if they are not already cataloged. Follow the Cataloging Workflow. Print specimen tags.
     - The project that the specimens belong to is **PYR.**
     - Make sure to differentiate any specimen numbers from a previous institution.
@@ -43,4 +45,4 @@ last_modified_at: 2023-08-01
       - First, get an untouched view of the specimen/s and label/s in their original tray without moving anything.
       - Then, get an image with the specimen/s and label/s removed from the tray. Keep the orientations of the specimens the same throughout all the images. If necessary, take pictures of both sides of the material to ensure that all institution numbers and instances of pyritization are properly recorded.
    
-  ## Escal and RPSystem Calculations 
+## Escal and RPSystem Calculations 
