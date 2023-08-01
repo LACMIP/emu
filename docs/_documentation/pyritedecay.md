@@ -9,15 +9,14 @@ last_modified_at: 2023-08-01
 # Pyrite Decay Mitigation
 
 ## Inventorying
-- Begin looking through whichever area of the collections you are planning on pulling pyritized specimens from. We pulled all of the pyritized specimens from the Jurassic. Examine each specimen in the cabinet for signs of pyrite decay. Some tips on identifying decay are listed below.
+- Begin looking through whichever area of the collections you are planning on pulling pyritized specimens from. We pulled all of the pyritized specimens from the Jurassic. Examine each specimen in the cabinet for signs of pyrite decay.
+- **A few tips for identifying pyrite decay:** 
+    - Signs of decay include efflorescent powder, expansion cracks, and acid burns on either the label or the tray that the specimen is housed in.
+    - Efflorescence can be many different colors. Most of the efflorescence we saw in the Jurassic specimens was either gray or yellow.
+    - Some material will only display one of the signs and the effects may only be visible on a small section of the specimen.
+    - Be sure to look at both sides of each fossil to ensure that you do not miss any.
 - Pull any pyritized material and complete "Specimen Removed" tags for each one.
 - Each fossil should also be added to a specialized Pyrite Decay inventory spreadsheet. The spreadsheet should have columns in which you should record each of the following. 
-
-## A few tips for identifying pyrite decay: 
-- Signs of decay include efflorescent powder, expansion cracks, and acid burns on either the label or the tray that the specimen is housed in.
-- Efflorescence can be many different colors. Most of the efflorescence we saw in the Jurassic specimens was either gray or yellow.
-- Some material will only display one of the signs and the effects may only be visible on a small section of the specimen.
-- Be sure to look at both sides of each fossil to ensure that you do not miss any.
 
    *Column* | *Information*
    --- | ---
