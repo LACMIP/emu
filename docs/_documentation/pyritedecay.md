@@ -62,12 +62,11 @@ More detailed information about the oxygen absorber packets can be found in the 
 
 ## Building the Microenvironment 
 
-- Make sure that the surface you are working on is **completely clean of anything abrasive**. If the escal or foil material gets scratched, it can break the barrier which would allow oxygen into the microenvironment. 
-- Plug in the heat sealer and allow it to heat up. Use any scrap pieces of material to **test whether the clamp is ready to use** and to gauge whether the **heat setting is sufficient.**
+- Make sure that the surface you are working on is **completely clean**. If the escal or foil material gets scratched, it can break the barrier and allow oxygen into the microenvironment. 
+- Plug in the heat sealer and allow it to heat up. Use any scrap pieces of material to **test whether the clamp is ready to use** and to gauge whether the heat setting is sufficient.
 - Lay down your foil with the clear escal material on top.
-- **Use the heat sealter to join two sides of the material together.** This creates a pocket that you can use to nestle all of your specimen trays between the material.
-    - Leave a small gap between the seal and the edge of the escal material so you can check that the sealing worked once it has cooled down. **Don't test the seal immediately** after the heat is removed because the material will still be malleable while it is hot and you can damage the seal.
-- Once your specimens are all inside the microenvironment, work quickly to place the appropriate amount of RP Agent packets either between the specimens or around them. Add in a **Humidity Indicator,** avaiable at dryndry.com. Try your best to make the indicator visible without obstructing the view of any specimens.
-    - This indicator will allow you to discern the humidity within the microenvironment and **will designate when you need to replace the RP Agent packets.**
+- **Use the heat sealer to join two sides of the material together.** This creates a pocket that you can use to nestle all of your specimen trays inside of the microenvironment.
+    - Leave a small gap between the seal and the edge of the escal material so you can check that the sealing worked once it has cooled down. **Don't test the seal immediately** after the heat is removed! The material will still be malleable while it is hot and you can damage the seal.
+- Once all of your specimens are inside the microenvironment, work quickly to place the appropriate amount of RP Agent packets either between the specimens or around them. Add in a **Humidity Indicator.** Try your best to make the indicator visible without obstructing the view of any specimens. This indicator will allow you to discern the humidity within the microenvironment and **will designate when you need to replace the RP Agent packets.**
 - Still working quickly, **use the heat clamp to seal the remaining two sides.** Check each side after cooling to ensure that the heat sealer worked properly.
 - **Your microenvironment is finished! Store in the First Aid Cabinet** where the escal material will not be damaged in any way. Check back after a week or so and read the humidity indicator to ensure that the RP Agent packets are working properly to lower the humidity within the microenvironment. 
