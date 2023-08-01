@@ -33,7 +33,7 @@ This workflow details the steps for inventorying specimens that are experiencing
   **Visual Notes** | Description of the specimen and pyrite decay. Things to consider: Is efflorescence present and if so, what color is it? Ex: "coating of white efflorescence," "patches of yellow efflorescence." Are there expansion cracks and if so, how severe? Ex. "small expansion cracks," "severe expansion cracks." Is any part of the specimen crumbling? Ex. "Minimal crumbling," "extreme crumbling of the entire specimen," "complete pile of ash."
   **Specimen Tray Notes** | Description of the tray if it is affected by the pyritization. Is there any staining on the tray? Is the tray ripping or broken due to the decay? If there are no visible effects on the tray, leave this cell blank.
   **Label Notes** | Description of the label if it is affected by the pyritization. Is there any staining or burn marks on the label? If there are no visible affects on the label, leave this cell blank.
-  **Tray Type** | Was the tray that the specimen was housed in "wood" or "metal"
+  **Tray Type** | Record whether the specimen was housed in a "wood" or "metal" tray.
   **Notes** | Use this cell to record any other comments on the specimen if necessary. For example, record if there are no labels or locality information associated with the specimen or if the specimen is so severely damaged that it is impossible to obtain any of the other information.
 
 ## Digitizing the Specimens 
