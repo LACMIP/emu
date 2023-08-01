@@ -27,7 +27,7 @@ This workflow details the steps for inventorying specimens that are experiencing
    **Cabinet Number** | The number of the cabinet that the pyritized specimen was removed from. If the specimen was displaced, check the original LACMIP inventory for that time period and attempt to cross reference a cabinet and drawer number from that. If unable to find the original cabinet or drawer number, it is okay to then put "unknown." 
    **Drawer Number**| The number of the drawer that the pyritized specimen was removed from. Remember for most cabinets in the collection drawers are counted going downwards, so drawers 1-6 are on the lefthand side and drawers 7-12 are on the righthand side. If the original location of the specimen is unknown, follow the same instructions as above. 
    **LACMIP Loc** | The LACMIP locality number as represented on the specimen's label or on white paint on the surface of the specimen. If there is no LACMIP locality available, record any other institution's numbers that are visible. 
-   **Pyrite Scale** | Using your own judgement, quantify the severity of the pyrite decay using the qualitative assessment graphic. Note that any specimens classified as a 3 are no longer viable research specimens and should be deaccessioned. Still include these specimens in your spreadsheet.
+   **Pyrite Scale** | Using your own judgement, quantify the severity of the pyrite decay using the [qualitative assessment graphic]({{ site.baseurl }}/assets/images/pyritedecay_scale.png). Note that any specimens classified as a 3 are no longer viable research specimens and should be deaccessioned. Still include these specimens in your spreadsheet.
   **Taxonomy** | Taxonomic name of the specimen. If unavaible, add in the highest known classification of the specimen. Ex. "Ammonoidea" if the specimen is an ammonoid without proper identification. 
   **Lot Count** | The number of specimens in that specific lot.
   **Visual Notes** | Description of the specimen and pyrite decay. Things to consider: Is efflorescence present and if so, what color is it? Ex: "coating of white efflorescence," "patches of yellow efflorescence." Are there expansion cracks and if so, how severe? Ex. "small expansion cracks," "severe expansion cracks." Is any part of the specimen crumbling? Ex. "Minimal crumbling," "extreme crumbling of the entire specimen," "complete pile of ash."
@@ -35,10 +35,6 @@ This workflow details the steps for inventorying specimens that are experiencing
   **Label Notes** | Description of the label if it is affected by the pyritization. Is there any staining or burn marks on the label? If there are no visible affects on the label, leave this cell blank.
   **Tray Type** | Was the tray that the specimen was housed in "wood" or "metal"
   **Notes** | Use this cell to record any other comments on the specimen if necessary. For example, record if there are no labels or locality information associated with the specimen or if the specimen is so severely damaged that it is impossible to obtain any of the other information.
-
-## Qualitative Pyrite Scale 
-
-<img src="{{ site.baseurl }}/assets/images/pyritedecay_scale.png" alt="" width="500"/>{: .align-center}
 
 ## Digitizing the Specimens 
 
