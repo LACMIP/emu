@@ -42,18 +42,18 @@ This workflow details the steps for inventorying specimens that are experiencing
 
 ## Digitizing the Specimens 
 
-  - **Catalog** the specimens in EMu if they are not already. Follow the [Cataloging Workflow]([url](https://lacmip.github.io/emu/documentation/cataloging/)). Print specimen tags.
+  - **Catalog** the specimens in EMu if they are not already. Follow the [Cataloging Workflow](https://lacmip.github.io/emu/documentation/cataloging/). Print specimen tags.
     - The project that the specimens belong to is **PYR.**
     - Make sure to differentiate any specimen numbers from a previous institution.
     - **Relocate** the specimens in EMu to their original cabinet and drawer location, using the information you recorded in your Pyrite Inventory spreadsheet. Then, **relocate again** to the First Aid Cabinet.
-  - **Image** the specimens according to the instructions in the [Imaging Workflow]([url](https://lacmip.github.io/emu/documentation/imaging/)) including the barcoding reading script.
+  - **Image** the specimens according to the instructions in the [Imaging Workflow](https://lacmip.github.io/emu/documentation/imaging/) including the barcoding reading script.
       - All pictures should be taken with the specimen's cataloged barcodes. In some severe cases, the specimen cannot be cataloged and will not be imaged with a barcode.
       - First, get an **untouched view** of the specimen/s and label/s in their original tray without moving anything.
       - Then, get an image with the **specimen/s and label/s removed from the tray**. Keep the orientations of the specimens the same throughout all the images. If necessary, take pictures of both sides of the material to ensure that all institution numbers and instances of pyritization are properly recorded.
    
 ## Escal and RPSystem Calculations 
 
-More detailed information about the oxygen absorber packets can be found in the *[RPSystem Brochure]([url](http://ageless.mgc-a.com/RP%20System%20Brochure%20(Industrial%20Applications).pdf)).* Be sure to only look at the information for your specific **RP agent.**
+More detailed information about the oxygen absorber packets can be found in the [*RPSystem Brochure*](http://ageless.mgc-a.com/RP%20System%20Brochure%20(Industrial%20Applications).pdf). Be sure to only look at the information for your specific **RP agent.**
 
 - When it comes time to group the fossils for their microenvironments, make small groups of between **5-10 specimens.** Within each group, all specimens should be at the same level of pyrite decay severity and it is nice to try to keep specimens from the same locality together. Ensure that all the specimens and their tags are visible within their trays and place all historic and modern labels in archival, resealable polypropylene.
 - Arrange the specimen trays into a rectangular shape and use a ruler to measure the length and width, in inches, of the grouping. When cutting the escal to build the microenvironment, **cut out enough to allow for 2in of extra material on three sides and 4in of extra on the other**, allowing for space to properly reseal the material together if it ever needs to be cut open. 
