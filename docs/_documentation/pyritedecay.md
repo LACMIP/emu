@@ -11,7 +11,7 @@ last_modified_at: 2023-08-01
 ## Introduction
 This workflow details the steps for inventorying specimens that are experiencing pyrite decay, quantifying the severity of the decay, and building anoxic microenvironments for the specimens that are still viable. For more detailed information about pyrite decay and the effectiveness of anoxic microenvironments, please refer to *[The Geological Curator, Volume 11]([url](https://www.geocurator.org/resources/51-geological-curator/the-geological-curator-volume-11)),* and your institution's conservation department.
 
-## A few tips for identifying pyrite decay:
+## Tips for Identifying Pyrite Decay:
 - Signs of decay include **efflorescent powder, expansion cracks, and acid burns** on either the label or the tray that the specimen is housed in.
 - Efflorescence can be many different colors. Most of the efflorescence we saw in the Jurassic specimens was either gray or yellow.
 - Some material will only display one of the signs and the effects may only be visible on a small section of the specimen.
