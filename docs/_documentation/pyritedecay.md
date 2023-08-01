@@ -17,6 +17,8 @@ This workflow details the steps for inventorying specimens that are experiencing
 - Some material will only display one of the signs and the effects may only be visible on a small section of the specimen.
 - Be sure to look at both sides of each fossil to ensure that you do not miss any.
 
+<img src="{{ site.baseurl }}/assets/images/pyritedecay_examples.jpg" alt="" width="500"/>{: .align-center}
+
 ## Inventorying
 - Begin looking through whichever area of the collections you are planning on pulling pyritized specimens from. We pulled all of the pyritized specimens from the Jurassic. Examine each specimen in the cabinet for signs of pyrite decay.
 - Pull any pyritized material and complete "Specimen Removed" tags for each one.
@@ -36,6 +38,10 @@ This workflow details the steps for inventorying specimens that are experiencing
   **Label Notes** | Description of the label if it is affected by the pyritization. Is there any staining or burn marks on the label? If there are no visible affects on the tray leave this cell blank.
   **Tray Type** | Was the tray that the specimen was housed in "wood" or "metal"
   **Notes** | Use this cell to record any other comments on the specimen if necessary. For example, record if there are no labels or locality information associated with the specimen or if the specimen is so severely damaged that it is impossible to obtain any of the other information.
+
+## Qualitative Pyrite Scale 
+
+<img src="{{ site.baseurl }}/assets/images/pyritedecay_scale.png" alt="" width="500"/>{: .align-center}
 
 ## Digitizing the Specimens 
 
