@@ -51,7 +51,7 @@ This workflow details the steps for inventorying specimens that are experiencing
 
 More detailed information about the oxygen absorber packets can be found in the [*RPSystem Brochure*](http://ageless.mgc-a.com/RP%20System%20Brochure%20(Industrial%20Applications).pdf). Be sure to only look at the information for your specific **RP agent.**
 
-- When it comes time to group the fossils for their microenvironments, make small groups of between **5-10 specimens.** Within each group, all specimens should have the same qualitative assessment number and it is nice to keep specimens from the same locality together. Ensure that all the specimens and their tags are visible within the trays and place all historic and modern labels in archival, resealable polypropylene.
+- When it comes time to group the fossils for their microenvironments, make small groups of between **5-10 specimens.** Arrange specimens primarily by pyrite decay severity and secondarily by LACMIP locality number.
 - Arrange the specimen trays into a rectangular shape and use a ruler to measure the length and width, in inches, of the grouping. These are the minimum measurements that your foil and escal material will be.
 - When cutting the escal to build the microenvironment, **cut out enough to allow for 2in of extra material on three sides and 4in of extra on the other**, allowing for space to properly reseal the material together if it ever needs to be cut open. 
     - You need one piece of the foil material for underneath the fossils and one piece of the clear escal of the same size to go on top of the specimens. The clear escal is helpful because it allows you to see each of the fossils in the microenvironment.
