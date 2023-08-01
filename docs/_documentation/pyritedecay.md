@@ -7,7 +7,7 @@ last_modified_at: 2023-08-01
 ---
 
 ## Introduction
-This workflow details the steps for inventorying specimens that are experiencing pyrite decay, quantifying the severity of the decay, and building anoxic microenvironments for the specimens that are still viable. For more detailed information about pyrite decay and the effectiveness of anoxic microenvironments, please refer to *[The Geological Curator, Volume 11]([url](https://www.geocurator.org/resources/51-geological-curator/the-geological-curator-volume-11)),* and your institution's Conservation department.
+This workflow details the steps for inventorying specimens that are experiencing pyrite decay, quantifying the severity of the decay, and building anoxic microenvironments for the specimens that are still viable. For more detailed information about pyrite decay and the effectiveness of anoxic microenvironments, please refer to [*The Geological Curator, Volume 11*](https://www.geocurator.org/resources/51-geological-curator/the-geological-curator-volume-11) and your institution's Conservation department.
 
 ## Tips for Identifying Pyrite Decay:
 - Signs of decay include **efflorescent powder, expansion cracks, and acid burns** on either the label or the tray that the specimen is housed in.
@@ -30,11 +30,7 @@ This workflow details the steps for inventorying specimens that are experiencing
    **Pyrite Scale** | Using your own judgement, quantify the severity of the pyrite decay using the qualitative assessment graphic. Note that any specimens classified as a 3 are no longer viable research specimens and should be deaccessioned. Still include these specimens in your spreadsheet.
   **Taxonomy** | Taxonomic name of the specimen. If unavaible, add in the highest known classification of the specimen. Ex. "Ammonoidea" if the specimen is an ammonoid without proper identification. 
   **Lot Count** | The number of specimens in that specific lot.
-  **Visual Notes** | Description of the specimen and pyrite decay.
-    - Things to consider:
-   -  Is efflorescence present and if so, what color is it? Ex: "coating of white efflorescence," "patches of yellow efflorescence"
-   -  Are there expansion cracks and if so, how severe? Ex. "small expansion cracks," "severe expansion cracks"
-    - Is any part of the specimen crumbling? Ex. "Minimal crumbling," "extreme crumbling of the entire specimen," "complete pile of ash"
+  **Visual Notes** | Description of the specimen and pyrite decay. Things to consider: Is efflorescence present and if so, what color is it? Ex: "coating of white efflorescence," "patches of yellow efflorescence." Are there expansion cracks and if so, how severe? Ex. "small expansion cracks," "severe expansion cracks." Is any part of the specimen crumbling? Ex. "Minimal crumbling," "extreme crumbling of the entire specimen," "complete pile of ash."
   **Specimen Tray Notes** | Description of the tray if it is affected by the pyritization. Is there any staining on the tray? Is the tray ripping or broken due to the decay? If there are no visible effects on the tray, leave this cell blank.
   **Label Notes** | Description of the label if it is affected by the pyritization. Is there any staining or burn marks on the label? If there are no visible affects on the label, leave this cell blank.
   **Tray Type** | Was the tray that the specimen was housed in "wood" or "metal"
@@ -46,7 +42,7 @@ This workflow details the steps for inventorying specimens that are experiencing
 
 ## Digitizing the Specimens 
 
-  - **Catalog** the specimens in EMu if they are not already cataloged. Follow the [Cataloging Workflow]([url](https://lacmip.github.io/emu/documentation/cataloging/)). Print specimen tags.
+  - **Catalog** the specimens in EMu if they are not already. Follow the [Cataloging Workflow]([url](https://lacmip.github.io/emu/documentation/cataloging/)). Print specimen tags.
     - The project that the specimens belong to is **PYR.**
     - Make sure to differentiate any specimen numbers from a previous institution.
     - **Relocate** the specimens in EMu to their original cabinet and drawer location, using the information you recorded in your Pyrite Inventory spreadsheet. Then, **relocate again** to the First Aid Cabinet.
