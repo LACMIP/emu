@@ -6,23 +6,20 @@ toc_sticky: true
 last_modified_at: 2023-08-01
 ---
 
-# Pyrite Decay Mitigation
-
 ## Introduction
-This workflow details the steps for inventorying specimens that are experiencing pyrite decay, quantifying the severity of the decay, and building anoxic microenvironments for the specimens that are still viable. For more detailed information about pyrite decay and the effectiveness of anoxic microenvironments, please refer to *[The Geological Curator, Volume 11]([url](https://www.geocurator.org/resources/51-geological-curator/the-geological-curator-volume-11)),* and your institution's conservation department.
+This workflow details the steps for inventorying specimens that are experiencing pyrite decay, quantifying the severity of the decay, and building anoxic microenvironments for the specimens that are still viable. For more detailed information about pyrite decay and the effectiveness of anoxic microenvironments, please refer to *[The Geological Curator, Volume 11]([url](https://www.geocurator.org/resources/51-geological-curator/the-geological-curator-volume-11)),* and your institution's Conservation department.
 
 ## Tips for Identifying Pyrite Decay:
 - Signs of decay include **efflorescent powder, expansion cracks, and acid burns** on either the label or the tray that the specimen is housed in.
-- Efflorescence can be many different colors. Most of the efflorescence we saw in the Jurassic specimens was either gray or yellow.
-- Some material will only display one of the signs and the effects may only be visible on a small section of the specimen.
-- Be sure to look at both sides of each fossil to ensure that you do not miss any.
+- Efflorescence can be many different colors. Most of the efflorescence we observed in the Jurassic specimens was either gray or yellow.
+- Some material will only display one of the signs, and the effects may only be visible on a small section of the specimen.
+- Be sure to look at both sides of each fossil to ensure that you do not miss any symptoms.
 
 <img src="{{ site.baseurl }}/assets/images/pyritedecay_examples.jpg" alt="" width="500"/>{: .align-center}
 
 ## Inventorying
-- Begin looking through whichever area of the collections you are planning on pulling pyritized specimens from. We pulled all of the pyritized specimens from the Jurassic. Examine each specimen in the cabinet for signs of pyrite decay.
-- Pull any pyritized material and complete "Specimen Removed" tags for each one.
-- Each fossil should also be added to a specialized Pyrite Decay inventory spreadsheet. The spreadsheet should have columns in which you should record each of the following:
+- Systematically inventory the target cabinets. We pulled all of the pyritized specimens from the Jurassic. Examine each specimen in the cabinet for signs of pyrite decay.
+- Before pulling any pyritized material be sure to complete "Specimen Removed" tags for each one and add their corresponding data to a specialized Pyrite Decay inventory spreadsheet. The spreadsheet should have columns in which you should record each of the following:
 
    *Column* | *Information*
    --- | ---
@@ -32,10 +29,14 @@ This workflow details the steps for inventorying specimens that are experiencing
    **LACMIP Loc** | The LACMIP locality number as represented on the specimen's label or on white paint on the surface of the specimen. If there is no LACMIP locality available, record any other institution's numbers that are visible. 
    **Pyrite Scale** | Using your own judgement, quantify the severity of the pyrite decay using the qualitative assessment graphic below. Note that any specimens classified as a 3 are no longer viable research specimens and should be deaccessioned. Still include these specimens in your spreadsheet.
   **Taxonomy** | Taxonomic name of the specimen. If unavaible, add in the highest known classification of the specimen. Ex. "Ammonoidea" if the specimen is an ammonoid without proper identification. 
-  **Lot Count** | How many specimens are in that specific lot.
-  **Visual Notes** | Description of the specimen and pyrite decay. Examples: Is efflorescent present and if so, what color is it? Are there expansion cracks and if so, how severe? Is any part of the specimen crumbling?
-  **Tray Notes** | Description of the tray if it is affected by the pyritization. Is there any staining on the tray? Is the tray ripping or broken due to the decay? If there are no visible effects on the tray, leave this cell blank.
-  **Label Notes** | Description of the label if it is affected by the pyritization. Is there any staining or burn marks on the label? If there are no visible affects on the tray leave this cell blank.
+  **Lot Count** | The number of specimens in that specific lot.
+  **Visual Notes** | Description of the specimen and pyrite decay.
+  Things to consider:
+  Is efflorescence present and if so, what color is it? Ex: "coating of white efflorescence," "patches of yellow efflorescence"
+  Are there expansion cracks and if so, how severe? Ex. "small expansion cracks," "severe expansion cracks"
+  Is any part of the specimen crumbling? Ex. "Minimal crumbling," "extreme crumbling of the entire specimen," "complete pile of ash"
+  **Specimen Tray Notes** | Description of the tray if it is affected by the pyritization. Is there any staining on the tray? Is the tray ripping or broken due to the decay? If there are no visible effects on the tray, leave this cell blank.
+  **Label Notes** | Description of the label if it is affected by the pyritization. Is there any staining or burn marks on the label? If there are no visible affects on the label, leave this cell blank.
   **Tray Type** | Was the tray that the specimen was housed in "wood" or "metal"
   **Notes** | Use this cell to record any other comments on the specimen if necessary. For example, record if there are no labels or locality information associated with the specimen or if the specimen is so severely damaged that it is impossible to obtain any of the other information.
 
