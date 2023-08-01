@@ -31,10 +31,10 @@ This workflow details the steps for inventorying specimens that are experiencing
   **Taxonomy** | Taxonomic name of the specimen. If unavaible, add in the highest known classification of the specimen. Ex. "Ammonoidea" if the specimen is an ammonoid without proper identification. 
   **Lot Count** | The number of specimens in that specific lot.
   **Visual Notes** | Description of the specimen and pyrite decay.
-  Things to consider:
-  Is efflorescence present and if so, what color is it? Ex: "coating of white efflorescence," "patches of yellow efflorescence"
-  Are there expansion cracks and if so, how severe? Ex. "small expansion cracks," "severe expansion cracks"
-  Is any part of the specimen crumbling? Ex. "Minimal crumbling," "extreme crumbling of the entire specimen," "complete pile of ash"
+                   | Things to consider:
+                   | Is efflorescence present and if so, what color is it? Ex: "coating of white efflorescence," "patches of yellow efflorescence"
+                    | Are there expansion cracks and if so, how severe? Ex. "small expansion cracks," "severe expansion cracks"
+                   | Is any part of the specimen crumbling? Ex. "Minimal crumbling," "extreme crumbling of the entire specimen," "complete pile of ash"
   **Specimen Tray Notes** | Description of the tray if it is affected by the pyritization. Is there any staining on the tray? Is the tray ripping or broken due to the decay? If there are no visible effects on the tray, leave this cell blank.
   **Label Notes** | Description of the label if it is affected by the pyritization. Is there any staining or burn marks on the label? If there are no visible affects on the label, leave this cell blank.
   **Tray Type** | Was the tray that the specimen was housed in "wood" or "metal"
