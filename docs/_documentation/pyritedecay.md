@@ -19,7 +19,7 @@ This workflow details the steps for inventorying specimens that are experiencing
 
 ## Inventorying
 - Systematically inventory the target cabinets. We pulled all of the pyritized specimens from the Jurassic. Examine each specimen in the cabinet for signs of pyrite decay.
-- Before pulling any pyritized material be sure to complete "Specimen Removed" tags for each one and add their corresponding data to a specialized Pyrite Decay inventory spreadsheet. The spreadsheet should have columns in which you should record each of the following:
+- Before pulling any pyritized material be sure to complete "Specimen Removed" tags for each one and add their corresponding data to a specialized Pyrite Decay inventory spreadsheet. An example of the spreadsheet formatting can be seen [here]({{ site.baseur1 }}/assets/images/pyritedecay_spreadsheet.jpg). The spreadsheet should have columns in which you should record each of the following:
 
    *Column* | *Information*
    --- | ---
