@@ -18,9 +18,8 @@ This workflow will introduce you to the basic steps required to image fossils us
 <img src="{{ site.baseurl }}/assets/images/imaging_hardware2.jpg" alt="" width="600"/>{: .align-center}
 
 3) Mount the camera carefully to the imaging station by aligning the screw and the hole on the bottom of the camera. Hold the camera firmly by the body while attaching and when moving the arm of the imaging station up and down.
-<img src="{{ site.baseurl }}/assets/images/imaging_hardware3.1.jpg" alt="" width="300"/>{: .align-left}
-<img src="{{ site.baseurl }}/assets/images/imaging_hardware3.2.jpg" alt="" width="300"/>{: .align-right}
-
+<img src="{{ site.baseurl }}/assets/images/imaging_hardware3.1.jpg" alt="" width="500"/>{: .align-center}
+<img src="{{ site.baseurl }}/assets/images/imaging_hardware3.2.jpg" alt="" width="500"/>{: .align-center}
 
 4) Attach the orange cable to the usb port on the side of the camera and to the usb port on the back of the MAC desktop (at the collections center) or on the PC tower (at the type collection)
 
