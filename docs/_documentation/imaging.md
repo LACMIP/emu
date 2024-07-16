@@ -13,15 +13,20 @@ This workflow will introduce you to the basic steps required to image fossils us
 
 ## Hardware
 1) Uncover the camera station if needed.
+
 2) Insert the battery into the bottom of the camera and position the wire into the channel before closing the flap. Plug the battery pack into an outlet.
+
 3) Mount the camera carefully to the imaging station by aligning the screw and the hole on the bottom of the camera. Hold the camera firmly by the body while attaching and when moving the arm of the imaging station up and down.
+
 4) Attach the orange cable to the usb port on the side of the camera and to the usb port on the back of the MAC desktop (at the collections center) or on the PC tower (at the type collection)
 
-⚠️If at this stage the screen on top of the camera is displaying "Err", you will have to reset the camera. To do this, hold down the two buttons with the green dots next to them. Once the camera has reset, try taking a picture wile the camera is not connected to the computer. Then, plug the usb cable back in.
+⚠:warning:If at this stage the screen on top of the camera is displaying "Err", you will have to reset the camera. To do this, hold down the two buttons with the green dots next to them. Once the camera has reset, try taking a picture wile the camera is not connected to the computer. Then, plug the usb cable back in.
 {: .notice--warning}
 
 5) Carefully remove the lens cap on the camera and make sure the lens is set to Automatic (A) while the main body is set to Manual (M). Then, turn the camera on.
+
 6) Turn on the lights by either pressing the switch at the bottom of the imaging station (at the collections center) or by pressing each individual lamp switch for the four lights (at the type collection)
+
 7) Place your desired substrate for imaging under the camera (sand or black beans) and position a piece of black velvet over the substrate so that no edges can be seen. 
 ## Software
 On the Mac desktop, initiate: 1) *Camera Control Pro 2* with LiveView ("LV") enabled and 2) open the _Pictures_ folder (_Macintosh HD > Users > lacmipvolunteers > Pictures_). Make sure “Manual” is selected within the camera settings in LiveView. A high f stop is preferable and shutter speed varies depending on the desired light level. Moving the slider to the left will make your picture darker and to the right will make it lighter.
@@ -60,8 +65,11 @@ Once your files have successfully copied to Google Drive (save the last 10 mins 
 ## Shut Down 
 When your imaging shift is complete, 
 1) replace the lens cap and dust cover on the camera and turn off the lights. You may have to change the “automatic” setting on the camera lens to “manual” to put the lens cap back on safely.
+
 2) Remove the orange cord from the camera and remove the camera from the imaging station.
+
 3) Unplug the battery pack and remove it from the base of the camera before packing up everything in the camera bag once more.
+
 4) If any sand or black beans have spilled onto the workspace, please collect as much as you can and return it to its proper container. Because this is a shared workstation, please keep it tidy!
 
 :warning: **Handle all imaging equipment with care.** The cameras and lenses are difficult to clean and costly to replace. Never remove the lenses from the cameras or touch the glass on either lens.
