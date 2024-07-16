@@ -18,21 +18,27 @@ This workflow will introduce you to the basic steps required to image fossils us
 <img src="{{ site.baseurl }}/assets/images/imaging_hardware2.jpg" alt="" width="600"/>{: .align-center}
 
 3) Mount the camera carefully to the imaging station by aligning the screw and the hole on the bottom of the camera. Hold the camera firmly by the body while attaching and when moving the arm of the imaging station up and down.
-<img src="{{ site.baseurl }}/assets/images/imaging_hardware3.1.jpg" alt="" width="500"/>{: .align-center}
-<img src="{{ site.baseurl }}/assets/images/imaging_hardware3.2.jpg" alt="" width="500"/>{: .align-center}
+<img src="{{ site.baseurl }}/assets/images/imaging_hardware3.1.jpg" alt="" width="600"/>{: .align-center}
+<img src="{{ site.baseurl }}/assets/images/imaging_hardware3.2.jpg" alt="" width="600"/>{: .align-center}
 
 4) Attach the orange cable to the usb port on the side of the camera and to the usb port on the back of the MAC desktop (at the collections center) or on the PC tower (at the type collection)
+<img src="{{ site.baseurl }}/assets/images/imaging_hardware4.1.jpg" alt="" width="600"/>{: .align-center}
+<img src="{{ site.baseurl }}/assets/images/imaging_hardware4.2.jpg" alt="" width="600"/>{: .align-center}
 
 :warning:If at this stage the screen on top of the camera is displaying "Err", you will have to reset the camera. To do this, hold down the two buttons with the green dots next to them. Once the camera has reset, try taking a picture wile the camera is not connected to the computer. Then, plug the usb cable back in.
 {: .notice--warning}
 
 5) Carefully remove the lens cap on the camera and make sure the lens is set to Automatic (A) while the main body is set to Manual (M). Then, turn the camera on.
+<img src="{{ site.baseurl }}/assets/images/imaging_hardware5.1.jpg" alt="" width="600"/>{: .align-center}
+<img src="{{ site.baseurl }}/assets/images/imaging_hardware5.2.jpg" alt="" width="600"/>{: .align-center}
 
 6) Turn on the lights by either pressing the switch at the bottom of the imaging station (at the collections center) or by pressing each individual lamp switch for the four lights (at the type collection)
 
-7) Place your desired substrate for imaging under the camera (sand or black beans) and position a piece of black velvet over the substrate so that no edges can be seen. 
+7) Place your desired substrate for imaging under the camera (sand or black beans) and position a piece of black velvet over the substrate so that no edges can be seen.
+<img src="{{ site.baseurl }}/assets/images/imaging_hardware7.jpg" alt="" width="600"/>{: .align-center}
 ## Software
 On the Mac desktop, initiate: 1) *Camera Control Pro 2* with LiveView ("LV") enabled and 2) open the _Pictures_ folder (_Macintosh HD > Users > lacmipvolunteers > Pictures_). Make sure “Manual” is selected within the camera settings in LiveView. A high f stop is preferable and shutter speed varies depending on the desired light level. Moving the slider to the left will make your picture darker and to the right will make it lighter.
+<img src="{{ site.baseurl }}/assets/images/imaging_software.jpg" alt="" width="600"/>{: .align-center}
 ## Select
 LACMIP staff will assign you a set of specimens to image. If the specimens are presented to you in a tray or drawer, please do not rearrange the boxes as you work through them, **only work with one specimen lot at a time, and never disassociate specimens from their labels.** Immediately alert the Collections Manager if you think a specimen and its labels have become mismatched.
 ## Position
@@ -52,15 +58,18 @@ If you are imaging specimens in the **type collection,** you may have to take mo
 {: .notice--warning}
 
 ## Barcode
-Place the specimen label in the field of view such that the barcode is completely visible in the corner of the image. The barcode must not be visually obscured in any way. At this point, your desktop should look something like [this]({{ site.baseurl }}/assets/images/imaging_desktop.png).
+Place the specimen label in the field of view such that the barcode is completely visible in the corner of the image. The barcode must not be visually obscured in any way. At this point, your desktop should look something like this:
+<img src="{{ site.baseurl }}/assets/images/imaging_barcode.png" alt="" width="600"/>{: .align-center}
 ## Capture
 In the LiveView window, click on the barcode. A box will appear over it. Select "AF and Shoot". If the image is not captured, you may need to select a different focal point with the mouse.
 ## QC
 The new image will appear in the _Pictures_ folder. Quickly quality control (QC) the image to ensure both the barcode and specimen are in focus. (If they are not, click on another focal point in the Camera Control Pro window and capture another photo until everything is in focus.) If you are still having trouble, just know that it is much more important that the specimen is in focus than the barcode but try your best to have both in focus. Please immediately delete images that are not in focus. **If the barcode is not in focus, the image will not be renamed properly.**
 ## Repeat
-Repeat the steps above until all necessary views are captured for the specimen. Typically 1-2 views are captured for bivalves (interior & exterior) & 2-3 views for gastropods (apertural & abapterural, plus an umbilical view for Trochoidea & Patellogastropoda). If a lot contains multiple specimens, and overall ("habitus") image showing all specimens may be required. If there is a pink tag in the box, remove it before moving onto the next specimen lot.
+Repeat the steps above until all necessary views are captured for the specimen. Typically 1-2 views are captured for bivalves (interior & exterior) & 2-3 views for gastropods (apertural & abapterural, plus an umbilical view for Trochoidea & Patellogastropoda). If a lot contains multiple specimens, an overall ("habitus") image showing all specimens may be required, example shown below. If there is a pink tag in the box, remove it before moving onto the next specimen lot.
+<img src="{{ site.baseurl }}/assets/images/imaging_repeat.JPG" alt="" width="600"/>{: .align-center}
 ## Labels 
 If you have been instructed to image the accompanying labels, include the "labels" barcode on the image template. If labels have text on two sides, photograph both sides. If there are too many labels to fit into the field of view, please take multiple images until all labels are captures. 
+<img src="{{ site.baseurl }}/assets/images/imaging_labels.png" alt="" width="600"/>{: .align-center}
 ## Save
 At the end of your imaging session in the type collection, all files need to be saved to _Google Drive > LACMIP Imaging_ in the appropriate folder directory. If you are imaging specimens with barcoded labels for a specific project, select all new images in _Pictures_ and drag them into the appropriate "To Process" folder in _LACMIP Imaging_. Please reference the  will be [automatically renamed and moved overnight]({{ site.baseurl }}/documetation/imaging/#file-names). 
 ## Delete 
