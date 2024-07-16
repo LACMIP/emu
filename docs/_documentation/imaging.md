@@ -16,8 +16,10 @@ This workflow will introduce you to the basic steps required to image fossils us
 2) Insert the battery into the bottom of the camera and position the wire into the channel before closing the flap. Plug the battery pack into an outlet.
 3) Mount the camera carefully to the imaging station by aligning the screw and the hole on the bottom of the camera. Hold the camera firmly by the body while attaching and when moving the arm of the imaging station up and down.
 4) Attach the orange cable to the usb port on the side of the camera and to the usb port on the back of the MAC desktop (at the collections center) or on the PC tower (at the type collection)
-> [!IMPORTANT]
-> If at this stage the screen on top of the camera is displaying "Err", you will have to reset the camera. To do this, hold down the two buttons with the green dots next to them. Once the camera has reset, try taking a picture wile the camera is not connected to the computer. Then, plug the usb cable back in.
+
+⚠️If at this stage the screen on top of the camera is displaying "Err", you will have to reset the camera. To do this, hold down the two buttons with the green dots next to them. Once the camera has reset, try taking a picture wile the camera is not connected to the computer. Then, plug the usb cable back in.
+{: .notice--warning}
+
 5) Carefully remove the lens cap on the camera and make sure the lens is set to Automatic (A) while the main body is set to Manual (M). Then, turn the camera on.
 6) Turn on the lights by either pressing the switch at the bottom of the imaging station (at the collections center) or by pressing each individual lamp switch for the four lights (at the type collection)
 7) Place your desired substrate for imaging under the camera (sand or black beans) and position a piece of black velvet over the substrate so that no edges can be seen. 
@@ -38,8 +40,9 @@ When imaging specimens at the **collections center,** you usually will only need
 
 If you are imaging specimens in the **type collection,** you may have to take more pictures than you would at the collections center. In addition, you will have to take pictures of the historic labels placed inside of the specimen’s container. Talk to the Collections Manager about the specifics of the organism you are imaging. 
 
-> [!TIP]
-If you are unsure of how to image a particular type specimen, you may be able to locate where it was originally photographed for a publication and use that image as a reference. 
+ℹ️ If you are unsure of how to image a particular type specimen, you may be able to locate where it was originally photographed for a publication and use that image as a reference.
+{: .notice--warning}
+
 ## Barcode
 Place the specimen label in the field of view such that the barcode is completely visible in the corner of the image. The barcode must not be visually obscured in any way. At this point, your desktop should look something like [this]({{ site.baseurl }}/assets/images/imaging_desktop.png).
 ## Capture
