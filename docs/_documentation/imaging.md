@@ -20,7 +20,7 @@ This workflow will introduce you to the basic steps required to image fossils us
 
 4) Attach the orange cable to the usb port on the side of the camera and to the usb port on the back of the MAC desktop (at the collections center) or on the PC tower (at the type collection)
 
-⚠:warning:If at this stage the screen on top of the camera is displaying "Err", you will have to reset the camera. To do this, hold down the two buttons with the green dots next to them. Once the camera has reset, try taking a picture wile the camera is not connected to the computer. Then, plug the usb cable back in.
+:warning:If at this stage the screen on top of the camera is displaying "Err", you will have to reset the camera. To do this, hold down the two buttons with the green dots next to them. Once the camera has reset, try taking a picture wile the camera is not connected to the computer. Then, plug the usb cable back in.
 {: .notice--warning}
 
 5) Carefully remove the lens cap on the camera and make sure the lens is set to Automatic (A) while the main body is set to Manual (M). Then, turn the camera on.
