@@ -17,9 +17,10 @@ This workflow will introduce you to the basic steps required to image fossils us
 2) Insert the battery into the bottom of the camera and position the wire into the channel before closing the flap. Plug the battery pack into an outlet.
 <img src="{{ site.baseurl }}/assets/images/imaging_hardware2.jpg" alt="" width="600"/>{: .align-center}
 
-4) Mount the camera carefully to the imaging station by aligning the screw and the hole on the bottom of the camera. Hold the camera firmly by the body while attaching and when moving the arm of the imaging station up and down.
+3) Mount the camera carefully to the imaging station by aligning the screw and the hole on the bottom of the camera. Hold the camera firmly by the body while attaching and when moving the arm of the imaging station up and down.
+<img src="{{ site.baseurl }}/assets/images/imaging_hardware3.1.jpg" alt="" width="300"/>{: .align-left} <img src="{{ site.baseurl }}/assets/images/imaging_hardware3.2.jpg" alt="" width="300"/>{: .align-right}
 
-5) Attach the orange cable to the usb port on the side of the camera and to the usb port on the back of the MAC desktop (at the collections center) or on the PC tower (at the type collection)
+4) Attach the orange cable to the usb port on the side of the camera and to the usb port on the back of the MAC desktop (at the collections center) or on the PC tower (at the type collection)
 
 :warning:If at this stage the screen on top of the camera is displaying "Err", you will have to reset the camera. To do this, hold down the two buttons with the green dots next to them. Once the camera has reset, try taking a picture wile the camera is not connected to the computer. Then, plug the usb cable back in.
 {: .notice--warning}
