@@ -5,7 +5,7 @@ tags:
 toc_sticky: true
 last_modified_at: 2025-10-09
 ---
-This inventory workflow was developed to digitally inventory collections with a 256 GB iPad Mini 6 using the app "SpecimenPro" developed by Mineral Sciences Curator Aaron Celestian. Discover the readme file [readme file](https://github.com/aaroncelestian/StromCollect/blob/main/StromCollect/README.md) to see what the app does and how it works: 
+This inventory workflow was developed to digitally inventory collections with a 256 GB iPad Mini 6 using the app "SpecimenPro" developed by Mineral Sciences Curator Aaron Celestian. Discover the [readme file](https://github.com/aaroncelestian/StromCollect/blob/main/StromCollect/README.md) to see what the app does and how it works: 
 
 # SpecimenPro* Workflow
 
@@ -31,3 +31,6 @@ This inventory workflow was developed to digitally inventory collections with a 
 
  *Step* | *Under Photos...*
    8 | Tap "Add Photo" then "Take Photo". This is the opportunity to take a top-down photo fo the entire drawer, a photo of the specimen with its tag (object), and an up close image of the specime "detail". If there is an associated entry in a field notebook and/or a specimen label, use the document option to scan the text.
+
+ *Step* | *Under Specimen Data...*
+   9 | Add the year collected. Typically, that is reflected in the specimen id written on the specimen. 
