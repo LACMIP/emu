@@ -1,0 +1,19 @@
+---
+title: Inventorying (SpecimenPro)
+navcat: Workflow
+tags:
+toc_sticky: true
+last_modified_at: 2025-10-09
+---
+This inventory workflow was developed to digitally inventory collections with a 256 GB iPad Mini 6 using the app "SpecimenPro" developed by Mineral Sciences Curator Aaron Celestian. Here is a link to the readme file to see what the app does and how it works: https://github.com/aaroncelestian/StromCollect/blob/main/StromCollect/README.md
+### ***SpecimenPro* Workflow...**
+
+{% include figure image_path="/assets/images/cataloging_example1_2020.jpg" alt="image of example catalogue record with ID tag" caption="**Figure illustrating how the paper ID tag corresponds to various fields on the *Invert. Paleo.* tab of the Catalogue module.** Right-click the image above to enlarge it in a separate tab or window." %}
+
+ *Step* | *On the Ipad...*
+   --- | ---
+   1 | Unlock the iPad with the code "123456"
+   2 | Open the SpecimenPro app on the Ipad's home screen.
+   3 | In the top right hand corner of the app, click the plus symbol. Make sure the window pop-up has the Museum/Lab Collection banner highlighted and fill in the collection details including, name of the collection, date, and the name of the collector.
+**A collection should only be created on Day 1 of the project. All subsequent specimens from the same collection should be added into the preexisting collection.**
+{: .notice--warning}
