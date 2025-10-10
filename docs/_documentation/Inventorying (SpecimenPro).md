@@ -82,9 +82,9 @@ If you have any questions, contact your supervisor.
   *Step* | In SpecimenPro
   --- | ---
   1 | In the home page for the app, swipe the Collection to the right to find the blue export button. <img src="{{ site.baseurl }}/assets/images/inventorying_export.png" alt="" width="350"/>{: .align-center}
-  2 | Save to Files. <img src="{{ site.baseurl }}/assets/images/inventorying_exportsave" alt="" width="350"/>{: .align-center}
+  2 | Save to Files. <img src="{{ site.baseurl }}/assets/images/inventorying_exportsave.png" alt="" width="350"/>{: .align-center}
 
-  **Plug the iPad into the charger after every session.**
+  **Plug the iPad into the charger so that it can charge after every session.**
 {: .notice--warning}
 
   
