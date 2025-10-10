@@ -56,4 +56,4 @@ All fields are optional, but it's best to provide as much information as possibl
   16 | Using the drop-down menu, select the morphology that best describes the specimen. If you cannot find the appropriate morphology, use the "Add New.." to create a new option for the morphology drop down menu.
   17 | Using the drop-down menu, select the nature of sample that best describes the specimen (ie slab, hand sample, thin section). If you cannot find the appropriate morphology, use the "Add New.." to create a new option for the nature of sample drop down menu.
   18 | Using the drop-down menu, select the mineralogy that best describes the specimen.
-  19 | Notes is a free text field. Add any pertinent information that does not fit in the othe fields.
+  19 | Notes is a free text field. Add any pertinent information that does not fit in the other fields.
