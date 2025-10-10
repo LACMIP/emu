@@ -65,7 +65,7 @@ All fields are optional, but it's best to provide as much information as possibl
   
   To customize the size and to print QR codes for multiple specimens, follow the below steps. 
 
- *Step* | Under *Specimen Data...*
+ *Step* | In Collection Portal
   --- | ---
   1 | In the landing page of the collection, click the circled check mark and then select each entry to print out their QR codes.
   2 | Then, click the circled three dots in the top right-hand corner and select "Print QR Codes." There are four QR size options to choose from: 5mm x 5mm (Specimen Label); 1 inch x 1 inch (Box Label); 2 inch x 2 inch (Standard) and 3 inch x 3 inch (Large). Lastly, click Generate PDF in the right-hand corner of the po-up.
