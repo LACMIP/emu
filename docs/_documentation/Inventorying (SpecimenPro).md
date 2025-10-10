@@ -17,7 +17,8 @@ All fields are optional, but it's best to provide as much information as possibl
    2 | Open the SpecimenPro app on the Ipad's home screen.
    3 | In the top right hand corner of the app, click the plus symbol. Make sure the window pop-up has the Museum/Lab Collection banner highlighted and fill in the collection details including, name of the collection, date, and the name of the collector.
 
-⚠️ **A collection should be created only on Day 1 of the project. All subsequent specimens belonging to the same collection must be added to the existing collection database.**
+⚠️ **A collection should be created only on Day 1 of the project. ⚠️
+All subsequent specimens belonging to the same collection must be added to the existing collection database.** 
 {: .notice--warning}
 
    4 | In the Collections portal, click the plus symbol to add a new specimen to the collection.
