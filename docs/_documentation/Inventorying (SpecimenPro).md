@@ -14,7 +14,7 @@ All fields are optional, but it's best to provide as much information as possibl
  *Step* | On the iPad...
  --- | ---
    1 | Unlock the iPad with the code "123456"
-   2 | <img src="{{ site.baseurl }}/assets/images/inventorying_specimen pro app.png" alt="" width="450"/>{: .align-center}||----------|Open the SpecimenPro app on the home screen.
+   2 | <img src="{{ site.baseurl }}/assets/images/inventorying_specimen pro app.png" alt="" width="450"/>{: .align-center}|Open the SpecimenPro app on the home screen.
    3 | <img src="{{ site.baseurl }}/assets/images/inventorying_creating a collection.png" alt="" width="500"/>{: .align-center}In the top right hand corner of the app, click the plus symbol.
    4 | <img src="{{ site.baseurl }}/assets/images/inventorying_MuseumLab Collection.jpeg" alt="" width="350"/>{: .align-center}Make sure the window pop-up has the Museum/Lab Collection banner highlighted and fill in the collection details including, name of the collection, date, and the name of the collector.
 
