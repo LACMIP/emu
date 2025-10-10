@@ -75,7 +75,7 @@ If you have any questions, contact your supervisor.
  *Step* | In Collection Portal
   --- | ---
   1 |In the landing page of the collection, click the circled check mark and then select each entry to print out their QR codes. <img src="{{ site.baseurl }}/assets/images/inventorying_printQRcodescirclecheckmark.jpg" alt="" width="350"/>{: .align-center}<img src="{{ site.baseurl }}/assets/images/inventorying_selectedspecimenrecord.jpg" alt="" width="350"/>{: .align-center}
-  2 | Then, click the circled three dots in the top right-hand corner and select "Print QR Codes." There are four QR size options to choose from: 5mm x 5mm (Specimen Label); 1 inch x 1 inch (Box Label); 2 inch x 2 inch (Standard) and 3 inch x 3 inch (Large). Lastly, click Generate PDF in the right-hand corner of the pop-up.<img src="{{ site.baseurl }}/assets/images/inventorying_printQRcodessizes.png" alt="" width="350"/>{: .align-center}
+  2 | Then, click the circled three dots in the top right-hand corner and select "Print QR Codes." There are four QR size options to choose from: 5mm x 5mm (Specimen Label); 1 inch x 1 inch (Box Label); 2 inch x 2 inch (Standard) and 3 inch x 3 inch (Large). Lastly, click Generate PDF in the right-hand corner of the pop-up.<img src="{{ site.baseurl }}/assets/images/inventorying_printQRcodessizes.PNG" alt="" width="350"/>{: .align-center}
   3 | Save the PDF to Files.<img src="{{ site.baseurl }}/assets/images/inventorying_savetofiles.png" alt="" width="350"/>{: .align-center}
   4 | Open the Files app on the home page to send the generated PDF wih the QR codes to a printer. 
 
