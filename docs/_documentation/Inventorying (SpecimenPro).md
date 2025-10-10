@@ -61,15 +61,25 @@ All fields are optional, but it's best to provide as much information as possibl
 # Printing QR Codes
   
   Each specimen entry receives a system generated QR code. Individual QR codes can be viewed and printed within the specimen record however the default size of the QR code will take up the full page.
-  <img src="{{ site.baseurl }}/assets/images/inventorying_specimenrecordQRcode.png" alt="" width="400"/>{: .align-center}
+  
+  <img src="{{ site.baseurl }}/assets/images/inventorying_specimenrecordQRcode.png" alt="" width="350"/>{: .align-center}
   
   To customize the size and to print QR codes for multiple specimens, follow the below steps. 
 
  *Step* | In Collection Portal
   --- | ---
-  1 | In the landing page of the collection, click the circled check mark and then select each entry to print out their QR codes.
-  2 | Then, click the circled three dots in the top right-hand corner and select "Print QR Codes." There are four QR size options to choose from: 5mm x 5mm (Specimen Label); 1 inch x 1 inch (Box Label); 2 inch x 2 inch (Standard) and 3 inch x 3 inch (Large). Lastly, click Generate PDF in the right-hand corner of the po-up.
-  3 | Save the PDF to Files. Open the Files app on the home page to send the generated PDF wih the QR codes to a printer. 
+  1 |In the landing page of the collection, click the circled check mark and then select each entry to print out their QR codes. <img src="{{ site.baseurl }}/assets/images/inventorying_printQRcodescirclecheckmark.jpg" alt="" width="350"/>{: .align-center} <img src="{{ site.baseurl }}/assets/images/inventorying_selectedspecimenrecord.jpg" alt="" width="350"/>{: .align-center}
+  2 | Then, click the circled three dots in the top right-hand corner and select "Print QR Codes." There are four QR size options to choose from: 5mm x 5mm (Specimen Label); 1 inch x 1 inch (Box Label); 2 inch x 2 inch (Standard) and 3 inch x 3 inch (Large). Lastly, click Generate PDF in the right-hand corner of the pop-up. <img src="{{ site.baseurl }}/assets/images/inventorying_printQRcodessizes.png" alt="" width="350"/>{: .align-center}
+  3 | Save the PDF to Files. <img src="{{ site.baseurl }}/assets/images/inventorying_savetofiles.png" alt="" width="350"/>{: .align-center}
+  4 | Open the Files app on the home page to send the generated PDF wih the QR codes to a printer. 
+
+  # Exporting the Database
+
+  At the end of each week, make sure to export the database to the device so that a copy is saved in the Files app. 
+
+  *Step* | In SpecimenPro
+  --- | ---
+  1 | In the home page for the app, swipe the Collection banner to the right to see the  
 
   
   
