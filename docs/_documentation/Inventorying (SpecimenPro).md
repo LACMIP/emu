@@ -75,7 +75,7 @@ If you have any questions, contact your supervisor.
   3 | Save the PDF to Files.<img src="{{ site.baseurl }}/assets/images/inventorying_savetofiles.png" alt="" width="350"/>{: .align-center}
   4 | Open the Files app on the home page to send the generated PDF wih the QR codes to a printer. 
 
-  # Exporting the Database
+# Exporting the Database
 
   At the end of each week, make sure to export the database to the device so that a copy is saved in the Files app. 
 
