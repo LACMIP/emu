@@ -62,7 +62,7 @@ If you have any questions, contact your supervisor.
 
  *Step* | Under *Voice Notes...*
   --- | ---
-  20 | Record any relevant voice notes from the collector.  <img src="{{ site.baseurl }}/assets/images/inventorying_voicenotes.PNG" alt="" width="400"/>{: .align-center}
+  20 | Record any relevant voice notes from the collector.  <img src="{{ site.baseurl }}/assets/images/inventorying_voicenotes.png" alt="" width="400"/>{: .align-center}
 
   
 # Printing QR Codes
