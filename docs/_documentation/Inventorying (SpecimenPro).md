@@ -59,9 +59,17 @@ All fields are optional, but it's best to provide as much information as possibl
   19 | Notes is a free text field. Add any pertinent information that does not fit in the other fields.
 
   # Printing QR Codes
-  Each specimen entry receives a system generated QR code. Follow these steps to print out QR codes for each specimen. 
+  
+  Each specimen entry receives a system generated QR code. Individual QR codes can be viewed and printed within the specimen record however the default size of the QR code will take up the full page.
+  <img src="{{ site.baseurl }}/assets/images/inventorying_specimenrecordQRcode.png" alt="" width="400"/>{: .align-center}
+  
+  To customize the size and to print QR codes for multiple specimens, follow the below steps. 
 
-  In the landing page of the collection, click the circled check mark and then select each entry to print out their QR codes. Then, click the circled three dots in the top right-hand corner and select "Print QR Codes." There are four QR size options to choose from: 5mm x 5mm (Specimen Label); 1 inch x 1 inch (Box Label); 2 inch x 2 inch (Standard) and 3 inch x 3 inch (Large). Lastly, click Generate PDF in the right-hand corner of the po-up. Save the PDF to Files. Open the Files app on the home page to send the generated pDF wih the QR codes to a printer. 
+ *Step* | Under *Specimen Data...*
+  --- | ---
+  1 | In the landing page of the collection, click the circled check mark and then select each entry to print out their QR codes.
+  2 | Then, click the circled three dots in the top right-hand corner and select "Print QR Codes." There are four QR size options to choose from: 5mm x 5mm (Specimen Label); 1 inch x 1 inch (Box Label); 2 inch x 2 inch (Standard) and 3 inch x 3 inch (Large). Lastly, click Generate PDF in the right-hand corner of the po-up.
+  3 | Save the PDF to Files. Open the Files app on the home page to send the generated PDF wih the QR codes to a printer. 
 
   
   
