@@ -60,8 +60,9 @@ If you have any questions, contact your supervisor.
   18 | Using the drop-down menu, select the mineralogy that best describes the specimen.
   19 | Notes is a free text field. Add any pertinent information that does not fit in the other fields.
 
-*Step* | Under *Voice Notes...*
-  20 | Record any relevant voice notes from the collector. 
+ *Step* | Under *Voice Notes...*
+  --- | ---
+  20 | Record any relevant voice notes from the collector.  <img src="{{ site.baseurl }}/assets/images/inventorying_voicenotes.PNG" alt="" width="400"/>{: .align-center}
 
   
 # Printing QR Codes
