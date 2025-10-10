@@ -58,7 +58,7 @@ All fields are optional, but it's best to provide as much information as possibl
   18 | Using the drop-down menu, select the mineralogy that best describes the specimen.
   19 | Notes is a free text field. Add any pertinent information that does not fit in the other fields.
 
-  # Printing QR Codes
+# Printing QR Codes
   
   Each specimen entry receives a system generated QR code. Individual QR codes can be viewed and printed within the specimen record however the default size of the QR code will take up the full page.
   <img src="{{ site.baseurl }}/assets/images/inventorying_specimenrecordQRcode.png" alt="" width="400"/>{: .align-center}
