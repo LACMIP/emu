@@ -7,7 +7,9 @@ last_modified_at: 2025-10-09
 ---
 This inventory workflow was developed to digitally inventory collections with a 256 GB iPad Mini 6 using the app "SpecimenPro" developed by Mineral Sciences Curator Aaron Celestian. Discover the [readme file](https://github.com/aaroncelestian/StromCollect/blob/main/StromCollect/README.md) to see what the app does and how it works. 
 
-All fields are optional, but it's best to provide as much information as possible for each specimen at the time of initial entry. Be consistent in how you enter data—for example, if you use the abbreviation “AZ” for Arizona, continue using that format throughout. If you have any questions, contact your supervisor.
+All fields are optional, but it's best to provide as much information as possible for each specimen at the time of initial entry. Be consistent in how you enter data. For example, if you use the abbreviation “AZ” for Arizona, continue using that format throughout. 
+
+If you have any questions, contact your supervisor.
 
 # SpecimenPro Workflow
 
