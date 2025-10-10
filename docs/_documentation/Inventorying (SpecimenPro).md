@@ -57,3 +57,11 @@ All fields are optional, but it's best to provide as much information as possibl
   17 | Using the drop-down menu, select the nature of sample that best describes the specimen (ie slab, hand sample, thin section). If you cannot find the appropriate morphology, use the "Add New.." to create a new option for the nature of sample drop down menu.
   18 | Using the drop-down menu, select the mineralogy that best describes the specimen.
   19 | Notes is a free text field. Add any pertinent information that does not fit in the other fields.
+
+  # Printing QR Codes
+  Each specimen entry receives a system generated QR code. Follow these steps to print out QR codes for each specimen. 
+
+  In the landing page of the collection, click the circled check mark and then select each entry to print out their QR codes. Then, click the circled three dots in the top right-hand corner and select "Print QR Codes." There are four QR size options to choose from: 5mm x 5mm (Specimen Label); 1 inch x 1 inch (Box Label); 2 inch x 2 inch (Standard) and 3 inch x 3 inch (Large). Lastly, click Generate PDF in the right-hand corner of the po-up. Save the PDF to Files. Open the Files app on the home page to send the generated pDF wih the QR codes to a printer. 
+
+  
+  
