@@ -21,7 +21,7 @@ All fields are optional, but it's best to provide as much information as possibl
 ⚠️ **A collection should be created only on Day 1 of the project.** All subsequent specimens belonging to the same collection must be added to the existing collection database.
 {: .notice--warning}
 
-   5 | In the Collections portal, click the plus symbol to add a new specimen to the collection.
+   5 | <img src="{{ site.baseurl }}/assets/images/inventorying_creating an object.png" alt="" width="350"/>{: .align-center}In the Collections portal, click the plus symbol to add a new specimen to the collection.
    
 
  *Step* | Under *Basic Information...*
