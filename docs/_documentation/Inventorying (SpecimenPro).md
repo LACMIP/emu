@@ -43,7 +43,7 @@ If you have any questions, contact your supervisor.
 
  *Step* | Under *Photos...*
  --- | ---
-   9 | Tap "Add Photo" then "Take Photo". This is the opportunity to take a top-down photo fo the entire drawer, a photo of the specimen with its tag (object), and an up close image of the specime "detail". If there is an associated entry in a field notebook and/or a specimen label, use the document option to scan the text.
+   9 | Tap "Add Photo" then "Take Photo". This is the opportunity to take a top-down photo of the entire drawer, a photo of the specimen with its tag (object), and an up close image of the specimen "detail". If there is an associated entry in a field notebook and/or a specimen label, use the document option to scan the text.
 
  <img src="{{ site.baseurl }}/assets/images/inventorying_specimendata.jpg" alt="" width="400"/>{: .align-center}
 
@@ -62,7 +62,7 @@ If you have any questions, contact your supervisor.
 
  *Step* | Under *Voice Notes...*
   --- | ---
-  20 | Record any relevant voice notes from the collector.  <img src="{{ site.baseurl }}/assets/images/inventorying_voicenotes.png" alt="" width="400"/>{: .align-center}
+  20 | <img src="{{ site.baseurl }}/assets/images/inventorying_voicenotes.png" alt="" width="400"/>{: .align-center} Record any relevant voice notes from the collector.  
 
   
 # Printing QR Codes
