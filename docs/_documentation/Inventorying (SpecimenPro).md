@@ -3,7 +3,7 @@ title: Inventorying (SpecimenPro)
 navcat: Workflows
 tags:
 toc_sticky: true
-last_modified_at: 2025-10-09
+last_modified_at: 2025-10-14
 ---
 This inventory workflow was developed to digitally inventory collections with a 256 GB iPad Mini 6 using the app "SpecimenPro" developed by Mineral Sciences Curator Aaron Celestian. Discover the [readme file](https://github.com/aaroncelestian/StromCollect/blob/main/StromCollect/README.md) to see what the app does and how it works. 
 
@@ -75,9 +75,9 @@ If you have any questions, contact your supervisor.
 
  *Step* | In Collection Portal
   --- | ---
-  1 |In the landing page of the collection, click the circled check mark and then select each entry to print out their QR codes. <img src="{{ site.baseurl }}/assets/images/inventorying_printQRcodescirclecheckmark.jpg" alt="" width="350"/>{: .align-center}<img src="{{ site.baseurl }}/assets/images/inventorying_selectedspecimenrecord.jpg" alt="" width="350"/>{: .align-center}
-  2 | Then, click the circled three dots in the top right-hand corner and select "Print QR Codes." There are four QR size options to choose from: 5mm x 5mm (Specimen Label); 1 inch x 1 inch (Box Label); 2 inch x 2 inch (Standard) and 3 inch x 3 inch (Large). Lastly, click Generate PDF in the right-hand corner of the pop-up.<img src="{{ site.baseurl }}/assets/images/inventorying_printQRcodessizes.PNG" alt="" width="350"/>{: .align-center}
-  3 | Save the PDF to Files.<img src="{{ site.baseurl }}/assets/images/inventorying_savetofiles.PNG" alt="" width="350"/>{: .align-center}
+  1 |<img src="{{ site.baseurl }}/assets/images/inventorying_printQRcodescirclecheckmark.jpg" alt="" width="350"/>{: .align-center}<img src="{{ site.baseurl }}/assets/images/inventorying_selectedspecimenrecord.jpg" alt="" width="350"/>{: .align-center} In the landing page of the collection, click the circled check mark and then select each entry to print out their QR codes. Then, click the circled three dots in the top right-hand corner and select "Print QR Codes."  
+  2 |<img src="{{ site.baseurl }}/assets/images/inventorying_printQRcodessizes.PNG" alt="" width="350"/>{: .align-center} There are four QR size options to choose from: 5mm x 5mm (Specimen Label); 1 inch x 1 inch (Box Label); 2 inch x 2 inch (Standard) and 3 inch x 3 inch (Large). Select a size then click "Generate PDF" in the right-hand corner of the pop-up.
+  3 | <img src="{{ site.baseurl }}/assets/images/inventorying_savetofiles.PNG" alt="" width="350"/>{: .align-center} Save the PDF to Files.
   4 | Open the Files app on the home page to send the generated PDF with the QR codes to a printer. 
 
 # Exporting the Database
@@ -86,10 +86,10 @@ If you have any questions, contact your supervisor.
 
   *Step* | In SpecimenPro
   --- | ---
-  1 | In the home page for the app, swipe the Collection to the right to find the blue export button. <img src="{{ site.baseurl }}/assets/images/inventorying_export.PNG" alt="" width="350"/>{: .align-center}
-  2 | Save to Files. <img src="{{ site.baseurl }}/assets/images/inventorying_exportsave.PNG" alt="" width="350"/>{: .align-center}
+  1 | <img src="{{ site.baseurl }}/assets/images/inventorying_export.PNG" alt="" width="350"/>{: .align-center} In the home page for the app, swipe the Collection to the right to find the blue export button. 
+  2 | <img src="{{ site.baseurl }}/assets/images/inventorying_exportsave.PNG" alt="" width="350"/>{: .align-center} Save to Files. 
 
-  **Plug the iPad into the charger so that it can charge after every session.**
+  **Charge the iPad at the end of each session.**
 {: .notice--warning}
 
   
