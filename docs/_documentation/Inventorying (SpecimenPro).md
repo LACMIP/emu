@@ -67,7 +67,7 @@ If you have any questions, contact your supervisor.
   
 # Printing QR Codes
   
-  Each specimen entry receives a system generated QR code. Individual QR codes can be viewed and printed within the specimen record however the default size of the QR code will take up the full page.
+  Each specimen entry receives a system generated QR code. Individual QR codes can be viewed and printed within the specimen record however the default size of the QR code will take up the a full printer page.
   
   <img src="{{ site.baseurl }}/assets/images/inventorying_specimenrecordQRcode.png" alt="" width="350"/>{: .align-center}
   
