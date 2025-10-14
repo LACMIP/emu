@@ -39,7 +39,7 @@ If you have any questions, contact your supervisor.
  --- | ---
    8 | Tags are *optional*. If your supervisor indicates that the specimen is of "exhibit quality," type "display" and click the plus sign to add the tag.
 
- <img src="{{ site.baseurl }}/assets/images/inventorying_photos.jpg" alt="" width="400"/>{: .align-center}
+ <img src="{{ site.baseurl }}/assets/images/inventorying_photos.jpg" alt="" width="400"/>{: .align-center} <img src="{{ site.baseurl }}/assets/images/inventorying_takephoto.PNG" alt="" width="400"/>{: .align-center} <img src="{{ site.baseurl }}/assets/images/inventorying_photooptions.PNG" alt="" width="400"/>{: .align-center}
 
  *Step* | Under *Photos...*
  --- | ---
@@ -62,7 +62,7 @@ If you have any questions, contact your supervisor.
 
  *Step* | Under *Voice Notes...*
   --- | ---
-  20 | <img src="{{ site.baseurl }}/assets/images/inventorying_voicenotes.png" alt="" width="400"/>{: .align-center} Record any relevant voice notes from the collector.  
+  20 | <img src="{{ site.baseurl }}/assets/images/inventorying_voicenotes.png" alt="" width="350"/>{: .align-center} Record any relevant voice notes from the collector.  
 
   
 # Printing QR Codes
